@@ -1,0 +1,19 @@
+[project]
+name = "eia860m-slip"
+version = "0.2.0"
+description = "Score EIA-860M planned operating and retirement months as forecasts against what happened"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [{ name = "MV2 of Munim, Inc." }]
+dependencies = ["pandas>=1.5", "pyarrow>=10", "numpy>=1.23"]
+
+[project.urls]
+Repository = "https://github.com/munimtechnologies/eia860m-slip"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["eia860m_slip"]
