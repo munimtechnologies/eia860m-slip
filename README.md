@@ -2,9 +2,19 @@
 
 Do U.S. generators listed as planned in EIA-860M come online when planned? Do planned retirements happen when planned?
 
-`eia860m-slip` scores every planned operating month and every planned retirement month in the monthly Form EIA-860M as a forecast, against what later reports show happened. One Python file, standard tests, public data.
+`eia860m-slip` scores every planned operating month and every planned retirement month in the monthly Form EIA-860M as a forecast, against what later reports show happened. Plain Python, standard tests, public data.
 
-Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data files in `docs/`: CC BY 4.0.
+Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data files in `docs/` and `data/`: CC BY 4.0.
+
+## First result: EIA's headline plans against EIA's own actuals, 2020-2026 (0.2.1)
+
+[`docs/headline-plans.md`](docs/headline-plans.md) puts seven years of EIA's start-of-year "developers plan N GW" figures next to what EIA later reported as added, by technology. Every number is in [`data/eia_headline_plans.csv`](data/eia_headline_plans.csv) with its EIA page. `python headline.py` (standard library only) rebuilds the table.
+
+- Total additions came in at 74%, 80% and 84% of the start-of-year plan in 2023, 2024 and 2025. Solar ranged from about 48% (2022) to 87% (2021).
+- Wind beat its plan in 2020-2021 and has fallen short since (63% in 2024, under 77% in 2025). Batteries rose from 68% to 82% over 2023-2025.
+- Until 2022, the "last year" figures in EIA's January articles included additions still scheduled for November and December. 2021 solar went from 15.5 GW at first report to 13.4 GW later.
+- For 2025 solar, EIA's Short-Term Energy Outlook (26 GW) came closer to the 27.2 GW added than the developers' plan (32.5 GW).
+- A range for 2026, stated in advance: 64-72 GW added against 86 GW planned. It will be scored against EIA's figure around February 2027.
 
 ## What it does
 
@@ -36,22 +46,23 @@ The tool downloads it if `--data-dir` holds no parquet file.
 
 ```
 pip install pandas pyarrow
-python -m unittest -v test_eia860m_slip
+python -m unittest -v test_eia860m_slip test_headline
 python eia860m_slip.py --data-dir data --out-dir out
+python headline.py
 ```
 
 Outputs: `profile.json` (what the data looks like), `slip.json` and `slip.md` (planned operating months), `retire.json` and `retire.md` (planned retirement months), and the per-row cohort tables as gzipped CSV.
 
-The tests run on hand-built changelogs with known outcomes and need pandas; without it they are skipped.
+The tests for `eia860m_slip.py` run on hand-built changelogs with known outcomes and need pandas; without it they are skipped. `test_headline` needs only the standard library.
 
 ## Status
 
-0.2.0: code and tests. The first full run on the live PUDL table is queued; its tables will be added under `docs/` with a write-up when they are in. A sanity check planned for that run: the 2025 row of the retirement table should be near EIA's published figure of 12.3 GW planned for retirement in 2025.
+0.2.1: the headline comparison above. 0.2.0: generator-level code and tests. The first full run on the live PUDL table is queued, and its tables will be added under `docs/` when they are in. Two checks are planned for that run: the 2025 row of the retirement table should be near EIA's published 12.3 GW planned for retirement in 2025, and its annual additions table should sit close to the actual column of `docs/headline-plans.md`.
 
 ## Prior art
 
-EIA's Today in Energy has compared planned and actual additions for single years and single technologies. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, and no scoring of planned retirement months. If you know of one, open an issue.
+EIA's Today in Energy has compared planned and actual additions for single years and single technologies. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, no scoring of planned retirement months, and no compiled multi-year table of EIA's headline plans against its own later actuals. If you know of one, open an issue.
 
 ## Licence
 
-Code: Apache License 2.0 (see LICENSE). Result tables and data files under `docs/`: CC BY 4.0. PUDL data is CC BY 4.0 (Catalyst Cooperative); EIA data is public domain.
+Code: Apache License 2.0 (see LICENSE). Result tables and data files under `docs/` and `data/`: CC BY 4.0. PUDL data is CC BY 4.0 (Catalyst Cooperative); EIA data is public domain.

@@ -1,0 +1,65 @@
+year,tech,kind,gw,bound,published,source,basis
+2020,total,plan,42.0,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'42 gigawatts (GW) of new capacity additions' (Preliminary Monthly Electric Generator Inventory; month not named)
+2020,wind,plan,18.5,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'18.5 GW of wind capacity'
+2020,solar,plan,13.5,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'13.5 GW of solar capacity'
+2020,gas,plan,9.3,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,planned natural gas additions 9.3 GW (6.7 combined cycle + 2.3 combustion turbine)
+2020,solar,actual_first,11.7,~,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'nearly 12 GW': 6.0 GW reported through October plus 5.7 GW scheduled for November-December
+2020,wind,actual_first,20.9,~,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'21 GW': 6.0 GW reported through October plus 14.9 GW planned for November-December
+2020,wind,actual_later,14.0,>,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'record additions of more than 14 GW in both 2020 and 2021'
+2021,total,plan,39.7,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'39.7 gigawatts (GW)' (inventory of October 2020; net summer capacity)
+2021,solar,plan,15.4,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'adding 15.4 GW of capacity to the grid in 2021'
+2021,wind,plan,12.2,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'Another 12.2 GW of wind capacity is scheduled'
+2021,gas,plan,6.6,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'planned natural gas capacity additions are reported at 6.6 GW'
+2021,battery,plan,4.3,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'4.3 GW of battery power capacity additions'
+2021,solar,actual_first,15.5,~,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'15.5 GW': 8.7 GW reported through October plus 6.9 GW scheduled for November-December
+2021,solar,actual_later,13.4,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'the current record (13.4 GW in 2021)'
+2021,wind,actual_first,17.1,~,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'a record-high 17.1 GW': 9.9 GW reported through October plus 7.2 GW planned for November-December
+2021,wind,actual_later,14.0,>,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'record additions of more than 14 GW in both 2020 and 2021'
+2022,total,plan,46.1,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'46.1 gigawatts (GW)' (inventory of October 2021)
+2022,solar,plan,21.5,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'grow by 21.5 GW in 2022'
+2022,gas,plan,9.6,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'9.6 GW of new natural gas-fired capacity'
+2022,wind,plan,7.6,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'Another 7.6 GW of wind capacity'
+2022,battery,plan,5.1,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'grow by 5.1 GW'
+2022,solar,actual_later,10.3,~,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,derived: utility-scale solar additions fell 23% in 2022 from 13.4 GW in 2021 (13.4 x 0.77)
+2023,total,plan,54.5,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'54.5 gigawatts (GW)' (inventory of December 2022)
+2023,solar,plan,29.1,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'29.1 GW of solar power'
+2023,battery,plan,9.4,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'9.4 GW of battery storage'
+2023,gas,plan,7.5,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'7.5 GW of new natural-gas fired capacity'
+2023,wind,plan,6.0,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'6.0 GW of utility-scale wind capacity'
+2023,nuclear,plan,2.2,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,two Vogtle reactors 'with a combined 2.2 GW'
+2023,total,actual_first,40.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'the 40.4 GW added in 2023'
+2023,solar,actual_first,18.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'last year's 18.4 GW increase'
+2023,solar,actual_later,19.0,=,2024-05-08,https://www.eia.gov/todayinenergy/detail.php?id=62003,'19 gigawatts (GW) of new utility-scale solar PV' (Form EIA-860M)
+2023,battery,actual_first,6.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'6.4 GW of new battery storage capacity was added'
+2024,total,plan,62.8,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'62.8 gigawatts (GW)' (inventory of December 2023)
+2024,solar,plan,36.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'the scheduled 36.4 GW'
+2024,battery,plan,14.3,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'add 14.3 GW of battery storage'
+2024,wind,plan,8.2,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'another 8.2 GW of wind capacity'
+2024,gas,plan,2.5,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'2.5 GW in planned natural gas capacity additions'
+2024,nuclear,plan,1.1,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,Vogtle Unit 4 '(1.1 GW)'
+2024,total,actual_first,48.6,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'48.6 GW of capacity was installed'
+2024,solar,actual_first,30.0,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'a record 30 GW of utility-scale solar'
+2024,battery,actual_first,10.3,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'added 10.3 GW of new battery storage capacity'
+2024,wind,actual_first,5.1,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'only 5.1 GW was added'
+2024,solar,actual_later,30.8,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'in 2024 (30.8 GW)'
+2024,total,actual_final,50.454,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Electric Power Annual 2024 Table 4.6 (Form EIA-860): 50454.0 MW net summer added (51176.3 MW nameplate)
+2024,solar,actual_final,30.916,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Solar Thermal and PV: 30915.9 MW net summer (31102.3 MW nameplate)
+2024,wind,actual_final,5.154,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Wind: 5154.3 MW net summer (5155.9 MW nameplate)
+2024,gas,actual_final,2.113,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Natural Gas: 2113.1 MW net summer (2535.5 MW nameplate)
+2024,nuclear,actual_final,1.114,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Nuclear: 1114.0 MW net summer
+2025,total,plan,63.0,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'63 gigawatts (GW)' (inventory of December 2024)
+2025,solar,plan,32.5,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'32.5 GW of new utility-scale solar capacity'
+2025,battery,plan,18.2,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'18.2 GW of utility-scale battery storage'
+2025,wind,plan,7.7,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'7.7 GW of wind capacity'
+2025,gas,plan,4.4,=,2025-02-24,https://www.eia.gov/todayinenergy/detail.php?id=64586,'4.4 GW of new natural gas-fired capacity'
+2025,solar,steo,26.0,=,2025-01-24,https://www.eia.gov/todayinenergy/detail.php?id=64364,STEO: '26 gigawatts (GW) of solar capacity to the U.S. electric power sector in 2025'
+2025,wind,steo,8.0,~,2025-01-24,https://www.eia.gov/todayinenergy/detail.php?id=64364,STEO: wind additions 'around 8 GW in 2025'
+2025,total,actual_first,53.0,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'53 GW of new capacity was added to the grid'
+2025,solar,actual_first,27.2,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'in 2025 (27.2 GW)'
+2025,battery,actual_first,15.0,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'a record 15 GW added in 2025'
+2025,wind,actual_first,5.9,<,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,derived: 11.8 GW planned for 2026 is 'more than double the capacity added last year'
+2026,total,plan,86.0,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'86 gigawatts (GW)' (inventory of December 2025)
+2026,solar,plan,43.4,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'43.4 GW of new utility-scale solar capacity'
+2026,battery,plan,24.0,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'24 GW of utility-scale battery storage'
+2026,wind,plan,11.8,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'11.8 GW planned to be added'
+2026,gas,plan,6.3,=,2026-02-20,https://www.eia.gov/todayinenergy/detail.php?id=67205,'6.3 GW of new natural gas-fired capacity'
