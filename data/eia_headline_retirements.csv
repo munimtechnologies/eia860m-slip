@@ -1,0 +1,40 @@
+year,tech,kind,gw,bound,published,source,basis
+2020,total,plan,11.0,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'Scheduled capacity retirements (11 GW) for 2020' (inventory month not named)
+2020,coal,plan,5.8,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'Of the 5.8 GW of coal-fired capacity that EIA expects to retire in 2020'
+2020,gas,plan,3.7,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'natural gas retirements in 2020 to total 3.7 GW' (2.2 GW of it at Alamitos / Huntington Beach / Redondo Beach)
+2020,nuclear,plan,1.6,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'Two nuclear plants totaling 1.6 GW are currently scheduled to retire in 2020'
+2021,total,plan,9.1,=,2021-01-12,https://www.eia.gov/todayinenergy/detail.php?id=46436,'9.1 gigawatts (GW) of electric generating capacity is scheduled to retire in 2021' (inventory of October 2020)
+2021,coal,plan,2.7,=,2021-01-12,https://www.eia.gov/todayinenergy/detail.php?id=46436,'2.7 GW of coal-fired capacity is scheduled to retire'
+2021,gas,plan,0.253,=,2021-01-12,https://www.eia.gov/todayinenergy/detail.php?id=46436,'253 MW of natural gas-fired capacity are scheduled to retire in 2021'
+2021,nuclear,plan,5.1,=,2021-01-12,https://www.eia.gov/todayinenergy/detail.php?id=46436,'At 5.1 GW' nuclear: Dresden and Byron (4.1 GW) plus Indian Point Unit 3 (1.0 GW)
+2021,coal,actual_first,4.6,~,2022-01-11,https://www.eia.gov/todayinenergy/detail.php?id=50838,'coal capacity retirements slowed to 4.6 GW in 2021' (written from the October 2021 inventory so November-December may be scheduled not actual)
+2021,coal,actual_later,5.6,=,2023-02-07,https://www.eia.gov/todayinenergy/detail.php?id=55439,'decreased to 5.6 GW in 2021'
+2021,nuclear,actual_later,0.965,=,2026-10-15,https://www.eia.gov/nuclear/reactors/shutdown/,EIA reactor shutdown list: Indian Point-3 965 MW shut down 4/28/2021; Byron and Dresden reversed their 2021 retirement plans (todayinenergy id=50136)
+2022,total,plan,14.9,=,2022-01-11,https://www.eia.gov/todayinenergy/detail.php?id=50838,'Operators have scheduled 14.9 gigawatts (GW) of electric generating capacity to retire' (inventory of October 2021)
+2022,coal,plan,12.6,=,2022-01-11,https://www.eia.gov/todayinenergy/detail.php?id=50838,'12.6 GW of coal capacity is scheduled to retire in 2022'
+2022,gas,plan,1.2,=,2022-01-11,https://www.eia.gov/todayinenergy/detail.php?id=50838,"'In 2022, 1.2 GW of U.S. natural gas-fired capacity is scheduled for retirement'"
+2022,nuclear,plan,0.8,=,2022-01-11,https://www.eia.gov/todayinenergy/detail.php?id=50838,'At 0.8 GW' nuclear (Palisades)
+2022,coal,actual_first,11.5,=,2023-02-07,https://www.eia.gov/todayinenergy/detail.php?id=55439,'and then increased to 11.5 GW in 2022'
+2022,coal,actual_later,13.7,=,2026-04-13,https://www.eia.gov/todayinenergy/detail.php?id=67427,'since 2022 when operators retired 13.7 GW of capacity' (capacity basis not stated)
+2023,total,plan,15.6,=,2023-02-07,https://www.eia.gov/todayinenergy/detail.php?id=55439,"'In 2023, operators plan to retire 15.6 gigawatts (GW)' (inventory of December 2022)"
+2023,coal,plan,8.9,=,2023-02-07,https://www.eia.gov/todayinenergy/detail.php?id=55439,'plan to retire 8.9 GW of coal-fired capacity'
+2023,gas,plan,6.2,=,2023-02-07,https://www.eia.gov/todayinenergy/detail.php?id=55439,'6.2 GW of U.S. natural gas-fired capacity is scheduled to retire' (2.2 GW of it at Alamitos / Huntington Beach / Redondo Beach)
+2023,total,actual_first,13.5,=,2024-02-20,https://www.eia.gov/todayinenergy/detail.php?id=61425,'a 62% decrease from last year when 13.5 GW was retired'
+2023,coal,actual_first,10.8,~,2024-02-20,https://www.eia.gov/todayinenergy/detail.php?id=61425,derived: '22.3 GW of U.S. coal-fired electric generating capacity retired over the past two years' minus the 11.5 GW given for 2022 in todayinenergy id=55439
+2024,total,plan,5.2,=,2024-02-20,https://www.eia.gov/todayinenergy/detail.php?id=61425,'Operators plan to retire 5.2 gigawatts (GW)' (inventory of December 2023)
+2024,coal,plan,2.3,=,2024-02-20,https://www.eia.gov/todayinenergy/detail.php?id=61425,'The 2.3 GW of coal-fired capacity scheduled to retire'
+2024,gas,plan,2.4,=,2024-02-20,https://www.eia.gov/todayinenergy/detail.php?id=61425,'The 2.4 GW of scheduled retirements of natural gas capacity'
+2024,total,actual_first,7.5,=,2025-02-25,https://www.eia.gov/todayinenergy/detail.php?id=64604,"'Last year, 7.5 GW was retired from the U.S. power grid'"
+2024,coal,actual_first,4.0,=,2025-02-25,https://www.eia.gov/todayinenergy/detail.php?id=64604,'Coal retirements decreased to 4.0 GW last year'
+2024,total,actual_final,9.0274,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Electric Power Annual 2024 Table 4.6 (Form EIA-860) generator retirements: 9027.4 MW net summer (10676.8 MW nameplate; 291 generators)
+2024,coal,actual_final,3.9586,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Coal retirements: 3958.6 MW net summer (4460.0 MW nameplate)
+2024,gas,actual_final,4.2692,=,2025-10,https://www.eia.gov/electricity/annual/html/epa_04_06.html,Table 4.6 Natural Gas retirements: 4269.2 MW net summer (5246.3 MW nameplate)
+2025,total,plan,12.3,=,2025-02-25,https://www.eia.gov/todayinenergy/detail.php?id=64604,'Electricity generators plan to retire 12.3 gigawatts (GW) of capacity in 2025' (inventory of December 2024)
+2025,coal,plan,8.1,=,2025-02-25,https://www.eia.gov/todayinenergy/detail.php?id=64604,'they plan to retire 8.1 GW of coal-fired capacity in 2025' (later articles give 8.0 and 8.5)
+2025,gas,plan,2.6,=,2025-02-25,https://www.eia.gov/todayinenergy/detail.php?id=64604,'generators plan to retire 2.6 GW of U.S. natural gas capacity'
+2025,coal,steo,11.0,=,2025-01-24,https://www.eia.gov/todayinenergy/detail.php?id=64364,"STEO: 'We forecast U.S. coal retirements will accelerate, removing 6% (11 GW) of coal generating capacity'"
+2025,total,actual_first,4.6,=,2026-02-23,https://www.eia.gov/todayinenergy/detail.php?id=67206,'planned to retire 12.3 GW of capacity but only retired 4.6 GW' (inventory of December 2025)
+2025,coal,actual_first,2.6,=,2026-02-23,https://www.eia.gov/todayinenergy/detail.php?id=67206,'only 2.6 GW out of an anticipated 8.0 GW of coal capacity were retired' (also 2.6 GW in id=67427)
+2026,total,plan,11.0,~,2026-02-23,https://www.eia.gov/todayinenergy/detail.php?id=67206,'plan to retire nearly 11 gigawatts (GW)' (inventory of December 2025)
+2026,coal,plan,6.4,=,2026-02-23,https://www.eia.gov/todayinenergy/detail.php?id=67206,"'In 2026, 6.4 GW of coal-fired capacity is scheduled to retire'"
+2026,gas,plan,4.6,=,2026-02-23,https://www.eia.gov/todayinenergy/detail.php?id=67206,"'In 2026, 4.6 GW of U.S. natural gas-fired capacity' is scheduled for retirement"

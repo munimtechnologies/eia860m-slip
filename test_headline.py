@@ -12,23 +12,27 @@ def row(year, tech, kind, gw, bound="=", published="2025-01-01"):
             "published": published, "source": "https://www.eia.gov/x", "basis": ""}
 
 
+def check_well_formed(case, rows, at_least):
+    case.assertGreater(len(rows), at_least)
+    seen = set()
+    for r in rows:
+        case.assertIn(r["kind"], headline.KINDS)
+        case.assertIn(r["bound"], headline.BOUNDS)
+        case.assertIn(r["tech"], headline.TECHS)
+        case.assertGreater(r["gw"], 0.0)
+        case.assertTrue(r["source"].startswith("https://www.eia.gov/"), r["source"])
+        case.assertTrue(r["basis"])
+        key = (r["year"], r["tech"], r["kind"], r["published"])
+        case.assertNotIn(key, seen)
+        seen.add(key)
+
+
 class TestData(unittest.TestCase):
     def setUp(self):
         self.rows = headline.load()
 
     def test_rows_are_well_formed(self):
-        self.assertGreater(len(self.rows), 50)
-        seen = set()
-        for r in self.rows:
-            self.assertIn(r["kind"], headline.KINDS)
-            self.assertIn(r["bound"], headline.BOUNDS)
-            self.assertIn(r["tech"], headline.TECHS)
-            self.assertGreater(r["gw"], 0.0)
-            self.assertTrue(r["source"].startswith("https://www.eia.gov/"), r["source"])
-            self.assertTrue(r["basis"])
-            key = (r["year"], r["tech"], r["kind"], r["published"])
-            self.assertNotIn(key, seen)
-            seen.add(key)
+        check_well_formed(self, self.rows, 50)
 
     def test_every_year_has_a_total_plan(self):
         for year in range(2020, 2027):
@@ -76,6 +80,59 @@ class TestData(unittest.TestCase):
         self.assertIn("| total | 86 | 63.8 | 72.3 | 3 |", text)
 
 
+class TestRetirements(unittest.TestCase):
+    def setUp(self):
+        self.rows = headline.load(headline.RETIREMENTS_CSV)
+
+    def test_rows_are_well_formed(self):
+        check_well_formed(self, self.rows, 35)
+
+    def test_every_year_has_a_total_plan(self):
+        for year in range(2020, 2027):
+            self.assertIsNotNone(headline.plan(self.rows, year, "total"), year)
+
+    def test_which_actual(self):
+        # 2024: the Electric Power Annual (9.03 GW) beats the first article (7.5 GW).
+        a = headline.best_actual(self.rows, 2024, "total")
+        self.assertEqual((a["kind"], a["gw"]), ("actual_final", 9.0274))
+        # 2022 coal: the 2026 article's 13.7 GW beats the 2023 article's 11.5 GW.
+        self.assertEqual(headline.best_actual(self.rows, 2022, "coal")["gw"], 13.7)
+        # The STEO row is a forecast, never an actual.
+        self.assertEqual(headline.best_actual(self.rows, 2025, "coal")["gw"], 2.6)
+
+    def test_ratios(self):
+        t = {(x["year"], x["tech"]): x for x in headline.realization(self.rows)}
+        self.assertAlmostEqual(t[(2023, "total")]["ratio"], 13.5 / 15.6)
+        self.assertAlmostEqual(t[(2024, "total")]["ratio"], 9.0274 / 5.2)
+        self.assertAlmostEqual(t[(2025, "total")]["ratio"], 4.6 / 12.3)
+        self.assertAlmostEqual(t[(2021, "coal")]["ratio"], 5.6 / 2.7)
+        self.assertAlmostEqual(t[(2024, "gas")]["ratio"], 4.2692 / 2.4)
+        self.assertAlmostEqual(t[(2021, "nuclear")]["ratio"], 0.965 / 5.1)
+        self.assertEqual(t[(2023, "coal")]["bound"], "~")
+        self.assertIsNone(t[(2022, "total")]["ratio"])
+
+    def test_projection_2026(self):
+        p = headline.projection(self.rows, 2026, (2023, 2024, 2025))
+        lo, hi, n = p["total"]
+        self.assertAlmostEqual(lo, 11.0 * 4.6 / 12.3)
+        self.assertAlmostEqual(hi, 11.0 * 9.0274 / 5.2)
+        self.assertEqual(n, 3)
+        lo, hi, n = p["coal"]
+        self.assertAlmostEqual(lo, 6.4 * 2.6 / 8.1)
+        self.assertAlmostEqual(hi, 6.4 * 3.9586 / 2.3)
+        self.assertEqual(n, 3)
+        self.assertEqual(p["gas"][2], 1)
+        self.assertNotIn("nuclear", p)
+
+    def test_markdown(self):
+        text = headline.to_markdown(self.rows, 2026, (2023, 2024, 2025))
+        self.assertIn("| 2025 | total | 12.3 | 4.6 | actual_first | 37% |", text)
+        self.assertIn("| 2024 | total | 5.2 | 9.0274 | actual_final | 174% |", text)
+        self.assertIn("| 2023 | coal | 8.9 | 10.8 | actual_first | ~121% |", text)
+        self.assertIn("| total | 11 | 4.1 | 19.1 | 3 |", text)
+        self.assertIn("| coal | 6.4 | 2.1 | 11.0 | 3 |", text)
+
+
 class TestRules(unittest.TestCase):
     def test_latest_within_a_kind(self):
         rows = [row(2030, "solar", "plan", 10.0),
@@ -95,6 +152,13 @@ class TestRules(unittest.TestCase):
             headline.main(["--out", out])
             with open(out, encoding="utf-8") as fh:
                 self.assertIn("Range for 2026", fh.read())
+
+    def test_main_retirements(self):
+        with tempfile.TemporaryDirectory() as d:
+            out = os.path.join(d, "r.md")
+            headline.main(["--retirements", "--out", out])
+            with open(out, encoding="utf-8") as fh:
+                self.assertIn("| coal | 6.4 | 2.1 | 11.0 | 3 |", fh.read())
 
 
 if __name__ == "__main__":

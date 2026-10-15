@@ -11,12 +11,17 @@ numbers with the page it comes from and the words it rests on. This script
 divides actual by plan for each year and technology, and turns the recent
 ratios into a range for the year still open.
 
+data/eia_headline_retirements.csv (since 0.2.2) holds the same kind of
+numbers for planned retirements ("operators plan to retire N GW this year")
+against what EIA later reported as retired; pass --retirements to use it.
+
 Which actual is used: the most final kind that is a stated or derived value
 (actual_final, then actual_later, then actual_first; the latest published
 within a kind). A bound (">" or "<") is used only when no value exists, and
 the ratio carries the bound.
 
     python headline.py --csv data/eia_headline_plans.csv --out docs/headline-plans-table.md
+    python headline.py --retirements
 
 Standard library only.
 """
@@ -25,15 +30,16 @@ import argparse
 import csv
 import os
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 KINDS = ("plan", "actual_first", "actual_later", "actual_final", "steo")
 ACTUAL_RANK = ("actual_final", "actual_later", "actual_first")
 BOUNDS = ("=", "~", ">", "<")
 VALUE_BOUNDS = ("=", "~")
-TECHS = ("total", "solar", "battery", "wind", "gas", "nuclear")
+TECHS = ("total", "solar", "battery", "wind", "gas", "coal", "nuclear")
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_CSV = os.path.join(HERE, "data", "eia_headline_plans.csv")
+RETIREMENTS_CSV = os.path.join(HERE, "data", "eia_headline_retirements.csv")
 
 
 def load(path=DEFAULT_CSV):
@@ -124,12 +130,14 @@ def to_markdown(rows, target=None, years=()):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--csv", default=DEFAULT_CSV)
+    ap.add_argument("--csv", default="")
+    ap.add_argument("--retirements", action="store_true",
+                    help="use data/eia_headline_retirements.csv (planned retirements) when --csv is not given")
     ap.add_argument("--out", default="")
     ap.add_argument("--target", type=int, default=2026)
     ap.add_argument("--years", default="2023,2024,2025")
     args = ap.parse_args(argv)
-    rows = load(args.csv)
+    rows = load(args.csv or (RETIREMENTS_CSV if args.retirements else DEFAULT_CSV))
     text = to_markdown(rows, args.target, tuple(int(y) for y in args.years.split(",")))
     if args.out:
         with open(args.out, "w", encoding="utf-8") as fh:
