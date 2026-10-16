@@ -35,6 +35,15 @@ Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data fi
 - Coal retirements met or beat the January plan in every year from 2018 to 2024 (139% pooled; 2019 alone was 287%, 12.9 GW against 4.5 GW). 2025 is the first shortfall in this record.
 - The 2016 and 2018 plans were published in March and May, after part of the year was known, so they had a head start; the clean January 2019 plan alone is still 98%.
 
+## Fourth result: why coal misses its plan, and 2026 stated in advance (2026-10-16)
+
+[`docs/coal-plan-misses.md`](docs/coal-plan-misses.md) traces the coal gaps to named decisions, from public documents.
+
+- Overshoot years came from closures decided during the year. In 2019 about 80% of the ~8 GW excess traces to five such decisions (Bruce Mansfield, Gorgas, Hammond, Vistra's Illinois plants). In 2024 about 71% of the excess was one plant, Rush Island.
+- In 2025 every decision made during the year was a deferral: DOE emergency orders (3.2 GW) and voluntary delays (2.2 GW). By EIA's own accounting, no retirement was added during the year.
+- In 2026, 4.4 GW (69%) of the 6.4 GW coal plan has already been deferred by name: DOE orders for Campbell, Schahfer, Craig 1 and Culley 2; TVA's Cumberland 2; South Oak Creek 7-8.
+- Stated in advance: EIA's first count of 2026 coal retirements will be 0.3-2.5 GW (central 1.3 GW), below 2025's 2.6 GW.
+
 ## What it does
 
 Every month, EIA-860M lists each planned generator of 1 MW or more with its development stage and its current planned operating month. Operating generators carry a planned retirement month where one has been reported.
@@ -77,13 +86,13 @@ The tests for `eia860m_slip.py` run on hand-built changelogs with known outcomes
 
 ## Status
 
-0.2.4: plans and EIA-860 finals for 2016, 2018 and 2019 (docs/headline-2016-2019.md). 0.2.3: EIA-860 final additions and retirements for 2020-2023 from the archived Electric Power Annual editions, correcting three additions claims and two retirement figures (see the Corrections sections of both docs). 0.2.3 and 0.2.4 were released together. 0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests.
+2026-10-16 (docs only, no release): docs/coal-plan-misses.md, with a 2026 coal retirement range stated in advance. 0.2.4: plans and EIA-860 finals for 2016, 2018 and 2019 (docs/headline-2016-2019.md). 0.2.3: EIA-860 final additions and retirements for 2020-2023 from the archived Electric Power Annual editions, correcting three additions claims and two retirement figures (see the Corrections sections of both docs). 0.2.3 and 0.2.4 were released together. 0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests.
 
 The generator-level code has had its first full run on the live PUDL table (report months to August 2026). Its results are not published yet, for two reasons found in that run. First, PUDL gives a generator that is still listed a last `valid_until_date` equal to the last report month, not a blank, so this version counts every still-listed operating generator as having "left EIA-860M". This does not change the retirement shares of closed years, but the count of generators that left is wrong in this version and should not be quoted; the fix is in a later release. Second, some planned generators may change ids between reports, which would make a project look late when it was renamed; a check of this is under way. Generator-level tables will be added under `docs/` once both are settled.
 
 ## Prior art
 
-EIA's Today in Energy has compared planned and actual additions and retirements for single years. SynMax, OnLocation and Environment America have looked at delayed coal retirements. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, no scoring of planned retirement months, and no compiled multi-year table of EIA's headline plans (additions or retirements) against its own later actuals. If you know of one, open an issue.
+EIA's Today in Energy has compared planned and actual additions and retirements for single years, and broke 2025's coal shortfall down by cause. SynMax, OnLocation and Environment America have looked at delayed coal retirements. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, no scoring of planned retirement months, and no compiled multi-year table of EIA's headline plans (additions or retirements) against its own later actuals. If you know of one, open an issue.
 
 ## Licence
 
