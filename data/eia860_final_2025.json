@@ -1,0 +1,473 @@
+{
+ "summaries": {
+  "2023": {
+   "member": "3_1_Generator_Y2023.xlsx",
+   "sheets": [
+    "Operable",
+    "Proposed",
+    "Retired and Canceled"
+   ],
+   "rows": {
+    "operable": 26010,
+    "retired_sheet": 5250,
+    "retired_status_re": 4379
+   },
+   "retired_sheet_status": {
+    "RE": 4379,
+    "CN": 755,
+    "IP": 116
+   },
+   "additions": {
+    "battery": {
+     "summer_mw": 6835.9,
+     "nameplate_mw": 6895.5,
+     "n": 129
+    },
+    "gas": {
+     "summer_mw": 8701.3,
+     "nameplate_mw": 9728.4,
+     "n": 104
+    },
+    "nuclear": {
+     "summer_mw": 1114.0,
+     "nameplate_mw": 1114.0,
+     "n": 1
+    },
+    "other": {
+     "summer_mw": 192.8,
+     "nameplate_mw": 234.6,
+     "n": 38
+    },
+    "solar": {
+     "summer_mw": 18887.6,
+     "nameplate_mw": 19274.0,
+     "n": 527
+    },
+    "wind": {
+     "summer_mw": 6586.4,
+     "nameplate_mw": 6635.2,
+     "n": 39
+    },
+    "total": {
+     "summer_mw": 42318.0,
+     "nameplate_mw": 43881.7,
+     "n": 838
+    }
+   },
+   "additions_built_and_retired_same_year": {
+    "total": {
+     "summer_mw": 0.0,
+     "nameplate_mw": 0.0,
+     "n": 0
+    }
+   },
+   "retirements": {
+    "battery": {
+     "summer_mw": 11.7,
+     "nameplate_mw": 11.7,
+     "n": 5
+    },
+    "coal": {
+     "summer_mw": 9224.9,
+     "nameplate_mw": 10237.5,
+     "n": 26
+    },
+    "gas": {
+     "summer_mw": 5128.0,
+     "nameplate_mw": 5891.8,
+     "n": 71
+    },
+    "other": {
+     "summer_mw": 773.3,
+     "nameplate_mw": 919.9,
+     "n": 157
+    },
+    "solar": {
+     "summer_mw": 59.1,
+     "nameplate_mw": 59.1,
+     "n": 112
+    },
+    "wind": {
+     "summer_mw": 40.9,
+     "nameplate_mw": 48.0,
+     "n": 11
+    },
+    "total": {
+     "summer_mw": 15237.9,
+     "nameplate_mw": 17168.0,
+     "n": 382
+    }
+   }
+  },
+  "2024": {
+   "member": "3_1_Generator_Y2024.xlsx",
+   "sheets": [
+    "Operable",
+    "Proposed",
+    "Retired and Canceled"
+   ],
+   "rows": {
+    "operable": 26855,
+    "retired_sheet": 5592,
+    "retired_status_re": 4651
+   },
+   "retired_sheet_status": {
+    "RE": 4651,
+    "CN": 824,
+    "IP": 117
+   },
+   "additions": {
+    "battery": {
+     "summer_mw": 11055.4,
+     "nameplate_mw": 11157.3,
+     "n": 188
+    },
+    "gas": {
+     "summer_mw": 2113.1,
+     "nameplate_mw": 2535.5,
+     "n": 99
+    },
+    "nuclear": {
+     "summer_mw": 1114.0,
+     "nameplate_mw": 1114.0,
+     "n": 1
+    },
+    "other": {
+     "summer_mw": 101.2,
+     "nameplate_mw": 111.3,
+     "n": 31
+    },
+    "solar": {
+     "summer_mw": 30915.9,
+     "nameplate_mw": 31102.3,
+     "n": 693
+    },
+    "wind": {
+     "summer_mw": 5154.3,
+     "nameplate_mw": 5155.9,
+     "n": 31
+    },
+    "total": {
+     "summer_mw": 50454.0,
+     "nameplate_mw": 51176.3,
+     "n": 1043
+    }
+   },
+   "additions_built_and_retired_same_year": {
+    "total": {
+     "summer_mw": 0.0,
+     "nameplate_mw": 0.0,
+     "n": 0
+    }
+   },
+   "retirements": {
+    "battery": {
+     "summer_mw": 25.0,
+     "nameplate_mw": 31.0,
+     "n": 6
+    },
+    "coal": {
+     "summer_mw": 3958.6,
+     "nameplate_mw": 4460.0,
+     "n": 12
+    },
+    "gas": {
+     "summer_mw": 4269.2,
+     "nameplate_mw": 5246.3,
+     "n": 73
+    },
+    "other": {
+     "summer_mw": 735.5,
+     "nameplate_mw": 900.6,
+     "n": 192
+    },
+    "solar": {
+     "summer_mw": 4.5,
+     "nameplate_mw": 4.5,
+     "n": 3
+    },
+    "wind": {
+     "summer_mw": 34.6,
+     "nameplate_mw": 34.4,
+     "n": 5
+    },
+    "total": {
+     "summer_mw": 9027.4,
+     "nameplate_mw": 10676.8,
+     "n": 291
+    }
+   }
+  },
+  "2025": {
+   "member": "3_1_Generator_Y2025.xlsx",
+   "sheets": [
+    "Operable",
+    "Proposed",
+    "Retired and Canceled"
+   ],
+   "rows": {
+    "operable": 27918,
+    "retired_sheet": 5805,
+    "retired_status_re": 4787
+   },
+   "retired_sheet_status": {
+    "RE": 4787,
+    "CN": 890,
+    "IP": 128
+   },
+   "additions": {
+    "battery": {
+     "summer_mw": 16306.9,
+     "nameplate_mw": 16375.0,
+     "n": 201
+    },
+    "coal": {
+     "summer_mw": 9.0,
+     "nameplate_mw": 10.0,
+     "n": 1
+    },
+    "gas": {
+     "summer_mw": 4589.6,
+     "nameplate_mw": 5255.8,
+     "n": 105
+    },
+    "other": {
+     "summer_mw": 162.4,
+     "nameplate_mw": 171.6,
+     "n": 36
+    },
+    "solar": {
+     "summer_mw": 29459.1,
+     "nameplate_mw": 29644.6,
+     "n": 716
+    },
+    "wind": {
+     "summer_mw": 6082.0,
+     "nameplate_mw": 6272.2,
+     "n": 31
+    },
+    "total": {
+     "summer_mw": 56609.0,
+     "nameplate_mw": 57729.2,
+     "n": 1090
+    }
+   },
+   "additions_built_and_retired_same_year": {
+    "total": {
+     "summer_mw": 0.0,
+     "nameplate_mw": 0.0,
+     "n": 0
+    }
+   },
+   "retirements": {
+    "battery": {
+     "summer_mw": 328.5,
+     "nameplate_mw": 328.5,
+     "n": 7
+    },
+    "coal": {
+     "summer_mw": 2688.4,
+     "nameplate_mw": 2626.0,
+     "n": 8
+    },
+    "gas": {
+     "summer_mw": 859.6,
+     "nameplate_mw": 1160.8,
+     "n": 47
+    },
+    "other": {
+     "summer_mw": 1209.8,
+     "nameplate_mw": 1561.9,
+     "n": 126
+    },
+    "solar": {
+     "summer_mw": 8.1,
+     "nameplate_mw": 10.3,
+     "n": 7
+    },
+    "wind": {
+     "summer_mw": 20.0,
+     "nameplate_mw": 21.9,
+     "n": 11
+    },
+    "total": {
+     "summer_mw": 5114.4,
+     "nameplate_mw": 5709.4,
+     "n": 206
+    }
+   }
+  }
+ },
+ "calibration": {
+  "2023": {
+   "additions_total": {
+    "computed": 42318.0,
+    "epa": 42318.0,
+    "rel_diff": 0.0
+   },
+   "additions_solar": {
+    "computed": 18887.6,
+    "epa": 18887.6,
+    "rel_diff": 0.0
+   },
+   "additions_wind": {
+    "computed": 6586.4,
+    "epa": 6586.4,
+    "rel_diff": 0.0
+   },
+   "additions_gas": {
+    "computed": 8701.3,
+    "epa": 8701.3,
+    "rel_diff": 0.0
+   },
+   "additions_nuclear": {
+    "computed": 1114.0,
+    "epa": 1114.0,
+    "rel_diff": 0.0
+   },
+   "retirements_total": {
+    "computed": 15237.9,
+    "epa": 15237.9,
+    "rel_diff": 0.0
+   },
+   "retirements_coal": {
+    "computed": 9224.9,
+    "epa": 9224.9,
+    "rel_diff": 0.0
+   },
+   "retirements_gas": {
+    "computed": 5128.0,
+    "epa": 5128.0,
+    "rel_diff": 0.0
+   }
+  },
+  "2024": {
+   "additions_total": {
+    "computed": 50454.0,
+    "epa": 50454.0,
+    "rel_diff": 0.0
+   },
+   "additions_solar": {
+    "computed": 30915.9,
+    "epa": 30915.9,
+    "rel_diff": 0.0
+   },
+   "additions_wind": {
+    "computed": 5154.3,
+    "epa": 5154.3,
+    "rel_diff": 0.0
+   },
+   "additions_gas": {
+    "computed": 2113.1,
+    "epa": 2113.1,
+    "rel_diff": 0.0
+   },
+   "additions_nuclear": {
+    "computed": 1114.0,
+    "epa": 1114.0,
+    "rel_diff": 0.0
+   },
+   "retirements_total": {
+    "computed": 9027.4,
+    "epa": 9027.4,
+    "rel_diff": 0.0
+   },
+   "retirements_coal": {
+    "computed": 3958.6,
+    "epa": 3958.6,
+    "rel_diff": 0.0
+   },
+   "retirements_gas": {
+    "computed": 4269.2,
+    "epa": 4269.2,
+    "rel_diff": 0.0
+   }
+  }
+ },
+ "errors": {},
+ "sources": {
+  "2023": {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602023.zip",
+   "file": "eia8602023.zip",
+   "bytes": 21237983
+  },
+  "2024": {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602024.zip",
+   "file": "eia8602024.zip",
+   "bytes": 22100342
+  },
+  "2025": {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602025.zip",
+   "file": "eia8602025.zip",
+   "bytes": 23622347
+  }
+ },
+ "gate_passed": true,
+ "score_2025": {
+  "additions_battery": {
+   "computed_mw": 16306.9,
+   "plan_mw": 18200.0,
+   "of_plan": 0.896,
+   "first_count_mw": 15000.0,
+   "revision_vs_first": 0.0871
+  },
+  "additions_gas": {
+   "computed_mw": 4589.6,
+   "plan_mw": 4400.0,
+   "of_plan": 1.0431
+  },
+  "additions_solar": {
+   "computed_mw": 29459.1,
+   "plan_mw": 32500.0,
+   "of_plan": 0.9064,
+   "first_count_mw": 27200.0,
+   "revision_vs_first": 0.0831,
+   "predicted_mw": [
+    27900.0,
+    28000.0
+   ],
+   "in_range": false
+  },
+  "additions_total": {
+   "computed_mw": 56609.0,
+   "plan_mw": 63000.0,
+   "of_plan": 0.8986,
+   "first_count_mw": 53000.0,
+   "revision_vs_first": 0.0681,
+   "predicted_mw": [
+    55000.0,
+    55500.0
+   ],
+   "in_range": false
+  },
+  "additions_wind": {
+   "computed_mw": 6082.0,
+   "plan_mw": 7700.0,
+   "of_plan": 0.7899
+  },
+  "retirements_coal": {
+   "computed_mw": 2688.4,
+   "plan_mw": 8100.0,
+   "of_plan": 0.3319,
+   "first_count_mw": 2600.0,
+   "revision_vs_first": 0.034
+  },
+  "retirements_gas": {
+   "computed_mw": 859.6,
+   "plan_mw": 2600.0,
+   "of_plan": 0.3306
+  },
+  "retirements_total": {
+   "computed_mw": 5114.4,
+   "plan_mw": 12300.0,
+   "of_plan": 0.4158,
+   "first_count_mw": 4600.0,
+   "revision_vs_first": 0.1118,
+   "predicted_mw": [
+    5200.0,
+    5500.0
+   ],
+   "in_range": false
+  }
+ }
+}
