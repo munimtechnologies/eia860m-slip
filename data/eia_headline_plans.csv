@@ -1,4 +1,42 @@
 year,tech,kind,gw,bound,published,source,basis
+2016,total,plan,26.0,>,2016-03-01,https://www.eia.gov/todayinenergy/detail.php?id=25172,'expect to add more than 26 gigawatts (GW) of utility-scale generating capacity to the power grid during 2016' (Electric Power Monthly; published March 1 and republished March 2 2016 to correct an error in the text)
+2016,solar,plan,9.5,=,2016-03-01,https://www.eia.gov/todayinenergy/detail.php?id=25172,'Planned utility-scale solar additions total 9.5 GW in 2016'
+2016,gas,plan,8.0,=,2016-03-01,https://www.eia.gov/todayinenergy/detail.php?id=25172,'About 8 GW is expected to be added this year'
+2016,wind,plan,6.8,=,2016-03-01,https://www.eia.gov/todayinenergy/detail.php?id=25172,'Wind capacity additions in 2016 are expected to total 6.8 GW'
+2016,nuclear,plan,1.1,=,2016-03-01,https://www.eia.gov/todayinenergy/detail.php?id=25172,Watts Bar 2 'with a summer nameplate capacity of 1.1 GW' expected to begin commercial operation in June 2016
+2016,total,actual_first,27.0,>,2017-02-27,https://www.eia.gov/todayinenergy/detail.php?id=30112,'More than 27 gigawatts (GW) of electricity generating capacity was added to the U.S. power grid during 2016'
+2016,solar,actual_first,7.7,=,2017-02-27,https://www.eia.gov/todayinenergy/detail.php?id=30112,'About 7.7 GW of utility-scale solar was added in 2016'
+2016,wind,actual_first,8.7,=,2017-02-27,https://www.eia.gov/todayinenergy/detail.php?id=30112,'more than 60% were wind (8.7 GW) and solar (7.7 GW)'
+2016,gas,actual_first,9.0,~,2017-02-27,https://www.eia.gov/todayinenergy/detail.php?id=30112,'compared with 33% (9 GW) from natural gas'
+2016,total,actual_final,27.7245,=,2017-12-07,https://www.eia.gov/electricity/annual/archive/2016/html/epa_04_06.html,Electric Power Annual 2016 (released 2017-12-07) Table 4.6 (Form EIA-860) generator additions: 27724.5 MW net summer (28773.9 MW nameplate; 820 generators); archived copy read 2026-10-16
+2016,solar,actual_final,7.9728,=,2017-12-07,https://www.eia.gov/electricity/annual/archive/2016/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 7972.8 MW net summer (8026.3 MW nameplate; 497 generators)
+2016,wind,actual_final,8.7541,=,2017-12-07,https://www.eia.gov/electricity/annual/archive/2016/html/epa_04_06.html,Table 4.6 Wind additions: 8754.1 MW net summer (8783.6 MW nameplate; 83 generators)
+2016,gas,actual_final,9.0741,=,2017-12-07,https://www.eia.gov/electricity/annual/archive/2016/html/epa_04_06.html,Table 4.6 Natural Gas additions: 9074.1 MW net summer (9851.3 MW nameplate; 110 generators)
+2016,nuclear,actual_final,1.122,=,2017-12-07,https://www.eia.gov/electricity/annual/archive/2016/html/epa_04_06.html,Table 4.6 Nuclear additions: 1122.0 MW net summer (1269.9 MW nameplate; 1 generator: Watts Bar 2)
+2018,total,plan,32.0,~,2018-05-07,https://www.eia.gov/todayinenergy/detail.php?id=36092,'EIA expects nearly 32 gigawatts (GW) of new electric generating capacity will come online in the United States in 2018' (Preliminary Monthly Electric Generator Inventory; written after January-February 2018 were reported so it is part actual)
+2018,gas,plan,20.0,=,2018-01-22,https://www.eia.gov/todayinenergy/detail.php?id=34612,'Power plant operators are scheduled to bring 20 gigawatts (GW) of new natural-gas fired generating capacity online in 2018' (January 2018 STEO article); the May 2018 article id=36092 says 'about 21 GW'
+2018,wind,plan,5.0,=,2018-05-07,https://www.eia.gov/todayinenergy/detail.php?id=36092,'EIA expects five gigawatts of capacity to come online by the end of 2018'
+2018,solar,plan,4.0,=,2018-05-07,https://www.eia.gov/todayinenergy/detail.php?id=36092,"'By the end of 2018, 4 GW of solar PV are expected to come online in the United States'"
+2018,total,actual_first,31.3,=,2019-03-11,https://www.eia.gov/todayinenergy/detail.php?id=38632,'31.3 gigawatts (GW) of generating capacity were added in the United States in 2018' (Preliminary Monthly Electric Generator Inventory December 2018)
+2018,gas,actual_first,19.3,=,2019-03-11,https://www.eia.gov/todayinenergy/detail.php?id=38632,'the 19.3 GW of the natural gas-fired capacity in the United States added in 2018'
+2018,wind,actual_first,6.6,=,2019-03-11,https://www.eia.gov/todayinenergy/detail.php?id=38632,"'In 2018, 6.6 GW of wind capacity came online' (almost 60% of it in December)"
+2018,solar,actual_first,4.9,=,2019-03-11,https://www.eia.gov/todayinenergy/detail.php?id=38632,'the 4.9 GW of U.S. solar photovoltaic (PV) additions in 2018'
+2018,total,actual_final,31.6473,=,2019-10-18,https://www.eia.gov/electricity/annual/archive/2018/html/epa_04_06.html,Electric Power Annual 2018 (released 2019-10-18; re-released 2020-06-23) Table 4.6 (Form EIA-860) generator additions: 31647.3 MW net summer (34212.7 MW nameplate; 748 generators); archived copy read 2026-10-16
+2018,solar,actual_final,4.8102,=,2019-10-18,https://www.eia.gov/electricity/annual/archive/2018/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 4810.2 MW net summer (4910.8 MW nameplate; 486 generators)
+2018,wind,actual_final,6.8738,=,2019-10-18,https://www.eia.gov/electricity/annual/archive/2018/html/epa_04_06.html,Table 4.6 Wind additions: 6873.8 MW net summer (6875.2 MW nameplate; 62 generators)
+2018,gas,actual_final,19.3998,=,2019-10-18,https://www.eia.gov/electricity/annual/archive/2018/html/epa_04_06.html,Table 4.6 Natural Gas additions: 19399.8 MW net summer (21809.3 MW nameplate; 122 generators)
+2019,total,plan,23.7,=,2019-01-10,https://www.eia.gov/todayinenergy/detail.php?id=37952,'23.7 gigawatts (GW) of new capacity additions and 8.3 GW of capacity retirements are expected' (Preliminary Monthly Electric Generator Inventory; month not named)
+2019,wind,plan,10.9,=,2019-01-10,https://www.eia.gov/todayinenergy/detail.php?id=37952,'A total of 10.9 GW of wind capacity is currently scheduled to come online in 2019'
+2019,solar,plan,4.3,=,2019-01-10,https://www.eia.gov/todayinenergy/detail.php?id=37952,'the 4.3 GW of utility-scale electric power sector solar photovoltaic (PV) capacity additions'
+2019,gas,plan,8.1,~,2019-01-10,https://www.eia.gov/todayinenergy/detail.php?id=37952,derived: natural gas is '34%' of the 23.7 GW (8.06 GW); the article names combined-cycle (6.1 GW) and combustion-turbine (1.4 GW) plants as the 'primarily' part
+2019,total,actual_first,23.0,~,2020-04-21,https://www.eia.gov/todayinenergy/detail.php?id=43415,"'installed nearly 23,000 megawatts (MW) of new generating capacity in 2019' (Preliminary Monthly Electric Generator Inventory; month not named)"
+2019,wind,actual_first,9.1,=,2020-04-21,https://www.eia.gov/todayinenergy/detail.php?id=43415,"'onshore wind (9,100 MW)'"
+2019,gas,actual_first,8.3,=,2020-04-21,https://www.eia.gov/todayinenergy/detail.php?id=43415,"'natural gas-fired (8,300 MW)'"
+2019,solar,actual_first,5.3,=,2020-04-21,https://www.eia.gov/todayinenergy/detail.php?id=43415,"'solar photovoltaic (PV) (5,300 MW)'"
+2019,total,actual_final,23.3017,=,2020-10-21,https://www.eia.gov/electricity/annual/archive/2019/html/epa_04_06.html,Electric Power Annual 2019 (released 2020-10-21; re-released 2021-02-22) Table 4.6 (Form EIA-860) generator additions: 23301.7 MW net summer (23918.2 MW nameplate; 748 generators); archived copy read 2026-10-16
+2019,solar,actual_final,5.4789,=,2020-10-21,https://www.eia.gov/electricity/annual/archive/2019/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 5478.9 MW net summer (5488.7 MW nameplate; 493 generators)
+2019,wind,actual_final,9.3146,=,2020-10-21,https://www.eia.gov/electricity/annual/archive/2019/html/epa_04_06.html,Table 4.6 Wind additions: 9314.6 MW net summer (9328.2 MW nameplate; 60 generators)
+2019,gas,actual_final,8.0753,=,2020-10-21,https://www.eia.gov/electricity/annual/archive/2019/html/epa_04_06.html,Table 4.6 Natural Gas additions: 8075.3 MW net summer (8631.8 MW nameplate; 106 generators)
 2020,total,plan,42.0,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'42 gigawatts (GW) of new capacity additions' (Preliminary Monthly Electric Generator Inventory; month not named)
 2020,wind,plan,18.5,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'18.5 GW of wind capacity'
 2020,solar,plan,13.5,=,2020-01-14,https://www.eia.gov/todayinenergy/detail.php?id=42495,'13.5 GW of solar capacity'
@@ -6,6 +44,12 @@ year,tech,kind,gw,bound,published,source,basis
 2020,solar,actual_first,11.7,~,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'nearly 12 GW': 6.0 GW reported through October plus 5.7 GW scheduled for November-December
 2020,wind,actual_first,20.9,~,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'21 GW': 6.0 GW reported through October plus 14.9 GW planned for November-December
 2020,wind,actual_later,14.0,>,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'record additions of more than 14 GW in both 2020 and 2021'
+2020,wind,actual_later,14.2,=,2021-03-03,https://www.eia.gov/todayinenergy/detail.php?id=46976,wind additions 'set a record in 2020' at '14.2 gigawatts (GW)' (Preliminary Monthly Electric Generator Inventory)
+2020,solar,actual_later,11.0,~,2022-03-07,https://www.eia.gov/todayinenergy/detail.php?id=51518,derived: '24 GW' of utility-scale solar PV added between 2020 and 2021; minus 'the 13 GW added in 2021'
+2020,total,actual_final,32.2382,=,2021-10-29,https://www.eia.gov/electricity/annual/archive/2020/html/epa_04_06.html,Electric Power Annual 2020 (released 2021-10-29; re-released 2022-03-10) Table 4.6 (Form EIA-860) generator additions: 32238.2 MW net summer (33106.7 MW nameplate; 872 generators); archived copy read 2026-10-16
+2020,solar,actual_final,10.4106,=,2021-10-29,https://www.eia.gov/electricity/annual/archive/2020/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 10410.6 MW net summer (10417.8 MW nameplate; 581 generators)
+2020,wind,actual_final,14.6649,=,2021-10-29,https://www.eia.gov/electricity/annual/archive/2020/html/epa_04_06.html,Table 4.6 Wind additions: 14664.9 MW net summer (14679.5 MW nameplate; 95 generators)
+2020,gas,actual_final,6.3682,=,2021-10-29,https://www.eia.gov/electricity/annual/archive/2020/html/epa_04_06.html,Table 4.6 Natural Gas additions: 6368.2 MW net summer (7186.8 MW nameplate; 95 generators)
 2021,total,plan,39.7,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'39.7 gigawatts (GW)' (inventory of October 2020; net summer capacity)
 2021,solar,plan,15.4,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'adding 15.4 GW of capacity to the grid in 2021'
 2021,wind,plan,12.2,=,2021-01-11,https://www.eia.gov/todayinenergy/detail.php?id=46416,'Another 12.2 GW of wind capacity is scheduled'
@@ -15,12 +59,23 @@ year,tech,kind,gw,bound,published,source,basis
 2021,solar,actual_later,13.4,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'the current record (13.4 GW in 2021)'
 2021,wind,actual_first,17.1,~,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'a record-high 17.1 GW': 9.9 GW reported through October plus 7.2 GW planned for November-December
 2021,wind,actual_later,14.0,>,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'record additions of more than 14 GW in both 2020 and 2021'
+2021,wind,actual_later,14.8,~,2022-03-07,https://www.eia.gov/todayinenergy/detail.php?id=51518,derived: '29 GW of new wind capacity' came online in 2020 and 2021 together; minus 14.2 GW for 2020 (article 46976)
+2021,total,actual_final,38.3537,=,2022-11-07,https://www.eia.gov/electricity/annual/archive/2021/html/epa_04_06.html,Electric Power Annual 2021 (released 2022-11-07) Table 4.6 (Form EIA-860) generator additions: 38353.7 MW net summer (39118.7 MW nameplate; 995 generators); archived copy read 2026-10-16
+2021,solar,actual_final,13.4183,=,2022-11-07,https://www.eia.gov/electricity/annual/archive/2021/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 13418.3 MW net summer (13467.9 MW nameplate; 563 generators)
+2021,wind,actual_final,14.9314,=,2022-11-07,https://www.eia.gov/electricity/annual/archive/2021/html/epa_04_06.html,Table 4.6 Wind additions: 14931.4 MW net summer (14961.8 MW nameplate; 80 generators)
+2021,gas,actual_final,6.6131,=,2022-11-07,https://www.eia.gov/electricity/annual/archive/2021/html/epa_04_06.html,Table 4.6 Natural Gas additions: 6613.1 MW net summer (7297.5 MW nameplate; 197 generators)
+2021,battery,actual_final,3.2531,<,2022-11-07,https://www.eia.gov/electricity/annual/archive/2021/html/epa_04_06.html,upper bound (at most): Table 4.6 Other Energy Sources additions 3253.1 MW net summer (115 generators); the table's notes put batteries in that row with hydrogen and purchased steam and others
 2022,total,plan,46.1,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'46.1 gigawatts (GW)' (inventory of October 2021)
 2022,solar,plan,21.5,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'grow by 21.5 GW in 2022'
 2022,gas,plan,9.6,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'9.6 GW of new natural gas-fired capacity'
 2022,wind,plan,7.6,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'Another 7.6 GW of wind capacity'
 2022,battery,plan,5.1,=,2022-01-10,https://www.eia.gov/todayinenergy/detail.php?id=50818,'grow by 5.1 GW'
 2022,solar,actual_later,10.3,~,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,derived: utility-scale solar additions fell 23% in 2022 from 13.4 GW in 2021 (13.4 x 0.77)
+2022,total,actual_final,30.7795,=,2023-10-19,https://www.eia.gov/electricity/annual/archive/2022/html/epa_04_06.html,Electric Power Annual 2022 (released 2023-10-19) Table 4.6 (Form EIA-860) generator additions: 30779.5 MW net summer (31692.3 MW nameplate; 707 generators); archived copy read 2026-10-16
+2022,solar,actual_final,11.0532,=,2023-10-19,https://www.eia.gov/electricity/annual/archive/2022/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 11053.2 MW net summer (11058.3 MW nameplate; 410 generators)
+2022,wind,actual_final,9.1545,=,2023-10-19,https://www.eia.gov/electricity/annual/archive/2022/html/epa_04_06.html,Table 4.6 Wind additions: 9154.5 MW net summer (9174.5 MW nameplate; 41 generators)
+2022,gas,actual_final,6.2101,=,2023-10-19,https://www.eia.gov/electricity/annual/archive/2022/html/epa_04_06.html,Table 4.6 Natural Gas additions: 6210.1 MW net summer (7042.9 MW nameplate; 96 generators)
+2022,battery,actual_final,4.1096,<,2023-10-19,https://www.eia.gov/electricity/annual/archive/2022/html/epa_04_06.html,upper bound (at most): Table 4.6 Other Energy Sources additions 4109.6 MW net summer (108 generators); the table's notes put batteries in that row with hydrogen and purchased steam and others
 2023,total,plan,54.5,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'54.5 gigawatts (GW)' (inventory of December 2022)
 2023,solar,plan,29.1,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'29.1 GW of solar power'
 2023,battery,plan,9.4,=,2023-02-06,https://www.eia.gov/todayinenergy/detail.php?id=55419,'9.4 GW of battery storage'
@@ -31,6 +86,11 @@ year,tech,kind,gw,bound,published,source,basis
 2023,solar,actual_first,18.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'last year's 18.4 GW increase'
 2023,solar,actual_later,19.0,=,2024-05-08,https://www.eia.gov/todayinenergy/detail.php?id=62003,'19 gigawatts (GW) of new utility-scale solar PV' (Form EIA-860M)
 2023,battery,actual_first,6.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'6.4 GW of new battery storage capacity was added'
+2023,total,actual_final,42.318,=,2024-10-17,https://www.eia.gov/electricity/annual/archive/2023/html/epa_04_06.html,Electric Power Annual 2023 (released 2024-10-17) Table 4.6 (Form EIA-860) generator additions: 42318.0 MW net summer (43881.7 MW nameplate; 838 generators)
+2023,solar,actual_final,18.8876,=,2024-10-17,https://www.eia.gov/electricity/annual/archive/2023/html/epa_04_06.html,Table 4.6 Solar Thermal and Photovoltaic additions: 18887.6 MW net summer (19274.0 MW nameplate; 527 generators)
+2023,wind,actual_final,6.5864,=,2024-10-17,https://www.eia.gov/electricity/annual/archive/2023/html/epa_04_06.html,Table 4.6 Wind additions: 6586.4 MW net summer (6635.2 MW nameplate; 39 generators)
+2023,gas,actual_final,8.7013,=,2024-10-17,https://www.eia.gov/electricity/annual/archive/2023/html/epa_04_06.html,Table 4.6 Natural Gas additions: 8701.3 MW net summer (9728.4 MW nameplate; 104 generators)
+2023,nuclear,actual_final,1.114,=,2024-10-17,https://www.eia.gov/electricity/annual/archive/2023/html/epa_04_06.html,Table 4.6 Nuclear additions: 1114.0 MW net summer (1 generator: Vogtle 3; Vogtle 4 followed in 2024)
 2024,total,plan,62.8,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'62.8 gigawatts (GW)' (inventory of December 2023)
 2024,solar,plan,36.4,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'the scheduled 36.4 GW'
 2024,battery,plan,14.3,=,2024-02-15,https://www.eia.gov/todayinenergy/detail.php?id=61424,'add 14.3 GW of battery storage'

@@ -6,25 +6,34 @@ Do U.S. generators listed as planned in EIA-860M come online when planned? Do pl
 
 Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data files in `docs/` and `data/`: CC BY 4.0.
 
-## First result: EIA's headline plans against EIA's own actuals, 2020-2026 (0.2.1)
+## First result: EIA's headline plans against EIA's own actuals, 2020-2026 (0.2.3)
 
 [`docs/headline-plans.md`](docs/headline-plans.md) puts seven years of EIA's start-of-year "developers plan N GW" figures next to what EIA later reported as added, by technology. Every number is in [`data/eia_headline_plans.csv`](data/eia_headline_plans.csv) with its EIA page. `python headline.py` (standard library only) rebuilds the table.
 
-- Total additions came in at 74%, 80% and 84% of the start-of-year plan in 2023, 2024 and 2025. Solar ranged from about 48% (2022) to 87% (2021).
-- Wind beat its plan in 2020-2021 and has fallen short since (63% in 2024, under 77% in 2025). Batteries rose from 68% to 82% over 2023-2025.
-- Until 2022, the "last year" figures in EIA's January articles included additions still scheduled for November and December. 2021 solar went from 15.5 GW at first report to 13.4 GW later.
+- Over 2020-2024, 79% of the capacity planned at the start of each year was added that year (194 of 245 GW, EIA-860 final figures): 77%, 97%, 67%, 78% and 80%. 2025's first count is 84%.
+- Solar fell short every year (51% in 2022 to 87% in 2021) and makes up most of the gap. Wind came to 96% of plan over 2020-2024 and beat it in 2021-2023. Batteries rose from 68% to 82% over 2023-2025.
+- Until 2022, the "last year" figures in EIA's January articles included additions still scheduled for November and December. 2021 solar went from 15.5 GW at first report to 13.4 GW later. Those early first counts were later revised down by 11-30%; since 2023 first counts have been revised up by 1-5%.
 - For 2025 solar, EIA's Short-Term Energy Outlook (26 GW) came closer to the 27.2 GW added than the developers' plan (32.5 GW).
-- A range for 2026, stated in advance: 64-72 GW added against 86 GW planned. It will be scored against EIA's figure around February 2027.
+- Stated in advance: final 2025 additions about 55.0-55.5 GW (Electric Power Annual 2025), and 66.8-72.3 GW added in 2026 against 86 GW planned (63.8-72.3 in 0.2.1, before the 2023 correction). Both are scored when EIA publishes.
 
-## Second result: planned retirements, 2020-2026 (0.2.2)
+## Second result: planned retirements, 2020-2026 (0.2.3)
 
 [`docs/headline-retirements.md`](docs/headline-retirements.md) does the same for EIA's start-of-year "operators plan to retire N GW" figures, from [`data/eia_headline_retirements.csv`](data/eia_headline_retirements.csv). `python headline.py --retirements` rebuilds it.
 
-- Retirement plans miss in both directions. Total retirements came in at 87% of plan in 2023, 174% in 2024 (EIA-860 final) and 37% in 2025. Additions came in under plan every year.
-- Until 2024, more coal retired than was planned at the start of each year: 207% (2021), 109% (2022), about 121% (2023) and 172% (2024). In 2025 it was 32% (2.6 of 8.1 GW). EIA attributes the shortfall to emergency orders and delayed or cancelled retirements.
+- Until 2025, start-of-year retirement plans understated what retired. On EIA's final (EIA-860) figures, 2020-2024 retirements came to 121% of plan in total (98-174% each year). In 2025 only 37% retired (4.6 of 12.3 GW, first count). Additions came in under plan every year.
+- Coal retired at or above plan every year from 2020 to 2024: 180%, 206%, 109%, 104% and 172%. In 2025 it was 32% (2.6 of 8.1 GW). EIA attributes the shortfall to emergency orders and delayed or cancelled retirements.
+- EIA's first count of what retired was revised up by 13-21% in four of five comparable cases (2024 coal: -1%).
 - The same 2.2 GW of California gas plants appear in both the 2020 and the 2023 retirement plans. In 2021, 4.1 GW of the 5.1 GW of planned nuclear retirements reversed course.
 - EIA's January 2025 forecast of 11 GW of coal retirements in 2025 was further off than the 8.1 GW plan.
-- The 2026 range from the same rule is 4.1-19.1 GW against about 11 GW planned. The start-of-year retirement figure says little about the year.
+- Stated in advance: final 2025 retirements about 5.2-5.5 GW. The 2026 range from the same rule is 4.1-19.1 GW against about 11 GW planned. The start-of-year retirement figure says little about the year.
+
+## Third result: the earlier years, 2016-2019 (0.2.4)
+
+[`docs/headline-2016-2019.md`](docs/headline-2016-2019.md) extends both records back to 2016 (no usable 2017 plan was found), again against EIA-860 final figures. Both CSVs now cover 2016-2026 (no 2017).
+
+- In 2016, 2018 and 2019 the headline additions plans were close: 82.7 GW built against 81.7 GW planned (101%), against 79% in 2020-2024. The shortfall since 2020 is new. Solar beat its small plans in 2018 and 2019 and fell short of its larger plans in every year after.
+- Coal retirements met or beat the January plan in every year from 2018 to 2024 (139% pooled; 2019 alone was 287%, 12.9 GW against 4.5 GW). 2025 is the first shortfall in this record.
+- The 2016 and 2018 plans were published in March and May, after part of the year was known, so they had a head start; the clean January 2019 plan alone is still 98%.
 
 ## What it does
 
@@ -68,7 +77,9 @@ The tests for `eia860m_slip.py` run on hand-built changelogs with known outcomes
 
 ## Status
 
-0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests. The first full run on the live PUDL table is queued, and its tables will be added under `docs/` when they are in. Two checks are planned for that run: the 2025 row of the retirement table should be near EIA's published 12.3 GW planned and 4.6 GW retired in 2025, and its annual additions table should sit close to the actual column of `docs/headline-plans.md`.
+0.2.4: plans and EIA-860 finals for 2016, 2018 and 2019 (docs/headline-2016-2019.md). 0.2.3: EIA-860 final additions and retirements for 2020-2023 from the archived Electric Power Annual editions, correcting three additions claims and two retirement figures (see the Corrections sections of both docs). 0.2.3 and 0.2.4 were released together. 0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests.
+
+The generator-level code has had its first full run on the live PUDL table (report months to August 2026). Its results are not published yet, for two reasons found in that run. First, PUDL gives a generator that is still listed a last `valid_until_date` equal to the last report month, not a blank, so this version counts every still-listed operating generator as having "left EIA-860M". This does not change the retirement shares of closed years, but the count of generators that left is wrong in this version and should not be quoted; the fix is in a later release. Second, some planned generators may change ids between reports, which would make a project look late when it was renamed; a check of this is under way. Generator-level tables will be added under `docs/` once both are settled.
 
 ## Prior art
 

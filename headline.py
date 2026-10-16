@@ -30,7 +30,7 @@ import argparse
 import csv
 import os
 
-__version__ = "0.2.2"
+__version__ = "0.2.4"
 
 KINDS = ("plan", "actual_first", "actual_later", "actual_final", "steo")
 ACTUAL_RANK = ("actual_final", "actual_later", "actual_first")
