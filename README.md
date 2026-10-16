@@ -39,7 +39,7 @@ Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data fi
 
 [`docs/coal-plan-misses.md`](docs/coal-plan-misses.md) traces the coal gaps to named decisions, from public documents.
 
-- Overshoot years came from closures decided during the year. In 2019 about 80% of the ~8 GW excess traces to five such decisions (Bruce Mansfield, Gorgas, Hammond, Vistra's Illinois plants). In 2024 about 71% of the excess was one plant, Rush Island.
+- Overshoot years came from closures decided during the year. In 2019 about 80% of the ~8 GW excess traces to five such decisions (Bruce Mansfield, Gorgas, Hammond, Vistra's Illinois plants). In 2024 about 71% of the excess was one plant, Rush Island. In 2021 most of the excess was retirements already dated to later years and brought forward (Schahfer, G.G. Allen, Gallagher, River Rouge).
 - In 2025 every decision made during the year was a deferral: DOE emergency orders (3.2 GW) and voluntary delays (2.2 GW). By EIA's own accounting, no retirement was added during the year.
 - In 2026, 4.4 GW (69%) of the 6.4 GW coal plan has already been deferred by name: DOE orders for Campbell, Schahfer, Craig 1 and Culley 2; TVA's Cumberland 2; South Oak Creek 7-8.
 - Stated in advance: EIA's first count of 2026 coal retirements will be 0.3-2.5 GW (central 1.3 GW), below 2025's 2.6 GW.
@@ -50,7 +50,17 @@ Made by MV2 of Munim, Inc. with AI agents. Code: Apache-2.0. Results and data fi
 
 - All three ranges missed: 2025 additions were 56.6 GW (range 55.0-55.5), solar 29.5 GW (27.9-28.0), retirements 5.11 GW (5.2-5.5). The first count of additions was revised up 6.8%, more than in 2023 or 2024; retirements +11%, less. Two years of revisions were too thin a base. The ranges were written before we read the file, but after EIA had released it.
 - 2025 additions were 90% of the January plan, the best year since 2021. Retirements were 42% and coal 33%, still the lowest in the record.
-- Stated now: Table 4.6 of the Electric Power Annual 2025 will print 56,609.0 MW of additions, 5,114.4 MW of retirements and 2,688.4 MW of coal retirements (net summer), each within 0.1%.
+- Stated now: Table 4.6 of the Electric Power Annual 2025 will print 56,609.0 MW of additions, 5,114.4 MW of retirements and 2,688.4 MW of coal retirements (net summer), each within 0.1%. The coal figure counts Prairie Creek 1's blank summer rating as zero. If EIA counts its 14.6 MW nameplate instead, the coal figure misses (see [`docs/coal-rows.md`](docs/coal-rows.md)).
+
+## Sixth result: coal, row by row, and no coal retired in January-August 2026 (2026-10-16)
+
+[`docs/coal-rows.md`](docs/coal-rows.md) checks the fourth result against EIA-860M's own rows (code in [`tools/coal-rows/`](tools/coal-rows/), six predictions written before the run: five held, one missed).
+
+- The row-level plans match EIA's start-of-year coal figures within 13% in all six years tested (2021-2026). Row-level retirements match Table 4.6 within 7% in 6 of 7 years (2018-2024; 2021 is 12% high).
+- **As of the August 2026 report, no U.S. coal generator has retired in 2026.** Every year from 2016 to 2025 had coal retirements in January-August. The smallest was 2025, with 793 MW. EIA's Electric Power Monthly Table 6.4 (data for July 2026) lists no coal unit either.
+- Of the 6,354 MW in the 2026 coal plan, 44% has been moved out of the year or left undated, and 40% is held open by DOE emergency orders. Only Sherburne County 1 (680 MW) is still dated 2026 with no deferral on record.
+- In 2025 only 26% of the December plan's MW retired on time. In every earlier year, 2016-2024, it was 72% or more.
+- The eight 2025 coal retirements on the final Form EIA-860 are named. Summer capacity exceeds nameplate (2,688 vs 2,626 MW) because Intermountain 1-2 are rated 900 MW summer against 820 MW nameplate.
 
 ## What it does
 
@@ -82,26 +92,28 @@ The tool downloads it if `--data-dir` holds no parquet file. `eia860_final.py` r
 
 ```
 pip install pandas pyarrow openpyxl
-python -m unittest -v test_eia860m_slip test_headline test_eia860_final
+python -m unittest -v test_eia860m_slip test_headline test_eia860_final test_coal25
 python eia860m_slip.py --data-dir data --out-dir out
 python headline.py
 python headline.py --retirements
 python eia860_final.py --data-dir data --out-dir out
+python coal25.py --data-dir data --out-dir out
+cd tools/coal-rows && python -m unittest -v test_coal_rows && python coal_rows.py --data-dir ../../data --out-dir ../../out
 ```
 
-Outputs: `profile.json` (what the data looks like), `slip.json` and `slip.md` (planned operating months), `retire.json` and `retire.md` (planned retirement months), and the per-row cohort tables as gzipped CSV. `eia860_final.py` writes `eia860_final.json` and `eia860_final.md`; the first run's output is in [`docs/eia860-final-output.md`](docs/eia860-final-output.md) and [`data/eia860_final_2025.json`](data/eia860_final_2025.json).
+Outputs: `profile.json` (what the data looks like), `slip.json` and `slip.md` (planned operating months), `retire.json` and `retire.md` (planned retirement months), and the per-row cohort tables as gzipped CSV. `eia860_final.py` writes `eia860_final.json` and `eia860_final.md`; the first run's output is in [`docs/eia860-final-output.md`](docs/eia860-final-output.md) and [`data/eia860_final_2025.json`](data/eia860_final_2025.json). `coal25.py` writes `coal25.md` and `coal25.json`, and `coal_rows.py` writes `coal_rows.md` and `coal_rows.json` plus two CSVs. The first runs are in [`docs/coal25-output.md`](docs/coal25-output.md), [`docs/coal-rows-output.md`](docs/coal-rows-output.md), [`data/coal_retired_generators.csv`](data/coal_retired_generators.csv) and [`data/coal_plan_2026_followup.csv`](data/coal_plan_2026_followup.csv).
 
-The tests for `eia860m_slip.py` run on hand-built changelogs with known outcomes and need pandas; the tests for `eia860_final.py` build a small workbook and need pandas and openpyxl. Without them those tests are skipped. `test_headline` needs only the standard library.
+The tests for `eia860m_slip.py` run on hand-built changelogs with known outcomes and need pandas; the tests for `eia860_final.py` and `coal25.py` build a small workbook and need pandas and openpyxl. Without them those tests are skipped. `test_headline` needs only the standard library. `tools/coal-rows/` needs pandas and is run from its own folder.
 
 ## Status
 
-0.2.5 (2026-10-16): `eia860_final.py` and the early scoring of the 2025 ranges (docs/eia860-2025-scored.md); both headline docs note the result. 2026-10-16 (docs only, no release): docs/coal-plan-misses.md, with a 2026 coal retirement range stated in advance. 0.2.4: plans and EIA-860 finals for 2016, 2018 and 2019 (docs/headline-2016-2019.md). 0.2.3: EIA-860 final additions and retirements for 2020-2023 from the archived Electric Power Annual editions, correcting three additions claims and two retirement figures (see the Corrections sections of both docs). 0.2.3 and 0.2.4 were released together. 0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests.
+2026-10-16 (docs and tools, no release): docs/coal-rows.md, the row-level coal check with `tools/coal-rows/` and `coal25.py`; docs/coal-plan-misses.md gains a 2021 section and a 2026 update (the stated 2026 range is unchanged). 0.2.5 (2026-10-16): `eia860_final.py` and the early scoring of the 2025 ranges (docs/eia860-2025-scored.md); both headline docs note the result. 2026-10-16 (docs only, no release): docs/coal-plan-misses.md, with a 2026 coal retirement range stated in advance. 0.2.4: plans and EIA-860 finals for 2016, 2018 and 2019 (docs/headline-2016-2019.md). 0.2.3: EIA-860 final additions and retirements for 2020-2023 from the archived Electric Power Annual editions, correcting three additions claims and two retirement figures (see the Corrections sections of both docs). 0.2.3 and 0.2.4 were released together. 0.2.2: the retirement headline comparison. 0.2.1: the additions headline comparison. 0.2.0: generator-level code and tests.
 
 The generator-level code has had its first full run on the live PUDL table (report months to August 2026). Its results are not published yet, for two reasons found in that run. First, PUDL gives a generator that is still listed a last `valid_until_date` equal to the last report month, not a blank, so this version counts every still-listed operating generator as having "left EIA-860M". This does not change the retirement shares of closed years, but the count of generators that left is wrong in this version and should not be quoted; the fix is in a later release. Second, some planned generators may change ids between reports, which would make a project look late when it was renamed; a check found that linking renamed units changes the on-time share by less than 0.001 (15 of 1,249 exits link). Generator-level tables will be added under `docs/` once the first fix ships.
 
 ## Prior art
 
-EIA's Today in Energy has compared planned and actual additions and retirements for single years, and broke 2025's coal shortfall down by cause. SynMax, OnLocation and Environment America have looked at delayed coal retirements. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, no scoring of planned retirement months, and no compiled multi-year table of EIA's headline plans (additions or retirements) against its own later actuals. If you know of one, open an issue.
+EIA's Today in Energy has compared planned and actual additions and retirements for single years, and broke 2025's coal shortfall down by cause. SynMax, OnLocation and Environment America have looked at delayed coal retirements. We found no multi-year, all-technology, lead-time-resolved scoring of EIA-860M planned months as forecasts, no scoring of planned retirement months, no compiled multi-year table of EIA's headline plans (additions or retirements) against its own later actuals, and no row-level split of coal retirements by what EIA's start-of-year inventory said about them. If you know of one, open an issue.
 
 ## Licence
 

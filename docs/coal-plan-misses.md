@@ -1,6 +1,6 @@
-# Why coal retirements miss EIA's January plan: 2019, 2024, 2025, and a prediction for 2026
+# Why coal retirements miss EIA's January plan: 2019, 2021, 2024, 2025, and a prediction for 2026
 
-Made by MV2 of Munim, Inc. with AI agents, 2026-10-16. CC BY 4.0. Every number below comes from the page cited next to it. This is a desk analysis of public documents. No EIA-860M rows were diffed for it (see Limits).
+Made by MV2 of Munim, Inc. with AI agents, 2026-10-16. CC BY 4.0. Every number below comes from the page cited next to it. The first version was a desk analysis of public documents. The row-level check it called for has since been done: see [`coal-rows.md`](coal-rows.md) and the 2021 and "2026 update" sections below.
 
 ## Summary
 
@@ -14,11 +14,12 @@ Made by MV2 of Munim, Inc. with AI agents, 2026-10-16. CC BY 4.0. Every number b
 | Year | January plan (GW) | Retired (GW) | Ratio | Main cause of the gap |
 |---|---|---|---|---|
 | 2019 | 4.5 | 12.9 (final) | 287% | Five closures decided or brought forward after the plan, about 6.5 of ~8 GW excess |
+| 2021 | 2.7 | 5.56 (final) | 206% | Retirements already dated to later years brought forward into 2021 (about 1.9 GW), plus closures with no date on file |
 | 2024 | 2.3 | 3.96 (final) | 172% | Rush Island (about 1.18 GW) closed 2024-10-15; it had been expected in mid-to-late 2025 |
 | 2025 | 8.1 (8.0 and 8.5 in later EIA articles) | 2.6 (first count) | 32% | DOE emergency orders (3.2 GW) and voluntary delays (2.2 GW) |
 | 2026 | 6.4 | (prediction: 0.3-2.5) | (5-39%) | 4.4 GW deferred by name since the plan |
 
-Ratios for 2020-2024 (180%, 206%, 109%, 104%, 172%) are in [`headline-retirements.md`](headline-retirements.md). 2021 (206%) is not yet explained this way.
+Ratios for 2020-2024 (180%, 206%, 109%, 104%, 172%) are in [`headline-retirements.md`](headline-retirements.md).
 
 ## 2019: 287% of plan
 
@@ -34,15 +35,33 @@ The plan was 4.5 GW of coal, half of it Navajo ([EIA, Jan 2019](https://www.eia.
 
 Sources: [EIA Electric Power Monthly update, Jan 2020](https://www.eia.gov/electricity/monthly/update/archive/january2020/), [FirstEnergy Solutions, 2019-08-09](https://www.prnewswire.com/news-releases/firstenergy-solutions-accelerates-deactivation-of-bruce-mansfield-unit-3-300899441.html), [PJM TEAC 2018-11-08](https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/20181108/20181108-generation-deactivation-notification.ashx), [Sierra Club on Gorgas](https://www.sierraclub.org/press-releases/2019/02/alabama-power-announces-retirement-plant-gorgas), [Georgia PSC, 2019-07-16](https://psc.ga.gov/site/assets/files/4279/media_advisory_for_7-16-19_gpc_irp_for_web.pdf), [Vistra 10-Q Q3 2019](https://www.sec.gov/Archives/edgar/data/1692819/000169281919000018/vistra-20190930x10q.htm). The MW figures mix PJM, EIA and nameplate bases, so the 6.5 GW sum is good to about ±0.3 GW.
 
+The row-level check agrees: in the December 2018 inventory, 8.80 GW of the 9.37 GW that retired outside the plan had **no retirement date on file at all** ([`coal-rows.md`](coal-rows.md)).
+
+## 2021: 206% of plan (added 2026-10-16, from EIA-860M rows)
+
+The plan was 2.7 GW; the final count was 5.56 GW. This overshoot came about differently from 2019. In the December 2020 inventory, 3.54 GW of what retired in 2021 was outside the plan (row-level total 6.24 GW, see Limits). Of that 3.54 GW, 1.87 GW **was already dated to retire in a later year** and was brought forward:
+
+| Plant | MW | In the December 2020 inventory | Retired |
+|---|---|---|---|
+| R.M. Schahfer (two units), IN | 903 | later year | 2021-10 |
+| G.G. Allen (two units), NC | 419 | later year | 2021-12 |
+| R. Gallagher (two units), IN | 280 | later year | 2021-06 |
+| River Rouge, MI | 272 | later year | 2021-05 |
+| Dolet Hills, LA | 645 | no date | 2021-12 |
+| C.D. McIntosh Jr, FL | 342 | no date | 2021-04 |
+| Chalk Point Steam (two units), MD | 670 | not listed as operating coal | 2021-06 |
+
+So the three overshoot years differ. In 2019 the excess was closures with no date on file. In 2021 it was mostly dated retirements moved earlier. In 2024 it was one plant, Rush Island, moved earlier from 2025. A January plan misses all three kinds, because it counts only dates inside the year. The pre-registered test of this split held narrowly on the October 2020 inventory (2.19 vs 1.91 GW).
+
 ## 2024: 172% of plan
 
-The plan was 2.3 GW. EIA named Seminole 1 (626 MW) and Homer City 1 (626 MW) ([EIA, Feb 2024](https://www.eia.gov/todayinenergy/detail.php?id=61425)). The final count was 3,958.6 MW. Rush Island (Ameren Missouri, about 1,178-1,195 MW) could not have been in the plan. The two named units plus Rush Island already exceed 2.3 GW. MISO had kept the plant running until transmission upgrades expected by mid-2025 ([Utility Dive, 2022](https://www.utilitydive.com/news/ameren-missouri-coal-rush-island-miso-ferc/630226/)), but it closed on 2024-10-15. That is about 71% of the 1.66 GW excess. The second half of the year confirms it. At mid-year EIA showed 0.7 GW still scheduled ([EIA, Aug 2024](https://www.eia.gov/todayinenergy/detail.php?id=62864)); 1.87 GW actually retired in H2, and the 1.17 GW difference matches Rush Island.
+The plan was 2.3 GW. EIA named Seminole 1 (626 MW) and Homer City 1 (626 MW) ([EIA, Feb 2024](https://www.eia.gov/todayinenergy/detail.php?id=61425)). The final count was 3,958.6 MW. Rush Island (Ameren Missouri, about 1,178-1,195 MW) could not have been in the plan. The two named units plus Rush Island already exceed 2.3 GW. MISO had kept the plant running until transmission upgrades expected by mid-2025 ([Utility Dive, 2022](https://www.utilitydive.com/news/ameren-missouri-coal-rush-island-miso-ferc/630226/)), but it closed on 2024-10-15. That is about 71% of the 1.66 GW excess. The second half of the year confirms it. At mid-year EIA showed 0.7 GW still scheduled ([EIA, Aug 2024](https://www.eia.gov/todayinenergy/detail.php?id=62864)); 1.87 GW actually retired in H2, and the 1.17 GW difference matches Rush Island. The rows confirm it too: the December 2023 inventory dated Rush Island's 1,178 MW to a later year.
 
 ## 2025: 32% of plan
 
 From [EIA, 2026-04-13](https://www.eia.gov/todayinenergy/detail.php?id=67427):
 
-- **Retired:** 2.6 GW at four plants: Indian River 4, DE (410 MW, Feb); Cholla 1 and 3, AZ (383 MW, Mar); Intermountain 1-2, UT (1,800 MW, Oct-Nov); Prairie Creek 1, IA (15 MW, Dec). These add up to 2,608 MW.
+- **Retired:** 2.6 GW at four plants: Indian River 4, DE (410 MW, Feb); Cholla 1 and 3, AZ (383 MW, Mar); Intermountain 1-2, UT (1,800 MW, Oct-Nov); Prairie Creek 1, IA (15 MW, Dec). These add up to 2,608 MW. The final Form EIA-860 adds Schiller 4 and 6, NH (95 MW, Oct), whose retirement first appeared in EIA-860M in February 2026 ([`coal-rows.md`](coal-rows.md)).
 - **Not retired:** 4.8 GW postponed to a later year and 1.1 GW cancelled. 2.6 + 4.8 + 1.1 = 8.5 GW, which is the planned figure in this article.
 - **DOE Section 202(c) orders:** J.H. Campbell 1-3, MI (1,331 MW); Centralia 2, WA (670); R.M. Schahfer 17-18, IN (722); F.B. Culley 2, IN (90); Craig 1, CO (427). Together 3,240 MW, 55% of the 5.9 GW that did not retire. Centralia 2 is now to be converted to gas in 2028.
 - **Voluntary delays:** Brandon Shores (MD), South Oak Creek (WI) and Comanche (CO), 2.2 GW combined.
@@ -63,7 +82,7 @@ The plan is 6.4 GW of coal, from EIA's December 2025 inventory ([EIA, 2026-02-23
 | R.M. Schahfer 17-18, IN | 722 | DOE order 202-26-46, to 2026-12-18 | DOE |
 | South Oak Creek 7-8, WI | 616 | We Energies moved retirement to end of 2027 (April 2026) | [RTO Insider](https://www.rtoinsider.com/129786-we-energies-defers-oak-creek-coal-units-retirement-through-2027/) |
 | Craig 1, CO | 427 | DOE order 202-26-49, to 2026-12-25 | DOE |
-| Comanche 2, CO | 335 | not checked | |
+| Comanche 2, CO | 335 | not checked (see the 2026 update below) | |
 | F.B. Culley 2, IN | 90 | DOE order 202-26-47, to 2026-12-18 | DOE |
 
 - Deferred by name: 4,417 MW, or 69% of the plan. DOE orders account for 2,570 MW of it, voluntary decisions for 1,847 MW.
@@ -80,13 +99,24 @@ The plan is 6.4 GW of coal, from EIA's December 2025 inventory ([EIA, 2026-02-23
 
 It will be scored against EIA's first count, and then against the final Form EIA-860 for 2026 (Electric Power Annual Table 4.6, around September 2027). This file's commit date on GitHub is the record that the prediction came first.
 
+### 2026 update (added later on 2026-10-16, from EIA-860M rows; the prediction above is unchanged)
+
+- **The plan's rows** (December 2025 inventory) are 16 generators, 6,354 MW. EIA left 1,603 MW of them unnamed: Grand River Energy Center 2 (OK, 479 MW), Kingston 7-9 (TN, 444 MW) and Sherburne County 1 (MN, 680 MW).
+- **Comanche 2** is still dated 2026-12. On 2026-06-15, though, Xcel asked the Colorado PUC to extend it to 2028-03-31 (Proceeding 26A-0235E). No decision was found.
+- **Grand River Energy Center 2** now has no retirement date; GRDA reversed its plan to decommission it, with DOE funding $28.5M of upgrades. **Kingston 7-9** are re-dated to 2034-12.
+- **Nothing retired.** As of the August 2026 report, no coal generator has retired in 2026, in the plan or outside it. EIA's Electric Power Monthly Table 6.4 (data for July 2026) agrees. In 2016-2025, every year had coal retirements in January-August.
+- **One unit left.** Sherburne County 1 (680 MW) is the only plan unit still dated 2026 with no deferral on record. That points to the lower half of the stated range.
+
+Unit-by-unit table and sources: [`coal-rows.md`](coal-rows.md).
+
 ## Limits
 
-- **Plan membership** is inferred from dates and from EIA's own sums. It is not read from the December EIA-860M planned-retirement rows. A row-level diff using this repo's code on the PUDL table would check it.
-- **2026 retirements so far** were not read. Some of the ~1.65 GW EIA did not name may already have retired or been deferred.
+- **Plan membership** in the 2019 and 2024 sections was first inferred from dates and from EIA's own sums. It has since been checked row by row: the row-level plan is within 13% of EIA's figure in each of 2021-2026, and the classes agree with the stories above ([`coal-rows.md`](coal-rows.md)).
+- **2021 rows run 12% above the final count** (6.24 vs 5.56 GW). The gap is close to Chalk Point 1-2 (670 MW), which the 2020 inventories do not list as operating coal. How the final EIA-860 classes them is not checked.
+- **2026 retirements so far** are read from EIA-860M through the August 2026 report. Retirements can be reported months late.
 - **Capacity bases differ** across sources (EIA net summer, PJM, nameplate). EIA's figures are used wherever EIA gives one.
 - **No court documents were read.** The 2026 ruling is taken from a law-firm summary. The 2024 Rush Island court ruling is taken from news reports.
-- **Sample:** the 2019/2024 versus 2025/2026 contrast rests on four years. It describes those years; it is not a model.
+- **Sample:** the contrast between the overshoot years (2019, 2021, 2024) and the shortfall years (2025, 2026) rests on five years. It describes those years; it is not a model.
 
 ## Prior art
 

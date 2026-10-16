@@ -1,0 +1,17 @@
+key,plant,state,generator_id,mw,planned_at_dec,now,planned_now,retired,last_report
+1012/2,F B Culley,IN,2,90.0,2026-03,still_dated_this_year,2026-09,,2026-06
+165/2,GREC,OK,2,478.9,2026-06,no_date_now,,,2026-05
+1710/1,J H Campbell,MI,1,260.0,2026-02,still_dated_this_year,2026-11,,2026-08
+1710/2,J H Campbell,MI,2,279.8,2026-02,still_dated_this_year,2026-11,,2026-08
+1710/3,J H Campbell,MI,3,790.7,2026-02,still_dated_this_year,2026-11,,2026-08
+3399/2,Cumberland (TN),TN,2,1231.0,2026-12,dated_later,2034-12,,2026-07
+3407/7,Kingston,TN,7,147.0,2026-12,dated_later,2034-12,,2026-07
+3407/8,Kingston,TN,8,150.0,2026-12,dated_later,2034-12,,2026-07
+3407/9,Kingston,TN,9,147.0,2026-12,dated_later,2034-12,,2026-07
+4041/7,South Oak Creek,WI,7,306.5,2026-12,dated_later,2027-12,,2026-03
+4041/8,South Oak Creek,WI,8,309.5,2026-12,dated_later,2027-12,,2026-03
+470/2,Comanche (CO),CO,2,335.0,2026-12,still_dated_this_year,2026-12,,2025-12
+6021/1,Craig (CO),CO,1,427.0,2026-03,still_dated_this_year,2026-09,,2026-06
+6085/17,R M Schahfer,IN,17,361.0,2026-06,still_dated_this_year,2026-10,,2026-06
+6085/18,R M Schahfer,IN,18,361.0,2026-06,still_dated_this_year,2026-10,,2026-06
+6090/1,Sherburne County,MN,1,680.0,2026-12,still_dated_this_year,2026-12,,2024-12

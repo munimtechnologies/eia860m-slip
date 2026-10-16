@@ -1,0 +1,352 @@
+year,key,plant,state,utility,generator_id,mw,retired,first_dated,class_oct,planned_at_oct,class_dec,planned_at_dec
+2016,10071/GEN1,Portsmouth Genco LLC,VA,Portsmouth Operating Services LLC,GEN1,57.5,2016-05,2015-07,planned_same_year,2016-05,planned_same_year,2016-05
+2016,10071/GEN2,Portsmouth Genco LLC,VA,Portsmouth Operating Services LLC,GEN2,57.5,2016-05,2015-07,planned_same_year,2016-05,planned_same_year,2016-05
+2016,1010/2,Wabash River,IN,"Duke Energy Indiana, LLC",2,85.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1010/3,Wabash River,IN,"Duke Energy Indiana, LLC",3,85.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1010/4,Wabash River,IN,"Duke Energy Indiana, LLC",4,85.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1010/5,Wabash River,IN,"Duke Energy Indiana, LLC",5,95.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1010/6,Wabash River,IN,"Duke Energy Indiana, LLC",6,318.0,2016-12,2016-12,no_date,,no_date,
+2016,1032/4,Logansport,IN,City of Logansport - (IN),4,16.5,2016-01,2015-07,planned_same_year,2016-01,planned_same_year,2016-02
+2016,1032/5,Logansport,IN,City of Logansport - (IN),5,22.0,2016-01,2015-07,planned_same_year,2016-01,planned_same_year,2016-02
+2016,10672/GEN1,Cedar Bay Generating Company LP,FL,Cedar Bay Operating Services LLC,GEN1,250.0,2016-12,2016-11,planned_later,2017-12,planned_later,2017-12
+2016,1091/1,George Neal North,IA,MidAmerican Energy Co,1,134.3,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1091/2,George Neal North,IA,MidAmerican Energy Co,2,283.7,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1385/3,Dale,KY,"East Kentucky Power Coop, Inc",3,74.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1385/4,Dale,KY,"East Kentucky Power Coop, Inc",4,75.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1695/4,B C Cobb,MI,Consumers Energy Co - (MI),4,156.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1695/5,B C Cobb,MI,Consumers Energy Co - (MI),5,156.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1720/7,J C Weadock,MI,Consumers Energy Co - (MI),7,152.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1720/8,J C Weadock,MI,Consumers Energy Co - (MI),8,151.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1723/1,J R Whiting,MI,Consumers Energy Co - (MI),1,102.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1723/2,J R Whiting,MI,Consumers Energy Co - (MI),2,95.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1723/3,J R Whiting,MI,Consumers Energy Co - (MI),3,122.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,1740/2,River Rouge,MI,DTE Electric Company,2,251.0,2016-06,2016-03,no_date,,no_date,
+2016,1745/7,Trenton Channel,MI,DTE Electric Company,7,110.0,2016-04,2016-02,no_date,,no_date,
+2016,1771/1,Escanaba,MI,Escanaba Operating Services LLC,1,13.0,2016-01,2016-01,no_date,,no_date,
+2016,1771/2,Escanaba,MI,Escanaba Operating Services LLC,2,13.0,2016-01,2016-01,no_date,,no_date,
+2016,1830/3,James De Young,MI,City of Holland - (MI),3,10.5,2016-06,2015-12,no_date,,planned_same_year,2016-06
+2016,2080/1,Montrose,MO,Evergy Metro,1,170.0,2016-04,2015-07,planned_same_year,2016-01,planned_same_year,2016-04
+2016,2123/5,Columbia (MO),MO,City of Columbia - (MO),5,16.5,2016-04,2015-07,planned_same_year,2016-12,planned_same_year,2016-04
+2016,2144/4,Marshall (MO),MO,City of Marshall - (MO),4,5.8,2016-07,2017-01,no_date,,no_date,
+2016,2144/5,Marshall (MO),MO,City of Marshall - (MO),5,16.0,2016-12,2017-01,no_date,,no_date,
+2016,2171/1,Missouri City,MO,City of Independence - (MO),1,19.0,2016-01,2015-07,planned_same_year,2016-01,planned_same_year,2016-01
+2016,2171/2,Missouri City,MO,City of Independence - (MO),2,19.0,2016-01,2015-07,planned_same_year,2016-01,planned_same_year,2016-01
+2016,2549/67,C R Huntley Generating Station,NY,NRG Huntley Operations Inc,67,190.0,2016-03,2016-01,no_date,,no_date,
+2016,2549/S68,C R Huntley Generating Station,NY,NRG Huntley Operations Inc,S68,190.0,2016-03,2016-01,no_date,,no_date,
+2016,2836/7,Avon Lake,OH,"GenOn Power Midwest, LP",7,70.0,2016-05,2016-04,no_date,,no_date,
+2016,2963/4,Northeastern,OK,Public Service Co of Oklahoma,4,460.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,4259/1,Endicott Station,MI,Michigan South Central Power Agency,1,55.0,2016-05,2015-07,planned_same_year,2016-06,planned_same_year,2016-06
+2016,47/1,Colbert,AL,Tennessee Valley Authority,1,178.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,47/2,Colbert,AL,Tennessee Valley Authority,2,178.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,47/3,Colbert,AL,Tennessee Valley Authority,3,178.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,47/4,Colbert,AL,Tennessee Valley Authority,4,178.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,47/5,Colbert,AL,Tennessee Valley Authority,5,472.0,2016-04,2016-07,no_date,,no_date,
+2016,492/5,South Plant (CO),CO,City of Colorado Springs - (CO),5,46.0,2016-12,2016-12,no_date,,no_date,
+2016,50284/TG3,American Eagle Paper Mills,PA,American Eagle Paper Mills,TG3,2.5,2016-07,2017-01,no_date,,no_date,
+2016,50284/TG4,American Eagle Paper Mills,PA,American Eagle Paper Mills,TG4,4.5,2016-07,2017-01,no_date,,no_date,
+2016,50284/TG5,American Eagle Paper Mills,PA,American Eagle Paper Mills,TG5,3.0,2016-07,2017-01,no_date,,no_date,
+2016,50284/TG6,American Eagle Paper Mills,PA,American Eagle Paper Mills,TG6,7.0,2016-07,2017-01,no_date,,no_date,
+2016,50397/GEN2,Pixelle Specialty Solutions LLC - Spring,PA,Pixelle Specialty Solutions LLC - (PA),GEN2,4.0,2016-12,2018-02,no_date,,no_date,
+2016,56163/1,Kennecott Power Plant,UT,Kennecott Utah Copper,1,50.0,2016-10,2017-03,no_date,,no_date,
+2016,56163/2,Kennecott Power Plant,UT,Kennecott Utah Copper,2,25.0,2016-10,2017-03,no_date,,no_date,
+2016,56163/3,Kennecott Power Plant,UT,Kennecott Utah Copper,3,25.0,2016-10,2017-03,no_date,,no_date,
+2016,6017/2,Newton,IL,Illinois Power Generating Co,2,600.0,2016-09,2017-05,no_date,,no_date,
+2016,6139/2,Welsh,TX,Southwestern Electric Power Co,2,528.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,6225/1,Jasper 2,IN,City of Jasper - (IN),1,13.6,2016-05,2017-03,no_date,,no_date,
+2016,643/1,Lansing Smith,FL,Florida Power & Light Co,1,162.0,2016-03,2015-07,planned_same_year,2016-03,planned_same_year,2016-03
+2016,643/2,Lansing Smith,FL,Florida Power & Light Co,2,195.0,2016-03,2015-07,planned_same_year,2016-03,planned_same_year,2016-03
+2016,727/3,Mitchell (GA),GA,Georgia Power Co,3,155.0,2016-08,2015-07,planned_same_year,2016-07,planned_same_year,2016-07
+2016,7549/1,Milwaukee County,WI,Wisconsin Electric Power Co,1,7.0,2016-04,2016-02,no_date,,no_date,
+2016,898/4,Wood River,IL,Dynegy Midwest Generation Inc,4,89.5,2016-05,2016-03,no_date,,no_date,
+2016,898/5,Wood River,IL,Dynegy Midwest Generation Inc,5,375.5,2016-05,2016-03,no_date,,no_date,
+2016,991/3,Eagle Valley (IN),IN,AES Indiana,3,40.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,991/4,Eagle Valley (IN),IN,AES Indiana,4,56.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,991/5,Eagle Valley (IN),IN,AES Indiana,5,62.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2016,991/6,Eagle Valley (IN),IN,AES Indiana,6,99.0,2016-04,2015-07,planned_same_year,2016-04,planned_same_year,2016-04
+2017,1378/1,Paradise,KY,Tennessee Valley Authority,1,628.0,2017-04,2015-07,planned_same_year,2017-04,planned_same_year,2017-04
+2017,1378/2,Paradise,KY,Tennessee Valley Authority,2,602.0,2017-04,2015-07,planned_same_year,2017-04,planned_same_year,2017-04
+2017,1619/1,Brayton Point,MA,Brayton Point Energy LLC,1,225.2,2017-06,2015-07,planned_same_year,2017-06,planned_same_year,2017-06
+2017,1619/2,Brayton Point,MA,Brayton Point Energy LLC,2,237.8,2017-06,2015-07,planned_same_year,2017-06,planned_same_year,2017-06
+2017,1619/3,Brayton Point,MA,Brayton Point Energy LLC,3,575.0,2017-06,2015-07,planned_same_year,2017-06,planned_same_year,2017-06
+2017,1743/4,St Clair,MI,DTE Electric Company,4,151.0,2017-11,2017-11,no_date,,no_date,
+2017,1830/4,James De Young,MI,City of Holland - (MI),4,20.5,2017-06,2018-03,no_date,,no_date,
+2017,1830/5,James De Young,MI,City of Holland - (MI),5,27.0,2017-06,2018-03,no_date,,no_date,
+2017,2094/1,Sibley,MO,Evergy Missouri West,1,42.2,2017-06,2017-12,planned_later,2019-12,planned_later,2019-12
+2017,2161/1,James River Power Station,MO,City Utilities of Springfield - (MO),1,21.0,2017-12,2017-05,no_date,,no_date,
+2017,2161/2,James River Power Station,MO,City Utilities of Springfield - (MO),2,21.0,2017-12,2017-05,no_date,,no_date,
+2017,2161/3,James River Power Station,MO,City Utilities of Springfield - (MO),3,41.0,2017-12,2017-05,no_date,,no_date,
+2017,2324/4,Reid Gardner,NV,Nevada Power Co,4,257.0,2017-03,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,2408/1,PSEG Mercer Generating Station,NJ,PSEG Fossil LLC,1,316.0,2017-06,2017-05,no_date,,no_date,
+2017,2408/2,PSEG Mercer Generating Station,NJ,PSEG Fossil LLC,2,316.0,2017-06,2017-05,no_date,,no_date,
+2017,2451/2,San Juan,NM,Public Service Co of NM,2,340.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,2451/3,San Juan,NM,Public Service Co of NM,3,497.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,2824/1,Stanton,ND,Great River Energy,1,188.1,2017-03,2016-05,planned_same_year,2017-05,planned_same_year,2017-05
+2017,2850/1,J M Stuart,OH,Dayton Power & Light Co,1,577.0,2017-10,2017-11,no_date,,no_date,
+2017,3406/1,Johnsonville,TN,Tennessee Valley Authority,1,107.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,3406/2,Johnsonville,TN,Tennessee Valley Authority,2,107.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,3406/3,Johnsonville,TN,Tennessee Valley Authority,3,107.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,3406/4,Johnsonville,TN,Tennessee Valley Authority,4,107.0,2017-12,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,3936/1,Kanawha River,WV,Appalachian Power Co,1,200.0,2017-12,2016-12,planned_earlier,2016-12,planned_same_year,2017-12
+2017,3936/2,Kanawha River,WV,Appalachian Power Co,2,200.0,2017-12,2016-12,planned_earlier,2016-12,planned_same_year,2017-12
+2017,477/5,Valmont,CO,Public Service Co of Colorado,5,184.0,2017-09,2015-07,planned_same_year,2017-12,planned_same_year,2017-12
+2017,511/1,Trinidad (CO),CO,City of Trinidad - (CO),1,3.8,2017-01,2017-08,no_date,,no_date,
+2017,54035/GEN1,Roanoke Valley Energy Facility I,NC,Westmoreland Partners,GEN1,165.0,2017-02,2017-04,no_date,,no_date,
+2017,54755/GEN2,Roanoke Valley Energy Facility II,NC,Westmoreland Partners,GEN2,44.0,2017-02,2017-04,no_date,,no_date,
+2017,58063/1,SABIC Innovative Plastics Mt. Vernon,IN,"SABIC IP Mt. Vernon, LLC",1,3.0,2017-01,2016-02,planned_same_year,2017-02,not_operating,
+2018,10380/GEN1,Elizabethtown Power LLC,NC,North Carolina Renewable Power,GEN1,32.0,2018-01,2019-01,no_date,,no_date,
+2018,1252/7,Tecumseh Energy Center,KS,"Evergy Kansas Central, Inc",7,61.0,2018-10,2018-10,no_date,,no_date,
+2018,1552/1,"CP Crane Power, LLC",MD,"CP Crane Power, LLC",1,190.0,2018-06,2018-02,no_date,,no_date,
+2018,1552/2,"CP Crane Power, LLC",MD,"CP Crane Power, LLC",2,195.0,2018-06,2018-02,no_date,,no_date,
+2018,1893/1,Clay Boswell,MN,"ALLETE, Inc.",1,67.3,2018-12,2017-04,planned_same_year,2018-12,planned_same_year,2018-12
+2018,1893/2,Clay Boswell,MN,"ALLETE, Inc.",2,67.4,2018-12,2017-04,planned_same_year,2018-12,planned_same_year,2018-12
+2018,207/1,St Johns River Power Park,FL,JEA,1,626.0,2018-01,2017-04,planned_same_year,2018-01,planned_same_year,2018-01
+2018,207/2,St Johns River Power Park,FL,JEA,2,626.0,2018-01,2017-04,planned_same_year,2018-01,planned_same_year,2018-01
+2018,2080/2,Montrose,MO,Evergy Metro,2,164.0,2018-12,2017-05,planned_same_year,2018-12,planned_same_year,2018-12
+2018,2080/3,Montrose,MO,Evergy Metro,3,170.0,2018-12,2017-05,planned_same_year,2018-12,planned_same_year,2018-12
+2018,2094/2,Sibley,MO,Evergy Missouri West,2,42.1,2018-12,2017-05,planned_same_year,2018-12,planned_same_year,2018-12
+2018,2094/3,Sibley,MO,Evergy Missouri West,3,364.1,2018-12,2017-05,planned_same_year,2018-12,planned_same_year,2018-12
+2018,2850/2,J M Stuart,OH,Dayton Power & Light Co,2,577.0,2018-06,2017-05,planned_same_year,2018-06,planned_same_year,2018-06
+2018,2850/3,J M Stuart,OH,Dayton Power & Light Co,3,577.0,2018-06,2017-05,planned_same_year,2018-06,planned_same_year,2018-06
+2018,2850/4,J M Stuart,OH,Dayton Power & Light Co,4,577.0,2018-06,2017-05,planned_same_year,2018-06,planned_same_year,2018-06
+2018,3393/1,Allen,TN,Tennessee Valley Authority,1,247.0,2018-03,2018-03,no_date,,no_date,
+2018,3393/2,Allen,TN,Tennessee Valley Authority,2,247.0,2018-03,2018-03,no_date,,no_date,
+2018,3393/3,Allen,TN,Tennessee Valley Authority,3,247.0,2018-03,2018-03,no_date,,no_date,
+2018,3497/1,Big Brown,TX,Luminant Generation Company LLC,1,606.0,2018-02,2017-10,planned_same_year,2018-02,planned_same_year,2018-02
+2018,3497/2,Big Brown,TX,Luminant Generation Company LLC,2,602.0,2018-02,2017-10,planned_same_year,2018-02,planned_same_year,2018-02
+2018,4050/4,Edgewater,WI,Wisconsin Power & Light Co,4,294.4,2018-09,2015-07,planned_same_year,2018-12,planned_same_year,2018-12
+2018,4072/7,Pulliam,WI,Wisconsin Public Service Corp,7,76.1,2018-10,2018-05,no_date,,no_date,
+2018,4072/8,Pulliam,WI,Wisconsin Public Service Corp,8,133.8,2018-10,2018-05,no_date,,no_date,
+2018,50039/GEN1,Kline Township Cogen Facility,PA,Northeastern Power Co,GEN1,51.0,2018-11,2018-07,no_date,,no_date,
+2018,52071/5,Sandow No 5,TX,Luminant Generation Company LLC,5,600.0,2018-01,2017-10,planned_same_year,2018-01,planned_same_year,2018-01
+2018,6031/2,Killen Station,OH,Dayton Power & Light Co,2,600.0,2018-06,2017-05,planned_same_year,2018-06,planned_same_year,2018-06
+2018,6061/1,R D Morrow,MS,Cooperative Energy,1,180.0,2018-11,2019-01,no_date,,no_date,
+2018,6061/2,R D Morrow,MS,Cooperative Energy,2,180.0,2018-11,2019-01,no_date,,no_date,
+2018,6147/1,Monticello,TX,Luminant Generation Company LLC,1,535.0,2018-01,2017-10,planned_same_year,2018-01,planned_same_year,2018-01
+2018,6147/2,Monticello,TX,Luminant Generation Company LLC,2,535.0,2018-01,2017-10,planned_same_year,2018-01,planned_same_year,2018-01
+2018,6147/3,Monticello,TX,Luminant Generation Company LLC,3,795.0,2018-01,2017-10,planned_same_year,2018-01,planned_same_year,2018-01
+2018,6170/1,Pleasant Prairie,WI,Wisconsin Electric Power Co,1,594.0,2018-04,2018-02,no_date,,no_date,
+2018,6170/2,Pleasant Prairie,WI,Wisconsin Electric Power Co,2,594.0,2018-04,2018-02,no_date,,no_date,
+2018,628/1,Crystal River,FL,"Duke Energy Florida, LLC",1,324.0,2018-12,2015-07,planned_same_year,2018-04,planned_same_year,2018-04
+2018,628/2,Crystal River,FL,"Duke Energy Florida, LLC",2,442.0,2018-12,2015-07,planned_same_year,2018-04,planned_same_year,2018-04
+2018,6648/4,Sandow No 4,TX,Luminant Generation Company LLC,4,600.0,2018-01,2017-10,planned_same_year,2018-01,planned_same_year,2018-01
+2018,995/7,Bailly,IN,Northern Indiana Pub Serv Co,7,160.0,2018-06,2017-08,planned_same_year,2018-05,planned_same_year,2018-05
+2018,995/8,Bailly,IN,Northern Indiana Pub Serv Co,8,320.0,2018-06,2017-08,planned_same_year,2018-05,planned_same_year,2018-05
+2019,10377/GEN1,James River Genco LLC,VA,City Point Energy Center,GEN1,46.3,2019-06,2018-03,planned_same_year,2019-12,planned_same_year,2019-07
+2019,10377/GEN2,James River Genco LLC,VA,City Point Energy Center,GEN2,46.3,2019-06,2018-03,planned_same_year,2019-12,planned_same_year,2019-07
+2019,10384/GEN1,Edgecombe Genco LLC,NC,Edgecombe Operating Services LLC,GEN1,57.8,2019-04,2019-10,no_date,,no_date,
+2019,10384/GEN2,Edgecombe Genco LLC,NC,Edgecombe Operating Services LLC,GEN2,57.8,2019-04,2019-10,no_date,,no_date,
+2019,10641/GEN1,Cambria Cogen,PA,Cambria CoGen Co,GEN1,88.0,2019-09,2019-12,no_date,,no_date,
+2019,1355/1,E W Brown,KY,Kentucky Utilities Co,1,106.0,2019-02,2018-03,planned_same_year,2019-02,planned_same_year,2019-02
+2019,1355/2,E W Brown,KY,Kentucky Utilities Co,2,166.0,2019-02,2018-03,planned_same_year,2019-02,planned_same_year,2019-02
+2019,1382/1,HMP&L Station Two Henderson,KY,Big Rivers Electric Corp,1,153.0,2019-02,2018-10,planned_same_year,2019-02,planned_same_year,2019-02
+2019,1382/2,HMP&L Station Two Henderson,KY,Big Rivers Electric Corp,2,159.0,2019-02,2018-10,planned_same_year,2019-02,planned_same_year,2019-02
+2019,1743/1,St Clair,MI,DTE Electric Company,1,151.0,2019-03,2019-05,no_date,,no_date,
+2019,1769/5,Presque Isle,MI,Wisconsin Electric Power Co,5,55.0,2019-03,2017-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,1769/6,Presque Isle,MI,Wisconsin Electric Power Co,6,55.0,2019-03,2017-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,1769/7,Presque Isle,MI,Wisconsin Electric Power Co,7,83.0,2019-03,2017-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,1769/8,Presque Isle,MI,Wisconsin Electric Power Co,8,83.0,2019-03,2017-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,1769/9,Presque Isle,MI,Wisconsin Electric Power Co,9,83.0,2019-03,2017-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,1843/1,Shiras,MI,City of Marquette - (MI),1,11.6,2019-04,2019-05,no_date,,no_date,
+2019,1843/2,Shiras,MI,City of Marquette - (MI),2,19.5,2019-04,2019-05,no_date,,no_date,
+2019,1843/3,Shiras,MI,City of Marquette - (MI),3,41.0,2019-04,2019-05,no_date,,no_date,
+2019,2123/7,Columbia (MO),MO,City of Columbia - (MO),7,22.0,2019-12,2019-11,no_date,,no_date,
+2019,2378/2,B L England,NJ,RC Cape May Holdings LLC,2,146.0,2019-04,2018-06,no_date,,no_date,
+2019,2535/1,Cayuga Operating Company,NY,"Cayuga Operating Company, LLC",1,153.9,2019-10,2020-02,no_date,,no_date,
+2019,2535/2,Cayuga Operating Company,NY,"Cayuga Operating Company, LLC",2,139.6,2019-10,2020-02,no_date,,no_date,
+2019,2554/2,Dunkirk Generating Plant,NY,Dunkirk Power LLC,2,75.0,2019-01,2022-03,no_date,,no_date,
+2019,2840/5,Conesville,OH,AEP Generation Resources Inc,5,375.0,2019-05,2019-01,no_date,,no_date,
+2019,2840/6,Conesville,OH,AEP Generation Resources Inc,6,375.0,2019-05,2019-01,no_date,,no_date,
+2019,3149/11,TalenEnergy Montour,PA,TalenEnergy Montour LLC,11,11.0,2019-02,2019-01,no_date,,no_date,
+2019,3797/3,Chesterfield,VA,Virginia Electric & Power Co,3,97.5,2019-03,2019-03,no_date,,no_date,
+2019,3797/4,Chesterfield,VA,Virginia Electric & Power Co,4,162.5,2019-03,2019-03,no_date,,no_date,
+2019,3809/1,Yorktown,VA,Virginia Electric & Power Co,1,159.0,2019-03,2018-04,planned_same_year,2019-05,planned_same_year,2019-05
+2019,3809/2,Yorktown,VA,Virginia Electric & Power Co,2,164.0,2019-03,2018-05,planned_same_year,2019-05,planned_same_year,2019-05
+2019,4941/NAV1,Navajo,AZ,Salt River Project,NAV1,750.0,2019-11,2017-05,planned_same_year,2019-12,planned_same_year,2019-12
+2019,4941/NAV2,Navajo,AZ,Salt River Project,NAV2,750.0,2019-11,2018-02,planned_same_year,2019-12,planned_same_year,2019-12
+2019,4941/NAV3,Navajo,AZ,Salt River Project,NAV3,750.0,2019-09,2018-02,planned_same_year,2019-12,planned_same_year,2019-12
+2019,50282/GEN1,Luke Mill,MD,Verso Luke LLC,GEN1,32.0,2019-05,2019-03,no_date,,no_date,
+2019,50282/GEN2,Luke Mill,MD,Verso Luke LLC,GEN2,28.0,2019-05,2019-03,no_date,,no_date,
+2019,52007/GEN1,Mecklenburg Power Station,VA,Virginia Electric & Power Co,GEN1,69.0,2019-03,2019-03,no_date,,no_date,
+2019,52007/GEN2,Mecklenburg Power Station,VA,Virginia Electric & Power Co,GEN2,69.0,2019-03,2019-03,no_date,,no_date,
+2019,527/1,Nucla,CO,"Tri-State G & T Assn, Inc",1,12.0,2019-09,2019-08,planned_later,2022-12,planned_later,2022-12
+2019,527/2,Nucla,CO,"Tri-State G & T Assn, Inc",2,12.0,2019-09,2019-08,planned_later,2022-12,planned_later,2022-12
+2019,527/3,Nucla,CO,"Tri-State G & T Assn, Inc",3,12.0,2019-09,2019-08,planned_later,2022-12,planned_later,2022-12
+2019,527/ST4,Nucla,CO,"Tri-State G & T Assn, Inc",ST4,64.0,2019-09,2019-08,planned_later,2022-12,planned_later,2022-12
+2019,56163/4,Kennecott Power Plant,UT,Kennecott Utah Copper,4,75.0,2019-12,2020-01,no_date,,no_date,
+2019,57940/G3,Wausau Paper Middletown,OH,Wausau Paper Middletown,G3,7.5,2019-09,2021-05,no_date,,no_date,
+2019,6016/1,Duck Creek,IL,Illinois Power Resources Generating LLC,1,410.0,2019-12,2019-07,no_date,,no_date,
+2019,6094/1,FirstEnergy Bruce Mansfield,PA,FirstEnergy Generation Corp,1,830.0,2019-02,2019-02,no_date,,no_date,
+2019,6094/2,FirstEnergy Bruce Mansfield,PA,FirstEnergy Generation Corp,2,830.0,2019-02,2019-02,no_date,,no_date,
+2019,6094/3,FirstEnergy Bruce Mansfield,PA,FirstEnergy Generation Corp,3,830.0,2019-11,2019-06,no_date,,no_date,
+2019,6124/1,McIntosh,GA,Georgia Power Co,1,142.5,2019-07,2019-06,no_date,,no_date,
+2019,6136/1,Gibbons Creek,TX,Texas Municipal Power Agency,1,470.0,2019-10,2018-04,planned_same_year,2019-01,planned_later,2023-10
+2019,708/1,Hammond,GA,Georgia Power Co,1,110.0,2019-07,2019-06,no_date,,no_date,
+2019,708/2,Hammond,GA,Georgia Power Co,2,110.0,2019-07,2019-06,no_date,,no_date,
+2019,708/3,Hammond,GA,Georgia Power Co,3,110.0,2019-07,2019-06,no_date,,no_date,
+2019,708/4,Hammond,GA,Georgia Power Co,4,510.0,2019-07,2019-06,no_date,,no_date,
+2019,8/10,Gorgas,AL,Alabama Power Co,10,727.7,2019-04,2019-04,no_date,,no_date,
+2019,8/8,Gorgas,AL,Alabama Power Co,8,163.0,2019-04,2019-04,no_date,,no_date,
+2019,8/9,Gorgas,AL,Alabama Power Co,9,172.0,2019-04,2019-04,no_date,,no_date,
+2019,861/1,Coffeen,IL,Illinois Power Generating Co,1,330.0,2019-11,2019-07,no_date,,no_date,
+2019,861/2,Coffeen,IL,Illinois Power Generating Co,2,565.0,2019-11,2019-07,no_date,,no_date,
+2019,891/6,Havana,IL,Dynegy Midwest Generation Inc,6,411.0,2019-11,2019-07,no_date,,no_date,
+2019,892/1,Hennepin Power Station,IL,Dynegy Midwest Generation Inc,1,68.0,2019-11,2019-07,no_date,,no_date,
+2019,892/2,Hennepin Power Station,IL,Dynegy Midwest Generation Inc,2,218.0,2019-11,2019-07,no_date,,no_date,
+2020,10025/22TG,"RED-Rochester, LLC",NY,"RED-Rochester, LLC",22TG,12.5,2020-06,2020-11,no_date,,no_date,
+2020,10143/COLV,Colver Green Energy,PA,"Inter-Power/AhlCon Partners, L.P.",COLV,110.0,2020-05,2019-06,planned_same_year,2020-09,planned_same_year,2020-09
+2020,10743/GEN1,Morgantown Energy Facility,WV,Morgantown Energy Associates,GEN1,50.0,2020-01,2020-01,no_date,,no_date,
+2020,113/4,Cholla,AZ,Arizona Public Service Co,4,380.0,2020-12,2020-01,no_date,,no_date,
+2020,127/1,Oklaunion,TX,Oklaunion Power Station,1,650.0,2020-09,2020-01,no_date,,no_date,
+2020,1374/1,Elmer Smith,KY,City of Owensboro - (KY),1,137.0,2020-06,2019-06,planned_same_year,2020-06,planned_same_year,2020-06
+2020,1374/2,Elmer Smith,KY,City of Owensboro - (KY),2,262.8,2020-06,2019-06,planned_same_year,2020-06,planned_same_year,2020-06
+2020,1378/3,Paradise,KY,Tennessee Valley Authority,3,971.0,2020-01,2019-06,planned_same_year,2020-01,planned_same_year,2020-01
+2020,1381/1,Kenneth C Coleman,KY,Big Rivers Electric Corp,1,150.0,2020-09,2021-01,no_date,,no_date,
+2020,1381/2,Kenneth C Coleman,KY,Big Rivers Electric Corp,2,138.0,2020-09,2021-01,no_date,,no_date,
+2020,1381/3,Kenneth C Coleman,KY,Big Rivers Electric Corp,3,155.0,2020-09,2021-01,no_date,,no_date,
+2020,1383/1,Robert A Reid,KY,Big Rivers Electric Corp,1,65.0,2020-09,2021-01,no_date,,no_date,
+2020,1554/2,Herbert A Wagner,MD,H.A. Wagner LLC,2,118.0,2020-06,2016-03,planned_same_year,2020-06,planned_same_year,2020-06
+2020,1572/2,Dickerson,MD,"Lanyard Power Holdings, LLC",2,173.0,2020-08,2016-01,no_date,,no_date,
+2020,1572/3,Dickerson,MD,"Lanyard Power Holdings, LLC",3,173.0,2020-08,2016-01,no_date,,no_date,
+2020,1572/ST1,Dickerson,MD,"Lanyard Power Holdings, LLC",ST1,173.0,2020-08,2016-01,no_date,,no_date,
+2020,1825/3,J B Sims,MI,City of Grand Haven - (MI),3,69.1,2020-06,2019-01,planned_same_year,2020-06,planned_same_year,2020-06
+2020,1831/5,Eckert Station,MI,Lansing Board of Water and Light,5,63.1,2020-12,2017-07,planned_same_year,2020-12,planned_same_year,2020-12
+2020,1831/6,Eckert Station,MI,Lansing Board of Water and Light,6,62.8,2020-12,2017-07,planned_same_year,2020-12,planned_same_year,2020-12
+2020,2076/1,Asbury,MO,Empire District Electric Co,1,198.0,2020-03,2019-07,planned_same_year,2020-06,planned_same_year,2020-03
+2020,2706/1,Asheville,NC,Duke Energy Progress - (NC),1,189.0,2020-01,2019-12,planned_earlier,2019-12,planned_same_year,2020-01
+2020,2706/2,Asheville,NC,Duke Energy Progress - (NC),2,189.0,2020-01,2019-12,planned_earlier,2019-12,planned_same_year,2020-01
+2020,2840/4,Conesville,OH,AEP Generation Resources Inc,4,780.0,2020-06,2019-01,planned_same_year,2020-06,planned_same_year,2020-06
+2020,2866/1,W H Sammis,OH,Energy Harbor Generation LLC,1,180.0,2020-05,2017-08,planned_same_year,2020-05,planned_same_year,2020-05
+2020,2866/2,W H Sammis,OH,Energy Harbor Generation LLC,2,180.0,2020-05,2017-08,planned_same_year,2020-05,planned_same_year,2020-05
+2020,2866/3,W H Sammis,OH,Energy Harbor Generation LLC,3,180.0,2020-05,2017-08,planned_same_year,2020-05,planned_same_year,2020-05
+2020,2866/4,W H Sammis,OH,Energy Harbor Generation LLC,4,180.0,2020-05,2017-08,planned_same_year,2020-05,planned_same_year,2020-05
+2020,3845/1,Transalta Centralia Generation,WA,TransAlta Centralia Gen LLC,1,670.0,2020-12,2015-07,planned_same_year,2020-12,planned_same_year,2020-12
+2020,50879/GEN1,Wheelabrator Frackville Energy,PA,Wheelabrator Environmental Systems,GEN1,42.5,2020-02,2020-01,no_date,,no_date,
+2020,50976/GEN1,Indiantown Cogeneration LP,FL,Florida Power & Light Co,GEN1,330.0,2020-12,2019-02,planned_same_year,2020-12,planned_same_year,2020-12
+2020,56/1,Lowman Energy Center,AL,PowerSouth Energy Cooperative,1,78.0,2020-10,2019-05,planned_same_year,2020-10,planned_same_year,2020-10
+2020,56/2,Lowman Energy Center,AL,PowerSouth Energy Cooperative,2,238.0,2020-10,2019-05,planned_same_year,2020-10,planned_same_year,2020-10
+2020,56/3,Lowman Energy Center,AL,PowerSouth Energy Cooperative,3,238.0,2020-10,2019-05,planned_same_year,2020-10,planned_same_year,2020-10
+2020,6076/1,Colstrip,MT,Talen Montana LLC,1,307.0,2020-01,2019-08,planned_same_year,2020-01,planned_same_year,2020-01
+2020,6076/2,Colstrip,MT,Talen Montana LLC,2,307.0,2020-01,2019-08,planned_same_year,2020-01,planned_same_year,2020-01
+2020,6082/1,Somerset Operating Co LLC,NY,Somerset Operating Co LLC,1,684.4,2020-03,2020-02,no_date,,no_date,
+2020,6106/1,Boardman,OR,Portland General Electric Co,1,585.0,2020-10,2020-08,planned_later,2021-01,planned_later,2021-01
+2020,65284/2,Dickerson,MD,"Lanyard Power Holdings, LLC",2,173.0,2020-08,2021-12,not_listed,,not_listed,
+2020,65284/3,Dickerson,MD,"Lanyard Power Holdings, LLC",3,173.0,2020-08,2021-12,not_listed,,not_listed,
+2020,65284/ST1,Dickerson,MD,"Lanyard Power Holdings, LLC",ST1,173.0,2020-08,2021-12,not_listed,,not_listed,
+2020,87/1,Escalante,NM,"Tri-State G & T Assn, Inc",1,253.0,2020-11,2020-01,no_date,,no_date,
+2020,889/3,Baldwin Energy Complex,IL,Dynegy Midwest Generation Inc,3,621.0,2020-08,2021-05,no_date,,no_date,
+2020,963/1,Dallman,IL,City of Springfield - (IL),1,73.0,2020-12,2020-03,no_date,,no_date,
+2020,963/2,Dallman,IL,City of Springfield - (IL),2,70.5,2020-12,2020-03,no_date,,no_date,
+2020,976/4,Marion,IL,Southern Illinois Power Coop,4,170.0,2020-11,2021-01,no_date,,no_date,
+2021,1008/2,R Gallagher,IN,"Duke Energy Indiana, LLC",2,140.0,2021-06,2021-02,planned_later,2022-12,planned_later,2022-12
+2021,1008/4,R Gallagher,IN,"Duke Energy Indiana, LLC",4,140.0,2021-06,2021-02,planned_later,2022-12,planned_later,2022-12
+2021,1024/5,Crawfordsville Power Plant,IN,Crawfordsville Energy LLC,5,12.6,2021-11,2022-02,no_date,,no_date,
+2021,1571/ST1,Chalk Point LLC,MD,"Chalk Point Steam, LLC",ST1,333.1,2021-06,2020-06,planned_same_year,2021-06,planned_same_year,2021-06
+2021,1571/ST2,Chalk Point LLC,MD,"Chalk Point Steam, LLC",ST2,336.9,2021-06,2020-06,planned_same_year,2021-06,planned_same_year,2021-06
+2021,1740/3,River Rouge,MI,DTE Electric Company,3,272.0,2021-05,2021-05,planned_later,2022-05,planned_later,2022-05
+2021,1831/4,Eckert Station,MI,Lansing Board of Water and Light,4,64.0,2021-05,2020-12,planned_earlier,2020-12,planned_same_year,2021-04
+2021,1943/2,Hoot Lake,MN,Otter Tail Power Co,2,58.0,2021-06,2015-12,planned_same_year,2021-06,planned_same_year,2021-06
+2021,1943/3,Hoot Lake,MN,Otter Tail Power Co,3,80.0,2021-06,2015-12,planned_same_year,2021-06,planned_same_year,2021-06
+2021,2718/2,G G Allen,NC,"Duke Energy Carolinas, LLC",2,162.0,2021-12,2021-11,planned_later,2024-12,planned_later,2024-12
+2021,2718/3,G G Allen,NC,"Duke Energy Carolinas, LLC",3,258.0,2021-03,2020-12,planned_later,2024-12,planned_same_year,2021-03
+2021,2718/4,G G Allen,NC,"Duke Energy Carolinas, LLC",4,257.0,2021-12,2021-11,planned_later,2024-12,planned_later,2024-12
+2021,4143/ST3,Genoa,WI,Dairyland Power Coop,ST3,307.5,2021-06,2019-12,planned_same_year,2021-12,planned_same_year,2021-07
+2021,51/1,Dolet Hills,LA,Cleco Power LLC,1,645.3,2021-12,2021-12,no_date,,no_date,
+2021,54081/GEN1,Spruance Operating Services LLC,VA,Veolia Energy Operating Service,GEN1,52.5,2021-01,2019-11,planned_same_year,2021-01,planned_same_year,2021-01
+2021,54081/GEN2,Spruance Operating Services LLC,VA,Veolia Energy Operating Service,GEN2,52.5,2021-01,2019-11,planned_same_year,2021-01,planned_same_year,2021-01
+2021,54304/1,Birchwood Power,VA,Birchwood Power Partners LP,1,237.7,2021-03,2020-12,no_date,,planned_same_year,2021-03
+2021,568/3,Bridgeport Station,CT,"Generation Bridge II Connecticut, LLC",3,257.6,2021-06,2018-04,planned_same_year,2021-06,planned_same_year,2021-06
+2021,6085/14,R M Schahfer,IN,Northern Indiana Pub Serv Co,14,431.0,2021-10,2021-01,planned_later,2023-06,planned_later,2023-06
+2021,6085/15,R M Schahfer,IN,Northern Indiana Pub Serv Co,15,472.0,2021-10,2021-01,planned_later,2023-06,planned_later,2023-06
+2021,6089/1,Lewis & Clark,MT,Montana-Dakota Utilities Co,1,53.1,2021-03,2019-12,planned_same_year,2021-03,planned_same_year,2021-03
+2021,645/ST2,Big Bend,FL,Tampa Electric Co,ST2,385.0,2021-12,2019-02,planned_same_year,2021-11,planned_same_year,2021-11
+2021,65285/ST1,Chalk Point Steam,MD,"Lanyard Power Holdings, LLC",ST1,333.1,2021-06,2021-12,not_listed,,not_listed,
+2021,65285/ST2,Chalk Point Steam,MD,"Lanyard Power Holdings, LLC",ST2,336.9,2021-06,2021-12,not_listed,,not_listed,
+2021,676/3,C D McIntosh Jr,FL,City of Lakeland - (FL),3,342.0,2021-04,2021-01,no_date,,no_date,
+2021,994/ST1,AES Petersburg,IN,AES Indiana,ST1,222.5,2021-05,2020-01,planned_same_year,2021-05,planned_same_year,2021-05
+2022,10043/GEN1,Logan Generating Plant,NJ,Logan Generating Company LP,GEN1,219.0,2022-05,2022-09,no_date,,no_date,
+2022,10566/GEN1,Chambers Cogeneration LP,NJ,US Operating Services Company,GEN1,244.0,2022-06,2023-03,planned_later,2024-03,planned_later,2024-03
+2022,10673/GEN1,AES Hawaii,HI,AES Hawaii LLC,GEN1,180.0,2022-09,2015-07,planned_same_year,2022-09,planned_same_year,2022-09
+2022,1573/ST1,Morgantown Generating Plant,MD,"Lanyard Power Holdings, LLC",ST1,596.0,2022-06,2021-04,planned_same_year,2022-06,planned_same_year,2022-06
+2022,1573/ST2,Morgantown Generating Plant,MD,"Lanyard Power Holdings, LLC",ST2,609.0,2022-06,2021-04,planned_same_year,2022-06,planned_same_year,2022-06
+2022,1743/2,St Clair,MI,DTE Electric Company,2,154.0,2022-12,2019-06,planned_same_year,2022-05,planned_same_year,2022-05
+2022,1743/3,St Clair,MI,DTE Electric Company,3,160.0,2022-12,2019-06,planned_same_year,2022-05,planned_same_year,2022-05
+2022,1743/6,St Clair,MI,DTE Electric Company,6,311.0,2022-12,2019-06,planned_same_year,2022-05,planned_same_year,2022-05
+2022,1743/7,St Clair,MI,DTE Electric Company,7,440.0,2022-12,2019-06,planned_same_year,2022-05,planned_same_year,2022-05
+2022,1745/9,Trenton Channel,MI,DTE Electric Company,9,495.0,2022-12,2019-06,planned_same_year,2022-05,planned_same_year,2022-05
+2022,1832/1,Erickson Station,MI,Lansing Board of Water and Light,1,154.5,2022-11,2023-01,planned_later,2025-12,planned_later,2025-12
+2022,2104/3,Meramec,MO,Union Electric Co - (MO),3,220.0,2022-12,2019-02,planned_same_year,2022-12,planned_same_year,2022-12
+2022,2104/4,Meramec,MO,Union Electric Co - (MO),4,290.0,2022-12,2019-02,planned_same_year,2022-12,planned_same_year,2022-12
+2022,2451/1,San Juan,NM,Public Service Co of NM,1,340.0,2022-06,2020-02,planned_same_year,2022-06,planned_same_year,2022-06
+2022,2451/4,San Juan,NM,Public Service Co of NM,4,507.0,2022-09,2020-02,planned_same_year,2022-06,planned_same_year,2022-06
+2022,2554/1,Dunkirk Generating Plant,NY,Dunkirk Power LLC,1,75.0,2022-04,2022-03,no_date,,no_date,
+2022,2554/3,Dunkirk Generating Plant,NY,Dunkirk Power LLC,3,185.0,2022-04,2022-03,no_date,,no_date,
+2022,2554/ST4,Dunkirk Generating Plant,NY,Dunkirk Power LLC,ST4,185.0,2022-04,2022-03,no_date,,no_date,
+2022,2790/1,R M Heskett,ND,Montana-Dakota Utilities Co,1,29.5,2022-02,2020-01,planned_same_year,2022-03,planned_same_year,2022-03
+2022,2790/2,R M Heskett,ND,Montana-Dakota Utilities Co,2,74.8,2022-01,2020-01,planned_same_year,2022-03,planned_same_year,2022-03
+2022,2836/9,Avon Lake,OH,"GenOn Power Midwest, LP",9,627.0,2022-03,2021-07,planned_same_year,2022-04,planned_same_year,2022-04
+2022,470/1,Comanche (CO),CO,Public Service Co of Colorado,1,325.0,2022-12,2017-07,planned_same_year,2022-12,planned_same_year,2022-12
+2022,492/6,South Plant (CO),CO,City of Colorado Springs - (CO),6,77.0,2022-08,2020-05,planned_same_year,2022-12,planned_same_year,2022-09
+2022,50392/TG1,Eielson AFB Central Heat & Power Plant,AK,U S Air Force-Eielson AFB,TG1,0.5,2022-05,2023-04,no_date,,no_date,
+2022,50392/TG2,Eielson AFB Central Heat & Power Plant,AK,U S Air Force-Eielson AFB,TG2,0.5,2022-05,2023-04,no_date,,no_date,
+2022,57937/SCBF,Western Sugar Coop - Scottsbluff,NE,Western Sugar Cooperative,SCBF,5.0,2022-04,2024-03,no_date,,no_date,
+2022,6019/ST1,W H Zimmer,OH,Dynegy W H Zimmer,ST1,1305.0,2022-05,2021-10,planned_same_year,2022-05,planned_same_year,2022-05
+2022,6052/1,Wansley,GA,Georgia Power Co,1,872.0,2022-09,2023-05,no_date,,no_date,
+2022,6052/2,Wansley,GA,Georgia Power Co,2,872.0,2022-09,2023-05,no_date,,no_date,
+2022,6257/4,Scherer,GA,Georgia Power Co,4,860.0,2022-01,2022-06,no_date,,no_date,
+2022,8226/1,Cheswick Power Plant,PA,"GenOn Power Midwest, LP",1,565.0,2022-03,2021-07,planned_same_year,2022-04,planned_same_year,2022-04
+2022,856/2,E D Edwards,IL,Illinois Power Resources Generating LLC,2,245.0,2022-12,2020-09,planned_same_year,2022-12,planned_same_year,2022-12
+2022,856/3,E D Edwards,IL,Illinois Power Resources Generating LLC,3,315.0,2022-12,2020-09,planned_same_year,2022-12,planned_same_year,2022-12
+2022,883/7,Waukegan,IL,Midwest Generations EME LLC,7,328.0,2022-06,2021-05,planned_same_year,2022-06,planned_same_year,2022-06
+2022,883/8,Waukegan,IL,Midwest Generations EME LLC,8,361.0,2022-06,2021-05,planned_same_year,2022-06,planned_same_year,2022-06
+2022,884/4,Will County,IL,Midwest Generations EME LLC,4,510.0,2022-06,2021-05,planned_same_year,2022-06,planned_same_year,2022-06
+2022,887/1,Joppa Steam,IL,Electric Energy Inc,1,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2022,887/2,Joppa Steam,IL,Electric Energy Inc,2,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2022,887/3,Joppa Steam,IL,Electric Energy Inc,3,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2022,887/4,Joppa Steam,IL,Electric Energy Inc,4,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2022,887/5,Joppa Steam,IL,Electric Energy Inc,5,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2022,887/6,Joppa Steam,IL,Electric Energy Inc,6,158.0,2022-08,2021-03,planned_same_year,2022-09,planned_same_year,2022-09
+2023,10075/GEN1,Taconite Harbor Energy Center,MN,"ALLETE, Inc.",GEN1,79.0,2023-03,2022-01,planned_same_year,2023-03,planned_same_year,2023-03
+2023,10075/GEN2,Taconite Harbor Energy Center,MN,"ALLETE, Inc.",GEN2,75.9,2023-03,2022-01,planned_same_year,2023-03,planned_same_year,2023-03
+2023,1024/4,Crawfordsville Power Plant,IN,Crawfordsville Energy LLC,4,10.6,2023-02,2022-02,planned_same_year,2023-06,planned_same_year,2023-06
+2023,1047/4,Lansing,IA,Interstate Power and Light Co,4,241.4,2023-06,2022-11,planned_earlier,2022-12,planned_same_year,2023-06
+2023,1702/1A,Dan E Karn,MI,Consumers Energy Co - (MI),1A,127.5,2023-05,2019-04,planned_same_year,2023-05,planned_same_year,2023-05
+2023,1702/1B,Dan E Karn,MI,Consumers Energy Co - (MI),1B,127.5,2023-05,2019-04,planned_same_year,2023-05,planned_same_year,2023-05
+2023,1702/2A,Dan E Karn,MI,Consumers Energy Co - (MI),2A,115.5,2023-05,2019-04,planned_same_year,2023-05,planned_same_year,2023-05
+2023,1702/2B,Dan E Karn,MI,Consumers Energy Co - (MI),2B,115.5,2023-05,2019-04,planned_same_year,2023-05,planned_same_year,2023-05
+2023,2866/5,W H Sammis,OH,Energy Harbor Generation LLC,5,290.0,2023-06,2022-01,planned_same_year,2023-06,planned_same_year,2023-06
+2023,2866/6,W H Sammis,OH,Energy Harbor Generation LLC,6,600.0,2023-06,2022-01,planned_same_year,2023-06,planned_same_year,2023-06
+2023,2866/7,W H Sammis,OH,Energy Harbor Generation LLC,7,600.0,2023-06,2022-01,planned_same_year,2023-06,planned_same_year,2023-06
+2023,3122/2,Homer City Generating Station,PA,"Homer City Generation, L.P.",2,613.3,2023-08,2023-05,no_date,,no_date,
+2023,3122/3,Homer City Generating Station,PA,"Homer City Generation, L.P.",3,648.9,2023-07,2023-05,no_date,,no_date,
+2023,3396/1,Bull Run,TN,Tennessee Valley Authority,1,865.0,2023-09,2019-06,planned_same_year,2023-12,planned_same_year,2023-12
+2023,3797/5,Chesterfield,VA,Virginia Electric & Power Co,5,336.0,2023-05,2020-03,planned_same_year,2023-05,planned_same_year,2023-05
+2023,3797/6,Chesterfield,VA,Virginia Electric & Power Co,6,670.0,2023-05,2020-03,planned_same_year,2023-05,planned_same_year,2023-05
+2023,57914/1,Sidney MT Plant,MT,Sidney Sugars Incorporated,1,2.0,2023-01,2024-02,no_date,,no_date,
+2023,57914/2,Sidney MT Plant,MT,Sidney Sugars Incorporated,2,2.0,2023-01,2024-02,no_date,,no_date,
+2023,6090/2,Sherburne County,MN,Northern States Power Co - Minnesota,2,682.0,2023-12,2021-12,planned_same_year,2023-12,planned_same_year,2023-05
+2023,6137/1,A B Brown,IN,Southern Indiana Gas & Elec Co,1,245.0,2023-10,2017-03,planned_same_year,2023-10,planned_same_year,2023-10
+2023,6137/2,A B Brown,IN,Southern Indiana Gas & Elec Co,2,240.0,2023-10,2017-03,planned_same_year,2023-10,planned_same_year,2023-10
+2023,6181/1,J T Deely,TX,City of San Antonio - (TX),1,420.0,2023-01,2023-02,planned_later,2024-12,planned_later,2024-12
+2023,6181/2,J T Deely,TX,City of San Antonio - (TX),2,420.0,2023-01,2023-02,planned_later,2024-12,planned_later,2024-12
+2023,7902/1,Pirkey,TX,Southwestern Electric Power Co,1,650.0,2023-03,2020-10,planned_same_year,2023-03,planned_same_year,2023-03
+2023,994/ST2,AES Petersburg,IN,AES Indiana,ST2,421.8,2023-06,2020-01,planned_same_year,2023-06,planned_same_year,2023-06
+2024,10678/GEN1,AES Warrior Run Cogeneration Facility,MD,AES WR Ltd Partnership,GEN1,180.0,2024-06,2024-02,no_date,,no_date,
+2024,1167/8A,Muscatine Plant #1,IA,Board of Water Electric & Communications,8A,14.5,2024-03,2023-05,planned_same_year,2024-05,planned_same_year,2024-05
+2024,136/1,Seminole (FL),FL,Seminole Electric Cooperative Inc,1,626.0,2024-01,2023-02,planned_same_year,2024-01,planned_same_year,2024-01
+2024,1364/1,Mill Creek (KY),KY,Louisville Gas & Electric Co,1,300.0,2024-12,2024-03,no_date,,no_date,
+2024,2718/1,G G Allen,NC,"Duke Energy Carolinas, LLC",1,120.0,2024-12,2019-05,planned_earlier,2023-12,planned_earlier,2023-12
+2024,2718/5,G G Allen,NC,"Duke Energy Carolinas, LLC",5,259.0,2024-09,2020-06,planned_earlier,2023-12,planned_earlier,2023-12
+2024,3122/1,Homer City Generating Station,PA,"Homer City Generation, L.P.",1,626.1,2024-04,2023-11,planned_earlier,2023-11,planned_same_year,2024-03
+2024,4041/5,South Oak Creek,WI,Wisconsin Electric Power Co,5,242.2,2024-05,2022-06,planned_same_year,2024-05,planned_same_year,2024-05
+2024,4041/6,South Oak Creek,WI,Wisconsin Electric Power Co,6,253.8,2024-05,2022-06,planned_same_year,2024-05,planned_same_year,2024-05
+2024,6155/1,Rush Island,MO,Union Electric Co - (MO),1,589.0,2024-10,2024-12,planned_later,2025-12,planned_later,2025-12
+2024,6155/2,Rush Island,MO,Union Electric Co - (MO),2,589.0,2024-10,2024-12,planned_later,2025-12,planned_later,2025-12
+2024,963/3,Dallman,IL,City of Springfield - (IL),3,159.0,2024-03,2023-12,planned_earlier,2023-12,planned_same_year,2024-02
+2025,1073/1,Prairie Creek,IA,Interstate Power and Light Co,1,5.3,2025-12,2019-05,no_date,,no_date,
+2025,113/1,Cholla,AZ,Arizona Public Service Co,1,112.0,2025-03,2025-02,no_date,,no_date,
+2025,113/3,Cholla,AZ,Arizona Public Service Co,3,271.0,2025-03,2025-02,not_operating,,not_operating,
+2025,2367/4,Schiller,NH,Granite Shore Power,4,47.5,2025-10,2026-02,no_date,,no_date,
+2025,2367/6,Schiller,NH,Granite Shore Power,6,47.9,2025-10,2026-02,no_date,,no_date,
+2025,594/4,Indian River Generating Station,DE,Indian River Operations Inc,4,410.0,2025-02,2024-12,planned_later,2026-12,planned_same_year,2025-02
+2025,6481/1,Intermountain Power Project,UT,Los Angeles Department of Water & Power,1,900.0,2025-10,2022-02,planned_same_year,2025-07,planned_same_year,2025-07
+2025,6481/2,Intermountain Power Project,UT,Los Angeles Department of Water & Power,2,900.0,2025-11,2022-02,planned_same_year,2025-07,planned_same_year,2025-07
