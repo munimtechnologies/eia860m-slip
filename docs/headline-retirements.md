@@ -1,6 +1,6 @@
 # How much of EIA's start-of-year planned retirement capacity actually retires? 2020-2026, from EIA's own numbers
 
-MV2 of Munim, Inc., 15 October 2026 (revised in 0.2.3: final EIA-860 figures for 2020-2023; 2025 prediction scored in 0.2.5). Made with AI agents. Text and table: CC BY 4.0. Code (`headline.py`): Apache-2.0.
+MV2 of Munim, Inc., 15 October 2026 (revised in 0.2.3: final EIA-860 figures for 2020-2023; 2025 prediction scored in 0.2.5; point 7 corrected in 0.2.6). Made with AI agents. Text and table: CC BY 4.0. Code (`headline.py`): Apache-2.0.
 
 Each January or February, EIA's *Today in Energy* also says how many gigawatts of generating capacity operators plan to retire that year, from the same Preliminary Monthly Electric Generator Inventory (EIA-860M) that gives the planned additions. This note puts seven years of those retirement headlines next to what EIA later reported as retired. It is the companion to [`headline-plans.md`](headline-plans.md), which does the same for additions. Every number is in [`data/eia_headline_retirements.csv`](../data/eia_headline_retirements.csv), with the EIA page it comes from and the words it rests on. `python headline.py --retirements` rebuilds the tables below (since 0.2.4 it also prints 2018 and 2019, which are covered in [`headline-2016-2019.md`](headline-2016-2019.md)).
 
@@ -57,7 +57,7 @@ The 2025 rows still show EIA's first article. The final 2025 Form EIA-860 (relea
 
    Five of seven went up by 11-21%. For 2023 and 2024 the first count was already built on the December inventory, so this is not the "scheduled months" problem that inflated the first-reported 2020 additions (see `headline-plans.md`). It runs the other way. One plausible cause, untested: EIA-860M adds a generator to its frame ahead of a *planned* retirement, so unplanned retirements may be reported late. For additions, revisions since 2023 have been upward (the totals rose 4.7% for 2023, 3.8% for 2024 and 6.8% for 2025); for 2020-2021, when first counts included scheduled November-December additions, they were downward (11-30%). The 2025 rows come from the final EIA-860 file, not yet from the Electric Power Annual (see `eia860-2025-scored.md`).
 6. **What this implied for 2025, stated before reading the final file.** If 2025's first count (4.6 GW) is revised like 2023 and 2024 (+13% to +20%), the final figure would be about 5.2-5.5 GW: 42-45% of plan. That would still be by far the lowest year in the table. **Scored early (0.2.5): missed, narrowly.** The final 2025 EIA-860 file gives 5.11 GW (42% of plan), 0.09 GW below the range: the revision was +11%, and coal only +3%. The range was written before we read the file but after EIA had released it. The conclusion it was meant to test holds: 2025 is by far the lowest year in the table.
-7. **For 2025 coal, EIA's forecast missed by more than the plan.** The January 2025 Short-Term Energy Outlook expected 11 GW of coal retirements in 2025, against 8.1 GW planned and 2.6 GW retired (2.69 GW on the final EIA-860 file). For 2025 solar additions it was the other way round ([`headline-plans.md`](headline-plans.md)). Two cases do not make a track record.
+7. **For 2025 coal, EIA's forecast missed by more than the plan.** The January 2025 Short-Term Energy Outlook expected 11 GW of coal retirements in 2025, against 8.1 GW planned and 2.6 GW retired (2.69 GW on the final EIA-860 file). For 2025 solar additions the forecast looked closer on EIA's first count, but on the final EIA-860 file it too missed by more than the plan (3.5 GW under against 3.0 GW over; [`headline-plans.md`](headline-plans.md), point 7). Two cases do not make a track record.
 
 ## A range for 2026, stated before the result
 
@@ -82,6 +82,8 @@ The total range runs from 4.1 to 19.1 GW against about 11 GW planned. That width
 - **Scope.** These are headline numbers. Which units slipped, by how long and why is what the generator-level scoring in `eia860m_slip.py` measures.
 
 ## Corrections
+
+0.2.6 (17 October 2026): point 7 said that for 2025 solar additions EIA's forecast did better than the plan ("the other way round"). That held only against EIA's first count; on the final EIA-860 file the plan was closer for solar too. No number changed.
 
 0.2.3 (16 October 2026, released together with 0.2.4): 2020-2023 now use the Electric Power Annual's final figures. 0.2.2 said 2023 total retirements were 87% of plan and 2023 coal about 121%; on EIA-860 they were 98% and 104%. 0.2.2's point 5 also said "the planned additions were also revised upward after first report". That was wrong in two ways: it is the reported *actual* additions that were revised, and for 2020-2021 they were revised downward.
 
