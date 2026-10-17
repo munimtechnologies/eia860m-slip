@@ -1,0 +1,35 @@
+order,plant_key,plant,issued,effective,expires,source
+202-25-3,campbell,J.H. Campbell,2025-05-23,,2025-08-21,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-4,eddystone,Eddystone,2025-05-30,,2025-08-28,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-6,wagner,H.A. Wagner,2025-07-28,,2025-10-26,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-7,campbell,J.H. Campbell,2025-08-20,2025-08-21,2025-11-19,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-8,eddystone,Eddystone,2025-08-28,2025-08-28,2025-11-26,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-6A,wagner,H.A. Wagner,2025-10-24,2025-10-26,2025-12-31,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-9,campbell,J.H. Campbell,2025-11-18,2025-11-19,2026-02-17,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-10,eddystone,Eddystone,2025-11-25,2025-11-26,2026-02-24,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-11,centralia,Centralia,2025-12-16,2025-12-16,2026-03-16,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-12,schahfer,R.M. Schahfer,2025-12-23,2025-12-23,2026-03-23,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-13,culley,F.B. Culley,2025-12-23,2025-12-23,2026-03-23,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-25-14,craig,Craig,2025-12-30,2025-12-30,2026-03-30,https://www.energy.gov/ceser/2025-doe-202c-orders
+202-26-16,campbell,J.H. Campbell,2026-02-17,2026-02-17,2026-05-18,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-17,eddystone,Eddystone,2026-02-23,2026-02-24,2026-05-24,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-18,centralia,Centralia,2026-03-16,2026-03-17,2026-06-14,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-19,schahfer,R.M. Schahfer,2026-03-23,2026-03-24,2026-06-21,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-20,culley,F.B. Culley,2026-03-23,2026-03-24,2026-06-21,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-21,craig,Craig,2026-03-30,2026-03-31,2026-06-28,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-22,campbell,J.H. Campbell,2026-05-18,2026-05-19,2026-08-16,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-24,eddystone,Eddystone,2026-05-21,2026-05-25,2026-08-22,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-25,wagner,H.A. Wagner,2026-05-21,2026-05-22,2026-08-19,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-26,stanton,Stanton Energy Center,2026-06-04,2026-06-04,2026-09-01,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-28,centralia,Centralia,2026-06-12,2026-06-15,2026-09-12,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-29,schahfer,R.M. Schahfer,2026-06-18,2026-06-22,2026-09-19,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-30,culley,F.B. Culley,2026-06-18,2026-06-22,2026-09-19,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-31,craig,Craig,2026-06-26,2026-06-29,2026-09-26,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-39,campbell,J.H. Campbell,2026-08-14,2026-08-17,2026-11-14,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-25A,wagner,H.A. Wagner,2026-08-19,2026-08-20,2026-11-17,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-40,eddystone,Eddystone,2026-08-21,2026-08-23,2026-11-20,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-42,stanton,Stanton Energy Center,2026-09-01,2026-09-02,2026-11-30,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-44,centralia,Centralia,2026-09-11,2026-09-13,2026-12-11,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-46,schahfer,R.M. Schahfer,2026-09-18,2026-09-20,2026-12-18,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-47,culley,F.B. Culley,2026-09-18,2026-09-20,2026-12-18,https://www.energy.gov/ceser/2026-doe-202c-orders
+202-26-49,craig,Craig,2026-09-25,2026-09-27,2026-12-25,https://www.energy.gov/ceser/2026-doe-202c-orders
