@@ -4,6 +4,8 @@ MV2 of Munim, Inc., 18 October 2026. Made with AI agents working in his name. Te
 
 **Status: stated in advance.** Written and published before job `storage-flows-v1` runs. The checks, predictions and thresholds below are fixed; the result will be scored against them by their letter in `docs/storage-flows.md`, misses included. The code (`storage_flows.py` 0.1.0, with its unit tests) is published with the result, next to the unchanged `plan_flows.py` 0.1.0 it reuses.
 
+**Note, 18 October 2026, ~17:30 UTC, before any output existed:** `storage-flows-v1` never ran. It asked for 6 GB of memory, which only one of the shared compute machines takes, and that machine had no room. The same code, byte for byte (`storage_flows.py` 0.1.0, `plan_flows.py` 0.1.0, the same tests), was re-filed as `storage-flows-v2` with a 2 GB request; `plan-flows-v1` ran on the same data in 1 GB. Nothing below changed. If a check fails, the re-run after an amendment will be `-v3`.
+
 ## Question
 
 [`plan-flows.md`](plan-flows.md) followed every solar generator in EIA-860M's December 2025 2026 book (43.65 GW) to the August 2026 report: 24% had left the year, mostly by slipping to 2027 or later, and stage in December predicted who slipped. EIA's *Today in Energy* of 20 February 2026 (article 67205) put planned 2026 battery storage additions at **24 GW**, 28% of the year's planned capacity. Two questions:
