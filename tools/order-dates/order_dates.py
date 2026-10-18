@@ -8,7 +8,8 @@ generator an order covers, this reads its record in every monthly EIA-860M repor
 changelog) from the month of the plant's first order on, and compares its planned
 retirement month with the expiry month of the order in force on the last day of the
 report month (the latest order for the plant issued on or before that day that has not
-yet expired). Checks and predictions: docs/order-dates-preregistration.md.
+yet expired). Checks and predictions: docs/order-dates-preregistration.md (amended in
+docs/order-dates-amendment.md for 0.1.1).
 
     python order_dates.py --data-dir /data --out-dir /out
 """
@@ -24,7 +25,7 @@ import os
 import numpy as np
 import pandas as pd
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OPERATING = frozenset({"OP", "SB", "OS", "OA"})
 COAL_CODES = frozenset({"BIT", "SUB", "LIG", "ANT", "RC", "WC", "SGC"})
@@ -140,6 +141,26 @@ def match(plant, unit, first_m):
     return sorted(fb.index), "fallback" if len(fb) else "none"
 
 
+def listing(plant, first_m, last_m):
+    """Every generator ever listed at the matched plant: its record before the first order and
+    in the latest report (diagnostic only; added in 0.1.1)."""
+    out = []
+    before, latest = snapshot(plant, first_m - 1), snapshot(plant, last_m)
+    for k in sorted(set(plant["key"])):
+        recs = plant[plant["key"] == k]
+        b = before.loc[k] if k in before.index else None
+        l = latest.loc[k] if k in latest.index else None
+        out.append({"key": k, "fuel": str(recs["fuel"].iloc[-1]),
+                    "first_report": month_str(recs["report_m"].min()),
+                    "last_report": month_str(recs["report_m"].max()),
+                    "status_before": "" if b is None else b["status"],
+                    "planned_before": "" if b is None else month_str(b["plan_ret_m"]),
+                    "status_latest": "" if l is None else l["status"],
+                    "planned_latest": "" if l is None else month_str(l["plan_ret_m"]),
+                    "retired_latest": "" if l is None else month_str(l["ret_m"])})
+    return out
+
+
 def classify(rec, order):
     """Class of one generator-month: its record against the order in force."""
     if rec is None:
@@ -205,7 +226,8 @@ def analyse(df, orders, units):
             "scored": len(n), "exact": sum(r["class"] == "exact" for r in n),
             "plus1": sum(r["class"] == "plus1" for r in n),
             "classes": {c: sum(r["class"] == c for r in prow) for c in sorted({r["class"] for r in prow})},
-            "max_changes": max(per_gen.values()) if per_gen else 0})
+            "max_changes": max(per_gen.values()) if per_gen else 0,
+            "listing": listing(plant, first_m, last_m) if len(plant) else []})
     return {"report_max": month_str(last_m), "rows": rows, "plants": plants}
 
 
@@ -275,7 +297,16 @@ def render(res, sc, diag):
         md += ["| %(report)s | %(generator_id)s | %(status)s | %(planned)s | %(order)s | %(order_expires)s | "
                "%(class)s |" % r for r in res["rows"] if r["plant_key"] == p["plant_key"]]
         md.append("")
-    md += ["## Diagnostics", "", "```", json.dumps(diag, indent=1, default=str), "```", ""]
+    md += ["## Every generator at each matched plant", "",
+           "| plant | generator | fuel | listed | status before | planned before | status latest | "
+           "planned latest | retired |", "|" + "---|" * 9]
+    for p in res["plants"]:
+        for g in p.get("listing", []):
+            md.append("| %s | %s | %s | %s to %s | %s | %s | %s | %s | %s |" % (
+                p["plant"], g["key"], g["fuel"], g["first_report"], g["last_report"],
+                g["status_before"], g["planned_before"], g["status_latest"], g["planned_latest"],
+                g["retired_latest"]))
+    md += ["", "## Diagnostics", "", "```", json.dumps(diag, indent=1, default=str), "```", ""]
     return "\n".join(md) + "\n"
 
 

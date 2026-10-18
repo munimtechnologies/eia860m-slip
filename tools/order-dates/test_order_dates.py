@@ -98,6 +98,19 @@ class Analyse(unittest.TestCase):
         self.assertEqual(p["generators"], ["1710/X1"])
         self.assertEqual(p["plant_ids"], ["1710"])
 
+    def test_listing_shows_every_generator(self):
+        df = od.prepare(pd.DataFrame([
+            rec("2025-04-01", 1710, "J H Campbell", "1", "MI", "OP", "2025-08-01"),
+            rec("2025-04-01", 1710, "J H Campbell", "4", "MI", "OP"),
+            rec("2025-09-01", 1710, "J H Campbell", "4", "MI", "RE", retired="2025-09-01"),
+        ]))
+        p = od.analyse(df, ORDERS, [UNIT])["plants"][0]
+        got = {g["key"]: (g["status_before"], g["planned_before"], g["status_latest"], g["retired_latest"])
+               for g in p["listing"]}
+        self.assertEqual(got, {"1710/1": ("OP", "2025-08", "OP", ""),
+                               "1710/4": ("OP", "", "RE", "2025-09")})
+        self.assertEqual(p["generators"], ["1710/1"])
+
     def test_score(self):
         res = od.analyse(campbell(), ORDERS, [UNIT])
         sc = od.score(res, 5)
@@ -121,6 +134,8 @@ class Analyse(unittest.TestCase):
                                      D(2026, 8, 31))["order"], "202-26-39")
         self.assertIsNone(od.in_force([o for o in orders if o["plant_key"] == "wagner"],
                                       D(2026, 2, 28)))
+        # 0.1.1: EIA lists Centralia's coal units as generators 1 and 2 (coal-rows found 3845/1).
+        self.assertIn("2", [u for u in units if u["plant_key"] == "centralia"][0]["ids"])
 
 
 if __name__ == "__main__":
