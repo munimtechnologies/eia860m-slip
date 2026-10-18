@@ -1,0 +1,45 @@
+{
+ "tool": "steo-text 0.1.0",
+ "editions": {
+  "jan20": {
+   "pages": 53,
+   "sentences": 3
+  },
+  "feb20": {
+   "pages": 51,
+   "sentences": 0
+  },
+  "jan21": {
+   "pages": 57,
+   "sentences": 4
+  },
+  "feb21": {
+   "pages": 52,
+   "sentences": 3
+  },
+  "jan22": {
+   "pages": 58,
+   "sentences": 5
+  },
+  "feb22": {
+   "pages": 55,
+   "sentences": 6
+  },
+  "jan23": {
+   "pages": 49,
+   "sentences": 2
+  },
+  "feb23": {
+   "pages": 51,
+   "sentences": 2
+  },
+  "jan24": {
+   "pages": 52,
+   "sentences": 4
+  },
+  "jan25": {
+   "pages": 60,
+   "sentences": 3
+  }
+ }
+}
