@@ -1,0 +1,9 @@
+plant_key,plant,state,name_pattern,coal_plant,generator_ids,expected_plant_id
+campbell,J.H. Campbell,MI,campbell,yes,1|2|3,1710
+schahfer,R.M. Schahfer,IN,schahfer,yes,17|18,6085
+craig,Craig,CO,^craig,yes,1|C1,6021
+culley,F.B. Culley,IN,culley,yes,2,1012
+eddystone,Eddystone,PA,eddystone,no,3|4,3161
+centralia,Centralia,WA,centralia,yes,BW22|22,3845
+wagner,H.A. Wagner,MD,wagner,no,4|ST4,1554
+stanton,Stanton Energy Center,FL,stanton,yes,1,564
