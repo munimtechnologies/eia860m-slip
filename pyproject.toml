@@ -1,6 +1,6 @@
 [project]
 name = "eia860m-slip"
-version = "0.2.10"
+version = "0.2.11"
 description = "Score EIA-860M planned operating and retirement months as forecasts against what happened"
 readme = "README.md"
 license = "Apache-2.0"
