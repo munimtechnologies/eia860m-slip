@@ -2,7 +2,7 @@
 
 MV2 of Munim, Inc., 18 October 2026. Made with AI agents working in his name. Text and data CC BY 4.0; code in [`tools/plan-flows/`](../tools/plan-flows/) Apache-2.0.
 
-**Status: scored.** The checks and predictions were published before the job ran ([`plan-flows-preregistration.md`](plan-flows-preregistration.md), released in 0.2.10). Job `plan-flows-v1` ran in a sealed container on 2026-10-18 (14:08-14:15Z); its 10 unit tests passed first. All three checks passed. **3 of the 5 predictions held.** Raw output: [`plan-flows-output.md`](plan-flows-output.md); month by month: [`../data/plan_flows.csv`](../data/plan_flows.csv); one row per generator: [`../data/plan_flows_generators.csv`](../data/plan_flows_generators.csv).
+**Status: scored.** The checks and predictions were published before the job ran ([`plan-flows-preregistration.md`](plan-flows-preregistration.md), released in 0.2.10). Job `plan-flows-v1` ran in a sealed container on 2026-10-18 (14:08-14:15Z); its 10 unit tests passed first. All three checks passed. **3 of the 5 predictions held.** Raw output: [`plan-flows-output.md`](plan-flows-output.md); month by month: [`../data/plan_flows.csv`](../data/plan_flows.csv); one row per generator: [`../data/plan_flows_generators.csv`](../data/plan_flows_generators.csv). Spot-check result (0.2.12): the raw records of the five largest movers match this reading; see Limits.
 
 ## Question
 
@@ -47,7 +47,7 @@ Joined the book since December: **7.94 GW in 266 generators** (6.30 GW not liste
 
 ## Other things seen (not pre-registered)
 
-- **The largest 2026 solar project EIA named has slipped to 2027 in EIA's own inventory.** EIA's *Today in Energy* of 20 February 2026 (article 67205) called Tehuacana Creek 1 Solar and BESS, 837 MW in Texas, "the largest solar photovoltaic project expected to come online in 2026". The generator that matches it in the December report, plant 65855 generator TE1PV (836.8 MW, stage L, planned October 2026), is in the August report at stage V (more than half built) but planned for May 2027, at 644.8 MW. The match rests on size and generator id; the plant name is being confirmed from the raw record (see Limits).
+- **The largest 2026 solar project EIA named has slipped to 2027 in EIA's own inventory.** EIA's *Today in Energy* of 20 February 2026 (article 67205) called Tehuacana Creek 1 Solar and BESS, 837 MW in Texas, "the largest solar photovoltaic project expected to come online in 2026". Plant 65855 generator TE1PV is that project: its raw records name it "Tehuacana Creek 1 Solar and BESS" (Navarro County, Texas; renamed "Tehuacana Creek Solar" from the May 2026 report). In the December report it was 836.8 MW at stage L, planned for October 2026. In the July 2026 report it moved to stage V (more than half built) and to May 2027, at 644.8 MW, and the August report is unchanged. Its 418 MW battery (TE1BS) is still planned for December 2026 ([`storage-flows.md`](storage-flows.md)).
 - **Prior art agrees on direction.** pv magazine USA (18 November 2025), reporting EIA's inventory figures, gave about 20% of planned solar capacity reporting a schedule delay in Q3 2025, and under 1% of planned solar capacity typically cancelled in a month. This result adds what EIA's delay share does not give: how much of one year's book left the year, where it went, and what replaced it.
 
 ## Checks (all passed)
@@ -82,7 +82,7 @@ Written 2026-10-18, before the September 2026 EIA-860M is released. Scored with 
 - PUDL's changelog is a reconstruction of the monthly files. A generator that changes its id shows up as one exit (not listed) and one entry (not listed); earlier work here found renames are rare (15 of 1,249 exits), but some of the 6.30 GW newly listed and the 2.29 GW no longer listed could be the same projects under new ids.
 - A state is what the inventory says, not what happened on site. "Not listed" is not confirmed cancellation; EIA-860M's separate list of cancelled and postponed projects was not read.
 - Planned months can move within 2026 without any flow (plan-path's "re-dated, not dropped").
-- The per-generator rows were read from the job's own output. The raw PUDL records of five of the largest movers (TE1PV, DAWN1, INMA1, SDTWO, MISII) are being printed by a separate job (`plan-flows-spot-v1`) for a check by eye; this document will note its result.
+- **Spot check (done, 0.2.12).** Job `plan-flows-spot-v2` (`spot.py` 0.2.0, 6 unit tests passed) printed every raw PUDL record of five of the largest movers ([`../data/plan_flows_spot.md`](../data/plan_flows_spot.md)). Read by eye, all five match the state, status, planned month and capacity this reading gave them in both the December and the August report: TE1PV (Tehuacana Creek 1, L October 2026 to V May 2027, 836.8 to 644.8 MW), DAWN1 (Renegade Solar Project (Dawn), 515 MW, T, December 2026 to December 2027), INMA1 (Mayapple Solar 1, 224 MW, T, May 2026 to March 2029), SDTWO (Walleye Solar (Sandow II), 369 MW, P, December 2026, last listed in the December 2025 report) and MISII (Fagus Solar Park, 331.6 MW, V March 2026, then operating since December 2025). The check relies on PUDL's rule for a generator's last record: its `valid_until_date` is the last report the generator is listed in (one month later if that record starts in the last report), which is how SDTWO, valid until 2025-12-01, is in the December book and absent from January.
 
 ## Files
 
@@ -90,7 +90,8 @@ Written 2026-10-18, before the September 2026 EIA-860M is released. Scored with 
 - [`plan-flows-output.md`](plan-flows-output.md): the job's raw output.
 - [`../data/plan_flows.csv`](../data/plan_flows.csv): the monthly split, one row per report pair.
 - [`../data/plan_flows_generators.csv`](../data/plan_flows_generators.csv): every generator in the December or August book, with its state in both.
-- [`../tools/plan-flows/`](../tools/plan-flows/): `plan_flows.py` 0.1.0 and its tests.
+- [`../data/plan_flows_spot.md`](../data/plan_flows_spot.md): raw PUDL records of the spot-checked generators and of EIA's four largest named 2026 battery plants.
+- [`../tools/plan-flows/`](../tools/plan-flows/): `plan_flows.py` 0.1.0 and its tests; `spot.py` 0.2.0 and its tests.
 
 ```
 cd tools/plan-flows
