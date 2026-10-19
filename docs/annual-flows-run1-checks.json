@@ -1,0 +1,31 @@
+{
+ "K2": {
+  "report_max": "2026-08",
+  "operating_exits": 377,
+  "pass": false
+ },
+ "K3": {
+  "on_time": 0.3247,
+  "not_online_12": 0.1916,
+  "max_planned_mw_change": 0.0363,
+  "pass": false
+ },
+ "K4": {
+  "rows": 179,
+  "rows_not_adding_up": 0,
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "pass": true
+ },
+ "all_pass": false
+}
