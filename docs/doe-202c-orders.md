@@ -1,6 +1,6 @@
 # Every DOE 202(c) emergency order of 2025-2026, as one table
 
-Status: description (the counts below are not predictions); three predictions about the renewals due from 14 November 2026 are stated in advance at the end. Table as of 18 October 2026. MV2 of Munim, Inc.; the table, code and this note were made with AI agents working in my name.
+Status: description (the counts below are not predictions); three predictions about the renewals due from 14 November 2026 are stated in advance at the end. Table as of 18 October 2026 (DOE's 2026 list re-checked on 19 October: no new orders). MV2 of Munim, Inc.; the table, code and this note were made with AI agents working in my name.
 
 ## What this is
 
@@ -26,6 +26,12 @@ Days are calendar dates, with the start and end dates both counted; the times of
 
 Current plant orders expire: Campbell 14 November, Wagner 17 November, Eddystone 20 November, Stanton 30 November, Centralia 11 December, Schahfer and Culley 18 December, Craig 25 December 2026.
 
+## The court ruling on the first Campbell order (added 19 October 2026)
+
+On 11 September 2026 the U.S. Court of Appeals for the D.C. Circuit vacated DOE's first Campbell order, 202-25-3 of 23 May 2025, in *People of the State of Michigan v. U.S. Department of Energy* (No. 25-1159). The court held that the long-term resource adequacy risks DOE cited were not an emergency under section 202(c), which it read as a limited backstop ([Utility Dive, 11 September 2026](https://www.utilitydive.com/news/appeals-court-vacates-doe-emergency-order-michigan-power-plant/830189/); [ArentFox Schiff, 16 September 2026](https://www.afslaw.com/perspectives/energy-cleantech-counsel/dc-circuit-decision-emphasizes-limits-does-emergency-grid)). Only that first order was before the court; challenges to the later Campbell orders were held in abeyance. DOE's 2026 list still shows the newest Campbell order, 202-26-39, in force to 14 November 2026; the press we read does not say whether DOE will seek further review.
+
+The 18 October version of this note did not mention the ruling. It changes no row or count in the table: the CSV lists orders as DOE issued them, and a vacated order stays in it. It does bear on R1 below, since Campbell's renewal is due on 14 November. R1 stays as written and will be scored by its letter.
+
 ## Megawatts under plant orders, day by day (added in 0.2.15)
 
 [`data/doe_202c_plant_mw.csv`](../data/doe_202c_plant_mw.csv) gives each plant's covered units their summer capacity and primary fuel as EIA-860M listed them in the last monthly report before the plant's first order (the same generators and figures as the order-dates check, [`docs/order-dates-output-v2.md`](order-dates-output-v2.md)). `orders_202c.py` 0.2.0 counts, for each calendar day, the summer MW of plants with a plant order in force. Up to 18 October 2026:
@@ -44,7 +50,7 @@ Current plant orders expire: Campbell 14 November, Wagner 17 November, Eddystone
 
 - **Since 4 June 2026 all eight plants have been under order at once: 4,849.9 MW of summer capacity**, 3,692.9 MW of it coal (Campbell, Centralia, Schahfer, Culley, Craig, Stanton); the rest is Eddystone 3-4 (760 MW, gas and oil) and Wagner 4 (397 MW, oil).
 - **2,665 plant-days and 1,827,592.8 MW-days of capacity held under order** from 23 May 2025 to 18 October 2026, about 5.01 GW-years; 1,320,393.8 MW-days of it coal. Campbell alone is 514 days and 37% of the MW-days.
-- This is capacity ordered to stay available, not energy produced. Utility Dive ([23 June 2026](https://www.utilitydive.com/news/doe-202c-power-plants-centralia-campbell-schahfer/822062/)) reported from EIA data that Campbell had run at a 46% capacity factor since 1 June, against a nearly 66% average for the same periods of the four years before, and quoted TransAlta (29 April) that Centralia "hasn't produced electricity since the DOE ordered it to be available starting Jan. 1."
+- This is capacity ordered to stay available, not energy produced. Utility Dive ([23 June 2026](https://www.utilitydive.com/news/doe-202c-power-plants-centralia-campbell-schahfer/822062/)) reported from EIA data that Campbell had run at a 46% capacity factor since 1 June, against a nearly 66% average for the same periods of the four years before, and quoted TransAlta (29 April) that Centralia "hasn't produced electricity since the DOE ordered it to be available starting Jan. 1." How much the covered units generated month by month is the subject of a separate check, pre-registered before it runs: [`docs/gen-202c-preregistration.md`](gen-202c-preregistration.md).
 
 Other trackers give different totals because they count different things: POWER's log gave "at least 4.4 GW" of coal retirements stalled as of April 2026 (before Stanton's order), and other lists use nameplate or owner figures (Campbell 1,420 or 1,560 MW against EIA's 1,330.5 MW summer). The tests check the table, the plant-days and MW-days and the per-plant day counts in this section against the CSVs.
 
@@ -58,6 +64,6 @@ Other trackers give different totals because they count different things: POWER'
 
 DOE publishes the orders as web text. POWER magazine kept a log of orders and extensions with capacity and fuel (43 entries as of 2 April 2026); the State Impact Center tracks state attorneys general's actions on the orders; ERCOT, PJM and others post their own orders. On 19 October 2026 we found no machine-readable table of every 2025-2026 order with its dates, no count of how many days event orders were in force or of gaps between plant renewals, and no day-by-day series of the EIA-listed capacity under plant orders. If you know of one, open an issue.
 
-Limits: the table was transcribed from DOE's list pages, not from each order's PDF, so the start dates of six 2025 orders (202-25-1 to 202-25-6) and the expiries of the first two PREPA orders are missing from the pages and marked in the notes (the expiries of the first Campbell and Eddystone orders come from the earlier unit-order table). Kinds and areas are our labels. Days in force count whole calendar days, so an order that starts at 11:59 PM counts that day. The causes of event orders (cold, heat, maintenance outages) are not on the list pages and are not in the table. The MW figures are one EIA-860M snapshot per plant (summer capacity, or nameplate where summer is blank); they do not follow later re-ratings, and they cover only the units the order-dates check matched to each order.
+Limits: the table was transcribed from DOE's list pages, not from each order's PDF, so the start dates of six 2025 orders (202-25-1 to 202-25-6) and the expiries of the first two PREPA orders are missing from the pages and marked in the notes (the expiries of the first Campbell and Eddystone orders come from the earlier unit-order table). Kinds and areas are our labels. Days in force count whole calendar days, so an order that starts at 11:59 PM counts that day. The causes of event orders (cold, heat, maintenance outages) are not on the list pages and are not in the table. The MW figures are one EIA-860M snapshot per plant (summer capacity, or nameplate where summer is blank); they do not follow later re-ratings, and they cover only the units the order-dates check matched to each order. Court rulings are noted in the text, not in the table.
 
 Run: `python -m unittest -v test_orders_202c && python orders_202c.py --out-dir out --as-of 2026-10-18`. Data: CC BY 4.0. Code: Apache-2.0.

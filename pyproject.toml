@@ -1,6 +1,6 @@
 [project]
 name = "eia860m-slip"
-version = "0.2.15"
+version = "0.2.16"
 description = "Score EIA-860M planned operating and retirement months as forecasts against what happened"
 readme = "README.md"
 license = "Apache-2.0"
@@ -16,4 +16,4 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["eia860m_slip", "headline", "eia860_final", "orders_202c"]
+py-modules = ["eia860m_slip", "headline", "eia860_final", "orders_202c", "gen_202c"]
