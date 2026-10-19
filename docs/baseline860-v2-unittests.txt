@@ -1,0 +1,12 @@
+test_baseline (test_baseline860.BaselineTests.test_baseline) ... ok
+test_mark (test_baseline860.BaselineTests.test_mark) ... ok
+test_checks (test_baseline860.SummaryTests.test_checks) ... ok
+test_predictions_2017 (test_baseline860.SummaryTests.test_predictions_2017) ... ok
+test_predictions_b5 (test_baseline860.SummaryTests.test_predictions_b5) ... ok
+test_summarize (test_baseline860.SummaryTests.test_summarize) ... ok
+test_top (test_baseline860.SummaryTests.test_top) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.076s
+
+OK

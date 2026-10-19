@@ -126,7 +126,7 @@ EIA ran this kind of comparison once, for 2017 ([Today in Energy, 21 June 2018](
 | onshore wind | 6.9 GW planned, 86% online | 6,858.3 MW planned, 4,283.6 MW online (62.5%) |
 | solar PV | 3.9 GW on schedule, 1.2 GW delayed | 4,430.2 MW planned, 2,787.5 MW online, 1,363.3 MW slipped |
 
-The planned totals are close but the share that came online is not. The gap is largest for onshore wind (86% against 62.5%), where the planned capacities nearly match. We have not traced the difference yet. Possible causes are the baseline (which projects each survey lists for 2017), how a project counts as online (its operating month in EIA-860M against EIA's final annual count), and capacity revisions. Until it is traced, read our delivered shares as an EIA-860M measure that may run below EIA's own.
+The planned totals are close but the share that came online is not. The gap is largest for onshore wind (86% against 62.5%), where the planned capacities nearly match. Two pre-registered follow-ups traced it. [`annual-flows-eia860.md`](annual-flows-eia860.md) dated every generator of the January plan by the annual EIA-860 instead and found the same shares, so how a project counts as online is not the cause. [`annual-flows-eia860-baseline.md`](annual-flows-eia860-baseline.md) rebuilt EIA's baseline, the annual EIA-860's own planned list for 2017, and found that it reproduces EIA's measure (80% came online in the year; onshore wind 95%) and that it holds different projects: about a fifth of each plan is not in the other, the part only the annual survey listed mostly came online in 2017, and the part only January's EIA-860M listed mostly did not. So read the delivered shares in this note as what the monthly survey's January list delivered. EIA's 78% is what the annual survey's list for the same year delivered, and both are right about their own list.
 
 ## The five predictions of the first pre-registration, seen in run 1 (not scored)
 
@@ -144,7 +144,7 @@ F1-F5 were written before run 1, but run 1's output (and what this rule would do
 - "Not listed" is not "cancelled": a generator may leave EIA-860M for reasons the records do not show.
 - Capacities are as reported (plan side in January, built side latest), so later uprates or corrections can move a generator between rows.
 - 2026 is a part year and is not in these tables. Its flows may contain re-keys that this run did not look for.
-- Fates and sources come from EIA-860M alone. Nothing here was checked against owners' filings except the two 2018 plants, and our 2017 delivered share is well below EIA's own figure (above).
+- Fates and sources come from EIA-860M alone. Nothing here was checked against owners' filings except the two 2018 plants. Our 2017 delivered share is well below EIA's own figure because the two surveys' plans for 2017 hold different projects (above), so these shares describe the January EIA-860M list, not the annual EIA-860's.
 - The generator-level output (`flows_generators.csv.gz`, `cohort_rows.csv.gz`) is not in the repository. The commands below rebuild it.
 
 ## Reproduce
