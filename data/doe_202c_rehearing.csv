@@ -1,0 +1,35 @@
+order,plant_key,first_request,requesters,notice,notice_order,rehearing_order_date,rehearing_order,page,note
+202-25-3,campbell,2025-06-18,PIOs; MI AG; MN+IL; OMS,2025-07-28,202-25-3A,2025-09-08,,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso,notice number from its file name; the page gives the order on rehearing no number
+202-25-7,campbell,2025-09-08,PIOs; MI AG; MN+IL,2025-10-24,202-25-7A,2026-01-21,202-25-7B,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso-0,
+202-25-9,campbell,2025-12-15,PIOs; MI AG; MN+IL,2026-01-20,202-25-9A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso-order-no-202-25,the MI AG's 19 Nov 2025 filing asked for intervention and a stay only
+202-26-16,campbell,2026-03-18,PIOs; MN+IL; MI AG,2026-04-21,202-26-16A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso-order-no-202-26,
+202-26-22,campbell,2026-06-16,PIOs; MN+IL+WI; MI AG,2026-07-20,202-26-22A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso-order-no-202-0,the page dates the order 19 May 2026
+202-26-39,campbell,2026-09-11,MI AG; PIOs; MN+IL+WI,2026-10-15,202-26-39A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso-order-no-202-1,
+202-25-4,eddystone,2025-06-27,PIOs; JCA,2025-08-01,202-25-4A,2026-01-10,202-25-4B,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection,
+202-25-8,eddystone,2025-09-26,JCA; PIOs,2025-10-28,202-25-8A,2026-03-05,202-25-8B,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-pjm,DOE's title numbers the order on rehearing 202-25-08B
+202-25-10,eddystone,2025-12-23,PIOs,2026-01-23,202-25-10A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-pjm-order-no-202-25-10,
+202-26-17,eddystone,2026-03-23,PIOs,2026-04-23,202-26-17A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-17,
+202-26-24,eddystone,2026-06-18,PIOs,2026-07-20,202-26-24A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-24,
+202-26-40,eddystone,2026-09-17,PIOs,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-40,no notice listed on 19 Oct 2026
+202-25-6,wagner,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-0,applied for by PJM; Talen did not oppose; the order lifts a run-hour limit
+202-25-6A,wagner,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-0,applied for by PJM
+202-26-25,wagner,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-25,applied for by PJM
+202-26-25A,wagner,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-25,applied for by PJM
+202-25-11,centralia,2026-01-13,WA; PIOs,2026-02-19,202-25-11A,2026-06-10,202-25-11C,https://www.energy.gov/ceser/federal-power-act-section-202c-transalta-order-no-202-25-11,202-25-11B (13 Mar 2026) is an amended order and not an order on rehearing
+202-26-18,centralia,2026-04-14,WA; PIOs,2026-05-15,202-26-18A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-transalta-order-no-202-26-18,
+202-26-28,centralia,2026-07-10,WA; PIOs; Gridforce,2026-08-13,202-26-28A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-transalta-order-no-202-26-28,
+202-26-44,centralia,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-transalta-order-no-202-26-44,no request listed on 19 Oct 2026
+202-25-12,schahfer,2026-01-22,MN+IL+MI; PIOs; ICC; OMS,2026-02-23,202-25-12A,2026-06-01,202-25-12B,https://www.energy.gov/ceser/federal-power-act-section-202c-schahfer-order-no-202-25-12,
+202-26-19,schahfer,2026-04-22,MN+IL+WI+MI; PIOs,2026-05-26,,2026-10-16,202-26-19B,https://www.energy.gov/ceser/federal-power-act-section-202c-schahfer-order-no-202-26-19,the page shows no number for the notice
+202-26-29,schahfer,2026-07-13,PIOs; MN+IL+WI+MI,2026-08-18,202-26-29A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-schahfer-order-no-202-26-29,
+202-26-46,schahfer,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-schahfer-order-no-202-26-46,no request listed on 19 Oct 2026
+202-25-13,culley,2026-01-22,MN+IL+MI; PIOs; ICC; OMS,2026-02-23,202-25-13A,2026-06-01,202-25-13B,https://www.energy.gov/ceser/federal-power-act-section-202c-culley-order-no-202-25-13,
+202-26-20,culley,2026-04-22,MN+IL+WI+MI; PIOs,2026-05-26,,2026-10-16,202-26-20B,https://www.energy.gov/ceser/federal-power-act-section-202c-culley-order-no-202-26-20,the page shows no number for the notice; the PIOs' file name says 202-26-19
+202-26-30,culley,2026-07-13,PIOs; MN+IL+WI+MI,2026-08-18,202-26-30A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-culley-order-no-202-26-30,the PIOs' file name says 202-26-29
+202-26-47,culley,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-culley-order-no-202-26-47,no request listed on 19 Oct 2026
+202-25-14,craig,2026-01-28,PIOs; CO; Tri-State+Platte River,2026-03-02,202-25-14A,2026-06-24,202-25-14B,https://www.energy.gov/ceser/federal-power-act-section-202c-craig-order-no-202-25-14,the co-owners Tri-State and Platte River filed on 29 Jan 2026
+202-26-21,craig,2026-04-28,CO; PIOs; Tri-State+Platte River,2026-06-01,202-26-21A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-craig-order-no-202-26-21,Tri-State and Platte River filed on 29 Apr 2026
+202-26-31,craig,2026-07-24,Tri-State+Platte River; CO; PIOs,2026-08-24,202-26-31A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-craig-order-no-202-26-31,
+202-26-49,craig,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-craig-order-no-202-26-49-0,30-day window still open on 19 Oct 2026
+202-26-26,stanton,2026-07-02,PIOs,2026-08-03,202-26-26A,,,https://www.energy.gov/ceser/federal-power-act-section-202c-orlando-utilities-commission-ouc-order-no-202-26-26,
+202-26-42,stanton,,,,,,,https://www.energy.gov/ceser/federal-power-act-section-202c-orlando-utilities-commission-ouc-order-no-202-26-42,no request listed on 19 Oct 2026
