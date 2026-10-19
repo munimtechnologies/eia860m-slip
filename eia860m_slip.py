@@ -18,6 +18,21 @@ it retired (its retirement date in a record that lists it as retired, else the
 first report that lists it as retired, else the last report that listed it as
 operating before it left EIA-860M).
 
+Since 0.3.0 it reads PUDL's validity dates as PUDL defines them (a generator's
+last record runs to the last report that lists it, inclusive), so generators
+still listed are no longer counted as having left, and it splits each year's
+January plan into what came online that year and what happened to the rest,
+and each year's additions into what January planned and where the rest stood
+in January (annual flows; checks and predictions in
+docs/annual-flows-preregistration.md).
+
+Since 0.3.1 the annual flows link a planned generator that left EIA-860M to a
+new entry of the same year that is the same equipment filed under another plant
+id (rule R: same technology group and generator id, capacity within 0.05 MW,
+first listed 0-3 months after the old key's last listing, at least 10 MW).
+Linked pairs get the fate rekeyed_online and the source rekeyed, and are listed
+with their raw records (docs/annual-flows-preregistration-v2.md).
+
 Input: Catalyst Cooperative's PUDL table core_eia860m__changelog_generators
 (one record per change, valid from report_date up to valid_until_date).
 
@@ -33,7 +48,7 @@ import urllib.request
 import numpy as np
 import pandas as pd
 
-__version__ = "0.2.0"
+__version__ = "0.3.1"
 
 URL = ("https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/"
        "core_eia860m__changelog_generators.parquet")
@@ -41,10 +56,13 @@ COLUMNS = ("report_date", "valid_until_date", "plant_id_eia", "generator_id", "c
            "current_planned_generator_operating_date", "generator_operating_date",
            "operational_status_code", "operational_status", "technology_description",
            "fuel_type_code_pudl", "state", "planned_generator_retirement_date",
-           "generator_retirement_date")
+           "generator_retirement_date", "plant_name_eia")
 # EIA-860M planned status codes and the stage each stands for.
 PLANNED = {"P": "planning", "L": "permitting", "T": "approved", "U": "construction",
            "V": "construction", "TS": "testing", "OT": "other"}
+# Coarser stages for the annual flows: not yet approved, approved, being built or tested.
+STAGE_BANDS = {"P": "early", "L": "early", "T": "approved", "U": "building", "V": "building",
+               "TS": "building", "OT": "other"}
 OPERATING = frozenset({"OP", "SB", "OS", "OA"})
 RETIRED = frozenset({"RE"})
 HORIZON = 12  # a plan is scored when its planned month is 0-12 months ahead
@@ -60,6 +78,23 @@ TECH_GROUPS = (("solar photovoltaic", "solar"), ("batteries", "battery"),
                ("natural gas internal combustion engine", "gas_ice"),
                ("conventional steam coal", "coal"), ("nuclear", "nuclear"),
                ("petroleum liquids", "oil"))
+# What became of a generator in January's plan for a year, read from its own operating
+# month and from the report LAG months after December.
+PLAN_FATES = ("online_in_year", "online_before_year", "online_next_months", "slipped",
+              "stale", "other_status", "not_listed", "rekeyed_online")
+# Where a generator that came online in a year, but was not in January's plan for it,
+# stood in the January report.
+JOIN_SOURCES = ("new_entry", "rekeyed", "pulled_forward", "carried_over", "listed_not_planned")
+# Rule R: a not_listed plan generator and a new entry are the same equipment under a new key.
+REKEY_MIN_MW = 10.0  # plan side, January capacity
+REKEY_MW_TOL = 0.05  # largest capacity difference
+REKEY_GAP = 3        # months from the old key's last listing to the new key's first report
+LINK_COLS = ("year", "plan_key", "plan_plant", "entry_key", "entry_plant", "group",
+             "plan_mw", "entry_mw", "last_listed", "first_listed", "months_apart")
+RECORD_COLS = ("report_date", "valid_until_date", "plant_id_eia", "generator_id", "capacity_mw",
+               "current_planned_generator_operating_date", "generator_operating_date",
+               "operational_status_code", "technology_description", "plant_name_eia")
+MAX_RECORDS = 400
 
 
 def months(values):
@@ -121,13 +156,30 @@ def prepare(df):
     df["status_text"] = df["operational_status"].astype(str).str.strip().str.lower()
     df["group"] = [tech_group(x) for x in df["technology_description"]]
     df["capacity_mw"] = pd.to_numeric(df["capacity_mw"], errors="coerce").fillna(0.0)
-    return df[df["report_m"].notna()].reset_index(drop=True)
+    df = df[df["report_m"].notna()].reset_index(drop=True)
+    df["until_m"] = listed_until(df)
+    return df
+
+
+def listed_until(df):
+    """Last report month each record is in force.
+
+    PUDL ends a record that another record follows at that record's report_date
+    (exclusive), and a generator's last record at the last report that lists it
+    (inclusive; report_date + 1 month if the record starts in that report, which
+    makes such a record read one month long). A blank end runs to the last report.
+    """
+    last_m = df["report_m"].max()
+    is_last = df["report_m"] == df.groupby("key")["report_m"].transform("max")
+    until = df["valid_m"].where(is_last, df["valid_m"] - 1)
+    return until.fillna(last_m).clip(upper=last_m)
 
 
 def snapshot(df, r):
-    """Records in force at report month r."""
-    end = df["valid_m"].fillna(np.inf)
-    return df[(df["report_m"] <= r) & (end > r)]
+    """Records in force at report month r: each generator's latest record reported by r,
+    if it is still in force at r."""
+    s = df[df["report_m"] <= r].sort_values("report_m", kind="mergesort").groupby("key").tail(1)
+    return s[s["until_m"] >= r]
 
 
 def online_months(df):
@@ -153,9 +205,13 @@ def _latest(df):
 
 
 def _operating_exits(df):
-    """Generators whose last record lists them as operating and that then left EIA-860M."""
+    """Generators whose last record lists them as operating and that then left EIA-860M.
+
+    A generator still listed in the last report has a last record in force at that
+    report, so only a last record that ends before it is an exit.
+    """
     last = _latest(df)
-    return last[last["valid_m"].notna() & last["status"].isin(OPERATING)]
+    return last[(last["until_m"] < df["report_m"].max()) & last["status"].isin(OPERATING)]
 
 
 def retired_months(df):
@@ -171,7 +227,7 @@ def retired_months(df):
     else:
         first_report = gone.groupby("key")["report_m"].min()
         ret = gone.groupby("key")["ret_date_m"].min().fillna(first_report)
-    exits = _operating_exits(df)["valid_m"] - 1
+    exits = _operating_exits(df)["until_m"]
     return ret.combine_first(exits).astype(float)
 
 
@@ -200,9 +256,8 @@ def cohorts(df, last_m=None, horizon=HORIZON, resolve=RESOLVE, lag=LAG):
         d = rec.planned_m
         if d + resolve + lag > last_m:
             continue
-        end = rec.valid_m if rec.valid_m == rec.valid_m else last_m + 1
         lo = max(rec.report_m, d - horizon)
-        hi = min(end - 1, d)
+        hi = min(rec.until_m, d)
         for r in range(int(lo), int(hi) + 1):
             rows.append((rec.key, r, d, rec.status, rec.group, rec.technology_description,
                          rec.capacity_mw))
@@ -231,9 +286,8 @@ def retire_cohorts(df, last_m=None, horizon=HORIZON, resolve=RESOLVE, lag=LAG):
         d = rec.planned_ret_m
         if d + resolve + lag > last_m:
             continue
-        end = rec.valid_m if rec.valid_m == rec.valid_m else last_m + 1
         lo = max(rec.report_m, d - horizon)
-        hi = min(end - 1, d)
+        hi = min(rec.until_m, d)
         for r in range(int(lo), int(hi) + 1):
             rows.append((rec.key, r, d, rec.group, rec.technology_description, rec.capacity_mw))
     c = pd.DataFrame(rows, columns=["key", "report_m", "planned_m", "group", "technology", "mw"])
@@ -265,19 +319,23 @@ def summarize(c, by=None):
     return out
 
 
+def _closed_years(df, last_m, lag):
+    first_m = df["report_m"].min()
+    for year in range(int(first_m // 12), int(last_m // 12) + 1):
+        if year * 12 >= first_m and year * 12 + 11 + lag <= last_m:
+            yield year
+
+
 def annual(df, last_m=None, lag=LAG):
     """Per calendar year and technology group: MW planned for the year in January, how much of
     it came online that year, and all MW that came online that year."""
     if last_m is None:
         last_m = df["report_m"].max()
-    first_m = df["report_m"].min()
     online = online_months(df)
     latest = _latest(df)
     rows = []
-    for year in range(int(first_m // 12), int(last_m // 12) + 1):
+    for year in _closed_years(df, last_m, lag):
         jan, dec = year * 12, year * 12 + 11
-        if jan < first_m or dec + lag > last_m:
-            continue
         snap = snapshot(df, jan)
         plan = snap[snap["status"].isin(PLANNED) & (snap["planned_m"] >= jan)
                     & (snap["planned_m"] <= dec)]
@@ -298,19 +356,252 @@ def annual(df, last_m=None, lag=LAG):
     return rows
 
 
+def plan_fates(df, year, lag=LAG, online=None):
+    """Each generator in January's plan for `year` (listed as planned, planned month in the
+    year), with its January capacity, group and stage band, and its fate:
+
+    online_in_year      came online in the year
+    online_before_year  its operating month is before the year (the January plan was stale)
+    online_next_months  operating in the report `lag` months after December
+    slipped             still planned in that report, for a month after the year
+    stale               still planned in that report, for a month in the year or undated
+    other_status        listed in that report with any other status (cancelled, retired, ...)
+    not_listed          no record in force in that report
+
+    (rekeyed_online is set afterwards by rule R; see rekey_links.)
+    """
+    if online is None:
+        online = online_months(df)
+    jan, dec = year * 12, year * 12 + 11
+    snap = snapshot(df, jan)
+    plan = snap[snap["status"].isin(PLANNED) & (snap["planned_m"] >= jan)
+                & (snap["planned_m"] <= dec)]
+    end = snapshot(df, dec + lag).set_index("key")
+    rows = []
+    for rec in plan.itertuples(index=False):
+        on = online.get(rec.key, np.nan)
+        if jan <= on <= dec:
+            fate = "online_in_year"
+        elif on < jan:
+            fate = "online_before_year"
+        elif rec.key not in end.index:
+            fate = "not_listed"
+        else:
+            e = end.loc[rec.key]
+            if e["status"] in OPERATING:
+                fate = "online_next_months"
+            elif e["status"] in PLANNED:
+                fate = "slipped" if e["planned_m"] > dec else "stale"
+            else:
+                fate = "other_status"
+        rows.append((year, rec.key, rec.group, STAGE_BANDS[rec.status], rec.capacity_mw, fate))
+    return pd.DataFrame(rows, columns=["year", "key", "group", "band", "mw", "fate"])
+
+
+def built_sources(df, year, online=None, latest=None):
+    """Each generator that came online in `year`, with its latest capacity and group, and where
+    it stood in the January report: in_plan (planned for a month in the year), or
+
+    new_entry           not listed in January
+    pulled_forward      planned in January for a month after the year
+    carried_over        planned in January for a month before the year, or undated
+    listed_not_planned  listed in January with a status that is not planned (mostly operating)
+
+    (rekeyed is set afterwards by rule R; see rekey_links.)
+    """
+    if online is None:
+        online = online_months(df)
+    if latest is None:
+        latest = _latest(df)
+    jan, dec = year * 12, year * 12 + 11
+    snap = snapshot(df, jan).set_index("key")
+    rows = []
+    for k in online[(online >= jan) & (online <= dec)].index:
+        if k not in snap.index:
+            src = "new_entry"
+        else:
+            j = snap.loc[k]
+            if j["status"] not in PLANNED:
+                src = "listed_not_planned"
+            elif jan <= j["planned_m"] <= dec:
+                src = "in_plan"
+            elif j["planned_m"] > dec:
+                src = "pulled_forward"
+            else:
+                src = "carried_over"
+        rows.append((year, k, latest.loc[k, "group"], float(latest.loc[k, "capacity_mw"]), src))
+    return pd.DataFrame(rows, columns=["year", "key", "group", "mw", "source"])
+
+
+def _gen_id(v):
+    return str(v).strip().casefold()
+
+
+def _name(v):
+    return v if isinstance(v, str) else ""
+
+
+def listing(df):
+    """Per generator: generator id (trimmed, any case), first report month, last listed month
+    (0.3.0's reading) and the plant name in its last record that has one."""
+    s = df.sort_values(["key", "report_m"], kind="mergesort")
+    g = s.groupby("key")
+    return pd.DataFrame({"gen": g["generator_id"].last().map(_gen_id),
+                         "first_m": g["report_m"].min(), "last_m": g["until_m"].max(),
+                         "name": g["plant_name_eia"].last().map(_name)})
+
+
+def rekey_links(fates, built, info):
+    """Rule R (docs/annual-flows-preregistration-v2.md) for one year's fates and sources.
+
+    A plan generator g (fate not_listed, January capacity at least REKEY_MIN_MW) and an entry
+    n (source new_entry) are linked when they have the same technology group and generator
+    id, capacities within REKEY_MW_TOL, and n's first report is 0-REKEY_GAP months after g's
+    last listed month. One to one: plan generators in order of January capacity (largest
+    first, then key), each taking the free entry with the smallest capacity difference, then
+    the smallest gap, then the lowest key. Returns one dict per link, in that order.
+    """
+    gen, first, last, name = (info[c].to_dict() for c in ("gen", "first_m", "last_m", "name"))
+    gone = fates[(fates["fate"] == "not_listed") & (fates["mw"] >= REKEY_MIN_MW)]
+    new = list(built[built["source"] == "new_entry"].itertuples(index=False))
+    used, links = set(), []
+    for g in sorted(gone.itertuples(index=False), key=lambda r: (-float(r.mw), r.key)):
+        best = None
+        for n in new:
+            if n.key in used or n.group != g.group or gen[n.key] != gen[g.key]:
+                continue
+            gap = first[n.key] - last[g.key]
+            d = abs(float(n.mw) - float(g.mw))
+            if 0 <= gap <= REKEY_GAP and d <= REKEY_MW_TOL:
+                if best is None or (d, gap, n.key) < best[:3]:
+                    best = (d, gap, n.key, n)
+        if best is None:
+            continue
+        d, gap, _, n = best
+        used.add(n.key)
+        links.append({"year": int(g.year), "plan_key": g.key, "plan_plant": name[g.key],
+                      "entry_key": n.key, "entry_plant": name[n.key], "group": g.group,
+                      "plan_mw": round(float(g.mw), 1), "entry_mw": round(float(n.mw), 1),
+                      "last_listed": month_str(last[g.key]),
+                      "first_listed": month_str(first[n.key]), "months_apart": int(gap)})
+    return links
+
+
+def _text(v):
+    """A record value as text: blank when missing, dates without a midnight time."""
+    if v is None or (not isinstance(v, str) and pd.isna(v)):
+        return ""
+    v = str(v)
+    return "" if v in ("nan", "NaT", "None", "<NA>") else v.replace(" 00:00:00", "")
+
+
+def link_records(df, links):
+    """Raw records (as text) of every linked generator, both keys, by generator and report."""
+    keys = sorted({x[k] for x in links for k in ("plan_key", "entry_key")})
+    sel = df[df["key"].isin(keys)].sort_values(["key", "report_m"], kind="mergesort")
+    cols = [c for c in RECORD_COLS if c in sel.columns]
+    return [{c: _text(v) for c, v in rec.items()}
+            for rec in sel[cols].head(MAX_RECORDS).to_dict("records")]
+
+
+def _flow_row(label, fates, built):
+    planned = float(fates["mw"].sum())
+    row = dict(label)
+    row["planned_mw"] = round(planned, 1)
+    for f in PLAN_FATES:
+        row[f] = round(float(fates.loc[fates["fate"] == f, "mw"].sum()), 1)
+    delivered = float(fates.loc[fates["fate"].isin(["online_in_year", "rekeyed_online"]),
+                                "mw"].sum())
+    row["delivered_share"] = round(delivered / planned, 4) if planned > 0 else None
+    parts = sum(float(fates.loc[fates["fate"] == f, "mw"].sum()) for f in PLAN_FATES)
+    row["plan_identity_ok"] = abs(parts - planned) < 0.05
+    if built is not None:
+        b_mw = float(built["mw"].sum())
+        row["built_mw"] = round(b_mw, 1)
+        row["in_plan_mw"] = round(float(built.loc[built["source"] == "in_plan", "mw"].sum()), 1)
+        for s in JOIN_SOURCES:
+            row[s] = round(float(built.loc[built["source"] == s, "mw"].sum()), 1)
+        joined = b_mw - float(built.loc[built["source"] == "in_plan", "mw"].sum())
+        row["joined_share"] = round(joined / b_mw, 4) if b_mw > 0 else None
+        parts = sum(float(built.loc[built["source"] == s, "mw"].sum())
+                    for s in ("in_plan",) + JOIN_SOURCES)
+        row["built_identity_ok"] = abs(parts - b_mw) < 0.05
+    return row
+
+
+def annual_flows(df, last_m=None, lag=LAG):
+    """For each closed year: January's plan split by fate, and the year's additions split by
+    where they stood in January, with rule R's links; by technology group, by stage band, and
+    pooled over years.
+
+    Returns (result dict, generator-level DataFrame)."""
+    if last_m is None:
+        last_m = df["report_m"].max()
+    online = online_months(df)
+    latest = _latest(df)
+    info = listing(df)
+    fates, built, links = [], [], []
+    for year in _closed_years(df, last_m, lag):
+        f = plan_fates(df, year, lag, online)
+        b = built_sources(df, year, online, latest)
+        found = rekey_links(f, b, info)
+        f.loc[f["key"].isin([x["plan_key"] for x in found]), "fate"] = "rekeyed_online"
+        b.loc[b["key"].isin([x["entry_key"] for x in found]), "source"] = "rekeyed"
+        fates.append(f)
+        built.append(b)
+        links += found
+    fates = pd.concat(fates, ignore_index=True) if fates else plan_fates(df, 0, lag, online)
+    built = pd.concat(built, ignore_index=True) if built else built_sources(df, 0, online, latest)
+    by_group, by_band, pooled = [], [], []
+    for year in sorted(set(fates["year"]) | set(built["year"])):
+        f, b = fates[fates["year"] == year], built[built["year"] == year]
+        for grp in ["all"] + sorted(set(f["group"]) | set(b["group"])):
+            fg = f if grp == "all" else f[f["group"] == grp]
+            bg = b if grp == "all" else b[b["group"] == grp]
+            by_group.append(_flow_row({"year": int(year), "group": grp}, fg, bg))
+        for band in sorted(set(f["band"])):
+            by_band.append(_flow_row({"year": int(year), "band": band}, f[f["band"] == band], None))
+    # Pool only years whose January plan has capacity (PUDL's EIA-860M capacities start in
+    # 2016), so both sides of a pooled row cover the same years.
+    pooled_years = sorted(int(y) for y in set(fates.loc[fates["mw"] > 0, "year"]))
+    pf = fates[fates["year"].isin(pooled_years)]
+    pb = built[built["year"].isin(pooled_years)]
+    big = [g for g, _ in pf.groupby("group")["mw"].sum().sort_values(ascending=False).items()]
+    for grp in ["all"] + big[:5]:
+        fg = pf if grp == "all" else pf[pf["group"] == grp]
+        bg = pb if grp == "all" else pb[pb["group"] == grp]
+        pooled.append(_flow_row({"group": grp, "band": "all"}, fg, bg))
+        for band in sorted(set(fg["band"])):
+            pooled.append(_flow_row({"group": grp, "band": band}, fg[fg["band"] == band], None))
+    gens = pd.concat([fates.assign(kind="plan").rename(columns={"fate": "state"}),
+                      built.assign(kind="built", band=None).rename(columns={"source": "state"})],
+                     ignore_index=True)[["kind", "year", "key", "group", "band", "mw", "state"]]
+    years = sorted(int(y) for y in set(fates["year"]))
+    links_by_year = [{"year": y, "links": sum(1 for x in links if x["year"] == y),
+                      "plan_mw": round(sum((x["plan_mw"] for x in links if x["year"] == y), 0.0), 1),
+                      "entry_mw": round(sum((x["entry_mw"] for x in links if x["year"] == y), 0.0),
+                                        1)}
+                     for y in years]
+    return {"years": years, "pooled_years": pooled_years, "check_month_lag": lag,
+            "plan_fates": list(PLAN_FATES),
+            "join_sources": list(JOIN_SOURCES),
+            "rekey_rule": {"min_plan_mw": REKEY_MIN_MW, "mw_tolerance": REKEY_MW_TOL,
+                           "max_gap_months": REKEY_GAP,
+                           "same": ["technology group", "generator id (trimmed, any case)"]},
+            "by_group": by_group, "by_band": by_band, "pooled": pooled,
+            "links": links, "links_by_year": links_by_year}, gens
+
+
 def retire_annual(df, last_m=None, lag=LAG):
     """Per calendar year and technology group: operating MW planned in January to retire that
     year, how much of it retired that year, and all MW that retired that year."""
     if last_m is None:
         last_m = df["report_m"].max()
-    first_m = df["report_m"].min()
     retired = retired_months(df)
     latest = _latest(df)
     rows = []
-    for year in range(int(first_m // 12), int(last_m // 12) + 1):
+    for year in _closed_years(df, last_m, lag):
         jan, dec = year * 12, year * 12 + 11
-        if jan < first_m or dec + lag > last_m:
-            continue
         snap = snapshot(df, jan)
         plan = snap[snap["status"].isin(OPERATING) & (snap["planned_ret_m"] >= jan)
                     & (snap["planned_ret_m"] <= dec)]
@@ -348,6 +639,9 @@ def profile(raw_columns, df):
         "valid_until_null_rows": int(df["valid_m"].isna().sum()),
         "last_record_valid_until_set": int(last["valid_m"].notna().sum()),
         "last_record_valid_until_null": int(last["valid_m"].isna().sum()),
+        "last_record_in_force_at_report_max": int((last["until_m"] >= last_m).sum()),
+        "last_record_one_month_long": int((last["valid_m"] == last["report_m"] + 1).sum()),
+        "first_report_with_capacity": month_str(df.loc[df["capacity_mw"] > 0, "report_m"].min()),
         "planned_rows": int(plan_rows.sum()),
         "planned_rows_without_planned_date": int((plan_rows & df["planned_m"].isna()).sum()),
         "stale_planned_generators": int((last["status"].isin(PLANNED)
@@ -437,6 +731,61 @@ def retirements(df, prof, out_dir):
     return result
 
 
+def flows(df, prof, out_dir):
+    """Annual flows; writes flows.json, flows.md and flows_generators.csv.gz."""
+    result, gens = annual_flows(df)
+    result.update({"version": __version__, "source": prof["source"],
+                   "report_min": prof["report_min"], "report_max": prof["report_max"],
+                   "link_records": link_records(df, result["links"])})
+    with open(os.path.join(out_dir, "flows.json"), "w", encoding="utf-8") as fh:
+        json.dump(result, fh, indent=1)
+    gens.to_csv(os.path.join(out_dir, "flows_generators.csv.gz"), index=False, compression="gzip")
+    plan_cols = ["planned_mw"] + list(PLAN_FATES) + ["delivered_share"]
+    built_cols = ["built_mw", "in_plan_mw"] + list(JOIN_SOURCES) + ["joined_share"]
+    md = ["# EIA-860M annual flows: January's plan and the year's additions", "",
+          "Data: PUDL core_eia860m__changelog_generators (%s), reports %s to %s. eia860m-slip %s, "
+          "MV2 of Munim, Inc. (made with AI agents)." % (prof["source"], prof["report_min"],
+                                                         prof["report_max"], __version__), "",
+          "Plan side: every generator the January report lists as planned for a month in the "
+          "year, at its January capacity (MW), by what became of it (fates read from its "
+          "operating month and from the report %d months after December). Built side: every "
+          "generator that came online in the year, at its latest capacity, by where it stood in "
+          "January. rekeyed_online / rekeyed: a plan generator that left EIA-860M and a new entry "
+          "linked by rule R as the same equipment under another key (same group and generator "
+          "id, capacity within %.2f MW, first listed 0-%d months later, at least %.0f MW); "
+          "delivered_share counts rekeyed_online as delivered. Checks: "
+          "docs/annual-flows-preregistration-v2.md." % (LAG, REKEY_MW_TOL, REKEY_GAP,
+                                                        REKEY_MIN_MW), "",
+          "## January's plan by fate, by technology group", ""]
+    md += table(result["by_group"], ["year", "group"] + plan_cols) + [""]
+    md += ["## The year's additions by where they stood in January, by technology group", ""]
+    md += table(result["by_group"], ["year", "group"] + built_cols) + [""]
+    md += ["## January's plan by fate, by stage band in January", ""]
+    md += table(result["by_band"], ["year", "band"] + plan_cols) + [""]
+    pooled_years = result["pooled_years"]
+    md += ["## Pooled over %s-%s" % (pooled_years[0] if pooled_years else "",
+                                     pooled_years[-1] if pooled_years else ""), ""]
+    md += table(result["pooled"], ["group", "band"] + plan_cols) + [""]
+    md += table([r for r in result["pooled"] if r["band"] == "all"], ["group"] + built_cols) + [""]
+    ok = all(r["plan_identity_ok"] for r in result["by_group"] + result["by_band"]
+             + result["pooled"]) and all(r.get("built_identity_ok", True)
+                                         for r in result["by_group"] + result["pooled"])
+    md += ["Every row's parts add up to its total: %s" % ok, ""]
+    md += ["## Re-key links (rule R) per year", ""]
+    md += table(result["links_by_year"], ["year", "links", "plan_mw", "entry_mw"]) + [""]
+    md += ["## Every re-key link", "", "%d links." % len(result["links"]), ""]
+    md += table(result["links"], list(LINK_COLS)) + [""]
+    md += ["## Raw records of the linked generators", "",
+           "%d records%s." % (len(result["link_records"]),
+                              " (the first %d)" % MAX_RECORDS
+                              if len(result["link_records"]) >= MAX_RECORDS else ""), ""]
+    md += table(result["link_records"], list(RECORD_COLS)) + [""]
+    with open(os.path.join(out_dir, "flows.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(md) + "\n")
+    print("\n".join(md[:12]))
+    return result
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--data-dir", default="/data")
@@ -501,6 +850,7 @@ def main(argv=None):
         retirements(df, prof, args.out_dir)
     else:
         print("no planned_generator_retirement_date column; retirement scoring skipped")
+    flows(df, prof, args.out_dir)
     return 0
 
 
