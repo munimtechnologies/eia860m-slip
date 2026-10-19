@@ -1,6 +1,6 @@
 # Where the 2026 natural gas plan went: a quarter left the year, as for solar, wind and batteries
 
-MV2 of Munim, Inc., 18 October 2026. Made with AI agents working in his name. Text and data CC BY 4.0; code in [`tools/plan-flows/`](../tools/plan-flows/) Apache-2.0.
+MV2 of Munim, Inc., 18 October 2026 (plant names added 19 October). Made with AI agents working in his name. Text and data CC BY 4.0; code in [`tools/plan-flows/`](../tools/plan-flows/) Apache-2.0.
 
 **Status: scored.** The checks and predictions were published before the job ran ([`gas-flows-preregistration.md`](gas-flows-preregistration.md), committed 2026-10-18 22:51Z). Job `gas-flows-v1` ran in a sealed container on 2026-10-18 (23:15-23:18Z); its 10 unit tests passed first. All four checks passed. **3 of the 6 predictions held.** Raw output: [`gas-flows-output.md`](gas-flows-output.md); month by month: [`../data/gas_flows.csv`](../data/gas_flows.csv); one row per generator: [`../data/gas_flows_generators.csv`](../data/gas_flows_generators.csv).
 
@@ -49,7 +49,7 @@ The four December books add up to 86.32 GW (EIA: 86 GW). Check K3 confirms that 
 Joined the book since December: 1.11 GW in 28 generators (0.66 GW not listed in December, 0.45 GW then planned for 2027 or later); 0.62 GW of it is already online. Resize of generators in both books: -0.01 GW. The December book is 6.26 GW, 0.6% from EIA's 6.3 GW.
 
 - **Gas slipped more than solar or batteries.** 24.4% of the December gas book is now planned for 2027 or later (solar 17.5%, batteries 15.0%, wind 19.7%). But almost nothing dropped out: 0.08 GW, two 38 MW turbines.
-- **Three projects are almost all of the slip.** Of the 1.53 GW that moved to 2027 or later, 1.50 GW is three projects (EIA plant ids): plant 3399, a two-generator combined cycle (669.5 MW) under construction, now planned for December 2034; plant 67262, a 411.4 MW combustion turbine under construction, now planned for March 2027; and plant 728, a 418.4 MW combustion turbine at the planning stage, now February 2027. The plants are named here only by id until their raw records are read (a follow-up job prints them).
+- **Three projects are almost all of the slip.** Of the 1.53 GW that moved to 2027 or later, 1.50 GW is three projects, named on 19 October from their raw records (printed in [`annual-flows-diag-output.md`](annual-flows-diag-output.md)): **TVA's Cumberland (TN)** (plant 3399), where the two-generator combined cycle CTG1 and STG1 (669.5 MW summer), under construction, moved from December 2026 to **December 2034** in the July 2026 report; **Ripley Energy Center** (plant 67262), a 411.4 MW combustion turbine (RP1) under construction, moved from October to December 2026 in the June report and to March 2027 in the August report; and **Yates** (plant 728, Georgia Power), where generator 8 (418.4 MW summer), at the planning stage in December and more than half built since the February report, moved from December 2026 to February 2027 in the August report. The two turbines no longer listed are **Apache Station**'s GT7 and GT8 (plant 160, Arizona), moved from December 2026 to June 2027 in the January 2026 report and last listed in May 2026.
 - **Month by month** the book rose from 6.26 GW in December to 7.58 GW in March (1.65 GW joined, including 0.45 GW pulled forward from 2027), then fell to 5.77 GW by August as 0.42, 0.67 and 0.83 GW moved to 2027 or later in the April, July and August reports.
 
 ### Combined cycle against combustion turbine
@@ -73,7 +73,7 @@ Joined the book since December: 1.11 GW in 28 generators (0.66 GW not listed in 
 T (approved, not started): 0.16 GW, 0.13 still planned for 2026, 0.02 later.
 
 - **Early-stage gas almost all left** (94.3%), as for solar and batteries.
-- **Unlike solar and batteries, building-stage gas slipped too**: 19.4% of it, all from two projects (plants 3399 and 67262, 1.08 GW, both under construction in December). For solar and batteries under 4% of building-stage capacity slipped.
+- **Unlike solar and batteries, building-stage gas slipped too**: 19.4% of it, all from two projects (Cumberland and Ripley, 1.08 GW, both under construction in December). For solar and batteries under 4% of building-stage capacity slipped.
 
 ### The two plants EIA named, by raw record
 
@@ -119,12 +119,13 @@ Written 2026-10-18, before the September 2026 EIA-860M is released (due 23 Octob
 - The gas book is 82 generators, and three projects make up almost all of the slip. Its shares can swing on one plant.
 - The four-technology comparison and the observations on what joined the book were made after the run and are description, not tests.
 - EIA's 6.3 GW is nameplate; this is net summer capacity.
-- Plants 3399, 67262 and 728 are named only by EIA plant id here; names will be added from their raw records.
+- The plant names were added on 19 October from the raw records printed by the diagnosis job `flows-diag-v3`; no number in this note changed.
 
 ## Files
 
 - [`gas-flows-preregistration.md`](gas-flows-preregistration.md): checks and predictions, published before the run.
 - [`gas-flows-output.md`](gas-flows-output.md): the job's raw output, with the named plants' raw records.
+- [`annual-flows-diag-output.md`](annual-flows-diag-output.md): the raw records since November 2025 of Cumberland, Ripley, Yates and Apache Station (last section).
 - [`../data/gas_flows.csv`](../data/gas_flows.csv): the monthly split for gas, one row per report pair.
 - [`../data/gas_flows_generators.csv`](../data/gas_flows_generators.csv): every gas generator in the December or August book, with its state in both.
 - [`../tools/plan-flows/`](../tools/plan-flows/): `gas_flows.py` 0.1.0 and its tests, beside `plan_flows.py` 0.1.0.
