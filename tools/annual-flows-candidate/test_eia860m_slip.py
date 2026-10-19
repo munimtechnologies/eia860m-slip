@@ -31,6 +31,19 @@ T  gas turbine 80 MW: planned 2021-03 in January, online 2020-12: pulled forward
 W  solar 15 MW: planned 2019-10 in January, online 2020-02: carried over.
 X  oil 3 MW: listed operating in January 2020 with operating date 2020-01.
 
+Re-key rule R (REKEY_RECORDS = RECORDS plus), for 2020; each plan generator is
+in the January plan and has no record in force in February 2021 (not listed):
+20/GT1 -> 21/" gt1"  combined cycle 300 MW, last listed 2020-03, the entry first
+                     listed 2020-04 and online 2020-06: linked across plants, the
+                     id compared trimmed and in any case.
+22/PV1 -> 23/PV2     solar 40 MW, one month apart, another id: not linked.
+24/WT  -> 25/WT      wind 9.9 MW, same month: under 10 MW, not linked.
+26/B1  -> 27/B1      battery 50 MW, last listed 2020-02, entry first listed 2020-06:
+                     4 months, not linked.
+30/ST, 31/ST -> 32/ST  combined cycle, two 200 MW plan generators (last listed
+                     2020-04 and 2020-03) and one entry (first listed 2020-05): the
+                     lower key, 30/ST, is taken first and links; 31/ST stays not listed.
+
 The tests need pandas (the tool does too). Where it is not installed they are
 skipped, so a test host without pandas reports them as skipped, not failed.
 """
@@ -57,6 +70,10 @@ def rec(plant, gen, report, valid, status, planned=None, op=None, mw=100.0,
             "fuel_type_code_pudl": None, "state": "CT",
             "planned_generator_retirement_date": planned_ret,
             "generator_retirement_date": ret}
+
+
+def named(r, name):
+    return dict(r, plant_name_eia=name)
 
 
 RECORDS = [
@@ -112,6 +129,29 @@ FLOW_RECORDS = RECORDS + [
     rec(18, "X", "2020-01-01", None, "OP", op="2020-01-01", mw=3.0, tech=OIL),
 ]
 
+CC, BAT = "Natural Gas Fired Combined Cycle", "Batteries"
+REKEY_RECORDS = RECORDS + [
+    named(rec(20, "GT1", "2020-01-01", "2020-03-01", "U", planned="2020-06-01", mw=300.0,
+              tech=CC), "Old Site CC"),
+    named(rec(21, " gt1", "2020-04-01", "2020-07-01", "U", planned="2020-06-01", mw=300.0,
+              tech=CC), "Station"),
+    named(rec(21, " gt1", "2020-07-01", None, "OP", op="2020-06-01", mw=300.0, tech=CC),
+          "Station"),
+    rec(22, "PV1", "2020-01-01", "2020-05-01", "U", planned="2020-09-01", mw=40.0),
+    rec(23, "PV2", "2020-06-01", "2020-10-01", "U", planned="2020-09-01", mw=40.0),
+    rec(23, "PV2", "2020-10-01", None, "OP", op="2020-09-01", mw=40.0),
+    rec(24, "WT", "2020-01-01", "2020-05-01", "U", planned="2020-08-01", mw=9.9, tech=WIND),
+    rec(25, "WT", "2020-05-01", "2020-09-01", "U", planned="2020-08-01", mw=9.9, tech=WIND),
+    rec(25, "WT", "2020-09-01", None, "OP", op="2020-08-01", mw=9.9, tech=WIND),
+    rec(26, "B1", "2020-01-01", "2020-02-01", "U", planned="2020-10-01", mw=50.0, tech=BAT),
+    rec(27, "B1", "2020-06-01", "2020-11-01", "U", planned="2020-10-01", mw=50.0, tech=BAT),
+    rec(27, "B1", "2020-11-01", None, "OP", op="2020-10-01", mw=50.0, tech=BAT),
+    rec(30, "ST", "2020-01-01", "2020-04-01", "U", planned="2020-07-01", mw=200.0, tech=CC),
+    rec(31, "ST", "2020-01-01", "2020-03-01", "U", planned="2020-07-01", mw=200.0, tech=CC),
+    rec(32, "ST", "2020-05-01", "2020-08-01", "U", planned="2020-07-01", mw=200.0, tech=CC),
+    rec(32, "ST", "2020-08-01", None, "OP", op="2020-07-01", mw=200.0, tech=CC),
+]
+
 JAN20 = 2020 * 12
 
 
@@ -127,8 +167,17 @@ def flow_frame():
     return s.prepare(pd.DataFrame(FLOW_RECORDS))
 
 
+def rekey_frame():
+    return s.prepare(pd.DataFrame(REKEY_RECORDS))
+
+
 def by_group(rows):
     return {r["group"]: r for r in rows}
+
+
+def states(gens, kind):
+    g = gens[(gens["kind"] == kind) & (gens["year"] == 2020)]
+    return dict(zip(g["key"], g["state"]))
 
 
 @needs_pandas
@@ -407,12 +456,13 @@ class FlowTests(unittest.TestCase):
         a = rows[(2020, "all")]
         self.assertEqual(a["planned_mw"], 785.0)
         self.assertEqual((a["online_in_year"], a["online_before_year"], a["online_next_months"],
-                          a["slipped"], a["stale"], a["other_status"], a["not_listed"]),
-                         (150.0, 5.0, 20.0, 30.0, 500.0, 10.0, 70.0))
+                          a["slipped"], a["stale"], a["other_status"], a["not_listed"],
+                          a["rekeyed_online"]),
+                         (150.0, 5.0, 20.0, 30.0, 500.0, 10.0, 70.0, 0.0))
         self.assertEqual(a["delivered_share"], round(150 / 785, 4))
-        self.assertEqual((a["built_mw"], a["in_plan_mw"], a["new_entry"], a["pulled_forward"],
-                          a["carried_over"], a["listed_not_planned"]),
-                         (308.0, 150.0, 60.0, 80.0, 15.0, 3.0))
+        self.assertEqual((a["built_mw"], a["in_plan_mw"], a["new_entry"], a["rekeyed"],
+                          a["pulled_forward"], a["carried_over"], a["listed_not_planned"]),
+                         (308.0, 150.0, 60.0, 0.0, 80.0, 15.0, 3.0))
         self.assertEqual(a["joined_share"], round(158 / 308, 4))
         sol = rows[(2020, "solar")]
         self.assertEqual((sol["planned_mw"], sol["built_mw"]), (155.0, 175.0))
@@ -433,6 +483,99 @@ class FlowTests(unittest.TestCase):
         self.assertTrue(all(r.get("built_identity_ok", True) for r in everything))
         self.assertEqual(sorted(set(gens["kind"])), ["built", "plan"])
         self.assertEqual(len(gens), 8 + 6 + 1 + 1)
+        # M (wind, 70 MW, not listed) has no new entry of its group: rule R links nothing.
+        self.assertEqual(result["links"], [])
+        self.assertEqual([r["links"] for r in result["links_by_year"]], [0, 0])
+
+
+@needs_pandas
+class RekeyTests(unittest.TestCase):
+    """Rule R (docs/annual-flows-preregistration-v2.md), check K1."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.result, cls.gens = s.annual_flows(rekey_frame())
+        cls.plan = states(cls.gens, "plan")
+        cls.built = states(cls.gens, "built")
+
+    def test_cross_plant_rekey(self):
+        self.assertEqual(self.plan["20/GT1"], "rekeyed_online")
+        self.assertEqual(self.built["21/ gt1"], "rekeyed")
+        link = self.result["links"][0]
+        self.assertEqual(link, {"year": 2020, "plan_key": "20/GT1", "plan_plant": "Old Site CC",
+                                "entry_key": "21/ gt1", "entry_plant": "Station",
+                                "group": "gas_cc", "plan_mw": 300.0, "entry_mw": 300.0,
+                                "last_listed": "2020-03", "first_listed": "2020-04",
+                                "months_apart": 1})
+
+    def test_same_capacity_other_id_not_linked(self):
+        self.assertEqual(self.plan["22/PV1"], "not_listed")
+        self.assertEqual(self.built["23/PV2"], "new_entry")
+
+    def test_under_10_mw_not_linked(self):
+        self.assertEqual(self.plan["24/WT"], "not_listed")
+        self.assertEqual(self.built["25/WT"], "new_entry")
+        info = s.listing(rekey_frame())
+        self.assertEqual(info.loc["25/WT", "first_m"] - info.loc["24/WT", "last_m"], 0)
+
+    def test_gap_of_4_months_not_linked(self):
+        self.assertEqual(self.plan["26/B1"], "not_listed")
+        self.assertEqual(self.built["27/B1"], "new_entry")
+        info = s.listing(rekey_frame())
+        self.assertEqual(info.loc["27/B1", "first_m"] - info.loc["26/B1", "last_m"], 4)
+
+    def test_equal_plan_generators_compete(self):
+        self.assertEqual(self.plan["30/ST"], "rekeyed_online")
+        self.assertEqual(self.plan["31/ST"], "not_listed")
+        self.assertEqual(self.built["32/ST"], "rekeyed")
+        self.assertEqual([(x["plan_key"], x["entry_key"]) for x in self.result["links"]],
+                         [("20/GT1", "21/ gt1"), ("30/ST", "32/ST")])
+
+    def test_entry_order(self):
+        # One plan generator, three free entries with its id: the smallest capacity
+        # difference wins, then the smallest gap.
+        fates = pd.DataFrame([(2020, "1/X", "solar", "building", 100.0, "not_listed")],
+                             columns=["year", "key", "group", "band", "mw", "fate"])
+        built = pd.DataFrame([(2020, "2/X", "solar", 100.04, "new_entry"),
+                              (2020, "3/x", "solar", 100.0, "new_entry"),
+                              (2020, "4/X", "solar", 100.0, "new_entry"),
+                              (2020, "5/X", "solar", 100.0, "in_plan")],
+                             columns=["year", "key", "group", "mw", "source"])
+        info = pd.DataFrame({"gen": ["x"] * 5,
+                             "first_m": [JAN20, JAN20 + 3, JAN20 + 5, JAN20 + 4, JAN20 + 3],
+                             "last_m": [JAN20 + 2] * 5, "name": [""] * 5},
+                            index=["1/X", "2/X", "3/x", "4/X", "5/X"])
+        links = s.rekey_links(fates, built, info)
+        self.assertEqual([(x["entry_key"], x["months_apart"]) for x in links], [("4/X", 2)])
+
+    def test_rekey_totals(self):
+        rows = {(r["year"], r["group"]): r for r in self.result["by_group"]}
+        a = rows[(2020, "all")]
+        self.assertEqual(a["planned_mw"], 1449.9)
+        self.assertEqual((a["online_in_year"], a["stale"], a["not_listed"], a["rekeyed_online"]),
+                         (150.0, 500.0, 299.9, 500.0))
+        self.assertEqual(a["delivered_share"], round(650 / 1449.9, 4))
+        self.assertEqual((a["built_mw"], a["in_plan_mw"], a["new_entry"], a["rekeyed"]),
+                         (749.9, 150.0, 99.9, 500.0))
+        cc = rows[(2020, "gas_cc")]
+        self.assertEqual((cc["planned_mw"], cc["rekeyed_online"], cc["not_listed"]),
+                         (1200.0, 500.0, 200.0))
+        everything = self.result["by_group"] + self.result["by_band"] + self.result["pooled"]
+        self.assertTrue(all(r["plan_identity_ok"] for r in everything))
+        self.assertTrue(all(r.get("built_identity_ok", True) for r in everything))
+        # January 2021 plans nothing here, so 2020 is the only year with fates.
+        self.assertEqual(self.result["years"], [2020])
+        self.assertEqual(self.result["links_by_year"],
+                         [{"year": 2020, "links": 2, "plan_mw": 500.0, "entry_mw": 500.0}])
+
+    def test_link_records(self):
+        recs = s.link_records(rekey_frame(), self.result["links"])
+        self.assertEqual([(r["plant_id_eia"], r["report_date"]) for r in recs],
+                         [("20", "2020-01-01"), ("21", "2020-04-01"), ("21", "2020-07-01"),
+                          ("30", "2020-01-01"), ("32", "2020-05-01"), ("32", "2020-08-01")])
+        self.assertEqual(recs[0]["plant_name_eia"], "Old Site CC")
+        self.assertEqual(recs[3]["plant_name_eia"], "")
+        self.assertEqual(recs[2]["valid_until_date"], "")
 
 
 if __name__ == "__main__":
