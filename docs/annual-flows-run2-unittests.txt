@@ -1,0 +1,44 @@
+test_annual (test_eia860m_slip.ChangelogTests.test_annual) ... ok
+test_cohort_rows (test_eia860m_slip.ChangelogTests.test_cohort_rows) ... ok
+test_no_retirements_in_plan_fixture (test_eia860m_slip.ChangelogTests.test_no_retirements_in_plan_fixture) ... ok
+test_online_months (test_eia860m_slip.ChangelogTests.test_online_months) ... ok
+test_profile (test_eia860m_slip.ChangelogTests.test_profile) ... ok
+test_snapshot (test_eia860m_slip.ChangelogTests.test_snapshot) ... ok
+test_summaries (test_eia860m_slip.ChangelogTests.test_summaries) ... ok
+test_unresolved_plans_dropped (test_eia860m_slip.ChangelogTests.test_unresolved_plans_dropped) ... ok
+test_annual_flows (test_eia860m_slip.FlowTests.test_annual_flows) ... ok
+test_built_sources (test_eia860m_slip.FlowTests.test_built_sources) ... ok
+test_plan_fates (test_eia860m_slip.FlowTests.test_plan_fates) ... ok
+test_months (test_eia860m_slip.HelperTests.test_months) ... ok
+test_outcome_edges (test_eia860m_slip.HelperTests.test_outcome_edges) ... ok
+test_table_labels (test_eia860m_slip.HelperTests.test_table_labels) ... ok
+test_tech_group_and_lead (test_eia860m_slip.HelperTests.test_tech_group_and_lead) ... ok
+test_cross_plant_rekey (test_eia860m_slip.RekeyTests.test_cross_plant_rekey) ... ok
+test_entry_order (test_eia860m_slip.RekeyTests.test_entry_order) ... ok
+test_equal_plan_generators_compete (test_eia860m_slip.RekeyTests.test_equal_plan_generators_compete) ... ok
+test_gap_of_4_months_not_linked (test_eia860m_slip.RekeyTests.test_gap_of_4_months_not_linked) ... ok
+test_link_records (test_eia860m_slip.RekeyTests.test_link_records) ... ok
+test_rekey_totals (test_eia860m_slip.RekeyTests.test_rekey_totals) ... ok
+test_same_capacity_other_id_not_linked (test_eia860m_slip.RekeyTests.test_same_capacity_other_id_not_linked) ... ok
+test_under_10_mw_not_linked (test_eia860m_slip.RekeyTests.test_under_10_mw_not_linked) ... ok
+test_detection (test_eia860m_slip.RetirementTests.test_detection) ... ok
+test_retire_annual (test_eia860m_slip.RetirementTests.test_retire_annual) ... ok
+test_retire_cohort_rows (test_eia860m_slip.RetirementTests.test_retire_cohort_rows) ... ok
+test_retire_summaries (test_eia860m_slip.RetirementTests.test_retire_summaries) ... ok
+test_retire_unresolved_dropped (test_eia860m_slip.RetirementTests.test_retire_unresolved_dropped) ... ok
+test_retired_months (test_eia860m_slip.RetirementTests.test_retired_months) ... ok
+test_retired_text_status (test_eia860m_slip.RetirementTests.test_retired_text_status) ... ok
+test_dropped_plan_rows_run_to_last_listing (test_eia860m_slip.ValidityTests.test_dropped_plan_rows_run_to_last_listing) ... ok
+test_last_record_inclusive (test_eia860m_slip.ValidityTests.test_last_record_inclusive) ... ok
+test_listed_until (test_eia860m_slip.ValidityTests.test_listed_until) ... ok
+test_still_listed_not_an_exit (test_eia860m_slip.ValidityTests.test_still_listed_not_an_exit) ... ok
+test_all_pass (test_checks.CheckTests.test_all_pass) ... ok
+test_k2_k3_k4_can_fail (test_checks.CheckTests.test_k2_k3_k4_can_fail) ... ok
+test_l1_can_fail (test_checks.CheckTests.test_l1_can_fail) ... ok
+test_l2_missing_fails_and_extra_is_reported (test_checks.CheckTests.test_l2_missing_fails_and_extra_is_reported) ... ok
+test_l3_can_fail (test_checks.CheckTests.test_l3_can_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 1.823s
+
+OK

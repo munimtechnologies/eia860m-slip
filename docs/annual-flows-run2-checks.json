@@ -1,0 +1,49 @@
+{
+ "K2": {
+  "report_max": "2026-08",
+  "operating_exits": 377,
+  "pass": true
+ },
+ "K3": {
+  "on_time": 0.3247,
+  "not_online_12": 0.1916,
+  "max_planned_mw_diff": 0.0,
+  "pass": true
+ },
+ "K4": {
+  "rows": 179,
+  "rows_not_adding_up": 0,
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "pass": true
+ },
+ "L1": {
+  "links_2018": 9,
+  "mw_2018": 3141.5,
+  "unexpected": [],
+  "pass": true
+ },
+ "L2": {
+  "links": 11,
+  "missing": [],
+  "extra_links": [],
+  "pass": true
+ },
+ "L3": {
+  "years_checked": 10,
+  "years_off": [],
+  "pass": true
+ },
+ "all_pass": true,
+ "version": "0.2.0"
+}
