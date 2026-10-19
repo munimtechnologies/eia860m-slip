@@ -86,10 +86,44 @@ class FixtureTests(unittest.TestCase):
                          {"year": 2026, "area": "PJM", "orders": 2, "order_days": 4})
         self.assertEqual((res["event_days_this_year"], res["days_this_year"]), (6, 31))
         self.assertEqual(res["counts"]["plant_lengths"], {"89": 3})
+        self.assertNotIn("mw", res)
         text = oc.render(res)
         self.assertIn("Plant orders by days from start to expiry: 89 days: 3.", text)
         self.assertIn("Problems found in the table: none", text)
         self.assertIn("at least one event order in force: 6 of 31.", text)
+        self.assertNotIn("Summer MW", text)
+
+    def test_mw_under_order(self):
+        # Plant y (gas) is under order 06-12 to 06-20; the as-of date 06-15 cuts it to 4 days.
+        rows = fixture() + [row("P4", "plant", "PJM", "2026-06-01", "2026-06-12", "2026-06-20",
+                                "y", "Y")]
+        mw = {"x": {"mw": 100.0, "fuel": "SUB"}, "y": {"mw": 50.5, "fuel": "NG"}}
+        m = oc.mw_under_order(rows, mw, dt.date(2026, 6, 15))
+        self.assertEqual([(s["date"], s["plants"], s["mw"], s["coal_mw"], s["plant_list"])
+                          for s in m["steps"]],
+                         [("2025-12-01", 1, 100.0, 100.0, "x"), ("2026-05-30", 0, 0.0, 0.0, ""),
+                          ("2026-06-10", 1, 100.0, 100.0, "x"),
+                          ("2026-06-12", 2, 150.5, 100.0, "x, y")])
+        # x: 90 + 90 + 6 days; y: 4 days.
+        self.assertEqual(m["plant_days"], 190)
+        self.assertAlmostEqual(m["mw_days"], 18802.0, delta=0.01)
+        self.assertAlmostEqual(m["coal_mw_days"], 18600.0, delta=0.01)
+        self.assertEqual((m["peak_mw"], m["peak_from"], m["mw_as_of"], m["coal_mw_as_of"]),
+                         (150.5, "2026-06-12", 150.5, 100.0))
+        self.assertEqual((m["missing_mw"], m["gw_years"]), ([], 0.05))
+        text = oc.render(oc.run(rows, dt.date(2026, 6, 15), mw))
+        self.assertIn("Plants without a MW row: none", text)
+        self.assertIn("Peak 150.5 MW from 2026-06-12; 150.5 MW (100.0 coal) on 2026-06-15.", text)
+
+    def test_mw_missing_and_empty(self):
+        rows = fixture() + [row("P4", "plant", "PJM", "2026-06-01", "2026-06-12", "2026-06-20",
+                                "y", "Y")]
+        m = oc.mw_under_order(rows, {"x": {"mw": 100.0, "fuel": "SUB"}}, dt.date(2026, 6, 15))
+        self.assertEqual((m["missing_mw"], m["plant_days"], m["peak_mw"]), (["y"], 186, 100.0))
+        # Before any plant order starts there is nothing to count.
+        m = oc.mw_under_order(rows, {"x": {"mw": 100.0, "fuel": "SUB"}}, dt.date(2025, 11, 30))
+        self.assertEqual((m["steps"], m["plant_days"], m["mw_days"], m["peak_from"]),
+                         ([], 0, 0.0, None))
 
 
 class TableTests(unittest.TestCase):
@@ -169,6 +203,31 @@ class TableTests(unittest.TestCase):
                              (u["plant_key"], u["issued"], u["expires"]), u["order"])
             if u["effective"]:
                 self.assertEqual(p["effective"].isoformat(), u["effective"], u["order"])
+
+    def test_mw_under_order(self):
+        """Every number in the MW section of docs/doe-202c-orders.md."""
+        if not os.path.exists(oc.MW_CSV):
+            self.skipTest("data/doe_202c_plant_mw.csv not beside this file")
+        mw = oc.load_mw()
+        self.assertEqual(sorted(mw), sorted(c["plant_key"] for c in self.res["chains"]))
+        as_of = dt.date(2026, 10, 18)
+        self.assertEqual({k: len(oc.plant_dates(self.rows, k, as_of)) for k in mw},
+                         {"campbell": 514, "eddystone": 507, "wagner": 307, "centralia": 307,
+                          "schahfer": 300, "culley": 300, "craig": 293, "stanton": 137})
+        m = oc.run(self.rows, as_of, mw)["mw"]
+        self.assertEqual([(s["date"], s["plants"], s["mw"], s["coal_mw"]) for s in m["steps"]],
+                         [("2025-05-23", 1, 1330.5, 1330.5), ("2025-05-30", 2, 2090.5, 1330.5),
+                          ("2025-07-28", 3, 2487.5, 1330.5), ("2025-12-16", 4, 3157.5, 2000.5),
+                          ("2025-12-23", 6, 3969.5, 2812.5), ("2025-12-30", 7, 4396.5, 3239.5),
+                          ("2026-01-01", 6, 3999.5, 3239.5), ("2026-05-22", 7, 4396.5, 3239.5),
+                          ("2026-06-04", 8, 4849.9, 3692.9)])
+        self.assertEqual(m["missing_mw"], [])
+        self.assertEqual(m["plant_days"], 2665)
+        self.assertAlmostEqual(m["mw_days"], 1827592.8, delta=0.01)
+        self.assertAlmostEqual(m["coal_mw_days"], 1320393.8, delta=0.01)
+        self.assertEqual(m["gw_years"], 5.01)
+        self.assertEqual((m["peak_mw"], m["peak_from"], m["mw_as_of"], m["coal_mw_as_of"]),
+                         (4849.9, "2026-06-04", 4849.9, 3692.9))
 
 
 if __name__ == "__main__":

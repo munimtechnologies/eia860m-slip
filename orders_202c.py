@@ -11,6 +11,8 @@ lists) and reports:
 3. Days of the year with at least one order of a kind in force.
 4. Plant chains: each plant's orders in sequence, with any days between one order's
    expiry and the next order's start.
+5. Megawatts under plant orders (since 0.2.0, when data/doe_202c_plant_mw.csv is present):
+   the dates the total changes, plant-days and MW-days up to the as-of date.
 
 Kinds: plant (names a plant's units, about 90 days, renewed), event (a grid operator or
 utility, days to two weeks), island (Puerto Rico and Guam system orders, about 90 days).
@@ -27,14 +29,16 @@ import json
 import os
 from collections import Counter
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CSV = os.path.join(HERE, "data", "doe_202c_orders.csv")
+MW_CSV = os.path.join(HERE, "data", "doe_202c_plant_mw.csv")
 KINDS = ("plant", "event", "island")
 DATES = ("issued", "effective", "expires")
 EVENT_MAX_DAYS = 31
 ONE_DAY = dt.timedelta(days=1)
+COAL_FUELS = frozenset({"BIT", "SUB", "LIG", "ANT", "RC", "WC", "SGC"})
 
 
 def _date(s):
@@ -49,6 +53,14 @@ def load(path=CSV):
         for c in DATES:
             r[c] = _date(r[c])
     return rows
+
+
+def load_mw(path=MW_CSV):
+    """Summer MW and primary fuel of the units each plant's orders cover, by plant_key."""
+    with open(path, newline="", encoding="utf-8") as fh:
+        return {r["plant_key"].strip(): {"mw": float(r["summer_mw"]),
+                                         "fuel": r["fuel"].strip().upper()}
+                for r in csv.DictReader(fh)}
 
 
 def days(r):
@@ -166,6 +178,52 @@ def chains(rows):
     return out
 
 
+def plant_dates(rows, key, end):
+    """Dates up to end (counted) on which at least one order for the plant is in force."""
+    covered = set()
+    for r in rows:
+        if r["kind"] != "plant" or r["plant_key"] != key or r["expires"] is None:
+            continue
+        d, last = r["effective"], min(r["expires"], end)
+        while d <= last:
+            covered.add(d)
+            d += ONE_DAY
+    return covered
+
+
+def mw_under_order(rows, mw, as_of):
+    """Summer MW under plant orders day by day up to as_of: each date the set of plants
+    under order changes, with plant-days and MW-days (all and coal-fired)."""
+    keys = sorted({r["plant_key"] for r in rows if r["kind"] == "plant"})
+    cover = {k: plant_dates(rows, k, as_of) for k in keys if k in mw}
+    out = {"missing_mw": [k for k in keys if k not in mw], "steps": [], "plant_days": 0,
+           "mw_days": 0.0, "coal_mw_days": 0.0, "peak_mw": 0.0, "peak_from": None,
+           "mw_as_of": 0.0, "coal_mw_as_of": 0.0}
+    if not any(cover.values()):
+        return out
+    d, prev = min(min(c) for c in cover.values() if c), None
+    while d <= as_of:
+        on = [k for k in sorted(cover) if d in cover[k]]
+        if on != prev:
+            out["steps"].append({
+                "date": d.isoformat(), "plants": len(on),
+                "mw": round(sum(mw[k]["mw"] for k in on), 1),
+                "coal_mw": round(sum(mw[k]["mw"] for k in on if mw[k]["fuel"] in COAL_FUELS), 1),
+                "plant_list": ", ".join(on)})
+            prev = on
+        d += ONE_DAY
+    peak = max(out["steps"], key=lambda s: s["mw"])
+    out.update({
+        "plant_days": sum(len(c) for c in cover.values()),
+        "mw_days": round(sum(mw[k]["mw"] * len(c) for k, c in cover.items()), 1),
+        "coal_mw_days": round(sum(mw[k]["mw"] * len(c) for k, c in cover.items()
+                                  if mw[k]["fuel"] in COAL_FUELS), 1),
+        "peak_mw": peak["mw"], "peak_from": peak["date"],
+        "mw_as_of": out["steps"][-1]["mw"], "coal_mw_as_of": out["steps"][-1]["coal_mw"]})
+    out["gw_years"] = round(out["mw_days"] / 1000.0 / 365.0, 2)
+    return out
+
+
 def table(rows, cols):
     lines = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     for r in rows:
@@ -174,9 +232,9 @@ def table(rows, cols):
     return lines
 
 
-def run(rows, as_of):
+def run(rows, as_of, mw=None):
     year_start = dt.date(as_of.year, 1, 1)
-    return {
+    res = {
         "version": __version__, "as_of": as_of.isoformat(),
         "problems": validate(rows),
         "counts": counts(rows),
@@ -185,6 +243,9 @@ def run(rows, as_of):
         "days_this_year": (as_of - year_start).days + 1,
         "chains": chains(rows),
     }
+    if mw is not None:
+        res["mw"] = mw_under_order(rows, mw, as_of)
+    return res
 
 
 def render(res):
@@ -210,16 +271,28 @@ def render(res):
     md += table(res["chains"], ["plant", "area", "orders", "first_start", "current_order",
                                 "current_expiry", "span_days", "gaps", "gap_days",
                                 "gap_detail"])
+    m = res.get("mw")
+    if m is not None:
+        md += ["", "## Summer MW under plant orders", "",
+               "Plants without a MW row: %s" % (", ".join(m["missing_mw"]) or "none"), ""]
+        md += table(m["steps"], ["date", "plants", "mw", "coal_mw", "plant_list"])
+        md += ["", "Up to %s: %d plant-days, %.1f MW-days (%.2f GW-years), %.1f of them coal. "
+               "Peak %.1f MW from %s; %.1f MW (%.1f coal) on %s." % (
+                   res["as_of"], m["plant_days"], m["mw_days"], m.get("gw_years", 0.0),
+                   m["coal_mw_days"], m["peak_mw"], m["peak_from"], m["mw_as_of"],
+                   m["coal_mw_as_of"], res["as_of"])]
     return "\n".join(md) + "\n"
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--csv", default=CSV)
+    ap.add_argument("--mw-csv", default=MW_CSV)
     ap.add_argument("--out-dir", default="out")
     ap.add_argument("--as-of", default=dt.date.today().isoformat())
     args = ap.parse_args(argv)
-    res = run(load(args.csv), dt.date.fromisoformat(args.as_of))
+    mw = load_mw(args.mw_csv) if os.path.exists(args.mw_csv) else None
+    res = run(load(args.csv), dt.date.fromisoformat(args.as_of), mw)
     os.makedirs(args.out_dir, exist_ok=True)
     with open(os.path.join(args.out_dir, "orders_202c.json"), "w", encoding="utf-8") as fh:
         json.dump(res, fh, indent=1)
