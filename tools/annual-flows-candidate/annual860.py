@@ -4,10 +4,12 @@ MV2 of Munim, Inc. (made with AI agents). Apache-2.0.
 
 For each closed year, every generator in the January EIA-860M plan (eia860m_slip 0.3.1's
 annual flows, unchanged, rule R included) is looked up by plant id and generator id
-(trimmed, any case) in PUDL's core_eia860__scd_generators, the annual EIA-860. Its annual
-operating month is the earliest generator_operating_date in an annual record that lists it
-as operating (OP, SB, OS, OA). A generator re-keyed by rule R is looked up under its new key.
-Each plan generator gets one annual class:
+(trimmed, any case) in PUDL's out_eia__yearly_generators, the annual EIA-860 with each
+generator's harvested generator_operating_date. Records PUDL took from EIA-860M (data_maturity
+incremental_ytd or monthly_update) are left out. Its annual operating month is the earliest
+generator_operating_date in an annual record that lists it as operating (OP, SB, OS, OA).
+A generator re-keyed by rule R is looked up under its new key. Each plan generator gets one
+annual class:
 
     before / in_year / next_year / later   annual operating month before, in, the year after,
                                            or later than the plan year
@@ -15,7 +17,9 @@ Each plan generator gets one annual class:
     never        in the annual data, never listed as operating
     not_in_860   no annual record under its key
 
-Checks and predictions: docs/annual-flows-eia860-preregistration.md.
+Checks and predictions: docs/annual-flows-eia860-preregistration.md and its amendment 1
+(docs/annual-flows-eia860-amendment-1.md: 0.1.0 read core_eia860__scd_generators, which has
+no operating date).
 
     python annual860.py --data-dir /data --out-dir /out
 """
@@ -30,12 +34,14 @@ import pandas as pd
 
 import eia860m_slip as es
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 URL_860 = ("https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/"
-           "core_eia860__scd_generators.parquet")
+           "out_eia__yearly_generators.parquet")
 COLS_860 = ("plant_id_eia", "generator_id", "report_date", "operational_status_code",
             "generator_operating_date", "capacity_mw")
+OPTIONAL_860 = ("data_maturity",)
+NOT_ANNUAL = frozenset({"incremental_ytd", "monthly_update"})
 CLASSES = ("before", "in_year", "next_year", "later", "undated", "never", "not_in_860")
 DELIVERED = ("online_in_year", "rekeyed_online")
 SHOWN_GROUPS = ("all", "wind_onshore", "solar", "gas_cc", "battery", "gas_ct")
@@ -43,6 +49,7 @@ SHOWN_GROUPS = ("all", "wind_onshore", "solar", "gas_cc", "battery", "gas_ct")
 EXPECTED_2017 = {("all", "all"): 26268.8, ("wind_onshore", "all"): 6858.3,
                  ("all", "online_in_year"): 16750.8, ("wind_onshore", "online_in_year"): 4283.6,
                  ("wind_onshore", "slipped"): 2236.3}
+UNDATED_MAX = 0.10  # check C4 (amendment 1): undated share of the 2017 plan
 
 
 def norm_key(plant, gen):
@@ -60,6 +67,16 @@ def norm_key(plant, gen):
 def plan_key(key):
     plant, _, gen = str(key).partition("/")
     return norm_key(plant, gen)
+
+
+def annual_only(a):
+    """The annual records only: rows whose data_maturity marks them as EIA-860M updates are left
+    out. Returns (kept, counts of every data_maturity value before the cut)."""
+    if "data_maturity" not in a.columns:
+        return a, {}
+    dm = a["data_maturity"].astype(str).str.strip().str.lower()
+    counts = {str(k): int(v) for k, v in dm.value_counts().sort_index().items()}
+    return a[~dm.isin(NOT_ANNUAL)], counts
 
 
 def annual_first(a):
@@ -125,11 +142,17 @@ def checks(rows, missing_cols, report_years):
     years_ok = 2017 in report_years and 2018 in report_years
     c2 = not missing_cols and years_ok
     bad = sum(not x["adds_up"] for x in rows)
+    a17 = r.get((2017, "all", "all"))
+    undated = (a17["undated"] / a17["planned_mw"]
+               if a17 is not None and a17["planned_mw"] > 0 else None)
+    c4 = undated is not None and undated < UNDATED_MAX
     return {"C1": {"got": got, "pass": c1},
             "C2": {"missing_columns": list(missing_cols), "has_2017_and_2018": years_ok,
                    "pass": c2},
             "C3": {"rows": len(rows), "not_adding_up": bad, "pass": bad == 0},
-            "all_pass": bool(c1 and c2 and bad == 0)}
+            "C4": {"undated_share_2017": None if undated is None else round(undated, 4),
+                   "max": UNDATED_MAX, "pass": c4},
+            "all_pass": bool(c1 and c2 and bad == 0 and c4)}
 
 
 def _share(row):
@@ -178,7 +201,9 @@ def write_md(path, meta, rows, chk, pred, gaps):
               meta["eia860m_slip"], meta["annual_source"], meta["annual_report_years"][0],
               meta["annual_report_years"][-1], __version__), "",
           "share_860m: (online_in_year + rekeyed_online) / planned, as in docs/annual-flows.md. "
-          "share_860: in_year / planned, from the annual operating month.", ""]
+          "share_860: in_year / planned, from the annual operating month.", "",
+          "Annual records by data_maturity before EIA-860M rows were left out: %s; kept %d." % (
+              json.dumps(meta["annual_maturity_counts"]), meta["annual_rows_kept"]), ""]
     cols = ["year", "group", "planned_mw", "share_860m", "share_860"] + list(CLASSES)
     md += ["## Every year, main groups", ""]
     md += es.table([x for x in rows if x["state"] == "all" and x["group"] in SHOWN_GROUPS],
@@ -198,7 +223,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--data-dir", default="/data")
     ap.add_argument("--out-dir", default="/out")
-    ap.add_argument("--annual", default="/tmp/eia860/core_eia860__scd_generators.parquet")
+    ap.add_argument("--annual", default="/tmp/eia860/out_eia__yearly_generators.parquet")
     args = ap.parse_args(argv)
     os.makedirs(args.out_dir, exist_ok=True)
     import pyarrow.parquet as pq
@@ -210,9 +235,11 @@ def main(argv=None):
         urllib.request.urlretrieve(URL_860, args.annual)
     a_names = pq.read_schema(args.annual).names
     missing = [c for c in COLS_860 if c not in a_names]
-    a = pd.read_parquet(args.annual, columns=[c for c in COLS_860 if c in a_names])
+    a = pd.read_parquet(args.annual,
+                        columns=[c for c in COLS_860 + OPTIONAL_860 if c in a_names])
     for c in missing:
         a[c] = np.nan
+    a, maturity = annual_only(a)
     report_years = sorted({int(y) for y in
                            pd.to_datetime(a["report_date"], errors="coerce").dt.year.dropna()})
     plan = _plan_rows(df, a)
@@ -229,6 +256,7 @@ def main(argv=None):
             "source": os.path.basename(path), "report_max": es.month_str(df["report_m"].max()),
             "annual_source": os.path.basename(args.annual),
             "annual_bytes": os.path.getsize(args.annual), "annual_columns": a_names,
+            "annual_maturity_counts": maturity, "annual_rows_kept": int(len(a)),
             "annual_report_years": report_years}
     with open(os.path.join(args.out_dir, "annual860.json"), "w", encoding="utf-8") as fh:
         json.dump({"meta": meta, "checks": chk, "predictions": pred, "rows": rows,

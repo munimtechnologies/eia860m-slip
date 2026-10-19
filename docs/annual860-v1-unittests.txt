@@ -1,0 +1,11 @@
+test_annual_class (test_annual860.AnnualTests.test_annual_class) ... ok
+test_annual_first (test_annual860.AnnualTests.test_annual_first) ... ok
+test_norm_key (test_annual860.KeyTests.test_norm_key) ... ok
+test_checks (test_annual860.SummaryTests.test_checks) ... ok
+test_predictions (test_annual860.SummaryTests.test_predictions) ... ok
+test_summarize (test_annual860.SummaryTests.test_summarize) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.045s
+
+OK

@@ -56,6 +56,16 @@ class KeyTests(unittest.TestCase):
 
 
 class AnnualTests(unittest.TestCase):
+    def test_annual_only(self):
+        a = annual()
+        a["data_maturity"] = ["final", "final", "provisional", "incremental_ytd", "Monthly_Update "]
+        kept, counts = an.annual_only(a)
+        self.assertEqual(list(kept["plant_id_eia"]), [1, 1, 2])
+        self.assertEqual(counts, {"final": 2, "incremental_ytd": 1, "monthly_update": 1,
+                                  "provisional": 1})
+        same, none = an.annual_only(annual())
+        self.assertEqual((len(same), none), (5, {}))
+
     def test_annual_first(self):
         first, listed = an.annual_first(annual())
         self.assertEqual(listed, {"1/W1", "2/G", "3/S", "4/B"})
@@ -103,6 +113,18 @@ class SummaryTests(unittest.TestCase):
         self.assertFalse(c["all_pass"])
         rows[0]["adds_up"] = False
         self.assertEqual(an.checks(rows, [], [2017, 2018])["C3"]["not_adding_up"], 1)
+
+    def test_check_undated(self):
+        rows = rows_for(an.EXPECTED_2017)
+        a17 = next(x for x in rows if (x["group"], x["state"]) == ("all", "all"))
+        a17["undated"] = 2626.0  # 0.09997 of 26,268.8 MW
+        c = an.checks(rows, [], [2017, 2018])
+        self.assertEqual((c["C4"]["undated_share_2017"], c["C4"]["pass"], c["all_pass"]),
+                         (0.1, True, True))
+        a17["undated"] = 2626.9  # 0.100003: not under the limit
+        c = an.checks(rows, [], [2017, 2018])
+        self.assertEqual((c["C4"]["pass"], c["all_pass"]), (False, False))
+        self.assertIsNone(an.checks([], [], [2017, 2018])["C4"]["undated_share_2017"])
 
     def test_predictions(self):
         rows = rows_for({("wind_onshore", "all"): 100.0, ("wind_onshore", "slipped"): 40.0,
