@@ -1,0 +1,15 @@
+test_band (test_entry860.EntryTests.test_band) ... ok
+test_classify (test_entry860.EntryTests.test_classify) ... ok
+test_entries (test_entry860.EntryTests.test_entries) ... ok
+test_january (test_entry860.EntryTests.test_january) ... ok
+test_timing (test_entry860.EntryTests.test_timing) ... ok
+test_checks (test_entry860.SummaryTests.test_checks) ... ok
+test_predictions (test_entry860.SummaryTests.test_predictions) ... ok
+test_predictions_a3 (test_entry860.SummaryTests.test_predictions_a3) ... ok
+test_summarize (test_entry860.SummaryTests.test_summarize) ... ok
+test_top (test_entry860.SummaryTests.test_top) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.188s
+
+OK
