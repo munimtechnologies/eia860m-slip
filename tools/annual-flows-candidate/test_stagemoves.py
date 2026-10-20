@@ -23,6 +23,9 @@ def changelog():
     5/E  other (OT) from Feb 2016
     6/F  building Jan 2016, cancelled (CN) from Feb
     9/Z  operating from Jun 2017 (never planned; sets the last report)
+
+    Building steps (m before Jun 2017): 1/A 5 (Jan, Feb, May-Jul 2016), 2/B 12 (Jun 2016-May
+    2017; 7 in 2016), 3/C 13 (May 2016-May 2017; 8 in 2016), 4/D 3, 6/F 1.
     """
     recs = [("2016-01-01", "2016-03-01", 1, "A", 100.0, "U", "Solar Photovoltaic"),
             ("2016-03-01", "2016-05-01", 1, "A", 100.0, "T", "Solar Photovoltaic"),
@@ -120,7 +123,7 @@ class StageTests(unittest.TestCase):
         self.assertEqual((b["steps"], b["step_mw"], b["held_mw"], b["backward_mw"],
                           b["to_operating_mw"], b["exit_other_mw"], b["forward_mw"], b["left_mw"],
                           b["backward_share"], b["adds_up"]),
-                         (22, 1040.0, 830.0, 100.0, 100.0, 10.0, 0.0, 30.0, 0.0962, True))
+                         (24, 1110.0, 900.0, 100.0, 100.0, 10.0, 0.0, 30.0, 0.0901, True))
         a = rows["approved"]
         self.assertEqual((a["steps"], a["step_mw"], a["forward_mw"], a["held_mw"]),
                          (4, 300.0, 150.0, 150.0))
@@ -133,12 +136,12 @@ class StageTests(unittest.TestCase):
         p = {r["band"]: r for r in sm.pooled(s, left)}["building"]
         self.assertEqual((p["step_mw"], p["building_mw"], p["approved_mw"], p["operating_mw"],
                           p["other_mw"], p["early_mw"], p["left_mw"]),
-                         (1390.0, 1180.0, 100.0, 100.0, 10.0, 0.0, 30.0))
+                         (1460.0, 1250.0, 100.0, 100.0, 10.0, 0.0, 30.0))
         g = {r["group"]: r for r in sm.by_group(s)}
         self.assertEqual((g["solar"]["building_step_mw"], g["solar"]["building_backward_share"]),
                          (600.0, 0.1667))
         self.assertEqual(g["wind_onshore"]["building_backward_share"], 0.0)
-        self.assertEqual(g["battery"]["building_step_mw"], 240.0)
+        self.assertEqual(g["battery"]["building_step_mw"], 260.0)
         self.assertIsNone(g["gas_cc"]["building_backward_share"])
 
     def test_outcomes(self):
@@ -176,7 +179,7 @@ class StageTests(unittest.TestCase):
     def test_predictions(self):
         _, t, s, _ = built()
         p = sm.predictions(s, sm.flicker(t, s, LAST), sm.paths(t))
-        self.assertEqual((p["M1"]["building_backward_share"], p["M1"]["held"]), (0.0719, False))
+        self.assertEqual((p["M1"]["building_backward_share"], p["M1"]["held"]), (0.0685, False))
         self.assertEqual((p["M2"]["returned_share"], p["M2"]["held"]), (1.0, True))
         self.assertEqual((p["M3"]["held_online_share"], p["M3"]["backward_online_share"],
                           p["M3"]["gap"], p["M3"]["held"]), (0.625, 1.0, -0.375, False))

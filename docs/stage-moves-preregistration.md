@@ -48,6 +48,16 @@ Each generator's stage at one report, in the published results above. No month-t
 
 Compete job `stagemoves-v1` (sealed container, Python 3.12, pandas, pyarrow) fetches eia860m_slip.py (329b7e6) and stagemoves.py with its tests from the commit that publishes this note, runs `python -m unittest -v test_stagemoves`, then `python stagemoves.py --data-dir /data --out-dir /out`. It is filed after this commit. A run with a failed check is never relabelled as scored: its raw output is published with a dated amendment and it runs again under a new job name, with these predictions unchanged.
 
+## Amendment, 20 October 2026 (before the job ran; no EIA-860M data read)
+
+The unit tests had not yet been run anywhere. Re-counting the hand-built changelog by hand before filing the job showed that three tests expected one building step too few for two of the test generators. 2/B is building from June 2016 to May 2017 (12 steps, 7 of them in 2016), and 3/C from May 2016 to May 2017 (13 steps, 8 in 2016). The tests had counted 11 and 12 (6 and 7 in 2016). This commit corrects only those expected values in `test_stagemoves.py`:
+
+- `test_matrix`, building in 2016: 24 steps, 1,110 MW, 900 MW held, backward share 0.0901 (was 22, 1,040, 830 and 0.0962).
+- `test_pooled_and_groups`, building: 1,460 MW of steps, 1,250 MW still building (was 1,390 and 1,180); battery building steps 260 MW (was 240).
+- `test_predictions`, M1 on the test data: 0.0685 (was 0.0719).
+
+`stagemoves.py` is unchanged (still commit a059121, 0.1.0), and so are the checks, the predictions and their thresholds. Job `stagemoves-v1` fetches eia860m_slip.py (329b7e6) and stagemoves.py (a059121) pinned. It runs the corrected `test_stagemoves.py` from its own working folder, which is the same file as the one in this commit. That file is supplied with the job because the job can start before this commit lands. If the corrected tests still fail in the job, the run counts as a failed check under the rule above.
+
 ## Prior art
 
 A web search (20 October 2026) found no EIA, LBNL or academic table of month-to-month EIA-860M status-code transitions, backward moves or their outcomes. EIA's EIA-860M instructions define the codes and ask for a reason when a status changes, but EIA publishes no transition statistics; PUDL publishes the changelog, not transitions. LBNL's "Queued Up" covers interconnection queues, an earlier and different pipeline.
