@@ -66,6 +66,15 @@ Job `stagemoves-v1` asked for 3 GB of memory. It was queued at 06:28 UTC and had
 
 A web search (20 October 2026) found no EIA, LBNL or academic table of month-to-month EIA-860M status-code transitions, backward moves or their outcomes. EIA's EIA-860M instructions define the codes and ask for a reason when a status changes, but EIA publishes no transition statistics; PUDL publishes the changelog, not transitions. LBNL's "Queued Up" covers interconnection queues, an earlier and different pipeline.
 
+## Prior art, added 20 October 2026 (job still queued; no EIA-860M data read)
+
+Two papers found later the same day, before the job ran, come closer than anything above; neither changes the method, checks or predictions:
+
+- Mounts and Cross, "Canceled: A New Reliability Incentive for Energy-Only Electricity Markets" (arXiv:2406.15687, 2024): EIA-860M July 2015 to December 2022, 2,249 ERCOT generators. It pools the six pre-operation statuses as one "applicant pool" and says the authors "cannot confidently determine when a unit enters or exits any of the six applicant pool stages that precede operation", so it tracks the pool's size, entry and exit, not moves between stages.
+- Ullrich (James Madison University) and Fleten (Norwegian University of Science and Technology), "Sequential Investment Under Uncertainty", AEA 2026 annual meeting, session "Infrastructure, Environment, and Market Response" (aeaweb.org/conference/2026/program/2290). From its abstract: "We investigate sequential investment in electric power generators in PJM"; it classifies "proposed generators into four stages, Planning, Construction, Indefinitely Postponed, and Canceled" and finds that "longer time in Planning reduces the probability of Construction and increases the probability of Cancellation". That is a model of transitions between pooled stages (Planning = P, L, T; Construction = U, V, TS) in one market from the annual EIA-860, with no backward moves, no month-to-month resolution and no outcome after a move.
+
+This note reads each generator's stage in every monthly report and counts the moves between three ordered bands, nationally, 2016 to 2026, including the moves backward and what follows them.
+
 ## Limits known in advance
 
 - The stage is what the respondent reports, not what happened on site, and a report that was not updated reads as a held step.
