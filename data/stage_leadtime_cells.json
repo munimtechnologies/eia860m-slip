@@ -1,0 +1,1454 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "leadtime": "0.1.0",
+  "eia860m_slip": "0.3.1",
+  "source": "core_eia860m__changelog_generators.parquet",
+  "report_max": "2026-08",
+  "first_month": "2016-01",
+  "last_month": "2023-06"
+ },
+ "K1": {
+  "cells": {
+   "U 13-24": {
+    "got": [
+     4138,
+     506,
+     636740.1,
+     0.2457
+    ],
+    "published": [
+     4138,
+     506,
+     636740.1,
+     0.2457
+    ],
+    "pass": true
+   },
+   "V 13-24": {
+    "got": [
+     315,
+     79,
+     57078.8,
+     0.1389
+    ],
+    "published": [
+     315,
+     79,
+     57078.8,
+     0.1389
+    ],
+    "pass": true
+   },
+   "U 00-03": {
+    "got": [
+     5131,
+     1774,
+     190762.7,
+     0.3017
+    ],
+    "published": [
+     5131,
+     1774,
+     190762.7,
+     0.3017
+    ],
+    "pass": true
+   },
+   "V 00-03": {
+    "got": [
+     11795,
+     3421,
+     627147.3,
+     0.4088
+    ],
+    "published": [
+     11795,
+     3421,
+     627147.3,
+     0.4088
+    ],
+    "pass": true
+   }
+  },
+  "pass": true
+ },
+ "cells": [
+  {
+   "stage": "U",
+   "band": "13-24",
+   "generators": 506,
+   "plants": 315,
+   "mw": 636740.1,
+   "top_generators_share": 0.2229,
+   "top_plants_share": 0.308,
+   "largest_plant_share": 0.0553,
+   "groups": [
+    {
+     "group": "gas_cc",
+     "rows": 993,
+     "generators": 127,
+     "mw": 293722.4,
+     "mw_share": 0.4613,
+     "on_time_share": 0.3651
+    },
+    {
+     "group": "wind_onshore",
+     "rows": 1021,
+     "generators": 61,
+     "mw": 144378.9,
+     "mw_share": 0.2267,
+     "on_time_share": 0.1217
+    },
+    {
+     "group": "solar",
+     "rows": 840,
+     "generators": 160,
+     "mw": 109822.1,
+     "mw_share": 0.1725,
+     "on_time_share": 0.2358
+    },
+    {
+     "group": "nuclear",
+     "rows": 35,
+     "generators": 3,
+     "mw": 38500.0,
+     "mw_share": 0.0605,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "gas_ct",
+     "rows": 214,
+     "generators": 33,
+     "mw": 25817.4,
+     "mw_share": 0.0405,
+     "on_time_share": 0.0464
+    },
+    {
+     "group": "battery",
+     "rows": 197,
+     "generators": 33,
+     "mw": 14865.6,
+     "mw_share": 0.0233,
+     "on_time_share": 0.1802
+    },
+    {
+     "group": "other",
+     "rows": 583,
+     "generators": 38,
+     "mw": 4326.3,
+     "mw_share": 0.0068,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "gas_ice",
+     "rows": 197,
+     "generators": 38,
+     "mw": 3916.3,
+     "mw_share": 0.0062,
+     "on_time_share": 0.4749
+    },
+    {
+     "group": "coal",
+     "rows": 15,
+     "generators": 2,
+     "mw": 1164.0,
+     "mw_share": 0.0018,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "gas_other",
+     "rows": 35,
+     "generators": 8,
+     "mw": 204.9,
+     "mw_share": 0.0003,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "oil",
+     "rows": 8,
+     "generators": 3,
+     "mw": 22.2,
+     "mw_share": 0.0,
+     "on_time_share": 0.0
+    }
+   ],
+   "top_generators": [
+    {
+     "key": "59246/GOOD1",
+     "plant": "Goodnight",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 500.0,
+     "rows": 73,
+     "mw": 35000.0,
+     "mw_share": 0.055,
+     "planned_first": "2017-10",
+     "planned_last": "2023-06",
+     "online": "2024-04",
+     "on_time_share": 0.0,
+     "not_online_share": 0.9
+    },
+    {
+     "key": "649/3",
+     "plant": "Vogtle",
+     "state": "GA",
+     "group": "nuclear",
+     "capacity_mw": 1100.0,
+     "rows": 24,
+     "mw": 26400.0,
+     "mw_share": 0.0415,
+     "planned_first": "2019-06",
+     "planned_last": "2021-11",
+     "online": "2023-07",
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "60356/SFECC",
+     "plant": "South Field Energy",
+     "state": "OH",
+     "group": "gas_cc",
+     "capacity_mw": 1105.0,
+     "rows": 12,
+     "mw": 13260.0,
+     "mw_share": 0.0208,
+     "planned_first": "2021-01",
+     "planned_last": "2021-01",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "60589/GEN1",
+     "plant": "CPV Fairview Energy Center",
+     "state": "PA",
+     "group": "gas_cc",
+     "capacity_mw": 1100.0,
+     "rows": 12,
+     "mw": 13200.0,
+     "mw_share": 0.0207,
+     "planned_first": "2020-03",
+     "planned_last": "2020-03",
+     "online": "2019-12",
+     "on_time_share": 1.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "58406/1",
+     "plant": "Chilocco Wind Farm",
+     "state": "OK",
+     "group": "wind_onshore",
+     "capacity_mw": 200.0,
+     "rows": 65,
+     "mw": 11333.2,
+     "mw_share": 0.0178,
+     "planned_first": "2018-12",
+     "planned_last": "2024-12",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "62954/GEN1",
+     "plant": "Alle-Catt Wind Energy LLC",
+     "state": "NY",
+     "group": "wind_onshore",
+     "capacity_mw": 340.0,
+     "rows": 26,
+     "mw": 8840.0,
+     "mw_share": 0.0139,
+     "planned_first": "2021-12",
+     "planned_last": "2025-05",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "649/4",
+     "plant": "Vogtle",
+     "state": "GA",
+     "group": "nuclear",
+     "capacity_mw": 1100.0,
+     "rows": 8,
+     "mw": 8800.0,
+     "mw_share": 0.0138,
+     "planned_first": "2022-11",
+     "planned_last": "2022-11",
+     "online": "2024-04",
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "59971/ESTR1",
+     "plant": "Easter",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 300.0,
+     "rows": 32,
+     "mw": 8700.0,
+     "mw_share": 0.0137,
+     "planned_first": "2017-10",
+     "planned_last": "2020-12",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "63352/ARBE1",
+     "plant": "Gemini Solar Hybrid",
+     "state": "NV",
+     "group": "solar",
+     "capacity_mw": 690.0,
+     "rows": 12,
+     "mw": 8280.0,
+     "mw_share": 0.013,
+     "planned_first": "2023-11",
+     "planned_last": "2023-11",
+     "online": "2024-03",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "62947/GEN1",
+     "plant": "Canisteo Wind Farm",
+     "state": "NY",
+     "group": "wind_onshore",
+     "capacity_mw": 290.7,
+     "rows": 28,
+     "mw": 8139.6,
+     "mw_share": 0.0128,
+     "planned_first": "2021-06",
+     "planned_last": "2023-04",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    }
+   ],
+   "top_plants": [
+    {
+     "plant_id": "649",
+     "plant": "Vogtle",
+     "state": "GA",
+     "generators": 2,
+     "rows": 32,
+     "mw": 35200.0,
+     "mw_share": 0.0553,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "59246",
+     "plant": "Goodnight",
+     "state": "TX",
+     "generators": 1,
+     "rows": 73,
+     "mw": 35000.0,
+     "mw_share": 0.055,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "60138",
+     "plant": "Citrus County Combined Cycle Plant",
+     "state": "FL",
+     "generators": 6,
+     "rows": 72,
+     "mw": 23647.2,
+     "mw_share": 0.0371,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "60357",
+     "plant": "Lackawanna Energy Center",
+     "state": "PA",
+     "generators": 3,
+     "rows": 34,
+     "mw": 18870.0,
+     "mw_share": 0.0296,
+     "on_time_share": 1.0
+    },
+    {
+     "plant_id": "63931",
+     "plant": "CPV Three Rivers Energy Center",
+     "state": "IL",
+     "generators": 2,
+     "rows": 24,
+     "mw": 15600.6,
+     "mw_share": 0.0245,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "62192",
+     "plant": "Blue Water Energy Center",
+     "state": "MI",
+     "generators": 3,
+     "rows": 36,
+     "mw": 15208.8,
+     "mw_share": 0.0239,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "55460",
+     "plant": "Indeck Niles Energy Center",
+     "state": "MI",
+     "generators": 3,
+     "rows": 36,
+     "mw": 13311.6,
+     "mw_share": 0.0209,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "60356",
+     "plant": "South Field Energy",
+     "state": "OH",
+     "generators": 1,
+     "rows": 12,
+     "mw": 13260.0,
+     "mw_share": 0.0208,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "60589",
+     "plant": "CPV Fairview Energy Center",
+     "state": "PA",
+     "generators": 1,
+     "rows": 12,
+     "mw": 13200.0,
+     "mw_share": 0.0207,
+     "on_time_share": 1.0
+    },
+    {
+     "plant_id": "63352",
+     "plant": "Gemini Solar Hybrid",
+     "state": "NV",
+     "generators": 2,
+     "rows": 24,
+     "mw": 12840.0,
+     "mw_share": 0.0202,
+     "on_time_share": 0.0
+    }
+   ]
+  },
+  {
+   "stage": "V",
+   "band": "13-24",
+   "generators": 79,
+   "plants": 51,
+   "mw": 57078.8,
+   "top_generators_share": 0.6543,
+   "top_plants_share": 0.7636,
+   "largest_plant_share": 0.3123,
+   "groups": [
+    {
+     "group": "gas_cc",
+     "rows": 85,
+     "generators": 28,
+     "mw": 17878.0,
+     "mw_share": 0.3132,
+     "on_time_share": 0.198
+    },
+    {
+     "group": "nuclear",
+     "rows": 16,
+     "generators": 2,
+     "mw": 17824.0,
+     "mw_share": 0.3123,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "solar",
+     "rows": 139,
+     "generators": 32,
+     "mw": 13927.8,
+     "mw_share": 0.244,
+     "on_time_share": 0.2111
+    },
+    {
+     "group": "gas_ct",
+     "rows": 33,
+     "generators": 8,
+     "mw": 6042.0,
+     "mw_share": 0.1059,
+     "on_time_share": 0.1414
+    },
+    {
+     "group": "wind_onshore",
+     "rows": 6,
+     "generators": 2,
+     "mw": 776.0,
+     "mw_share": 0.0136,
+     "on_time_share": 0.7474
+    },
+    {
+     "group": "other",
+     "rows": 26,
+     "generators": 3,
+     "mw": 544.4,
+     "mw_share": 0.0095,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "gas_other",
+     "rows": 2,
+     "generators": 1,
+     "mw": 51.0,
+     "mw_share": 0.0009,
+     "on_time_share": 0.0
+    },
+    {
+     "group": "battery",
+     "rows": 8,
+     "generators": 3,
+     "mw": 35.6,
+     "mw_share": 0.0006,
+     "on_time_share": 0.3371
+    }
+   ],
+   "top_generators": [
+    {
+     "key": "649/4",
+     "plant": "Vogtle",
+     "state": "GA",
+     "group": "nuclear",
+     "capacity_mw": 1114.0,
+     "rows": 15,
+     "mw": 16710.0,
+     "mw_share": 0.2928,
+     "planned_first": "2022-11",
+     "planned_last": "2024-03",
+     "online": "2024-04",
+     "on_time_share": 0.0,
+     "not_online_share": 0.2667
+    },
+    {
+     "key": "7277/17",
+     "plant": "Lincoln Combustion",
+     "state": "NC",
+     "group": "gas_ct",
+     "capacity_mw": 536.4,
+     "rows": 9,
+     "mw": 4827.6,
+     "mw_share": 0.0846,
+     "planned_first": "2024-10",
+     "planned_last": "2024-10",
+     "online": "2024-12",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "55486/ST1",
+     "plant": "Washington Parish Energy Center",
+     "state": "LA",
+     "group": "gas_cc",
+     "capacity_mw": 255.0,
+     "rows": 12,
+     "mw": 3060.0,
+     "mw_share": 0.0536,
+     "planned_first": "2019-06",
+     "planned_last": "2019-06",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "66157/GEN1",
+     "plant": "Red Tailed Hawk Solar LLC",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 350.0,
+     "rows": 7,
+     "mw": 2450.0,
+     "mw_share": 0.0429,
+     "planned_first": "2024-07",
+     "planned_last": "2024-07",
+     "online": "2024-09",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "55486/CTG1",
+     "plant": "Washington Parish Energy Center",
+     "state": "LA",
+     "group": "gas_cc",
+     "capacity_mw": 200.0,
+     "rows": 12,
+     "mw": 2400.0,
+     "mw_share": 0.042,
+     "planned_first": "2019-06",
+     "planned_last": "2019-06",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "55486/CTG2",
+     "plant": "Washington Parish Energy Center",
+     "state": "LA",
+     "group": "gas_cc",
+     "capacity_mw": 200.0,
+     "rows": 12,
+     "mw": 2400.0,
+     "mw_share": 0.042,
+     "planned_first": "2019-06",
+     "planned_last": "2019-06",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "65034/CSBS1",
+     "plant": "Bernard Creek Solar",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 230.0,
+     "rows": 7,
+     "mw": 1610.0,
+     "mw_share": 0.0282,
+     "planned_first": "2024-06",
+     "planned_last": "2024-06",
+     "online": "2023-12",
+     "on_time_share": 1.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "57960/1",
+     "plant": "Rugged Solar LLC",
+     "state": "CA",
+     "group": "solar",
+     "capacity_mw": 80.0,
+     "rows": 18,
+     "mw": 1440.0,
+     "mw_share": 0.0252,
+     "planned_first": "2020-11",
+     "planned_last": "2023-12",
+     "online": null,
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "63840/1111",
+     "plant": "Sparta Solar",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 250.0,
+     "rows": 5,
+     "mw": 1250.0,
+     "mw_share": 0.0219,
+     "planned_first": "2023-04",
+     "planned_last": "2024-04",
+     "online": "2024-04",
+     "on_time_share": 0.2,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "63985/FBS",
+     "plant": "Fort Bend Solar LLC",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 240.0,
+     "rows": 5,
+     "mw": 1200.0,
+     "mw_share": 0.021,
+     "planned_first": "2023-06",
+     "planned_last": "2023-09",
+     "online": "2023-10",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    }
+   ],
+   "top_plants": [
+    {
+     "plant_id": "649",
+     "plant": "Vogtle",
+     "state": "GA",
+     "generators": 2,
+     "rows": 16,
+     "mw": 17824.0,
+     "mw_share": 0.3123,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "55486",
+     "plant": "Washington Parish Energy Center",
+     "state": "LA",
+     "generators": 3,
+     "rows": 36,
+     "mw": 7860.0,
+     "mw_share": 0.1377,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "7277",
+     "plant": "Lincoln Combustion",
+     "state": "NC",
+     "generators": 1,
+     "rows": 9,
+     "mw": 4827.6,
+     "mw_share": 0.0846,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "57185",
+     "plant": "Cricket Valley Energy",
+     "state": "NY",
+     "generators": 6,
+     "rows": 9,
+     "mw": 2914.1,
+     "mw_share": 0.0511,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "66157",
+     "plant": "Red Tailed Hawk Solar LLC",
+     "state": "TX",
+     "generators": 1,
+     "rows": 7,
+     "mw": 2450.0,
+     "mw_share": 0.0429,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "59764",
+     "plant": "Oregon Clean Energy Center",
+     "state": "OH",
+     "generators": 3,
+     "rows": 12,
+     "mw": 2120.0,
+     "mw_share": 0.0371,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "65034",
+     "plant": "Bernard Creek Solar",
+     "state": "TX",
+     "generators": 1,
+     "rows": 7,
+     "mw": 1610.0,
+     "mw_share": 0.0282,
+     "on_time_share": 1.0
+    },
+    {
+     "plant_id": "57960",
+     "plant": "Rugged Solar LLC",
+     "state": "CA",
+     "generators": 1,
+     "rows": 18,
+     "mw": 1440.0,
+     "mw_share": 0.0252,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "991",
+     "plant": "Eagle Valley (IN)",
+     "state": "IN",
+     "generators": 3,
+     "rows": 6,
+     "mw": 1288.0,
+     "mw_share": 0.0226,
+     "on_time_share": 1.0
+    },
+    {
+     "plant_id": "63840",
+     "plant": "Sparta Solar",
+     "state": "TX",
+     "generators": 1,
+     "rows": 5,
+     "mw": 1250.0,
+     "mw_share": 0.0219,
+     "on_time_share": 0.2
+    }
+   ]
+  },
+  {
+   "stage": "U",
+   "band": "00-03",
+   "generators": 1774,
+   "plants": 1434,
+   "mw": 190762.7,
+   "top_generators_share": 0.1557,
+   "top_plants_share": 0.2064,
+   "largest_plant_share": 0.0575,
+   "groups": [
+    {
+     "group": "wind_onshore",
+     "rows": 643,
+     "generators": 220,
+     "mw": 70961.3,
+     "mw_share": 0.372,
+     "on_time_share": 0.3428
+    },
+    {
+     "group": "solar",
+     "rows": 3153,
+     "generators": 1170,
+     "mw": 64970.8,
+     "mw_share": 0.3406,
+     "on_time_share": 0.2641
+    },
+    {
+     "group": "gas_cc",
+     "rows": 78,
+     "generators": 25,
+     "mw": 30745.9,
+     "mw_share": 0.1612,
+     "on_time_share": 0.3987
+    },
+    {
+     "group": "battery",
+     "rows": 724,
+     "generators": 188,
+     "mw": 17758.3,
+     "mw_share": 0.0931,
+     "on_time_share": 0.1485
+    },
+    {
+     "group": "gas_ct",
+     "rows": 83,
+     "generators": 27,
+     "mw": 3800.1,
+     "mw_share": 0.0199,
+     "on_time_share": 0.1123
+    },
+    {
+     "group": "gas_ice",
+     "rows": 175,
+     "generators": 73,
+     "mw": 1581.5,
+     "mw_share": 0.0083,
+     "on_time_share": 0.4453
+    },
+    {
+     "group": "other",
+     "rows": 139,
+     "generators": 27,
+     "mw": 630.2,
+     "mw_share": 0.0033,
+     "on_time_share": 0.0249
+    },
+    {
+     "group": "gas_other",
+     "rows": 58,
+     "generators": 19,
+     "mw": 191.3,
+     "mw_share": 0.001,
+     "on_time_share": 0.0261
+    },
+    {
+     "group": "oil",
+     "rows": 78,
+     "generators": 26,
+     "mw": 123.3,
+     "mw_share": 0.0006,
+     "on_time_share": 0.1119
+    }
+   ],
+   "top_generators": [
+    {
+     "key": "62949/GPS1",
+     "plant": "Guernsey Power Station",
+     "state": "OH",
+     "group": "gas_cc",
+     "capacity_mw": 685.0,
+     "rows": 6,
+     "mw": 4110.0,
+     "mw_share": 0.0215,
+     "planned_first": "2022-11",
+     "planned_last": "2023-02",
+     "online": "2023-02",
+     "on_time_share": 0.3333,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "65028/ROSES",
+     "plant": "Roseland Solar Project, LLC",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 500.0,
+     "rows": 8,
+     "mw": 4000.0,
+     "mw_share": 0.021,
+     "planned_first": "2021-12",
+     "planned_last": "2022-08",
+     "online": "2023-07",
+     "on_time_share": 0.0,
+     "not_online_share": 0.625
+    },
+    {
+     "key": "62949/GPS2",
+     "plant": "Guernsey Power Station",
+     "state": "OH",
+     "group": "gas_cc",
+     "capacity_mw": 685.0,
+     "rows": 5,
+     "mw": 3425.0,
+     "mw_share": 0.018,
+     "planned_first": "2022-11",
+     "planned_last": "2023-02",
+     "online": "2023-02",
+     "on_time_share": 0.4,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "62949/GPS3",
+     "plant": "Guernsey Power Station",
+     "state": "OH",
+     "group": "gas_cc",
+     "capacity_mw": 685.0,
+     "rows": 5,
+     "mw": 3425.0,
+     "mw_share": 0.018,
+     "planned_first": "2023-02",
+     "planned_last": "2023-04",
+     "online": "2023-04",
+     "on_time_share": 0.2,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "59906/GEN1",
+     "plant": "Moxie Freedom Generation Plant",
+     "state": "PA",
+     "group": "gas_cc",
+     "capacity_mw": 529.0,
+     "rows": 6,
+     "mw": 3174.0,
+     "mw_share": 0.0166,
+     "planned_first": "2018-05",
+     "planned_last": "2018-08",
+     "online": "2018-08",
+     "on_time_share": 0.1667,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "59906/GEN2",
+     "plant": "Moxie Freedom Generation Plant",
+     "state": "PA",
+     "group": "gas_cc",
+     "capacity_mw": 529.0,
+     "rows": 6,
+     "mw": 3174.0,
+     "mw_share": 0.0166,
+     "planned_first": "2018-05",
+     "planned_last": "2018-08",
+     "online": "2018-09",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "62564/ELKHO",
+     "plant": "Elkhorn Battery Energy Storage System",
+     "state": "CA",
+     "group": "battery",
+     "capacity_mw": 182.5,
+     "rows": 12,
+     "mw": 2190.0,
+     "mw_share": 0.0115,
+     "planned_first": "2021-07",
+     "planned_last": "2022-04",
+     "online": "2022-04",
+     "on_time_share": 0.0833,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "60270/WT1",
+     "plant": "Blue Cloud Wind Energy LLC",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 350.0,
+     "rows": 6,
+     "mw": 2100.0,
+     "mw_share": 0.011,
+     "planned_first": "2018-08",
+     "planned_last": "2018-12",
+     "online": "2018-12",
+     "on_time_share": 0.5,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "55524/STG2",
+     "plant": "York Energy Center",
+     "state": "PA",
+     "group": "gas_cc",
+     "capacity_mw": 419.6,
+     "rows": 5,
+     "mw": 2098.0,
+     "mw_share": 0.011,
+     "planned_first": "2018-12",
+     "planned_last": "2019-03",
+     "online": "2019-03",
+     "on_time_share": 0.2,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "63479/GEN1",
+     "plant": "Traverse Wind Project, LLC",
+     "state": "OK",
+     "group": "wind_onshore",
+     "capacity_mw": 999.0,
+     "rows": 2,
+     "mw": 1998.0,
+     "mw_share": 0.0105,
+     "planned_first": "2020-12",
+     "planned_last": "2022-01",
+     "online": "2022-04",
+     "on_time_share": 0.0,
+     "not_online_share": 0.5
+    }
+   ],
+   "top_plants": [
+    {
+     "plant_id": "62949",
+     "plant": "Guernsey Power Station",
+     "state": "OH",
+     "generators": 3,
+     "rows": 16,
+     "mw": 10960.0,
+     "mw_share": 0.0575,
+     "on_time_share": 0.3125
+    },
+    {
+     "plant_id": "59906",
+     "plant": "Moxie Freedom Generation Plant",
+     "state": "PA",
+     "generators": 2,
+     "rows": 12,
+     "mw": 6348.0,
+     "mw_share": 0.0333,
+     "on_time_share": 0.0833
+    },
+    {
+     "plant_id": "55524",
+     "plant": "York Energy Center",
+     "state": "PA",
+     "generators": 3,
+     "rows": 15,
+     "mw": 4447.0,
+     "mw_share": 0.0233,
+     "on_time_share": 0.2
+    },
+    {
+     "plant_id": "65028",
+     "plant": "Roseland Solar Project, LLC",
+     "state": "TX",
+     "generators": 2,
+     "rows": 9,
+     "mw": 4059.1,
+     "mw_share": 0.0213,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "1378",
+     "plant": "Paradise",
+     "state": "KY",
+     "generators": 4,
+     "rows": 12,
+     "mw": 3480.0,
+     "mw_share": 0.0182,
+     "on_time_share": 1.0
+    },
+    {
+     "plant_id": "62564",
+     "plant": "Elkhorn Battery Energy Storage System",
+     "state": "CA",
+     "generators": 1,
+     "rows": 12,
+     "mw": 2190.0,
+     "mw_share": 0.0115,
+     "on_time_share": 0.0833
+    },
+    {
+     "plant_id": "60270",
+     "plant": "Blue Cloud Wind Energy LLC",
+     "state": "TX",
+     "generators": 1,
+     "rows": 6,
+     "mw": 2100.0,
+     "mw_share": 0.011,
+     "on_time_share": 0.5
+    },
+    {
+     "plant_id": "63502",
+     "plant": "Oso Grande Wind Farm",
+     "state": "NM",
+     "generators": 2,
+     "rows": 16,
+     "mw": 1998.4,
+     "mw_share": 0.0105,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "63479",
+     "plant": "Traverse Wind Project, LLC",
+     "state": "OK",
+     "generators": 1,
+     "rows": 2,
+     "mw": 1998.0,
+     "mw_share": 0.0105,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "63574",
+     "plant": "Atchison County Wind",
+     "state": "MO",
+     "generators": 1,
+     "rows": 6,
+     "mw": 1791.6,
+     "mw_share": 0.0094,
+     "on_time_share": 0.1667
+    }
+   ]
+  },
+  {
+   "stage": "V",
+   "band": "00-03",
+   "generators": 3421,
+   "plants": 2662,
+   "mw": 627147.3,
+   "top_generators_share": 0.0648,
+   "top_plants_share": 0.107,
+   "largest_plant_share": 0.0137,
+   "groups": [
+    {
+     "group": "wind_onshore",
+     "rows": 1221,
+     "generators": 369,
+     "mw": 199945.7,
+     "mw_share": 0.3188,
+     "on_time_share": 0.4663
+    },
+    {
+     "group": "solar",
+     "rows": 6522,
+     "generators": 2060,
+     "mw": 185266.3,
+     "mw_share": 0.2954,
+     "on_time_share": 0.4272
+    },
+    {
+     "group": "gas_cc",
+     "rows": 557,
+     "generators": 144,
+     "mw": 136276.2,
+     "mw_share": 0.2173,
+     "on_time_share": 0.3981
+    },
+    {
+     "group": "battery",
+     "rows": 1272,
+     "generators": 272,
+     "mw": 46395.3,
+     "mw_share": 0.074,
+     "on_time_share": 0.2504
+    },
+    {
+     "group": "gas_ct",
+     "rows": 551,
+     "generators": 126,
+     "mw": 43503.7,
+     "mw_share": 0.0694,
+     "on_time_share": 0.3087
+    },
+    {
+     "group": "other",
+     "rows": 715,
+     "generators": 151,
+     "mw": 6179.8,
+     "mw_share": 0.0099,
+     "on_time_share": 0.2555
+    },
+    {
+     "group": "nuclear",
+     "rows": 5,
+     "generators": 2,
+     "mw": 4611.9,
+     "mw_share": 0.0074,
+     "on_time_share": 0.2754
+    },
+    {
+     "group": "gas_ice",
+     "rows": 560,
+     "generators": 198,
+     "mw": 3829.1,
+     "mw_share": 0.0061,
+     "on_time_share": 0.4215
+    },
+    {
+     "group": "oil",
+     "rows": 271,
+     "generators": 77,
+     "mw": 596.7,
+     "mw_share": 0.001,
+     "on_time_share": 0.2966
+    },
+    {
+     "group": "gas_other",
+     "rows": 119,
+     "generators": 23,
+     "mw": 482.6,
+     "mw_share": 0.0008,
+     "on_time_share": 0.0719
+    },
+    {
+     "group": "wind_offshore",
+     "rows": 2,
+     "generators": 1,
+     "mw": 60.0,
+     "mw_share": 0.0001,
+     "on_time_share": 0.0
+    }
+   ],
+   "top_generators": [
+    {
+     "key": "63209/AVTOR",
+     "plant": "Aviator Wind",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 525.0,
+     "rows": 13,
+     "mw": 6825.0,
+     "mw_share": 0.0109,
+     "planned_first": "2020-08",
+     "planned_last": "2021-06",
+     "online": "2021-06",
+     "on_time_share": 0.0769,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "65028/ROSES",
+     "plant": "Roseland Solar Project, LLC",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 500.0,
+     "rows": 9,
+     "mw": 4500.0,
+     "mw_share": 0.0072,
+     "planned_first": "2022-11",
+     "planned_last": "2023-06",
+     "online": "2023-07",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "64672/BLUEJ",
+     "plant": "Blue Jay Solar I, LLC",
+     "state": "TX",
+     "group": "solar",
+     "capacity_mw": 210.0,
+     "rows": 21,
+     "mw": 4410.0,
+     "mw_share": 0.007,
+     "planned_first": "2021-12",
+     "planned_last": "2023-07",
+     "online": "2023-06",
+     "on_time_share": 0.1429,
+     "not_online_share": 0.2381
+    },
+    {
+     "key": "64672/BLUJS",
+     "plant": "Blue Jay Solar I, LLC",
+     "state": "TX",
+     "group": "battery",
+     "capacity_mw": 210.0,
+     "rows": 20,
+     "mw": 4200.0,
+     "mw_share": 0.0067,
+     "planned_first": "2021-12",
+     "planned_last": "2023-06",
+     "online": "2023-06",
+     "on_time_share": 0.1,
+     "not_online_share": 0.25
+    },
+    {
+     "key": "62416/WT1",
+     "plant": "Cranell Wind Farm LLC",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 220.0,
+     "rows": 18,
+     "mw": 3960.0,
+     "mw_share": 0.0063,
+     "planned_first": "2020-06",
+     "planned_last": "2022-03",
+     "online": "2022-01",
+     "on_time_share": 0.0556,
+     "not_online_share": 0.3889
+    },
+    {
+     "key": "62853/MVRCK",
+     "plant": "Maverick Creek Wind",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 491.6,
+     "rows": 8,
+     "mw": 3932.8,
+     "mw_share": 0.0063,
+     "planned_first": "2021-10",
+     "planned_last": "2022-03",
+     "online": "2022-03",
+     "on_time_share": 0.125,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "62562/HILO",
+     "plant": "High Lonesome Wind Power, LLC Hybrid",
+     "state": "TX",
+     "group": "wind_onshore",
+     "capacity_mw": 449.5,
+     "rows": 8,
+     "mw": 3596.0,
+     "mw_share": 0.0057,
+     "planned_first": "2019-12",
+     "planned_last": "2020-06",
+     "online": "2021-07",
+     "on_time_share": 0.0,
+     "not_online_share": 1.0
+    },
+    {
+     "key": "649/3",
+     "plant": "Vogtle",
+     "state": "GA",
+     "group": "nuclear",
+     "capacity_mw": 1114.0,
+     "rows": 3,
+     "mw": 3342.0,
+     "mw_share": 0.0053,
+     "planned_first": "2023-03",
+     "planned_last": "2023-06",
+     "online": "2023-07",
+     "on_time_share": 0.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "63479/GEN1",
+     "plant": "Traverse Wind Project, LLC",
+     "state": "OK",
+     "group": "wind_onshore",
+     "capacity_mw": 999.0,
+     "rows": 3,
+     "mw": 2997.0,
+     "mw_share": 0.0048,
+     "planned_first": "2022-04",
+     "planned_last": "2022-04",
+     "online": "2022-04",
+     "on_time_share": 1.0,
+     "not_online_share": 0.0
+    },
+    {
+     "key": "3264/ST10",
+     "plant": "W S Lee",
+     "state": "SC",
+     "group": "gas_cc",
+     "capacity_mw": 362.0,
+     "rows": 8,
+     "mw": 2896.0,
+     "mw_share": 0.0046,
+     "planned_first": "2017-11",
+     "planned_last": "2018-04",
+     "online": "2018-04",
+     "on_time_share": 0.125,
+     "not_online_share": 0.0
+    }
+   ],
+   "top_plants": [
+    {
+     "plant_id": "64672",
+     "plant": "Blue Jay Solar I, LLC",
+     "state": "TX",
+     "generators": 2,
+     "rows": 41,
+     "mw": 8610.0,
+     "mw_share": 0.0137,
+     "on_time_share": 0.122
+    },
+    {
+     "plant_id": "60356",
+     "plant": "South Field Energy",
+     "state": "OH",
+     "generators": 4,
+     "rows": 24,
+     "mw": 7262.4,
+     "mw_share": 0.0116,
+     "on_time_share": 0.0833
+    },
+    {
+     "plant_id": "55460",
+     "plant": "Indeck Niles Energy Center",
+     "state": "MI",
+     "generators": 3,
+     "rows": 18,
+     "mw": 7046.4,
+     "mw_share": 0.0112,
+     "on_time_share": 0.1667
+    },
+    {
+     "plant_id": "63209",
+     "plant": "Aviator Wind",
+     "state": "TX",
+     "generators": 1,
+     "rows": 13,
+     "mw": 6825.0,
+     "mw_share": 0.0109,
+     "on_time_share": 0.0769
+    },
+    {
+     "plant_id": "60903",
+     "plant": "Salem Harbor Power Development LP",
+     "state": "MA",
+     "generators": 4,
+     "rows": 34,
+     "mw": 6784.7,
+     "mw_share": 0.0108,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "3264",
+     "plant": "W S Lee",
+     "state": "SC",
+     "generators": 3,
+     "rows": 24,
+     "mw": 6784.0,
+     "mw_share": 0.0108,
+     "on_time_share": 0.125
+    },
+    {
+     "plant_id": "60376",
+     "plant": "Middletown- Ohio",
+     "state": "OH",
+     "generators": 3,
+     "rows": 21,
+     "mw": 6734.0,
+     "mw_share": 0.0107,
+     "on_time_share": 0.1429
+    },
+    {
+     "plant_id": "60368",
+     "plant": "Hummel Station LLC",
+     "state": "PA",
+     "generators": 4,
+     "rows": 21,
+     "mw": 6432.0,
+     "mw_share": 0.0103,
+     "on_time_share": 0.0
+    },
+    {
+     "plant_id": "60357",
+     "plant": "Lackawanna Energy Center",
+     "state": "PA",
+     "generators": 3,
+     "rows": 10,
+     "mw": 5550.0,
+     "mw_share": 0.0088,
+     "on_time_share": 0.5
+    },
+    {
+     "plant_id": "65028",
+     "plant": "Roseland Solar Project, LLC",
+     "state": "TX",
+     "generators": 2,
+     "rows": 19,
+     "mw": 5091.0,
+     "mw_share": 0.0081,
+     "on_time_share": 0.0116
+    }
+   ]
+  }
+ ]
+}
