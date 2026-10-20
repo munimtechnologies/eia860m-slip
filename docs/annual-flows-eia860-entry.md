@@ -2,6 +2,8 @@
 
 Status: scored against its pre-registration. All checks passed; 3 of 4 predictions held. MV2 of Munim, Inc., 20 October 2026. Made with AI agents working in his name. CC BY 4.0.
 
+Corrected 20 October 2026, after scoring: one reading in "What this means" goes further than the run shows. See [Correction, 20 October 2026](#correction-20-october-2026) below; the numbers, checks and verdicts are unchanged.
+
 ## The question
 
 [`annual-flows-eia860-baseline.md`](annual-flows-eia860-baseline.md) found that a fifth of the annual EIA-860's plan for each year is projects January's EIA-860M plan does not hold (5,627.2 MW of the 26,808.6 MW plan for 2017), and that this part came online in the year far more often than any January plan (85.1% for 2017). This run asks where those projects stood in EIA-860M: known in January under another status or month, first listed during the year, or never listed ([pre-registration](annual-flows-eia860-entry-preregistration.md), committed at 20:53 UTC on 19 October 2026 as 44de204; job `entry860-v1` was queued at 20:50 UTC, before the commit, and started at 04:49 UTC on 20 October from compete.log, after it).
@@ -136,6 +138,19 @@ The 15 largest on each side, all technologies and onshore wind, are in the raw o
 A1 and A3 held, so, in the pre-registration's own words, the annual-only part of the annual plan is mostly projects EIA-860M first listed during the year. The annual EIA-860's planned list for 2017 holds projects that EIA-860M first listed as late as July-September 2017, which a list made at the start of the year could not hold. A2 failed: the projects did not arrive mostly already built or being built. In 2017, 1,200.4 MW of them was first listed at an early stage and 179.7 MW as approved, and 0.812 of all the after-January MW still came online in 2017. From the other side, 0.621 of what EIA-860M added to its 2017 list after January is in the annual plan for 2017 (A4).
 
 For anyone starting a planned-against-built comparison from the annual survey's planned list: that list is partly a record of projects that became known during the planned year, not a forecast made in January. This fits the nineteenth result, where a share measured from it (EIA's 78% for 2017) is higher than one measured from January's EIA-860M plan (our 63.8%). We do not test why the annual list includes these projects (when respondents file, how EIA compiles the planned list).
+
+## Correction, 20 October 2026
+
+Added after scoring, the same day. The numbers, checks and verdicts above are unchanged; the two paragraphs above are left as first published.
+
+Two statements in "What this means" go further than this run shows: that a list made at the start of the year "could not hold" the projects EIA-860M first listed in July-September 2017, and that the annual list "is partly a record of projects that became known during the planned year, not a forecast made in January". This run dates each project's first record in EIA-860M. It does not date when the annual survey learned of the project.
+
+Two facts we checked afterwards bear on that. Annual EIA-860 responses "are due between the beginning of January and the end of February" ([PUDL's EIA-860 page](https://docs.catalyst.coop/pudl/en/stable/data_sources/eia860.html)), so the report-year-2016 survey that holds the plan for 2017 was filed at the start of 2017. EIA released "The final annual 2016 electric generator data from Form EIA-860" on Nov 9, 2017 (EIA's What's New archive, eia.gov/about/new). Two readings fit the data:
+
+- the annual survey held these projects from its January-February 2017 filing, and EIA-860M listed them only later; or
+- respondents or EIA added or revised the annual records between the filing and the final release.
+
+That no 2017 entrant was first listed in a report dated October 2017 or later fits both. Nothing in this run tells them apart. PUDL's current file for report year 2016 may also hold later revisions (PUDL's page: "Older “final” data may also be revised several years after it was published."). The statement this run supports is the narrower one: of the 2017 capacity that only the annual survey planned, most was not in EIA-860M in January 2017 and was first listed there later in 2017. A plan made in January can therefore still differ from January's EIA-860M because EIA-860M had not yet listed the project, not only because the plan changed. The advice to anyone quoting a delivery rate stands: say which list it comes from. A follow-up that can separate the two readings will be pre-registered before it is run.
 
 ## Limits
 
