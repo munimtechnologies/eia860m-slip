@@ -1,0 +1,15 @@
+test_checks (test_watchlist.CheckTests.test_checks) ... ok
+test_classify (test_watchlist.ClassifyTests.test_classify) ... ok
+test_parse_month (test_watchlist.ClassifyTests.test_parse_month) ... ok
+test_backward_before (test_watchlist.HistoryTests.test_backward_before) ... ok
+test_history (test_watchlist.HistoryTests.test_history) ... ok
+test_changes (test_watchlist.RowTests.test_changes) ... ok
+test_flag_rekeys (test_watchlist.RowTests.test_flag_rekeys) ... ok
+test_partition (test_watchlist.RowTests.test_partition) ... ok
+test_summary (test_watchlist.RowTests.test_summary) ... ok
+test_top_and_out (test_watchlist.RowTests.test_top_and_out) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.058s
+
+OK
