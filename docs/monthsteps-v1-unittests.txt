@@ -1,0 +1,12 @@
+test_by_month (test_monthsteps.MonthTests.test_by_month) ... ok
+test_checks (test_monthsteps.MonthTests.test_checks) ... ok
+test_compare (test_monthsteps.MonthTests.test_compare) ... ok
+test_per_year (test_monthsteps.MonthTests.test_per_year) ... ok
+test_pooled_steps (test_monthsteps.MonthTests.test_pooled_steps) ... ok
+test_predictions (test_monthsteps.MonthTests.test_predictions) ... ok
+test_report_month (test_monthsteps.MonthTests.test_report_month) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.197s
+
+OK

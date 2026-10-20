@@ -1,0 +1,15 @@
+test_band (test_leadtime.LeadTimeTests.test_band) ... ok
+test_cells (test_leadtime.LeadTimeTests.test_cells) ... ok
+test_checks (test_leadtime.LeadTimeTests.test_checks) ... ok
+test_end_month (test_leadtime.LeadTimeTests.test_end_month) ... ok
+test_grids (test_leadtime.LeadTimeTests.test_grids) ... ok
+test_mono (test_leadtime.LeadTimeTests.test_mono) ... ok
+test_predictions (test_leadtime.LeadTimeTests.test_predictions) ... ok
+test_rows (test_leadtime.LeadTimeTests.test_rows) ... ok
+test_sample_check (test_leadtime.LeadTimeTests.test_sample_check) ... ok
+test_write_md (test_leadtime.LeadTimeTests.test_write_md) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.648s
+
+OK
