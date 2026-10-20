@@ -58,6 +58,10 @@ The unit tests had not yet been run anywhere. Re-counting the hand-built changel
 
 `stagemoves.py` is unchanged (still commit a059121, 0.1.0), and so are the checks, the predictions and their thresholds. Job `stagemoves-v1` fetches eia860m_slip.py (329b7e6) and stagemoves.py (a059121) pinned. It runs the corrected `test_stagemoves.py` from its own working folder, which is the same file as the one in this commit. That file is supplied with the job because the job can start before this commit lands. If the corrected tests still fail in the job, the run counts as a failed check under the rule above.
 
+## Amendment 2, 20 October 2026 (job never started; no EIA-860M data read)
+
+Job `stagemoves-v1` asked for 3 GB of memory. It was queued at 06:28 UTC and had still not started at about 09:10 UTC, because the shared compute hosts start a job only when its memory plus a 2 GB reserve is free, and no host had 5 GB free. Earlier jobs on the same cached changelog ran in 1 to 2 GB (`plan-flows-v1` in 1 GB; `storage-flows-v2`, `rekey-v1` and `flows-diag-v3` in 2 GB). So the run is re-filed as job `stagemoves-v2` with 2 GB, which replaces `stagemoves-v1` in the queue. Nothing else changes: the same pinned eia860m_slip.py (329b7e6) and stagemoves.py (a059121), the same `test_stagemoves.py` (an identical copy, supplied in the job's working folder), the same data file and data key, and the same checks, predictions and thresholds. If the job runs out of memory, that is a failed run, not a failed check. It is re-filed with more memory under a new name, with the predictions unchanged. The scored result will name the job that actually produced it.
+
 ## Prior art
 
 A web search (20 October 2026) found no EIA, LBNL or academic table of month-to-month EIA-860M status-code transitions, backward moves or their outcomes. EIA's EIA-860M instructions define the codes and ask for a reason when a status changes, but EIA publishes no transition statistics; PUDL publishes the changelog, not transitions. LBNL's "Queued Up" covers interconnection queues, an earlier and different pipeline.
