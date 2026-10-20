@@ -1,0 +1,1184 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "eia860m_slip": "0.3.1",
+  "leadtime": "0.1.0",
+  "source": "core_eia860m__changelog_generators.parquet",
+  "report_max": "2026-08",
+  "rule": {
+   "cluster_gap": 3,
+   "arrive_before": 6,
+   "arrive_after": 6,
+   "mw_tolerance": 0.2
+  }
+ },
+ "counts": {
+  "leavers": 1147,
+  "leaver_mw": 119643.9,
+  "clusters": 873,
+  "linked_clusters": 23,
+  "linked_leavers": 47,
+  "linked_leaver_mw": 3971.7,
+  "replaced_leavers": 25,
+  "replaced_leaver_mw": 2655.4,
+  "possible_leavers": 45,
+  "possible_leaver_mw": 5496.1
+ },
+ "checks": {
+  "K1": {
+   "cohort": {
+    "got": [
+     78646,
+     4550498.4,
+     0.3247,
+     0.1916
+    ],
+    "published": [
+     78646,
+     4550498.4,
+     0.325,
+     0.192
+    ],
+    "pass": true
+   },
+   "cells": {
+    "U 00-03": {
+     "got": [
+      5131,
+      1774,
+      190762.7,
+      0.3017
+     ],
+     "published": [
+      5131,
+      1774,
+      190762.7,
+      0.3017
+     ],
+     "pass": true
+    },
+    "U 13-24": {
+     "got": [
+      4138,
+      506,
+      636740.1,
+      0.2457
+     ],
+     "published": [
+      4138,
+      506,
+      636740.1,
+      0.2457
+     ],
+     "pass": true
+    },
+    "V 00-03": {
+     "got": [
+      11795,
+      3421,
+      627147.3,
+      0.4088
+     ],
+     "published": [
+      11795,
+      3421,
+      627147.3,
+      0.4088
+     ],
+     "pass": true
+    },
+    "V 13-24": {
+     "got": [
+      315,
+      79,
+      57078.8,
+      0.1389
+     ],
+     "published": [
+      315,
+      79,
+      57078.8,
+      0.1389
+     ],
+     "pass": true
+    }
+   },
+   "pass": true
+  },
+  "K2": {
+   "leavers_not_leaving": 0,
+   "wrong_plant_or_family": 0,
+   "arrivals_reused": 0,
+   "leaver_is_own_arrival": 0,
+   "outside_tolerance": 0,
+   "replaced_outside_bound": 0,
+   "pass": true
+  },
+  "K3": {
+   "cohort": {
+    "rows": [
+     78646,
+     78646
+    ],
+    "mw": [
+     4550498.4,
+     4550498.4
+    ],
+    "adds_up": true,
+    "rows_changed": 82,
+    "stray_changes": 0,
+    "pass": true
+   },
+   "leadtime": {
+    "rows": [
+     87351,
+     87351
+    ],
+    "mw": [
+     6582226.3,
+     6582226.3
+    ],
+    "adds_up": true,
+    "rows_changed": 225,
+    "stray_changes": 0,
+    "pass": true
+   }
+  },
+  "all_pass": true
+ },
+ "predictions": {
+  "S1": {
+   "replaced_share": 0.0235,
+   "range": [
+    0.03,
+    0.2
+   ],
+   "held": false
+  },
+  "S2": {
+   "on_time_before": 0.3247,
+   "on_time_after": 0.3249,
+   "rise": 0.0002,
+   "ceiling": 0.02,
+   "held": true
+  },
+  "S3": {
+   "U_13_24": 0.0654,
+   "cohort": 0.0235,
+   "held": true
+  },
+  "S4": {
+   "replaced_share": {
+    "gas_cc": 0.1232,
+    "solar": 0.0041,
+    "wind_onshore": 0.0314,
+    "battery": 0.0
+   },
+   "held": true
+  },
+  "S5": {
+   "before": {
+    "L1": false,
+    "L2": true,
+    "L3": false,
+    "L4": true,
+    "L5": true,
+    "L6": true
+   },
+   "after": {
+    "L1": false,
+    "L2": true,
+    "L3": false,
+    "L4": true,
+    "L5": true,
+    "L6": true
+   },
+   "unchanged": {
+    "L1": true,
+    "L2": true,
+    "L3": true,
+    "L4": true,
+    "L5": true,
+    "L6": true
+   },
+   "held": true
+  }
+ },
+ "cohort": {
+  "rows": 78646,
+  "mw": 4550498.4,
+  "not_online_mw": 871839.9,
+  "linked_mw": 20877.4,
+  "replaced_mw": 20507.0,
+  "possible_mw": 21976.0,
+  "replaced_share": 0.0235,
+  "possible_share": 0.0252,
+  "on_time_before": 0.3247,
+  "on_time_after": 0.3249,
+  "not_online_before": 0.1916,
+  "not_online_after": 0.1884
+ },
+ "by_group": [
+  {
+   "part": "solar",
+   "rows": 45802,
+   "mw": 1758347.3,
+   "not_online_mw": 366047.2,
+   "linked_mw": 1770.8,
+   "replaced_mw": 1510.4,
+   "possible_mw": 1758.8,
+   "replaced_share": 0.0041,
+   "possible_share": 0.0048,
+   "on_time_before": 0.3088,
+   "on_time_after": 0.3093,
+   "not_online_before": 0.2082,
+   "not_online_after": 0.2073
+  },
+  {
+   "part": "wind_onshore",
+   "rows": 7104,
+   "mw": 1036807.7,
+   "not_online_mw": 177849.8,
+   "linked_mw": 5590.0,
+   "replaced_mw": 5590.0,
+   "possible_mw": 5590.0,
+   "replaced_share": 0.0314,
+   "possible_share": 0.0314,
+   "on_time_before": 0.3893,
+   "on_time_after": 0.3893,
+   "not_online_before": 0.1715,
+   "not_online_after": 0.1684
+  },
+  {
+   "part": "gas_cc",
+   "rows": 3090,
+   "mw": 814074.8,
+   "not_online_mw": 80690.0,
+   "linked_mw": 9945.0,
+   "replaced_mw": 9945.0,
+   "possible_mw": 9945.0,
+   "replaced_share": 0.1232,
+   "possible_share": 0.1232,
+   "on_time_before": 0.3985,
+   "on_time_after": 0.3985,
+   "not_online_before": 0.0991,
+   "not_online_after": 0.0869
+  },
+  {
+   "part": "battery",
+   "rows": 10382,
+   "mw": 527436.8,
+   "not_online_mw": 122916.7,
+   "linked_mw": 0.0,
+   "replaced_mw": 0.0,
+   "possible_mw": 240.6,
+   "replaced_share": 0.0,
+   "possible_share": 0.002,
+   "on_time_before": 0.2299,
+   "on_time_after": 0.2299,
+   "not_online_before": 0.233,
+   "not_online_after": 0.233
+  },
+  {
+   "part": "gas_ct",
+   "rows": 3126,
+   "mw": 258493.4,
+   "not_online_mw": 67953.2,
+   "linked_mw": 3417.6,
+   "replaced_mw": 3417.6,
+   "possible_mw": 4397.6,
+   "replaced_share": 0.0503,
+   "possible_share": 0.0647,
+   "on_time_before": 0.2401,
+   "on_time_after": 0.2401,
+   "not_online_before": 0.2629,
+   "not_online_after": 0.2629
+  }
+ ],
+ "by_stage": [
+  {
+   "part": "approved",
+   "rows": 8691,
+   "mw": 295111.7,
+   "not_online_mw": 110033.3,
+   "linked_mw": 1277.8,
+   "replaced_mw": 1233.8,
+   "possible_mw": 1511.8,
+   "replaced_share": 0.0112,
+   "possible_share": 0.0137,
+   "on_time_before": 0.2186,
+   "on_time_after": 0.2193,
+   "not_online_before": 0.3729,
+   "not_online_after": 0.3687
+  },
+  {
+   "part": "construction",
+   "rows": 47440,
+   "mw": 3254557.9,
+   "not_online_mw": 380219.9,
+   "linked_mw": 19246.2,
+   "replaced_mw": 19246.2,
+   "possible_mw": 19486.8,
+   "replaced_share": 0.0506,
+   "possible_share": 0.0513,
+   "on_time_before": 0.3566,
+   "on_time_after": 0.3568,
+   "not_online_before": 0.1168,
+   "not_online_after": 0.1127
+  },
+  {
+   "part": "other",
+   "rows": 204,
+   "mw": 10555.9,
+   "not_online_mw": 5942.7,
+   "linked_mw": 32.4,
+   "replaced_mw": 0.0,
+   "possible_mw": 32.4,
+   "replaced_share": 0.0,
+   "possible_share": 0.0055,
+   "on_time_before": 0.303,
+   "on_time_after": 0.303,
+   "not_online_before": 0.563,
+   "not_online_after": 0.563
+  },
+  {
+   "part": "permitting",
+   "rows": 7467,
+   "mw": 249711.1,
+   "not_online_mw": 132288.9,
+   "linked_mw": 214.0,
+   "replaced_mw": 0.0,
+   "possible_mw": 918.0,
+   "replaced_share": 0.0,
+   "possible_share": 0.0069,
+   "on_time_before": 0.1279,
+   "on_time_after": 0.1279,
+   "not_online_before": 0.5298,
+   "not_online_after": 0.5298
+  },
+  {
+   "part": "planning",
+   "rows": 5939,
+   "mw": 315324.9,
+   "not_online_mw": 181809.4,
+   "linked_mw": 101.0,
+   "replaced_mw": 21.0,
+   "possible_mw": 21.0,
+   "replaced_share": 0.0001,
+   "possible_share": 0.0001,
+   "on_time_before": 0.1532,
+   "on_time_after": 0.1533,
+   "not_online_before": 0.5766,
+   "not_online_after": 0.5765
+  },
+  {
+   "part": "testing",
+   "rows": 8905,
+   "mw": 425236.9,
+   "not_online_mw": 61545.7,
+   "linked_mw": 6.0,
+   "replaced_mw": 6.0,
+   "possible_mw": 6.0,
+   "replaced_share": 0.0001,
+   "possible_share": 0.0001,
+   "on_time_before": 0.3974,
+   "on_time_after": 0.3974,
+   "not_online_before": 0.1447,
+   "not_online_after": 0.1447
+  }
+ ],
+ "cells": [
+  {
+   "part": "early 00-03",
+   "rows": 875,
+   "mw": 18497.4,
+   "not_online_mw": 10459.3,
+   "linked_mw": 16.2,
+   "replaced_mw": 0.0,
+   "possible_mw": 16.2,
+   "replaced_share": 0.0,
+   "possible_share": 0.0015,
+   "on_time_before": 0.1316,
+   "on_time_after": 0.1316,
+   "not_online_before": 0.5654,
+   "not_online_after": 0.5654
+  },
+  {
+   "part": "early 04-06",
+   "rows": 2728,
+   "mw": 64322.4,
+   "not_online_mw": 35069.7,
+   "linked_mw": 51.6,
+   "replaced_mw": 3.0,
+   "possible_mw": 121.6,
+   "replaced_share": 0.0001,
+   "possible_share": 0.0035,
+   "on_time_before": 0.1395,
+   "on_time_after": 0.1396,
+   "not_online_before": 0.5452,
+   "not_online_after": 0.5452
+  },
+  {
+   "part": "early 07-12",
+   "rows": 7593,
+   "mw": 357996.4,
+   "not_online_mw": 187690.0,
+   "linked_mw": 247.2,
+   "replaced_mw": 18.0,
+   "possible_mw": 801.2,
+   "replaced_share": 0.0001,
+   "possible_share": 0.0043,
+   "on_time_before": 0.1577,
+   "on_time_after": 0.1577,
+   "not_online_before": 0.5243,
+   "not_online_after": 0.5242
+  },
+  {
+   "part": "early 13-24",
+   "rows": 17387,
+   "mw": 1875236.4,
+   "not_online_mw": 1311151.7,
+   "linked_mw": 1421.2,
+   "replaced_mw": 1073.4,
+   "possible_mw": 1836.2,
+   "replaced_share": 0.0008,
+   "possible_share": 0.0014,
+   "on_time_before": 0.1247,
+   "on_time_after": 0.125,
+   "not_online_before": 0.6992,
+   "not_online_after": 0.6989
+  },
+  {
+   "part": "approved 00-03",
+   "rows": 791,
+   "mw": 10447.0,
+   "not_online_mw": 5023.7,
+   "linked_mw": 0.0,
+   "replaced_mw": 0.0,
+   "possible_mw": 0.0,
+   "replaced_share": 0.0,
+   "possible_share": 0.0,
+   "on_time_before": 0.2545,
+   "on_time_after": 0.2545,
+   "not_online_before": 0.4809,
+   "not_online_after": 0.4809
+  },
+  {
+   "part": "approved 04-06",
+   "rows": 1999,
+   "mw": 36149.3,
+   "not_online_mw": 12801.5,
+   "linked_mw": 0.0,
+   "replaced_mw": 0.0,
+   "possible_mw": 87.0,
+   "replaced_share": 0.0,
+   "possible_share": 0.0068,
+   "on_time_before": 0.2254,
+   "on_time_after": 0.2254,
+   "not_online_before": 0.3541,
+   "not_online_after": 0.3541
+  },
+  {
+   "part": "approved 07-12",
+   "rows": 4272,
+   "mw": 171988.0,
+   "not_online_mw": 61369.0,
+   "linked_mw": 1277.8,
+   "replaced_mw": 1233.8,
+   "possible_mw": 1424.8,
+   "replaced_share": 0.0201,
+   "possible_share": 0.0232,
+   "on_time_before": 0.2101,
+   "on_time_after": 0.2112,
+   "not_online_before": 0.3568,
+   "not_online_after": 0.3496
+  },
+  {
+   "part": "approved 13-24",
+   "rows": 6665,
+   "mw": 630726.9,
+   "not_online_mw": 340002.5,
+   "linked_mw": 3995.2,
+   "replaced_mw": 3995.2,
+   "possible_mw": 4205.2,
+   "replaced_share": 0.0118,
+   "possible_share": 0.0124,
+   "on_time_before": 0.1762,
+   "on_time_after": 0.1791,
+   "not_online_before": 0.5391,
+   "not_online_after": 0.5327
+  },
+  {
+   "part": "U 00-03",
+   "rows": 5131,
+   "mw": 190762.7,
+   "not_online_mw": 22232.8,
+   "linked_mw": 166.0,
+   "replaced_mw": 166.0,
+   "possible_mw": 166.0,
+   "replaced_share": 0.0075,
+   "possible_share": 0.0075,
+   "on_time_before": 0.3017,
+   "on_time_after": 0.3017,
+   "not_online_before": 0.1165,
+   "not_online_after": 0.1165
+  },
+  {
+   "part": "U 04-06",
+   "rows": 5316,
+   "mw": 311576.7,
+   "not_online_mw": 44900.9,
+   "linked_mw": 1542.9,
+   "replaced_mw": 1542.9,
+   "possible_mw": 1542.9,
+   "replaced_share": 0.0344,
+   "possible_share": 0.0344,
+   "on_time_before": 0.2848,
+   "on_time_after": 0.285,
+   "not_online_before": 0.1441,
+   "not_online_after": 0.1408
+  },
+  {
+   "part": "U 07-12",
+   "rows": 6247,
+   "mw": 649498.4,
+   "not_online_mw": 119775.1,
+   "linked_mw": 9072.3,
+   "replaced_mw": 9072.3,
+   "possible_mw": 9072.3,
+   "replaced_share": 0.0757,
+   "possible_share": 0.0757,
+   "on_time_before": 0.322,
+   "on_time_after": 0.3227,
+   "not_online_before": 0.1844,
+   "not_online_after": 0.1731
+  },
+  {
+   "part": "U 13-24",
+   "rows": 4138,
+   "mw": 636740.1,
+   "not_online_mw": 294236.1,
+   "linked_mw": 19254.0,
+   "replaced_mw": 19254.0,
+   "possible_mw": 22054.0,
+   "replaced_share": 0.0654,
+   "possible_share": 0.075,
+   "on_time_before": 0.2457,
+   "on_time_after": 0.2457,
+   "not_online_before": 0.4621,
+   "not_online_after": 0.4381
+  },
+  {
+   "part": "V 00-03",
+   "rows": 11795,
+   "mw": 627147.3,
+   "not_online_mw": 36237.6,
+   "linked_mw": 4030.0,
+   "replaced_mw": 4030.0,
+   "possible_mw": 4030.0,
+   "replaced_share": 0.1112,
+   "possible_share": 0.1112,
+   "on_time_before": 0.4088,
+   "on_time_after": 0.4088,
+   "not_online_before": 0.0578,
+   "not_online_after": 0.0568
+  },
+  {
+   "part": "V 04-06",
+   "rows": 3599,
+   "mw": 356847.4,
+   "not_online_mw": 26518.6,
+   "linked_mw": 3315.0,
+   "replaced_mw": 3315.0,
+   "possible_mw": 3315.0,
+   "replaced_share": 0.125,
+   "possible_share": 0.125,
+   "on_time_before": 0.4253,
+   "on_time_after": 0.4253,
+   "not_online_before": 0.0743,
+   "not_online_after": 0.065
+  },
+  {
+   "part": "V 07-12",
+   "rows": 1901,
+   "mw": 323299.3,
+   "not_online_mw": 43201.3,
+   "linked_mw": 1105.0,
+   "replaced_mw": 1105.0,
+   "possible_mw": 1105.0,
+   "replaced_share": 0.0256,
+   "possible_share": 0.0256,
+   "on_time_before": 0.3683,
+   "on_time_after": 0.3683,
+   "not_online_before": 0.1336,
+   "not_online_after": 0.1302
+  },
+  {
+   "part": "V 13-24",
+   "rows": 315,
+   "mw": 57078.8,
+   "not_online_mw": 16824.7,
+   "linked_mw": 0.0,
+   "replaced_mw": 0.0,
+   "possible_mw": 7860.0,
+   "replaced_share": 0.0,
+   "possible_share": 0.4672,
+   "on_time_before": 0.1389,
+   "on_time_after": 0.1389,
+   "not_online_before": 0.2948,
+   "not_online_after": 0.2948
+  }
+ ],
+ "leadtime_predictions": {
+  "before": {
+   "L1": {
+    "on_time_by_band": {
+     "U": {
+      "00-03": 0.3017,
+      "04-06": 0.2848,
+      "07-12": 0.322,
+      "13-24": 0.2457
+     },
+     "V": {
+      "00-03": 0.4088,
+      "04-06": 0.4253,
+      "07-12": 0.3683,
+      "13-24": 0.1389
+     }
+    },
+    "non_increasing": {
+     "U": false,
+     "V": false
+    },
+    "held": false
+   },
+   "L2": {
+    "fall_V": 0.2699,
+    "fall_early": 0.0068,
+    "held": true
+   },
+   "L3": {
+    "V_00_03_on_time": 0.4088,
+    "floor": 0.45,
+    "held": false
+   },
+   "L4": {
+    "early_13_24_on_time": 0.1247,
+    "ceiling": 0.2,
+    "held": true
+   },
+   "L5": {
+    "V_07_12_on_time": 0.3683,
+    "early_00_03_on_time": 0.1316,
+    "held": true
+   },
+   "L6": {
+    "early_13_24_not_online": 0.6992,
+    "floor": 0.5,
+    "held": true
+   }
+  },
+  "after": {
+   "L1": {
+    "on_time_by_band": {
+     "U": {
+      "00-03": 0.3017,
+      "04-06": 0.285,
+      "07-12": 0.3227,
+      "13-24": 0.2457
+     },
+     "V": {
+      "00-03": 0.4088,
+      "04-06": 0.4253,
+      "07-12": 0.3683,
+      "13-24": 0.1389
+     }
+    },
+    "non_increasing": {
+     "U": false,
+     "V": false
+    },
+    "held": false
+   },
+   "L2": {
+    "fall_V": 0.2699,
+    "fall_early": 0.0066,
+    "held": true
+   },
+   "L3": {
+    "V_00_03_on_time": 0.4088,
+    "floor": 0.45,
+    "held": false
+   },
+   "L4": {
+    "early_13_24_on_time": 0.125,
+    "ceiling": 0.2,
+    "held": true
+   },
+   "L5": {
+    "V_07_12_on_time": 0.3683,
+    "early_00_03_on_time": 0.1316,
+    "held": true
+   },
+   "L6": {
+    "early_13_24_not_online": 0.6989,
+    "floor": 0.5,
+    "held": true
+   }
+  }
+ },
+ "sensitivity_tolerance": [
+  {
+   "tolerance": 0.05,
+   "linked_clusters": 18,
+   "replaced_leavers": 16,
+   "replaced_share": 0.0106,
+   "on_time_after": 0.3247,
+   "not_online_after": 0.1908
+  },
+  {
+   "tolerance": 0.1,
+   "linked_clusters": 21,
+   "replaced_leavers": 21,
+   "replaced_share": 0.0228,
+   "on_time_after": 0.3248,
+   "not_online_after": 0.1885
+  },
+  {
+   "tolerance": 0.2,
+   "linked_clusters": 23,
+   "replaced_leavers": 25,
+   "replaced_share": 0.0235,
+   "on_time_after": 0.3249,
+   "not_online_after": 0.1884
+  },
+  {
+   "tolerance": 0.3,
+   "linked_clusters": 25,
+   "replaced_leavers": 28,
+   "replaced_share": 0.0235,
+   "on_time_after": 0.3249,
+   "not_online_after": 0.1884
+  }
+ ],
+ "sensitivity_first_online": {
+  "on_time_after": 0.3249,
+  "not_online_after": 0.1883
+ },
+ "links": [
+  {
+   "plant": "60356",
+   "name": "South Field Energy",
+   "state": "OH",
+   "family": "gas",
+   "leavers": "60356/SFECC",
+   "leaver_mw": 1105.0,
+   "arrivals": "60356/SFCT1; 60356/SFCT2; 60356/SFST1; 60356/SFST2",
+   "arrival_mw": 1210.4,
+   "last_listed": "2020-09",
+   "arrived": "2020-10",
+   "planned_was": "2021-01",
+   "planned_new": "2021-01",
+   "online_all": "2021-10",
+   "online_first": "2021-08",
+   "not_online_mw_rows": 9945.0,
+   "lt_not_online_mw_rows": 23205.0
+  },
+  {
+   "plant": "61044",
+   "name": "La Joya NM",
+   "state": "NM",
+   "family": "wind_onshore",
+   "leavers": "61044/WT1",
+   "leaver_mw": 306.2,
+   "arrivals": "61044/LAJ1; 61044/LAJ2",
+   "arrival_mw": 307.1,
+   "last_listed": "2020-10",
+   "arrived": "2020-09",
+   "planned_was": "2020-12",
+   "planned_new": "2020-12",
+   "online_all": "2021-06",
+   "online_first": "2021-02",
+   "not_online_mw_rows": 5590.0,
+   "lt_not_online_mw_rows": 11582.0
+  },
+  {
+   "plant": "60264",
+   "name": "Bacliff",
+   "state": "TX",
+   "family": "gas",
+   "leavers": "60264/CLGT1; 60264/CLGT2; 60264/CLGT3; 60264/CLGT4; 60264/CLGT5; 60264/CLGT6",
+   "leaver_mw": 427.2,
+   "arrivals": "60264/BCGT1; 60264/BCGT2; 60264/BCGT3; 60264/BCGT4; 60264/BCGT5; 60264/BCGT6",
+   "arrival_mw": 427.2,
+   "last_listed": "2016-11",
+   "arrived": "2016-12",
+   "planned_was": "2016-11",
+   "planned_new": "2017-01",
+   "online_all": "2018-07",
+   "online_first": "2018-07",
+   "not_online_mw_rows": 3417.6,
+   "lt_not_online_mw_rows": 3417.6
+  },
+  {
+   "plant": "60094",
+   "name": "Blythe Solar III, LLC",
+   "state": "CA",
+   "family": "solar",
+   "leavers": "60094/BLCK1; 60094/BLCK2; 60094/BLCK3; 60094/BLCK4",
+   "leaver_mw": 124.8,
+   "arrivals": "60094/BLSL3",
+   "arrival_mw": 136.8,
+   "last_listed": "2020-02",
+   "arrived": "2020-02",
+   "planned_was": "2020-12",
+   "planned_new": "2020-05",
+   "online_all": "2020-05",
+   "online_first": "2020-05",
+   "not_online_mw_rows": 655.2,
+   "lt_not_online_mw_rows": 2152.8
+  },
+  {
+   "plant": "60095",
+   "name": "Blythe Solar IV, LLC",
+   "state": "CA",
+   "family": "solar",
+   "leavers": "60095/BLCK1; 60095/BLCK2; 60095/BLCK3; 60095/BLCK4",
+   "leaver_mw": 124.8,
+   "arrivals": "60095/BLS4A; 60095/BLS4B",
+   "arrival_mw": 137.4,
+   "last_listed": "2020-02",
+   "arrived": "2020-02",
+   "planned_was": "2020-12",
+   "planned_new": "2020-05",
+   "online_all": "2020-11",
+   "online_first": "2020-11",
+   "not_online_mw_rows": 655.2,
+   "lt_not_online_mw_rows": 2152.8
+  },
+  {
+   "plant": "64507",
+   "name": "OETN1",
+   "state": "TN",
+   "family": "solar",
+   "leavers": "64507/OEALD",
+   "leaver_mw": 100.0,
+   "arrivals": "64507/OETN1",
+   "arrival_mw": 100.0,
+   "last_listed": "2022-01",
+   "arrived": "2022-02",
+   "planned_was": "2022-12",
+   "planned_new": "2022-12",
+   "online_all": "2023-03",
+   "online_first": "2023-03",
+   "not_online_mw_rows": 200.0,
+   "lt_not_online_mw_rows": 1200.0
+  },
+  {
+   "plant": "64098",
+   "name": "Tesla Reno GigaFactory",
+   "state": "NV",
+   "family": "solar",
+   "leavers": "64098/4",
+   "leaver_mw": 16.2,
+   "arrivals": "64098/RA; 64098/RB; 64098/RC; 64098/RD; 64098/RDP; 64098/RE; 64098/REP",
+   "arrival_mw": 15.3,
+   "last_listed": "2021-10",
+   "arrived": "2021-11",
+   "planned_was": "2021-11",
+   "planned_new": "2022-03",
+   "online_all": null,
+   "online_first": "2022-03",
+   "not_online_mw_rows": 180.4,
+   "lt_not_online_mw_rows": 207.2
+  },
+  {
+   "plant": "64240",
+   "name": "Holley Road Solar",
+   "state": "NY",
+   "family": "solar",
+   "leavers": "64240/#0879",
+   "leaver_mw": 20.0,
+   "arrivals": "64240/879",
+   "arrival_mw": 20.0,
+   "last_listed": "2021-12",
+   "arrived": "2022-01",
+   "planned_was": "2022-09",
+   "planned_new": "2022-09",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 80.0,
+   "lt_not_online_mw_rows": 280.0
+  },
+  {
+   "plant": "58800",
+   "name": "Hop Bottom",
+   "state": "PA",
+   "family": "gas",
+   "leavers": "58800/GEN1; 58800/GEN2; 58800/GEN3; 58800/GEN4; 58800/GEN5",
+   "leaver_mw": 22.0,
+   "arrivals": "58800/1; 58800/2; 58800/3",
+   "arrival_mw": 21.0,
+   "last_listed": "2016-05",
+   "arrived": "2016-04",
+   "planned_was": "2017-03",
+   "planned_new": "2017-06",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 44.0,
+   "lt_not_online_mw_rows": 44.0
+  },
+  {
+   "plant": "58816",
+   "name": "Bayles",
+   "state": "PA",
+   "family": "gas",
+   "leavers": "58816/GEN1; 58816/GEN2; 58816/GEN3; 58816/GEN4; 58816/GEN5",
+   "leaver_mw": 22.0,
+   "arrivals": "58816/1; 58816/2; 58816/3",
+   "arrival_mw": 21.0,
+   "last_listed": "2016-05",
+   "arrived": "2016-04",
+   "planned_was": "2017-03",
+   "planned_new": "2017-09",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 44.0,
+   "lt_not_online_mw_rows": 44.0
+  },
+  {
+   "plant": "1272",
+   "name": "Colby City of",
+   "state": "KS",
+   "family": "oil",
+   "leavers": "1272/10",
+   "leaver_mw": 3.0,
+   "arrivals": "1272/3A",
+   "arrival_mw": 3.0,
+   "last_listed": "2024-01",
+   "arrived": "2024-02",
+   "planned_was": "2024-03",
+   "planned_new": null,
+   "online_all": "2019-08",
+   "online_first": "2019-08",
+   "not_online_mw_rows": 42.0,
+   "lt_not_online_mw_rows": 57.0
+  },
+  {
+   "plant": "59418",
+   "name": "Amity Energy LLC",
+   "state": "PA",
+   "family": "gas",
+   "leavers": "59418/GEN1; 59418/GEN2; 59418/GEN3; 59418/GEN4; 59418/GEN5",
+   "leaver_mw": 22.0,
+   "arrivals": "59418/1; 59418/2; 59418/3",
+   "arrival_mw": 21.0,
+   "last_listed": "2016-06",
+   "arrived": "2016-04",
+   "planned_was": "2017-06",
+   "planned_new": "2017-09",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 22.0,
+   "lt_not_online_mw_rows": 66.0
+  },
+  {
+   "plant": "57057",
+   "name": "Quinhagak",
+   "state": "AK",
+   "family": "oil",
+   "leavers": "57057/1A",
+   "leaver_mw": 0.5,
+   "arrivals": "57057/3A",
+   "arrival_mw": 0.5,
+   "last_listed": "2019-04",
+   "arrived": "2019-05",
+   "planned_was": "2019-08",
+   "planned_new": "2019-08",
+   "online_all": "2019-08",
+   "online_first": "2019-08",
+   "not_online_mw_rows": 2.0,
+   "lt_not_online_mw_rows": 2.0
+  },
+  {
+   "plant": "61982",
+   "name": "Columbia Solar Power Plant",
+   "state": "FL",
+   "family": "solar",
+   "leavers": "61982/PV",
+   "leaver_mw": 74.9,
+   "arrivals": "61982/PV1",
+   "arrival_mw": 74.9,
+   "last_listed": "2019-01",
+   "arrived": "2019-01",
+   "planned_was": "2020-03",
+   "planned_new": "2020-03",
+   "online_all": "2020-03",
+   "online_first": "2020-03",
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 449.4
+  },
+  {
+   "plant": "63508",
+   "name": "Camino Solar",
+   "state": "CA",
+   "family": "solar",
+   "leavers": "63508/CS1",
+   "leaver_mw": 44.0,
+   "arrivals": "63508/CSPV1",
+   "arrival_mw": 44.0,
+   "last_listed": "2020-11",
+   "arrived": "2020-12",
+   "planned_was": "2022-05",
+   "planned_new": "2022-05",
+   "online_all": "2025-04",
+   "online_first": "2025-04",
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 308.0
+  },
+  {
+   "plant": "64974",
+   "name": "Daybreak Solar",
+   "state": "OR",
+   "family": "solar",
+   "leavers": "64974/BOS2",
+   "leaver_mw": 140.0,
+   "arrivals": "64974/DBS1",
+   "arrival_mw": 140.0,
+   "last_listed": "2021-11",
+   "arrived": "2021-11",
+   "planned_was": "2022-12",
+   "planned_new": "2022-12",
+   "online_all": "2025-03",
+   "online_first": "2025-03",
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 280.0
+  },
+  {
+   "plant": "63508",
+   "name": "Camino Solar",
+   "state": "CA",
+   "family": "battery",
+   "leavers": "63508/CS2",
+   "leaver_mw": 11.0,
+   "arrivals": "63508/CSBA1",
+   "arrival_mw": 11.0,
+   "last_listed": "2020-11",
+   "arrived": "2020-12",
+   "planned_was": "2022-05",
+   "planned_new": "2022-05",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 77.0
+  },
+  {
+   "plant": "63168",
+   "name": "USS Pheasant Solar LLC",
+   "state": "MN",
+   "family": "solar",
+   "leavers": "63168/HNCCK",
+   "leaver_mw": 1.0,
+   "arrivals": "63168/PHSNT",
+   "arrival_mw": 1.0,
+   "last_listed": "2019-10",
+   "arrived": "2019-10",
+   "planned_was": "2020-11",
+   "planned_new": "2020-11",
+   "online_all": "2020-11",
+   "online_first": "2020-11",
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 2.0
+  },
+  {
+   "plant": "10554",
+   "name": "Formosa Utility Venture Ltd",
+   "state": "TX",
+   "family": "gas",
+   "leavers": "10554/3TGB1; 10554/3TGB2",
+   "leaver_mw": 204.0,
+   "arrivals": "10554/3TBG1; 10554/3TBG2",
+   "arrival_mw": 204.0,
+   "last_listed": "2017-03",
+   "arrived": "2017-04",
+   "planned_was": "2019-12",
+   "planned_new": "2019-12",
+   "online_all": "2023-01",
+   "online_first": "2023-01",
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 0.0
+  },
+  {
+   "plant": "67914",
+   "name": "Delta Blues Advanced Power Station",
+   "state": "MS",
+   "family": "gas",
+   "leavers": "67914/1B",
+   "leaver_mw": 402.0,
+   "arrivals": "67914/1C",
+   "arrival_mw": 341.7,
+   "last_listed": "2024-11",
+   "arrived": "2024-12",
+   "planned_was": "2028-05",
+   "planned_new": "2028-05",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 0.0
+  },
+  {
+   "plant": "69056",
+   "name": "CO Bar Solar and BESS",
+   "state": "AZ",
+   "family": "battery",
+   "leavers": "69056/CBCBA",
+   "leaver_mw": 400.0,
+   "arrivals": "69056/CBBA",
+   "arrival_mw": 400.0,
+   "last_listed": "2025-08",
+   "arrived": "2025-08",
+   "planned_was": "2027-12",
+   "planned_new": "2027-12",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 0.0
+  },
+  {
+   "plant": "69056",
+   "name": "CO Bar Solar and BESS",
+   "state": "AZ",
+   "family": "solar",
+   "leavers": "69056/CBCPV",
+   "leaver_mw": 400.0,
+   "arrivals": "69056/CBPV",
+   "arrival_mw": 400.0,
+   "last_listed": "2025-08",
+   "arrived": "2025-08",
+   "planned_was": "2027-12",
+   "planned_new": "2027-12",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 0.0
+  },
+  {
+   "plant": "69895",
+   "name": "Gateway#1&2 (Newark CA)",
+   "state": "CA",
+   "family": "solar",
+   "leavers": "69895/#1&2G",
+   "leaver_mw": 1.1,
+   "arrivals": "69895/Gy1a2",
+   "arrival_mw": 1.1,
+   "last_listed": "2026-05",
+   "arrived": "2026-05",
+   "planned_was": "2027-04",
+   "planned_new": "2027-04",
+   "online_all": null,
+   "online_first": null,
+   "not_online_mw_rows": 0.0,
+   "lt_not_online_mw_rows": 0.0
+  }
+ ]
+}

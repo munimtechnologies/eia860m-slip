@@ -1,0 +1,384 @@
+key,report_date,valid_until_date,plant_id_eia,generator_id,capacity_mw,current_planned_generator_operating_date,generator_operating_date,operational_status_code,technology_description,plant_name_eia,state
+58800/1,2016-04-01,2016-07-01,58800,1,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2016-07-01,2016-09-01,58800,1,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2016-09-01,2017-01-01,58800,1,7.0,2017-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2017-01-01,2017-05-01,58800,1,7.0,2018-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2017-05-01,2017-06-01,58800,1,7.0,2018-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2017-06-01,2017-11-01,58800,1,7.0,2018-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2017-11-01,2018-12-01,58800,1,7.0,2019-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/1,2018-12-01,2019-10-01,58800,1,7.0,2021-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2016-04-01,2016-07-01,58800,2,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2016-07-01,2016-09-01,58800,2,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2016-09-01,2017-01-01,58800,2,7.0,2017-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2017-01-01,2017-05-01,58800,2,7.0,2018-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2017-05-01,2017-06-01,58800,2,7.0,2018-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2017-06-01,2017-11-01,58800,2,7.0,2018-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2017-11-01,2018-12-01,58800,2,7.0,2019-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/2,2018-12-01,2019-10-01,58800,2,7.0,2021-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2016-04-01,2016-07-01,58800,3,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2016-07-01,2016-09-01,58800,3,7.0,2017-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2016-09-01,2017-01-01,58800,3,7.0,2017-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2017-01-01,2017-05-01,58800,3,7.0,2018-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2017-05-01,2017-06-01,58800,3,7.0,2018-06-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2017-06-01,2017-11-01,58800,3,7.0,2018-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2017-11-01,2018-12-01,58800,3,7.0,2019-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/3,2018-12-01,2019-10-01,58800,3,7.0,2021-12-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN1,2015-07-01,2015-09-01,58800,GEN1,0.0,2016-06-01,,L,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN1,2015-09-01,2015-12-01,58800,GEN1,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN1,2015-12-01,2016-04-01,58800,GEN1,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN1,2016-04-01,2016-05-01,58800,GEN1,4.4,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN2,2015-07-01,2015-09-01,58800,GEN2,0.0,2016-06-01,,L,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN2,2015-09-01,2015-12-01,58800,GEN2,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN2,2015-12-01,2016-04-01,58800,GEN2,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN2,2016-04-01,2016-05-01,58800,GEN2,4.4,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN3,2015-07-01,2015-09-01,58800,GEN3,0.0,2016-06-01,,L,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN3,2015-09-01,2015-12-01,58800,GEN3,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN3,2015-12-01,2016-04-01,58800,GEN3,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN3,2016-04-01,2016-05-01,58800,GEN3,4.4,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN4,2015-07-01,2015-09-01,58800,GEN4,0.0,2016-06-01,,L,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN4,2015-09-01,2015-12-01,58800,GEN4,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN4,2015-12-01,2016-04-01,58800,GEN4,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN4,2016-04-01,2016-05-01,58800,GEN4,4.4,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN5,2015-07-01,2015-09-01,58800,GEN5,0.0,2016-06-01,,L,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN5,2015-09-01,2015-12-01,58800,GEN5,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN5,2015-12-01,2016-04-01,58800,GEN5,0.0,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58800/GEN5,2016-04-01,2016-05-01,58800,GEN5,4.4,2017-03-01,,T,Natural Gas Internal Combustion Engine,Hop Bottom,PA
+58816/1,2016-04-01,2016-07-01,58816,1,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2016-07-01,2016-09-01,58816,1,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2016-09-01,2017-01-01,58816,1,7.0,2017-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2017-01-01,2017-03-01,58816,1,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2017-03-01,2017-05-01,58816,1,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2017-05-01,2017-06-01,58816,1,7.0,2018-06-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2017-06-01,2017-11-01,58816,1,7.0,2018-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/1,2017-11-01,2018-11-01,58816,1,7.0,2019-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2016-04-01,2016-07-01,58816,2,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2016-07-01,2016-09-01,58816,2,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2016-09-01,2017-01-01,58816,2,7.0,2017-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2017-01-01,2017-03-01,58816,2,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2017-03-01,2017-05-01,58816,2,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2017-05-01,2017-06-01,58816,2,7.0,2018-06-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2017-06-01,2017-11-01,58816,2,7.0,2018-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/2,2017-11-01,2018-11-01,58816,2,7.0,2019-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2016-04-01,2016-07-01,58816,3,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2016-07-01,2016-09-01,58816,3,7.0,2017-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2016-09-01,2017-01-01,58816,3,7.0,2017-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2017-01-01,2017-03-01,58816,3,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2017-03-01,2017-05-01,58816,3,7.0,2018-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2017-05-01,2017-06-01,58816,3,7.0,2018-06-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2017-06-01,2017-11-01,58816,3,7.0,2018-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/3,2017-11-01,2018-11-01,58816,3,7.0,2019-12-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN1,2015-07-01,2015-09-01,58816,GEN1,0.0,2016-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN1,2015-09-01,2015-11-01,58816,GEN1,0.0,2016-11-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN1,2015-11-01,2015-12-01,58816,GEN1,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN1,2015-12-01,2016-04-01,58816,GEN1,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN1,2016-04-01,2016-05-01,58816,GEN1,4.4,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN2,2015-07-01,2015-09-01,58816,GEN2,0.0,2016-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN2,2015-09-01,2015-11-01,58816,GEN2,0.0,2016-11-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN2,2015-11-01,2015-12-01,58816,GEN2,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN2,2015-12-01,2016-04-01,58816,GEN2,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN2,2016-04-01,2016-05-01,58816,GEN2,4.4,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN3,2015-07-01,2015-09-01,58816,GEN3,0.0,2016-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN3,2015-09-01,2015-11-01,58816,GEN3,0.0,2016-11-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN3,2015-11-01,2015-12-01,58816,GEN3,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN3,2015-12-01,2016-04-01,58816,GEN3,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN3,2016-04-01,2016-05-01,58816,GEN3,4.4,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN4,2015-07-01,2015-09-01,58816,GEN4,0.0,2016-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN4,2015-09-01,2015-11-01,58816,GEN4,0.0,2016-11-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN4,2015-11-01,2015-12-01,58816,GEN4,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN4,2015-12-01,2016-04-01,58816,GEN4,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN4,2016-04-01,2016-05-01,58816,GEN4,4.4,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN5,2015-07-01,2015-09-01,58816,GEN5,0.0,2016-09-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN5,2015-09-01,2015-11-01,58816,GEN5,0.0,2016-11-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN5,2015-11-01,2015-12-01,58816,GEN5,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN5,2015-12-01,2016-04-01,58816,GEN5,0.0,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+58816/GEN5,2016-04-01,2016-05-01,58816,GEN5,4.4,2017-03-01,,L,Natural Gas Internal Combustion Engine,Bayles,PA
+60094/BLCK1,2015-12-01,2016-04-01,60094,BLCK1,0.0,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK1,2016-04-01,2016-07-01,60094,BLCK1,31.2,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK1,2016-07-01,2019-08-01,60094,BLCK1,31.2,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK1,2019-08-01,2020-01-01,60094,BLCK1,31.2,2020-06-01,,U,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK2,2015-11-01,2015-12-01,60094,BLCK2,0.0,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK2,2015-12-01,2016-04-01,60094,BLCK2,0.0,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK2,2016-04-01,2016-07-01,60094,BLCK2,31.2,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK2,2016-07-01,2019-10-01,60094,BLCK2,31.2,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK2,2019-10-01,2020-01-01,60094,BLCK2,31.2,2020-08-01,,U,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK3,2015-11-01,2015-12-01,60094,BLCK3,0.0,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK3,2015-12-01,2016-04-01,60094,BLCK3,0.0,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK3,2016-04-01,2016-07-01,60094,BLCK3,31.2,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK3,2016-07-01,2019-10-01,60094,BLCK3,31.2,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK3,2019-10-01,2020-01-01,60094,BLCK3,31.2,2020-10-01,,U,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK4,2015-11-01,2015-12-01,60094,BLCK4,0.0,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK4,2015-12-01,2016-04-01,60094,BLCK4,0.0,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK4,2016-04-01,2016-07-01,60094,BLCK4,31.2,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK4,2016-07-01,2020-01-01,60094,BLCK4,31.2,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLCK4,2020-01-01,2020-02-01,60094,BLCK4,31.2,2020-12-01,,U,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLSL3,2020-02-01,2020-05-01,60094,BLSL3,136.8,2020-05-01,,U,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLSL3,2020-05-01,2020-07-01,60094,BLSL3,136.8,,2020-05-01,OP,Solar Photovoltaic,"Blythe Solar III, LLC",CA
+60094/BLSL3,2020-07-01,2022-04-01,60094,BLSL3,136.8,,2020-05-01,OP,Solar Photovoltaic,"Blythe Solar III, LLC Hybrid",CA
+60094/BLSL3,2022-04-01,2026-08-01,60094,BLSL3,136.8,,2020-05-01,OP,Solar Photovoltaic,"Blythe Solar III, LLC Hybrid",CA
+60095/BLCK1,2015-12-01,2016-04-01,60095,BLCK1,0.0,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK1,2016-04-01,2016-07-01,60095,BLCK1,31.2,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK1,2016-07-01,2019-12-01,60095,BLCK1,31.2,2020-06-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK1,2019-12-01,2020-01-01,60095,BLCK1,31.2,2020-06-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK2,2015-11-01,2015-12-01,60095,BLCK2,0.0,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK2,2015-12-01,2016-04-01,60095,BLCK2,0.0,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK2,2016-04-01,2016-07-01,60095,BLCK2,31.2,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK2,2016-07-01,2019-12-01,60095,BLCK2,31.2,2020-08-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK2,2019-12-01,2020-01-01,60095,BLCK2,31.2,2020-08-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK3,2015-11-01,2015-12-01,60095,BLCK3,0.0,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK3,2015-12-01,2016-04-01,60095,BLCK3,0.0,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK3,2016-04-01,2016-07-01,60095,BLCK3,31.2,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK3,2016-07-01,2019-12-01,60095,BLCK3,31.2,2020-10-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK3,2019-12-01,2020-01-01,60095,BLCK3,31.2,2020-10-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK4,2015-11-01,2015-12-01,60095,BLCK4,0.0,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK4,2015-12-01,2016-04-01,60095,BLCK4,0.0,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK4,2016-04-01,2016-07-01,60095,BLCK4,31.2,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK4,2016-07-01,2020-01-01,60095,BLCK4,31.2,2020-12-01,,T,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLCK4,2020-01-01,2020-02-01,60095,BLCK4,31.2,2020-12-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4A,2020-02-01,2020-05-01,60095,BLS4A,68.7,2020-05-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4A,2020-05-01,2020-06-01,60095,BLS4A,68.7,2020-12-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4A,2020-06-01,2020-11-01,60095,BLS4A,68.7,2020-12-01,,V,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4A,2020-11-01,2022-04-01,60095,BLS4A,68.7,,2020-11-01,OP,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4A,2022-04-01,2026-08-01,60095,BLS4A,68.7,,2020-11-01,OP,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4B,2020-02-01,2020-05-01,60095,BLS4B,68.7,2020-05-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4B,2020-05-01,2020-06-01,60095,BLS4B,68.7,2020-12-01,,U,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4B,2020-06-01,2020-11-01,60095,BLS4B,68.7,2020-12-01,,V,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4B,2020-11-01,2022-04-01,60095,BLS4B,68.7,,2020-11-01,OP,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60095/BLS4B,2022-04-01,2026-08-01,60095,BLS4B,68.7,,2020-11-01,OP,Solar Photovoltaic,"Blythe Solar IV, LLC",CA
+60264/BCGT1,2016-12-01,2017-01-01,60264,BCGT1,71.2,2017-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-01-01,2017-02-01,60264,BCGT1,71.2,2017-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-02-01,2017-03-01,60264,BCGT1,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-03-01,2017-04-01,60264,BCGT1,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-04-01,2017-05-01,60264,BCGT1,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-05-01,2017-06-01,60264,BCGT1,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-06-01,2017-07-01,60264,BCGT1,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-07-01,2017-08-01,60264,BCGT1,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-08-01,2017-10-01,60264,BCGT1,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-10-01,2017-12-01,60264,BCGT1,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2017-12-01,2018-01-01,60264,BCGT1,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2018-01-01,2018-02-01,60264,BCGT1,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2018-02-01,2018-03-01,60264,BCGT1,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2018-03-01,2018-06-01,60264,BCGT1,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2018-06-01,2018-07-01,60264,BCGT1,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2018-07-01,2019-03-01,60264,BCGT1,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2019-03-01,2020-12-01,60264,BCGT1,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT1,2020-12-01,2026-08-01,60264,BCGT1,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2016-12-01,2017-01-01,60264,BCGT2,71.2,2017-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-01-01,2017-02-01,60264,BCGT2,71.2,2017-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-02-01,2017-03-01,60264,BCGT2,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-03-01,2017-04-01,60264,BCGT2,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-04-01,2017-05-01,60264,BCGT2,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-05-01,2017-06-01,60264,BCGT2,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-06-01,2017-07-01,60264,BCGT2,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-07-01,2017-08-01,60264,BCGT2,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-08-01,2017-10-01,60264,BCGT2,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-10-01,2017-12-01,60264,BCGT2,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2017-12-01,2018-01-01,60264,BCGT2,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2018-01-01,2018-02-01,60264,BCGT2,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2018-02-01,2018-03-01,60264,BCGT2,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2018-03-01,2018-06-01,60264,BCGT2,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2018-06-01,2018-07-01,60264,BCGT2,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2018-07-01,2019-03-01,60264,BCGT2,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2019-03-01,2020-01-01,60264,BCGT2,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT2,2020-01-01,2026-08-01,60264,BCGT2,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2016-12-01,2017-01-01,60264,BCGT3,71.2,2017-01-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-01-01,2017-02-01,60264,BCGT3,71.2,2017-02-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-02-01,2017-03-01,60264,BCGT3,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-03-01,2017-04-01,60264,BCGT3,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-04-01,2017-05-01,60264,BCGT3,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-05-01,2017-06-01,60264,BCGT3,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-06-01,2017-07-01,60264,BCGT3,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-07-01,2017-08-01,60264,BCGT3,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-08-01,2017-10-01,60264,BCGT3,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-10-01,2017-12-01,60264,BCGT3,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2017-12-01,2018-01-01,60264,BCGT3,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2018-01-01,2018-02-01,60264,BCGT3,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2018-02-01,2018-03-01,60264,BCGT3,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2018-03-01,2018-06-01,60264,BCGT3,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2018-06-01,2018-07-01,60264,BCGT3,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2018-07-01,2019-03-01,60264,BCGT3,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2019-03-01,2020-01-01,60264,BCGT3,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT3,2020-01-01,2026-08-01,60264,BCGT3,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2016-12-01,2017-01-01,60264,BCGT4,71.2,2017-01-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-01-01,2017-02-01,60264,BCGT4,71.2,2017-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-02-01,2017-03-01,60264,BCGT4,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-03-01,2017-04-01,60264,BCGT4,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-04-01,2017-05-01,60264,BCGT4,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-05-01,2017-06-01,60264,BCGT4,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-06-01,2017-07-01,60264,BCGT4,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-07-01,2017-08-01,60264,BCGT4,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-08-01,2017-10-01,60264,BCGT4,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-10-01,2017-12-01,60264,BCGT4,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2017-12-01,2018-01-01,60264,BCGT4,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2018-01-01,2018-02-01,60264,BCGT4,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2018-02-01,2018-03-01,60264,BCGT4,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2018-03-01,2018-06-01,60264,BCGT4,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2018-06-01,2018-07-01,60264,BCGT4,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2018-07-01,2019-03-01,60264,BCGT4,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2019-03-01,2020-01-01,60264,BCGT4,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT4,2020-01-01,2026-08-01,60264,BCGT4,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2016-12-01,2017-01-01,60264,BCGT5,71.2,2017-01-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-01-01,2017-02-01,60264,BCGT5,71.2,2017-02-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-02-01,2017-03-01,60264,BCGT5,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-03-01,2017-04-01,60264,BCGT5,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-04-01,2017-05-01,60264,BCGT5,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-05-01,2017-06-01,60264,BCGT5,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-06-01,2017-07-01,60264,BCGT5,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-07-01,2017-08-01,60264,BCGT5,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-08-01,2017-10-01,60264,BCGT5,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-10-01,2017-12-01,60264,BCGT5,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2017-12-01,2018-01-01,60264,BCGT5,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2018-01-01,2018-02-01,60264,BCGT5,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2018-02-01,2018-03-01,60264,BCGT5,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2018-03-01,2018-06-01,60264,BCGT5,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2018-06-01,2018-07-01,60264,BCGT5,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2018-07-01,2019-03-01,60264,BCGT5,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2019-03-01,2020-01-01,60264,BCGT5,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT5,2020-01-01,2026-08-01,60264,BCGT5,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2016-12-01,2017-01-01,60264,BCGT6,71.2,2017-01-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-01-01,2017-02-01,60264,BCGT6,71.2,2017-02-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-02-01,2017-03-01,60264,BCGT6,71.2,2017-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-03-01,2017-04-01,60264,BCGT6,71.2,2017-04-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-04-01,2017-05-01,60264,BCGT6,71.2,2017-05-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-05-01,2017-06-01,60264,BCGT6,71.2,2017-06-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-06-01,2017-07-01,60264,BCGT6,71.2,2017-07-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-07-01,2017-08-01,60264,BCGT6,71.2,2017-08-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-08-01,2017-10-01,60264,BCGT6,71.2,2017-11-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-10-01,2017-12-01,60264,BCGT6,71.2,2017-12-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2017-12-01,2018-01-01,60264,BCGT6,71.2,2018-01-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2018-01-01,2018-02-01,60264,BCGT6,71.2,2018-02-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2018-02-01,2018-03-01,60264,BCGT6,71.2,2018-03-01,,TS,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2018-03-01,2018-06-01,60264,BCGT6,71.2,2019-05-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2018-06-01,2018-07-01,60264,BCGT6,71.2,2018-07-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2018-07-01,2019-03-01,60264,BCGT6,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2019-03-01,2020-01-01,60264,BCGT6,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/BCGT6,2020-01-01,2026-08-01,60264,BCGT6,71.2,,2018-07-01,OP,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT1,2016-02-01,2016-04-01,60264,CLGT1,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT1,2016-04-01,2016-06-01,60264,CLGT1,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT1,2016-06-01,2016-07-01,60264,CLGT1,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT1,2016-07-01,2016-09-01,60264,CLGT1,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT1,2016-09-01,2016-10-01,60264,CLGT1,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT1,2016-10-01,2016-11-01,60264,CLGT1,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT2,2016-02-01,2016-04-01,60264,CLGT2,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT2,2016-04-01,2016-06-01,60264,CLGT2,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT2,2016-06-01,2016-07-01,60264,CLGT2,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT2,2016-07-01,2016-09-01,60264,CLGT2,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT2,2016-09-01,2016-10-01,60264,CLGT2,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT2,2016-10-01,2016-11-01,60264,CLGT2,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT3,2016-02-01,2016-04-01,60264,CLGT3,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT3,2016-04-01,2016-06-01,60264,CLGT3,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT3,2016-06-01,2016-07-01,60264,CLGT3,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT3,2016-07-01,2016-09-01,60264,CLGT3,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT3,2016-09-01,2016-10-01,60264,CLGT3,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT3,2016-10-01,2016-11-01,60264,CLGT3,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT4,2016-02-01,2016-04-01,60264,CLGT4,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT4,2016-04-01,2016-06-01,60264,CLGT4,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT4,2016-06-01,2016-07-01,60264,CLGT4,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT4,2016-07-01,2016-09-01,60264,CLGT4,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT4,2016-09-01,2016-10-01,60264,CLGT4,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT4,2016-10-01,2016-11-01,60264,CLGT4,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT5,2016-02-01,2016-04-01,60264,CLGT5,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT5,2016-04-01,2016-06-01,60264,CLGT5,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT5,2016-06-01,2016-07-01,60264,CLGT5,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT5,2016-07-01,2016-09-01,60264,CLGT5,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT5,2016-09-01,2016-10-01,60264,CLGT5,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT5,2016-10-01,2016-11-01,60264,CLGT5,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT6,2016-02-01,2016-04-01,60264,CLGT6,0.0,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT6,2016-04-01,2016-06-01,60264,CLGT6,71.2,2016-06-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT6,2016-06-01,2016-07-01,60264,CLGT6,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT6,2016-07-01,2016-09-01,60264,CLGT6,71.2,2016-09-01,,V,Natural Gas Fired Combustion Turbine,Cielo Lindo,TX
+60264/CLGT6,2016-09-01,2016-10-01,60264,CLGT6,71.2,2016-10-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60264/CLGT6,2016-10-01,2016-11-01,60264,CLGT6,71.2,2016-11-01,,V,Natural Gas Fired Combustion Turbine,Bacliff,TX
+60356/SFCT1,2020-10-01,2020-12-01,60356,SFCT1,344.4,2021-01-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT1,2020-12-01,2021-01-01,60356,SFCT1,344.4,2021-07-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT1,2021-01-01,2021-06-01,60356,SFCT1,344.4,2021-06-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT1,2021-06-01,2021-07-01,60356,SFCT1,344.4,2021-08-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT1,2021-07-01,2021-08-01,60356,SFCT1,344.4,2021-08-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT1,2021-08-01,2026-08-01,60356,SFCT1,344.4,,2021-08-01,OP,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2020-10-01,2020-12-01,60356,SFCT2,344.4,2021-01-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2020-12-01,2021-01-01,60356,SFCT2,344.4,2021-08-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2021-01-01,2021-07-01,60356,SFCT2,344.4,2021-06-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2021-07-01,2021-08-01,60356,SFCT2,344.4,2021-08-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2021-08-01,2021-09-01,60356,SFCT2,344.4,2021-09-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2021-09-01,2021-10-01,60356,SFCT2,344.4,2021-10-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFCT2,2021-10-01,2026-08-01,60356,SFCT2,344.4,,2021-10-01,OP,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2016-04-01,2016-07-01,60356,SFECC,1105.0,2020-01-01,,L,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2016-07-01,2017-03-01,60356,SFECC,1105.0,2020-01-01,,L,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2017-03-01,2017-11-01,60356,SFECC,1105.0,2020-01-01,,L,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2017-11-01,2018-12-01,60356,SFECC,1105.0,2021-01-01,,T,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2018-12-01,2020-06-01,60356,SFECC,1105.0,2021-01-01,,U,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFECC,2020-06-01,2020-09-01,60356,SFECC,1105.0,2021-01-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2020-10-01,2020-12-01,60356,SFST1,260.8,2021-01-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2020-12-01,2021-01-01,60356,SFST1,260.8,2021-07-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2021-01-01,2021-06-01,60356,SFST1,260.8,2021-06-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2021-06-01,2021-07-01,60356,SFST1,260.8,2021-08-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2021-07-01,2021-08-01,60356,SFST1,260.8,2021-08-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST1,2021-08-01,2026-08-01,60356,SFST1,260.8,,2021-08-01,OP,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2020-10-01,2020-12-01,60356,SFST2,260.8,2021-01-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2020-12-01,2021-01-01,60356,SFST2,260.8,2021-08-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2021-01-01,2021-07-01,60356,SFST2,260.8,2021-06-01,,V,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2021-07-01,2021-08-01,60356,SFST2,260.8,2021-08-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2021-08-01,2021-09-01,60356,SFST2,260.8,2021-09-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2021-09-01,2021-10-01,60356,SFST2,260.8,2021-10-01,,TS,Natural Gas Fired Combined Cycle,South Field Energy,OH
+60356/SFST2,2021-10-01,2026-08-01,60356,SFST2,260.8,,2021-10-01,OP,Natural Gas Fired Combined Cycle,South Field Energy,OH
+61044/LAJ1,2020-10-01,2020-11-01,61044,LAJ1,166.0,2020-12-01,,T,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ1,2020-11-01,2020-12-01,61044,LAJ1,165.0,2020-12-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ1,2020-12-01,2021-01-01,61044,LAJ1,165.0,2021-01-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ1,2021-01-01,2021-02-01,61044,LAJ1,165.0,2021-02-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ1,2021-02-01,2025-02-01,61044,LAJ1,165.0,,2021-02-01,OP,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ1,2025-02-01,2026-08-01,61044,LAJ1,165.0,,2021-02-01,OP,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2020-09-01,2020-10-01,61044,LAJ2,141.1,2020-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2020-10-01,2020-11-01,61044,LAJ2,141.2,2020-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2020-11-01,2020-12-01,61044,LAJ2,141.2,2021-01-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2020-12-01,2021-02-01,61044,LAJ2,141.2,2021-02-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2021-02-01,2021-03-01,61044,LAJ2,141.2,2021-03-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2021-03-01,2021-05-01,61044,LAJ2,141.2,2021-05-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2021-05-01,2021-06-01,61044,LAJ2,141.2,2021-06-01,,V,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2021-06-01,2025-02-01,61044,LAJ2,141.2,,2021-06-01,OP,Onshore Wind Turbine,La Joya NM,NM
+61044/LAJ2,2025-02-01,2026-08-01,61044,LAJ2,141.2,,2021-06-01,OP,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2017-02-01,2017-03-01,61044,WT1,400.0,2018-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2017-03-01,2018-03-01,61044,WT1,400.0,2018-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2018-03-01,2018-07-01,61044,WT1,166.0,2018-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2018-07-01,2018-10-01,61044,WT1,166.0,2018-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2018-10-01,2019-12-01,61044,WT1,166.0,2020-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2019-12-01,2020-01-01,61044,WT1,166.0,2020-12-01,,T,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2020-01-01,2020-02-01,61044,WT1,306.2,2020-12-01,,T,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2020-02-01,2020-09-01,61044,WT1,306.2,2020-12-01,,U,Onshore Wind Turbine,La Joya NM,NM
+61044/WT1,2020-09-01,2020-10-01,61044,WT1,306.2,2020-12-01,,V,Onshore Wind Turbine,La Joya NM,NM
+64098/4,2020-09-01,2020-11-01,64098,4,13.4,2021-11-01,,P,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/4,2020-11-01,2021-04-01,64098,4,13.4,2021-11-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/4,2021-04-01,2021-09-01,64098,4,16.2,2021-11-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/4,2021-09-01,2021-10-01,64098,4,16.2,2021-11-01,,OT,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RA,2021-11-01,2022-03-01,64098,RA,1.1,2022-03-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RA,2022-03-01,2023-02-01,64098,RA,1.1,,2022-03-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RA,2023-02-01,2024-03-01,64098,RA,1.1,,2022-03-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RA,2024-03-01,2026-08-01,64098,RA,1.1,,2022-03-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RB,2021-11-01,2022-03-01,64098,RB,1.8,2022-03-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RB,2022-03-01,2022-04-01,64098,RB,1.8,2022-04-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RB,2022-04-01,2023-02-01,64098,RB,1.8,,2022-04-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RB,2023-02-01,2024-03-01,64098,RB,1.8,,2022-04-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RB,2024-03-01,2026-08-01,64098,RB,1.8,,2022-04-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2021-11-01,2022-02-01,64098,RC,2.0,2022-03-01,,V,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-02-01,2022-03-01,64098,RC,2.0,2022-03-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-03-01,2022-04-01,64098,RC,2.0,2022-04-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-04-01,2022-05-01,64098,RC,2.0,2022-05-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-05-01,2022-06-01,64098,RC,2.0,2022-06-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-06-01,2022-07-01,64098,RC,2.0,2022-07-01,,TS,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2022-07-01,2023-02-01,64098,RC,2.0,,2022-07-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2023-02-01,2024-03-01,64098,RC,2.0,,2022-07-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RC,2024-03-01,2026-08-01,64098,RC,2.0,,2022-07-01,OP,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RD,2021-11-01,2022-03-01,64098,RD,2.4,2022-12-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RD,2022-03-01,2022-07-01,64098,RD,2.4,2022-12-01,,U,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RD,2022-07-01,2022-08-01,64098,RD,2.4,2023-06-01,,U,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RDP,2021-11-01,2022-01-01,64098,RDP,2.8,2022-03-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RDP,2022-01-01,2022-08-01,64098,RDP,2.8,2022-12-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/RE,2021-11-01,2022-08-01,64098,RE,2.4,2022-12-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/REP,2021-11-01,2022-01-01,64098,REP,2.8,2022-03-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64098/REP,2022-01-01,2022-08-01,64098,REP,2.8,2022-12-01,,L,Solar Photovoltaic,Tesla Reno GigaFactory,NV
+64240/#0879,2020-11-01,2021-12-01,64240,#0879,20.0,2022-09-01,,P,Solar Photovoltaic,Holley Road Solar,NY
+64240/879,2022-01-01,2022-06-01,64240,879,20.0,2022-09-01,,P,Solar Photovoltaic,Holley Road Solar,NY
+64507/OEALD,2021-02-01,2022-01-01,64507,OEALD,100.0,2022-12-01,,T,Solar Photovoltaic,OETN1,TN
+64507/OETN1,2022-02-01,2022-10-01,64507,OETN1,100.0,2022-12-01,,T,Solar Photovoltaic,OETN1,TN
+64507/OETN1,2022-10-01,2023-02-01,64507,OETN1,100.0,2022-12-01,,U,Solar Photovoltaic,OETN1,TN
+64507/OETN1,2023-02-01,2023-03-01,64507,OETN1,100.0,2023-03-01,,U,Solar Photovoltaic,OETN1,TN
+64507/OETN1,2023-03-01,2024-04-01,64507,OETN1,100.0,,2023-03-01,OP,Solar Photovoltaic,OETN1,TN
+64507/OETN1,2024-04-01,2026-08-01,64507,OETN1,100.0,,2023-03-01,OP,Solar Photovoltaic,OETN1,TN
