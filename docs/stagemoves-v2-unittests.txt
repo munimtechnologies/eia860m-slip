@@ -1,0 +1,18 @@
+test_band (test_stagemoves.StageTests.test_band) ... ok
+test_checks (test_stagemoves.StageTests.test_checks) ... ok
+test_flicker_and_paths (test_stagemoves.StageTests.test_flicker_and_paths) ... ok
+test_matrix (test_stagemoves.StageTests.test_matrix) ... ok
+test_move (test_stagemoves.StageTests.test_move) ... ok
+test_online (test_stagemoves.StageTests.test_online) ... ok
+test_outcomes (test_stagemoves.StageTests.test_outcomes) ... ok
+test_pooled_and_groups (test_stagemoves.StageTests.test_pooled_and_groups) ... ok
+test_predictions (test_stagemoves.StageTests.test_predictions) ... ok
+test_rekeyed (test_stagemoves.StageTests.test_rekeyed) ... ok
+test_steps (test_stagemoves.StageTests.test_steps) ... ok
+test_timeline (test_stagemoves.StageTests.test_timeline) ... ok
+test_top_backward (test_stagemoves.StageTests.test_top_backward) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.050s
+
+OK
