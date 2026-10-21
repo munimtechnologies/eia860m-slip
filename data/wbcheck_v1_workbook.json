@@ -1,0 +1,1015 @@
+{
+ "version": "0.1.1",
+ "watchlist": "0.1.0",
+ "pudl_source": "core_eia860m__changelog_generators.parquet",
+ "pudl_max": "2026-08",
+ "skip": [
+  "cancel",
+  "_pr"
+ ],
+ "usable_threshold": 0.98,
+ "months": [
+  {
+   "report": "2026-08",
+   "mode": "check",
+   "fetch_errors": [],
+   "url": "https://www.eia.gov/electricity/data/eia860m/xls/august_generator2026.xlsx",
+   "sheets": {
+    "Operating": 28377,
+    "Planned": 2311,
+    "Retired": 7324,
+    "Canceled or Postponed": "skipped",
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "workbook_keys": 38011,
+   "duplicate_keys": 1,
+   "statuses": {
+    "OP": 26125,
+    "": 7324,
+    "SB": 1497,
+    "P": 682,
+    "OS": 538,
+    "U": 486,
+    "L": 393,
+    "V": 371,
+    "T": 224,
+    "OA": 216,
+    "TS": 155
+   },
+   "rows": 429,
+   "rekey_pairs": 0,
+   "checks": {
+    "C1": {
+     "rows": 429,
+     "pass": true
+    },
+    "C2": {
+     "planned_mw": 291407.9,
+     "moves_mw": 291407.9,
+     "pass": true
+    },
+    "C3": {
+     "ours": {
+      "forward": 23,
+      "held": 2260,
+      "backward": 0,
+      "to_operating": 50,
+      "exit_other": 0,
+      "left": 10
+     },
+     "stagemoves": {
+      "forward": 23,
+      "held": 2260,
+      "backward": 0,
+      "to_operating": 50,
+      "exit_other": 0,
+      "left": 10
+     },
+     "pass": true
+    },
+    "C4": {
+     "row_counts": {
+      "forward": 23,
+      "backward": 0,
+      "to_operating": 50,
+      "exit_other": 0,
+      "left": 10,
+      "within_band": 65,
+      "delayed": 245,
+      "advanced": 8,
+      "new": 28,
+      "into_planned": 0
+     },
+     "pass": true
+    },
+    "all_pass": true
+   },
+   "summary": [
+    {
+     "change": "forward",
+     "n": 23,
+     "mw": 2132.4,
+     "median_n": 27.5,
+     "max_n": 80,
+     "median_mw": 2521.9,
+     "max_mw": 9924.2,
+     "pairs": 36
+    },
+    {
+     "change": "backward",
+     "n": 0,
+     "mw": 0,
+     "median_n": 1.0,
+     "max_n": 12,
+     "median_mw": 35.0,
+     "max_mw": 2107.9,
+     "pairs": 36
+    },
+    {
+     "change": "to_operating",
+     "n": 50,
+     "mw": 3084.1,
+     "median_n": 56.5,
+     "max_n": 177,
+     "median_mw": 3898.2,
+     "max_mw": 9551.8,
+     "pairs": 36
+    },
+    {
+     "change": "exit_other",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 1,
+     "median_mw": 0.0,
+     "max_mw": 400.0,
+     "pairs": 36
+    },
+    {
+     "change": "left",
+     "n": 10,
+     "mw": 1297.5,
+     "median_n": 9.0,
+     "max_n": 43,
+     "median_mw": 926.5,
+     "max_mw": 5409.0,
+     "pairs": 36
+    },
+    {
+     "change": "within_band",
+     "n": 65,
+     "mw": 6583.2,
+     "median_n": 52.5,
+     "max_n": 93,
+     "median_mw": 4168.8,
+     "max_mw": 10743.8,
+     "pairs": 36
+    },
+    {
+     "change": "delayed",
+     "n": 245,
+     "mw": 18011.6,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "advanced",
+     "n": 8,
+     "mw": 279.5,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "new",
+     "n": 28,
+     "mw": 1509.4,
+     "median_n": 83.0,
+     "max_n": 439,
+     "median_mw": 7124.4,
+     "max_mw": 38541.9,
+     "pairs": 36
+    },
+    {
+     "change": "into_planned",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 4,
+     "median_mw": 0.0,
+     "max_mw": 500.0,
+     "pairs": 36
+    }
+   ],
+   "self_check": {
+    "pudl_rows": 418,
+    "workbook_rows": 429,
+    "union": 429,
+    "same_change": 418,
+    "same_share": 0.9744,
+    "usable": false,
+    "pudl_rows_same_share": 1.0,
+    "same_change_mw_differs": 0,
+    "by_change": {
+     "forward": [
+      22,
+      23
+     ],
+     "backward": [
+      0,
+      0
+     ],
+     "to_operating": [
+      50,
+      50
+     ],
+     "exit_other": [
+      0,
+      0
+     ],
+     "left": [
+      9,
+      10
+     ],
+     "within_band": [
+      63,
+      65
+     ],
+     "delayed": [
+      238,
+      245
+     ],
+     "advanced": [
+      8,
+      8
+     ],
+     "new": [
+      28,
+      28
+     ],
+     "into_planned": [
+      0,
+      0
+     ]
+    },
+    "differences": {
+     "none -> delayed": 7,
+     "none -> within_band": 2,
+     "none -> forward": 1,
+     "none -> left": 1
+    },
+    "difference_sample": [
+     {
+      "key": "61912/MHSOL",
+      "pudl": "none",
+      "workbook": "forward"
+     },
+     {
+      "key": "65710/PTNM",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "66545/MMTHS",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "66893/TXJS2",
+      "pudl": "none",
+      "workbook": "within_band"
+     },
+     {
+      "key": "67836/GSP1",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "67836/GSP2",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "68334/EVCRK",
+      "pudl": "none",
+      "workbook": "left"
+     },
+     {
+      "key": "68514/MC201",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "69338/LEAKY",
+      "pudl": "none",
+      "workbook": "within_band"
+     },
+     {
+      "key": "69372/KNOXS",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "69825/MADCR",
+      "pudl": "none",
+      "workbook": "delayed"
+     }
+    ],
+    "mw_sample": []
+   },
+   "difference_detail": [
+    {
+     "key": "61912/MHSOL",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-06",
+       "until": "2026-05",
+       "status": "U",
+       "planned": "2027-01",
+       "mw": 14.0
+      },
+      {
+       "report": "2026-06",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "T",
+       "planned": "2027-01",
+       "mw": 14.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     }
+    },
+    {
+     "key": "65710/PTNM",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "L",
+       "planned": "2027-01",
+       "mw": 4.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     }
+    },
+    {
+     "key": "66545/MMTHS",
+     "pudl": [
+      {
+       "report": "2026-07",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "V",
+       "planned": "2026-09",
+       "mw": 300.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "66893/TXJS2",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "V",
+       "planned": "2027-03",
+       "mw": 200.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     }
+    },
+    {
+     "key": "67836/GSP1",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "67836/GSP2",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "68334/EVCRK",
+     "pudl": [
+      {
+       "report": "2026-07",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "U",
+       "planned": "2026-07",
+       "mw": 103.0
+      }
+     ],
+     "workbook": null
+    },
+    {
+     "key": "68514/MC201",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "69338/LEAKY",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "TS",
+      "planned": "2026-12",
+      "mw": 9.9
+     }
+    },
+    {
+     "key": "69372/KNOXS",
+     "pudl": [
+      {
+       "report": "2026-06",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "V",
+       "planned": "2026-10",
+       "mw": 5.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "69825/MADCR",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "T",
+       "planned": "2027-03",
+       "mw": 5.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     }
+    }
+   ]
+  },
+  {
+   "report": "2026-07",
+   "mode": "check",
+   "fetch_errors": [
+    "https://www.eia.gov/electricity/data/eia860m/xls/july_generator2026.xlsx: not an xlsx file: status 200, final URL https://www.eia.gov/electricity/, Content-Type text/html; charset=UTF-8, Content-Encoding None, 55941 bytes, starts b'<!doctype html>\\r\\n<html>\\r\\n<head>\\r\\n\\t<title>Electricity - U.S. Energy Information Administration (EIA)</title>\\r\\n\\t<meta property=\"og:title\" content=\"Electricity - U'"
+   ],
+   "url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/july_generator2026.xlsx",
+   "sheets": {
+    "Operating": 28318,
+    "Planned": 2341,
+    "Retired": 7299,
+    "Canceled or Postponed": "skipped",
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "workbook_keys": 37957,
+   "duplicate_keys": 1,
+   "statuses": {
+    "OP": 26064,
+    "": 7299,
+    "SB": 1497,
+    "P": 688,
+    "OS": 538,
+    "U": 498,
+    "L": 395,
+    "V": 367,
+    "T": 241,
+    "OA": 218,
+    "TS": 152
+   },
+   "rows": 550,
+   "rekey_pairs": 0,
+   "checks": {
+    "C1": {
+     "rows": 550,
+     "pass": true
+    },
+    "C2": {
+     "planned_mw": 288056.7,
+     "moves_mw": 288056.7,
+     "pass": true
+    },
+    "C3": {
+     "ours": {
+      "forward": 19,
+      "held": 2218,
+      "backward": 1,
+      "to_operating": 58,
+      "exit_other": 0,
+      "left": 10
+     },
+     "stagemoves": {
+      "forward": 19,
+      "held": 2218,
+      "backward": 1,
+      "to_operating": 58,
+      "exit_other": 0,
+      "left": 10
+     },
+     "pass": true
+    },
+    "C4": {
+     "row_counts": {
+      "forward": 19,
+      "backward": 1,
+      "to_operating": 58,
+      "exit_other": 0,
+      "left": 10,
+      "within_band": 82,
+      "delayed": 272,
+      "advanced": 5,
+      "new": 103,
+      "into_planned": 0
+     },
+     "pass": true
+    },
+    "all_pass": true
+   },
+   "summary": [
+    {
+     "change": "forward",
+     "n": 19,
+     "mw": 4834.7,
+     "median_n": 28.0,
+     "max_n": 80,
+     "median_mw": 2521.9,
+     "max_mw": 9924.2,
+     "pairs": 36
+    },
+    {
+     "change": "backward",
+     "n": 1,
+     "mw": 5.0,
+     "median_n": 1.0,
+     "max_n": 12,
+     "median_mw": 35.0,
+     "max_mw": 2107.9,
+     "pairs": 36
+    },
+    {
+     "change": "to_operating",
+     "n": 58,
+     "mw": 3273.5,
+     "median_n": 56.5,
+     "max_n": 177,
+     "median_mw": 3936.2,
+     "max_mw": 9551.8,
+     "pairs": 36
+    },
+    {
+     "change": "exit_other",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 1,
+     "median_mw": 0.0,
+     "max_mw": 400.0,
+     "pairs": 36
+    },
+    {
+     "change": "left",
+     "n": 10,
+     "mw": 977.3,
+     "median_n": 9.0,
+     "max_n": 43,
+     "median_mw": 926.5,
+     "max_mw": 5409.0,
+     "pairs": 36
+    },
+    {
+     "change": "within_band",
+     "n": 82,
+     "mw": 9672.1,
+     "median_n": 50.5,
+     "max_n": 93,
+     "median_mw": 4072.3,
+     "max_mw": 10743.8,
+     "pairs": 36
+    },
+    {
+     "change": "delayed",
+     "n": 272,
+     "mw": 27896.4,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "advanced",
+     "n": 5,
+     "mw": 707.4,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "new",
+     "n": 103,
+     "mw": 8140.2,
+     "median_n": 83.0,
+     "max_n": 439,
+     "median_mw": 6881.7,
+     "max_mw": 38541.9,
+     "pairs": 36
+    },
+    {
+     "change": "into_planned",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 4,
+     "median_mw": 0.0,
+     "max_mw": 500.0,
+     "pairs": 36
+    }
+   ],
+   "self_check": {
+    "pudl_rows": 537,
+    "workbook_rows": 550,
+    "union": 550,
+    "same_change": 537,
+    "same_share": 0.9764,
+    "usable": false,
+    "pudl_rows_same_share": 1.0,
+    "same_change_mw_differs": 0,
+    "by_change": {
+     "forward": [
+      17,
+      19
+     ],
+     "backward": [
+      1,
+      1
+     ],
+     "to_operating": [
+      58,
+      58
+     ],
+     "exit_other": [
+      0,
+      0
+     ],
+     "left": [
+      8,
+      10
+     ],
+     "within_band": [
+      81,
+      82
+     ],
+     "delayed": [
+      264,
+      272
+     ],
+     "advanced": [
+      5,
+      5
+     ],
+     "new": [
+      103,
+      103
+     ],
+     "into_planned": [
+      0,
+      0
+     ]
+    },
+    "differences": {
+     "none -> delayed": 8,
+     "none -> forward": 2,
+     "none -> left": 2,
+     "none -> within_band": 1
+    },
+    "difference_sample": [
+     {
+      "key": "61912/MHSOL",
+      "pudl": "none",
+      "workbook": "forward"
+     },
+     {
+      "key": "65710/PTNM",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "66546/MMTHC",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "66893/TXJS2",
+      "pudl": "none",
+      "workbook": "within_band"
+     },
+     {
+      "key": "67223/SUNYF",
+      "pudl": "none",
+      "workbook": "left"
+     },
+     {
+      "key": "67836/GSP1",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "67836/GSP2",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "68514/MC201",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "69372/KNOXS",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "69579/HMWT",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "69589/BEEK1",
+      "pudl": "none",
+      "workbook": "forward"
+     },
+     {
+      "key": "69825/MADCR",
+      "pudl": "none",
+      "workbook": "delayed"
+     },
+     {
+      "key": "70257/H2SLR",
+      "pudl": "none",
+      "workbook": "left"
+     }
+    ],
+    "mw_sample": []
+   },
+   "difference_detail": [
+    {
+     "key": "61912/MHSOL",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-06",
+       "until": "2026-05",
+       "status": "U",
+       "planned": "2027-01",
+       "mw": 14.0
+      },
+      {
+       "report": "2026-06",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "T",
+       "planned": "2027-01",
+       "mw": 14.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     }
+    },
+    {
+     "key": "65710/PTNM",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "L",
+       "planned": "2027-01",
+       "mw": 4.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     }
+    },
+    {
+     "key": "66546/MMTHC",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-07",
+       "status": "U",
+       "planned": "2026-08",
+       "mw": 300.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "66893/TXJS2",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "V",
+       "planned": "2027-03",
+       "mw": 200.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     }
+    },
+    {
+     "key": "67223/SUNYF",
+     "pudl": [
+      {
+       "report": "2026-06",
+       "valid_until": "2026-07",
+       "until": "2026-07",
+       "status": "P",
+       "planned": "2027-01",
+       "mw": 20.0
+      }
+     ],
+     "workbook": null
+    },
+    {
+     "key": "67836/GSP1",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "67836/GSP2",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "68514/MC201",
+     "pudl": [
+      {
+       "report": "2026-04",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "U",
+       "planned": "2026-09",
+       "mw": 300.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "69372/KNOXS",
+     "pudl": [
+      {
+       "report": "2026-06",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "V",
+       "planned": "2026-10",
+       "mw": 5.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "69579/HMWT",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     }
+    },
+    {
+     "key": "69589/BEEK1",
+     "pudl": [],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     }
+    },
+    {
+     "key": "69825/MADCR",
+     "pudl": [
+      {
+       "report": "2026-05",
+       "valid_until": "2026-08",
+       "until": "2026-08",
+       "status": "T",
+       "planned": "2027-03",
+       "mw": 5.0
+      }
+     ],
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "70257/H2SLR",
+     "pudl": [
+      {
+       "report": "2026-06",
+       "valid_until": "2026-07",
+       "until": "2026-07",
+       "status": "L",
+       "planned": "2028-03",
+       "mw": 250.0
+      }
+     ],
+     "workbook": null
+    }
+   ]
+  },
+  {
+   "report": "2026-09",
+   "mode": "report",
+   "fetch_errors": [
+    "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx: not an xlsx file: status 200, final URL https://www.eia.gov/electricity/, Content-Type text/html; charset=UTF-8, Content-Encoding None, 55941 bytes, starts b'<!doctype html>\\r\\n<html>\\r\\n<head>\\r\\n\\t<title>Electricity - U.S. Energy Information Administration (EIA)</title>\\r\\n\\t<meta property=\"og:title\" content=\"Electricity - U'",
+    "https://www.eia.gov/electricity/data/eia860m/archive/xls/september_generator2026.xlsx: not an xlsx file: status 200, final URL https://www.eia.gov/electricity/, Content-Type text/html; charset=UTF-8, Content-Encoding None, 55941 bytes, starts b'<!doctype html>\\r\\n<html>\\r\\n<head>\\r\\n\\t<title>Electricity - U.S. Energy Information Administration (EIA)</title>\\r\\n\\t<meta property=\"og:title\" content=\"Electricity - U'"
+   ],
+   "error": "workbook not downloaded (not released yet?)"
+  }
+ ]
+}
