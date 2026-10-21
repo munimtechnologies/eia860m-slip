@@ -1,0 +1,6644 @@
+{
+ "version": "0.1.0",
+ "workbook": "0.1.1",
+ "rawcheck": "0.1.0",
+ "fetched_at": "2026-10-21T19:45:38Z",
+ "pudl_source": "core_eia860m__changelog_generators.parquet",
+ "pudl_max": "2026-08",
+ "zip": {
+  "path": "/data/zenodo-22995197-eia860m-2026.zip",
+  "tried": [
+   {
+    "url": "https://zenodo.org/api/records/22995197/files/eia860m-2026.zip/content",
+    "error": null
+   }
+  ],
+  "cached": false,
+  "members": [
+   "eia860m-2026-01.xlsx",
+   "eia860m-2026-02.xlsx",
+   "eia860m-2026-03.xlsx",
+   "eia860m-2026-04.xlsx",
+   "eia860m-2026-05.xlsx",
+   "eia860m-2026-06.xlsx",
+   "eia860m-2026-07.xlsx",
+   "eia860m-2026-08.xlsx"
+  ]
+ },
+ "months": [
+  {
+   "month": "2026-01",
+   "member": "eia860m-2026-01.xlsx",
+   "sheets": {
+    "Operating": 27768,
+    "Planned": 1972,
+    "Retired": 7126,
+    "Canceled or Postponed": 1641,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 36865,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 36879,
+    "both": 36865,
+    "workbook_only": 0,
+    "pudl_only": 14,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "U": 5,
+     "OT": 2,
+     "P": 2,
+     "T": 2,
+     "OP": 1,
+     "TS": 1,
+     "V": 1
+    },
+    "pudl_only_mw": 1541.5,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25357,
+      "SB": 1517,
+      "OS": 511,
+      "OA": 365,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 527,
+      "U": 394,
+      "L": 377,
+      "V": 323,
+      "T": 210,
+      "TS": 139,
+      "OT": 2
+     },
+     "Retired": {
+      "RE": 7125,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 36865,
+      "agree": 36858,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 29739,
+      "agree": 29481,
+      "agree_share": 0.9913
+     },
+     "planned_month": {
+      "compared": 1972,
+      "agree": 1965,
+      "agree_share": 0.9965
+     },
+     "technology": {
+      "compared": 36859,
+      "agree": 36732,
+      "agree_share": 0.9966
+     },
+     "state": {
+      "compared": 36865,
+      "agree": 36865,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "282/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "344/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "354/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "378/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "65401/BA",
+       "sheet": "Planned",
+       "workbook": 24314.0,
+       "pudl": 24315.0
+      },
+      {
+       "key": "68144/CH305",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24313.0
+      },
+      {
+       "key": "68788/LA071",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68126/CH402",
+       "sheet": "Planned",
+       "workbook": 24316.0,
+       "pudl": 24312.0
+      },
+      {
+       "key": "69030/BESS1",
+       "sheet": "Planned",
+       "workbook": 24317.0,
+       "pudl": 24316.0
+      },
+      {
+       "key": "68847/PV1",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24316.0
+      },
+      {
+       "key": "64209/26SBB",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24320.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "57703/02B",
+      "capacity_mw": 40.0,
+      "status": "OT",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "57703/03A",
+      "capacity_mw": 40.0,
+      "status": "OT",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "59243/CHAN1",
+      "capacity_mw": 288.0,
+      "status": "P",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "64210/50LWB",
+      "capacity_mw": 500.0,
+      "status": "OP",
+      "technology": "Batteries"
+     },
+     {
+      "key": "64291/B4",
+      "capacity_mw": 1.0,
+      "status": "U",
+      "technology": "Petroleum Liquids"
+     },
+     {
+      "key": "64670/KOV4A",
+      "capacity_mw": 400.0,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "64704/LIN1",
+      "capacity_mw": 4.9,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "65146/VCP16",
+      "capacity_mw": 4.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "65398/HMSD1",
+      "capacity_mw": 14.0,
+      "status": "TS",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68088/TS2",
+      "capacity_mw": 52.2,
+      "status": "V",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68128/CH406",
+      "capacity_mw": 1.1,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68661/64BES",
+      "capacity_mw": 75.0,
+      "status": "U",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68661/64NB8",
+      "capacity_mw": 120.0,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69514/PSLR1",
+      "capacity_mw": 1.3,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-02",
+   "member": "eia860m-2026-02.xlsx",
+   "sheets": {
+    "Operating": 27716,
+    "Planned": 1946,
+    "Retired": 7229,
+    "Canceled or Postponed": 1674,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 36890,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 36907,
+    "both": 36890,
+    "workbook_only": 0,
+    "pudl_only": 17,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "P": 5,
+     "U": 3,
+     "L": 3,
+     "OP": 2,
+     "TS": 2,
+     "T": 1,
+     "V": 1
+    },
+    "pudl_only_mw": 3377.0,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25270,
+      "SB": 1497,
+      "OS": 543,
+      "OA": 388,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 498,
+      "U": 401,
+      "L": 346,
+      "V": 330,
+      "T": 219,
+      "TS": 150,
+      "OT": 2
+     },
+     "Retired": {
+      "RE": 7228,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 36890,
+      "agree": 36883,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 29661,
+      "agree": 29385,
+      "agree_share": 0.9907
+     },
+     "planned_month": {
+      "compared": 1946,
+      "agree": 1940,
+      "agree_share": 0.9969
+     },
+     "technology": {
+      "compared": 36884,
+      "agree": 36759,
+      "agree_share": 0.9966
+     },
+     "state": {
+      "compared": 36890,
+      "agree": 36890,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "68144/CH305",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24313.0
+      },
+      {
+       "key": "68788/LA071",
+       "sheet": "Planned",
+       "workbook": 24317.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68847/PV1",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24316.0
+      },
+      {
+       "key": "69371/HALIF",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24315.0
+      },
+      {
+       "key": "69385/GEN1",
+       "sheet": "Planned",
+       "workbook": 24319.0,
+       "pudl": 24326.0
+      },
+      {
+       "key": "64209/26SBB",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24320.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "64210/50LWB",
+      "capacity_mw": 500.0,
+      "status": "OP",
+      "technology": "Batteries"
+     },
+     {
+      "key": "64291/B4",
+      "capacity_mw": 1.0,
+      "status": "U",
+      "technology": "Petroleum Liquids"
+     },
+     {
+      "key": "64693/299",
+      "capacity_mw": 1.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "64704/LIN1",
+      "capacity_mw": 4.9,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLLY",
+      "capacity_mw": 230.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLY",
+      "capacity_mw": 100.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67262/RP1",
+      "capacity_mw": 419.0,
+      "status": "V",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "67660/MALAL",
+      "capacity_mw": 200.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67867/LIB2",
+      "capacity_mw": 65.0,
+      "status": "TS",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68239/C34AB",
+      "capacity_mw": 0.5,
+      "status": "TS",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68661/64BES",
+      "capacity_mw": 75.0,
+      "status": "U",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68661/64NB8",
+      "capacity_mw": 120.0,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68811/RIPLE",
+      "capacity_mw": 100.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69449/3A",
+      "capacity_mw": 469.3,
+      "status": "P",
+      "technology": "Natural Gas Fired Combined Cycle"
+     },
+     {
+      "key": "69449/3B",
+      "capacity_mw": 311.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combined Cycle"
+     },
+     {
+      "key": "69449/4A",
+      "capacity_mw": 469.3,
+      "status": "P",
+      "technology": "Natural Gas Fired Combined Cycle"
+     },
+     {
+      "key": "69449/4B",
+      "capacity_mw": 311.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combined Cycle"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-03",
+   "member": "eia860m-2026-03.xlsx",
+   "sheets": {
+    "Operating": 27837,
+    "Planned": 2317,
+    "Retired": 7251,
+    "Canceled or Postponed": 1692,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 37404,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37420,
+    "both": 37404,
+    "workbook_only": 0,
+    "pudl_only": 16,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "P": 4,
+     "U": 3,
+     "L": 3,
+     "V": 2,
+     "OP": 2,
+     "T": 1,
+     "TS": 1
+    },
+    "pudl_only_mw": 1507.5,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25380,
+      "SB": 1499,
+      "OS": 547,
+      "OA": 393,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 690,
+      "U": 440,
+      "L": 410,
+      "V": 342,
+      "T": 263,
+      "TS": 171,
+      "OT": 1
+     },
+     "Retired": {
+      "RE": 7250,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37404,
+      "agree": 37395,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 30153,
+      "agree": 29877,
+      "agree_share": 0.9908
+     },
+     "planned_month": {
+      "compared": 2317,
+      "agree": 2307,
+      "agree_share": 0.9957
+     },
+     "technology": {
+      "compared": 37397,
+      "agree": 37278,
+      "agree_share": 0.9968
+     },
+     "state": {
+      "compared": 37404,
+      "agree": 37404,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "621/4",
+       "sheet": "Operating",
+       "workbook": 760.0,
+       "pudl": 877.2
+      },
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67320/1",
+       "sheet": "Operating",
+       "workbook": 20.0,
+       "pudl": 20.4
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "68492/GEN01",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68492/GEN02",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68526/11B",
+       "sheet": "Planned",
+       "workbook": 24315.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68788/LA071",
+       "sheet": "Planned",
+       "workbook": 24317.0,
+       "pudl": 24314.0
+      },
+      {
+       "key": "68847/PV1",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24316.0
+      },
+      {
+       "key": "69371/HALIF",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24315.0
+      },
+      {
+       "key": "64209/26SBB",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24320.0
+      },
+      {
+       "key": "68196/RIFPV",
+       "sheet": "Planned",
+       "workbook": 24323.0,
+       "pudl": 24324.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "54808/GR1",
+      "capacity_mw": 2.6,
+      "status": "V",
+      "technology": "Natural Gas Internal Combustion Engine"
+     },
+     {
+      "key": "57703/02B",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "57703/03A",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "64291/B4",
+      "capacity_mw": 1.0,
+      "status": "U",
+      "technology": "Petroleum Liquids"
+     },
+     {
+      "key": "64704/LIN1",
+      "capacity_mw": 4.9,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLLY",
+      "capacity_mw": 230.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLY",
+      "capacity_mw": 100.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67262/RP1",
+      "capacity_mw": 419.0,
+      "status": "V",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "67660/MALAL",
+      "capacity_mw": 200.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67867/LIB2",
+      "capacity_mw": 65.0,
+      "status": "TS",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68661/64BES",
+      "capacity_mw": 75.0,
+      "status": "U",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68661/64NB8",
+      "capacity_mw": 120.0,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68797/IN207",
+      "capacity_mw": 1.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68811/RIPLE",
+      "capacity_mw": 100.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69616/USLYN",
+      "capacity_mw": 1.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "7526/5",
+      "capacity_mw": 108.0,
+      "status": "P",
+      "technology": "Onshore Wind Turbine"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-04",
+   "member": "eia860m-2026-04.xlsx",
+   "sheets": {
+    "Operating": 27971,
+    "Planned": 2256,
+    "Retired": 7254,
+    "Canceled or Postponed": 1713,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 37480,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37498,
+    "both": 37480,
+    "workbook_only": 0,
+    "pudl_only": 18,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "V": 4,
+     "P": 3,
+     "L": 3,
+     "OP": 3,
+     "OS": 2,
+     "U": 1,
+     "T": 1,
+     "TS": 1
+    },
+    "pudl_only_mw": 3449.9,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25515,
+      "SB": 1499,
+      "OS": 547,
+      "OA": 392,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 686,
+      "U": 440,
+      "L": 401,
+      "V": 329,
+      "T": 256,
+      "TS": 143,
+      "OT": 1
+     },
+     "Retired": {
+      "RE": 7253,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37480,
+      "agree": 37473,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 30226,
+      "agree": 29942,
+      "agree_share": 0.9906
+     },
+     "planned_month": {
+      "compared": 2256,
+      "agree": 2247,
+      "agree_share": 0.996
+     },
+     "technology": {
+      "compared": 37474,
+      "agree": 37360,
+      "agree_share": 0.997
+     },
+     "state": {
+      "compared": 37480,
+      "agree": 37480,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "68847/PV1",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24316.0
+      },
+      {
+       "key": "69371/HALIF",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24315.0
+      },
+      {
+       "key": "64209/26SBB",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24320.0
+      },
+      {
+       "key": "69579/HMWT",
+       "sheet": "Planned",
+       "workbook": 24323.0,
+       "pudl": 24318.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "68342/HOHI1",
+       "sheet": "Planned",
+       "workbook": 24347.0,
+       "pudl": 24380.0
+      },
+      {
+       "key": "68342/HOHI2",
+       "sheet": "Planned",
+       "workbook": 24347.0,
+       "pudl": 24380.0
+      },
+      {
+       "key": "68342/HOHI",
+       "sheet": "Planned",
+       "workbook": 24353.0,
+       "pudl": 24380.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "57703/02B",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "57703/03A",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "61167/64BES",
+      "capacity_mw": 75.0,
+      "status": "V",
+      "technology": "Batteries"
+     },
+     {
+      "key": "61167/64NB8",
+      "capacity_mw": 120.0,
+      "status": "V",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "64291/B4",
+      "capacity_mw": 1.0,
+      "status": "U",
+      "technology": "Petroleum Liquids"
+     },
+     {
+      "key": "64704/LIN1",
+      "capacity_mw": 4.9,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "6481/1",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "6481/2",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "66692/HOLLY",
+      "capacity_mw": 230.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLY",
+      "capacity_mw": 100.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67262/RP1",
+      "capacity_mw": 419.0,
+      "status": "V",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "67660/MALAL",
+      "capacity_mw": 200.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68811/RIPLE",
+      "capacity_mw": 100.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "68853/LMWOD",
+      "capacity_mw": 204.0,
+      "status": "TS",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69414/BSLR2",
+      "capacity_mw": 132.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69414/BSLR3",
+      "capacity_mw": 138.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69616/USLYN",
+      "capacity_mw": 1.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "69876/11205",
+      "capacity_mw": 5.0,
+      "status": "V",
+      "technology": "Solar Photovoltaic"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-05",
+   "member": "eia860m-2026-05.xlsx",
+   "sheets": {
+    "Operating": 28046,
+    "Planned": 2311,
+    "Retired": 7273,
+    "Canceled or Postponed": 1725,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 37629,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37651,
+    "both": 37629,
+    "workbook_only": 0,
+    "pudl_only": 22,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "L": 6,
+     "P": 5,
+     "OP": 5,
+     "OS": 4,
+     "T": 1,
+     "V": 1
+    },
+    "pudl_only_mw": 4998.9,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25579,
+      "SB": 1502,
+      "OS": 549,
+      "OA": 398,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 701,
+      "U": 447,
+      "L": 396,
+      "V": 335,
+      "T": 277,
+      "TS": 154,
+      "OT": 1
+     },
+     "Retired": {
+      "RE": 7272,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37629,
+      "agree": 37609,
+      "agree_share": 0.9995
+     },
+     "status": {
+      "compared": 30356,
+      "agree": 30071,
+      "agree_share": 0.9906
+     },
+     "planned_month": {
+      "compared": 2311,
+      "agree": 2301,
+      "agree_share": 0.9957
+     },
+     "technology": {
+      "compared": 37623,
+      "agree": 37510,
+      "agree_share": 0.997
+     },
+     "state": {
+      "compared": 37629,
+      "agree": 37629,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "64352/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64353/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64355/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64356/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64357/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64358/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64648/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64650/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64651/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64653/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64654/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64655/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "67557/SKLDF",
+       "sheet": "Operating",
+       "workbook": 2.3,
+       "pudl": 1.6
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "66066/WAIBA",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "66066/WAIPV",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "69371/HALIF",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24315.0
+      },
+      {
+       "key": "69841/BLUST",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "69579/HMWT",
+       "sheet": "Planned",
+       "workbook": 24323.0,
+       "pudl": 24318.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "68342/HOHI1",
+       "sheet": "Planned",
+       "workbook": 24347.0,
+       "pudl": 24380.0
+      },
+      {
+       "key": "68342/HOHI2",
+       "sheet": "Planned",
+       "workbook": 24347.0,
+       "pudl": 24380.0
+      },
+      {
+       "key": "68342/HOHI",
+       "sheet": "Planned",
+       "workbook": 24353.0,
+       "pudl": 24380.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "389/RICE",
+      "capacity_mw": 0.0,
+      "status": "P",
+      "technology": "Natural Gas Internal Combustion Engine"
+     },
+     {
+      "key": "55199/GT1",
+      "capacity_mw": 192.0,
+      "status": "OP",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "55199/GT2",
+      "capacity_mw": 192.0,
+      "status": "OP",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "55199/GT3",
+      "capacity_mw": 192.0,
+      "status": "OP",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "55199/GT4",
+      "capacity_mw": 192.0,
+      "status": "OP",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "55199/GT8",
+      "capacity_mw": 192.0,
+      "status": "OS",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "55199/GT9",
+      "capacity_mw": 192.0,
+      "status": "OS",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "57703/02B",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "57703/03A",
+      "capacity_mw": 40.0,
+      "status": "P",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "64704/LIN1",
+      "capacity_mw": 4.9,
+      "status": "T",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "6481/1",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "6481/2",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "65853/MIDBS",
+      "capacity_mw": 302.9,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "65854/RDYBS",
+      "capacity_mw": 350.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "65855/TE1BS",
+      "capacity_mw": 418.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "66692/HOLLY",
+      "capacity_mw": 230.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLY",
+      "capacity_mw": 100.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67262/RP1",
+      "capacity_mw": 419.0,
+      "status": "V",
+      "technology": "Natural Gas Fired Combustion Turbine"
+     },
+     {
+      "key": "67660/MALAL",
+      "capacity_mw": 200.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68797/IN207",
+      "capacity_mw": 1.0,
+      "status": "OP",
+      "technology": "Solar Photovoltaic"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-06",
+   "member": "eia860m-2026-06.xlsx",
+   "sheets": {
+    "Operating": 28196,
+    "Planned": 2296,
+    "Retired": 7288,
+    "Canceled or Postponed": 1733,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 37779,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37794,
+    "both": 37779,
+    "workbook_only": 0,
+    "pudl_only": 15,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "L": 7,
+     "OS": 3,
+     "OP": 1,
+     "V": 1,
+     "TS": 1,
+     "P": 1,
+     "U": 1
+    },
+    "pudl_only_mw": 4203.4,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25729,
+      "SB": 1500,
+      "OS": 552,
+      "OA": 397,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 684,
+      "U": 490,
+      "L": 397,
+      "V": 350,
+      "T": 233,
+      "TS": 141,
+      "OP": 1
+     },
+     "Retired": {
+      "RE": 7287,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37779,
+      "agree": 37760,
+      "agree_share": 0.9995
+     },
+     "status": {
+      "compared": 30491,
+      "agree": 30206,
+      "agree_share": 0.9907
+     },
+     "planned_month": {
+      "compared": 2295,
+      "agree": 2286,
+      "agree_share": 0.9961
+     },
+     "technology": {
+      "compared": 37772,
+      "agree": 37651,
+      "agree_share": 0.9968
+     },
+     "state": {
+      "compared": 37779,
+      "agree": 37779,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "64352/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64353/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64355/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64356/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64357/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64358/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64648/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64650/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64651/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64653/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64654/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "64655/SC",
+       "sheet": "Operating",
+       "workbook": 2.0,
+       "pudl": 1.5
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "66066/WAIBA",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "66066/WAIPV",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "68388/RT5SS",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "69592/PSKBS",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "69592/PSKPV",
+       "sheet": "Planned",
+       "workbook": 24318.0,
+       "pudl": 24317.0
+      },
+      {
+       "key": "69579/HMWT",
+       "sheet": "Planned",
+       "workbook": 24323.0,
+       "pudl": 24318.0
+      },
+      {
+       "key": "69825/MADCR",
+       "sheet": "Planned",
+       "workbook": 24327.0,
+       "pudl": 24326.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "57263/LP1",
+      "capacity_mw": 10.0,
+      "status": "OS",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "57264/LP2",
+      "capacity_mw": 10.0,
+      "status": "OP",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "63798/ATLB1",
+      "capacity_mw": 300.0,
+      "status": "V",
+      "technology": "Batteries"
+     },
+     {
+      "key": "6481/1",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "6481/2",
+      "capacity_mw": 820.0,
+      "status": "OS",
+      "technology": "Conventional Steam Coal"
+     },
+     {
+      "key": "65853/MIDBS",
+      "capacity_mw": 302.9,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "65854/RDYBS",
+      "capacity_mw": 350.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "65855/TE1BS",
+      "capacity_mw": 418.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "66359/GHW",
+      "capacity_mw": 140.3,
+      "status": "TS",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "66692/HOLLY",
+      "capacity_mw": 230.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "66692/HOLY",
+      "capacity_mw": 100.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67660/MALAL",
+      "capacity_mw": 200.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "67978/SSES1",
+      "capacity_mw": 400.0,
+      "status": "L",
+      "technology": "Batteries"
+     },
+     {
+      "key": "68811/RIPLE",
+      "capacity_mw": 100.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "70094/LA345",
+      "capacity_mw": 2.2,
+      "status": "U",
+      "technology": "Solar Photovoltaic"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-07",
+   "member": "eia860m-2026-07.xlsx",
+   "sheets": {
+    "Operating": 28318,
+    "Planned": 2341,
+    "Retired": 7299,
+    "Canceled or Postponed": 1734,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 37957,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37962,
+    "both": 37957,
+    "workbook_only": 0,
+    "pudl_only": 5,
+    "workbook_only_by_sheet": {},
+    "workbook_only_mw_by_sheet": {},
+    "pudl_only_by_status": {
+     "OS": 2,
+     "OP": 1,
+     "P": 1,
+     "L": 1
+    },
+    "pudl_only_mw": 677.0,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25832,
+      "SB": 1499,
+      "OS": 574,
+      "OA": 395,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 688,
+      "U": 495,
+      "L": 395,
+      "V": 368,
+      "T": 243,
+      "TS": 152
+     },
+     "Retired": {
+      "RE": 7297,
+      "OS": 1,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37957,
+      "agree": 37949,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 30658,
+      "agree": 30372,
+      "agree_share": 0.9907
+     },
+     "planned_month": {
+      "compared": 2341,
+      "agree": 2333,
+      "agree_share": 0.9966
+     },
+     "technology": {
+      "compared": 37949,
+      "agree": 37832,
+      "agree_share": 0.9969
+     },
+     "state": {
+      "compared": 37957,
+      "agree": 37957,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67901/EARHA",
+       "sheet": "Operating",
+       "workbook": 1.2,
+       "pudl": 1.0
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "66546/MMTHC",
+       "sheet": "Planned",
+       "workbook": 24321.0,
+       "pudl": 24319.0
+      },
+      {
+       "key": "68514/MC201",
+       "sheet": "Planned",
+       "workbook": 24321.0,
+       "pudl": 24320.0
+      },
+      {
+       "key": "69372/KNOXS",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24321.0
+      },
+      {
+       "key": "69579/HMWT",
+       "sheet": "Planned",
+       "workbook": 24323.0,
+       "pudl": 24318.0
+      },
+      {
+       "key": "65710/PTNM",
+       "sheet": "Planned",
+       "workbook": 24326.0,
+       "pudl": 24324.0
+      },
+      {
+       "key": "69825/MADCR",
+       "sheet": "Planned",
+       "workbook": 24327.0,
+       "pudl": 24326.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [],
+    "pudl_only_sample": [
+     {
+      "key": "57263/LP1",
+      "capacity_mw": 10.0,
+      "status": "OS",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "57264/LP2",
+      "capacity_mw": 10.0,
+      "status": "OP",
+      "technology": "Onshore Wind Turbine"
+     },
+     {
+      "key": "67223/SUNYF",
+      "capacity_mw": 20.0,
+      "status": "P",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "70257/H2SLR",
+      "capacity_mw": 250.0,
+      "status": "L",
+      "technology": "Solar Photovoltaic"
+     },
+     {
+      "key": "8906/4",
+      "capacity_mw": 387.0,
+      "status": "OS",
+      "technology": "Natural Gas Steam Turbine"
+     }
+    ]
+   }
+  },
+  {
+   "month": "2026-08",
+   "member": "eia860m-2026-08.xlsx",
+   "sheets": {
+    "Operating": 28377,
+    "Planned": 2311,
+    "Retired": 7324,
+    "Canceled or Postponed": 1741,
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "duplicate_keys": 1,
+   "compare": {
+    "workbook_keys": 38011,
+    "workbook_duplicate_keys": 0,
+    "pudl_keys": 37996,
+    "both": 37995,
+    "workbook_only": 16,
+    "pudl_only": 1,
+    "workbook_only_by_sheet": {
+     "Retired": 16
+    },
+    "workbook_only_mw_by_sheet": {
+     "Retired": 8663.1
+    },
+    "pudl_only_by_status": {
+     "U": 1
+    },
+    "pudl_only_mw": 103.0,
+    "sheet_by_pudl_status": {
+     "Operating": {
+      "OP": 25895,
+      "SB": 1499,
+      "OS": 573,
+      "OA": 392,
+      "RE": 17
+     },
+     "Planned": {
+      "P": 682,
+      "U": 484,
+      "L": 393,
+      "V": 373,
+      "T": 225,
+      "TS": 154
+     },
+     "Retired": {
+      "RE": 7305,
+      "OS": 2,
+      "OP": 1
+     }
+    },
+    "fields": {
+     "capacity": {
+      "compared": 37995,
+      "agree": 37988,
+      "agree_share": 0.9998
+     },
+     "status": {
+      "compared": 30687,
+      "agree": 30403,
+      "agree_share": 0.9907
+     },
+     "planned_month": {
+      "compared": 2311,
+      "agree": 2304,
+      "agree_share": 0.997
+     },
+     "technology": {
+      "compared": 37987,
+      "agree": 37870,
+      "agree_share": 0.9969
+     },
+     "state": {
+      "compared": 37995,
+      "agree": 37995,
+      "agree_share": 1.0
+     }
+    },
+    "mismatch_samples": {
+     "capacity": [
+      {
+       "key": "4045/1",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "4045/2",
+       "sheet": "Operating",
+       "workbook": 1.8,
+       "pudl": 1.6
+      },
+      {
+       "key": "7314/NA2",
+       "sheet": "Operating",
+       "workbook": 60.0,
+       "pudl": 0.0
+      },
+      {
+       "key": "56252/CWF",
+       "sheet": "Operating",
+       "workbook": 150.0,
+       "pudl": 201.2
+      },
+      {
+       "key": "57868/UNIT1",
+       "sheet": "Operating",
+       "workbook": 0.5,
+       "pudl": 1.3
+      },
+      {
+       "key": "59858/JSI01",
+       "sheet": "Operating",
+       "workbook": 1.4,
+       "pudl": 1.5
+      },
+      {
+       "key": "67909/SHS01",
+       "sheet": "Operating",
+       "workbook": 222.9,
+       "pudl": 264.6
+      }
+     ],
+     "status": [
+      {
+       "key": "104/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "196/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "196/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "219/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "223/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "238/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "241/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "290/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "318/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/4",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/5",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "318/6",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "319/3",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "320/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "320/2",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "RE"
+      },
+      {
+       "key": "321/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      },
+      {
+       "key": "322/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OS"
+      },
+      {
+       "key": "322/2",
+       "sheet": "Operating",
+       "workbook": "OA",
+       "pudl": "OS"
+      },
+      {
+       "key": "344/1",
+       "sheet": "Operating",
+       "workbook": "OP",
+       "pudl": "OA"
+      }
+     ],
+     "planned_month": [
+      {
+       "key": "66545/MMTHS",
+       "sheet": "Planned",
+       "workbook": 24321.0,
+       "pudl": 24320.0
+      },
+      {
+       "key": "68514/MC201",
+       "sheet": "Planned",
+       "workbook": 24321.0,
+       "pudl": 24320.0
+      },
+      {
+       "key": "69372/KNOXS",
+       "sheet": "Planned",
+       "workbook": 24322.0,
+       "pudl": 24321.0
+      },
+      {
+       "key": "65710/PTNM",
+       "sheet": "Planned",
+       "workbook": 24326.0,
+       "pudl": 24324.0
+      },
+      {
+       "key": "69825/MADCR",
+       "sheet": "Planned",
+       "workbook": 24327.0,
+       "pudl": 24326.0
+      },
+      {
+       "key": "67836/GSP1",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      },
+      {
+       "key": "67836/GSP2",
+       "sheet": "Planned",
+       "workbook": 24335.0,
+       "pudl": 24323.0
+      }
+     ],
+     "technology": [
+      {
+       "key": "26/5",
+       "sheet": "Operating",
+       "workbook": "Conventional Steam Coal",
+       "pudl": "Natural Gas Steam Turbine"
+      },
+      {
+       "key": "141/AF3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/13",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/14",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/15",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/16",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/17",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/19",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/20",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "665/21",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1184/2",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/3",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1184/5",
+       "sheet": "Operating",
+       "workbook": "Petroleum Liquids",
+       "pudl": "Natural Gas Internal Combustion Engine"
+      },
+      {
+       "key": "1187/6",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1217/1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Steam Turbine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC1",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC2",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1258/IC3",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      },
+      {
+       "key": "1279/4",
+       "sheet": "Operating",
+       "workbook": "Natural Gas Internal Combustion Engine",
+       "pudl": "Petroleum Liquids"
+      }
+     ],
+     "state": []
+    },
+    "workbook_only_sample": [
+     {
+      "key": "1517/1",
+      "sheet": "Retired",
+      "capacity_mw": 920.0,
+      "status": ""
+     },
+     {
+      "key": "1645/1",
+      "sheet": "Retired",
+      "capacity_mw": 185.0,
+      "status": ""
+     },
+     {
+      "key": "1697/1",
+      "sheet": "Retired",
+      "capacity_mw": 75.0,
+      "status": ""
+     },
+     {
+      "key": "1729/1",
+      "sheet": "Retired",
+      "capacity_mw": 65.0,
+      "status": ""
+     },
+     {
+      "key": "246/3",
+      "sheet": "Retired",
+      "capacity_mw": 65.0,
+      "status": ""
+     },
+     {
+      "key": "3166/1",
+      "sheet": "Retired",
+      "capacity_mw": 42.0,
+      "status": ""
+     },
+     {
+      "key": "360/1",
+      "sheet": "Retired",
+      "capacity_mw": 456.0,
+      "status": ""
+     },
+     {
+      "key": "4143/5",
+      "sheet": "Retired",
+      "capacity_mw": 50.3,
+      "status": ""
+     },
+     {
+      "key": "558/1",
+      "sheet": "Retired",
+      "capacity_mw": 600.3,
+      "status": ""
+     },
+     {
+      "key": "566/1",
+      "sheet": "Retired",
+      "capacity_mw": 661.5,
+      "status": ""
+     },
+     {
+      "key": "6107/1",
+      "sheet": "Retired",
+      "capacity_mw": 1216.0,
+      "status": ""
+     },
+     {
+      "key": "6176/1",
+      "sheet": "Retired",
+      "capacity_mw": 963.0,
+      "status": ""
+     },
+     {
+      "key": "8011/2",
+      "sheet": "Retired",
+      "capacity_mw": 961.0,
+      "status": ""
+     },
+     {
+      "key": "869/1",
+      "sheet": "Retired",
+      "capacity_mw": 207.0,
+      "status": ""
+     },
+     {
+      "key": "885/1",
+      "sheet": "Retired",
+      "capacity_mw": 1098.0,
+      "status": ""
+     },
+     {
+      "key": "885/2",
+      "sheet": "Retired",
+      "capacity_mw": 1098.0,
+      "status": ""
+     }
+    ],
+    "pudl_only_sample": [
+     {
+      "key": "68334/EVCRK",
+      "capacity_mw": 103.0,
+      "status": "U",
+      "technology": "Batteries"
+     }
+    ]
+   }
+  }
+ ],
+ "keys": [
+  {
+   "key": "61912/MHSOL",
+   "first_differs": "2026-07",
+   "months_differ": 2,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "L",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "T",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "T",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "T",
+      "planned": "2027-01",
+      "mw": 14.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "65710/PTNM",
+   "first_differs": "2026-07",
+   "months_differ": 2,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-09",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "L",
+      "planned": "2027-09",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2026-11",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "L",
+      "planned": "2026-11",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2026-11",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "L",
+      "planned": "2026-11",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05",
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "L",
+      "planned": "2027-01",
+      "mw": 4.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05",
+      "2026-06"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "66545/MMTHS",
+   "first_differs": "2026-08",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-07",
+      "status": "V",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-07",
+      "status": "V",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-07"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "66546/MMTHC",
+   "first_differs": "2026-07",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "U",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "U",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "U",
+      "planned": "2026-08",
+      "mw": 300.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05",
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-11",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-08",
+      "status": "U",
+      "planned": "2026-11",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    }
+   ]
+  },
+  {
+   "key": "66893/TXJS2",
+   "first_differs": "2026-07",
+   "months_differ": 2,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2025-06",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2025-06",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2025-06",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2025-06",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05",
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "V",
+      "planned": "2027-03",
+      "mw": 200.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05",
+      "2026-06"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "67223/SUNYF",
+   "first_differs": "2026-07",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2025-09",
+      "status": "P",
+      "planned": "2026-12",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "P",
+      "planned": "2027-01",
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "P",
+      "planned": "2027-01",
+      "mw": 20.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Canceled or Postponed",
+      "status": "",
+      "planned": null,
+      "mw": 20.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "P",
+      "planned": "2027-01",
+      "mw": 20.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Canceled or Postponed",
+      "status": "",
+      "planned": null,
+      "mw": 20.0
+     },
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    }
+   ]
+  },
+  {
+   "key": "67836/GSP1",
+   "first_differs": "2026-03",
+   "months_differ": 6,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2024-09",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "67836/GSP2",
+   "first_differs": "2026-03",
+   "months_differ": 6,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2024-09",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2026-12",
+      "mw": 13.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "68334/EVCRK",
+   "first_differs": "2026-08",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2024-11",
+      "status": "U",
+      "planned": "2026-06",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-07",
+      "mw": 103.0
+     },
+     "pudl": {
+      "report": "2026-07",
+      "status": "U",
+      "planned": "2026-07",
+      "mw": 103.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-08",
+     "workbook": null,
+     "pudl": {
+      "report": "2026-07",
+      "status": "U",
+      "planned": "2026-07",
+      "mw": 103.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-07"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "68514/MC201",
+   "first_differs": "2026-07",
+   "months_differ": 2,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-04",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-04",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-04",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-04",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     },
+     "pudl": {
+      "report": "2026-04",
+      "status": "U",
+      "planned": "2026-09",
+      "mw": 300.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "69338/LEAKY",
+   "first_differs": "2026-08",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "TS",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "pudl": {
+      "report": "2025-12",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 9.9
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "69372/KNOXS",
+   "first_differs": "2026-07",
+   "months_differ": 2,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-08",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 5.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 5.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "69579/HMWT",
+   "first_differs": "2026-04",
+   "months_differ": 4,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-03"
+     ]
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-03"
+     ]
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-03"
+     ]
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "V",
+      "planned": "2026-07",
+      "mw": 180.5
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-03"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "TS",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "pudl": {
+      "report": "2026-08",
+      "status": "TS",
+      "planned": "2026-12",
+      "mw": 180.5
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    }
+   ]
+  },
+  {
+   "key": "69589/BEEK1",
+   "first_differs": "2026-03",
+   "months_differ": 5,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-01",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-02",
+      "status": "T",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-02"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "pudl": {
+      "report": "2026-08",
+      "status": "V",
+      "planned": "2027-02",
+      "mw": 206.8
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    }
+   ]
+  },
+  {
+   "key": "69825/MADCR",
+   "first_differs": "2026-06",
+   "months_differ": 3,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-03",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-03",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "T",
+      "planned": "2027-03",
+      "mw": 5.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "T",
+      "planned": "2027-03",
+      "mw": 5.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05"
+     ]
+    },
+    {
+     "month": "2026-07",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "T",
+      "planned": "2027-03",
+      "mw": 5.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     },
+     "pudl": {
+      "report": "2026-05",
+      "status": "T",
+      "planned": "2027-03",
+      "mw": 5.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-05"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "70257/H2SLR",
+   "first_differs": "2026-07",
+   "months_differ": 1,
+   "months": [
+    {
+     "month": "2026-01",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-02",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-03",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-04",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-05",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-06",
+     "workbook": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2028-03",
+      "mw": 250.0
+     },
+     "pudl": {
+      "report": "2026-06",
+      "status": "L",
+      "planned": "2028-03",
+      "mw": 250.0
+     },
+     "same": true,
+     "pudl_as_workbook_of": []
+    },
+    {
+     "month": "2026-07",
+     "workbook": null,
+     "pudl": {
+      "report": "2026-06",
+      "status": "L",
+      "planned": "2028-03",
+      "mw": 250.0
+     },
+     "same": false,
+     "pudl_as_workbook_of": [
+      "2026-06"
+     ]
+    },
+    {
+     "month": "2026-08",
+     "workbook": null,
+     "pudl": null,
+     "same": true,
+     "pudl_as_workbook_of": []
+    }
+   ]
+  }
+ ]
+}

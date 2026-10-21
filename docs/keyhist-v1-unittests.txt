@@ -1,0 +1,14 @@
+test_ends_on_canceled_sheet (test_keyhist.HistoryTests.test_ends_on_canceled_sheet) ... ok
+test_for_compare (test_keyhist.HistoryTests.test_for_compare) ... ok
+test_render (test_keyhist.HistoryTests.test_render) ... ok
+test_stale_record (test_keyhist.HistoryTests.test_stale_record) ... ok
+test_absent (test_keyhist.SameTests.test_absent) ... ok
+test_canceled_counts_as_absent (test_keyhist.SameTests.test_canceled_counts_as_absent) ... ok
+test_fields (test_keyhist.SameTests.test_fields) ... ok
+test_planned_month_only_on_planned_sheet (test_keyhist.SameTests.test_planned_month_only_on_planned_sheet) ... ok
+test_kept_copy_with_right_md5_is_used (test_keyhist.ZipTests.test_kept_copy_with_right_md5_is_used) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.032s
+
+OK
