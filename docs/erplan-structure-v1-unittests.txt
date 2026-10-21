@@ -1,0 +1,27 @@
+test_copies (test_erplan.CopyTests.test_copies) ... ok
+test_copy_urls (test_erplan.CopyTests.test_copy_urls) ... ok
+test_as_year (test_erplan.ParseTests.test_as_year) ... ok
+test_early_marked (test_erplan.ParseTests.test_early_marked) ... ok
+test_generator_members (test_erplan.ParseTests.test_generator_members) ... ok
+test_header_found_and_missing (test_erplan.ParseTests.test_header_found_and_missing) ... ok
+test_index_classes (test_erplan.ParseTests.test_index_classes) ... ok
+test_index_needs_year_column (test_erplan.ParseTests.test_index_needs_year_column) ... ok
+test_key (test_erplan.ParseTests.test_key) ... ok
+test_read_sets_and_classify (test_erplan.ParseTests.test_read_sets_and_classify) ... ok
+test_sheet_kind (test_erplan.ParseTests.test_sheet_kind) ... ok
+test_span (test_erplan.ParseTests.test_span) ... ok
+test_structure (test_erplan.ParseTests.test_structure) ... ok
+test_structure_problems (test_erplan.ParseTests.test_structure_problems) ... ok
+test_check_c1 (test_erplan.ScoreTests.test_check_c1) ... ok
+test_check_f (test_erplan.ScoreTests.test_check_f) ... ok
+test_check_f3 (test_erplan.ScoreTests.test_check_f3) ... ok
+test_predictions_few_years (test_erplan.ScoreTests.test_predictions_few_years) ... ok
+test_predictions_r1 (test_erplan.ScoreTests.test_predictions_r1) ... ok
+test_predictions_r2 (test_erplan.ScoreTests.test_predictions_r2) ... ok
+test_reading (test_erplan.ScoreTests.test_reading) ... ok
+test_tally_share (test_erplan.ScoreTests.test_tally_share) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.001s
+
+OK
