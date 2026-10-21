@@ -1,0 +1,29 @@
+test_differences (test_workbook.Compare.test_differences) ... ok
+test_edges (test_workbook.Compare.test_edges) ... ok
+test_detail (test_workbook.Edition.test_detail) ... ok
+test_same_as_pudl (test_workbook.Edition.test_same_as_pudl) ... ok
+test_rows (test_workbook.Extend.test_rows) ... ok
+test_snapshots (test_workbook.Extend.test_snapshots) ... ok
+test_empty_workbook (test_workbook.Sheets.test_empty_workbook) ... ok
+test_gen_ids (test_workbook.Sheets.test_gen_ids) ... ok
+test_no_ids (test_workbook.Sheets.test_no_ids) ... ok
+test_operating_sheet (test_workbook.Sheets.test_operating_sheet) ... ok
+test_planned_sheet (test_workbook.Sheets.test_planned_sheet) ... ok
+test_puerto_rico_skipped (test_workbook.Sheets.test_puerto_rico_skipped) ... ok
+test_workbook_frame (test_workbook.Sheets.test_workbook_frame) ... ok
+test_diff (test_rawcheck.Compare.test_diff) ... ok
+test_interest (test_rawcheck.Compare.test_interest) ... ok
+test_same_value (test_rawcheck.Compare.test_same_value) ... ok
+test_show (test_rawcheck.Compare.test_show) ... ok
+test_check_month (test_rawcheck.Files.test_check_month) ... ok
+test_frame (test_rawcheck.Files.test_frame) ... ok
+test_checksum (test_rawcheck.Names.test_checksum) ... ok
+test_file_urls (test_rawcheck.Names.test_file_urls) ... ok
+test_member_for (test_rawcheck.Names.test_member_for) ... ok
+test_pick_copies (test_rawcheck.Names.test_pick_copies) ... ok
+test_zip_key (test_rawcheck.Names.test_zip_key) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.909s
+
+OK

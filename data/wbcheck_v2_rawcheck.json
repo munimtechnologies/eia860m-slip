@@ -1,0 +1,781 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "seed": "22995197",
+  "user_agent": "mv2-munim-rawcheck/0.1.0 (MV2 of Munim, Inc.; mv2@munimtech.com)",
+  "fetched_at": "2026-10-21T17:31:56Z"
+ },
+ "versions_url": "https://zenodo.org/api/records/22995197/versions",
+ "zenodo_versions": 50,
+ "since": "2026-09-24",
+ "history": {
+  "eia860m-2026.zip": [
+   {
+    "checksum": "md5:014f8d07411668b9e27dd8962cf2572b",
+    "size": 12946629,
+    "first_id": "18823089",
+    "first_version": "43.0.0",
+    "first_date": "2026-03-01"
+   },
+   {
+    "checksum": "md5:ea890399cf5c92546e581b183fb9281e",
+    "size": 25832963,
+    "first_id": "19311762",
+    "first_version": "44.0.0",
+    "first_date": "2026-03-29"
+   },
+   {
+    "checksum": "md5:2f2d102c29f502df2e0b0e783a130047",
+    "size": 38940575,
+    "first_id": "19787331",
+    "first_version": "45.0.0",
+    "first_date": "2026-04-26"
+   },
+   {
+    "checksum": "md5:492acc33d3302cebeecbc3dcd0496f90",
+    "size": 52015351,
+    "first_id": "20364867",
+    "first_version": "46.0.0",
+    "first_date": "2026-05-25"
+   },
+   {
+    "checksum": "md5:8cd11713b0892d5bba39db688fb84fa9",
+    "size": 65222215,
+    "first_id": "20997743",
+    "first_version": "47.0.0",
+    "first_date": "2026-06-28"
+   },
+   {
+    "checksum": "md5:4b2070cda7dea97b185a67dad8e21558",
+    "size": 78487051,
+    "first_id": "21598124",
+    "first_version": "48.0.0",
+    "first_date": "2026-07-26"
+   },
+   {
+    "checksum": "md5:ad210fb389342edd3ea829eadc0723db",
+    "size": 91827439,
+    "first_id": "22172389",
+    "first_version": "49.0.0",
+    "first_date": "2026-08-30"
+   },
+   {
+    "checksum": "md5:380a9824a20be96d182fea793c299e91",
+    "size": 105186810,
+    "first_id": "22995197",
+    "first_version": "50.0.0",
+    "first_date": "2026-09-27"
+   }
+  ]
+ },
+ "copies": [
+  {
+   "checksum": "md5:380a9824a20be96d182fea793c299e91",
+   "size": 105186810,
+   "first_id": "22995197",
+   "first_version": "50.0.0",
+   "first_date": "2026-09-27",
+   "key": "eia860m-2026.zip",
+   "tried": [
+    {
+     "url": "https://zenodo.org/api/records/22995197/files/eia860m-2026.zip/content",
+     "error": null
+    }
+   ],
+   "bytes": 105186810,
+   "md5": "380a9824a20be96d182fea793c299e91",
+   "checksum_ok": true,
+   "members": [
+    "eia860m-2026-01.xlsx",
+    "eia860m-2026-02.xlsx",
+    "eia860m-2026-03.xlsx",
+    "eia860m-2026-04.xlsx",
+    "eia860m-2026-05.xlsx",
+    "eia860m-2026-06.xlsx",
+    "eia860m-2026-07.xlsx",
+    "eia860m-2026-08.xlsx"
+   ]
+  }
+ ],
+ "calls": [
+  {
+   "url": "https://zenodo.org/api/records/22995197",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7877",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22995197/versions?size=25&page=1",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "192027",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22995197/versions?size=25&page=2",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "411696",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22995197/versions?size=25&page=3",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "222",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22995197",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7877",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22172389",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7879",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/21598124",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7879",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/20997743",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7879",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/20364867",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7879",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/19787331",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7879",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/19311762",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7877",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/18823089",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7877",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/18448417",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7641",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/18075026",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7641",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/17725393",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7641",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/17447502",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7641",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/17200983",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/17017990",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/16527926",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7638",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/15772179",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/15516497",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/15209728",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/15166078",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14998432",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7640",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14842914",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7400",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14745197",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7400",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14589670",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7400",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14252676",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7400",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/14026426",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/13866221",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/13624532",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/12656895",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7401",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/12100771",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/11408171",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/11110602",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7401",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/11100104",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10966105",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7399",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10839920",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7401",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10611141",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7400",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10603998",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7166",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10423813",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "7092",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10204686",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "29448",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10086240",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "29203",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/8188017",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "28404",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/7682381",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "26875",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/7320218",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "26143",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/6929086",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "25443",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/6910008",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "24955",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/6321197",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "23979",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/5602152",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "23003",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/5534942",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "22759",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/5076688",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "22027",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/4540268",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "20807",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/4281337",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "20075",
+   "error": null
+  }
+ ],
+ "months": [
+  {
+   "month": "2026-08",
+   "eia_bytes": 13955142,
+   "eia_md5": "9727ac867236faab7d5503175dacdf38",
+   "copies": [
+    {
+     "first_id": "22995197",
+     "first_date": "2026-09-27",
+     "first_version": "50.0.0",
+     "member": "eia860m-2026-08.xlsx",
+     "hits": [
+      "eia860m-2026-08.xlsx"
+     ],
+     "bytes": 13955142,
+     "md5": "9727ac867236faab7d5503175dacdf38",
+     "same_file": true
+    }
+   ],
+   "keys": [
+    {
+     "key": "61912/MHSOL",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     }
+    },
+    {
+     "key": "65710/PTNM",
+     "eia": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     }
+    },
+    {
+     "key": "66545/MMTHS",
+     "eia": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "66893/TXJS2",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     }
+    },
+    {
+     "key": "67836/GSP1",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "67836/GSP2",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "68334/EVCRK",
+     "eia": null
+    },
+    {
+     "key": "68514/MC201",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "69338/LEAKY",
+     "eia": {
+      "sheet": "Planned",
+      "status": "TS",
+      "planned": "2026-12",
+      "mw": 9.9
+     }
+    },
+    {
+     "key": "69372/KNOXS",
+     "eia": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "69825/MADCR",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     }
+    }
+   ],
+   "eia_error": null
+  },
+  {
+   "month": "2026-07",
+   "eia_bytes": 13932124,
+   "eia_md5": "909590b91dbda698d0e63d813ced377c",
+   "copies": [
+    {
+     "first_id": "22995197",
+     "first_date": "2026-09-27",
+     "first_version": "50.0.0",
+     "member": "eia860m-2026-07.xlsx",
+     "hits": [
+      "eia860m-2026-07.xlsx"
+     ],
+     "bytes": 13932124,
+     "md5": "909590b91dbda698d0e63d813ced377c",
+     "same_file": true
+    }
+   ],
+   "keys": [
+    {
+     "key": "61912/MHSOL",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-01",
+      "mw": 14.0
+     }
+    },
+    {
+     "key": "65710/PTNM",
+     "eia": {
+      "sheet": "Planned",
+      "status": "L",
+      "planned": "2027-03",
+      "mw": 4.0
+     }
+    },
+    {
+     "key": "66546/MMTHC",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "66893/TXJS2",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-03",
+      "mw": 200.0
+     }
+    },
+    {
+     "key": "67223/SUNYF",
+     "eia": null
+    },
+    {
+     "key": "67836/GSP1",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "67836/GSP2",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-12",
+      "mw": 13.0
+     }
+    },
+    {
+     "key": "68514/MC201",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2026-10",
+      "mw": 300.0
+     }
+    },
+    {
+     "key": "69372/KNOXS",
+     "eia": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-11",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "69579/HMWT",
+     "eia": {
+      "sheet": "Planned",
+      "status": "V",
+      "planned": "2026-12",
+      "mw": 180.5
+     }
+    },
+    {
+     "key": "69589/BEEK1",
+     "eia": {
+      "sheet": "Planned",
+      "status": "U",
+      "planned": "2027-02",
+      "mw": 206.8
+     }
+    },
+    {
+     "key": "69825/MADCR",
+     "eia": {
+      "sheet": "Planned",
+      "status": "T",
+      "planned": "2027-04",
+      "mw": 5.0
+     }
+    },
+    {
+     "key": "70257/H2SLR",
+     "eia": null
+    }
+   ],
+   "eia_error": null
+  }
+ ]
+}
