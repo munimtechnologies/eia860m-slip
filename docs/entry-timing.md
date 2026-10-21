@@ -90,3 +90,5 @@ Searched 21 October 2026. EIA's retrospectives compare the capacity planned in t
 ## Next
 
 A test that can separate R1 from R2 needs a copy of the annual file dated before its final release. If archived early-release copies of the annual EIA-860 can be found, a follow-up will be pre-registered before any of them is read: under R1, A's generators first listed in the July and August reports should already be in the early release; under R2, many should not.
+
+Addendum, 21 October 2026: that follow-up was found, pre-registered ([`er-plan-preregistration.md`](er-plan-preregistration.md)) and scored ([`er-plan.md`](er-plan.md)) for plan years 2022-2025. None of A's capacity first listed in the July and August reports was in the early release, on any sheet, though the final release planned all of it for the year: R2 for most, on the pre-registration's terms. A late annual filing, which the pre-registration did not consider, would give the same result, so that note settles that the annual file gained this capacity during the year, not which form brought it in. This note's verdicts are unchanged.
