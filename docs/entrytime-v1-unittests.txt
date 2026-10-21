@@ -1,0 +1,20 @@
+test_all_pass (test_entrytime.CheckTests.test_all_pass) ... ok
+test_u1 (test_entrytime.CheckTests.test_u1) ... ok
+test_u2 (test_entrytime.CheckTests.test_u2) ... ok
+test_u3 (test_entrytime.CheckTests.test_u3) ... ok
+test_empty (test_entrytime.PredictionTests.test_empty) ... ok
+test_p3 (test_entrytime.PredictionTests.test_p3) ... ok
+test_pooled (test_entrytime.PredictionTests.test_pooled) ... ok
+test_bucket (test_entrytime.SetTests.test_bucket) ... ok
+test_first_month (test_entrytime.SetTests.test_first_month) ... ok
+test_sets (test_entrytime.SetTests.test_sets) ... ok
+test_timing (test_entrytime.SetTests.test_timing) ... ok
+test_checks_on_summary (test_entrytime.SummaryTests.test_checks_on_summary) ... ok
+test_keys (test_entrytime.SummaryTests.test_keys) ... ok
+test_pooled (test_entrytime.SummaryTests.test_pooled) ... ok
+test_year_rows (test_entrytime.SummaryTests.test_year_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.061s
+
+OK
