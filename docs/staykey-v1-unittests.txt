@@ -1,0 +1,14 @@
+test_advanced_and_planned_at (test_staykey.StayKeyTests.test_advanced_and_planned_at) ... ok
+test_fates (test_staykey.StayKeyTests.test_fates) ... ok
+test_k2 (test_staykey.StayKeyTests.test_k2) ... ok
+test_link (test_staykey.StayKeyTests.test_link) ... ok
+test_possible (test_staykey.StayKeyTests.test_possible) ... ok
+test_predictions (test_staykey.StayKeyTests.test_predictions) ... ok
+test_run (test_staykey.StayKeyTests.test_run) ... ok
+test_stayers_and_groups (test_staykey.StayKeyTests.test_stayers_and_groups) ... ok
+test_write_md (test_staykey.StayKeyTests.test_write_md) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.463s
+
+OK
