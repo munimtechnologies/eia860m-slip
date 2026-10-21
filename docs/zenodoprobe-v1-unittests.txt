@@ -1,0 +1,15 @@
+test_fetch_never_raises (test_zenodoprobe.OutputTests.test_fetch_never_raises) ... ok
+test_write_md (test_zenodoprobe.OutputTests.test_write_md) ... ok
+test_as_json (test_zenodoprobe.ParseTests.test_as_json) ... ok
+test_er_urls (test_zenodoprobe.ParseTests.test_er_urls) ... ok
+test_file_rows_entries (test_zenodoprobe.ParseTests.test_file_rows_entries) ... ok
+test_file_rows_list (test_zenodoprobe.ParseTests.test_file_rows_list) ... ok
+test_file_rows_nothing (test_zenodoprobe.ParseTests.test_file_rows_nothing) ... ok
+test_history (test_zenodoprobe.ParseTests.test_history) ... ok
+test_page_url (test_zenodoprobe.ParseTests.test_page_url) ... ok
+test_version_rows (test_zenodoprobe.ParseTests.test_version_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.020s
+
+OK

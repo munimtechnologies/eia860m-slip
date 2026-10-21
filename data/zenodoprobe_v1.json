@@ -1,0 +1,2583 @@
+{
+ "meta": {
+  "version": "0.1.0",
+  "seed": "13682785",
+  "user_agent": "mv2-munim-zenodoprobe/0.1.0 (MV2 of Munim, Inc.; mv2@munimtech.com)",
+  "fetched_at": "2026-10-21T10:03:18Z"
+ },
+ "zenodo": {
+  "seed_status": 200,
+  "versions_url": "https://zenodo.org/api/records/13682785/versions",
+  "versions": [
+   {
+    "id": "22710654",
+    "version": "14.0.0",
+    "publication_date": "2026-09-14",
+    "created": "2026-09-14T19:10:47.103866+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 14606,
+      "checksum": "md5:30c879a4f811f2683deebb4f0533da82"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21237983,
+      "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18"
+     },
+     {
+      "key": "eia860-2024.zip",
+      "size": 22100342,
+      "checksum": "md5:684352896d6a62b5d2d98a403b30e120"
+     },
+     {
+      "key": "eia860-2025.zip",
+      "size": 23622347,
+      "checksum": "md5:9f621bb115375da690c8b459bde7c362"
+     }
+    ]
+   },
+   {
+    "id": "20380530",
+    "version": "13.0.0",
+    "publication_date": "2026-06-11",
+    "created": "2026-06-11T15:50:06.388476+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 14606,
+      "checksum": "md5:fbc84bbc910bcc6f5424f3258c57d684"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21237983,
+      "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18"
+     },
+     {
+      "key": "eia860-2024.zip",
+      "size": 22100342,
+      "checksum": "md5:684352896d6a62b5d2d98a403b30e120"
+     },
+     {
+      "key": "eia860-2025.zip",
+      "size": 23285571,
+      "checksum": "md5:43a98197bc89e4e637856f317c39093f"
+     }
+    ]
+   },
+   {
+    "id": "17091669",
+    "version": "12.0.0",
+    "publication_date": "2025-09-10",
+    "created": "2025-09-10T12:45:10.576498+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 14048,
+      "checksum": "md5:5ac883f97ba9974621c3731ad2a67180"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21237983,
+      "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18"
+     },
+     {
+      "key": "eia860-2024.zip",
+      "size": 22100342,
+      "checksum": "md5:684352896d6a62b5d2d98a403b30e120"
+     }
+    ]
+   },
+   {
+    "id": "15629904",
+    "version": "11.0.0",
+    "publication_date": "2025-06-12",
+    "created": "2025-06-12T12:59:16.990426+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 14048,
+      "checksum": "md5:0719e1b4c4f22d442d224bef35778db3"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21237983,
+      "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18"
+     },
+     {
+      "key": "eia860-2024.zip",
+      "size": 21997466,
+      "checksum": "md5:55d018066f22a4285c170c8217aea099"
+     }
+    ]
+   },
+   {
+    "id": "13682785",
+    "version": "10.0.0",
+    "publication_date": "2024-09-24",
+    "created": "2024-09-24T13:46:13.799176+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13588,
+      "checksum": "md5:5256e2c65ced8300509b2596fab657e1"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21237983,
+      "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18"
+     }
+    ]
+   },
+   {
+    "id": "11662381",
+    "version": "9.0.0",
+    "publication_date": "2024-06-15",
+    "created": "2024-06-14T22:15:29.059527+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13587,
+      "checksum": "md5:537c6556e8510d5bb79d0381046a7920"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     },
+     {
+      "key": "eia860-2023.zip",
+      "size": 21049060,
+      "checksum": "md5:9c22c886654df97cce513699487fb837"
+     }
+    ]
+   },
+   {
+    "id": "11111200",
+    "version": "8.0.0",
+    "publication_date": "2024-05-03",
+    "created": "2024-05-03T20:51:11.335448+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13106,
+      "checksum": "md5:9fac49de155f3ec3805ba06d6efa18b0"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     }
+    ]
+   },
+   {
+    "id": "10957450",
+    "version": "7.0.0",
+    "publication_date": "2024-05-01",
+    "created": "2024-05-01T20:59:19.335480+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13128,
+      "checksum": "md5:7aa550a0a17fc9bf1c87a34aac78ffb8"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     }
+    ]
+   },
+   {
+    "id": "10067566",
+    "version": "6.0.0",
+    "publication_date": "2023-11-02",
+    "created": "2023-11-02T20:18:03.113013+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 15019,
+      "checksum": "md5:1ca0880416acdfe414d6e74a8b0730b0"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20646976,
+      "checksum": "md5:2fbba665a021a7b4943349d72405cddd"
+     }
+    ]
+   },
+   {
+    "id": "8164776",
+    "version": "5.0.0",
+    "publication_date": "2023-07-19",
+    "created": "2023-07-19T16:13:07.455344+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 11200,
+      "checksum": "md5:0a8260244782804b446d7d65ea55395b"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     },
+     {
+      "key": "eia860-2022.zip",
+      "size": 20765549,
+      "checksum": "md5:3af89bb4b830b801fda08905ec9feba4"
+     }
+    ]
+   },
+   {
+    "id": "7113854",
+    "version": "4.0.0",
+    "publication_date": "2022-09-26",
+    "created": "2022-09-26T16:06:18.326092+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 15209,
+      "checksum": "md5:8034d1bf57baf82754812eb8e1efc9d0"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 20114180,
+      "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1"
+     }
+    ]
+   },
+   {
+    "id": "6954131",
+    "version": "3.0.0",
+    "publication_date": "2022-08-02",
+    "created": "2022-08-02T16:12:52.552294+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 15209,
+      "checksum": "md5:b077af577eb521676517db06818b7718"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     },
+     {
+      "key": "eia860-2021.zip",
+      "size": 19822280,
+      "checksum": "md5:8a2a3369a21e3218ab547b31076a9efb"
+     }
+    ]
+   },
+   {
+    "id": "5534934",
+    "version": "2.0.0",
+    "publication_date": "2021-09-28",
+    "created": "2021-09-28T21:10:00.945994+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13859,
+      "checksum": "md5:1d0cba678c754f2b29333d87fd2cf90e"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     },
+     {
+      "key": "eia860-2020.zip",
+      "size": 19670508,
+      "checksum": "md5:979cd4baec656be48d991856ee0d294f"
+     }
+    ]
+   },
+   {
+    "id": "4127027",
+    "version": "1.0.0",
+    "publication_date": "2020-10-24",
+    "created": "2020-10-24T16:25:55.153800+00:00",
+    "files": [
+     {
+      "key": "datapackage.json",
+      "size": 13248,
+      "checksum": "md5:50db07e18875dfaf9da8388d00493be7"
+     },
+     {
+      "key": "eia860-2001.zip",
+      "size": 705867,
+      "checksum": "md5:7f85506d596de2b5088054ec509b9190"
+     },
+     {
+      "key": "eia860-2002.zip",
+      "size": 912303,
+      "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c"
+     },
+     {
+      "key": "eia860-2003.zip",
+      "size": 780239,
+      "checksum": "md5:eaaf357571364fea9bfb722dadae3f50"
+     },
+     {
+      "key": "eia860-2004.zip",
+      "size": 3064444,
+      "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd"
+     },
+     {
+      "key": "eia860-2005.zip",
+      "size": 3136685,
+      "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d"
+     },
+     {
+      "key": "eia860-2006.zip",
+      "size": 3367804,
+      "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b"
+     },
+     {
+      "key": "eia860-2007.zip",
+      "size": 4368646,
+      "checksum": "md5:9dc1245507a3b63e1933124c75622712"
+     },
+     {
+      "key": "eia860-2008.zip",
+      "size": 4087992,
+      "checksum": "md5:54c57c70be32c888d770e77565160ef5"
+     },
+     {
+      "key": "eia860-2009.zip",
+      "size": 6322780,
+      "checksum": "md5:14aaa6578c9e9700464116983a1ee58c"
+     },
+     {
+      "key": "eia860-2010.zip",
+      "size": 5222411,
+      "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22"
+     },
+     {
+      "key": "eia860-2011.zip",
+      "size": 11051815,
+      "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf"
+     },
+     {
+      "key": "eia860-2012.zip",
+      "size": 12014782,
+      "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e"
+     },
+     {
+      "key": "eia860-2013.zip",
+      "size": 14408647,
+      "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a"
+     },
+     {
+      "key": "eia860-2014.zip",
+      "size": 15378365,
+      "checksum": "md5:45c7fa1d78adcd063fee284984671a97"
+     },
+     {
+      "key": "eia860-2015.zip",
+      "size": 15360751,
+      "checksum": "md5:0007f092cc828e9659b99ab480430d78"
+     },
+     {
+      "key": "eia860-2016.zip",
+      "size": 16740095,
+      "checksum": "md5:5e7aa49733a10ff4798de85074cdc809"
+     },
+     {
+      "key": "eia860-2017.zip",
+      "size": 16181258,
+      "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2"
+     },
+     {
+      "key": "eia860-2018.zip",
+      "size": 18295827,
+      "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596"
+     },
+     {
+      "key": "eia860-2019.zip",
+      "size": 18767416,
+      "checksum": "md5:90978cd06d556b9c2d0085972a21c91f"
+     }
+    ]
+   }
+  ],
+  "history": {
+   "datapackage.json": [
+    {
+     "checksum": "md5:50db07e18875dfaf9da8388d00493be7",
+     "size": 13248,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    },
+    {
+     "checksum": "md5:1d0cba678c754f2b29333d87fd2cf90e",
+     "size": 13859,
+     "first_id": "5534934",
+     "first_version": "2.0.0",
+     "first_date": "2021-09-28"
+    },
+    {
+     "checksum": "md5:b077af577eb521676517db06818b7718",
+     "size": 15209,
+     "first_id": "6954131",
+     "first_version": "3.0.0",
+     "first_date": "2022-08-02"
+    },
+    {
+     "checksum": "md5:8034d1bf57baf82754812eb8e1efc9d0",
+     "size": 15209,
+     "first_id": "7113854",
+     "first_version": "4.0.0",
+     "first_date": "2022-09-26"
+    },
+    {
+     "checksum": "md5:0a8260244782804b446d7d65ea55395b",
+     "size": 11200,
+     "first_id": "8164776",
+     "first_version": "5.0.0",
+     "first_date": "2023-07-19"
+    },
+    {
+     "checksum": "md5:1ca0880416acdfe414d6e74a8b0730b0",
+     "size": 15019,
+     "first_id": "10067566",
+     "first_version": "6.0.0",
+     "first_date": "2023-11-02"
+    },
+    {
+     "checksum": "md5:7aa550a0a17fc9bf1c87a34aac78ffb8",
+     "size": 13128,
+     "first_id": "10957450",
+     "first_version": "7.0.0",
+     "first_date": "2024-05-01"
+    },
+    {
+     "checksum": "md5:9fac49de155f3ec3805ba06d6efa18b0",
+     "size": 13106,
+     "first_id": "11111200",
+     "first_version": "8.0.0",
+     "first_date": "2024-05-03"
+    },
+    {
+     "checksum": "md5:537c6556e8510d5bb79d0381046a7920",
+     "size": 13587,
+     "first_id": "11662381",
+     "first_version": "9.0.0",
+     "first_date": "2024-06-15"
+    },
+    {
+     "checksum": "md5:5256e2c65ced8300509b2596fab657e1",
+     "size": 13588,
+     "first_id": "13682785",
+     "first_version": "10.0.0",
+     "first_date": "2024-09-24"
+    },
+    {
+     "checksum": "md5:0719e1b4c4f22d442d224bef35778db3",
+     "size": 14048,
+     "first_id": "15629904",
+     "first_version": "11.0.0",
+     "first_date": "2025-06-12"
+    },
+    {
+     "checksum": "md5:5ac883f97ba9974621c3731ad2a67180",
+     "size": 14048,
+     "first_id": "17091669",
+     "first_version": "12.0.0",
+     "first_date": "2025-09-10"
+    },
+    {
+     "checksum": "md5:fbc84bbc910bcc6f5424f3258c57d684",
+     "size": 14606,
+     "first_id": "20380530",
+     "first_version": "13.0.0",
+     "first_date": "2026-06-11"
+    },
+    {
+     "checksum": "md5:30c879a4f811f2683deebb4f0533da82",
+     "size": 14606,
+     "first_id": "22710654",
+     "first_version": "14.0.0",
+     "first_date": "2026-09-14"
+    }
+   ],
+   "eia860-2001.zip": [
+    {
+     "checksum": "md5:7f85506d596de2b5088054ec509b9190",
+     "size": 705867,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2002.zip": [
+    {
+     "checksum": "md5:d5f527a0768ddb6e66ef0ff561f0302c",
+     "size": 912303,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2003.zip": [
+    {
+     "checksum": "md5:eaaf357571364fea9bfb722dadae3f50",
+     "size": 780239,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2004.zip": [
+    {
+     "checksum": "md5:cb038ca91eecd17442b7a2afdde748fd",
+     "size": 3064444,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2005.zip": [
+    {
+     "checksum": "md5:4115ebd20796b20011d4eabd4bb6026d",
+     "size": 3136685,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2006.zip": [
+    {
+     "checksum": "md5:ab2d1c7f65bbb4f5838fdec827a3099b",
+     "size": 3367804,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2007.zip": [
+    {
+     "checksum": "md5:9dc1245507a3b63e1933124c75622712",
+     "size": 4368646,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2008.zip": [
+    {
+     "checksum": "md5:54c57c70be32c888d770e77565160ef5",
+     "size": 4087992,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2009.zip": [
+    {
+     "checksum": "md5:14aaa6578c9e9700464116983a1ee58c",
+     "size": 6322780,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2010.zip": [
+    {
+     "checksum": "md5:b6008e7ed05ba43ebdcf71e1155cfa22",
+     "size": 5222411,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2011.zip": [
+    {
+     "checksum": "md5:299f4d5b3248b03917ba1c901f031bdf",
+     "size": 11051815,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2012.zip": [
+    {
+     "checksum": "md5:06eb569b7d0356ebb4251dcd97bfdd0e",
+     "size": 12014782,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2013.zip": [
+    {
+     "checksum": "md5:3ed6cf9c808f2208df61d5208ab6402a",
+     "size": 14408647,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2014.zip": [
+    {
+     "checksum": "md5:45c7fa1d78adcd063fee284984671a97",
+     "size": 15378365,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2015.zip": [
+    {
+     "checksum": "md5:0007f092cc828e9659b99ab480430d78",
+     "size": 15360751,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2016.zip": [
+    {
+     "checksum": "md5:5e7aa49733a10ff4798de85074cdc809",
+     "size": 16740095,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2017.zip": [
+    {
+     "checksum": "md5:6ca525e589dd059cbfd1f20df462dfd2",
+     "size": 16181258,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2018.zip": [
+    {
+     "checksum": "md5:1b51472933d3368cbd373ec0fdf4d596",
+     "size": 18295827,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2019.zip": [
+    {
+     "checksum": "md5:90978cd06d556b9c2d0085972a21c91f",
+     "size": 18767416,
+     "first_id": "4127027",
+     "first_version": "1.0.0",
+     "first_date": "2020-10-24"
+    }
+   ],
+   "eia860-2020.zip": [
+    {
+     "checksum": "md5:979cd4baec656be48d991856ee0d294f",
+     "size": 19670508,
+     "first_id": "5534934",
+     "first_version": "2.0.0",
+     "first_date": "2021-09-28"
+    }
+   ],
+   "eia860-2021.zip": [
+    {
+     "checksum": "md5:8a2a3369a21e3218ab547b31076a9efb",
+     "size": 19822280,
+     "first_id": "6954131",
+     "first_version": "3.0.0",
+     "first_date": "2022-08-02"
+    },
+    {
+     "checksum": "md5:9caab707948ddee58bc748b6f5e43aa1",
+     "size": 20114180,
+     "first_id": "7113854",
+     "first_version": "4.0.0",
+     "first_date": "2022-09-26"
+    }
+   ],
+   "eia860-2022.zip": [
+    {
+     "checksum": "md5:3af89bb4b830b801fda08905ec9feba4",
+     "size": 20765549,
+     "first_id": "8164776",
+     "first_version": "5.0.0",
+     "first_date": "2023-07-19"
+    },
+    {
+     "checksum": "md5:2fbba665a021a7b4943349d72405cddd",
+     "size": 20646976,
+     "first_id": "10067566",
+     "first_version": "6.0.0",
+     "first_date": "2023-11-02"
+    }
+   ],
+   "eia860-2023.zip": [
+    {
+     "checksum": "md5:9c22c886654df97cce513699487fb837",
+     "size": 21049060,
+     "first_id": "11662381",
+     "first_version": "9.0.0",
+     "first_date": "2024-06-15"
+    },
+    {
+     "checksum": "md5:12ad0f63fabf0025ebf53f6728f13c18",
+     "size": 21237983,
+     "first_id": "13682785",
+     "first_version": "10.0.0",
+     "first_date": "2024-09-24"
+    }
+   ],
+   "eia860-2024.zip": [
+    {
+     "checksum": "md5:55d018066f22a4285c170c8217aea099",
+     "size": 21997466,
+     "first_id": "15629904",
+     "first_version": "11.0.0",
+     "first_date": "2025-06-12"
+    },
+    {
+     "checksum": "md5:684352896d6a62b5d2d98a403b30e120",
+     "size": 22100342,
+     "first_id": "17091669",
+     "first_version": "12.0.0",
+     "first_date": "2025-09-10"
+    }
+   ],
+   "eia860-2025.zip": [
+    {
+     "checksum": "md5:43a98197bc89e4e637856f317c39093f",
+     "size": 23285571,
+     "first_id": "20380530",
+     "first_version": "13.0.0",
+     "first_date": "2026-06-11"
+    },
+    {
+     "checksum": "md5:9f621bb115375da690c8b459bde7c362",
+     "size": 23622347,
+     "first_id": "22710654",
+     "first_version": "14.0.0",
+     "first_date": "2026-09-14"
+    }
+   ]
+  }
+ },
+ "eia_er": [
+  {
+   "year": 2016,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602016ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2016,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602016ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2017,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602017ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2017,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602017ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2018,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602018ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2018,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602018ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2019,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602019ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2019,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602019ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2020,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602020ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2020,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602020ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2021,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602021ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2021,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602021ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2022,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602022ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": null,
+   "error": null
+  },
+  {
+   "year": 2022,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602022ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2023,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602023ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2023,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602023ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2024,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602024ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2024,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602024ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "year": 2025,
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602025ER.zip",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "year": 2025,
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602025ER.zip",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  }
+ ],
+ "calls": [
+  {
+   "url": "https://zenodo.org/api/records/13682785",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10797",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/13682785/versions?size=25&page=1",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "146782",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/13682785/versions?size=25&page=2",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "222",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/22710654",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "11265",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/20380530",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "11268",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/17091669",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "11032",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/15629904",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "11032",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/13682785",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10797",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/11662381",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10794",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/11111200",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10556",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10957450",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10556",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/10067566",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10558",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/8164776",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "10103",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/7113854",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "9834",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/6954131",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "9835",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/5534934",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "9599",
+   "error": null
+  },
+  {
+   "url": "https://zenodo.org/api/records/4127027",
+   "method": "GET",
+   "status": 200,
+   "content_type": "application/json",
+   "content_length": "9365",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602016ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602016ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602017ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602017ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602018ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602018ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602019ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602019ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602020ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602020ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602021ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602021ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602022ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": null,
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602022ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602023ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602023ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602024ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602024ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/xls/eia8602025ER.zip",
+   "method": "HEAD",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "content_length": "55941",
+   "error": null
+  },
+  {
+   "url": "https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602025ER.zip",
+   "method": "HEAD",
+   "status": 406,
+   "content_type": "text/html",
+   "content_length": "1713",
+   "error": "HTTP 406"
+  }
+ ]
+}
