@@ -1,0 +1,3163 @@
+{
+ "version": "0.1.0",
+ "started_at": "2026-10-21T21:35:20Z",
+ "gate": {
+  "live": true,
+  "checks": 1,
+  "at": "2026-10-21T21:35:21Z",
+  "error": null
+ },
+ "prereg_commit": {
+  "sha": "f64de4c06f191c57b34b5cf775ed1d8f4838eadb",
+  "date": "2026-10-21T21:33:19Z"
+ },
+ "pudl": {
+  "file": "core_eia860m__changelog_generators.parquet",
+  "bytes": 2631992,
+  "mtime": "2026-10-15T16:11:49Z",
+  "max_report": "2026-08",
+  "rows": 224408
+ },
+ "zip": {
+  "tried": [],
+  "cached": true
+ },
+ "result": {
+  "score": {
+   "units": 299999,
+   "disagree": 2395,
+   "sim_stale": 2893,
+   "hits": 2395,
+   "coverage": 1.0,
+   "precision": 0.8279
+  },
+  "by_month": {
+   "2026-01": {
+    "units": 36865,
+    "predicted": 273,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-02": {
+    "units": 36890,
+    "predicted": 290,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-03": {
+    "units": 37404,
+    "predicted": 296,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-04": {
+    "units": 37480,
+    "predicted": 301,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-05": {
+    "units": 37629,
+    "predicted": 316,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-06": {
+    "units": 37779,
+    "predicted": 314,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-07": {
+    "units": 37957,
+    "predicted": 304,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   },
+   "2026-08": {
+    "units": 37995,
+    "predicted": 301,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0
+   }
+  },
+  "pairs": [
+   {
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OA",
+    "n": 1489
+   },
+   {
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OS",
+    "n": 278
+   },
+   {
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "RE",
+    "n": 136
+   },
+   {
+    "field": "MW",
+    "workbook": "OP",
+    "pudl": "OP",
+    "n": 84
+   },
+   {
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "SB",
+    "n": 83
+   },
+   {
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OP",
+    "n": 78
+   },
+   {
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OS",
+    "n": 60
+   },
+   {
+    "field": "status",
+    "workbook": "SB",
+    "pudl": "OP",
+    "n": 46
+   },
+   {
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OP",
+    "n": 39
+   },
+   {
+    "field": "planned month",
+    "workbook": "V",
+    "pudl": "V",
+    "n": 25
+   },
+   {
+    "field": "planned month",
+    "workbook": "T",
+    "pudl": "T",
+    "n": 16
+   },
+   {
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OA",
+    "n": 12
+   },
+   {
+    "field": "planned month",
+    "workbook": "L",
+    "pudl": "L",
+    "n": 9
+   },
+   {
+    "field": "planned month",
+    "workbook": "U",
+    "pudl": "U",
+    "n": 9
+   },
+   {
+    "field": "status",
+    "workbook": "RE",
+    "pudl": "OP",
+    "n": 8
+   },
+   {
+    "field": "status",
+    "workbook": "U",
+    "pudl": "T",
+    "n": 7
+   },
+   {
+    "field": "planned month",
+    "workbook": "P",
+    "pudl": "P",
+    "n": 4
+   },
+   {
+    "field": "status",
+    "workbook": "RE",
+    "pudl": "OS",
+    "n": 3
+   },
+   {
+    "field": "planned month",
+    "workbook": "TS",
+    "pudl": "TS",
+    "n": 3
+   },
+   {
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "SB",
+    "n": 2
+   },
+   {
+    "field": "status",
+    "workbook": "U",
+    "pudl": "V",
+    "n": 2
+   },
+   {
+    "field": "status",
+    "workbook": "L",
+    "pudl": "U",
+    "n": 1
+   },
+   {
+    "field": "status",
+    "workbook": "TS",
+    "pudl": "V",
+    "n": 1
+   }
+  ],
+  "august": [
+   {
+    "key": "6481/1",
+    "fields": "status",
+    "workbook": "RE, -, 820.0 MW",
+    "pudl": "OS, -, 820.0 MW",
+    "pudl_reported": "2026-03",
+    "differs_since": "2026-07",
+    "workbook_mw": 820.0
+   },
+   {
+    "key": "6481/2",
+    "fields": "status",
+    "workbook": "RE, -, 820.0 MW",
+    "pudl": "OS, -, 820.0 MW",
+    "pudl_reported": "2026-03",
+    "differs_since": "2026-07",
+    "workbook_mw": 820.0
+   },
+   {
+    "key": "2828/3",
+    "fields": "status",
+    "workbook": "OP, -, 650.0 MW",
+    "pudl": "OS, -, 650.0 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 650.0
+   },
+   {
+    "key": "2828/1",
+    "fields": "status",
+    "workbook": "OP, -, 615.2 MW",
+    "pudl": "OS, -, 615.2 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 615.2
+   },
+   {
+    "key": "2828/2",
+    "fields": "status",
+    "workbook": "OP, -, 615.2 MW",
+    "pudl": "OS, -, 615.2 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 615.2
+   },
+   {
+    "key": "6100/1",
+    "fields": "status",
+    "workbook": "OP, -, 351.0 MW",
+    "pudl": "OA, -, 351.0 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 351.0
+   },
+   {
+    "key": "6100/2",
+    "fields": "status",
+    "workbook": "OP, -, 351.0 MW",
+    "pudl": "OA, -, 351.0 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 351.0
+   },
+   {
+    "key": "6100/3",
+    "fields": "status",
+    "workbook": "OP, -, 351.0 MW",
+    "pudl": "OA, -, 351.0 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 351.0
+   },
+   {
+    "key": "66545/MMTHS",
+    "fields": "planned month",
+    "workbook": "V, 2026-10, 300.0 MW",
+    "pudl": "V, 2026-09, 300.0 MW",
+    "pudl_reported": "2026-07",
+    "differs_since": "2026-08",
+    "workbook_mw": 300.0
+   },
+   {
+    "key": "68514/MC201",
+    "fields": "planned month",
+    "workbook": "U, 2026-10, 300.0 MW",
+    "pudl": "U, 2026-09, 300.0 MW",
+    "pudl_reported": "2026-04",
+    "differs_since": "2026-07",
+    "workbook_mw": 300.0
+   },
+   {
+    "key": "55129/STG",
+    "fields": "status",
+    "workbook": "OP, -, 272.1 MW",
+    "pudl": "OA, -, 272.1 MW",
+    "pudl_reported": "2023-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 272.1
+   },
+   {
+    "key": "392/1",
+    "fields": "status",
+    "workbook": "OP, -, 271.0 MW",
+    "pudl": "OA, -, 271.0 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 271.0
+   },
+   {
+    "key": "392/5",
+    "fields": "status",
+    "workbook": "OP, -, 271.0 MW",
+    "pudl": "OA, -, 271.0 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 271.0
+   },
+   {
+    "key": "67909/SHS01",
+    "fields": "MW",
+    "workbook": "OP, -, 222.9 MW",
+    "pudl": "OP, -, 264.6 MW",
+    "pudl_reported": "2025-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 222.9
+   },
+   {
+    "key": "66893/TXJS2",
+    "fields": "status",
+    "workbook": "U, 2027-03, 200.0 MW",
+    "pudl": "V, 2027-03, 200.0 MW",
+    "pudl_reported": "2026-05",
+    "differs_since": "2026-07",
+    "workbook_mw": 200.0
+   },
+   {
+    "key": "104/1",
+    "fields": "status",
+    "workbook": "OP, -, 199.8 MW",
+    "pudl": "OS, -, 199.8 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 199.8
+   },
+   {
+    "key": "2693/2",
+    "fields": "status",
+    "workbook": "OP, -, 193.5 MW",
+    "pudl": "OA, -, 193.5 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-05",
+    "workbook_mw": 193.5
+   },
+   {
+    "key": "2693/6",
+    "fields": "status",
+    "workbook": "OP, -, 193.5 MW",
+    "pudl": "OA, -, 193.5 MW",
+    "pudl_reported": "2024-07",
+    "differs_since": "2026-05",
+    "workbook_mw": 193.5
+   },
+   {
+    "key": "55098/GEN3",
+    "fields": "status",
+    "workbook": "OP, -, 185.0 MW",
+    "pudl": "RE, -, 185.0 MW",
+    "pudl_reported": "2022-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 185.0
+   },
+   {
+    "key": "55098/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 172.0 MW",
+    "pudl": "RE, -, 172.0 MW",
+    "pudl_reported": "2022-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 172.0
+   },
+   {
+    "key": "55098/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 172.0 MW",
+    "pudl": "RE, -, 172.0 MW",
+    "pudl_reported": "2022-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 172.0
+   },
+   {
+    "key": "56252/CWF",
+    "fields": "MW",
+    "workbook": "OP, -, 150.0 MW",
+    "pudl": "OP, -, 201.2 MW",
+    "pudl_reported": "2020-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 150.0
+   },
+   {
+    "key": "3082/11",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/12",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/13",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/2",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2017-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/3",
+    "fields": "status",
+    "workbook": "OA, -, 135.0 MW",
+    "pudl": "OP, -, 135.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/4",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/5",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/6",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OS, -, 135.0 MW",
+    "pudl_reported": "2020-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/7",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OS, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3082/9",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3926/1",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3926/2",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3926/3",
+    "fields": "status",
+    "workbook": "OA, -, 135.0 MW",
+    "pudl": "OP, -, 135.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3926/5",
+    "fields": "status",
+    "workbook": "OA, -, 135.0 MW",
+    "pudl": "OS, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3926/6",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3927/2",
+    "fields": "status",
+    "workbook": "OA, -, 135.0 MW",
+    "pudl": "OP, -, 135.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "3927/4",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "6175/1",
+    "fields": "status",
+    "workbook": "OA, -, 135.0 MW",
+    "pudl": "OP, -, 135.0 MW",
+    "pudl_reported": "2017-04",
+    "differs_since": "2026-02",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "6175/2",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "6175/3",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "6175/4",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "6175/6",
+    "fields": "status",
+    "workbook": "OP, -, 135.0 MW",
+    "pudl": "OA, -, 135.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 135.0
+   },
+   {
+    "key": "219/1",
+    "fields": "status",
+    "workbook": "OP, -, 117.9 MW",
+    "pudl": "OA, -, 117.9 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 117.9
+   },
+   {
+    "key": "3925/5",
+    "fields": "status",
+    "workbook": "OP, -, 111.0 MW",
+    "pudl": "OA, -, 111.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 111.0
+   },
+   {
+    "key": "840/1",
+    "fields": "status",
+    "workbook": "OP, -, 103.0 MW",
+    "pudl": "OA, -, 103.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 103.0
+   },
+   {
+    "key": "344/1",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "344/2",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/19",
+    "fields": "status",
+    "workbook": "OA, -, 95.0 MW",
+    "pudl": "OP, -, 95.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/20",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/22",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/23",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/24",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/25",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/26",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3921/27",
+    "fields": "status",
+    "workbook": "OP, -, 95.0 MW",
+    "pudl": "OA, -, 95.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 95.0
+   },
+   {
+    "key": "3925/1",
+    "fields": "status",
+    "workbook": "OA, -, 90.0 MW",
+    "pudl": "OS, -, 90.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-02",
+    "workbook_mw": 90.0
+   },
+   {
+    "key": "3921/11",
+    "fields": "status",
+    "workbook": "OA, -, 88.2 MW",
+    "pudl": "OP, -, 88.2 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 88.2
+   },
+   {
+    "key": "3921/14",
+    "fields": "status",
+    "workbook": "OP, -, 88.2 MW",
+    "pudl": "OA, -, 88.2 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 88.2
+   },
+   {
+    "key": "3921/3",
+    "fields": "status",
+    "workbook": "OP, -, 88.2 MW",
+    "pudl": "OA, -, 88.2 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 88.2
+   },
+   {
+    "key": "3921/9",
+    "fields": "status",
+    "workbook": "OA, -, 88.2 MW",
+    "pudl": "OP, -, 88.2 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-02",
+    "workbook_mw": 88.2
+   },
+   {
+    "key": "3895/16",
+    "fields": "status",
+    "workbook": "OP, -, 86.0 MW",
+    "pudl": "OA, -, 86.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 86.0
+   },
+   {
+    "key": "3895/17",
+    "fields": "status",
+    "workbook": "OP, -, 86.0 MW",
+    "pudl": "OA, -, 86.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 86.0
+   },
+   {
+    "key": "3895/18",
+    "fields": "status",
+    "workbook": "OP, -, 86.0 MW",
+    "pudl": "OA, -, 86.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 86.0
+   },
+   {
+    "key": "50541/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 82.3 MW",
+    "pudl": "OA, -, 82.3 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 82.3
+   },
+   {
+    "key": "3895/1",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/11",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-02",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/12",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/13",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/2",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/3",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/4",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "3895/8",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "52169/C",
+    "fields": "status",
+    "workbook": "OP, -, 78.0 MW",
+    "pudl": "OA, -, 78.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 78.0
+   },
+   {
+    "key": "54627/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 74.9 MW",
+    "pudl": "OA, -, 74.9 MW",
+    "pudl_reported": "2017-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 74.9
+   },
+   {
+    "key": "3084/10",
+    "fields": "status",
+    "workbook": "OP, -, 70.0 MW",
+    "pudl": "OA, -, 70.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 70.0
+   },
+   {
+    "key": "3084/13",
+    "fields": "status",
+    "workbook": "OP, -, 70.0 MW",
+    "pudl": "OA, -, 70.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 70.0
+   },
+   {
+    "key": "3084/3",
+    "fields": "status",
+    "workbook": "OP, -, 70.0 MW",
+    "pudl": "OA, -, 70.0 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 70.0
+   },
+   {
+    "key": "3084/7",
+    "fields": "status",
+    "workbook": "OP, -, 70.0 MW",
+    "pudl": "OA, -, 70.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 70.0
+   },
+   {
+    "key": "3075/11",
+    "fields": "status",
+    "workbook": "OP, -, 66.5 MW",
+    "pudl": "OA, -, 66.5 MW",
+    "pudl_reported": "2017-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 66.5
+   },
+   {
+    "key": "3075/13",
+    "fields": "status",
+    "workbook": "OP, -, 66.5 MW",
+    "pudl": "OA, -, 66.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 66.5
+   },
+   {
+    "key": "3075/18",
+    "fields": "status",
+    "workbook": "OP, -, 66.5 MW",
+    "pudl": "OA, -, 66.5 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 66.5
+   },
+   {
+    "key": "3075/10",
+    "fields": "status",
+    "workbook": "OP, -, 62.1 MW",
+    "pudl": "OA, -, 62.1 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 62.1
+   },
+   {
+    "key": "3075/3",
+    "fields": "status",
+    "workbook": "OP, -, 62.1 MW",
+    "pudl": "OA, -, 62.1 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 62.1
+   },
+   {
+    "key": "3075/4",
+    "fields": "status",
+    "workbook": "OP, -, 62.1 MW",
+    "pudl": "OA, -, 62.1 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 62.1
+   },
+   {
+    "key": "3075/5",
+    "fields": "status",
+    "workbook": "OP, -, 62.1 MW",
+    "pudl": "OA, -, 62.1 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 62.1
+   },
+   {
+    "key": "3075/6",
+    "fields": "status",
+    "workbook": "OP, -, 62.1 MW",
+    "pudl": "OA, -, 62.1 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 62.1
+   },
+   {
+    "key": "56948/1",
+    "fields": "status",
+    "workbook": "OP, -, 60.5 MW",
+    "pudl": "OA, -, 60.5 MW",
+    "pudl_reported": "2023-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 60.5
+   },
+   {
+    "key": "7314/NA2",
+    "fields": "MW",
+    "workbook": "OP, -, 60.0 MW",
+    "pudl": "OP, -, 0.0 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 60.0
+   },
+   {
+    "key": "223/5",
+    "fields": "status",
+    "workbook": "OP, -, 57.6 MW",
+    "pudl": "OA, -, 57.6 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 57.6
+   },
+   {
+    "key": "322/1",
+    "fields": "status",
+    "workbook": "OP, -, 55.0 MW",
+    "pudl": "OS, -, 55.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 55.0
+   },
+   {
+    "key": "322/2",
+    "fields": "status",
+    "workbook": "OA, -, 55.0 MW",
+    "pudl": "OS, -, 55.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 55.0
+   },
+   {
+    "key": "3067/2",
+    "fields": "status",
+    "workbook": "OP, -, 52.2 MW",
+    "pudl": "OA, -, 52.2 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 52.2
+   },
+   {
+    "key": "3323/4",
+    "fields": "status",
+    "workbook": "OP, -, 51.7 MW",
+    "pudl": "OS, -, 51.7 MW",
+    "pudl_reported": "2017-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 51.7
+   },
+   {
+    "key": "6416/2",
+    "fields": "status",
+    "workbook": "OP, -, 50.8 MW",
+    "pudl": "OA, -, 50.8 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 50.8
+   },
+   {
+    "key": "2166/3",
+    "fields": "status",
+    "workbook": "OP, -, 50.0 MW",
+    "pudl": "OA, -, 50.0 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 50.0
+   },
+   {
+    "key": "3077/1",
+    "fields": "status",
+    "workbook": "OP, -, 50.0 MW",
+    "pudl": "OS, -, 50.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 50.0
+   },
+   {
+    "key": "320/1",
+    "fields": "status",
+    "workbook": "OP, -, 50.0 MW",
+    "pudl": "RE, -, 50.0 MW",
+    "pudl_reported": "2020-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 50.0
+   },
+   {
+    "key": "320/2",
+    "fields": "status",
+    "workbook": "OP, -, 50.0 MW",
+    "pudl": "RE, -, 50.0 MW",
+    "pudl_reported": "2020-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 50.0
+   },
+   {
+    "key": "10349/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 49.5 MW",
+    "pudl": "OA, -, 49.5 MW",
+    "pudl_reported": "2019-11",
+    "differs_since": "2026-01",
+    "workbook_mw": 49.5
+   },
+   {
+    "key": "2612/9",
+    "fields": "status",
+    "workbook": "OP, -, 47.0 MW",
+    "pudl": "OA, -, 47.0 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 47.0
+   },
+   {
+    "key": "1380/5",
+    "fields": "status",
+    "workbook": "OP, -, 45.0 MW",
+    "pudl": "OA, -, 45.0 MW",
+    "pudl_reported": "2021-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 45.0
+   },
+   {
+    "key": "50973/GN35",
+    "fields": "status",
+    "workbook": "OP, -, 40.5 MW",
+    "pudl": "OA, -, 40.5 MW",
+    "pudl_reported": "2018-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 40.5
+   },
+   {
+    "key": "196/1",
+    "fields": "status",
+    "workbook": "OP, -, 40.2 MW",
+    "pudl": "OA, -, 40.2 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 40.2
+   },
+   {
+    "key": "196/2",
+    "fields": "status",
+    "workbook": "OP, -, 40.2 MW",
+    "pudl": "OA, -, 40.2 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 40.2
+   },
+   {
+    "key": "3080/1",
+    "fields": "status",
+    "workbook": "OP, -, 40.0 MW",
+    "pudl": "OA, -, 40.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-02",
+    "workbook_mw": 40.0
+   },
+   {
+    "key": "3080/2",
+    "fields": "status",
+    "workbook": "OP, -, 40.0 MW",
+    "pudl": "OA, -, 40.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 40.0
+   },
+   {
+    "key": "3083/1",
+    "fields": "status",
+    "workbook": "OP, -, 40.0 MW",
+    "pudl": "OA, -, 40.0 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 40.0
+   },
+   {
+    "key": "3083/2",
+    "fields": "status",
+    "workbook": "OP, -, 40.0 MW",
+    "pudl": "OA, -, 40.0 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-02",
+    "workbook_mw": 40.0
+   },
+   {
+    "key": "3083/3",
+    "fields": "status",
+    "workbook": "OP, -, 40.0 MW",
+    "pudl": "OA, -, 40.0 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 40.0
+   },
+   {
+    "key": "10208/NO.7",
+    "fields": "status",
+    "workbook": "OP, -, 38.6 MW",
+    "pudl": "OS, -, 38.6 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 38.6
+   },
+   {
+    "key": "2984/1",
+    "fields": "status",
+    "workbook": "OP, -, 35.0 MW",
+    "pudl": "OA, -, 35.0 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 35.0
+   },
+   {
+    "key": "319/3",
+    "fields": "status",
+    "workbook": "OP, -, 34.0 MW",
+    "pudl": "OA, -, 34.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 34.0
+   },
+   {
+    "key": "321/1",
+    "fields": "status",
+    "workbook": "OP, -, 30.0 MW",
+    "pudl": "OA, -, 30.0 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 30.0
+   },
+   {
+    "key": "50118/GEN7",
+    "fields": "status",
+    "workbook": "OP, -, 28.8 MW",
+    "pudl": "SB, -, 28.8 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 28.8
+   },
+   {
+    "key": "50118/GEN9",
+    "fields": "status",
+    "workbook": "OP, -, 27.2 MW",
+    "pudl": "SB, -, 27.2 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 27.2
+   },
+   {
+    "key": "56616/G3",
+    "fields": "status",
+    "workbook": "OP, -, 27.2 MW",
+    "pudl": "OA, -, 27.2 MW",
+    "pudl_reported": "2018-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 27.2
+   },
+   {
+    "key": "6141/1",
+    "fields": "status",
+    "workbook": "OP, -, 26.9 MW",
+    "pudl": "OA, -, 26.9 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 26.9
+   },
+   {
+    "key": "3426/2",
+    "fields": "status",
+    "workbook": "OP, -, 25.0 MW",
+    "pudl": "OS, -, 25.0 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 25.0
+   },
+   {
+    "key": "3426/4",
+    "fields": "status",
+    "workbook": "OP, -, 25.0 MW",
+    "pudl": "OA, -, 25.0 MW",
+    "pudl_reported": "2021-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 25.0
+   },
+   {
+    "key": "6174/1",
+    "fields": "status",
+    "workbook": "OP, -, 24.5 MW",
+    "pudl": "OA, -, 24.5 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 24.5
+   },
+   {
+    "key": "6174/2",
+    "fields": "status",
+    "workbook": "OP, -, 24.5 MW",
+    "pudl": "OA, -, 24.5 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 24.5
+   },
+   {
+    "key": "2692/5",
+    "fields": "status",
+    "workbook": "OP, -, 20.0 MW",
+    "pudl": "OA, -, 20.0 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 20.0
+   },
+   {
+    "key": "2692/6",
+    "fields": "status",
+    "workbook": "OP, -, 20.0 MW",
+    "pudl": "OA, -, 20.0 MW",
+    "pudl_reported": "2024-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 20.0
+   },
+   {
+    "key": "50127/STD",
+    "fields": "status",
+    "workbook": "OP, -, 20.0 MW",
+    "pudl": "OS, -, 20.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 20.0
+   },
+   {
+    "key": "6142/1",
+    "fields": "status",
+    "workbook": "OP, -, 20.0 MW",
+    "pudl": "OA, -, 20.0 MW",
+    "pudl_reported": "2019-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 20.0
+   },
+   {
+    "key": "6142/5",
+    "fields": "status",
+    "workbook": "OP, -, 20.0 MW",
+    "pudl": "OA, -, 20.0 MW",
+    "pudl_reported": "2019-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 20.0
+   },
+   {
+    "key": "58428/1-02",
+    "fields": "status",
+    "workbook": "OP, -, 19.6 MW",
+    "pudl": "SB, -, 19.6 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-04",
+    "workbook_mw": 19.6
+   },
+   {
+    "key": "3045/6",
+    "fields": "status",
+    "workbook": "OP, -, 19.2 MW",
+    "pudl": "OA, -, 19.2 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-02",
+    "workbook_mw": 19.2
+   },
+   {
+    "key": "318/5",
+    "fields": "status",
+    "workbook": "OP, -, 17.5 MW",
+    "pudl": "OA, -, 17.5 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 17.5
+   },
+   {
+    "key": "318/6",
+    "fields": "status",
+    "workbook": "OP, -, 17.5 MW",
+    "pudl": "OA, -, 17.5 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 17.5
+   },
+   {
+    "key": "10700/TG6",
+    "fields": "status",
+    "workbook": "OS, -, 16.0 MW",
+    "pudl": "OP, -, 16.0 MW",
+    "pudl_reported": "2022-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 16.0
+   },
+   {
+    "key": "1336/S3",
+    "fields": "status",
+    "workbook": "SB, -, 16.0 MW",
+    "pudl": "OP, -, 16.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 16.0
+   },
+   {
+    "key": "318/3",
+    "fields": "status",
+    "workbook": "OP, -, 15.8 MW",
+    "pudl": "OA, -, 15.8 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 15.8
+   },
+   {
+    "key": "318/4",
+    "fields": "status",
+    "workbook": "OP, -, 15.8 MW",
+    "pudl": "OA, -, 15.8 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 15.8
+   },
+   {
+    "key": "54775/GEN6",
+    "fields": "status",
+    "workbook": "OP, -, 15.0 MW",
+    "pudl": "OA, -, 15.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 15.0
+   },
+   {
+    "key": "6430/5",
+    "fields": "status",
+    "workbook": "OP, -, 15.0 MW",
+    "pudl": "OA, -, 15.0 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 15.0
+   },
+   {
+    "key": "6430/6",
+    "fields": "status",
+    "workbook": "OP, -, 15.0 MW",
+    "pudl": "OA, -, 15.0 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 15.0
+   },
+   {
+    "key": "3895/F1",
+    "fields": "status",
+    "workbook": "OA, -, 14.0 MW",
+    "pudl": "OP, -, 14.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 14.0
+   },
+   {
+    "key": "3895/F2",
+    "fields": "status",
+    "workbook": "OA, -, 14.0 MW",
+    "pudl": "OP, -, 14.0 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 14.0
+   },
+   {
+    "key": "61912/MHSOL",
+    "fields": "status",
+    "workbook": "U, 2027-01, 14.0 MW",
+    "pudl": "T, 2027-01, 14.0 MW",
+    "pudl_reported": "2026-06",
+    "differs_since": "2026-07",
+    "workbook_mw": 14.0
+   },
+   {
+    "key": "6480/2",
+    "fields": "status",
+    "workbook": "OP, -, 14.0 MW",
+    "pudl": "OA, -, 14.0 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 14.0
+   },
+   {
+    "key": "851/2",
+    "fields": "status",
+    "workbook": "OP, -, 14.0 MW",
+    "pudl": "OA, -, 14.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 14.0
+   },
+   {
+    "key": "241/1",
+    "fields": "status",
+    "workbook": "OP, -, 13.6 MW",
+    "pudl": "OA, -, 13.6 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 13.6
+   },
+   {
+    "key": "50541/ST1",
+    "fields": "status",
+    "workbook": "OP, -, 13.6 MW",
+    "pudl": "OA, -, 13.6 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 13.6
+   },
+   {
+    "key": "3075/F1",
+    "fields": "status",
+    "workbook": "OP, -, 13.1 MW",
+    "pudl": "OA, -, 13.1 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 13.1
+   },
+   {
+    "key": "3076/1",
+    "fields": "status",
+    "workbook": "OP, -, 13.0 MW",
+    "pudl": "OA, -, 13.0 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 13.0
+   },
+   {
+    "key": "3076/2",
+    "fields": "status",
+    "workbook": "OP, -, 13.0 MW",
+    "pudl": "OA, -, 13.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 13.0
+   },
+   {
+    "key": "67836/GSP1",
+    "fields": "planned month",
+    "workbook": "T, 2027-12, 13.0 MW",
+    "pudl": "T, 2026-12, 13.0 MW",
+    "pudl_reported": "2026-02",
+    "differs_since": "2026-03",
+    "workbook_mw": 13.0
+   },
+   {
+    "key": "67836/GSP2",
+    "fields": "planned month",
+    "workbook": "T, 2027-12, 13.0 MW",
+    "pudl": "T, 2026-12, 13.0 MW",
+    "pudl_reported": "2026-02",
+    "differs_since": "2026-03",
+    "workbook_mw": 13.0
+   },
+   {
+    "key": "2641/2",
+    "fields": "status",
+    "workbook": "OA, -, 12.8 MW",
+    "pudl": "OS, -, 12.8 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 12.8
+   },
+   {
+    "key": "2641/HY1",
+    "fields": "status",
+    "workbook": "OA, -, 12.8 MW",
+    "pudl": "OS, -, 12.8 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 12.8
+   },
+   {
+    "key": "50431/TG1",
+    "fields": "status",
+    "workbook": "OP, -, 12.5 MW",
+    "pudl": "OA, -, 12.5 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 12.5
+   },
+   {
+    "key": "50541/ST2",
+    "fields": "status",
+    "workbook": "OP, -, 11.5 MW",
+    "pudl": "OA, -, 11.5 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 11.5
+   },
+   {
+    "key": "10430/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 11.0 MW",
+    "pudl": "OA, -, 11.0 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 11.0
+   },
+   {
+    "key": "1332/GT1",
+    "fields": "status",
+    "workbook": "OP, -, 11.0 MW",
+    "pudl": "OA, -, 11.0 MW",
+    "pudl_reported": "2018-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 11.0
+   },
+   {
+    "key": "58151/STG02",
+    "fields": "status",
+    "workbook": "OP, -, 11.0 MW",
+    "pudl": "OA, -, 11.0 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 11.0
+   },
+   {
+    "key": "354/1",
+    "fields": "status",
+    "workbook": "OP, -, 10.8 MW",
+    "pudl": "OA, -, 10.8 MW",
+    "pudl_reported": "2021-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 10.8
+   },
+   {
+    "key": "10262/GEN6",
+    "fields": "status",
+    "workbook": "OP, -, 10.5 MW",
+    "pudl": "OA, -, 10.5 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-04",
+    "workbook_mw": 10.5
+   },
+   {
+    "key": "238/1",
+    "fields": "status",
+    "workbook": "OP, -, 10.0 MW",
+    "pudl": "OA, -, 10.0 MW",
+    "pudl_reported": "2025-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 10.0
+   },
+   {
+    "key": "238/2",
+    "fields": "status",
+    "workbook": "OP, -, 10.0 MW",
+    "pudl": "OA, -, 10.0 MW",
+    "pudl_reported": "2022-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 10.0
+   },
+   {
+    "key": "69338/LEAKY",
+    "fields": "status",
+    "workbook": "TS, 2026-12, 9.9 MW",
+    "pudl": "V, 2026-12, 9.9 MW",
+    "pudl_reported": "2025-12",
+    "differs_since": "2026-08",
+    "workbook_mw": 9.9
+   },
+   {
+    "key": "290/1",
+    "fields": "status",
+    "workbook": "OP, -, 8.5 MW",
+    "pudl": "OS, -, 8.5 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 8.5
+   },
+   {
+    "key": "54618/7500",
+    "fields": "status",
+    "workbook": "OP, -, 7.5 MW",
+    "pudl": "OA, -, 7.5 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 7.5
+   },
+   {
+    "key": "50627/STG1",
+    "fields": "status",
+    "workbook": "OS, -, 6.5 MW",
+    "pudl": "OP, -, 6.5 MW",
+    "pudl_reported": "2017-12",
+    "differs_since": "2026-02",
+    "workbook_mw": 6.5
+   },
+   {
+    "key": "56163/RCHP",
+    "fields": "status",
+    "workbook": "OP, -, 6.4 MW",
+    "pudl": "OA, -, 6.4 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 6.4
+   },
+   {
+    "key": "10417/TG",
+    "fields": "status",
+    "workbook": "OP, -, 5.7 MW",
+    "pudl": "OA, -, 5.7 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-03",
+    "workbook_mw": 5.7
+   },
+   {
+    "key": "7398/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 5.7 MW",
+    "pudl": "OA, -, 5.7 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.7
+   },
+   {
+    "key": "10123/TG01",
+    "fields": "status",
+    "workbook": "OP, -, 5.3 MW",
+    "pudl": "OA, -, 5.3 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.3
+   },
+   {
+    "key": "10123/TG03",
+    "fields": "status",
+    "workbook": "OP, -, 5.3 MW",
+    "pudl": "OA, -, 5.3 MW",
+    "pudl_reported": "2017-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.3
+   },
+   {
+    "key": "10526/1UNI",
+    "fields": "status",
+    "workbook": "OP, -, 5.0 MW",
+    "pudl": "OA, -, 5.0 MW",
+    "pudl_reported": "2021-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.0
+   },
+   {
+    "key": "54795/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 5.0 MW",
+    "pudl": "OA, -, 5.0 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.0
+   },
+   {
+    "key": "58207/G12",
+    "fields": "status",
+    "workbook": "OP, -, 5.0 MW",
+    "pudl": "OA, -, 5.0 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 5.0
+   },
+   {
+    "key": "69372/KNOXS",
+    "fields": "planned month",
+    "workbook": "V, 2026-11, 5.0 MW",
+    "pudl": "V, 2026-10, 5.0 MW",
+    "pudl_reported": "2026-06",
+    "differs_since": "2026-07",
+    "workbook_mw": 5.0
+   },
+   {
+    "key": "69825/MADCR",
+    "fields": "planned month",
+    "workbook": "T, 2027-04, 5.0 MW",
+    "pudl": "T, 2027-03, 5.0 MW",
+    "pudl_reported": "2026-05",
+    "differs_since": "2026-06",
+    "workbook_mw": 5.0
+   },
+   {
+    "key": "52068/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 4.1 MW",
+    "pudl": "OA, -, 4.1 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 4.1
+   },
+   {
+    "key": "7976/11",
+    "fields": "status",
+    "workbook": "OP, -, 4.1 MW",
+    "pudl": "OS, -, 4.1 MW",
+    "pudl_reported": "2021-11",
+    "differs_since": "2026-02",
+    "workbook_mw": 4.1
+   },
+   {
+    "key": "62373/I25BA",
+    "fields": "status",
+    "workbook": "OP, -, 4.0 MW",
+    "pudl": "OA, -, 4.0 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 4.0
+   },
+   {
+    "key": "65710/PTNM",
+    "fields": "planned month",
+    "workbook": "L, 2027-03, 4.0 MW",
+    "pudl": "L, 2027-01, 4.0 MW",
+    "pudl_reported": "2026-05",
+    "differs_since": "2026-07",
+    "workbook_mw": 4.0
+   },
+   {
+    "key": "6486/3",
+    "fields": "status",
+    "workbook": "OP, -, 3.8 MW",
+    "pudl": "OA, -, 3.8 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.8
+   },
+   {
+    "key": "54330/1",
+    "fields": "status",
+    "workbook": "OP, -, 3.7 MW",
+    "pudl": "OA, -, 3.7 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.7
+   },
+   {
+    "key": "10523/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2024-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "50411/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "50411/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "50411/GEN3",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "59794/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "7189/1",
+    "fields": "status",
+    "workbook": "OP, -, 3.5 MW",
+    "pudl": "OA, -, 3.5 MW",
+    "pudl_reported": "2024-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.5
+   },
+   {
+    "key": "55184/UN-B",
+    "fields": "status",
+    "workbook": "OP, -, 3.2 MW",
+    "pudl": "OA, -, 3.2 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.2
+   },
+   {
+    "key": "2638/1",
+    "fields": "status",
+    "workbook": "OP, -, 3.0 MW",
+    "pudl": "OA, -, 3.0 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 3.0
+   },
+   {
+    "key": "3118/A",
+    "fields": "status",
+    "workbook": "SB, -, 3.0 MW",
+    "pudl": "OP, -, 3.0 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.0
+   },
+   {
+    "key": "54207/GEN1",
+    "fields": "status",
+    "workbook": "OS, -, 3.0 MW",
+    "pudl": "OA, -, 3.0 MW",
+    "pudl_reported": "2025-05",
+    "differs_since": "2026-05",
+    "workbook_mw": 3.0
+   },
+   {
+    "key": "58192/ST961",
+    "fields": "status",
+    "workbook": "OP, -, 3.0 MW",
+    "pudl": "OA, -, 3.0 MW",
+    "pudl_reported": "2023-12",
+    "differs_since": "2026-04",
+    "workbook_mw": 3.0
+   },
+   {
+    "key": "934/IC3",
+    "fields": "status",
+    "workbook": "SB, -, 3.0 MW",
+    "pudl": "OP, -, 3.0 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 3.0
+   },
+   {
+    "key": "1134/5",
+    "fields": "status",
+    "workbook": "SB, -, 2.8 MW",
+    "pudl": "OP, -, 2.8 MW",
+    "pudl_reported": "2017-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.8
+   },
+   {
+    "key": "398/1",
+    "fields": "status",
+    "workbook": "OP, -, 2.8 MW",
+    "pudl": "OA, -, 2.8 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-04",
+    "workbook_mw": 2.8
+   },
+   {
+    "key": "398/2",
+    "fields": "status",
+    "workbook": "OP, -, 2.8 MW",
+    "pudl": "OA, -, 2.8 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.8
+   },
+   {
+    "key": "50463/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 2.6 MW",
+    "pudl": "OA, -, 2.6 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.6
+   },
+   {
+    "key": "54936/3",
+    "fields": "status",
+    "workbook": "OP, -, 2.6 MW",
+    "pudl": "OS, -, 2.6 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 2.6
+   },
+   {
+    "key": "10262/GEN7",
+    "fields": "status",
+    "workbook": "OP, -, 2.5 MW",
+    "pudl": "OA, -, 2.5 MW",
+    "pudl_reported": "2024-02",
+    "differs_since": "2026-04",
+    "workbook_mw": 2.5
+   },
+   {
+    "key": "10504/2500",
+    "fields": "status",
+    "workbook": "OP, -, 2.5 MW",
+    "pudl": "OA, -, 2.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.5
+   },
+   {
+    "key": "55278/1",
+    "fields": "status",
+    "workbook": "OP, -, 2.5 MW",
+    "pudl": "OA, -, 2.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.5
+   },
+   {
+    "key": "55278/2",
+    "fields": "status",
+    "workbook": "OP, -, 2.5 MW",
+    "pudl": "OA, -, 2.5 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.5
+   },
+   {
+    "key": "54690/2250",
+    "fields": "status",
+    "workbook": "OP, -, 2.2 MW",
+    "pudl": "OA, -, 2.2 MW",
+    "pudl_reported": "2018-11",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.2
+   },
+   {
+    "key": "57580/CG1",
+    "fields": "status",
+    "workbook": "OP, -, 2.1 MW",
+    "pudl": "OA, -, 2.1 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.1
+   },
+   {
+    "key": "57580/CG2",
+    "fields": "status",
+    "workbook": "OP, -, 2.1 MW",
+    "pudl": "OA, -, 2.1 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.1
+   },
+   {
+    "key": "62442/LRCH",
+    "fields": "status",
+    "workbook": "OP, -, 2.0 MW",
+    "pudl": "OS, -, 2.0 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.0
+   },
+   {
+    "key": "6474/IC1",
+    "fields": "status",
+    "workbook": "OP, -, 2.0 MW",
+    "pudl": "OA, -, 2.0 MW",
+    "pudl_reported": "2019-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.0
+   },
+   {
+    "key": "673/MU2",
+    "fields": "status",
+    "workbook": "SB, -, 2.0 MW",
+    "pudl": "OP, -, 2.0 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-03",
+    "workbook_mw": 2.0
+   },
+   {
+    "key": "7971/7",
+    "fields": "status",
+    "workbook": "OP, -, 2.0 MW",
+    "pudl": "OA, -, 2.0 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 2.0
+   },
+   {
+    "key": "3305/1",
+    "fields": "status",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "OA, -, 1.8 MW",
+    "pudl_reported": "2022-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "3582/1",
+    "fields": "status",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "OS, -, 1.8 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "3582/2",
+    "fields": "status",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "OS, -, 1.8 MW",
+    "pudl_reported": "2019-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "4045/1",
+    "fields": "MW",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "OP, -, 1.6 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "4045/2",
+    "fields": "MW",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "OP, -, 1.6 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "7112/IC7",
+    "fields": "status",
+    "workbook": "OP, -, 1.8 MW",
+    "pudl": "RE, -, 1.8 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.8
+   },
+   {
+    "key": "50423/983",
+    "fields": "status",
+    "workbook": "OP, -, 1.7 MW",
+    "pudl": "OA, -, 1.7 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-03",
+    "workbook_mw": 1.7
+   },
+   {
+    "key": "1637/PB3",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "50365/PH21",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2022-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "50365/PH22",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2022-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "50365/PH23",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2022-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "50365/PH24",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2022-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "50570/GEN5",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "RE, -, 1.6 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "57828/GEN3M",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "SB, -, 1.6 MW",
+    "pudl_reported": "2021-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "58747/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 1.6 MW",
+    "pudl": "OA, -, 1.6 MW",
+    "pudl_reported": "2024-01",
+    "differs_since": "2026-03",
+    "workbook_mw": 1.6
+   },
+   {
+    "key": "61271/18950",
+    "fields": "status",
+    "workbook": "OP, -, 1.5 MW",
+    "pudl": "OA, -, 1.5 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.5
+   },
+   {
+    "key": "2995/1",
+    "fields": "status",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OS, -, 1.4 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "3258/4",
+    "fields": "status",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OA, -, 1.4 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "3258/5",
+    "fields": "status",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OA, -, 1.4 MW",
+    "pudl_reported": "2025-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "58326/NBG3",
+    "fields": "status",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OA, -, 1.4 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "58399/1",
+    "fields": "status",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OA, -, 1.4 MW",
+    "pudl_reported": "2021-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "59858/JSI01",
+    "fields": "MW",
+    "workbook": "OP, -, 1.4 MW",
+    "pudl": "OP, -, 1.5 MW",
+    "pudl_reported": "2022-08",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.4
+   },
+   {
+    "key": "50091/TB1",
+    "fields": "status",
+    "workbook": "OP, -, 1.3 MW",
+    "pudl": "SB, -, 1.3 MW",
+    "pudl_reported": "2022-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.3
+   },
+   {
+    "key": "6526/2",
+    "fields": "status",
+    "workbook": "OA, -, 1.3 MW",
+    "pudl": "OP, -, 1.3 MW",
+    "pudl_reported": "2021-03",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.3
+   },
+   {
+    "key": "7947/D1",
+    "fields": "status",
+    "workbook": "SB, -, 1.3 MW",
+    "pudl": "OP, -, 1.3 MW",
+    "pudl_reported": "2018-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.3
+   },
+   {
+    "key": "2522/1",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "OS, -, 1.2 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "6390/5",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "SB, -, 1.2 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "6390/6",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "SB, -, 1.2 MW",
+    "pudl_reported": "2018-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "6486/2",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "OA, -, 1.2 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-02",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "7502/8",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "OA, -, 1.2 MW",
+    "pudl_reported": "2017-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "7502/9",
+    "fields": "status",
+    "workbook": "OP, -, 1.2 MW",
+    "pudl": "OA, -, 1.2 MW",
+    "pudl_reported": "2017-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.2
+   },
+   {
+    "key": "3833/A",
+    "fields": "status",
+    "workbook": "OP, -, 1.1 MW",
+    "pudl": "OA, -, 1.1 MW",
+    "pudl_reported": "2019-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.1
+   },
+   {
+    "key": "57365/1A",
+    "fields": "status",
+    "workbook": "OP, -, 1.1 MW",
+    "pudl": "OA, -, 1.1 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-03",
+    "workbook_mw": 1.1
+   },
+   {
+    "key": "57824/416LF",
+    "fields": "status",
+    "workbook": "OP, -, 1.1 MW",
+    "pudl": "OA, -, 1.1 MW",
+    "pudl_reported": "2018-11",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.1
+   },
+   {
+    "key": "62741/CHP",
+    "fields": "status",
+    "workbook": "OP, -, 1.1 MW",
+    "pudl": "OA, -, 1.1 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.1
+   },
+   {
+    "key": "50315/1100",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OA, -, 1.0 MW",
+    "pudl_reported": "2018-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "54123/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OA, -, 1.0 MW",
+    "pudl_reported": "2020-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "57949/2",
+    "fields": "status",
+    "workbook": "OS, -, 1.0 MW",
+    "pudl": "OP, -, 1.0 MW",
+    "pudl_reported": "2017-04",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "58064/LBFS",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OA, -, 1.0 MW",
+    "pudl_reported": "2025-05",
+    "differs_since": "2026-03",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "58197/2",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OA, -, 1.0 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "60566/SES2",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OS, -, 1.0 MW",
+    "pudl_reported": "2022-08",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "6283/7",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "SB, -, 1.0 MW",
+    "pudl_reported": "2018-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "7264/LL3",
+    "fields": "status",
+    "workbook": "OP, -, 1.0 MW",
+    "pudl": "OA, -, 1.0 MW",
+    "pudl_reported": "2018-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 1.0
+   },
+   {
+    "key": "55278/STG-1",
+    "fields": "status",
+    "workbook": "OP, -, 0.9 MW",
+    "pudl": "OS, -, 0.9 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.9
+   },
+   {
+    "key": "3305/2",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2021-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "394/1",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "394/2",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2023-03",
+    "differs_since": "2026-04",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50421/201",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-03",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50421/301",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2025-03",
+    "differs_since": "2026-03",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50570/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50570/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50570/GEN3",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "50570/GEN4",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "54103/HG5",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "54103/HG6",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OA, -, 0.8 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN3",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN4",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN5",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN6",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN7",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "56520/GEN8",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "OS, -, 0.8 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "57025/GEN1",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "57025/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "57025/GEN3",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "57025/GEN4",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "57025/GEN5",
+    "fields": "status",
+    "workbook": "OP, -, 0.8 MW",
+    "pudl": "RE, -, 0.8 MW",
+    "pudl_reported": "2024-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.8
+   },
+   {
+    "key": "378/1",
+    "fields": "status",
+    "workbook": "OP, -, 0.7 MW",
+    "pudl": "OS, -, 0.7 MW",
+    "pudl_reported": "2023-02",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.7
+   },
+   {
+    "key": "50315/2600",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OA, -, 0.6 MW",
+    "pudl_reported": "2020-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "54103/JHG2",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OA, -, 0.6 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "54103/JHG3",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OA, -, 0.6 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "54103/JHG5",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OS, -, 0.6 MW",
+    "pudl_reported": "2020-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "54567/3",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OA, -, 0.6 MW",
+    "pudl_reported": "2022-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "57665/10",
+    "fields": "status",
+    "workbook": "OA, -, 0.6 MW",
+    "pudl": "OS, -, 0.6 MW",
+    "pudl_reported": "2024-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "57665/4",
+    "fields": "status",
+    "workbook": "OA, -, 0.6 MW",
+    "pudl": "OS, -, 0.6 MW",
+    "pudl_reported": "2024-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "57665/5",
+    "fields": "status",
+    "workbook": "OP, -, 0.6 MW",
+    "pudl": "OA, -, 0.6 MW",
+    "pudl_reported": "2021-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "7183/4",
+    "fields": "status",
+    "workbook": "RE, -, 0.6 MW",
+    "pudl": "OP, -, 0.6 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.6
+   },
+   {
+    "key": "57868/UNIT1",
+    "fields": "MW",
+    "workbook": "OP, -, 0.5 MW",
+    "pudl": "OP, -, 1.3 MW",
+    "pudl_reported": "2023-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.5
+   },
+   {
+    "key": "60565/SES1",
+    "fields": "status",
+    "workbook": "OP, -, 0.5 MW",
+    "pudl": "OA, -, 0.5 MW",
+    "pudl_reported": "2022-08",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.5
+   },
+   {
+    "key": "10853/2",
+    "fields": "status",
+    "workbook": "OP, -, 0.4 MW",
+    "pudl": "OA, -, 0.4 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.4
+   },
+   {
+    "key": "52057/4",
+    "fields": "status",
+    "workbook": "OS, -, 0.4 MW",
+    "pudl": "OA, -, 0.4 MW",
+    "pudl_reported": "2018-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.4
+   },
+   {
+    "key": "54103/HG2",
+    "fields": "status",
+    "workbook": "OP, -, 0.4 MW",
+    "pudl": "OA, -, 0.4 MW",
+    "pudl_reported": "2020-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.4
+   },
+   {
+    "key": "54103/HG3",
+    "fields": "status",
+    "workbook": "OP, -, 0.4 MW",
+    "pudl": "OA, -, 0.4 MW",
+    "pudl_reported": "2023-01",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.4
+   },
+   {
+    "key": "54123/GEN2",
+    "fields": "status",
+    "workbook": "OP, -, 0.4 MW",
+    "pudl": "OA, -, 0.4 MW",
+    "pudl_reported": "2020-06",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.4
+   },
+   {
+    "key": "50539/2",
+    "fields": "status",
+    "workbook": "OP, -, 0.3 MW",
+    "pudl": "OS, -, 0.3 MW",
+    "pudl_reported": "2021-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.3
+   },
+   {
+    "key": "50890/GEN1",
+    "fields": "status",
+    "workbook": "OS, -, 0.2 MW",
+    "pudl": "OP, -, 0.2 MW",
+    "pudl_reported": "2020-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.2
+   },
+   {
+    "key": "50890/GEN2",
+    "fields": "status",
+    "workbook": "OS, -, 0.2 MW",
+    "pudl": "OP, -, 0.2 MW",
+    "pudl_reported": "2020-05",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.2
+   },
+   {
+    "key": "1844/3",
+    "fields": "status",
+    "workbook": "OP, -, 0.1 MW",
+    "pudl": "OS, -, 0.1 MW",
+    "pudl_reported": "2017-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.1
+   },
+   {
+    "key": "6704/MT17",
+    "fields": "status",
+    "workbook": "OP, -, 0.1 MW",
+    "pudl": "OS, -, 0.1 MW",
+    "pudl_reported": "2022-07",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.1
+   },
+   {
+    "key": "7810/3",
+    "fields": "status",
+    "workbook": "OP, -, 0.1 MW",
+    "pudl": "RE, -, 0.1 MW",
+    "pudl_reported": "2021-12",
+    "differs_since": "2026-01",
+    "workbook_mw": 0.1
+   }
+  ],
+  "named": [
+   {
+    "key": "69338/LEAKY",
+    "month": "2026-08",
+    "workbook": "TS, 2026-12, 9.9 MW",
+    "records_before": 2,
+    "matching_reports": [
+     "2025-10"
+    ],
+    "held": true
+   },
+   {
+    "key": "69372/KNOXS",
+    "month": "2026-07",
+    "workbook": "V, 2026-11, 5.0 MW",
+    "records_before": 2,
+    "matching_reports": [
+     "2025-12"
+    ],
+    "held": true
+   }
+  ],
+  "repeats": {
+   "columns": 32,
+   "column_names": [
+    "plant_id_eia",
+    "plant_name_eia",
+    "utility_id_eia",
+    "utility_name_eia",
+    "generator_id",
+    "balancing_authority_code_eia",
+    "capacity_mw",
+    "county",
+    "current_planned_generator_operating_date",
+    "data_maturity",
+    "energy_source_code_1",
+    "energy_storage_capacity_mwh",
+    "fuel_type_code_pudl",
+    "generator_operating_date",
+    "generator_retirement_date",
+    "latitude",
+    "longitude",
+    "net_capacity_mwdc",
+    "operational_status",
+    "operational_status_code",
+    "planned_derate_date",
+    "planned_generator_retirement_date",
+    "planned_net_summer_capacity_derate_mw",
+    "planned_net_summer_capacity_uprate_mw",
+    "planned_uprate_date",
+    "planned_repower_date",
+    "prime_mover_code",
+    "sector_id_eia",
+    "state",
+    "summer_capacity_mw",
+    "technology_description",
+    "winter_capacity_mw"
+   ],
+   "rows": 224408,
+   "repeats": 0,
+   "generators_with_repeats": 0,
+   "sample": []
+  },
+  "august_workbook_only": 16,
+  "august_workbook_only_trace": [
+   {
+    "key": "1517/1",
+    "sheet_status": "RE, -, 920.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "1645/1",
+    "sheet_status": "RE, -, 185.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "1697/1",
+    "sheet_status": "RE, -, 75.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "1729/1",
+    "sheet_status": "RE, -, 65.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "246/3",
+    "sheet_status": "RE, -, 65.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "3166/1",
+    "sheet_status": "RE, -, 42.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "360/1",
+    "sheet_status": "RE, -, 456.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "4143/5",
+    "sheet_status": "RE, -, 50.3 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "558/1",
+    "sheet_status": "RE, -, 600.3 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "566/1",
+    "sheet_status": "RE, -, 661.5 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "6107/1",
+    "sheet_status": "RE, -, 1216.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "6176/1",
+    "sheet_status": "RE, -, 963.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "8011/2",
+    "sheet_status": "RE, -, 961.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "869/1",
+    "sheet_status": "RE, -, 207.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "885/1",
+    "sheet_status": "RE, -, 1098.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   },
+   {
+    "key": "885/2",
+    "sheet_status": "RE, -, 1098.0 MW",
+    "in_workbook": [
+     "2026-08"
+    ],
+    "pudl_records": []
+   }
+  ]
+ },
+ "checks": {
+  "C1 workbooks": {
+   "ok": true,
+   "detail": "zip md5 380a9824a20be96d182fea793c299e91; months read 8 of 8"
+  },
+  "C2 PUDL through August": {
+   "ok": true,
+   "detail": "latest report 2026-08"
+  },
+  "C3 links": {
+   "ok": true,
+   "detail": "disagree 2395, simulation stale 2893 (each at least 100)"
+  }
+ },
+ "verdict": {
+  "scored": true,
+  "held": 4,
+  "predictions": {
+   "P1": true,
+   "P2": true,
+   "P3": true,
+   "P4": true
+  }
+ },
+ "finished_at": "2026-10-21T21:37:18Z"
+}

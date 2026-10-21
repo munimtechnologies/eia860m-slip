@@ -1,0 +1,21 @@
+test_differs (test_revert.FieldTests.test_differs) ... ok
+test_match (test_revert.FieldTests.test_match) ... ok
+test_proj (test_revert.FieldTests.test_proj) ... ok
+test_w_proj_retired_reads_re (test_revert.FieldTests.test_w_proj_retired_reads_re) ... ok
+test_commit_of (test_revert.GateTests.test_commit_of) ... ok
+test_gives_up_at_deadline (test_revert.GateTests.test_gives_up_at_deadline) ... ok
+test_waits_until_live (test_revert.GateTests.test_waits_until_live) ... ok
+test_repeat_count_treats_missing_as_equal (test_revert.RepeatTests.test_repeat_count_treats_missing_as_equal) ... ok
+test_render (test_revert.RunTests.test_render) ... ok
+test_run (test_revert.RunTests.test_run) ... ok
+test_classify (test_revert.ScoreTests.test_classify) ... ok
+test_score (test_revert.ScoreTests.test_score) ... ok
+test_verdict (test_revert.ScoreTests.test_verdict) ... ok
+test_a_b_a_within_the_months (test_revert.SimulateTests.test_a_b_a_within_the_months) ... ok
+test_absent_months (test_revert.SimulateTests.test_absent_months) ... ok
+test_value_held_before_is_dropped (test_revert.SimulateTests.test_value_held_before_is_dropped) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.106s
+
+OK
