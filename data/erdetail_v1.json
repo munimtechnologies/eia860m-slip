@@ -1,0 +1,631 @@
+{
+ "version": "0.1.0",
+ "erplan_version": "0.1.0",
+ "years": [
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "calls": 8,
+ "f3": {
+  "2022": {
+   "final_operable": 24645,
+   "found": 24589,
+   "missing": 56,
+   "share": 0.9977277338202475,
+   "missing_sample": [
+    "52162/MON1",
+    "52163/MON2",
+    "59395/MM26",
+    "59395/MM27",
+    "59395/SOLAR",
+    "64664/10605",
+    "64696/DUBLN",
+    "65636/5138",
+    "65643/CASTN",
+    "65650/15447",
+    "65652/NBRIA",
+    "65653/NBRIA",
+    "65658/DLSSP",
+    "65659/PV1",
+    "65667/EWS1",
+    "65688/LUD",
+    "65690/ACUSH",
+    "65691/TRUMB",
+    "65706/PJS",
+    "65707/PBS"
+   ]
+  },
+  "2023": {
+   "final_operable": 25378,
+   "found": 25320,
+   "missing": 58,
+   "share": 0.9977145559145717,
+   "missing_sample": [
+    "61956/BKST2",
+    "63486/DA04B",
+    "645/BESS1",
+    "65330/VSPRC",
+    "66622/VSPRC",
+    "66698/OCREF",
+    "66700/BANNR",
+    "66709/BEULA",
+    "66710/BRICT",
+    "66711/CLOVY",
+    "66712/COOGE",
+    "66718/ESAAB",
+    "66719/MILCH",
+    "66720/OAKWD",
+    "66721/OVRMN",
+    "66722/SAW",
+    "66723/SAWTL",
+    "66724/SOUWK",
+    "66725/WHISK",
+    "66729/P3101"
+   ]
+  },
+  "2024": {
+   "final_operable": 26010,
+   "found": 25950,
+   "missing": 60,
+   "share": 0.9976931949250288,
+   "missing_sample": [
+    "1325/6",
+    "1325/7",
+    "60316/SCBS",
+    "60791/BA1&2",
+    "60791/BA3",
+    "60971/PV4",
+    "64993/BB2BA",
+    "64993/BB2PV",
+    "67122/1",
+    "67577/MONBA",
+    "67578/SWABA",
+    "67596/AD329",
+    "67597/PG329",
+    "67604/TRY03",
+    "67605/TRY02",
+    "67606/TRY01",
+    "67611/10993",
+    "67612/10994",
+    "67618/11054",
+    "67619/10898"
+   ]
+  },
+  "2025": {
+   "final_operable": 26855,
+   "found": 26793,
+   "missing": 62,
+   "share": 0.9976913051573264,
+   "missing_sample": [
+    "64892/ERATH",
+    "68815/GAPPV",
+    "68816/GBHBM",
+    "68816/GBHPV",
+    "68922/BAK",
+    "68941/BHC3",
+    "68942/CHAB",
+    "68943/PI20",
+    "68944/PI21",
+    "68945/PI37",
+    "68946/PNY1",
+    "68947/PNY3",
+    "68948/PNY6",
+    "68949/PNY9",
+    "68950/PV1",
+    "68951/PV1",
+    "68952/PV1",
+    "68962/PNY4",
+    "68963/CL2B",
+    "68964/PI35"
+   ]
+  }
+ },
+ "counts": {
+  "2022": {
+   "er": {
+    "plan_y": 921,
+    "proposed_other": 632,
+    "operable": 24608,
+    "retired": 4722
+   },
+   "final": {
+    "plan_y": 846,
+    "proposed_other": 996,
+    "operable": 24645,
+    "retired": 4747
+   }
+  },
+  "2023": {
+   "er": {
+    "plan_y": 857,
+    "proposed_other": 866,
+    "operable": 25332,
+    "retired": 4928
+   },
+   "final": {
+    "plan_y": 862,
+    "proposed_other": 1161,
+    "operable": 25378,
+    "retired": 4944
+   }
+  },
+  "2024": {
+   "er": {
+    "plan_y": 972,
+    "proposed_other": 884,
+    "operable": 25965,
+    "retired": 5223
+   },
+   "final": {
+    "plan_y": 1077,
+    "proposed_other": 1101,
+    "operable": 26010,
+    "retired": 5250
+   }
+  },
+  "2025": {
+   "er": {
+    "plan_y": 930,
+    "proposed_other": 1343,
+    "operable": 26795,
+    "retired": 5571
+   },
+   "final": {
+    "plan_y": 953,
+    "proposed_other": 1455,
+    "operable": 26855,
+    "retired": 5592
+   }
+  }
+ },
+ "months": {
+  "A": {
+   "pooled": {
+    "m02": {
+     "mw": 5841.1,
+     "er_plan_share": 0.9991,
+     "er_any_share": 0.9995
+    },
+    "m03": {
+     "mw": 5113.9,
+     "er_plan_share": 0.948,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 6226.7,
+     "er_plan_share": 0.8532,
+     "er_any_share": 0.8536
+    },
+    "m05": {
+     "mw": 5012.5,
+     "er_plan_share": 0.2887,
+     "er_any_share": 0.3129
+    },
+    "m06": {
+     "mw": 2474.3,
+     "er_plan_share": 0.0091,
+     "er_any_share": 0.0091
+    },
+    "m07": {
+     "mw": 5036.8,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 4685.0,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 643.5,
+     "er_plan_share": 0.0068,
+     "er_any_share": 0.0068
+    }
+   },
+   "2022": {
+    "m02": {
+     "mw": 1283.5,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 812.9,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1315.7,
+     "er_plan_share": 0.307,
+     "er_any_share": 0.307
+    },
+    "m05": {
+     "mw": 1298.2,
+     "er_plan_share": 0.032,
+     "er_any_share": 0.1252
+    },
+    "m06": {
+     "mw": 22.0,
+     "er_plan_share": 0.9091,
+     "er_any_share": 0.9091
+    },
+    "m07": {
+     "mw": 1445.0,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 556.5,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 408.1,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   },
+   "2023": {
+    "m02": {
+     "mw": 1486.8,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 1924.4,
+     "er_plan_share": 0.8636,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1400.2,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 1733.7,
+     "er_plan_share": 0.0617,
+     "er_any_share": 0.0617
+    },
+    "m06": {
+     "mw": 722.9,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m07": {
+     "mw": 1046.1,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 1226.2,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 24.7,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   },
+   "2024": {
+    "m02": {
+     "mw": 1681.1,
+     "er_plan_share": 0.997,
+     "er_any_share": 0.9982
+    },
+    "m03": {
+     "mw": 1219.8,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 2042.1,
+     "er_plan_share": 0.9989,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 930.1,
+     "er_plan_share": 0.3139,
+     "er_any_share": 0.3139
+    },
+    "m06": {
+     "mw": 1405.6,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m07": {
+     "mw": 1393.2,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 2149.4,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 210.7,
+     "er_plan_share": 0.0209,
+     "er_any_share": 0.0209
+    }
+   },
+   "2025": {
+    "m02": {
+     "mw": 1389.7,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 1156.8,
+     "er_plan_share": 0.9971,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1468.7,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 1050.5,
+     "er_plan_share": 0.9583,
+     "er_any_share": 0.9583
+    },
+    "m06": {
+     "mw": 323.8,
+     "er_plan_share": 0.0077,
+     "er_any_share": 0.0077
+    },
+    "m07": {
+     "mw": 1152.5,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 752.9,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   }
+  },
+  "A_built": {
+   "pooled": {
+    "m02": {
+     "mw": 4065.8,
+     "er_plan_share": 0.9995,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 3749.2,
+     "er_plan_share": 0.9997,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 5432.1,
+     "er_plan_share": 0.8505,
+     "er_any_share": 0.8505
+    },
+    "m05": {
+     "mw": 3447.0,
+     "er_plan_share": 0.3444,
+     "er_any_share": 0.3795
+    },
+    "m06": {
+     "mw": 1676.2,
+     "er_plan_share": 0.0134,
+     "er_any_share": 0.0134
+    },
+    "m07": {
+     "mw": 2925.8,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 2482.2,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 436.4,
+     "er_plan_share": 0.0101,
+     "er_any_share": 0.0101
+    }
+   },
+   "2022": {
+    "m02": {
+     "mw": 67.5,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 502.7,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1100.8,
+     "er_plan_share": 0.2624,
+     "er_any_share": 0.2624
+    },
+    "m05": {
+     "mw": 662.5,
+     "er_plan_share": 0.0626,
+     "er_any_share": 0.2453
+    },
+    "m06": {
+     "mw": 22.0,
+     "er_plan_share": 0.9091,
+     "er_any_share": 0.9091
+    },
+    "m07": {
+     "mw": 1005.3,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 49.1,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 406.0,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   },
+   "2023": {
+    "m02": {
+     "mw": 1070.8,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 1515.9,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1183.8,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 1425.5,
+     "er_plan_share": 0.0751,
+     "er_any_share": 0.0751
+    },
+    "m06": {
+     "mw": 583.6,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m07": {
+     "mw": 522.8,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 443.4,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 19.7,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   },
+   "2024": {
+    "m02": {
+     "mw": 1550.6,
+     "er_plan_share": 0.9987,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 606.6,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1985.8,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 585.2,
+     "er_plan_share": 0.4846,
+     "er_any_share": 0.4846
+    },
+    "m06": {
+     "mw": 883.9,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m07": {
+     "mw": 618.8,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 1420.4,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "later": {
+     "mw": 10.7,
+     "er_plan_share": 0.4112,
+     "er_any_share": 0.4112
+    }
+   },
+   "2025": {
+    "m02": {
+     "mw": 1376.9,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m03": {
+     "mw": 1124.0,
+     "er_plan_share": 0.9991,
+     "er_any_share": 1.0
+    },
+    "m04": {
+     "mw": 1161.7,
+     "er_plan_share": 1.0,
+     "er_any_share": 1.0
+    },
+    "m05": {
+     "mw": 773.8,
+     "er_plan_share": 0.9757,
+     "er_any_share": 0.9757
+    },
+    "m06": {
+     "mw": 186.7,
+     "er_plan_share": 0.0134,
+     "er_any_share": 0.0134
+    },
+    "m07": {
+     "mw": 778.9,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    },
+    "m08": {
+     "mw": 569.3,
+     "er_plan_share": 0.0,
+     "er_any_share": 0.0
+    }
+   }
+  }
+ },
+ "plants": {
+  "all": {
+   "absent_mw": 17171.8,
+   "plant_in_er_mw": 1374.8,
+   "plant_in_er_share": 0.0801,
+   "generators": 504
+  },
+  "early": {
+   "absent_mw": 3.0,
+   "plant_in_er_mw": 3.0,
+   "plant_in_er_share": 1.0,
+   "generators": 1
+  },
+  "mid": {
+   "absent_mw": 6807.9,
+   "plant_in_er_mw": 594.1,
+   "plant_in_er_share": 0.0873,
+   "generators": 190
+  },
+  "late": {
+   "absent_mw": 9721.8,
+   "plant_in_er_mw": 678.7,
+   "plant_in_er_share": 0.0698,
+   "generators": 279
+  },
+  "edge": {
+   "absent_mw": 639.1,
+   "plant_in_er_mw": 99.0,
+   "plant_in_er_share": 0.1549,
+   "generators": 34
+  }
+ }
+}

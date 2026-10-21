@@ -20,7 +20,7 @@ Data: job `erplan-v1` (sealed container, 2 CPUs, 6 GB, 21 October 2026) fetched 
 
 **For anyone using the annual EIA-860's planned generators:** the final release's Proposed sheet for the current year includes capacity added during that year. For a plan known earlier in the year, read the early release, which comes out in early summer; neither copy is a plan fixed before the year began. This is an association in two dated copies of one survey and the monthly survey's records, not a cause.
 
-**A check value to explain.** Check F3, the share of the final release's Operable generators found in the early release, came out 0.9977 in all four years. Four equal values to four decimals is unusual, and we have not yet found why. F3 passed whatever the reason, and a second control in the same run argues against keys that fail to match: A early, matched with the same keys against the same early-release copies, was found in them at 0.9997. A descriptive follow-up job reports the counts behind F3 in each year (see Next).
+**A check value to explain.** Check F3, the share of the final release's Operable generators found in the early release, came out 0.9977 in all four years. Four equal values to four decimals is unusual, and we have not yet found why. F3 passed whatever the reason, and a second control in the same run argues against keys that fail to match: A early, matched with the same keys against the same early-release copies, was found in them at 0.9997. A descriptive follow-up job reports the counts behind F3 in each year (see Next). (Explained on 21 October 2026: the counts differ every year and the four shares agree only to four decimals; see Detail.)
 
 ## Checks (all passed)
 
@@ -70,14 +70,57 @@ Every group by technology, A_built and B are in the raw output, with the 15 larg
 
 ## Limits
 
-As in the pre-registration: a Zenodo date is when PUDL archived a copy, not when EIA released it; only four plan years have an early-release copy; matching is by plant id and generator id only (trimmed, any case), so a project re-keyed between the two copies counts as absent from the early release; MW come from PUDL's tables, summed over generators, so a few large projects can dominate a year. The test separates the annual data holding a project before EIA-860M listed it from the reverse only if the early release holds every annual filing EIA had received. Found after the run: a filing that reached EIA after the early release was compiled would also be absent from it, so P1 can fail under R1, and this result does not tell such a late filing from R2. F3's four equal values are not yet explained. The readings by span beyond A early and A late, by year, for A_built and of A early's 2023 capacity under another year were all made from the raw output after the run.
+As in the pre-registration: a Zenodo date is when PUDL archived a copy, not when EIA released it; only four plan years have an early-release copy; matching is by plant id and generator id only (trimmed, any case), so a project re-keyed between the two copies counts as absent from the early release; MW come from PUDL's tables, summed over generators, so a few large projects can dominate a year. The test separates the annual data holding a project before EIA-860M listed it from the reverse only if the early release holds every annual filing EIA had received. Found after the run: a filing that reached EIA after the early release was compiled would also be absent from it, so P1 can fail under R1, and this result does not tell such a late filing from R2. F3's four equal values are not yet explained (explained on 21 October 2026; see Detail). The readings by span beyond A early and A late, by year, for A_built and of A early's 2023 capacity under another year were all made from the raw output after the run.
 
 ## Prior art
 
 Searched 21 October 2026. PUDL's documentation describes EIA's two rounds of annual EIA-860 data, an early release in the summer and a final release in the fall, and PUDL's notes on taking in a final release mention generator records that changed from the early release. We found no public measurement of how much of the annual file's planned capacity for the current year the final release adds over the early release, or of how that depends on when EIA-860M first lists a generator. This note gives both for 2022-2025, with the checks and predictions fixed in advance.
 
+## Detail (added 21 October 2026; description only)
+
+Job `erdetail-v1` (sealed container, 2 CPUs, 21 October 2026) ran erdetail.py 0.1.0 ([`../tools/annual-flows-candidate/erdetail.py`](../tools/annual-flows-candidate/erdetail.py)) with erplan.py 0.1.0 from commit b73dc6a unchanged, on the same eight Zenodo copies and the same sets file; 9 of 9 unit tests passed. It was written after `erplan-v1` and tests no prediction, so nothing here changes a verdict. Raw output: [`erdetail-v1-output.md`](erdetail-v1-output.md), [`../data/erdetail_v1.json`](../data/erdetail_v1.json); unit tests: [`erdetail-v1-unittests.txt`](erdetail-v1-unittests.txt).
+
+**F3's four equal values are a coincidence of rounding.** The counts differ every year: the early release lacks 56 of the final release's 24,645 Operable generators for 2022, 58 of 25,378 for 2023, 60 of 26,010 for 2024 and 62 of 26,855 for 2025. To six decimals the shares are 0.997728, 0.997715, 0.997693 and 0.997691; they agree only to four. So F3 was not a stuck value or one file read four times, and the verdicts stand as scored. The raw output lists the first 20 missing generators of each year in text order.
+
+**By single report month, the early release's plan share falls in one step.** Pooled, set A's share is 0.9991 for the February report, 0.9480 for March, 0.8532 for April, 0.2887 for May, 0.0091 for June and 0.0000 for July and August. In each year the share is at least 0.8636 in every month before the first month below 0.50, which is April in 2022, May in 2023 and 2024 and June in 2025. After that month no month reaches 0.50, except June 2022 (22.0 MW, 0.9091). A_built's first month below 0.50 is the same as A's in each of the four years. That is the shape of a cut-off: the early release holds what EIA had when it was compiled, and in 2025 the cut-off came one report later than in 2023 and 2024. PUDL's archive dates for the four early-release copies (2022-08-02, 2023-07-19, 2024-06-15 and 2025-06-12) do not run in the same order: the 2022 copy, with the earliest cut-off, was archived latest in its year. That is what we would expect if an archive date is when PUDL saved a copy rather than when EIA compiled it. A cut-off fits both a late annual filing and R2, so this does not separate them either.
+
+**Most of the capacity the early release lacked was at plants it did not list at all.** Of A's 17,171.8 MW absent from the early release (504 generators), 1,374.8 MW (0.0801) belongs to a plant with some other generator in the early release; for July-August it is 678.7 of 9,721.8 MW (0.0698). So the final release added mostly whole plants, not new units at plants the early release already held. This too fits both a plant's late annual filing and a plant that was new to EIA.
+
+**The Proposed sheet's other years grew between the copies.** The number of generators the annual file lists as proposed for a year other than Y rose from the early to the final release in every year (632 to 996 for 2022, 866 to 1,161 for 2023, 884 to 1,101 for 2024, 1,343 to 1,455 for 2025), while the number planned for Y fell in 2022 (921 to 846) and rose in the other three years.
+
+## Detail: counts behind check F3
+
+| year | final release Operable | in the early release | missing | share |
+|---|---|---|---|---|
+| 2022 | 24,645 | 24,589 | 56 | 0.997728 |
+| 2023 | 25,378 | 25,320 | 58 | 0.997715 |
+| 2024 | 26,010 | 25,950 | 60 | 0.997693 |
+| 2025 | 26,855 | 26,793 | 62 | 0.997691 |
+
+## Detail: set A's share in the early release's plan for Y, by report month of first listing
+
+| year | February | March | April | May | June | July | August | later |
+|---|---|---|---|---|---|---|---|---|
+| pooled | 0.9991 | 0.9480 | 0.8532 | 0.2887 | 0.0091 | 0.0000 | 0.0000 | 0.0068 |
+| 2022 | 1.0000 | 1.0000 | 0.3070 | 0.0320 | 0.9091 | 0.0000 | 0.0000 | 0.0000 |
+| 2023 | 1.0000 | 0.8636 | 1.0000 | 0.0617 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
+| 2024 | 0.9970 | 1.0000 | 0.9989 | 0.3139 | 0.0000 | 0.0000 | 0.0000 | 0.0209 |
+| 2025 | 1.0000 | 0.9971 | 1.0000 | 0.9583 | 0.0077 | 0.0000 | 0.0000 | - |
+
+"Later" is the September-December reports or after Y; "-" means no capacity. Each month's MW and A_built's shares are in the raw output.
+
+## Detail: plants of A's generators absent from the early release, pooled 2022-2025
+
+| span | generators | absent MW | MW at a plant in the early release | share |
+|---|---|---|---|---|
+| all | 504 | 17,171.8 | 1,374.8 | 0.0801 |
+| early | 1 | 3.0 | 3.0 | 1.0000 |
+| mid | 190 | 6,807.9 | 594.1 | 0.0873 |
+| late | 279 | 9,721.8 | 678.7 | 0.0698 |
+| edge | 34 | 639.1 | 99.0 | 0.1549 |
+
 ## Next
 
-- A descriptive follow-up job (`erdetail-v1`, not pre-registered) reports the counts behind F3 in each year, the early release's plan share by single report month from February to August, and, for A's generators missing from the early release, the MW whose plant has another generator in the early release (a new unit at a known plant, not a new plant).
+- A descriptive follow-up job (`erdetail-v1`, not pre-registered) reports the counts behind F3 in each year, the early release's plan share by single report month from February to August, and, for A's generators missing from the early release, the MW whose plant has another generator in the early release (a new unit at a known plant, not a new plant). Done on 21 October 2026: see Detail.
 - Our earlier notes that read PUDL's final annual tables as the annual plan for a year include this in-year capacity. Each will get a dated pointer to this result.
 - Telling a late annual filing from R2 would need the date each filing reached EIA, which EIA does not publish as far as we know. This line of tests stops here unless such a source turns up.

@@ -1,0 +1,14 @@
+test_class_counts (test_erdetail.F3Tests.test_class_counts) ... ok
+test_counts (test_erdetail.F3Tests.test_counts) ... ok
+test_no_operable (test_erdetail.F3Tests.test_no_operable) ... ok
+test_by_month (test_erdetail.MonthTests.test_by_month) ... ok
+test_month_of (test_erdetail.MonthTests.test_month_of) ... ok
+test_rows_without_class_skipped (test_erdetail.MonthTests.test_rows_without_class_skipped) ... ok
+test_plant_of (test_erdetail.PlantTests.test_plant_of) ... ok
+test_presence (test_erdetail.PlantTests.test_presence) ... ok
+test_render (test_erdetail.RenderTests.test_render) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
