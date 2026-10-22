@@ -1,0 +1,5431 @@
+{
+ "version": "0.1.0",
+ "layouts": "0.1.0",
+ "revert": "0.1.0",
+ "started_at": "2026-10-22T04:13:10Z",
+ "gate": {
+  "live": true,
+  "checks": 1,
+  "at": "2026-10-22T04:13:10Z",
+  "error": null
+ },
+ "prereg_commit": {
+  "sha": "889040e02da91aa8411ffb74b776e35925f09bb5",
+  "date": "2026-10-22T03:44:09Z"
+ },
+ "pudl": {
+  "file": "core_eia860m__changelog_generators.parquet",
+  "bytes": 2631992,
+  "mtime": "2026-10-18T14:08:42Z",
+  "max_report": "2026-08",
+  "rows": 224408
+ },
+ "datapackage": {
+  "read": true,
+  "tried": [
+   {
+    "url": "https://zenodo.org/api/records/22995197/files/datapackage.json/content",
+    "error": null
+   }
+  ],
+  "files": 12
+ },
+ "zips": [
+  {
+   "file": "eia860m-2015.zip",
+   "md5_page": "bc6a0c5b0aaefd81f5b4cca847bccff0",
+   "md5_datapackage": "bc6a0c5b0aaefd81f5b4cca847bccff0",
+   "cached": true,
+   "tried": [],
+   "bytes": 14177917,
+   "md5": "bc6a0c5b0aaefd81f5b4cca847bccff0",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2015,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2016.zip",
+   "md5_page": "3953d510a43dcf661a799c971c1014b0",
+   "md5_datapackage": "3953d510a43dcf661a799c971c1014b0",
+   "cached": true,
+   "tried": [],
+   "bytes": 38572095,
+   "md5": "3953d510a43dcf661a799c971c1014b0",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2016,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2017.zip",
+   "md5_page": "2443c5384580ddd71c81dfb056916a11",
+   "md5_datapackage": "2443c5384580ddd71c81dfb056916a11",
+   "cached": true,
+   "tried": [],
+   "bytes": 74481333,
+   "md5": "2443c5384580ddd71c81dfb056916a11",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2017,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2018.zip",
+   "md5_page": "acab1ebfa45b61d7822df1bae8169a0a",
+   "md5_datapackage": "acab1ebfa45b61d7822df1bae8169a0a",
+   "cached": true,
+   "tried": [],
+   "bytes": 84486051,
+   "md5": "acab1ebfa45b61d7822df1bae8169a0a",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2018,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2019.zip",
+   "md5_page": "b3a075a025dde6962458af9de2f5acd3",
+   "md5_datapackage": "b3a075a025dde6962458af9de2f5acd3",
+   "cached": true,
+   "tried": [],
+   "bytes": 89048615,
+   "md5": "b3a075a025dde6962458af9de2f5acd3",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2019,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2020.zip",
+   "md5_page": "c70b432d6fcb8bd8faaf0d32e6571cda",
+   "md5_datapackage": "c70b432d6fcb8bd8faaf0d32e6571cda",
+   "cached": true,
+   "tried": [],
+   "bytes": 93452349,
+   "md5": "c70b432d6fcb8bd8faaf0d32e6571cda",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2020,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2021.zip",
+   "md5_page": "e884f2fdffe9a962fa35bb82f7ea4145",
+   "md5_datapackage": "e884f2fdffe9a962fa35bb82f7ea4145",
+   "cached": true,
+   "tried": [],
+   "bytes": 97162273,
+   "md5": "e884f2fdffe9a962fa35bb82f7ea4145",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2021,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2022.zip",
+   "md5_page": "b7ac26d1a77f5731d75d95df3460182b",
+   "md5_datapackage": "b7ac26d1a77f5731d75d95df3460182b",
+   "cached": true,
+   "tried": [],
+   "bytes": 104783807,
+   "md5": "b7ac26d1a77f5731d75d95df3460182b",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2022,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2023.zip",
+   "md5_page": "de66d1e408ef7ca8cca5f7c2d044b792",
+   "md5_datapackage": "de66d1e408ef7ca8cca5f7c2d044b792",
+   "cached": true,
+   "tried": [],
+   "bytes": 110951576,
+   "md5": "de66d1e408ef7ca8cca5f7c2d044b792",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2023,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2024.zip",
+   "md5_page": "55592d39081c290b755b36f78e123be2",
+   "md5_datapackage": "55592d39081c290b755b36f78e123be2",
+   "cached": true,
+   "tried": [],
+   "bytes": 127335369,
+   "md5": "55592d39081c290b755b36f78e123be2",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2024,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2025.zip",
+   "md5_page": "b597d05e22b8631da27754957d7c9f8c",
+   "md5_datapackage": "b597d05e22b8631da27754957d7c9f8c",
+   "cached": true,
+   "tried": [],
+   "bytes": 149151275,
+   "md5": "b597d05e22b8631da27754957d7c9f8c",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2025,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2026.zip",
+   "md5_page": "380a9824a20be96d182fea793c299e91",
+   "md5_datapackage": "380a9824a20be96d182fea793c299e91",
+   "cached": true,
+   "tried": [],
+   "bytes": 105186810,
+   "md5": "380a9824a20be96d182fea793c299e91",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": true,
+   "year": 2026,
+   "ok": true
+  }
+ ],
+ "months": [
+  {
+   "month": "2015-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 23988,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-07.xlsx",
+   "md5": "f37c121bd05397e41f4f19c0149a7cd4",
+   "seconds": 3.7
+  },
+  {
+   "month": "2015-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 23986,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-08.xlsx",
+   "md5": "c89ffea1238c7aa05167ecda397b5c4b",
+   "seconds": 3.5
+  },
+  {
+   "month": "2015-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 23982,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-09.xlsx",
+   "md5": "2488d1cf31b292a06d902c774703b482",
+   "seconds": 3.5
+  },
+  {
+   "month": "2015-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 23974,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-10.xlsx",
+   "md5": "c0112af4296aa415ff2f751b09b1fdbb",
+   "seconds": 4.1
+  },
+  {
+   "month": "2015-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24104,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-11.xlsx",
+   "md5": "19d744328a5f31f2d8c4b39a17df2f9a",
+   "seconds": 4.7
+  },
+  {
+   "month": "2015-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24151,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2015-12.xlsx",
+   "md5": "0d93098f3f2289cb6135f282be63a58e",
+   "seconds": 5.2
+  },
+  {
+   "month": "2016-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24174,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2016-01.xlsx",
+   "md5": "576b88155d5f2090bc15c91d3cd0e99f",
+   "seconds": 5.8
+  },
+  {
+   "month": "2016-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24333,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2016-02.xlsx",
+   "md5": "91006277aaf6e3675e3cdd46692d2ec3",
+   "seconds": 6.2
+  },
+  {
+   "month": "2016-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24439,
+   "nameplate_sheets": [],
+   "other_capacity_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "member": "eia860m-2016-03.xlsx",
+   "md5": "3f97b92ca646b0abaa5f817f53036316",
+   "seconds": 5.5
+  },
+  {
+   "month": "2016-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24503,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-04.xlsx",
+   "md5": "7a45381178dbd5d212b37e8aad0ce4cb",
+   "seconds": 5.4
+  },
+  {
+   "month": "2016-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24532,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-05.xlsx",
+   "md5": "511fe5783aff34a3bd1977094c37f6de",
+   "seconds": 5.8
+  },
+  {
+   "month": "2016-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24568,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-06.xlsx",
+   "md5": "5d052bb45be49ad29c13ad77a391a6ec",
+   "seconds": 5.0
+  },
+  {
+   "month": "2016-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24592,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-07.xlsx",
+   "md5": "ee7af7dc92a02603e05844a110bc4afb",
+   "seconds": 171.3
+  },
+  {
+   "month": "2016-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24620,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-08.xlsx",
+   "md5": "df0abff109190e23b8630bcec3a024a7",
+   "seconds": 5.2
+  },
+  {
+   "month": "2016-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24612,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-09.xlsx",
+   "md5": "82e1c1b27ca8b2268ab37953a775d701",
+   "seconds": 5.2
+  },
+  {
+   "month": "2016-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24612,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-10.xlsx",
+   "md5": "c75f7c7928df80dd0096b047a6f952ec",
+   "seconds": 5.4
+  },
+  {
+   "month": "2016-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 24600,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-11.xlsx",
+   "md5": "53fa2fd802d01313407b8bab3d7de800",
+   "seconds": 4.8
+  },
+  {
+   "month": "2016-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 25157,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2016-12.xlsx",
+   "md5": "85be75a9bb50a0eb50dff7cd28d9fba9",
+   "seconds": 5.1
+  },
+  {
+   "month": "2017-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 25155,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-01.xlsx",
+   "md5": "a37924ef5654068337b7064f6f085463",
+   "seconds": 5.5
+  },
+  {
+   "month": "2017-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 25317,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-02.xlsx",
+   "md5": "96b95da1d4a6a81c58a0d7dc1766f397",
+   "seconds": 4.9
+  },
+  {
+   "month": "2017-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26092,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-03.xlsx",
+   "md5": "5262b184ef30267698fcece694f1ff17",
+   "seconds": 6.6
+  },
+  {
+   "month": "2017-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26234,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-04.xlsx",
+   "md5": "00db4b614399a5d760894dff78bab6bb",
+   "seconds": 6.5
+  },
+  {
+   "month": "2017-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26239,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-05.xlsx",
+   "md5": "f703f12dd6762a2f8d232a20726738a0",
+   "seconds": 6.8
+  },
+  {
+   "month": "2017-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26340,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-06.xlsx",
+   "md5": "394c22828c7a0c62dad81ae9ee8bd3f4",
+   "seconds": 7.7
+  },
+  {
+   "month": "2017-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26441,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-07.xlsx",
+   "md5": "2c8bff64ed213647f94cb08d68f1cc99",
+   "seconds": 7.4
+  },
+  {
+   "month": "2017-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26530,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-08.xlsx",
+   "md5": "eff89d40cab58c1caa812118a218c05f",
+   "seconds": 6.8
+  },
+  {
+   "month": "2017-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26645,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-09.xlsx",
+   "md5": "95f2f003a831a6b1d86d21698fd4d6b9",
+   "seconds": 6.7
+  },
+  {
+   "month": "2017-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26675,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-10.xlsx",
+   "md5": "4c5899d127f3932daf845cb813ba874a",
+   "seconds": 6.5
+  },
+  {
+   "month": "2017-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26727,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-11.xlsx",
+   "md5": "b9c013847e6add6675838d703b9a89bc",
+   "seconds": 6.6
+  },
+  {
+   "month": "2017-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26817,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2017-12.xlsx",
+   "md5": "64829adaa00ad05e3b392c6d41e24d55",
+   "seconds": 6.7
+  },
+  {
+   "month": "2018-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26884,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-01.xlsx",
+   "md5": "fc6c4786961d887b8bff63aaaaadc4c3",
+   "seconds": 6.7
+  },
+  {
+   "month": "2018-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 26965,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-02.xlsx",
+   "md5": "723a5590d9ed02cd9a745c032dca9087",
+   "seconds": 7.8
+  },
+  {
+   "month": "2018-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27026,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-03.xlsx",
+   "md5": "b9db7dfcdec2e4d27c01fb1f0fb255fa",
+   "seconds": 7.9
+  },
+  {
+   "month": "2018-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27071,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-04.xlsx",
+   "md5": "d22397a4f62548ce33869d37a692636a",
+   "seconds": 7.9
+  },
+  {
+   "month": "2018-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27135,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-05.xlsx",
+   "md5": "82d0e6ccd7bac2a8ea601c240c691d9a",
+   "seconds": 8.2
+  },
+  {
+   "month": "2018-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27185,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-06.xlsx",
+   "md5": "3fc05a20f0bac358925645596c9b2d96",
+   "seconds": 7.1
+  },
+  {
+   "month": "2018-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27238,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-07.xlsx",
+   "md5": "0f86b17cbe2d8057f45d499f85f642cd",
+   "seconds": 8.0
+  },
+  {
+   "month": "2018-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27329,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-08.xlsx",
+   "md5": "bdf0ef91c9d921d65fdcce144eda0d2e",
+   "seconds": 7.4
+  },
+  {
+   "month": "2018-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27438,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-09.xlsx",
+   "md5": "a0c1630cca9b3a91459e269f701247c2",
+   "seconds": 6.9
+  },
+  {
+   "month": "2018-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27463,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-10.xlsx",
+   "md5": "3455663c7a8ed29b758282e18113694d",
+   "seconds": 7.0
+  },
+  {
+   "month": "2018-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27598,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-11.xlsx",
+   "md5": "9929d2f9eca73287a4348e4a4ad8de78",
+   "seconds": 7.1
+  },
+  {
+   "month": "2018-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27740,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2018-12.xlsx",
+   "md5": "41f3bcfb573f59902cc848e91cd7e4bc",
+   "seconds": 7.1
+  },
+  {
+   "month": "2019-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 27916,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-01.xlsx",
+   "md5": "7e62b94028c734992f7ff2486214f6a8",
+   "seconds": 7.2
+  },
+  {
+   "month": "2019-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28006,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-02.xlsx",
+   "md5": "e44745c9beeb919120243eaf66919364",
+   "seconds": 7.7
+  },
+  {
+   "month": "2019-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28079,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-03.xlsx",
+   "md5": "a03a6db6794c208d70b84cf9908b5248",
+   "seconds": 8.2
+  },
+  {
+   "month": "2019-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28174,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-04.xlsx",
+   "md5": "58ff9e99f6f572251d6acf213277acc1",
+   "seconds": 8.5
+  },
+  {
+   "month": "2019-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28293,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-05.xlsx",
+   "md5": "f7b58e898ef073e518545352b4ef493b",
+   "seconds": 8.9
+  },
+  {
+   "month": "2019-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28409,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-06.xlsx",
+   "md5": "82514a4304024a6f54a86295a0dc6e40",
+   "seconds": 8.0
+  },
+  {
+   "month": "2019-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28443,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-07.xlsx",
+   "md5": "c8e37655d53e663238751215b8aaf264",
+   "seconds": 7.3
+  },
+  {
+   "month": "2019-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28595,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-08.xlsx",
+   "md5": "0c2b79a4bc38ee1cd2aece7769eb1d3b",
+   "seconds": 7.5
+  },
+  {
+   "month": "2019-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28721,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-09.xlsx",
+   "md5": "5adae9b205a9f24ae9193892d3fcc671",
+   "seconds": 7.4
+  },
+  {
+   "month": "2019-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28796,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-10.xlsx",
+   "md5": "d7893ed62b06e985272010d41d890f1c",
+   "seconds": 7.4
+  },
+  {
+   "month": "2019-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28924,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-11.xlsx",
+   "md5": "52e4eebe737f9d9f3f1653e46f193a75",
+   "seconds": 7.7
+  },
+  {
+   "month": "2019-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 28982,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2019-12.xlsx",
+   "md5": "daac035e1afa0ed999d6dc4a50816b0b",
+   "seconds": 8.0
+  },
+  {
+   "month": "2020-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29107,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-01.xlsx",
+   "md5": "4feb27df0f773146c2f689ad21fed2ca",
+   "seconds": 7.7
+  },
+  {
+   "month": "2020-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29229,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-02.xlsx",
+   "md5": "224bb69ee5774d6d06f79dba595e1ee7",
+   "seconds": 8.1
+  },
+  {
+   "month": "2020-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29314,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-03.xlsx",
+   "md5": "9672ad22b1898f8f0297b03d8d77dbfb",
+   "seconds": 7.7
+  },
+  {
+   "month": "2020-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29402,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-04.xlsx",
+   "md5": "4a56ba060e49f580fd59abf3bbacea9e",
+   "seconds": 7.6
+  },
+  {
+   "month": "2020-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29485,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-05.xlsx",
+   "md5": "c0c3c4c183352ac9abacdfb724cf6c3b",
+   "seconds": 7.7
+  },
+  {
+   "month": "2020-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29569,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-06.xlsx",
+   "md5": "2779459c2a0259fc3748e0023e407679",
+   "seconds": 7.4
+  },
+  {
+   "month": "2020-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29627,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-07.xlsx",
+   "md5": "894faf24d4ff9376b0fc4347588f7dff",
+   "seconds": 7.5
+  },
+  {
+   "month": "2020-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29708,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-08.xlsx",
+   "md5": "6889e8db920a4fd616faf2244ab276b1",
+   "seconds": 7.7
+  },
+  {
+   "month": "2020-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29790,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-09.xlsx",
+   "md5": "56776e91e842a5f782995914ba459faf",
+   "seconds": 8.3
+  },
+  {
+   "month": "2020-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29879,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-10.xlsx",
+   "md5": "cd49f4b6b1828270aa08e3034821c1fb",
+   "seconds": 8.0
+  },
+  {
+   "month": "2020-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 29978,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-11.xlsx",
+   "md5": "5f77e9a8498110fa7cb725f84e6580c0",
+   "seconds": 7.6
+  },
+  {
+   "month": "2020-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30095,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2020-12.xlsx",
+   "md5": "b815a2cfdedbc2dd3f123ac05f6cc05c",
+   "seconds": 7.9
+  },
+  {
+   "month": "2021-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30201,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-01.xlsx",
+   "md5": "4b66b1d4eb86cdf8320962732b75913a",
+   "seconds": 8.3
+  },
+  {
+   "month": "2021-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30310,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-02.xlsx",
+   "md5": "a9432c8f39dcb6b6bcc164ef30cb42ec",
+   "seconds": 8.2
+  },
+  {
+   "month": "2021-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30394,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-03.xlsx",
+   "md5": "d71431bd2f6bcdf4f3859f2347c02c45",
+   "seconds": 8.3
+  },
+  {
+   "month": "2021-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30482,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-04.xlsx",
+   "md5": "b0b31e2f1f69ad5aeb734b72ee94d74c",
+   "seconds": 7.7
+  },
+  {
+   "month": "2021-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30541,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-05.xlsx",
+   "md5": "418c6b5fcd7be20428f851b59cb129cd",
+   "seconds": 9.1
+  },
+  {
+   "month": "2021-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30658,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-06.xlsx",
+   "md5": "ad6eabae562c3361dd8f290787b9976a",
+   "seconds": 8.1
+  },
+  {
+   "month": "2021-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30737,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-07.xlsx",
+   "md5": "6b4b6edbdc703018a356698c419b9c53",
+   "seconds": 8.7
+  },
+  {
+   "month": "2021-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 30775,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-08.xlsx",
+   "md5": "620c6515252a8618f3ab676c36627a45",
+   "seconds": 8.8
+  },
+  {
+   "month": "2021-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31146,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-09.xlsx",
+   "md5": "75e4a0effd7aad00db9cafed5e2a9a4d",
+   "seconds": 8.3
+  },
+  {
+   "month": "2021-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31216,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-10.xlsx",
+   "md5": "ede749bc965c5980937c755220d8f735",
+   "seconds": 8.3
+  },
+  {
+   "month": "2021-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31313,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-11.xlsx",
+   "md5": "ae89d17648358f2cc9ad2e6c0abb5444",
+   "seconds": 7.8
+  },
+  {
+   "month": "2021-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31420,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2021-12.xlsx",
+   "md5": "a9484bd42b43b812fc3f353aca757920",
+   "seconds": 8.5
+  },
+  {
+   "month": "2022-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31558,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-01.xlsx",
+   "md5": "d96853e7d8712bf5d9f2dff5ceed03fc",
+   "seconds": 8.0
+  },
+  {
+   "month": "2022-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31623,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-02.xlsx",
+   "md5": "3189b5effab310e65f326304515fd6cd",
+   "seconds": 8.3
+  },
+  {
+   "month": "2022-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 31940,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-03.xlsx",
+   "md5": "fd0dec79b6944544ac3c40759f078b61",
+   "seconds": 9.0
+  },
+  {
+   "month": "2022-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32019,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-04.xlsx",
+   "md5": "344e4bd07455d0e95b9ba012aa2453bb",
+   "seconds": 9.3
+  },
+  {
+   "month": "2022-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32050,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-05.xlsx",
+   "md5": "b94a1bb4f3579630b6ef45caf4a708de",
+   "seconds": 8.8
+  },
+  {
+   "month": "2022-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32057,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-06.xlsx",
+   "md5": "592fdb918f449c56976d0b7c950b4443",
+   "seconds": 8.7
+  },
+  {
+   "month": "2022-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32125,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-07.xlsx",
+   "md5": "4ee57ad64c8f265a89022d27eee98c7d",
+   "seconds": 8.9
+  },
+  {
+   "month": "2022-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32297,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-08.xlsx",
+   "md5": "bea049ca9a1750b8520cb8d396382aa9",
+   "seconds": 8.7
+  },
+  {
+   "month": "2022-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32277,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-09.xlsx",
+   "md5": "c1640066bcccf25f318b8dcc66441bcb",
+   "seconds": 8.4
+  },
+  {
+   "month": "2022-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32371,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-10.xlsx",
+   "md5": "09c55b0d20852fa04a7915fc94dbd2cb",
+   "seconds": 8.6
+  },
+  {
+   "month": "2022-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32418,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-11.xlsx",
+   "md5": "5f44bb09fa03d4e0fa191d413d201aaf",
+   "seconds": 9.6
+  },
+  {
+   "month": "2022-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32488,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2022-12.xlsx",
+   "md5": "40aabf9a6e95dc8d96c1a0b644d0014c",
+   "seconds": 10.5
+  },
+  {
+   "month": "2023-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32618,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-01.xlsx",
+   "md5": "57c76a509bc05c1d28f132fe83aa68d0",
+   "seconds": 8.6
+  },
+  {
+   "month": "2023-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32739,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-02.xlsx",
+   "md5": "240f029d5dcd6af0aeaff6013d35b75a",
+   "seconds": 9.1
+  },
+  {
+   "month": "2023-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 32950,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-03.xlsx",
+   "md5": "03feee8b9df61dd3cabb8776e362b7e1",
+   "seconds": 8.7
+  },
+  {
+   "month": "2023-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33187,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-04.xlsx",
+   "md5": "2b770945dcddf8e2dd4d1391782ce0bf",
+   "seconds": 8.8
+  },
+  {
+   "month": "2023-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33217,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-05.xlsx",
+   "md5": "f55d559119859e3d6d65ff8ba138777b",
+   "seconds": 8.7
+  },
+  {
+   "month": "2023-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33300,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-06.xlsx",
+   "md5": "3c4ac1a280387ed840174ae8012d31fd",
+   "seconds": 9.2
+  },
+  {
+   "month": "2023-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33421,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-07.xlsx",
+   "md5": "daf0d2ba8d31e7f565ae5e32311548df",
+   "seconds": 10.2
+  },
+  {
+   "month": "2023-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33529,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-08.xlsx",
+   "md5": "c9251351affc28d02fc657dcb61a4b68",
+   "seconds": 8.9
+  },
+  {
+   "month": "2023-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33551,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-09.xlsx",
+   "md5": "aca08430ee9fbd1a00eda964a0647506",
+   "seconds": 9.5
+  },
+  {
+   "month": "2023-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33582,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-10.xlsx",
+   "md5": "e0827d20991eff74f79f832aaff300a2",
+   "seconds": 8.9
+  },
+  {
+   "month": "2023-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33636,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-11.xlsx",
+   "md5": "a6b938b95c4839f44b62890231c1e58c",
+   "seconds": 8.9
+  },
+  {
+   "month": "2023-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33719,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2023-12.xlsx",
+   "md5": "25bb7734fee4bc6367cac4adbb7b8299",
+   "seconds": 9.0
+  },
+  {
+   "month": "2024-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33791,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-01.xlsx",
+   "md5": "1c43733215c30c4d4d5e9f53db25b0f5",
+   "seconds": 9.2
+  },
+  {
+   "month": "2024-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 33953,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-02.xlsx",
+   "md5": "301c6d2faf6dc13d7eae0b448b086f30",
+   "seconds": 9.7
+  },
+  {
+   "month": "2024-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34138,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-03.xlsx",
+   "md5": "5f3fcf385ae1bc9b699fd0baf44cfd59",
+   "seconds": 10.0
+  },
+  {
+   "month": "2024-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34319,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-04.xlsx",
+   "md5": "9ba80cd710a736aea213dea47df5f6b0",
+   "seconds": 9.6
+  },
+  {
+   "month": "2024-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34443,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-05.xlsx",
+   "md5": "1556fc31e2f988a1fb4589959c2296f2",
+   "seconds": 9.4
+  },
+  {
+   "month": "2024-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34511,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-06.xlsx",
+   "md5": "e2aec12e8b5e8f94d34967ad418a1641",
+   "seconds": 9.8
+  },
+  {
+   "month": "2024-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34649,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-07.xlsx",
+   "md5": "82ca411a32c777e79958fe0ace3eccc2",
+   "seconds": 10.9
+  },
+  {
+   "month": "2024-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34741,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-08.xlsx",
+   "md5": "4f0576e6a05b2667b0740c70dcf8b8a4",
+   "seconds": 10.0
+  },
+  {
+   "month": "2024-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34825,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-09.xlsx",
+   "md5": "68e34fabac4fda5c337e5810baeb13c0",
+   "seconds": 10.1
+  },
+  {
+   "month": "2024-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 35035,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-10.xlsx",
+   "md5": "9defe23e9607dd944f6bbdb9ac495e9e",
+   "seconds": 9.7
+  },
+  {
+   "month": "2024-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 34983,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-11.xlsx",
+   "md5": "fc902dbcf91640cb465edbda03a9ed7d",
+   "seconds": 9.7
+  },
+  {
+   "month": "2024-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 35445,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2024-12.xlsx",
+   "md5": "e98fcfc7ef27811b19c7bf3eefa844a4",
+   "seconds": 9.7
+  },
+  {
+   "month": "2025-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 35599,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-01.xlsx",
+   "md5": "c7ae3e2599034e5b9cda041ca15fe579",
+   "seconds": 10.0
+  },
+  {
+   "month": "2025-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 35727,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-02.xlsx",
+   "md5": "68f19128d14a98045b984328f16b7523",
+   "seconds": 9.6
+  },
+  {
+   "month": "2025-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 35906,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-03.xlsx",
+   "md5": "690af5864449b141abeef90ecb7e5202",
+   "seconds": 10.1
+  },
+  {
+   "month": "2025-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36000,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-04.xlsx",
+   "md5": "b2cc74b43f9561492df67dc4b65f246d",
+   "seconds": 9.6
+  },
+  {
+   "month": "2025-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36064,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-05.xlsx",
+   "md5": "caa9fc7115b928dcfc0a7ad0b5527765",
+   "seconds": 9.7
+  },
+  {
+   "month": "2025-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36138,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-06.xlsx",
+   "md5": "c5a9e24c018e3094c5b7b32750d3ae4b",
+   "seconds": 10.6
+  },
+  {
+   "month": "2025-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36187,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-07.xlsx",
+   "md5": "cdea9714bbc1855c41a0d0db6748b38e",
+   "seconds": 11.4
+  },
+  {
+   "month": "2025-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36227,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-08.xlsx",
+   "md5": "3c9a3e5acc6dca9bc3d3a6e83585bfc6",
+   "seconds": 11.7
+  },
+  {
+   "month": "2025-09",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36338,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-09.xlsx",
+   "md5": "1e27458b0d64ed588833ca5bcbd61700",
+   "seconds": 11.4
+  },
+  {
+   "month": "2025-10",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36514,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-10.xlsx",
+   "md5": "68ba9309761ca690236004ec9cbdf89c",
+   "seconds": 10.4
+  },
+  {
+   "month": "2025-11",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36588,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-11.xlsx",
+   "md5": "b80a91e013ba62e3f5be2733e216e8a8",
+   "seconds": 10.7
+  },
+  {
+   "month": "2025-12",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36734,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2025-12.xlsx",
+   "md5": "c220bbcf11b3607b3734f94931819bbf",
+   "seconds": 10.4
+  },
+  {
+   "month": "2026-01",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36865,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-01.xlsx",
+   "md5": "6ef97d18d915c1937bd107dbe203976f",
+   "seconds": 10.5
+  },
+  {
+   "month": "2026-02",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 36890,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-02.xlsx",
+   "md5": "900bc382eb5219c231868dbf0e7675b9",
+   "seconds": 12.8
+  },
+  {
+   "month": "2026-03",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 37404,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-03.xlsx",
+   "md5": "1aaead25f79a9e58aa41ac8d0d4e4631",
+   "seconds": 11.6
+  },
+  {
+   "month": "2026-04",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 37480,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-04.xlsx",
+   "md5": "889f100d55a5b9871da6b32124e8061b",
+   "seconds": 12.3
+  },
+  {
+   "month": "2026-05",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 37629,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-05.xlsx",
+   "md5": "c4d1b5de42f4901c18f2bf1f3ec679b9",
+   "seconds": 11.2
+  },
+  {
+   "month": "2026-06",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 37779,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-06.xlsx",
+   "md5": "bf69d682d1f3a38815c62d6b4daacf0a",
+   "seconds": 10.9
+  },
+  {
+   "month": "2026-07",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 37957,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-07.xlsx",
+   "md5": "909590b91dbda698d0e63d813ced377c",
+   "seconds": 11.1
+  },
+  {
+   "month": "2026-08",
+   "readable": true,
+   "problems": [],
+   "duplicate_keys": 1,
+   "keys": 38011,
+   "nameplate_sheets": [
+    "Operating",
+    "Planned",
+    "Retired"
+   ],
+   "other_capacity_sheets": [],
+   "member": "eia860m-2026-08.xlsx",
+   "md5": "9727ac867236faab7d5503175dacdf38",
+   "seconds": 11.3
+  }
+ ],
+ "result": {
+  "years": {
+   "2015": {
+    "months": 6,
+    "workbook": 144185,
+    "with_pudl": 144185,
+    "units": 144185,
+    "disagree": 5,
+    "sim_stale": 6,
+    "hits": 5,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 0,
+    "held_before": 0,
+    "other": 0,
+    "coverage": 1.0,
+    "precision": 0.8333,
+    "keys_share": 1.0,
+    "hits_per_month": 0.83
+   },
+   "2016": {
+    "months": 12,
+    "workbook": 294742,
+    "with_pudl": 294742,
+    "units": 294742,
+    "disagree": 62,
+    "sim_stale": 159,
+    "hits": 56,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 6,
+    "held_before": 0,
+    "other": 0,
+    "coverage": 0.9032,
+    "precision": 0.3522,
+    "keys_share": 1.0,
+    "hits_per_month": 4.67
+   },
+   "2017": {
+    "months": 12,
+    "workbook": 315212,
+    "with_pudl": 315212,
+    "units": 315212,
+    "disagree": 219,
+    "sim_stale": 366,
+    "hits": 113,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 16,
+    "held_before": 90,
+    "other": 0,
+    "coverage": 0.516,
+    "precision": 0.3087,
+    "keys_share": 1.0,
+    "hits_per_month": 9.42
+   },
+   "2018": {
+    "months": 12,
+    "workbook": 327072,
+    "with_pudl": 327072,
+    "units": 327072,
+    "disagree": 438,
+    "sim_stale": 591,
+    "hits": 217,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 16,
+    "held_before": 205,
+    "other": 0,
+    "coverage": 0.4954,
+    "precision": 0.3672,
+    "keys_share": 1.0,
+    "hits_per_month": 18.08
+   },
+   "2019": {
+    "months": 12,
+    "workbook": 341338,
+    "with_pudl": 341338,
+    "units": 341338,
+    "disagree": 752,
+    "sim_stale": 1173,
+    "hits": 576,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 12,
+    "held_before": 164,
+    "other": 0,
+    "coverage": 0.766,
+    "precision": 0.491,
+    "keys_share": 1.0,
+    "hits_per_month": 48.0
+   },
+   "2020": {
+    "months": 12,
+    "workbook": 355183,
+    "with_pudl": 355183,
+    "units": 355183,
+    "disagree": 1295,
+    "sim_stale": 2050,
+    "hits": 1184,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 12,
+    "held_before": 99,
+    "other": 0,
+    "coverage": 0.9143,
+    "precision": 0.5776,
+    "keys_share": 1.0,
+    "hits_per_month": 98.67
+   },
+   "2021": {
+    "months": 12,
+    "workbook": 369193,
+    "with_pudl": 369193,
+    "units": 369193,
+    "disagree": 1507,
+    "sim_stale": 2515,
+    "hits": 1411,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 12,
+    "held_before": 84,
+    "other": 0,
+    "coverage": 0.9363,
+    "precision": 0.561,
+    "keys_share": 1.0,
+    "hits_per_month": 117.58
+   },
+   "2022": {
+    "months": 12,
+    "workbook": 385223,
+    "with_pudl": 385223,
+    "units": 385223,
+    "disagree": 1810,
+    "sim_stale": 3096,
+    "hits": 1739,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 3,
+    "held_before": 68,
+    "other": 0,
+    "coverage": 0.9608,
+    "precision": 0.5617,
+    "keys_share": 1.0,
+    "hits_per_month": 144.92
+   },
+   "2023": {
+    "months": 12,
+    "workbook": 399449,
+    "with_pudl": 399449,
+    "units": 399449,
+    "disagree": 2333,
+    "sim_stale": 3883,
+    "hits": 2253,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 5,
+    "held_before": 75,
+    "other": 0,
+    "coverage": 0.9657,
+    "precision": 0.5802,
+    "keys_share": 1.0,
+    "hits_per_month": 187.75
+   },
+   "2024": {
+    "months": 12,
+    "workbook": 414833,
+    "with_pudl": 414833,
+    "units": 414833,
+    "disagree": 2774,
+    "sim_stale": 4607,
+    "hits": 2667,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 12,
+    "held_before": 95,
+    "other": 0,
+    "coverage": 0.9614,
+    "precision": 0.5789,
+    "keys_share": 1.0,
+    "hits_per_month": 222.25
+   },
+   "2025": {
+    "months": 12,
+    "workbook": 434022,
+    "with_pudl": 434022,
+    "units": 434022,
+    "disagree": 3611,
+    "sim_stale": 5610,
+    "hits": 3400,
+    "workbook_only": 0,
+    "workbook_only_held": 0,
+    "pudl_later": 35,
+    "held_before": 176,
+    "other": 0,
+    "coverage": 0.9416,
+    "precision": 0.6061,
+    "keys_share": 1.0,
+    "hits_per_month": 283.33
+   },
+   "2026": {
+    "months": 8,
+    "workbook": 300015,
+    "with_pudl": 299999,
+    "units": 299999,
+    "disagree": 2387,
+    "sim_stale": 4241,
+    "hits": 2280,
+    "workbook_only": 16,
+    "workbook_only_held": 0,
+    "pudl_later": 12,
+    "held_before": 95,
+    "other": 0,
+    "coverage": 0.9552,
+    "precision": 0.5376,
+    "keys_share": 0.9999,
+    "hits_per_month": 285.0
+   }
+  },
+  "total": {
+   "months": 134,
+   "workbook": 4080467,
+   "with_pudl": 4080451,
+   "units": 4080451,
+   "disagree": 17193,
+   "sim_stale": 28297,
+   "hits": 15901,
+   "workbook_only": 16,
+   "workbook_only_held": 0,
+   "pudl_later": 141,
+   "held_before": 1151,
+   "other": 0,
+   "coverage": 0.9249,
+   "precision": 0.5619,
+   "keys_share": 1.0,
+   "hits_per_month": 118.66
+  },
+  "by_month": [
+   {
+    "month": "2015-07",
+    "units": 23988,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2015-08",
+    "units": 23986,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2015-09",
+    "units": 23982,
+    "disagree": 2,
+    "hits": 2
+   },
+   {
+    "month": "2015-10",
+    "units": 23974,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2015-11",
+    "units": 24104,
+    "disagree": 3,
+    "hits": 3
+   },
+   {
+    "month": "2015-12",
+    "units": 24151,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-01",
+    "units": 24174,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-02",
+    "units": 24333,
+    "disagree": 14,
+    "hits": 14
+   },
+   {
+    "month": "2016-03",
+    "units": 24439,
+    "disagree": 31,
+    "hits": 25
+   },
+   {
+    "month": "2016-04",
+    "units": 24503,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-05",
+    "units": 24532,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-06",
+    "units": 24568,
+    "disagree": 5,
+    "hits": 5
+   },
+   {
+    "month": "2016-07",
+    "units": 24592,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-08",
+    "units": 24620,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2016-09",
+    "units": 24612,
+    "disagree": 1,
+    "hits": 1
+   },
+   {
+    "month": "2016-10",
+    "units": 24612,
+    "disagree": 5,
+    "hits": 5
+   },
+   {
+    "month": "2016-11",
+    "units": 24600,
+    "disagree": 5,
+    "hits": 5
+   },
+   {
+    "month": "2016-12",
+    "units": 25157,
+    "disagree": 1,
+    "hits": 1
+   },
+   {
+    "month": "2017-01",
+    "units": 25155,
+    "disagree": 0,
+    "hits": 0
+   },
+   {
+    "month": "2017-02",
+    "units": 25317,
+    "disagree": 2,
+    "hits": 2
+   },
+   {
+    "month": "2017-03",
+    "units": 26092,
+    "disagree": 1,
+    "hits": 1
+   },
+   {
+    "month": "2017-04",
+    "units": 26234,
+    "disagree": 21,
+    "hits": 21
+   },
+   {
+    "month": "2017-05",
+    "units": 26239,
+    "disagree": 24,
+    "hits": 24
+   },
+   {
+    "month": "2017-06",
+    "units": 26340,
+    "disagree": 23,
+    "hits": 23
+   },
+   {
+    "month": "2017-07",
+    "units": 26441,
+    "disagree": 28,
+    "hits": 27
+   },
+   {
+    "month": "2017-08",
+    "units": 26530,
+    "disagree": 22,
+    "hits": 9
+   },
+   {
+    "month": "2017-09",
+    "units": 26645,
+    "disagree": 24,
+    "hits": 1
+   },
+   {
+    "month": "2017-10",
+    "units": 26675,
+    "disagree": 24,
+    "hits": 1
+   },
+   {
+    "month": "2017-11",
+    "units": 26727,
+    "disagree": 25,
+    "hits": 2
+   },
+   {
+    "month": "2017-12",
+    "units": 26817,
+    "disagree": 25,
+    "hits": 2
+   },
+   {
+    "month": "2018-01",
+    "units": 26884,
+    "disagree": 35,
+    "hits": 12
+   },
+   {
+    "month": "2018-02",
+    "units": 26965,
+    "disagree": 36,
+    "hits": 14
+   },
+   {
+    "month": "2018-03",
+    "units": 27026,
+    "disagree": 41,
+    "hits": 24
+   },
+   {
+    "month": "2018-04",
+    "units": 27071,
+    "disagree": 38,
+    "hits": 18
+   },
+   {
+    "month": "2018-05",
+    "units": 27135,
+    "disagree": 40,
+    "hits": 20
+   },
+   {
+    "month": "2018-06",
+    "units": 27185,
+    "disagree": 36,
+    "hits": 19
+   },
+   {
+    "month": "2018-07",
+    "units": 27238,
+    "disagree": 35,
+    "hits": 18
+   },
+   {
+    "month": "2018-08",
+    "units": 27329,
+    "disagree": 34,
+    "hits": 17
+   },
+   {
+    "month": "2018-09",
+    "units": 27438,
+    "disagree": 35,
+    "hits": 18
+   },
+   {
+    "month": "2018-10",
+    "units": 27463,
+    "disagree": 35,
+    "hits": 18
+   },
+   {
+    "month": "2018-11",
+    "units": 27598,
+    "disagree": 34,
+    "hits": 17
+   },
+   {
+    "month": "2018-12",
+    "units": 27740,
+    "disagree": 39,
+    "hits": 22
+   },
+   {
+    "month": "2019-01",
+    "units": 27916,
+    "disagree": 53,
+    "hits": 36
+   },
+   {
+    "month": "2019-02",
+    "units": 28006,
+    "disagree": 61,
+    "hits": 46
+   },
+   {
+    "month": "2019-03",
+    "units": 28079,
+    "disagree": 59,
+    "hits": 44
+   },
+   {
+    "month": "2019-04",
+    "units": 28174,
+    "disagree": 62,
+    "hits": 47
+   },
+   {
+    "month": "2019-05",
+    "units": 28293,
+    "disagree": 62,
+    "hits": 47
+   },
+   {
+    "month": "2019-06",
+    "units": 28409,
+    "disagree": 61,
+    "hits": 46
+   },
+   {
+    "month": "2019-07",
+    "units": 28443,
+    "disagree": 61,
+    "hits": 46
+   },
+   {
+    "month": "2019-08",
+    "units": 28595,
+    "disagree": 61,
+    "hits": 46
+   },
+   {
+    "month": "2019-09",
+    "units": 28721,
+    "disagree": 61,
+    "hits": 47
+   },
+   {
+    "month": "2019-10",
+    "units": 28796,
+    "disagree": 62,
+    "hits": 48
+   },
+   {
+    "month": "2019-11",
+    "units": 28924,
+    "disagree": 65,
+    "hits": 51
+   },
+   {
+    "month": "2019-12",
+    "units": 28982,
+    "disagree": 84,
+    "hits": 72
+   },
+   {
+    "month": "2020-01",
+    "units": 29107,
+    "disagree": 122,
+    "hits": 110
+   },
+   {
+    "month": "2020-02",
+    "units": 29229,
+    "disagree": 114,
+    "hits": 102
+   },
+   {
+    "month": "2020-03",
+    "units": 29314,
+    "disagree": 108,
+    "hits": 96
+   },
+   {
+    "month": "2020-04",
+    "units": 29402,
+    "disagree": 119,
+    "hits": 107
+   },
+   {
+    "month": "2020-05",
+    "units": 29485,
+    "disagree": 135,
+    "hits": 125
+   },
+   {
+    "month": "2020-06",
+    "units": 29569,
+    "disagree": 99,
+    "hits": 91
+   },
+   {
+    "month": "2020-07",
+    "units": 29627,
+    "disagree": 103,
+    "hits": 95
+   },
+   {
+    "month": "2020-08",
+    "units": 29708,
+    "disagree": 101,
+    "hits": 93
+   },
+   {
+    "month": "2020-09",
+    "units": 29790,
+    "disagree": 100,
+    "hits": 92
+   },
+   {
+    "month": "2020-10",
+    "units": 29879,
+    "disagree": 98,
+    "hits": 91
+   },
+   {
+    "month": "2020-11",
+    "units": 29978,
+    "disagree": 99,
+    "hits": 92
+   },
+   {
+    "month": "2020-12",
+    "units": 30095,
+    "disagree": 97,
+    "hits": 90
+   },
+   {
+    "month": "2021-01",
+    "units": 30201,
+    "disagree": 112,
+    "hits": 104
+   },
+   {
+    "month": "2021-02",
+    "units": 30310,
+    "disagree": 112,
+    "hits": 104
+   },
+   {
+    "month": "2021-03",
+    "units": 30394,
+    "disagree": 130,
+    "hits": 122
+   },
+   {
+    "month": "2021-04",
+    "units": 30482,
+    "disagree": 132,
+    "hits": 124
+   },
+   {
+    "month": "2021-05",
+    "units": 30541,
+    "disagree": 129,
+    "hits": 121
+   },
+   {
+    "month": "2021-06",
+    "units": 30658,
+    "disagree": 127,
+    "hits": 119
+   },
+   {
+    "month": "2021-07",
+    "units": 30737,
+    "disagree": 126,
+    "hits": 118
+   },
+   {
+    "month": "2021-08",
+    "units": 30775,
+    "disagree": 128,
+    "hits": 120
+   },
+   {
+    "month": "2021-09",
+    "units": 31146,
+    "disagree": 127,
+    "hits": 119
+   },
+   {
+    "month": "2021-10",
+    "units": 31216,
+    "disagree": 125,
+    "hits": 117
+   },
+   {
+    "month": "2021-11",
+    "units": 31313,
+    "disagree": 129,
+    "hits": 121
+   },
+   {
+    "month": "2021-12",
+    "units": 31420,
+    "disagree": 130,
+    "hits": 122
+   },
+   {
+    "month": "2022-01",
+    "units": 31558,
+    "disagree": 148,
+    "hits": 140
+   },
+   {
+    "month": "2022-02",
+    "units": 31623,
+    "disagree": 150,
+    "hits": 142
+   },
+   {
+    "month": "2022-03",
+    "units": 31940,
+    "disagree": 156,
+    "hits": 149
+   },
+   {
+    "month": "2022-04",
+    "units": 32019,
+    "disagree": 147,
+    "hits": 141
+   },
+   {
+    "month": "2022-05",
+    "units": 32050,
+    "disagree": 152,
+    "hits": 146
+   },
+   {
+    "month": "2022-06",
+    "units": 32057,
+    "disagree": 149,
+    "hits": 143
+   },
+   {
+    "month": "2022-07",
+    "units": 32125,
+    "disagree": 153,
+    "hits": 148
+   },
+   {
+    "month": "2022-08",
+    "units": 32297,
+    "disagree": 159,
+    "hits": 154
+   },
+   {
+    "month": "2022-09",
+    "units": 32277,
+    "disagree": 150,
+    "hits": 145
+   },
+   {
+    "month": "2022-10",
+    "units": 32371,
+    "disagree": 150,
+    "hits": 145
+   },
+   {
+    "month": "2022-11",
+    "units": 32418,
+    "disagree": 146,
+    "hits": 141
+   },
+   {
+    "month": "2022-12",
+    "units": 32488,
+    "disagree": 150,
+    "hits": 145
+   },
+   {
+    "month": "2023-01",
+    "units": 32618,
+    "disagree": 158,
+    "hits": 153
+   },
+   {
+    "month": "2023-02",
+    "units": 32739,
+    "disagree": 176,
+    "hits": 171
+   },
+   {
+    "month": "2023-03",
+    "units": 32950,
+    "disagree": 189,
+    "hits": 183
+   },
+   {
+    "month": "2023-04",
+    "units": 33187,
+    "disagree": 209,
+    "hits": 203
+   },
+   {
+    "month": "2023-05",
+    "units": 33217,
+    "disagree": 205,
+    "hits": 199
+   },
+   {
+    "month": "2023-06",
+    "units": 33300,
+    "disagree": 216,
+    "hits": 210
+   },
+   {
+    "month": "2023-07",
+    "units": 33421,
+    "disagree": 200,
+    "hits": 194
+   },
+   {
+    "month": "2023-08",
+    "units": 33529,
+    "disagree": 197,
+    "hits": 189
+   },
+   {
+    "month": "2023-09",
+    "units": 33551,
+    "disagree": 193,
+    "hits": 185
+   },
+   {
+    "month": "2023-10",
+    "units": 33582,
+    "disagree": 192,
+    "hits": 184
+   },
+   {
+    "month": "2023-11",
+    "units": 33636,
+    "disagree": 194,
+    "hits": 186
+   },
+   {
+    "month": "2023-12",
+    "units": 33719,
+    "disagree": 204,
+    "hits": 196
+   },
+   {
+    "month": "2024-01",
+    "units": 33791,
+    "disagree": 209,
+    "hits": 201
+   },
+   {
+    "month": "2024-02",
+    "units": 33953,
+    "disagree": 221,
+    "hits": 212
+   },
+   {
+    "month": "2024-03",
+    "units": 34138,
+    "disagree": 223,
+    "hits": 214
+   },
+   {
+    "month": "2024-04",
+    "units": 34319,
+    "disagree": 224,
+    "hits": 215
+   },
+   {
+    "month": "2024-05",
+    "units": 34443,
+    "disagree": 234,
+    "hits": 225
+   },
+   {
+    "month": "2024-06",
+    "units": 34511,
+    "disagree": 241,
+    "hits": 232
+   },
+   {
+    "month": "2024-07",
+    "units": 34649,
+    "disagree": 241,
+    "hits": 232
+   },
+   {
+    "month": "2024-08",
+    "units": 34741,
+    "disagree": 235,
+    "hits": 226
+   },
+   {
+    "month": "2024-09",
+    "units": 34825,
+    "disagree": 236,
+    "hits": 227
+   },
+   {
+    "month": "2024-10",
+    "units": 35035,
+    "disagree": 236,
+    "hits": 227
+   },
+   {
+    "month": "2024-11",
+    "units": 34983,
+    "disagree": 238,
+    "hits": 229
+   },
+   {
+    "month": "2024-12",
+    "units": 35445,
+    "disagree": 236,
+    "hits": 227
+   },
+   {
+    "month": "2025-01",
+    "units": 35599,
+    "disagree": 250,
+    "hits": 241
+   },
+   {
+    "month": "2025-02",
+    "units": 35727,
+    "disagree": 260,
+    "hits": 251
+   },
+   {
+    "month": "2025-03",
+    "units": 35906,
+    "disagree": 312,
+    "hits": 297
+   },
+   {
+    "month": "2025-04",
+    "units": 36000,
+    "disagree": 310,
+    "hits": 295
+   },
+   {
+    "month": "2025-05",
+    "units": 36064,
+    "disagree": 295,
+    "hits": 278
+   },
+   {
+    "month": "2025-06",
+    "units": 36138,
+    "disagree": 318,
+    "hits": 302
+   },
+   {
+    "month": "2025-07",
+    "units": 36187,
+    "disagree": 310,
+    "hits": 293
+   },
+   {
+    "month": "2025-08",
+    "units": 36227,
+    "disagree": 313,
+    "hits": 290
+   },
+   {
+    "month": "2025-09",
+    "units": 36338,
+    "disagree": 313,
+    "hits": 290
+   },
+   {
+    "month": "2025-10",
+    "units": 36514,
+    "disagree": 314,
+    "hits": 291
+   },
+   {
+    "month": "2025-11",
+    "units": 36588,
+    "disagree": 313,
+    "hits": 290
+   },
+   {
+    "month": "2025-12",
+    "units": 36734,
+    "disagree": 303,
+    "hits": 282
+   },
+   {
+    "month": "2026-01",
+    "units": 36865,
+    "disagree": 272,
+    "hits": 251
+   },
+   {
+    "month": "2026-02",
+    "units": 36890,
+    "disagree": 289,
+    "hits": 269
+   },
+   {
+    "month": "2026-03",
+    "units": 37404,
+    "disagree": 295,
+    "hits": 284
+   },
+   {
+    "month": "2026-04",
+    "units": 37480,
+    "disagree": 300,
+    "hits": 289
+   },
+   {
+    "month": "2026-05",
+    "units": 37629,
+    "disagree": 315,
+    "hits": 304
+   },
+   {
+    "month": "2026-06",
+    "units": 37779,
+    "disagree": 313,
+    "hits": 302
+   },
+   {
+    "month": "2026-07",
+    "units": 37957,
+    "disagree": 303,
+    "hits": 292
+   },
+   {
+    "month": "2026-08",
+    "units": 37995,
+    "disagree": 300,
+    "hits": 289
+   }
+  ],
+  "pairs": [
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OA",
+    "n": 10800
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OS",
+    "n": 1132
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "SB",
+    "n": 614
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "RE",
+    "n": 589
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OS",
+    "n": 440
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OA",
+    "n": 424
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "OP",
+    "pudl": "OP",
+    "n": 403
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OP",
+    "n": 402
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "SB",
+    "pudl": "OP",
+    "n": 298
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OP",
+    "n": 247
+   },
+   {
+    "kind": "held_before",
+    "field": "MW",
+    "workbook": "OP",
+    "pudl": "OP",
+    "n": 218
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OP",
+    "n": 210
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OA",
+    "n": 158
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "U",
+    "pudl": "U",
+    "n": 142
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "V",
+    "pudl": "V",
+    "n": 136
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OP",
+    "n": 99
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "SB",
+    "n": 97
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "P",
+    "pudl": "P",
+    "n": 95
+   },
+   {
+    "kind": "pudl_later",
+    "field": "MW",
+    "workbook": "OP",
+    "pudl": "OP",
+    "n": 79
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "RE",
+    "pudl": "OP",
+    "n": 77
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "T",
+    "pudl": "T",
+    "n": 69
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "L",
+    "pudl": "L",
+    "n": 56
+   },
+   {
+    "kind": "pudl_later",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "SB",
+    "n": 42
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "L",
+    "pudl": "P",
+    "n": 34
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "V",
+    "pudl": "U",
+    "n": 27
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "U",
+    "pudl": "L",
+    "n": 25
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "SB",
+    "n": 24
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "SB",
+    "pudl": "OA",
+    "n": 22
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "P",
+    "pudl": "L",
+    "n": 17
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "U",
+    "pudl": "V",
+    "n": 16
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "U",
+    "pudl": "T",
+    "n": 14
+   },
+   {
+    "kind": "predicted",
+    "field": "planned month",
+    "workbook": "TS",
+    "pudl": "TS",
+    "n": 14
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "RE",
+    "n": 12
+   },
+   {
+    "kind": "held_before",
+    "field": "planned month",
+    "workbook": "U",
+    "pudl": "U",
+    "n": 12
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "RE",
+    "n": 12
+   },
+   {
+    "kind": "pudl_later",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OA",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "T",
+    "pudl": "U",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "T",
+    "pudl": "L",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "T",
+    "pudl": "P",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "L",
+    "pudl": "T",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "L",
+    "pudl": "L",
+    "n": 8
+   },
+   {
+    "kind": "held_before",
+    "field": "planned month",
+    "workbook": "L",
+    "pudl": "L",
+    "n": 8
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "RE",
+    "pudl": "OS",
+    "n": 7
+   },
+   {
+    "kind": "pudl_later",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "OP",
+    "n": 7
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "U",
+    "pudl": "U",
+    "n": 7
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "T",
+    "pudl": "T",
+    "n": 7
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "SB",
+    "pudl": "OS",
+    "n": 7
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "TS",
+    "pudl": "V",
+    "n": 7
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OA",
+    "pudl": "SB",
+    "n": 7
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "P",
+    "pudl": "P",
+    "n": 6
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "U",
+    "pudl": "P",
+    "n": 5
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "V",
+    "pudl": "V",
+    "n": 4
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "SB",
+    "n": 3
+   },
+   {
+    "kind": "pudl_later",
+    "field": "status",
+    "workbook": "RE",
+    "pudl": "OP",
+    "n": 2
+   },
+   {
+    "kind": "pudl_later",
+    "field": "planned month",
+    "workbook": "P",
+    "pudl": "P",
+    "n": 2
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "V",
+    "pudl": "TS",
+    "n": 2
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "L",
+    "pudl": "U",
+    "n": 2
+   },
+   {
+    "kind": "pudl_later",
+    "field": "status",
+    "workbook": "OS",
+    "pudl": "OP",
+    "n": 1
+   },
+   {
+    "kind": "predicted",
+    "field": "MW",
+    "workbook": "TS",
+    "pudl": "TS",
+    "n": 1
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "P",
+    "pudl": "U",
+    "n": 1
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "P",
+    "pudl": "TS",
+    "n": 1
+   },
+   {
+    "kind": "predicted",
+    "field": "status",
+    "workbook": "V",
+    "pudl": "OP",
+    "n": 1
+   },
+   {
+    "kind": "held_before",
+    "field": "status",
+    "workbook": "OP",
+    "pudl": "OS",
+    "n": 1
+   }
+  ],
+  "events": {
+   "2015": {
+    "first": 24193,
+    "changed": 1472,
+    "left": 43,
+    "back": 1
+   },
+   "2016": {
+    "first": 1174,
+    "changed": 27603,
+    "left": 178,
+    "back": 10
+   },
+   "2017": {
+    "first": 2008,
+    "changed": 4200,
+    "left": 372,
+    "back": 24
+   },
+   "2018": {
+    "first": 1067,
+    "changed": 3241,
+    "left": 169,
+    "back": 25
+   },
+   "2019": {
+    "first": 1373,
+    "changed": 3776,
+    "left": 160,
+    "back": 29
+   },
+   "2020": {
+    "first": 1265,
+    "changed": 4401,
+    "left": 192,
+    "back": 40
+   },
+   "2021": {
+    "first": 1440,
+    "changed": 4852,
+    "left": 155,
+    "back": 40
+   },
+   "2022": {
+    "first": 1232,
+    "changed": 4543,
+    "left": 194,
+    "back": 30
+   },
+   "2023": {
+    "first": 1356,
+    "changed": 5139,
+    "left": 152,
+    "back": 27
+   },
+   "2024": {
+    "first": 1884,
+    "changed": 5440,
+    "left": 471,
+    "back": 313
+   },
+   "2025": {
+    "first": 1472,
+    "changed": 5329,
+    "left": 219,
+    "back": 36
+   },
+   "2026": {
+    "first": 1455,
+    "changed": 4061,
+    "left": 216,
+    "back": 38
+   }
+  },
+  "samples": [
+   {
+    "year": 2016,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "10382/GEN1",
+      "month": "2016-03",
+      "workbook": "OP, -, - MW",
+      "pudl": "OA, -, - MW",
+      "pudl_reported": "2016-02"
+     },
+     {
+      "key": "10789/GEN3",
+      "month": "2016-03",
+      "workbook": "OS, -, - MW",
+      "pudl": "OP, -, - MW",
+      "pudl_reported": "2016-02"
+     },
+     {
+      "key": "3319/1",
+      "month": "2016-03",
+      "workbook": "RE, -, - MW",
+      "pudl": "OP, -, - MW",
+      "pudl_reported": "2016-02"
+     },
+     {
+      "key": "3319/2",
+      "month": "2016-03",
+      "workbook": "RE, -, - MW",
+      "pudl": "OP, -, - MW",
+      "pudl_reported": "2016-02"
+     },
+     {
+      "key": "56352/1",
+      "month": "2016-03",
+      "workbook": "P, 2020-05, - MW",
+      "pudl": "P, 2019-05, - MW",
+      "pudl_reported": "2016-02"
+     },
+     {
+      "key": "56352/2",
+      "month": "2016-03",
+      "workbook": "P, 2023-05, - MW",
+      "pudl": "P, 2021-05, - MW",
+      "pudl_reported": "2016-02"
+     }
+    ]
+   },
+   {
+    "year": 2017,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2017-08",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/12",
+      "month": "2017-08",
+      "workbook": "OA, -, 66.5 MW",
+      "pudl": "OP, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/7",
+      "month": "2017-08",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/8",
+      "month": "2017-08",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2017-08",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2017-08",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/6",
+      "month": "2017-08",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/1",
+      "month": "2017-08",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/2",
+      "month": "2017-08",
+      "workbook": "OA, -, 90.0 MW",
+      "pudl": "OP, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/1",
+      "month": "2017-08",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2017,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "59485/PV2",
+      "month": "2017-07",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2017-08",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/5",
+      "month": "2017-08",
+      "workbook": "OA, -, 111.0 MW",
+      "pudl": "OP, -, 111.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2017-08",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2017-09",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/5",
+      "month": "2017-09",
+      "workbook": "OA, -, 111.0 MW",
+      "pudl": "OP, -, 111.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2017-09",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2017-10",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/5",
+      "month": "2017-10",
+      "workbook": "OA, -, 111.0 MW",
+      "pudl": "OP, -, 111.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2017-10",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2018,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2018-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/12",
+      "month": "2018-01",
+      "workbook": "OA, -, 66.5 MW",
+      "pudl": "OP, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/7",
+      "month": "2018-01",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/8",
+      "month": "2018-01",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2018-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2018-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/6",
+      "month": "2018-01",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3655/1",
+      "month": "2018-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/2",
+      "month": "2018-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/4",
+      "month": "2018-01",
+      "workbook": "OS, -, 5.5 MW",
+      "pudl": "OP, -, 5.5 MW",
+      "pudl_reported": "2017-07"
+     }
+    ]
+   },
+   {
+    "year": 2018,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "3925/3",
+      "month": "2018-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/5",
+      "month": "2018-01",
+      "workbook": "OA, -, 111.0 MW",
+      "pudl": "OP, -, 111.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-01",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2018-02",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/5",
+      "month": "2018-02",
+      "workbook": "OA, -, 111.0 MW",
+      "pudl": "OP, -, 111.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-02",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-03",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-04",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-05",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2018-06",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2019,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2019-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2019-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2019-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/6",
+      "month": "2019-01",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3655/1",
+      "month": "2019-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/2",
+      "month": "2019-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/4",
+      "month": "2019-01",
+      "workbook": "OS, -, 5.5 MW",
+      "pudl": "OP, -, 5.5 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3925/1",
+      "month": "2019-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/2",
+      "month": "2019-01",
+      "workbook": "OA, -, 90.0 MW",
+      "pudl": "OP, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "56666/1",
+      "month": "2019-01",
+      "workbook": "OP, -, 94.0 MW",
+      "pudl": "OP, -, 97.8 MW",
+      "pudl_reported": "2017-07"
+     }
+    ]
+   },
+   {
+    "year": 2019,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "59485/PV2",
+      "month": "2019-01",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-02",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-03",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-04",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-05",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-06",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-07",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-08",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-09",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2019-10",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2020,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2020-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2020-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2020-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3082/6",
+      "month": "2020-01",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3655/1",
+      "month": "2020-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/2",
+      "month": "2020-01",
+      "workbook": "OS, -, 2.4 MW",
+      "pudl": "OP, -, 2.4 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3655/4",
+      "month": "2020-01",
+      "workbook": "OS, -, 5.5 MW",
+      "pudl": "OP, -, 5.5 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "3925/1",
+      "month": "2020-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "56841/2",
+      "month": "2020-01",
+      "workbook": "OP, -, 39.0 MW",
+      "pudl": "OP, -, 40.7 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "57299/1",
+      "month": "2020-01",
+      "workbook": "OP, -, 111.0 MW",
+      "pudl": "OP, -, 115.8 MW",
+      "pudl_reported": "2017-07"
+     }
+    ]
+   },
+   {
+    "year": 2020,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "59485/PV2",
+      "month": "2020-01",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-02",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-03",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-04",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-05",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-06",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-07",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-08",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-09",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2020-10",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2021,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2021-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2021-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2021-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3925/1",
+      "month": "2021-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "57299/1",
+      "month": "2021-01",
+      "workbook": "OP, -, 111.0 MW",
+      "pudl": "OP, -, 115.8 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "57949/2",
+      "month": "2021-01",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/2",
+      "month": "2021-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-12"
+     },
+     {
+      "key": "3075/11",
+      "month": "2021-02",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2021-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2021-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     }
+    ]
+   },
+   {
+    "year": 2021,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "59485/PV2",
+      "month": "2021-01",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-02",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-03",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-04",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-05",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-06",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-07",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-08",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-09",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2021-10",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2022,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2022-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2022-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2022-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3925/1",
+      "month": "2022-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "57299/1",
+      "month": "2022-01",
+      "workbook": "OP, -, 111.0 MW",
+      "pudl": "OP, -, 115.8 MW",
+      "pudl_reported": "2017-07"
+     },
+     {
+      "key": "57949/2",
+      "month": "2022-01",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/2",
+      "month": "2022-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-12"
+     },
+     {
+      "key": "3075/11",
+      "month": "2022-02",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2022-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2022-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     }
+    ]
+   },
+   {
+    "year": 2022,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "59485/PV2",
+      "month": "2022-01",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2022-02",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "59485/PV2",
+      "month": "2022-03",
+      "workbook": "OP, -, 2.2 MW",
+      "pudl": "OP, -, 1.2 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2023,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3082/2",
+      "month": "2023-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2023-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3925/1",
+      "month": "2023-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2022-07"
+     },
+     {
+      "key": "57949/2",
+      "month": "2023-01",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/2",
+      "month": "2023-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-12"
+     },
+     {
+      "key": "3082/2",
+      "month": "2023-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2023-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3925/1",
+      "month": "2023-02",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2022-07"
+     },
+     {
+      "key": "57949/2",
+      "month": "2023-02",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/2",
+      "month": "2023-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-12"
+     }
+    ]
+   },
+   {
+    "year": 2023,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "57868/UNIT3",
+      "month": "2023-08",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2023-09",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2023-10",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2023-11",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2023-12",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     }
+    ]
+   },
+   {
+    "year": 2024,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "3075/11",
+      "month": "2024-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2024-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2024-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2021-01"
+     },
+     {
+      "key": "54965/ACTG",
+      "month": "2024-01",
+      "workbook": "OS, -, 2.0 MW",
+      "pudl": "OP, -, 2.0 MW",
+      "pudl_reported": "2020-01"
+     },
+     {
+      "key": "57868/UNIT1",
+      "month": "2024-01",
+      "workbook": "OP, -, 0.5 MW",
+      "pudl": "OP, -, 1.3 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57949/2",
+      "month": "2024-01",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/1",
+      "month": "2024-01",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "10700/TG6",
+      "month": "2024-02",
+      "workbook": "OS, -, 16.0 MW",
+      "pudl": "OP, -, 16.0 MW",
+      "pudl_reported": "2022-04"
+     },
+     {
+      "key": "3075/11",
+      "month": "2024-02",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2024-02",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2024,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-01",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-02",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-03",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-04",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-05",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-06",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-07",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-08",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-09",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2024-10",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     }
+    ]
+   },
+   {
+    "year": 2025,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "10700/TG6",
+      "month": "2025-01",
+      "workbook": "OS, -, 16.0 MW",
+      "pudl": "OP, -, 16.0 MW",
+      "pudl_reported": "2022-04"
+     },
+     {
+      "key": "3075/11",
+      "month": "2025-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2025-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3925/3",
+      "month": "2025-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2021-01"
+     },
+     {
+      "key": "54965/ACTG",
+      "month": "2025-01",
+      "workbook": "OA, -, 2.0 MW",
+      "pudl": "OP, -, 2.0 MW",
+      "pudl_reported": "2020-01"
+     },
+     {
+      "key": "57868/UNIT1",
+      "month": "2025-01",
+      "workbook": "OP, -, 0.5 MW",
+      "pudl": "OP, -, 1.3 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57949/2",
+      "month": "2025-01",
+      "workbook": "OS, -, 1.0 MW",
+      "pudl": "OP, -, 1.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "6175/1",
+      "month": "2025-01",
+      "workbook": "OA, -, 135.0 MW",
+      "pudl": "OP, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "10700/TG6",
+      "month": "2025-02",
+      "workbook": "OS, -, 16.0 MW",
+      "pudl": "OP, -, 16.0 MW",
+      "pudl_reported": "2022-04"
+     },
+     {
+      "key": "3075/11",
+      "month": "2025-02",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     }
+    ]
+   },
+   {
+    "year": 2025,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "57868/UNIT3",
+      "month": "2025-01",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2025-02",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2025-03",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2025-04",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "57868/UNIT3",
+      "month": "2025-05",
+      "workbook": "OP, -, 0.3 MW",
+      "pudl": "OP, -, 0.7 MW",
+      "pudl_reported": "2023-05"
+     },
+     {
+      "key": "54477/GEN1",
+      "month": "2025-08",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN2",
+      "month": "2025-08",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN3",
+      "month": "2025-08",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN4",
+      "month": "2025-08",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN5",
+      "month": "2025-08",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     }
+    ]
+   },
+   {
+    "year": 2026,
+    "kind": "held_before",
+    "rows": [
+     {
+      "key": "10700/TG6",
+      "month": "2026-01",
+      "workbook": "OS, -, 16.0 MW",
+      "pudl": "OP, -, 16.0 MW",
+      "pudl_reported": "2022-04"
+     },
+     {
+      "key": "3075/11",
+      "month": "2026-01",
+      "workbook": "OP, -, 66.5 MW",
+      "pudl": "OA, -, 66.5 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/7",
+      "month": "2026-01",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3075/8",
+      "month": "2026-01",
+      "workbook": "OA, -, 62.1 MW",
+      "pudl": "OP, -, 62.1 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/2",
+      "month": "2026-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2017-04"
+     },
+     {
+      "key": "3082/4",
+      "month": "2026-01",
+      "workbook": "OP, -, 135.0 MW",
+      "pudl": "OA, -, 135.0 MW",
+      "pudl_reported": "2019-02"
+     },
+     {
+      "key": "3925/3",
+      "month": "2026-01",
+      "workbook": "OP, -, 90.0 MW",
+      "pudl": "OA, -, 90.0 MW",
+      "pudl_reported": "2021-01"
+     },
+     {
+      "key": "54477/GEN7",
+      "month": "2026-01",
+      "workbook": "OA, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54965/ACTG",
+      "month": "2026-01",
+      "workbook": "OA, -, 2.0 MW",
+      "pudl": "OP, -, 2.0 MW",
+      "pudl_reported": "2020-01"
+     },
+     {
+      "key": "57868/UNIT1",
+      "month": "2026-01",
+      "workbook": "OP, -, 0.5 MW",
+      "pudl": "OP, -, 1.3 MW",
+      "pudl_reported": "2023-05"
+     }
+    ]
+   },
+   {
+    "year": 2026,
+    "kind": "pudl_later",
+    "rows": [
+     {
+      "key": "54477/GEN1",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN2",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN3",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN4",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN5",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN6",
+      "month": "2026-01",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN1",
+      "month": "2026-02",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN2",
+      "month": "2026-02",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN3",
+      "month": "2026-02",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     },
+     {
+      "key": "54477/GEN4",
+      "month": "2026-02",
+      "workbook": "OP, -, 1.1 MW",
+      "pudl": "SB, -, 1.1 MW",
+      "pudl_reported": "2025-06"
+     }
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "C1 workbooks": {
+   "ok": true,
+   "detail": "zips with a listed md5 12 of 12; years read 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026; months read 134; not readable: none"
+  },
+  "C2 PUDL through 2026-08": {
+   "ok": true,
+   "detail": "latest report 2026-08"
+  },
+  "C3 keys": {
+   "ok": true,
+   "detail": "years below 0.95: none; lowest share 0.9999"
+  },
+  "C4 links": {
+   "ok": true,
+   "detail": "disagree 17193, simulation stale 28297 (each at least 100)"
+  }
+ },
+ "verdict": {
+  "scored": true,
+  "held": 4,
+  "predictions": {
+   "P1": true,
+   "P2": true,
+   "P3": true,
+   "P4": true,
+   "P5": false
+  }
+ },
+ "finished_at": "2026-10-22T04:35:38Z",
+ "published": {
+  "checks": 1,
+  "same": true,
+  "files": {
+   "history.py": {
+    "md5": "8cd5ccfe9d3027510eb5dce4b5d4f710",
+    "same": true,
+    "error": null
+   },
+   "test_history.py": {
+    "md5": "4009416d4407def1e51b578b6d0cb464",
+    "same": true,
+    "error": null
+   }
+  },
+  "at": "2026-10-22T04:35:38Z"
+ }
+}

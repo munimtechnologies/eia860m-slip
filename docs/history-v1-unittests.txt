@@ -1,0 +1,18 @@
+test_nameplate_only (test_history.MonthFrameTests.test_nameplate_only) ... ok
+test_readability_as_layouts (test_history.MonthFrameTests.test_readability_as_layouts) ... ok
+test_changelog_and_hits (test_history.ReplayTests.test_changelog_and_hits) ... ok
+test_counts (test_history.ReplayTests.test_counts) ... ok
+test_other_disagreement_is_sampled (test_history.ReplayTests.test_other_disagreement_is_sampled) ... ok
+test_render_not_scored (test_history.ReplayTests.test_render_not_scored) ... ok
+test_missing_equals_only_missing (test_history.SimTests.test_missing_equals_only_missing) ... ok
+test_missing_mw_then_nameplate (test_history.SimTests.test_missing_mw_then_nameplate) ... ok
+test_step_is_revert_simulate_when_nothing_is_missing (test_history.SimTests.test_step_is_revert_simulate_when_nothing_is_missing) ... ok
+test_checks (test_history.VerdictTests.test_checks) ... ok
+test_commit_of (test_history.VerdictTests.test_commit_of) ... ok
+test_render_scored (test_history.VerdictTests.test_render_scored) ... ok
+test_verdict (test_history.VerdictTests.test_verdict) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.243s
+
+OK
