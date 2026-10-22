@@ -45,3 +45,16 @@ The same run counted the rows of the rebuilt changelog ([`eia860m-changelog-from
 ## What it means for users of the changelog
 
 In every disagreement, PUDL's record matches EIA's workbook for the month it was reported; what goes wrong is which record stays in force afterwards. A changelog that compares each record only with the previous record of the same generator would keep these returns. Until then, the rebuilt changelog in this repository gives month-to-month values from EIA's own workbooks.
+
+## Update, 22 October 2026: which columns let a returning value back in
+
+Compete job `keptreturn-v1` ran `tools/annual-flows-candidate/keptreturn.py` 0.1.0 (3 of 3 unit tests passed first) on the same PUDL file. It reads PUDL's table only, no workbooks. A kept return is a record whose status, planned month and nameplate MW differ from the previous record's but equal an earlier record's; `make_changelog` can only have kept it because some other column differs. For each one, the job lists the columns that differ from the latest earlier record with the same three values. Raw output, unchanged: [`keptreturn-v1-output.md`](keptreturn-v1-output.md), [`../data/keptreturn_v1.json`](../data/keptreturn_v1.json) and the unit-test log [`keptreturn-v1-unittests.txt`](keptreturn-v1-unittests.txt).
+
+This answers the first limit above only in part. It counts the kept returns, not the 1,151 "held before" generator-months they lead to, and one kept return can lead to none or to many.
+
+- **442 kept returns** in 224,408 records of 39,903 generators. Every one differs from that earlier record in at least one other column (0 with none), as the rule requires; this is a consistency check, not a new finding. 196 of them are the generator's last record in the table.
+- **The rounded longitude is not the usual cause.** Longitude differs in 63 of the 442. The most common columns are winter capacity (137), utility name (117) and summer capacity (115); a return can count under several. The most common sets are summer and winter capacity together (86), utility name alone (55), longitude alone (34) and utility ID and name together (32).
+- **The traced generators match the trace above.** Bonneville 11 (3075/11), John Day 2 (3082/2) and Ice Harbor 1 (3925/1) each have one kept return, OA in April 2017, that differs from their July 2016 record in longitude only. Olmstead 1 (3655/1) has one, OP in July 2017, also longitude only against July 2016. Lower Granite 2 (6175/2) has one, OA in December 2019, that differs from its March 2017 record in summer and winter capacity.
+- **They keep happening.** 2025 and 2026 (to August 2026) hold 71 and 81 of the 442, more than any earlier year; January 2026 alone holds 37, the most of any month. 2017 holds 44, April 2017 16 of them. Why January 2026 has so many has not been checked.
+
+What this adds: a returning status, planned month or MW gets back into PUDL's table only when some unrelated column changes in the same month, most often a capacity rating or the utility's name. When nothing else changes, the return is dropped and the earlier value stays in force (the case the simulation reproduces); when a return was kept, a later return to a full row the table already holds is dropped instead (finding 2). Kept returns run through 2025 and 2026, so this is not a one-off from the coordinates rounded in 2017.

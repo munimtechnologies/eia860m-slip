@@ -1,0 +1,427 @@
+{
+ "version": "0.1.0",
+ "started_at": "2026-10-22T09:37:42Z",
+ "keys": [
+  "3075/11",
+  "6175/2",
+  "3082/2",
+  "3925/1",
+  "3655/1"
+ ],
+ "pudl": {
+  "file": "core_eia860m__changelog_generators.parquet",
+  "bytes": 2631992,
+  "rows": 224408,
+  "mtime": "2026-10-15T16:11:49Z",
+  "max_report": "2026-08",
+  "columns": [
+   "report_date",
+   "valid_until_date",
+   "plant_id_eia",
+   "plant_name_eia",
+   "utility_id_eia",
+   "utility_name_eia",
+   "generator_id",
+   "balancing_authority_code_eia",
+   "capacity_mw",
+   "county",
+   "current_planned_generator_operating_date",
+   "data_maturity",
+   "energy_source_code_1",
+   "energy_storage_capacity_mwh",
+   "fuel_type_code_pudl",
+   "generator_operating_date",
+   "generator_retirement_date",
+   "latitude",
+   "longitude",
+   "net_capacity_mwdc",
+   "operational_status",
+   "operational_status_code",
+   "planned_derate_date",
+   "planned_generator_retirement_date",
+   "planned_net_summer_capacity_derate_mw",
+   "planned_net_summer_capacity_uprate_mw",
+   "planned_uprate_date",
+   "planned_repower_date",
+   "prime_mover_code",
+   "sector_id_eia",
+   "state",
+   "summer_capacity_mw",
+   "technology_description",
+   "winter_capacity_mw"
+  ]
+ },
+ "result": {
+  "records": 224408,
+  "generators": 39903,
+  "returns": 442,
+  "no_diff": 0,
+  "last_record": 196,
+  "columns": [
+   {
+    "value": "winter_capacity_mw",
+    "n": 137
+   },
+   {
+    "value": "utility_name_eia",
+    "n": 117
+   },
+   {
+    "value": "summer_capacity_mw",
+    "n": 115
+   },
+   {
+    "value": "longitude",
+    "n": 63
+   },
+   {
+    "value": "utility_id_eia",
+    "n": 48
+   },
+   {
+    "value": "balancing_authority_code_eia",
+    "n": 42
+   },
+   {
+    "value": "generator_operating_date",
+    "n": 32
+   },
+   {
+    "value": "planned_generator_retirement_date",
+    "n": 28
+   },
+   {
+    "value": "plant_name_eia",
+    "n": 28
+   },
+   {
+    "value": "technology_description",
+    "n": 28
+   },
+   {
+    "value": "energy_source_code_1",
+    "n": 27
+   },
+   {
+    "value": "fuel_type_code_pudl",
+    "n": 27
+   },
+   {
+    "value": "sector_id_eia",
+    "n": 26
+   },
+   {
+    "value": "latitude",
+    "n": 21
+   },
+   {
+    "value": "net_capacity_mwdc",
+    "n": 17
+   },
+   {
+    "value": "generator_retirement_date",
+    "n": 16
+   },
+   {
+    "value": "planned_net_summer_capacity_uprate_mw",
+    "n": 13
+   },
+   {
+    "value": "planned_uprate_date",
+    "n": 13
+   },
+   {
+    "value": "county",
+    "n": 9
+   },
+   {
+    "value": "planned_net_summer_capacity_derate_mw",
+    "n": 2
+   },
+   {
+    "value": "planned_repower_date",
+    "n": 2
+   },
+   {
+    "value": "energy_storage_capacity_mwh",
+    "n": 1
+   },
+   {
+    "value": "planned_derate_date",
+    "n": 1
+   },
+   {
+    "value": "prime_mover_code",
+    "n": 1
+   }
+  ],
+  "sets": [
+   {
+    "value": "summer_capacity_mw+winter_capacity_mw",
+    "n": 86
+   },
+   {
+    "value": "utility_name_eia",
+    "n": 55
+   },
+   {
+    "value": "longitude",
+    "n": 34
+   },
+   {
+    "value": "utility_id_eia+utility_name_eia",
+    "n": 32
+   },
+   {
+    "value": "generator_operating_date",
+    "n": 24
+   },
+   {
+    "value": "balancing_authority_code_eia+winter_capacity_mw",
+    "n": 16
+   },
+   {
+    "value": "energy_source_code_1+fuel_type_code_pudl+technology_description",
+    "n": 16
+   },
+   {
+    "value": "planned_generator_retirement_date",
+    "n": 16
+   },
+   {
+    "value": "net_capacity_mwdc",
+    "n": 15
+   },
+   {
+    "value": "balancing_authority_code_eia",
+    "n": 13
+   },
+   {
+    "value": "generator_retirement_date",
+    "n": 11
+   },
+   {
+    "value": "plant_name_eia",
+    "n": 10
+   },
+   {
+    "value": "planned_net_summer_capacity_uprate_mw+planned_uprate_date+summer_capacity_mw+winter_capacity_mw",
+    "n": 7
+   },
+   {
+    "value": "summer_capacity_mw",
+    "n": 7
+   },
+   {
+    "value": "winter_capacity_mw",
+    "n": 7
+   },
+   {
+    "value": "county+latitude+longitude",
+    "n": 6
+   },
+   {
+    "value": "latitude+longitude",
+    "n": 6
+   },
+   {
+    "value": "plant_name_eia+sector_id_eia",
+    "n": 6
+   },
+   {
+    "value": "sector_id_eia",
+    "n": 6
+   },
+   {
+    "value": "balancing_authority_code_eia+energy_source_code_1+fuel_type_code_pudl+latitude+longitude+technology_description+winter_capacity_mw",
+    "n": 5
+   }
+  ],
+  "years": [
+   {
+    "year": "2015",
+    "n": 1
+   },
+   {
+    "year": "2016",
+    "n": 30
+   },
+   {
+    "year": "2017",
+    "n": 44
+   },
+   {
+    "year": "2018",
+    "n": 19
+   },
+   {
+    "year": "2019",
+    "n": 32
+   },
+   {
+    "year": "2020",
+    "n": 28
+   },
+   {
+    "year": "2021",
+    "n": 27
+   },
+   {
+    "year": "2022",
+    "n": 40
+   },
+   {
+    "year": "2023",
+    "n": 33
+   },
+   {
+    "year": "2024",
+    "n": 36
+   },
+   {
+    "year": "2025",
+    "n": 71
+   },
+   {
+    "year": "2026",
+    "n": 81
+   }
+  ],
+  "months": [
+   {
+    "value": "2026-01",
+    "n": 37
+   },
+   {
+    "value": "2026-02",
+    "n": 19
+   },
+   {
+    "value": "2017-04",
+    "n": 16
+   },
+   {
+    "value": "2025-02",
+    "n": 16
+   },
+   {
+    "value": "2022-04",
+    "n": 13
+   },
+   {
+    "value": "2022-07",
+    "n": 11
+   },
+   {
+    "value": "2025-03",
+    "n": 11
+   },
+   {
+    "value": "2025-05",
+    "n": 11
+   },
+   {
+    "value": "2023-02",
+    "n": 10
+   },
+   {
+    "value": "2026-03",
+    "n": 10
+   },
+   {
+    "value": "2017-07",
+    "n": 9
+   },
+   {
+    "value": "2019-12",
+    "n": 9
+   },
+   {
+    "value": "2021-01",
+    "n": 9
+   },
+   {
+    "value": "2024-01",
+    "n": 9
+   },
+   {
+    "value": "2016-07",
+    "n": 8
+   },
+   {
+    "value": "2023-01",
+    "n": 8
+   },
+   {
+    "value": "2025-06",
+    "n": 8
+   },
+   {
+    "value": "2026-08",
+    "n": 8
+   },
+   {
+    "value": "2020-01",
+    "n": 7
+   },
+   {
+    "value": "2016-02",
+    "n": 6
+   }
+  ],
+  "examples": {
+   "3075/11": [
+    {
+     "month": "2017-04",
+     "status": "OA",
+     "earlier": "2016-07",
+     "diff": [
+      "longitude"
+     ]
+    }
+   ],
+   "6175/2": [
+    {
+     "month": "2019-12",
+     "status": "OA",
+     "earlier": "2017-03",
+     "diff": [
+      "summer_capacity_mw",
+      "winter_capacity_mw"
+     ]
+    }
+   ],
+   "3082/2": [
+    {
+     "month": "2017-04",
+     "status": "OA",
+     "earlier": "2016-07",
+     "diff": [
+      "longitude"
+     ]
+    }
+   ],
+   "3925/1": [
+    {
+     "month": "2017-04",
+     "status": "OA",
+     "earlier": "2016-07",
+     "diff": [
+      "longitude"
+     ]
+    }
+   ],
+   "3655/1": [
+    {
+     "month": "2017-07",
+     "status": "OP",
+     "earlier": "2016-07",
+     "diff": [
+      "longitude"
+     ]
+    }
+   ]
+  }
+ },
+ "finished_at": "2026-10-22T09:39:13Z"
+}

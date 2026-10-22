@@ -1,8 +1,9 @@
 """Checks the numbers in docs/heldtrace.md (descriptive follow-up to the twenty-ninth result,
 22 October 2026) against the raw output of compete job heldtrace-v2 (data/heldtrace_v2.json,
 data/heldtrace_pudl_rows.csv, docs/heldtrace-v2-output.md, docs/heldtrace-v2-unittests.txt),
-history-v1's yearly counts (data/history_v1_years.csv) and the status line of
-docs/history-revert.md.
+history-v1's yearly counts (data/history_v1_years.csv), the status line of
+docs/history-revert.md and, for the dated update, compete job keptreturn-v1
+(data/keptreturn_v1.json, docs/keptreturn-v1-output.md, docs/keptreturn-v1-unittests.txt).
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
 import calendar
@@ -21,6 +22,11 @@ USACE = ("3082", "3075", "3925", "6175")
 UTILITY = "USACE Northwestern Division"
 STATE = {"OR": "Oregon", "WA": "Washington"}
 TOP = 6
+KR_COLUMNS = ("winter_capacity_mw", "utility_name_eia", "summer_capacity_mw")
+KR_SETS = ("summer_capacity_mw+winter_capacity_mw", "utility_name_eia", "longitude",
+           "utility_id_eia+utility_name_eia")
+KR_LONGITUDE = ("3075/11", "3082/2", "3925/1")
+OLMSTEAD = "3655/1"
 
 
 def read(*parts):
@@ -68,6 +74,9 @@ class HeldtraceDocTests(unittest.TestCase):
         cls.kinds = {y["year"]: y for y in cls.res["kinds"]}
         cls.tot = {k: sum(y[k] for y in cls.res["kinds"]) for k in KINDS}
         cls.ev = {e["month"]: e for e in cls.res["events"]}
+        cls.kr = json.loads(read("data", "keptreturn_v1.json"))
+        cls.krout = read("docs", "keptreturn-v1-output.md")
+        cls.krlog = read("docs", "keptreturn-v1-unittests.txt")
 
     def prows(self, key):
         return [r for r in self.pudl if r["key"] == key]
@@ -165,8 +174,47 @@ class HeldtraceDocTests(unittest.TestCase):
         t = self.trace(BONNEVILLE)
         self.assertEqual(cell_mw(t["2016-04"]["workbook"]), "66.5")
 
+    def test_census_run(self):
+        kr, res = self.kr, self.kr["result"]
+        self.assertEqual((kr["pudl"]["bytes"], kr["pudl"]["max_report"]),
+                         (self.raw["pudl"]["bytes"], self.raw["pudl"]["max_report"]))
+        self.assertEqual(res["records"], kr["pudl"]["rows"])
+        self.assertIn("Kept returns: %d (no differing column: %d; the generator's last record: %d)." % (
+            res["returns"], res["no_diff"], res["last_record"]), self.krout)
+        ran = int(re.search(r"Ran (\d+) tests", self.krlog).group(1))
+        self.assertEqual(len(re.findall(r"(?:^| \.\.\. )ok$", self.krlog, re.M)), ran)
+        self.assertTrue(self.krlog.rstrip().endswith("OK"))
+
+    def test_census(self):
+        res = self.kr["result"]
+        self.assertEqual(res["no_diff"], 0)
+        self.assertEqual(sum(y["n"] for y in res["years"]), res["returns"])
+        self.assertEqual(tuple(x["value"] for x in res["columns"][:3]), KR_COLUMNS)
+        self.assertEqual(tuple(x["value"] for x in res["sets"][:4]), KR_SETS)
+        self.assertEqual(res["months"][0]["value"], "2026-01")
+        years = {y["year"]: y["n"] for y in res["years"]}
+        self.assertGreater(min(years["2025"], years["2026"]), max(v for y, v in years.items() if y < "2025"))
+
+    def test_census_traced(self):
+        ex = self.kr["result"]["examples"]
+        for k in KR_LONGITUDE + (OLMSTEAD, GRANITE):
+            self.assertEqual(len(ex[k]), 1, k)
+        for k in KR_LONGITUDE:
+            self.assertEqual(ex[k], ex[BONNEVILLE], k)
+        self.assertEqual(ex[BONNEVILLE][0]["diff"], ["longitude"])
+        self.assertEqual(ex[OLMSTEAD][0]["diff"], ["longitude"])
+        self.assertEqual(ex[GRANITE][0]["diff"], ["summer_capacity_mw", "winter_capacity_mw"])
+        self.assertEqual(self.trace(BONNEVILLE)["2017-04"]["pudl_reported"], ex[BONNEVILLE][0]["month"])
+        self.assertEqual(self.trace(GRANITE)["2019-12"]["pudl_reported"], ex[GRANITE][0]["month"])
+        old = [r for r in self.prows(BONNEVILLE) if r["report_date"] < "2017-03" and r["longitude"]]
+        self.assertEqual(old[-1]["report_date"][:7], ex[BONNEVILLE][0]["earlier"])
+        g = [r for r in self.prows(GRANITE) if r["report_date"][:7] == ex[GRANITE][0]["earlier"]]
+        self.assertEqual(len(g), 1)
+        self.assertEqual((g[0]["operational_status_code"], g[0]["summer_capacity_mw"], g[0]["winter_capacity_mw"]),
+                         ("OA", "135.0", "135.0"))
+
     def test_stated_numbers(self):
-        for s in [s % v for s, v in STATED(self)]:
+        for s in [s % v for s, v in STATED(self) + KR_STATED(self)]:
             self.assertIn(s, self.text, s)
 
 
@@ -235,6 +283,43 @@ def STATED(t):
         ("%d of 2024's %d \"back\" rows are in December 2024",
          (ev["2024-12"]["back"], sum(e["back"] for mm, e in ev.items() if mm[:4] == "2024"))),
         ("after %d generators left the November 2024 workbook", (ev["2024-11"]["left"],)),
+    ]
+
+
+def KR_STATED(t):
+    kr, res = t.kr, t.kr["result"]
+    ran = int(re.search(r"Ran (\d+) tests", t.krlog).group(1))
+    cols = {x["value"]: x["n"] for x in res["columns"]}
+    sets = {x["value"]: x["n"] for x in res["sets"]}
+    years = {y["year"]: y["n"] for y in res["years"]}
+    months = {x["value"]: x["n"] for x in res["months"]}
+    ex = res["examples"]
+    names = {r["plant_id_eia"]: r["plant_name_eia"] for r in t.pudl}
+    b, o, g = ex[BONNEVILLE][0], ex[OLMSTEAD][0], ex[GRANITE][0]
+    return [
+        ("keptreturn.py` 0.1.0 (%d of %d unit tests passed first) on the same PUDL file", (ran, ran)),
+        ('not the %s "held before" generator-months they lead to', (n(t.tot["held_before"]),)),
+        ("**%d kept returns** in %s records of %s generators",
+         (res["returns"], n(res["records"]), n(res["generators"]))),
+        ("(%d with none)", (res["no_diff"],)),
+        ("%d of them are the generator's last record in the table", (res["last_record"],)),
+        ("Longitude differs in %d of the %d", (cols["longitude"], res["returns"])),
+        ("The most common columns are winter capacity (%d), utility name (%d) and summer capacity (%d)",
+         tuple(cols[c] for c in KR_COLUMNS)),
+        ("The most common sets are summer and winter capacity together (%d), utility name alone (%d), "
+         "longitude alone (%d) and utility ID and name together (%d)", tuple(sets[s] for s in KR_SETS)),
+        ("%s 11 (3075/11), %s 2 (3082/2) and %s 1 (3925/1) each have one kept return, %s in %s, that differs "
+         "from their %s record in longitude only",
+         (names["3075"], names["3082"], names["3925"], b["status"], month_name(b["month"]),
+          month_name(b["earlier"]))),
+        ("%s 1 (3655/1) has one, %s in %s, also longitude only against %s",
+         (names["3655"], o["status"], month_name(o["month"]), month_name(o["earlier"]))),
+        ("%s 2 (6175/2) has one, %s in %s, that differs from its %s record in summer and winter capacity",
+         (names["6175"], g["status"], month_name(g["month"]), month_name(g["earlier"]))),
+        ("2025 and 2026 (to %s) hold %d and %d of the %d, more than any earlier year",
+         (month_name(kr["pudl"]["max_report"]), years["2025"], years["2026"], res["returns"])),
+        ("January 2026 alone holds %d, the most of any month", (months["2026-01"],)),
+        ("2017 holds %d, April 2017 %d of them", (years["2017"], months["2017-04"])),
     ]
 
 

@@ -1,0 +1,11 @@
+test_counts (test_keptreturn.CensusTests.test_counts) ... ok
+test_main_and_render (test_keptreturn.CensusTests.test_main_and_render) ... /work/test_keptreturn.py:77: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp70q0ag83/out/keptreturn.md' mode='r' encoding='utf-8'>
+  md = open(os.path.join(out, "keptreturn.md"), encoding="utf-8").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_same (test_keptreturn.SameTests.test_same) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.066s
+
+OK
