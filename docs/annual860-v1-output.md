@@ -1,176 +1,98 @@
-# January's EIA-860M plan against annual EIA-860 operating dates
+# annual860 0.1.0: EIA's annual EIA-860 and the generators that left EIA-860M's Retired sheet
 
-eia860m-slip 0.3.1 annual flows; annual data core_eia860__scd_generators.parquet (report years 2001-2026). annual860 0.1.0, MV2 of Munim, Inc. (made with AI agents).
+Descriptive follow-up to retiredscope-v1; no prediction is tested. MV2 of Munim, Inc. (made with AI agents).
 
-share_860m: (online_in_year + rekeyed_online) / planned, as in docs/annual-flows.md. share_860: in_year / planned, from the annual operating month.
+## Annual files
 
-## Every year, main groups
+| year | url | cached | bytes | md5 | member | sheets (rows) | errors |
+|---|---|---|---|---|---|---|---|
+| 2020 | https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602020.zip | False | 19670508 | 979cd4baec656be48d991856ee0d294f | 3_1_Generator_Y2020.xlsx | Operable 23417; Proposed 1805; Retired and Canceled 4827 | https://www.eia.gov/electricity/data/eia860/xls/eia8602020.zip: not an xlsx file (first bytes b'<!doctype html>\r') |
+| 2021 | https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602021.zip | False | 20114180 | 9caab707948ddee58bc748b6f5e43aa1 | 3_1_Generator_Y2021.xlsx | Operable 24645; Proposed 1842; Retired and Canceled 4747 | https://www.eia.gov/electricity/data/eia860/xls/eia8602021.zip: not an xlsx file (first bytes b'<!doctype html>\r') |
+| 2022 | https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602022.zip | False | 20646976 | 2fbba665a021a7b4943349d72405cddd | 3_1_Generator_Y2022.xlsx | Operable 25378; Proposed 2023; Retired and Canceled 4944 | https://www.eia.gov/electricity/data/eia860/xls/eia8602022.zip: not an xlsx file (first bytes b'<!doctype html>\r') |
+| 2023 | https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602023.zip | False | 21237983 | 12ad0f63fabf0025ebf53f6728f13c18 | 3_1_Generator_Y2023.xlsx | Operable 26010; Proposed 2178; Retired and Canceled 5250 | https://www.eia.gov/electricity/data/eia860/xls/eia8602023.zip: not an xlsx file (first bytes b'<!doctype html>\r') |
+| 2024 | https://www.eia.gov/electricity/data/eia860/archive/xls/eia8602024.zip | False | 22100342 | 684352896d6a62b5d2d98a403b30e120 | 3_1_Generator_Y2024.xlsx | Operable 26855; Proposed 2408; Retired and Canceled 5592 | https://www.eia.gov/electricity/data/eia860/xls/eia8602024.zip: not an xlsx file (first bytes b'<!doctype html>\r') |
+| 2025 | https://www.eia.gov/electricity/data/eia860/xls/eia8602025.zip | False | 23622347 | 9f621bb115375da690c8b459bde7c362 | 3_1_Generator_Y2025.xlsx | Operable 27918; Proposed 2850; Retired and Canceled 5805 | none |
 
-| year | group | planned_mw | share_860m | share_860 | before | in_year | next_year | later | undated | never | not_in_860 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2016 | all | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2016 | battery | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2016 | gas_cc | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2016 | gas_ct | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2016 | solar | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2016 | wind_onshore | 0.000 |  |  | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| 2017 | all | 26268.8 | 0.638 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 24539.5 | 1589.2 | 140.1 |
-| 2017 | battery | 128.6 | 0.744 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 95.6 | 33.0 | 0.000 |
-| 2017 | gas_cc | 13030.6 | 0.661 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 13030.6 | 0.000 | 0.000 |
-| 2017 | gas_ct | 1001.7 | 0.362 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 911.7 | 0.000 | 90.0 |
-| 2017 | solar | 4430.2 | 0.629 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3940.3 | 455.9 | 34.0 |
-| 2017 | wind_onshore | 6858.3 | 0.625 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 5828.1 | 1014.1 | 16.1 |
-| 2018 | all | 35982.4 | 0.770 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 31707.6 | 4274.8 | 0.000 |
-| 2018 | battery | 84.1 | 0.988 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 84.1 | 0.000 | 0.000 |
-| 2018 | gas_cc | 20332.7 | 0.956 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 20332.7 | 0.000 | 0.000 |
-| 2018 | gas_ct | 4478.7 | 0.399 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 2831.7 | 1647.0 | 0.000 |
-| 2018 | solar | 4305.5 | 0.632 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3799.3 | 506.2 | 0.000 |
-| 2018 | wind_onshore | 6046.3 | 0.518 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3999.6 | 2046.7 | 0.000 |
-| 2019 | all | 24826.1 | 0.713 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 22351.6 | 2474.5 | 0.000 |
-| 2019 | battery | 137.4 | 0.641 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 106.9 | 30.5 | 0.000 |
-| 2019 | gas_cc | 6564.2 | 0.805 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 5838.3 | 725.9 | 0.000 |
-| 2019 | gas_ct | 1955.5 | 0.821 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1955.5 | 0.000 | 0.000 |
-| 2019 | solar | 4991.2 | 0.612 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 4610.5 | 380.7 | 0.000 |
-| 2019 | wind_onshore | 10460.1 | 0.679 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 9199.7 | 1260.4 | 0.000 |
-| 2020 | all | 42753.9 | 0.569 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 37634.1 | 5117.3 | 2.500 |
-| 2020 | battery | 392.9 | 0.159 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 386.5 | 6.400 | 0.000 |
-| 2020 | gas_cc | 6145.0 | 0.914 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 5411.3 | 733.7 | 0.000 |
-| 2020 | gas_ct | 1079.3 | 0.608 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1053.8 | 25.5 | 0.000 |
-| 2020 | solar | 12964.9 | 0.516 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 10603.1 | 2359.3 | 2.500 |
-| 2020 | wind_onshore | 21584.9 | 0.507 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 19740.6 | 1844.3 | 0.000 |
-| 2021 | all | 43181.4 | 0.694 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 39917.3 | 3014.1 | 250.0 |
-| 2021 | battery | 4066.5 | 0.572 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3738.8 | 327.7 | 0.000 |
-| 2021 | gas_cc | 3940.0 | 0.690 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3169.0 | 771.0 | 0.000 |
-| 2021 | gas_ct | 2560.4 | 0.889 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 2534.9 | 25.5 | 0.000 |
-| 2021 | solar | 15937.0 | 0.708 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 14796.1 | 890.9 | 250.0 |
-| 2021 | wind_onshore | 15238.2 | 0.738 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 14298.1 | 940.1 | 0.000 |
-| 2022 | all | 46461.4 | 0.487 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 39938.1 | 6523.3 | 0.000 |
-| 2022 | battery | 5852.4 | 0.494 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 5278.9 | 573.5 | 0.000 |
-| 2022 | gas_cc | 8580.8 | 0.594 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 7417.8 | 1163.0 | 0.000 |
-| 2022 | gas_ct | 1790.4 | 0.388 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1140.4 | 650.0 | 0.000 |
-| 2022 | solar | 19742.9 | 0.398 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 17113.3 | 2629.6 | 0.000 |
-| 2022 | wind_onshore | 9053.5 | 0.650 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 7590.7 | 1462.8 | 0.000 |
-| 2023 | all | 52145.7 | 0.602 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 47545.9 | 4599.8 | 0.000 |
-| 2023 | battery | 8665.1 | 0.560 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 7668.4 | 996.7 | 0.000 |
-| 2023 | gas_cc | 6594.9 | 1.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 6594.9 | 0.000 | 0.000 |
-| 2023 | gas_ct | 1491.4 | 0.864 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1491.4 | 0.000 | 0.000 |
-| 2023 | solar | 25616.0 | 0.491 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 22444.4 | 3171.6 | 0.000 |
-| 2023 | wind_onshore | 7074.0 | 0.667 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 6711.7 | 362.3 | 0.000 |
-| 2024 | all | 59102.8 | 0.595 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 47853.9 | 11248.9 | 0.000 |
-| 2024 | battery | 14620.9 | 0.511 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 11509.9 | 3111.0 | 0.000 |
-| 2024 | gas_cc | 97.8 | 1.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 97.8 | 0.000 | 0.000 |
-| 2024 | gas_ct | 2150.6 | 0.754 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 2150.6 | 0.000 | 0.000 |
-| 2024 | solar | 34325.0 | 0.621 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 27255.9 | 7069.1 | 0.000 |
-| 2024 | wind_onshore | 5309.7 | 0.601 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 4291.8 | 1017.9 | 0.000 |
-| 2025 | all | 60890.9 | 0.627 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 44917.2 | 15818.8 | 154.9 |
-| 2025 | battery | 19580.0 | 0.610 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 14775.0 | 4655.0 | 150.0 |
-| 2025 | gas_cc | 1612.0 | 0.990 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1595.7 | 16.3 | 0.000 |
-| 2025 | gas_ct | 2617.5 | 0.991 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 2611.8 | 5.700 | 0.000 |
-| 2025 | solar | 29296.8 | 0.610 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 20806.4 | 8485.5 | 4.900 |
-| 2025 | wind_onshore | 5575.2 | 0.647 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3742.1 | 1833.1 | 0.000 |
+## Retired sheets of the annual files
 
-## 2017 by EIA-860M state
+| year | status codes | retirement years of RE rows |
+|---|---|---|
+| 2020 | RE 3947; CN 767; IP 113 | 2002 or later 3718; before 2002 229 |
+| 2021 | RE 3955; CN 699; IP 93 | 2002 or later 3731; before 2002 224 |
+| 2022 | RE 4111; CN 734; IP 99 | 2002 or later 3889; before 2002 222 |
+| 2023 | RE 4379; CN 755; IP 116 | 2002 or later 4157; before 2002 222 |
+| 2024 | RE 4651; CN 824; IP 117 | 2002 or later 4428; before 2002 223 |
+| 2025 | RE 4787; CN 890; IP 128 | 2002 or later 4565; before 2002 222 |
 
-| group | state | planned_mw | before | in_year | next_year | later | undated | never | not_in_860 |
-|---|---|---|---|---|---|---|---|---|---|
-| all | all | 26268.8 | 0.000 | 0.000 | 0.000 | 0.000 | 24539.5 | 1589.2 | 140.1 |
-| all | not_listed | 425.3 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 285.2 | 140.1 |
-| all | online_before_year | 111.3 | 0.000 | 0.000 | 0.000 | 0.000 | 109.7 | 1.600 | 0.000 |
-| all | online_in_year | 16750.8 | 0.000 | 0.000 | 0.000 | 0.000 | 16735.8 | 15.0 | 0.000 |
-| all | online_next_months | 219.0 | 0.000 | 0.000 | 0.000 | 0.000 | 219.0 | 0.000 | 0.000 |
-| all | slipped | 8713.4 | 0.000 | 0.000 | 0.000 | 0.000 | 7450.0 | 1263.4 | 0.000 |
-| all | stale | 49.0 | 0.000 | 0.000 | 0.000 | 0.000 | 25.0 | 24.0 | 0.000 |
-| battery | all | 128.6 | 0.000 | 0.000 | 0.000 | 0.000 | 95.6 | 33.0 | 0.000 |
-| battery | not_listed | 23.0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 23.0 | 0.000 |
-| battery | online_in_year | 95.7 | 0.000 | 0.000 | 0.000 | 0.000 | 85.7 | 10.0 | 0.000 |
-| battery | slipped | 9.900 | 0.000 | 0.000 | 0.000 | 0.000 | 9.900 | 0.000 | 0.000 |
-| gas_cc | all | 13030.6 | 0.000 | 0.000 | 0.000 | 0.000 | 13030.6 | 0.000 | 0.000 |
-| gas_cc | online_in_year | 8607.4 | 0.000 | 0.000 | 0.000 | 0.000 | 8607.4 | 0.000 | 0.000 |
-| gas_cc | slipped | 4423.2 | 0.000 | 0.000 | 0.000 | 0.000 | 4423.2 | 0.000 | 0.000 |
-| gas_ct | all | 1001.7 | 0.000 | 0.000 | 0.000 | 0.000 | 911.7 | 0.000 | 90.0 |
-| gas_ct | not_listed | 90.0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 90.0 |
-| gas_ct | online_in_year | 363.0 | 0.000 | 0.000 | 0.000 | 0.000 | 363.0 | 0.000 | 0.000 |
-| gas_ct | slipped | 548.7 | 0.000 | 0.000 | 0.000 | 0.000 | 548.7 | 0.000 | 0.000 |
-| solar | all | 4430.2 | 0.000 | 0.000 | 0.000 | 0.000 | 3940.3 | 455.9 | 34.0 |
-| solar | not_listed | 143.4 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 109.4 | 34.0 |
-| solar | online_before_year | 93.5 | 0.000 | 0.000 | 0.000 | 0.000 | 93.5 | 0.000 | 0.000 |
-| solar | online_in_year | 2787.5 | 0.000 | 0.000 | 0.000 | 0.000 | 2782.5 | 5.000 | 0.000 |
-| solar | online_next_months | 37.5 | 0.000 | 0.000 | 0.000 | 0.000 | 37.5 | 0.000 | 0.000 |
-| solar | slipped | 1363.3 | 0.000 | 0.000 | 0.000 | 0.000 | 1023.8 | 339.5 | 0.000 |
-| solar | stale | 5.000 | 0.000 | 0.000 | 0.000 | 0.000 | 3.000 | 2.000 | 0.000 |
-| wind_onshore | all | 6858.3 | 0.000 | 0.000 | 0.000 | 0.000 | 5828.1 | 1014.1 | 16.1 |
-| wind_onshore | not_listed | 168.9 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 152.8 | 16.1 |
-| wind_onshore | online_in_year | 4283.6 | 0.000 | 0.000 | 0.000 | 0.000 | 4283.6 | 0.000 | 0.000 |
-| wind_onshore | online_next_months | 169.5 | 0.000 | 0.000 | 0.000 | 0.000 | 169.5 | 0.000 | 0.000 |
-| wind_onshore | slipped | 2236.3 | 0.000 | 0.000 | 0.000 | 0.000 | 1375.0 | 861.3 | 0.000 |
+## Monthly files
 
-## 2017 onshore wind not delivered in EIA-860M but in_year in EIA-860
+| month | member | bytes | md5 | errors |
+|---|---|---|---|---|
+| 2025-12 | eia860m-2025-12.xlsx | 13463993 | c220bbcf11b3607b3734f94931819bbf | none |
+| 2026-08 | eia860m-2026-08.xlsx | 13955142 | 9727ac867236faab7d5503175dacdf38 | none |
 
-| key | plant | mw | state | online_860m | online_860 |
-|---|---|---|---|---|---|
+## The 41 later leavers in the annual files
 
-## Checks
+| key | left 860M | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|---|
+| 55526/GEN5 | 2020-02 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 57693/ALSTO | 2020-12 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 57692/ALSTO | 2021-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1571/ST1 | 2021-12 | Operable OP (-, 364 MW) | not listed | not listed | not listed | not listed | not listed |
+| 1571/ST2 | 2021-12 | Operable OP (-, 364 MW) | not listed | not listed | not listed | not listed | not listed |
+| 1572/2 | 2021-12 | Retired and Canceled RE (2020, 196 MW) | not listed | not listed | not listed | not listed | not listed |
+| 1572/3 | 2021-12 | Retired and Canceled RE (2020, 196 MW) | not listed | not listed | not listed | not listed | not listed |
+| 1572/ST1 | 2021-12 | Retired and Canceled RE (2020, 196 MW) | not listed | not listed | not listed | not listed | not listed |
+| 7922/6 | 2023-01 | Retired and Canceled RE (2011, 2 MW) | Retired and Canceled RE (2011, 2 MW) | not listed | not listed | not listed | not listed |
+| 59196/IC1 | 2023-05 | Retired and Canceled RE (2018, 1.8 MW) | Retired and Canceled RE (2018, 1.8 MW) | not listed | not listed | not listed | not listed |
+| 64756/EQX05 | 2023-09 | Operable OP (-, 1.1 MW) | Operable OP (-, 1.1 MW) | Retired and Canceled RE (2022, 1.1 MW) | not listed | not listed | not listed |
+| 1439/10A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/10B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/11A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/11B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/12A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/12B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/1A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/1B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/2A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/2B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/3A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/3B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/4A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/4B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/5A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/6A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/6B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/7A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/7B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/8A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/8B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/9A | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 1439/9B | 2024-01 | not listed | not listed | not listed | not listed | not listed | not listed |
+| 955/3 | 2025-03 | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | not listed | not listed |
+| 955/4 | 2025-03 | Retired and Canceled RE (2002, 7.5 MW) | Retired and Canceled RE (2002, 7.5 MW) | Retired and Canceled RE (2002, 7.5 MW) | Retired and Canceled RE (2002, 7.5 MW) | not listed | not listed |
+| 955/IC1 | 2025-03 | Retired and Canceled RE (2011, 6.3 MW) | Retired and Canceled RE (2011, 6.3 MW) | Retired and Canceled RE (2011, 6.3 MW) | Retired and Canceled RE (2011, 6.3 MW) | not listed | not listed |
+| 955/IC2 | 2025-03 | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | Retired and Canceled RE (2010, 1.8 MW) | not listed | not listed |
+| 955/IC3 | 2025-03 | Retired and Canceled RE (2011, 1.8 MW) | Retired and Canceled RE (2011, 1.8 MW) | Retired and Canceled RE (2011, 1.8 MW) | Retired and Canceled RE (2011, 1.8 MW) | not listed | not listed |
+| 63740/ONT6 | 2025-04 | Retired and Canceled CN (-, 2.2 MW) | Retired and Canceled CN (-, 2.2 MW) | Retired and Canceled CN (-, 2.2 MW) | Retired and Canceled CN (-, 2.2 MW) | Retired and Canceled CN (-, 2.2 MW) | Retired and Canceled CN (-, 2.2 MW) |
+| 423/3A | 2026-06 | Operable OP (-, 0.3 MW) | Operable OP (-, 0.3 MW) | Operable OP (-, 0.3 MW) | Operable OP (-, 0.3 MW) | Retired and Canceled RE (2018, 0.3 MW) | not listed |
 
-```
-{
- "C1": {
-  "got": {
-   "all/all": 26268.8,
-   "wind_onshore/all": 6858.3,
-   "all/online_in_year": 16750.8,
-   "wind_onshore/online_in_year": 4283.6,
-   "wind_onshore/slipped": 2236.3
-  },
-  "pass": true
- },
- "C2": {
-  "missing_columns": [
-   "generator_operating_date"
-  ],
-  "has_2017_and_2018": true,
-  "pass": false
- },
- "C3": {
-  "rows": 493,
-  "not_adding_up": 0,
-  "pass": true
- },
- "all_pass": false
-}
-```
+## Census: annual 2025 against EIA-860M 2025-12
 
-## Predictions
+Annual retired (status RE, retired 2002 to 2025): 4565 (209132.0 MW).
 
-```
-{
- "W1": {
-  "share_860": 0.0,
-  "floor": 0.75,
-  "held": false
- },
- "W2": {
-  "share_860": 0.0,
-  "floor": 0.5,
-  "held": false
- },
- "W3": {
-  "share_860": 0.0,
-  "floor": 0.7,
-  "held": false
- },
- "W4": {
-  "years": [
-   2017,
-   2018,
-   2019,
-   2020,
-   2021,
-   2022,
-   2023,
-   2024
-  ],
-  "years_860_above_860m": [],
-  "held": false
- }
-}
-```
+Where the 2025-12 workbook lists them: Retired 4397; Operating 168.
+
+On no sheet of the 2025-12 workbook: 0 (0 MW). Retirement years: none. Technologies (top 10): none. States (top 10): none.
+
+Monthly Retired sheet: 7104 generators, 7104 retired 2002 to 2025; of those, 4397 also annual retired (same retirement year: 4397) and 2707 not. Where the annual file lists those 2707: not listed 2706; Operable OS 1.
+
+## Census: annual 2025 against EIA-860M 2026-08
+
+Annual retired (status RE, retired 2002 to 2025): 4565 (209132.0 MW).
+
+Where the 2026-08 workbook lists them: Retired 4565.
+
+On no sheet of the 2026-08 workbook: 0 (0 MW). Retirement years: none. Technologies (top 10): none. States (top 10): none.
+
+Monthly Retired sheet: 7324 generators, 7268 retired 2002 to 2025; of those, 4565 also annual retired (same retirement year: 4565) and 2703 not. Where the annual file lists those 2703: not listed 2703.

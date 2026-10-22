@@ -1,11 +1,15 @@
-test_annual_class (test_annual860.AnnualTests.test_annual_class) ... ok
-test_annual_first (test_annual860.AnnualTests.test_annual_first) ... ok
-test_norm_key (test_annual860.KeyTests.test_norm_key) ... ok
-test_checks (test_annual860.SummaryTests.test_checks) ... ok
-test_predictions (test_annual860.SummaryTests.test_predictions) ... ok
-test_summarize (test_annual860.SummaryTests.test_summarize) ... ok
+test_leaver_row (test_annual860.BookTests.test_leaver_row) ... ok
+test_retired (test_annual860.BookTests.test_retired) ... ok
+test_sheet (test_annual860.BookTests.test_sheet) ... ok
+test_where (test_annual860.BookTests.test_where) ... ok
+test_census (test_annual860.CensusTests.test_census) ... ok
+test_render (test_annual860.CensusTests.test_render) ... ok
+test_code_and_years (test_annual860.HelperTests.test_code_and_years) ... ok
+test_constants (test_annual860.HelperTests.test_constants) ... ok
+test_get_annual (test_annual860.HelperTests.test_get_annual) ... ok
+test_member (test_annual860.HelperTests.test_member) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.045s
+Ran 10 tests in 0.003s
 
 OK

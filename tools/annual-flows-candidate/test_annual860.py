@@ -1,145 +1,155 @@
-"""Tests for annual860.py on hand-built tables. MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
+"""Tests for annual860.py on hand-built workbooks: an annual file with a retired generator the
+monthly workbook leaves out, and a monthly Retired sheet with one the annual file leaves out.
+MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
+import io
+import os
+import tempfile
 import unittest
+import zipfile
 
-import numpy as np
 import pandas as pd
 
 import annual860 as an
+import retiredgap as rg
+
+OP_HEAD = ["Utility ID", "Plant Code", "State", "Generator ID", "Technology", "Nameplate Capacity (MW)", "Status",
+           "Planned Retirement Year"]
+RE_HEAD = ["Utility ID", "Plant Code", "State", "Generator ID", "Technology", "Nameplate Capacity (MW)", "Status",
+           "Retirement Month", "Retirement Year"]
+M_OP_HEAD = ["Plant ID", "Plant State", "Generator ID", "Nameplate Capacity (MW)", "Technology", "Status"]
+M_RE_HEAD = ["Plant ID", "Plant State", "Generator ID", "Nameplate Capacity (MW)", "Technology",
+             "Retirement Month", "Retirement Year"]
 
 
-def m(year, month):
-    return float(year * 12 + month - 1)
+def raw(head, rows, title="Form EIA-860 Data - Schedule 3, 'Generator Data'"):
+    t = [title] + [None] * (len(head) - 1)
+    return pd.DataFrame([t, head] + [list(r) for r in rows], dtype=object)
 
 
-def annual():
-    return pd.DataFrame({
-        "plant_id_eia": [1, 1, 2, 3, 4],
-        "generator_id": ["w1", "W1 ", "G", "S", "B"],
-        "report_date": ["2017-01-01", "2018-01-01", "2017-01-01", "2018-01-01", "2017-01-01"],
-        "operational_status_code": ["OP", "OP", "U", "OP", "SB"],
-        "generator_operating_date": ["2017-12-01", "2017-11-01", None, None, "2016-05-01"],
-        "capacity_mw": [100.0, 100.0, 50.0, 20.0, 5.0],
-    })
+SOLAR = (9, 1, "CT", "A", "Solar Photovoltaic", 10.0, "OP", 2040)
+COAL = (9, 1572, "MD", "ST1", "Conventional Steam Coal", 196.0, "RE", 8, 2020)
+OLD = (9, 10, "ME", "1", "Petroleum Liquids", 5.0, "RE", 6, 1995)
+BOTH = (9, 12, "CA", "ST1", "Conventional Steam Coal", 50.0, "RE", 2, 2017)
+WIND = (9, 20, "TX", "W", "Onshore Wind Turbine", 3.0, "CN", None, None)
+NOTE = ("NOTE: see the file layout", None, None, None, None, None, None, None, None)
+
+ANNUAL = [an.annual_sheet("Operable", raw(OP_HEAD, [SOLAR])),
+          an.annual_sheet("Retired and Canceled", raw(RE_HEAD, [COAL, OLD, BOTH, WIND, NOTE]))]
+MONTHLY = [rg.book_sheet("Operating", raw(M_OP_HEAD, [(1, "CT", "A", 10.0, "Solar", "(OP) Operating")])),
+           rg.book_sheet("Retired", raw(M_RE_HEAD, [(12, "CA", "ST1", 50.0, "Conventional Steam Coal", 2, 2017),
+                                                    (13, "NY", "3", 2.0, "Conventional Hydroelectric", 1, 2003),
+                                                    (14, "OH", "GT", 1.0, "Natural Gas", 5, 2026)])),
+           rg.book_sheet("Canceled or Postponed", raw(M_OP_HEAD, []))]
 
 
-def plan():
-    return pd.DataFrame({
-        "year": [2017, 2017, 2017, 2017],
-        "group": ["wind_onshore", "wind_onshore", "solar", "solar"],
-        "mw": [100.0, 50.0, 20.0, 5.0],
-        "state": ["slipped", "online_in_year", "online_in_year", "not_listed"],
-        "cls": ["in_year", "in_year", "undated", "not_in_860"],
-    })
+class HelperTests(unittest.TestCase):
+    def test_constants(self):
+        self.assertEqual(len(an.LEAVERS), 41)
+        self.assertEqual(len(set(an.LEAVERS)), 41)
+        self.assertIn(an.CENSUS_YEAR, an.YEARS)
+        self.assertEqual(an.urls(2024), [an.BASE + "xls/eia8602024.zip", an.BASE + "archive/xls/eia8602024.zip"])
+
+    def test_code_and_years(self):
+        self.assertEqual(an.code("(RE) Retired"), "RE")
+        self.assertEqual(an.code("CN"), "CN")
+        self.assertIsNone(an.code(None))
+        self.assertEqual(an.year_bin(2001), "before 2002")
+        self.assertEqual(an.year_bin("2002.0"), "2002 or later")
+        self.assertEqual(an.year_bin(None), "missing")
+
+    def test_member(self):
+        names = ["eia8602025/1___Utility_Y2025.xlsx", "3_1_Generator_Y2025_Early_Release.xlsx",
+                 "3_1_Generator_Y2025.xlsx"]
+        self.assertEqual(an.member_3_1(names, 2025), "3_1_Generator_Y2025.xlsx")
+        self.assertEqual(an.member_3_1(["x/3_1_Generator_Y2020.xlsx"], 2021), "x/3_1_Generator_Y2020.xlsx")
+        self.assertIsNone(an.member_3_1(["2___Plant_Y2025.xlsx"], 2025))
+
+    def test_get_annual(self):
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("3_1_Generator_Y2024.xlsx", b"x")
+        data, calls = buf.getvalue(), []
+
+        def get(url):
+            calls.append(url)
+            if "archive" not in url:
+                raise OSError("404")
+            return data
+
+        with tempfile.TemporaryDirectory() as d:
+            path, info = an.get_annual(2024, d, get=get)
+            self.assertEqual((info["url"], info["cached"], len(info["errors"])), (an.urls(2024)[1], False, 1))
+            self.assertEqual((info["bytes"], info["md5"]), (len(data), rg.md5(data)))
+            self.assertEqual(os.path.basename(path), "eia8602024.zip")
+            path2, info2 = an.get_annual(2024, d, get=get)
+            self.assertEqual((path2, info2["cached"], info2["md5"], len(calls)), (path, True, rg.md5(data), 2))
 
 
-def rows_for(planned):
-    """Summary rows with the given planned MW per (group, state) for 2017, nothing else set."""
-    rows = []
-    for (g, s), mw in planned.items():
-        rows.append(dict({"year": 2017, "group": g, "state": s, "planned_mw": mw,
-                          "delivered_860m_mw": 0.0, "adds_up": True},
-                         **{c: 0.0 for c in an.CLASSES}))
-    return rows
+class BookTests(unittest.TestCase):
+    def test_sheet(self):
+        op, re_ = ANNUAL
+        self.assertEqual((op["header_row"], op["rows"], re_["rows"]), (1, 1, 4))
+        self.assertEqual(op["keys"]["1/A"], {"status": "OP", "retirement_year": None, "technology": "Solar Photovoltaic",
+                                              "state": "CT", "nameplate_mw": 10})
+        self.assertEqual(re_["keys"]["1572/ST1"]["retirement_year"], 2020)
+        self.assertEqual(sorted(re_["keys"]), ["10/1", "12/ST1", "1572/ST1", "20/W"])
+
+    def test_where(self):
+        self.assertEqual(an.annual_where(ANNUAL, "1572/ST1"), "Retired and Canceled RE")
+        self.assertEqual(an.annual_where(ANNUAL, "1/A"), "Operable OP")
+        self.assertEqual(an.annual_where(ANNUAL, "99/9"), "not listed")
+        self.assertEqual(an.where(MONTHLY, "12/ST1"), "Retired")
+        self.assertEqual(an.where(MONTHLY, "1572/ST1"), "not listed")
+
+    def test_retired(self):
+        self.assertEqual(sorted(an.annual_retired(ANNUAL, 2025)), ["12/ST1", "1572/ST1"])
+        self.assertEqual(sorted(an.annual_retired(ANNUAL, 2019)), ["12/ST1"])
+        t = an.retired_sheet_tallies(ANNUAL)
+        self.assertEqual(t["status"], [{"value": "RE", "n": 3}, {"value": "CN", "n": 1}])
+        self.assertEqual(t["re_bins"], [{"value": "2002 or later", "n": 2}, {"value": "before 2002", "n": 1}])
+
+    def test_leaver_row(self):
+        r = an.leaver_row(ANNUAL, 2025, "1572/ST1")
+        self.assertEqual(r, {"year": 2025, "where": "Retired and Canceled RE", "retirement_year": 2020,
+                             "nameplate_mw": 196, "plant": {"Operable": 0, "Retired and Canceled": 1}})
+        r = an.leaver_row(ANNUAL, 2025, "1439/1A")
+        self.assertEqual((r["where"], r["retirement_year"], r["nameplate_mw"]), ("not listed", None, None))
 
 
-class KeyTests(unittest.TestCase):
-    def test_norm_key(self):
-        self.assertEqual(an.norm_key(60671.0, " stg1"), "60671/STG1")
-        self.assertEqual(an.norm_key("628", "CC1ST"), "628/CC1ST")
-        self.assertIsNone(an.norm_key(None, "A"))
-        self.assertIsNone(an.norm_key("x", "A"))
-        self.assertIsNone(an.norm_key(np.nan, "A"))
-        self.assertIsNone(an.norm_key(5, None))
-        self.assertIsNone(an.norm_key(5, "  "))
-        self.assertEqual(an.plan_key("1/w1"), "1/W1")
+class CensusTests(unittest.TestCase):
+    def test_census(self):
+        c = an.census(ANNUAL, MONTHLY, 2025)
+        self.assertEqual((c["annual_retired"]["n"], c["annual_retired"]["mw"]), (2, 246.0))
+        self.assertEqual(c["where_in_monthly"], [{"value": "Retired", "n": 1}, {"value": "not listed", "n": 1}])
+        self.assertEqual((c["not_in_monthly"]["n"], c["not_in_monthly"]["mw"]), (1, 196.0))
+        self.assertEqual(c["not_in_monthly"]["years"], [{"value": "2020", "n": 1}])
+        self.assertEqual(c["not_in_monthly"]["state"], [{"value": "MD", "n": 1}])
+        self.assertEqual([r["key"] for r in c["not_in_monthly_rows"]], ["1572/ST1"])
+        self.assertEqual((c["monthly_retired"], c["monthly_retired_in_scope"]), (3, 2))
+        self.assertEqual((c["monthly_not_annual"], c["monthly_not_annual_where"]),
+                         (1, [{"value": "not listed", "n": 1}]))
+        self.assertEqual(c["monthly_not_annual_rows"], [{"key": "13/3", "where_annual": "not listed",
+                                                         "retirement_year": 2003, "nameplate_mw": 2}])
+        self.assertEqual((c["both"], c["same_year"]), (1, 1))
 
-
-class AnnualTests(unittest.TestCase):
-    def test_annual_only(self):
-        a = annual()
-        a["data_maturity"] = ["final", "final", "provisional", "incremental_ytd", "Monthly_Update "]
-        kept, counts = an.annual_only(a)
-        self.assertEqual(list(kept["plant_id_eia"]), [1, 1, 2])
-        self.assertEqual(counts, {"final": 2, "incremental_ytd": 1, "monthly_update": 1,
-                                  "provisional": 1})
-        same, none = an.annual_only(annual())
-        self.assertEqual((len(same), none), (5, {}))
-
-    def test_annual_first(self):
-        first, listed = an.annual_first(annual())
-        self.assertEqual(listed, {"1/W1", "2/G", "3/S", "4/B"})
-        self.assertEqual(sorted(first.index), ["1/W1", "3/S", "4/B"])
-        self.assertEqual(first["1/W1"], m(2017, 11))  # earliest of two dated records
-        self.assertTrue(np.isnan(first["3/S"]))
-        self.assertEqual(first["4/B"], m(2016, 5))
-
-    def test_annual_class(self):
-        first, listed = an.annual_first(annual())
-        cls = lambda y, k: an.annual_class(y, k, first, listed)
-        self.assertEqual(cls(2017, "1/w1"), "in_year")
-        self.assertEqual(cls(2016, "1/W1"), "next_year")
-        self.assertEqual(cls(2015, "1/W1"), "later")
-        self.assertEqual(cls(2018, "1/W1"), "before")
-        self.assertEqual(cls(2017, "3/S"), "undated")
-        self.assertEqual(cls(2017, "2/G"), "never")
-        self.assertEqual(cls(2017, "9/X"), "not_in_860")
-        self.assertEqual(cls(2017, "4/B"), "before")
-
-
-class SummaryTests(unittest.TestCase):
-    def test_summarize(self):
-        rows = {(r["group"], r["state"]): r for r in an.summarize(plan())}
-        a = rows[("all", "all")]
-        self.assertEqual((a["planned_mw"], a["in_year"], a["undated"], a["not_in_860"], a["before"]),
-                         (175.0, 150.0, 20.0, 5.0, 0.0))
-        self.assertEqual((a["delivered_860m_mw"], a["share_860m"], a["share_860"]), (70.0, 0.4, 0.857))
-        self.assertTrue(all(r["adds_up"] for r in rows.values()))
-        w = rows[("wind_onshore", "all")]
-        self.assertEqual((w["planned_mw"], w["share_860m"], w["share_860"]), (150.0, 0.333, 1.0))
-        self.assertEqual(rows[("wind_onshore", "slipped")]["in_year"], 100.0)
-        self.assertEqual(sorted(s for g, s in rows if g == "all"),
-                         ["all", "not_listed", "online_in_year", "slipped"])
-
-    def test_checks(self):
-        rows = rows_for(an.EXPECTED_2017)
-        self.assertTrue(an.checks(rows, [], [2016, 2017, 2018])["all_pass"])
-        self.assertFalse(an.checks(rows, ["capacity_mw"], [2017, 2018])["C2"]["pass"])
-        self.assertFalse(an.checks(rows, [], [2017])["C2"]["pass"])
-        off = dict(an.EXPECTED_2017)
-        off[("wind_onshore", "slipped")] += 0.2
-        c = an.checks(rows_for(off), [], [2017, 2018])
-        self.assertFalse(c["C1"]["pass"])
-        self.assertFalse(c["all_pass"])
-        rows[0]["adds_up"] = False
-        self.assertEqual(an.checks(rows, [], [2017, 2018])["C3"]["not_adding_up"], 1)
-
-    def test_check_undated(self):
-        rows = rows_for(an.EXPECTED_2017)
-        a17 = next(x for x in rows if (x["group"], x["state"]) == ("all", "all"))
-        a17["undated"] = 2626.0  # 0.09997 of 26,268.8 MW
-        c = an.checks(rows, [], [2017, 2018])
-        self.assertEqual((c["C4"]["undated_share_2017"], c["C4"]["pass"], c["all_pass"]),
-                         (0.1, True, True))
-        a17["undated"] = 2626.9  # 0.100003: not under the limit
-        c = an.checks(rows, [], [2017, 2018])
-        self.assertEqual((c["C4"]["pass"], c["all_pass"]), (False, False))
-        self.assertIsNone(an.checks([], [], [2017, 2018])["C4"]["undated_share_2017"])
-
-    def test_predictions(self):
-        rows = rows_for({("wind_onshore", "all"): 100.0, ("wind_onshore", "slipped"): 40.0,
-                         ("all", "all"): 200.0})
-        r = {(x["group"], x["state"]): x for x in rows}
-        r[("wind_onshore", "all")]["in_year"] = 75.0
-        r[("wind_onshore", "slipped")]["in_year"] = 19.0
-        r[("all", "all")]["in_year"] = 130.0
-        r[("all", "all")]["delivered_860m_mw"] = 120.0
-        p = an.predictions(rows)
-        self.assertEqual((p["W1"]["share_860"], p["W1"]["held"]), (0.75, True))
-        self.assertEqual((p["W2"]["share_860"], p["W2"]["held"]), (0.475, False))
-        self.assertEqual((p["W3"]["share_860"], p["W3"]["held"]), (0.65, False))
-        self.assertEqual(p["W4"]["years_860_above_860m"], [2017])
-        self.assertIsNone(p["W4"]["held"])  # fewer than 8 years: not scorable
+    def test_render(self):
+        res = {"census_year": 2025,
+               "files": [{"year": 2025, "url": "u", "cached": False, "bytes": 9, "md5": "a", "member": "m.xlsx",
+                          "errors": [], "sheets": [{"sheet": "Operable", "header_row": 1, "rows": 1}],
+                          "retired_sheet": an.retired_sheet_tallies(ANNUAL)}],
+               "monthly_files": [{"month": "2025-12", "member": "w.xlsx", "bytes": 8, "md5": "b", "errors": []}],
+               "leavers": [{"month": "2021-12", "key": "1572/ST1", "years": [an.leaver_row(ANNUAL, 2025, "1572/ST1")]}],
+               "census": {"2025-12": an.census(ANNUAL, MONTHLY, 2025)}}
+        md = an.render(res)
+        self.assertIn("| 2025 | u | False | 9 | a | m.xlsx | Operable 1 | none |", md)
+        self.assertIn("| 2025 | RE 3; CN 1 | 2002 or later 2; before 2002 1 |", md)
+        self.assertIn("| 1572/ST1 | 2021-12 | Retired and Canceled RE (2020, 196 MW) |", md)
+        self.assertIn("Annual retired (status RE, retired 2002 to 2025): 2 (246.0 MW).", md)
+        self.assertIn("Where the 2025-12 workbook lists them: Retired 1; not listed 1.", md)
+        self.assertIn("On no sheet of the 2025-12 workbook: 1 (196.0 MW). Retirement years: 2020 1.", md)
+        self.assertIn("Monthly Retired sheet: 3 generators, 2 retired 2002 to 2025; of those, 1 also annual retired "
+                      "(same retirement year: 1) and 1 not. Where the annual file lists those 1: not listed 1.", md)
 
 
 if __name__ == "__main__":
