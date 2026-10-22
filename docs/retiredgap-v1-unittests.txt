@@ -1,0 +1,12 @@
+test_render (test_retiredgap.BookTests.test_render) ... ok
+test_report (test_retiredgap.BookTests.test_report) ... ok
+test_sheet (test_retiredgap.BookTests.test_sheet) ... ok
+test_ids (test_retiredgap.HelperTests.test_ids) ... ok
+test_member_for (test_retiredgap.HelperTests.test_member_for) ... ok
+test_route (test_retiredgap.HelperTests.test_route) ... ok
+test_urls_and_download (test_retiredgap.HelperTests.test_urls_and_download) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

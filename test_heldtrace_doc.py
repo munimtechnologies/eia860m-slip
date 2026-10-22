@@ -2,8 +2,11 @@
 22 October 2026) against the raw output of compete job heldtrace-v2 (data/heldtrace_v2.json,
 data/heldtrace_pudl_rows.csv, docs/heldtrace-v2-output.md, docs/heldtrace-v2-unittests.txt),
 history-v1's yearly counts (data/history_v1_years.csv), the status line of
-docs/history-revert.md and, for the dated update, compete job keptreturn-v1
-(data/keptreturn_v1.json, docs/keptreturn-v1-output.md, docs/keptreturn-v1-unittests.txt).
+docs/history-revert.md and, for the dated updates, compete jobs keptreturn-v1
+(data/keptreturn_v1.json, docs/keptreturn-v1-output.md, docs/keptreturn-v1-unittests.txt) and
+retiredgap-v1 (data/retiredgap_v1.json, docs/retiredgap-v1-output.md,
+docs/retiredgap-v1-unittests.txt), whose dated line in docs/eia860m-changelog-from-workbooks.md
+is checked too.
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
 import calendar
@@ -27,6 +30,9 @@ KR_SETS = ("summer_capacity_mw+winter_capacity_mw", "utility_name_eia", "longitu
            "utility_id_eia+utility_name_eia")
 KR_LONGITUDE = ("3075/11", "3082/2", "3925/1")
 OLMSTEAD = "3655/1"
+RG_MONTHS = ("2024-10", "2024-11", "2024-12")
+RG_STATES = {"ME": "Maine", "CA": "California", "TX": "Texas"}
+RG_RECENT = ("2011", "2012", "2013", "2014")
 
 
 def read(*parts):
@@ -60,6 +66,10 @@ def month_name(m):
     return "%s %s" % (calendar.month_name[int(m[5:7])], m[:4])
 
 
+def tally(entries):
+    return {x["value"]: x["n"] for x in entries}
+
+
 class HeldtraceDocTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -77,6 +87,12 @@ class HeldtraceDocTests(unittest.TestCase):
         cls.kr = json.loads(read("data", "keptreturn_v1.json"))
         cls.krout = read("docs", "keptreturn-v1-output.md")
         cls.krlog = read("docs", "keptreturn-v1-unittests.txt")
+        cls.rg = json.loads(read("data", "retiredgap_v1.json"))
+        cls.rgout = read("docs", "retiredgap-v1-output.md")
+        cls.rglog = read("docs", "retiredgap-v1-unittests.txt")
+        cls.dataset = read("docs", "eia860m-changelog-from-workbooks.md")
+        cls.gap = cls.rg["gaps"]["archive"]
+        cls.files = {f["month"]: f for f in cls.rg["files"]}
 
     def prows(self, key):
         return [r for r in self.pudl if r["key"] == key]
@@ -213,9 +229,42 @@ class HeldtraceDocTests(unittest.TestCase):
         self.assertEqual((g[0]["operational_status_code"], g[0]["summer_capacity_mw"], g[0]["winter_capacity_mw"]),
                          ("OA", "135.0", "135.0"))
 
+    def test_gap_run(self):
+        rg, g = self.rg, self.gap
+        self.assertEqual(tuple(sorted(self.files)), RG_MONTHS)
+        for f in self.files.values():
+            self.assertIs(f["same_file"], True, f["month"])
+            self.assertEqual(f["errors"], [], f["month"])
+            self.assertEqual((f["archive_bytes"], f["archive_md5"]), (f["eia_bytes"], f["eia_md5"]))
+            self.assertEqual(f["sheets"]["archive"], f["sheets"]["eia"])
+        self.assertEqual(rg["gaps"]["archive"], rg["gaps"]["eia"])
+        self.assertEqual(rg["archive_gap_in_eia_middle"], 0)
+        self.assertEqual(g["left"], self.ev["2024-11"]["left"])
+        self.assertEqual(len(g["back_keys"]), g["back"])
+        self.assertIn("Of the archive's %d, listed in EIA's own 2024-11 file: 0." % g["back"], self.rgout)
+        ran = int(re.search(r"Ran (\d+) tests", self.rglog).group(1))
+        self.assertEqual(len(re.findall(r"(?:^| \.\.\. )ok$", self.rglog, re.M)), ran)
+        self.assertTrue(self.rglog.rstrip().endswith("OK"))
+
+    def test_gap_sheets(self):
+        g = self.gap
+        before, after, years = tally(g["sheet_before"]), tally(g["sheet_after"]), tally(g["retirement_year"])
+        self.assertEqual(set(before), {"Retired", "Planned"})
+        self.assertEqual(set(after), {"Retired", "Operating"})
+        self.assertEqual(before["Retired"], after["Retired"])
+        for t in (before, after, years):
+            self.assertEqual(sum(t.values()), g["back"])
+        self.assertEqual(years["-"], after["Operating"])
+        self.assertEqual(sum(v for y, v in years.items() if y != "-"), after["Retired"])
+        self.assertLessEqual(max(int(y) for y in years if y != "-"), 2014)
+
     def test_stated_numbers(self):
-        for s in [s % v for s, v in STATED(self) + KR_STATED(self)]:
+        for s in [s % v for s, v in STATED(self) + KR_STATED(self) + RG_STATED(self)]:
             self.assertIn(s, self.text, s)
+
+    def test_dataset_line(self):
+        for s in [s % v for s, v in RG_DATASET(self)]:
+            self.assertIn(s, self.dataset, s)
 
 
 def STATED(t):
@@ -320,6 +369,61 @@ def KR_STATED(t):
          (month_name(kr["pudl"]["max_report"]), years["2025"], years["2026"], res["returns"])),
         ("January 2026 alone holds %d, the most of any month", (months["2026-01"],)),
         ("2017 holds %d, April 2017 %d of them", (years["2017"], months["2017-04"])),
+    ]
+
+
+def rg_years(g):
+    years = tally(g["retirement_year"])
+    dated = [int(y) for y in years if y != "-"]
+    return min(dated), max(dated), sum(years[y] for y in RG_RECENT), years
+
+
+def RG_STATED(t):
+    g, files = t.gap, t.files
+    ran = int(re.search(r"Ran (\d+) tests", t.rglog).group(1))
+    nov = files["2024-11"]
+    retired = [[s["rows"] for s in files[m]["sheets"]["eia"] if s["sheet"] == "Retired"][0] for m in RG_MONTHS]
+    before, after = tally(g["sheet_before"]), tally(g["sheet_after"])
+    lo, hi, recent, years = rg_years(g)
+    tech, states = g["technology"][:4], g["state"][:3]
+    others = [m for m in t.ev if m != "2024-12"]
+    most = max(others, key=lambda m: t.ev[m]["back"])
+    return [
+        ("In the other %d months of the rebuilt changelog, at most %d generators come back in a month (%s); "
+         "December 2024 has %d", (len(others), t.ev[most]["back"], month_name(most), t.ev["2024-12"]["back"])),
+        ("retiredgap.py` 0.1.0 (%d of %d unit tests passed first)", (ran, ran)),
+        ("(November 2024: %s bytes, md5 %s)", (n(nov["eia_bytes"]), nov["eia_md5"])),
+        ("**%d generators listed in October 2024 are not in November's file; %d are listed again in December.**",
+         (g["left"], g["back"])),
+        ("None of the %d is in EIA's own November file", (g["back"],)),
+        ("The %d equals heldtrace-v2's count from the archive", (t.ev["2024-11"]["left"],)),
+        ("On October's sheets, %d of the %d are Retired and %d Planned; on December's, %d Retired and %d Operating",
+         (before["Retired"], g["back"], before["Planned"], after["Retired"], after["Operating"])),
+        ("The Retired sheet has %s rows in October, %s in November and %s in December",
+         tuple(n(x) for x in retired)),
+        ("these %d retired between %d and %d, %d of them in 2011 to 2014 (2013: %d; 2014: %d); "
+         "the %d operating ones have none",
+         (after["Retired"], lo, hi, recent, years["2013"], years["2014"], years["-"])),
+        ("**About %.1f GW.** The %d sum to %s MW of nameplate capacity",
+         (g["mw"] / 1000.0, g["back"], "{:,.1f}".format(g["mw"]))),
+        ("The most common technologies are %s (%d), %s (%d), %s (%d) and %s (%d)",
+         tuple(x for e in tech for x in (e["value"].lower(), e["n"]))),
+        ("the most common states are %s (%d), %s (%d) and %s (%d)",
+         tuple(x for e in states for x in (RG_STATES[e["value"]], e["n"]))),
+        ("what became of the other %d of the %d", (g["left"] - g["back"], g["left"])),
+    ]
+
+
+def RG_DATASET(t):
+    g = t.gap
+    before, after = tally(g["sheet_before"]), tally(g["sheet_after"])
+    lo, hi, recent, years = rg_years(g)
+    return [
+        ("it lacks %d generators that EIA's October and December 2024 files list: %d retired between %d and %d "
+         "and %d that went from planned to operating",
+         (g["back"], after["Retired"], lo, hi, after["Operating"])),
+        ("The other %d of the %d that left in November", (g["left"] - g["back"], g["left"])),
+        ("(%s MW of nameplate capacity in December's rows)", ("{:,.1f}".format(g["mw"]),)),
     ]
 
 
