@@ -48,7 +48,10 @@ class TraceTests(unittest.TestCase):
             ("2016-01-01", "2016-02-01", 6, "F", NAN, None, "OP"),
             ("2016-02-01", "2016-04-01", 6, "F", 10.0, None, "OA"),
             # 7/G: PUDL says OS from the start, the workbook OP
-            ("2016-01-01", "2016-04-01", 7, "G", 10.0, None, "OS")])
+            ("2016-01-01", "2016-04-01", 7, "G", 10.0, None, "OS"),
+            # 8/H: in no workbook; its March report makes PUDL's data run to March, since
+            # records in force end at PUDL's latest report (eia860m_slip.listed_until)
+            ("2016-03-01", "2016-04-01", 8, "H", 1.0, None, "OP")])
         self.frames = [
             ("2016-01", frame([["5/E", "Operating", "OP", None, NAN],
                                ["6/F", "Operating", "OP", None, NAN],
