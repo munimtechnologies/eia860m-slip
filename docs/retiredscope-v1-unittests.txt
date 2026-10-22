@@ -1,0 +1,11 @@
+test_months (test_retiredscope.HelperTests.test_months) ... ok
+test_sheets (test_retiredscope.HelperTests.test_sheets) ... ok
+test_years (test_retiredscope.HelperTests.test_years) ... ok
+test_leaver (test_retiredscope.ScopeTests.test_leaver) ... ok
+test_render (test_retiredscope.ScopeTests.test_render) ... ok
+test_scope (test_retiredscope.ScopeTests.test_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

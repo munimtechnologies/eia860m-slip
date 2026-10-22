@@ -1,0 +1,2404 @@
+{
+ "version": "0.1.0",
+ "retiredgap": "0.1.0",
+ "user_agent": "mv2-munim-retiredscope/0.1.0 (MV2 of Munim, Inc.; mv2@munimtech.com)",
+ "started_at": "2026-10-22T21:11:30Z",
+ "files": [
+  {
+   "month": "2017-02",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2017-02.xlsx",
+   "bytes": 3832815,
+   "md5": "96b95da1d4a6a81c58a0d7dc1766f397",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 20845,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1093,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 3380,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 835,
+     "route": false
+    }
+   ],
+   "eia_url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/february_generator2017.xlsx",
+   "eia_bytes": 3832815,
+   "eia_md5": "96b95da1d4a6a81c58a0d7dc1766f397",
+   "same_file": true
+  },
+  {
+   "month": "2017-03",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2017-03.xlsx",
+   "bytes": 6931785,
+   "md5": "5262b184ef30267698fcece694f1ff17",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 20868,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1078,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 4147,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 705,
+     "route": false
+    }
+   ],
+   "eia_url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/march_generator2017.xlsx",
+   "eia_bytes": 6931785,
+   "eia_md5": "5262b184ef30267698fcece694f1ff17",
+   "same_file": true
+  },
+  {
+   "month": "2020-01",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2020-01.xlsx",
+   "bytes": 8090926,
+   "md5": "4feb27df0f773146c2f689ad21fed2ca",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 22612,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1276,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5220,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1083,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 139,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 4,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2020-02",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2020-02.xlsx",
+   "bytes": 8127971,
+   "md5": "224bb69ee5774d6d06f79dba595e1ee7",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 22703,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1275,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5252,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1092,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 140,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 3,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2020-11",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2020-11.xlsx",
+   "bytes": 8334082,
+   "md5": "5f77e9a8498110fa7cb725f84e6580c0",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 23163,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1422,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5394,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1141,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 143,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 1,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2020-12",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2020-12.xlsx",
+   "bytes": 8399884,
+   "md5": "b815a2cfdedbc2dd3f123ac05f6cc05c",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 23380,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1282,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5434,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1152,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 143,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 1,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2021-01",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2021-01.xlsx",
+   "bytes": 8411993,
+   "md5": "4b66b1d4eb86cdf8320962732b75913a",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 23388,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1311,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5503,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1165,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 145,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 1,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2021-11",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2021-11.xlsx",
+   "bytes": 8774420,
+   "md5": "ae89d17648358f2cc9ad2e6c0abb5444",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 24172,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1446,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5696,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1209,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 151,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 5,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2021-12",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2021-12.xlsx",
+   "bytes": 8786363,
+   "md5": "a9484bd42b43b812fc3f353aca757920",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 24299,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1368,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5754,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1223,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 155,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 5,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 2,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2022-12",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2022-12.xlsx",
+   "bytes": 9373381,
+   "md5": "40aabf9a6e95dc8d96c1a0b644d0014c",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25109,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1394,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 5986,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1316,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 194,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 11,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-01",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-01.xlsx",
+   "bytes": 9417676,
+   "md5": "57c76a509bc05c1d28f132fe83aa68d0",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25188,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1377,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6054,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1326,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 197,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 8,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-04",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-04.xlsx",
+   "bytes": 9587862,
+   "md5": "2b770945dcddf8e2dd4d1391782ce0bf",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25453,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1540,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6195,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1354,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 212,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 10,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-05",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-05.xlsx",
+   "bytes": 9603817,
+   "md5": "f55d559119859e3d6d65ff8ba138777b",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25452,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1526,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6240,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1369,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 212,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 12,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-08",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-08.xlsx",
+   "bytes": 9705749,
+   "md5": "c9251351affc28d02fc657dcb61a4b68",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25624,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1630,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6276,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1380,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 213,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 11,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-09",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-09.xlsx",
+   "bytes": 9716365,
+   "md5": "aca08430ee9fbd1a00eda964a0647506",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25663,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1611,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6278,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1380,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 213,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 11,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2023-12",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2023-12.xlsx",
+   "bytes": 10097123,
+   "md5": "25bb7734fee4bc6367cac4adbb7b8299",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25887,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1507,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6326,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1410,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 214,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 10,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ],
+   "eia_url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/december_generator2023.xlsx",
+   "eia_bytes": 10097123,
+   "eia_md5": "25bb7734fee4bc6367cac4adbb7b8299",
+   "same_file": true
+  },
+  {
+   "month": "2024-01",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2024-01.xlsx",
+   "bytes": 9808201,
+   "md5": "1c43733215c30c4d4d5e9f53db25b0f5",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 25953,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1519,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6320,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1418,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 214,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 11,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 5,
+     "route": false
+    }
+   ],
+   "eia_url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/january_generator2024.xlsx",
+   "eia_bytes": 9808201,
+   "eia_md5": "1c43733215c30c4d4d5e9f53db25b0f5",
+   "same_file": true
+  },
+  {
+   "month": "2025-02",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2025-02.xlsx",
+   "bytes": 12635294,
+   "md5": "68f19128d14a98045b984328f16b7523",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 26842,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 1952,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6934,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1557,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 208,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 7,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 6,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2025-03",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2025-03.xlsx",
+   "bytes": 12704674,
+   "md5": "690af5864449b141abeef90ecb7e5202",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 26922,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 2004,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6981,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1565,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 211,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 7,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 6,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2025-04",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2025-04.xlsx",
+   "bytes": 12743482,
+   "md5": "b2cc74b43f9561492df67dc4b65f246d",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 26988,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 2028,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 6985,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1576,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 212,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 9,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 6,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2026-05",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2026-05.xlsx",
+   "bytes": 13797847,
+   "md5": "c4d1b5de42f4901c18f2bf1f3ec679b9",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 28046,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 2311,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 7273,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1725,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 228,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 5,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 10,
+     "route": false
+    }
+   ]
+  },
+  {
+   "month": "2026-06",
+   "errors": [],
+   "zip_md5_matches_page": true,
+   "member": "eia860m-2026-06.xlsx",
+   "bytes": 13860880,
+   "md5": "bf69d682d1f3a38815c62d6b4daacf0a",
+   "sheets": [
+    {
+     "sheet": "Operating",
+     "rows": 28196,
+     "route": true
+    },
+    {
+     "sheet": "Planned",
+     "rows": 2296,
+     "route": true
+    },
+    {
+     "sheet": "Retired",
+     "rows": 7288,
+     "route": true
+    },
+    {
+     "sheet": "Canceled or Postponed",
+     "rows": 1733,
+     "route": false
+    },
+    {
+     "sheet": "Operating_PR",
+     "rows": 228,
+     "route": false
+    },
+    {
+     "sheet": "Planned_PR",
+     "rows": 5,
+     "route": false
+    },
+    {
+     "sheet": "Retired_PR",
+     "rows": 10,
+     "route": false
+    }
+   ]
+  }
+ ],
+ "titles": {
+  "2017-02": [
+   "Inventory of Retired Generators as of February 2017"
+  ],
+  "2017-03": [
+   "Inventory of Retired Generators as of March 2017"
+  ],
+  "2020-01": [
+   "Inventory of Retired Generators as of January 2020"
+  ],
+  "2020-02": [
+   "Inventory of Retired Generators as of February 2020"
+  ],
+  "2020-11": [
+   "Inventory of Retired Generators as of November 2020"
+  ],
+  "2020-12": [
+   "Inventory of Retired Generators as of December 2020"
+  ],
+  "2021-01": [
+   "Inventory of Retired Generators as of January 2021"
+  ],
+  "2021-11": [
+   "Inventory of Retired Generators as of November 2021"
+  ],
+  "2021-12": [
+   "Inventory of Retired Generators as of December 2021"
+  ],
+  "2022-12": [
+   "Inventory of Retired Generators as of December 2022"
+  ],
+  "2023-01": [
+   "Inventory of Retired Generators as of January 2023"
+  ],
+  "2023-04": [
+   "Inventory of Retired Generators as of April 2023"
+  ],
+  "2023-05": [
+   "Inventory of Retired Generators as of May 2023"
+  ],
+  "2023-08": [
+   "Inventory of Retired Generators as of August 2023"
+  ],
+  "2023-09": [
+   "Inventory of Retired Generators as of September 2023"
+  ],
+  "2023-12": [
+   "Inventory of Retired Generators as of December 2023"
+  ],
+  "2024-01": [
+   "Inventory of Retired Generators as of January 2024"
+  ],
+  "2025-02": [
+   "Inventory of Retired Generators as of February 2025"
+  ],
+  "2025-03": [
+   "Inventory of Retired Generators as of March 2025"
+  ],
+  "2025-04": [
+   "Inventory of Retired Generators as of April 2025"
+  ],
+  "2026-05": [
+   "Inventory of Retired Generators as of May 2026"
+  ],
+  "2026-06": [
+   "Inventory of Retired Generators as of June 2026"
+  ]
+ },
+ "scope": {
+  "retired_rows": [
+   3380,
+   4147
+  ],
+  "retired_keys": [
+   3380,
+   4147
+  ],
+  "retired_bins": [
+   [
+    {
+     "value": "2002 or later",
+     "n": 3142
+    },
+    {
+     "value": "before 2002",
+     "n": 238
+    }
+   ],
+   [
+    {
+     "value": "2002 or later",
+     "n": 4147
+    }
+   ]
+  ],
+  "left": {
+   "n": 238,
+   "bins": [
+    {
+     "value": "before 2002",
+     "n": 238
+    }
+   ],
+   "years": [
+    {
+     "value": "2001",
+     "n": 121
+    },
+    {
+     "value": "2000",
+     "n": 26
+    },
+    {
+     "value": "1999",
+     "n": 16
+    },
+    {
+     "value": "1995",
+     "n": 9
+    },
+    {
+     "value": "1997",
+     "n": 9
+    },
+    {
+     "value": "1994",
+     "n": 7
+    },
+    {
+     "value": "1992",
+     "n": 5
+    },
+    {
+     "value": "1996",
+     "n": 5
+    },
+    {
+     "value": "1998",
+     "n": 5
+    },
+    {
+     "value": "1950",
+     "n": 4
+    },
+    {
+     "value": "1974",
+     "n": 4
+    },
+    {
+     "value": "1985",
+     "n": 4
+    },
+    {
+     "value": "1986",
+     "n": 3
+    },
+    {
+     "value": "1988",
+     "n": 3
+    },
+    {
+     "value": "1990",
+     "n": 3
+    },
+    {
+     "value": "1993",
+     "n": 3
+    },
+    {
+     "value": "1970",
+     "n": 2
+    },
+    {
+     "value": "1984",
+     "n": 2
+    },
+    {
+     "value": "1989",
+     "n": 2
+    },
+    {
+     "value": "1991",
+     "n": 2
+    },
+    {
+     "value": "1978",
+     "n": 1
+    },
+    {
+     "value": "1980",
+     "n": 1
+    },
+    {
+     "value": "1981",
+     "n": 1
+    }
+   ],
+   "mw": 3208.4,
+   "technology": [
+    {
+     "value": "Petroleum Liquids",
+     "n": 118
+    },
+    {
+     "value": "Natural Gas Steam Turbine",
+     "n": 28
+    },
+    {
+     "value": "Conventional Steam Coal",
+     "n": 27
+    },
+    {
+     "value": "Natural Gas Internal Combustion Engine",
+     "n": 18
+    },
+    {
+     "value": "Conventional Hydroelectric",
+     "n": 15
+    },
+    {
+     "value": "Natural Gas Fired Combustion Turbine",
+     "n": 8
+    },
+    {
+     "value": "Wood/Wood Waste Biomass",
+     "n": 7
+    },
+    {
+     "value": "Natural Gas Fired Combined Cycle",
+     "n": 5
+    },
+    {
+     "value": "Municipal Solid Waste",
+     "n": 4
+    },
+    {
+     "value": "Landfill Gas",
+     "n": 3
+    }
+   ],
+   "state": [
+    {
+     "value": "WA",
+     "n": 27
+    },
+    {
+     "value": "AK",
+     "n": 25
+    },
+    {
+     "value": "TX",
+     "n": 13
+    },
+    {
+     "value": "IA",
+     "n": 12
+    },
+    {
+     "value": "IN",
+     "n": 12
+    },
+    {
+     "value": "OH",
+     "n": 12
+    },
+    {
+     "value": "CA",
+     "n": 11
+    },
+    {
+     "value": "KS",
+     "n": 11
+    },
+    {
+     "value": "MN",
+     "n": 10
+    },
+    {
+     "value": "FL",
+     "n": 9
+    }
+   ]
+  },
+  "left_where": [
+   {
+    "value": "not listed",
+    "n": 238
+   }
+  ],
+  "entered": {
+   "n": 930,
+   "bins": [
+    {
+     "value": "2002 or later",
+     "n": 930
+    }
+   ],
+   "years": [
+    {
+     "value": "2005",
+     "n": 140
+    },
+    {
+     "value": "2006",
+     "n": 112
+    },
+    {
+     "value": "2011",
+     "n": 100
+    },
+    {
+     "value": "2004",
+     "n": 93
+    },
+    {
+     "value": "2003",
+     "n": 87
+    },
+    {
+     "value": "2009",
+     "n": 78
+    },
+    {
+     "value": "2007",
+     "n": 75
+    },
+    {
+     "value": "2012",
+     "n": 75
+    },
+    {
+     "value": "2008",
+     "n": 67
+    },
+    {
+     "value": "2002",
+     "n": 56
+    },
+    {
+     "value": "2010",
+     "n": 47
+    }
+   ],
+   "mw": 12249.8,
+   "technology": [
+    {
+     "value": "Petroleum Liquids",
+     "n": 247
+    },
+    {
+     "value": "Natural Gas Internal Combustion Engine",
+     "n": 178
+    },
+    {
+     "value": "Natural Gas Fired Combustion Turbine",
+     "n": 126
+    },
+    {
+     "value": "Natural Gas Steam Turbine",
+     "n": 93
+    },
+    {
+     "value": "Conventional Steam Coal",
+     "n": 87
+    },
+    {
+     "value": "Landfill Gas",
+     "n": 51
+    },
+    {
+     "value": "Wood/Wood Waste Biomass",
+     "n": 41
+    },
+    {
+     "value": "Natural Gas Fired Combined Cycle",
+     "n": 40
+    },
+    {
+     "value": "Conventional Hydroelectric",
+     "n": 22
+    },
+    {
+     "value": "Other Waste Biomass",
+     "n": 10
+    }
+   ],
+   "state": [
+    {
+     "value": "CA",
+     "n": 106
+    },
+    {
+     "value": "TX",
+     "n": 105
+    },
+    {
+     "value": "IL",
+     "n": 59
+    },
+    {
+     "value": "NY",
+     "n": 53
+    },
+    {
+     "value": "MI",
+     "n": 50
+    },
+    {
+     "value": "NJ",
+     "n": 35
+    },
+    {
+     "value": "KS",
+     "n": 33
+    },
+    {
+     "value": "PA",
+     "n": 31
+    },
+    {
+     "value": "LA",
+     "n": 27
+    },
+    {
+     "value": "MA",
+     "n": 27
+    }
+   ]
+  },
+  "moved_in": 75,
+  "left_keys": [
+   "10025/12TG",
+   "10091/GEN3",
+   "10211/9TG",
+   "10213/GEN3",
+   "10213/GEN4",
+   "10252/NO.4",
+   "10320/GE10",
+   "10320/GE11",
+   "10320/GE12",
+   "10320/GEN8",
+   "10320/GEN9",
+   "10426/GEN1",
+   "10474/14TG",
+   "10474/15TG",
+   "10560/GEN1",
+   "10697/GEN1",
+   "10789/GEN2",
+   "10823/F101",
+   "10826/WINS",
+   "10859/GEN1",
+   "10863/GEN2",
+   "109/4",
+   "10903/GEN1",
+   "10903/GEN2",
+   "1135/1",
+   "1143/1",
+   "1166/5",
+   "1189/3",
+   "1189/4",
+   "1189/6",
+   "1201/1",
+   "1201/3",
+   "1202/1",
+   "1250/2",
+   "1260/4",
+   "1260/5",
+   "1263/1",
+   "1263/2",
+   "1263/3",
+   "1276/1",
+   "1276/2",
+   "1283/4",
+   "1297/3",
+   "1314/3",
+   "143/CC1",
+   "143/CC2",
+   "143/CC3",
+   "143/CC4",
+   "1445/3",
+   "1445/4",
+   "1585/GT1",
+   "1585/GT2",
+   "1732/6",
+   "1743/5",
+   "1827/2",
+   "1868/2",
+   "1932/1",
+   "1956/3",
+   "1956/4",
+   "2004/1",
+   "2004/2",
+   "2004/3",
+   "2021/3",
+   "2120/1",
+   "2120/2",
+   "2146/1",
+   "2253/5",
+   "2296/5",
+   "2404/121",
+   "2404/122",
+   "2404/123",
+   "2404/124",
+   "2468/3",
+   "2468/4",
+   "2517/2",
+   "2517/ST1",
+   "2864/1",
+   "2864/2",
+   "2877/2",
+   "2908/10",
+   "2908/11",
+   "2908/8",
+   "2908/9",
+   "2933/2",
+   "2933/3",
+   "309/1",
+   "309/2",
+   "309/3",
+   "309/4",
+   "312/1",
+   "312/2",
+   "312/3",
+   "3138/1",
+   "3138/2",
+   "3334/1",
+   "3352/1",
+   "3548/PV3",
+   "3675/1",
+   "3971/8",
+   "4064/2",
+   "4064/3",
+   "408/1",
+   "408/2",
+   "4107/4",
+   "4139/1",
+   "4139/2",
+   "466/2",
+   "50118/GEN1",
+   "50118/GEN2",
+   "50118/GEN3",
+   "50231/TG1",
+   "50271/1TG",
+   "50304/GEN3",
+   "50345/OB1",
+   "50345/OB2",
+   "50398/GEN3",
+   "50398/GEN4",
+   "50398/GEN6",
+   "50398/GEN7",
+   "50447/GEN8",
+   "50577/GEN4",
+   "50639/GEN1",
+   "50724/3011",
+   "50724/3012",
+   "50724/3023",
+   "50733/SWK6",
+   "508/2",
+   "508/3",
+   "50935/0101",
+   "50935/0102",
+   "50935/0103",
+   "50935/0104",
+   "50935/0105",
+   "50935/0106",
+   "50935/0107",
+   "50935/0108",
+   "52017/ST1",
+   "52057/05",
+   "52120/G-32",
+   "52120/G-41",
+   "52193/FGTG",
+   "54311/GEN1",
+   "54311/GEN2",
+   "54311/GEN3",
+   "54311/GEN4",
+   "54373/AO1",
+   "54373/AO2",
+   "54430/GEN1",
+   "54452/644A",
+   "54452/644B",
+   "54452/644C",
+   "54452/644D",
+   "54452/644E",
+   "54452/644F",
+   "54452/644G",
+   "54713/1233",
+   "54795/GEN3",
+   "54800/9930",
+   "54965/DCTG",
+   "55052/623",
+   "55053/324",
+   "55053/325",
+   "55053/326",
+   "55053/327",
+   "562/1",
+   "6323/1A",
+   "6323/2",
+   "6358/1",
+   "6394/1",
+   "6394/2",
+   "646/GT1",
+   "6478/1",
+   "6511/1",
+   "6521/IC1",
+   "6521/IC2",
+   "6635/1",
+   "6635/2",
+   "6635/3",
+   "6637/2A",
+   "6637/3",
+   "6637/4",
+   "664/6",
+   "668/4",
+   "668/5",
+   "673/S1",
+   "673/S2",
+   "673/S4",
+   "690/3",
+   "707/1",
+   "707/2",
+   "7148/1",
+   "7169/4",
+   "7182/5",
+   "7466/1",
+   "7466/2",
+   "7466/3",
+   "7466/4",
+   "7486/PG3",
+   "768/10",
+   "768/8",
+   "768/9",
+   "7971/1",
+   "7971/2",
+   "8021/E-1",
+   "8021/E-10",
+   "8021/E-11",
+   "8021/E-12",
+   "8021/E-13",
+   "8021/E-14",
+   "8021/E-15",
+   "8021/E-16",
+   "8021/E-17",
+   "8021/E-18",
+   "8021/E-19",
+   "8021/E-2",
+   "8021/E-20",
+   "8021/E-21",
+   "8021/E-22",
+   "8021/E-23",
+   "8021/E-24",
+   "8021/E-25",
+   "8021/E-26",
+   "8021/E-3",
+   "8021/E-4",
+   "8021/E-5",
+   "8021/E-6",
+   "8021/E-7",
+   "8021/E-8",
+   "8021/E-9",
+   "90/5",
+   "913/2",
+   "913/ST1",
+   "95/1",
+   "95/2",
+   "95/3",
+   "95/4",
+   "959/5",
+   "959/6"
+  ]
+ },
+ "leavers": [
+  {
+   "month": "2020-02",
+   "key": "55526/GEN5",
+   "sheet_before": "Retired",
+   "retirement_year": 2018,
+   "retirement_month": 2,
+   "technology": "Landfill Gas",
+   "state": "TX",
+   "nameplate_mw": 1.7,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    6,
+    5
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2020-12",
+   "key": "57693/ALSTO",
+   "sheet_before": "Retired",
+   "retirement_year": 2018,
+   "retirement_month": 5,
+   "technology": "Onshore Wind Turbine",
+   "state": "CO",
+   "nameplate_mw": 3,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    8,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-01",
+   "key": "57692/ALSTO",
+   "sheet_before": "Retired",
+   "retirement_year": 2018,
+   "retirement_month": 5,
+   "technology": "Onshore Wind Turbine",
+   "state": "CO",
+   "nameplate_mw": 3,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    9,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-12",
+   "key": "1571/ST1",
+   "sheet_before": "Retired",
+   "retirement_year": 2021,
+   "retirement_month": 6,
+   "technology": "Conventional Steam Coal",
+   "state": "MD",
+   "nameplate_mw": 364,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    10,
+    7
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-12",
+   "key": "1571/ST2",
+   "sheet_before": "Retired",
+   "retirement_year": 2021,
+   "retirement_month": 6,
+   "technology": "Conventional Steam Coal",
+   "state": "MD",
+   "nameplate_mw": 364,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    10,
+    7
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-12",
+   "key": "1572/2",
+   "sheet_before": "Retired",
+   "retirement_year": 2020,
+   "retirement_month": 8,
+   "technology": "Conventional Steam Coal",
+   "state": "MD",
+   "nameplate_mw": 196,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    6,
+    3
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-12",
+   "key": "1572/3",
+   "sheet_before": "Retired",
+   "retirement_year": 2020,
+   "retirement_month": 8,
+   "technology": "Conventional Steam Coal",
+   "state": "MD",
+   "nameplate_mw": 196,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    6,
+    3
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2021-12",
+   "key": "1572/ST1",
+   "sheet_before": "Retired",
+   "retirement_year": 2020,
+   "retirement_month": 8,
+   "technology": "Conventional Steam Coal",
+   "state": "MD",
+   "nameplate_mw": 196,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    6,
+    3
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2023-01",
+   "key": "7922/6",
+   "sheet_before": "Retired",
+   "retirement_year": 2011,
+   "retirement_month": 9,
+   "technology": "Petroleum Liquids",
+   "state": "IA",
+   "nameplate_mw": 2,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    1,
+    1
+   ],
+   "new_at_plant": [
+    {
+     "key": "7922/7",
+     "sheet": "Operating",
+     "retirement_year": null,
+     "technology": "Petroleum Liquids",
+     "nameplate_mw": 2.3
+    }
+   ],
+   "consistent": true
+  },
+  {
+   "month": "2023-05",
+   "key": "59196/IC1",
+   "sheet_before": "Retired",
+   "retirement_year": 2018,
+   "retirement_month": 3,
+   "technology": "Petroleum Liquids",
+   "state": "ND",
+   "nameplate_mw": 1.8,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    1,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2023-09",
+   "key": "64756/EQX05",
+   "sheet_before": "Retired",
+   "retirement_year": 2022,
+   "retirement_month": 5,
+   "technology": "Other Natural Gas",
+   "state": "CA",
+   "nameplate_mw": 1.1,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    1,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/10A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/10B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/11A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/11B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/12A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/12B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/1A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/1B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/2A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/2B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/3A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/3B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/4A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/4B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/5A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/6A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/6B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/7A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/7B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/8A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/8B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/9A",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2024-01",
+   "key": "1439/9B",
+   "sheet_before": "Retired",
+   "retirement_year": 2023,
+   "retirement_month": 11,
+   "technology": "Natural Gas Internal Combustion Engine",
+   "state": "LA",
+   "nameplate_mw": null,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    33,
+    10
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-03",
+   "key": "955/3",
+   "sheet_before": "Retired",
+   "retirement_year": 2010,
+   "retirement_month": 11,
+   "technology": "Petroleum Liquids",
+   "state": "IL",
+   "nameplate_mw": 1.8,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    21,
+    9
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-03",
+   "key": "955/4",
+   "sheet_before": "Retired",
+   "retirement_year": 2002,
+   "retirement_month": 5,
+   "technology": "Natural Gas Steam Turbine",
+   "state": "IL",
+   "nameplate_mw": 7.5,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    21,
+    9
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-03",
+   "key": "955/IC1",
+   "sheet_before": "Retired",
+   "retirement_year": 2011,
+   "retirement_month": 12,
+   "technology": "Petroleum Liquids",
+   "state": "IL",
+   "nameplate_mw": 6.3,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    21,
+    9
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-03",
+   "key": "955/IC2",
+   "sheet_before": "Retired",
+   "retirement_year": 2010,
+   "retirement_month": 11,
+   "technology": "Petroleum Liquids",
+   "state": "IL",
+   "nameplate_mw": 1.8,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    21,
+    9
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-03",
+   "key": "955/IC3",
+   "sheet_before": "Retired",
+   "retirement_year": 2011,
+   "retirement_month": 4,
+   "technology": "Petroleum Liquids",
+   "state": "IL",
+   "nameplate_mw": 1.8,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    21,
+    9
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2025-04",
+   "key": "63740/ONT6",
+   "sheet_before": "Retired",
+   "retirement_year": 2020,
+   "retirement_month": 11,
+   "technology": "Solar Photovoltaic",
+   "state": "CA",
+   "nameplate_mw": 2.2,
+   "listed_after": false,
+   "where_after": "Canceled or Postponed",
+   "plant_keys": [
+    1,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  },
+  {
+   "month": "2026-06",
+   "key": "423/3A",
+   "sheet_before": "Retired",
+   "retirement_year": 2018,
+   "retirement_month": 1,
+   "technology": "Petroleum Liquids",
+   "state": "AK",
+   "nameplate_mw": 0.3,
+   "listed_after": false,
+   "where_after": "not listed",
+   "plant_keys": [
+    3,
+    0
+   ],
+   "new_at_plant": [],
+   "consistent": true
+  }
+ ],
+ "finished_at": "2026-10-22T21:17:23Z"
+}

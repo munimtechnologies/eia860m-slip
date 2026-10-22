@@ -1,0 +1,1907 @@
+{
+ "version": "0.1.0",
+ "history": "0.1.0",
+ "user_agent": "mv2-munim-gapcensus/0.1.0 (MV2 of Munim, Inc.; mv2@munimtech.com)",
+ "started_at": "2026-10-22T14:08:01Z",
+ "zips": [
+  {
+   "file": "eia860m-2015.zip",
+   "md5_page": "bc6a0c5b0aaefd81f5b4cca847bccff0",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 14177917,
+   "md5": "bc6a0c5b0aaefd81f5b4cca847bccff0",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2015,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2016.zip",
+   "md5_page": "3953d510a43dcf661a799c971c1014b0",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 38572095,
+   "md5": "3953d510a43dcf661a799c971c1014b0",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2016,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2017.zip",
+   "md5_page": "2443c5384580ddd71c81dfb056916a11",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 74481333,
+   "md5": "2443c5384580ddd71c81dfb056916a11",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2017,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2018.zip",
+   "md5_page": "acab1ebfa45b61d7822df1bae8169a0a",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 84486051,
+   "md5": "acab1ebfa45b61d7822df1bae8169a0a",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2018,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2019.zip",
+   "md5_page": "b3a075a025dde6962458af9de2f5acd3",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 89048615,
+   "md5": "b3a075a025dde6962458af9de2f5acd3",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2019,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2020.zip",
+   "md5_page": "c70b432d6fcb8bd8faaf0d32e6571cda",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 93452349,
+   "md5": "c70b432d6fcb8bd8faaf0d32e6571cda",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2020,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2021.zip",
+   "md5_page": "e884f2fdffe9a962fa35bb82f7ea4145",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 97162273,
+   "md5": "e884f2fdffe9a962fa35bb82f7ea4145",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2021,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2022.zip",
+   "md5_page": "b7ac26d1a77f5731d75d95df3460182b",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 104783807,
+   "md5": "b7ac26d1a77f5731d75d95df3460182b",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2022,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2023.zip",
+   "md5_page": "de66d1e408ef7ca8cca5f7c2d044b792",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 110951576,
+   "md5": "de66d1e408ef7ca8cca5f7c2d044b792",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2023,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2024.zip",
+   "md5_page": "55592d39081c290b755b36f78e123be2",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 127335369,
+   "md5": "55592d39081c290b755b36f78e123be2",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2024,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2025.zip",
+   "md5_page": "b597d05e22b8631da27754957d7c9f8c",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 149151275,
+   "md5": "b597d05e22b8631da27754957d7c9f8c",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2025,
+   "ok": true
+  },
+  {
+   "file": "eia860m-2026.zip",
+   "md5_page": "380a9824a20be96d182fea793c299e91",
+   "md5_datapackage": null,
+   "cached": true,
+   "tried": [],
+   "bytes": 105186810,
+   "md5": "380a9824a20be96d182fea793c299e91",
+   "md5_matches_page": true,
+   "md5_matches_datapackage": false,
+   "year": 2026,
+   "ok": true
+  }
+ ],
+ "months_unreadable": [],
+ "eia": {
+  "month": "2026-08",
+  "plan": "compare",
+  "url": "https://www.eia.gov/electricity/data/eia860m/xls/august_generator2026.xlsx",
+  "errors": [
+   "https://www.eia.gov/electricity/data/eia860m/archive/xls/august_generator2026.xlsx: not an xlsx file (first bytes b'<!doctype html>\\r')"
+  ],
+  "bytes": 13955142,
+  "md5": "9727ac867236faab7d5503175dacdf38",
+  "archive_bytes": 13955142,
+  "archive_md5": "9727ac867236faab7d5503175dacdf38",
+  "same_file": true
+ },
+ "months": [
+  "2015-07",
+  "2015-08",
+  "2015-09",
+  "2015-10",
+  "2015-11",
+  "2015-12",
+  "2016-01",
+  "2016-02",
+  "2016-03",
+  "2016-04",
+  "2016-05",
+  "2016-06",
+  "2016-07",
+  "2016-08",
+  "2016-09",
+  "2016-10",
+  "2016-11",
+  "2016-12",
+  "2017-01",
+  "2017-02",
+  "2017-03",
+  "2017-04",
+  "2017-05",
+  "2017-06",
+  "2017-07",
+  "2017-08",
+  "2017-09",
+  "2017-10",
+  "2017-11",
+  "2017-12",
+  "2018-01",
+  "2018-02",
+  "2018-03",
+  "2018-04",
+  "2018-05",
+  "2018-06",
+  "2018-07",
+  "2018-08",
+  "2018-09",
+  "2018-10",
+  "2018-11",
+  "2018-12",
+  "2019-01",
+  "2019-02",
+  "2019-03",
+  "2019-04",
+  "2019-05",
+  "2019-06",
+  "2019-07",
+  "2019-08",
+  "2019-09",
+  "2019-10",
+  "2019-11",
+  "2019-12",
+  "2020-01",
+  "2020-02",
+  "2020-03",
+  "2020-04",
+  "2020-05",
+  "2020-06",
+  "2020-07",
+  "2020-08",
+  "2020-09",
+  "2020-10",
+  "2020-11",
+  "2020-12",
+  "2021-01",
+  "2021-02",
+  "2021-03",
+  "2021-04",
+  "2021-05",
+  "2021-06",
+  "2021-07",
+  "2021-08",
+  "2021-09",
+  "2021-10",
+  "2021-11",
+  "2021-12",
+  "2022-01",
+  "2022-02",
+  "2022-03",
+  "2022-04",
+  "2022-05",
+  "2022-06",
+  "2022-07",
+  "2022-08",
+  "2022-09",
+  "2022-10",
+  "2022-11",
+  "2022-12",
+  "2023-01",
+  "2023-02",
+  "2023-03",
+  "2023-04",
+  "2023-05",
+  "2023-06",
+  "2023-07",
+  "2023-08",
+  "2023-09",
+  "2023-10",
+  "2023-11",
+  "2023-12",
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "log_file": "eia860m_changelog_from_workbooks.csv.gz",
+ "log_rows": 117110,
+ "published": {
+  "same": true,
+  "lines_published": 117111,
+  "lines_rebuilt": 117111,
+  "first_difference": null,
+  "published_line": null,
+  "rebuilt_line": null,
+  "url": "https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/e4ecb0d748bf7dc4738c27811e5fc07775eb72a3/data/eia860m_changelog_from_workbooks.csv.gz",
+  "bytes": 1047087,
+  "md5": "2c272b809794440ffcfc7b478c91b136",
+  "through": "2026-08"
+ },
+ "pudl_note": "core_eia860m__changelog_generators.parquet, latest report 2026-08-01",
+ "result": {
+  "outcomes": [
+   {
+    "year": "2015",
+    "sheet": "Operating",
+    "left": 2,
+    "back_1": 0,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 2
+   },
+   {
+    "year": "2015",
+    "sheet": "Planned",
+    "left": 40,
+    "back_1": 2,
+    "back_2_12": 3,
+    "back_13_plus": 0,
+    "not_back": 35
+   },
+   {
+    "year": "2015",
+    "sheet": "Retired",
+    "left": 1,
+    "back_1": 0,
+    "back_2_12": 1,
+    "back_13_plus": 0,
+    "not_back": 0
+   },
+   {
+    "year": "2016",
+    "sheet": "Operating",
+    "left": 30,
+    "back_1": 1,
+    "back_2_12": 1,
+    "back_13_plus": 0,
+    "not_back": 28
+   },
+   {
+    "year": "2016",
+    "sheet": "Planned",
+    "left": 148,
+    "back_1": 2,
+    "back_2_12": 4,
+    "back_13_plus": 21,
+    "not_back": 121
+   },
+   {
+    "year": "2017",
+    "sheet": "Operating",
+    "left": 28,
+    "back_1": 4,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 24
+   },
+   {
+    "year": "2017",
+    "sheet": "Planned",
+    "left": 103,
+    "back_1": 3,
+    "back_2_12": 5,
+    "back_13_plus": 12,
+    "not_back": 83
+   },
+   {
+    "year": "2017",
+    "sheet": "Retired",
+    "left": 241,
+    "back_1": 1,
+    "back_2_12": 2,
+    "back_13_plus": 0,
+    "not_back": 238
+   },
+   {
+    "year": "2018",
+    "sheet": "Operating",
+    "left": 37,
+    "back_1": 4,
+    "back_2_12": 1,
+    "back_13_plus": 0,
+    "not_back": 32
+   },
+   {
+    "year": "2018",
+    "sheet": "Planned",
+    "left": 132,
+    "back_1": 5,
+    "back_2_12": 1,
+    "back_13_plus": 3,
+    "not_back": 123
+   },
+   {
+    "year": "2019",
+    "sheet": "Operating",
+    "left": 44,
+    "back_1": 2,
+    "back_2_12": 4,
+    "back_13_plus": 0,
+    "not_back": 38
+   },
+   {
+    "year": "2019",
+    "sheet": "Planned",
+    "left": 115,
+    "back_1": 18,
+    "back_2_12": 5,
+    "back_13_plus": 9,
+    "not_back": 83
+   },
+   {
+    "year": "2019",
+    "sheet": "Retired",
+    "left": 1,
+    "back_1": 1,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 0
+   },
+   {
+    "year": "2020",
+    "sheet": "Operating",
+    "left": 60,
+    "back_1": 6,
+    "back_2_12": 1,
+    "back_13_plus": 0,
+    "not_back": 53
+   },
+   {
+    "year": "2020",
+    "sheet": "Planned",
+    "left": 128,
+    "back_1": 14,
+    "back_2_12": 3,
+    "back_13_plus": 6,
+    "not_back": 105
+   },
+   {
+    "year": "2020",
+    "sheet": "Retired",
+    "left": 4,
+    "back_1": 2,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 2
+   },
+   {
+    "year": "2021",
+    "sheet": "Operating",
+    "left": 40,
+    "back_1": 9,
+    "back_2_12": 0,
+    "back_13_plus": 1,
+    "not_back": 30
+   },
+   {
+    "year": "2021",
+    "sheet": "Planned",
+    "left": 109,
+    "back_1": 24,
+    "back_2_12": 3,
+    "back_13_plus": 7,
+    "not_back": 75
+   },
+   {
+    "year": "2021",
+    "sheet": "Retired",
+    "left": 6,
+    "back_1": 0,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 6
+   },
+   {
+    "year": "2022",
+    "sheet": "Operating",
+    "left": 57,
+    "back_1": 7,
+    "back_2_12": 3,
+    "back_13_plus": 0,
+    "not_back": 47
+   },
+   {
+    "year": "2022",
+    "sheet": "Planned",
+    "left": 137,
+    "back_1": 9,
+    "back_2_12": 6,
+    "back_13_plus": 2,
+    "not_back": 120
+   },
+   {
+    "year": "2023",
+    "sheet": "Operating",
+    "left": 20,
+    "back_1": 1,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 19
+   },
+   {
+    "year": "2023",
+    "sheet": "Planned",
+    "left": 129,
+    "back_1": 14,
+    "back_2_12": 1,
+    "back_13_plus": 8,
+    "not_back": 106
+   },
+   {
+    "year": "2023",
+    "sheet": "Retired",
+    "left": 3,
+    "back_1": 0,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 3
+   },
+   {
+    "year": "2024",
+    "sheet": "Operating",
+    "left": 27,
+    "back_1": 1,
+    "back_2_12": 3,
+    "back_13_plus": 0,
+    "not_back": 23
+   },
+   {
+    "year": "2024",
+    "sheet": "Planned",
+    "left": 144,
+    "back_1": 8,
+    "back_2_12": 29,
+    "back_13_plus": 1,
+    "not_back": 106
+   },
+   {
+    "year": "2024",
+    "sheet": "Retired",
+    "left": 300,
+    "back_1": 277,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 23
+   },
+   {
+    "year": "2025",
+    "sheet": "Operating",
+    "left": 41,
+    "back_1": 2,
+    "back_2_12": 1,
+    "back_13_plus": 0,
+    "not_back": 38
+   },
+   {
+    "year": "2025",
+    "sheet": "Planned",
+    "left": 172,
+    "back_1": 10,
+    "back_2_12": 9,
+    "back_13_plus": 0,
+    "not_back": 153
+   },
+   {
+    "year": "2025",
+    "sheet": "Retired",
+    "left": 6,
+    "back_1": 0,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 6
+   },
+   {
+    "year": "2026",
+    "sheet": "Operating",
+    "left": 55,
+    "back_1": 5,
+    "back_2_12": 6,
+    "back_13_plus": 0,
+    "not_back": 44
+   },
+   {
+    "year": "2026",
+    "sheet": "Planned",
+    "left": 160,
+    "back_1": 7,
+    "back_2_12": 12,
+    "back_13_plus": 0,
+    "not_back": 141
+   },
+   {
+    "year": "2026",
+    "sheet": "Retired",
+    "left": 1,
+    "back_1": 0,
+    "back_2_12": 0,
+    "back_13_plus": 0,
+    "not_back": 1
+   }
+  ],
+  "by_sheet": [
+   {
+    "sheet": "Operating",
+    "left": 441,
+    "back_1": 42,
+    "back_2_12": 20,
+    "back_13_plus": 1,
+    "not_back": 378
+   },
+   {
+    "sheet": "Planned",
+    "left": 1517,
+    "back_1": 116,
+    "back_2_12": 81,
+    "back_13_plus": 69,
+    "not_back": 1251
+   },
+   {
+    "sheet": "Retired",
+    "left": 563,
+    "back_1": 281,
+    "back_2_12": 3,
+    "back_13_plus": 0,
+    "not_back": 279
+   }
+  ],
+  "gap_months": [
+   {
+    "month": "2015-09",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2015-12",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2016-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2016-04",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2016-08",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2017-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2017-04",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2017-05",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 3,
+    "Planned": 0,
+    "Retired": 1,
+    "other": 0
+   },
+   {
+    "month": "2017-06",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2018-01",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2018-03",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 3,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2018-05",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2018-11",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2018-12",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-01",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-02",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-04",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-06",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-10",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-11",
+    "n": 10,
+    "pudl_in_force": 10,
+    "Operating": 0,
+    "Planned": 10,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2019-12",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 1,
+    "other": 0
+   },
+   {
+    "month": "2020-01",
+    "n": 8,
+    "pudl_in_force": 8,
+    "Operating": 6,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-02",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-06",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 0,
+    "Retired": 2,
+    "other": 0
+   },
+   {
+    "month": "2020-07",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-08",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-09",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-10",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2020-11",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-02",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 3,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-03",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 1,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-04",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 3,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-05",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-06",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 1,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-07",
+    "n": 13,
+    "pudl_in_force": 13,
+    "Operating": 1,
+    "Planned": 12,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-10",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-11",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2021-12",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-01",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 2,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-02",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 2,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-05",
+    "n": 6,
+    "pudl_in_force": 6,
+    "Operating": 0,
+    "Planned": 6,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-06",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 3,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2022-11",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-01",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-02",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 1,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-04",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-06",
+    "n": 5,
+    "pudl_in_force": 5,
+    "Operating": 0,
+    "Planned": 5,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2023-08",
+    "n": 2,
+    "pudl_in_force": 2,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-01",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-02",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-03",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-05",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-06",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-08",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2024-11",
+    "n": 279,
+    "pudl_in_force": 279,
+    "Operating": 0,
+    "Planned": 2,
+    "Retired": 277,
+    "other": 0
+   },
+   {
+    "month": "2024-12",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-01",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-02",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-05",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-06",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-07",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-08",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-09",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-10",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 0,
+    "Planned": 1,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2025-11",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 0,
+    "Planned": 4,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2026-03",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 1,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2026-04",
+    "n": 4,
+    "pudl_in_force": 4,
+    "Operating": 2,
+    "Planned": 2,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2026-05",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2026-06",
+    "n": 3,
+    "pudl_in_force": 3,
+    "Operating": 0,
+    "Planned": 3,
+    "Retired": 0,
+    "other": 0
+   },
+   {
+    "month": "2026-07",
+    "n": 1,
+    "pudl_in_force": 1,
+    "Operating": 1,
+    "Planned": 0,
+    "Retired": 0,
+    "other": 0
+   }
+  ],
+  "pudl_counts": {
+   "in force": 439
+  },
+  "nov": {
+   "left": 282,
+   "outcomes": {
+    "back_1": 279,
+    "not_back": 2,
+    "back_2_12": 1
+   },
+   "where": [
+    {
+     "where": "not listed",
+     "n": 280
+    },
+    {
+     "where": "Canceled or Postponed",
+     "n": 2
+    }
+   ],
+   "keys": [
+    "59806/SOLAR",
+    "64844/TRB",
+    "64844/TRS",
+    "67190/FBESS",
+    "67691/731"
+   ],
+   "rows": [
+    {
+     "report_month": "2015-07",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "first",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2016-12",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2015-12",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2018-12",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2016-04",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2018-12",
+     "nameplate_mw": 140.0
+    },
+    {
+     "report_month": "2017-12",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2019-12",
+     "nameplate_mw": 140.0
+    },
+    {
+     "report_month": "2018-12",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2020-02",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "back",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2022-02",
+     "nameplate_mw": 101.0
+    },
+    {
+     "report_month": "2021-03",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2023-03",
+     "nameplate_mw": 101.0
+    },
+    {
+     "report_month": "2021-07",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "first",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2022-06",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2021-07",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "first",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2022-06",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2021-10",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2022-12",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2021-10",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2022-12",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2022-01",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-04",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2022-01",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-04",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2022-10",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2023-12",
+     "nameplate_mw": 101.0
+    },
+    {
+     "report_month": "2022-11",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-05",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2022-11",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-05",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2022-12",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-06",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2022-12",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-06",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2023-01",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "L",
+     "planned_month": "2025-11",
+     "nameplate_mw": 101.0
+    },
+    {
+     "report_month": "2023-01",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-09",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2023-01",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-09",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2023-04",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-12",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2023-04",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2023-12",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2023-05",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-01",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2023-05",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-01",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2023-10",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-04",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2023-10",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-04",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2023-11",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-06",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2023-11",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-06",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2024-01",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "first",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-06",
+     "nameplate_mw": 100.0
+    },
+    {
+     "report_month": "2024-03",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "V",
+     "planned_month": "2024-06",
+     "nameplate_mw": 100.0
+    },
+    {
+     "report_month": "2024-04",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-07",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2024-04",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-07",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2024-05",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-06",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "back",
+     "sheet": "Planned",
+     "status": "V",
+     "planned_month": "2024-09",
+     "nameplate_mw": 100.0
+    },
+    {
+     "report_month": "2024-06",
+     "key": "67691/731",
+     "plant_id_eia": "67691",
+     "generator_id": "731",
+     "event": "first",
+     "sheet": "Planned",
+     "status": "V",
+     "planned_month": "2025-11",
+     "nameplate_mw": 18.9
+    },
+    {
+     "report_month": "2024-07",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-08",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2024-07",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-08",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2024-08",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-10",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2024-08",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2024-10",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2024-09",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "changed",
+     "sheet": "Planned",
+     "status": "V",
+     "planned_month": "2024-10",
+     "nameplate_mw": 100.0
+    },
+    {
+     "report_month": "2024-10",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "changed",
+     "sheet": "Operating",
+     "status": "OP",
+     "planned_month": "",
+     "nameplate_mw": 100.0
+    },
+    {
+     "report_month": "2024-11",
+     "key": "59806/SOLAR",
+     "plant_id_eia": "59806",
+     "generator_id": "SOLAR",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-11",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-11",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-11",
+     "key": "67190/FBESS",
+     "plant_id_eia": "67190",
+     "generator_id": "FBESS",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-11",
+     "key": "67691/731",
+     "plant_id_eia": "67691",
+     "generator_id": "731",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    },
+    {
+     "report_month": "2024-12",
+     "key": "64844/TRB",
+     "plant_id_eia": "64844",
+     "generator_id": "TRB",
+     "event": "back",
+     "sheet": "Operating",
+     "status": "OP",
+     "planned_month": "",
+     "nameplate_mw": 1.4
+    },
+    {
+     "report_month": "2024-12",
+     "key": "64844/TRS",
+     "plant_id_eia": "64844",
+     "generator_id": "TRS",
+     "event": "back",
+     "sheet": "Operating",
+     "status": "OP",
+     "planned_month": "",
+     "nameplate_mw": 4.0
+    },
+    {
+     "report_month": "2025-07",
+     "key": "67691/731",
+     "plant_id_eia": "67691",
+     "generator_id": "731",
+     "event": "back",
+     "sheet": "Planned",
+     "status": "U",
+     "planned_month": "2025-11",
+     "nameplate_mw": 18.9
+    },
+    {
+     "report_month": "2025-08",
+     "key": "67691/731",
+     "plant_id_eia": "67691",
+     "generator_id": "731",
+     "event": "left",
+     "sheet": "",
+     "status": "",
+     "planned_month": "",
+     "nameplate_mw": ""
+    }
+   ]
+  }
+ },
+ "finished_at": "2026-10-22T14:27:16Z"
+}

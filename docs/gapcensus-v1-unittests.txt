@@ -1,0 +1,17 @@
+test_events (test_gapcensus.CensusTests.test_events) ... ok
+test_lefts (test_gapcensus.CensusTests.test_lefts) ... ok
+test_outcomes (test_gapcensus.CensusTests.test_outcomes) ... ok
+test_compare_text (test_gapcensus.HelperTests.test_compare_text) ... ok
+test_eia_plan (test_gapcensus.HelperTests.test_eia_plan) ... ok
+test_log_text (test_gapcensus.HelperTests.test_log_text) ... ok
+test_months (test_gapcensus.HelperTests.test_months) ... ok
+test_sheet_group_and_outcome (test_gapcensus.HelperTests.test_sheet_group_and_outcome) ... ok
+test_nov_sheets (test_gapcensus.NovTests.test_nov_sheets) ... ok
+test_render (test_gapcensus.NovTests.test_render) ... ok
+test_gap_months (test_gapcensus.PudlTests.test_gap_months) ... ok
+test_status (test_gapcensus.PudlTests.test_status) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.016s
+
+OK

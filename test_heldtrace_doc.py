@@ -3,10 +3,14 @@
 data/heldtrace_pudl_rows.csv, docs/heldtrace-v2-output.md, docs/heldtrace-v2-unittests.txt),
 history-v1's yearly counts (data/history_v1_years.csv), the status line of
 docs/history-revert.md and, for the dated updates, compete jobs keptreturn-v1
-(data/keptreturn_v1.json, docs/keptreturn-v1-output.md, docs/keptreturn-v1-unittests.txt) and
+(data/keptreturn_v1.json, docs/keptreturn-v1-output.md, docs/keptreturn-v1-unittests.txt),
 retiredgap-v1 (data/retiredgap_v1.json, docs/retiredgap-v1-output.md,
-docs/retiredgap-v1-unittests.txt), whose dated line in docs/eia860m-changelog-from-workbooks.md
-is checked too.
+docs/retiredgap-v1-unittests.txt), gapcensus-v1 (data/gapcensus_v1.json,
+data/gapcensus_left_events.csv, docs/gapcensus-v1-output.md, docs/gapcensus-v1-unittests.txt)
+and retiredscope-v1 (data/retiredscope_v1.json, data/retiredscope_leavers.csv,
+data/retiredscope_2017_03_left.csv, docs/retiredscope-v1-output.md,
+docs/retiredscope-v1-unittests.txt), whose dated lines in
+docs/eia860m-changelog-from-workbooks.md are checked too.
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
 import calendar
@@ -33,6 +37,13 @@ OLMSTEAD = "3655/1"
 RG_MONTHS = ("2024-10", "2024-11", "2024-12")
 RG_STATES = {"ME": "Maine", "CA": "California", "TX": "Texas"}
 RG_RECENT = ("2011", "2012", "2013", "2014")
+GC_DATASET = "e4ecb0d748bf7dc4738c27811e5fc07775eb72a3"
+GC_LATER, GC_GONE = "67691/731", ("59806/SOLAR", "67190/FBESS")
+GC_SCOPE, GC_PLANT = "2017-03", ("2024-01", "1439")
+RS_COMPARE = ("2017-02", "2017-03", "2023-12", "2024-01")
+RS_STATES = {"LA": "Louisiana", "MD": "Maryland", "IL": "Illinois"}
+RS_PLANT, RS_COAL, RS_IL = "1439", ("1571", "1572"), "955"
+RS_CP, RS_RENAMED = "63740/ONT6", "7922/6"
 
 
 def read(*parts):
@@ -93,6 +104,15 @@ class HeldtraceDocTests(unittest.TestCase):
         cls.dataset = read("docs", "eia860m-changelog-from-workbooks.md")
         cls.gap = cls.rg["gaps"]["archive"]
         cls.files = {f["month"]: f for f in cls.rg["files"]}
+        cls.gc = json.loads(read("data", "gapcensus_v1.json"))
+        cls.gcout = read("docs", "gapcensus-v1-output.md")
+        cls.gclog = read("docs", "gapcensus-v1-unittests.txt")
+        cls.gcleft = rows("data", "gapcensus_left_events.csv")
+        cls.rs = json.loads(read("data", "retiredscope_v1.json"))
+        cls.rsout = read("docs", "retiredscope-v1-output.md")
+        cls.rslog = read("docs", "retiredscope-v1-unittests.txt")
+        cls.rsleft = rows("data", "retiredscope_leavers.csv")
+        cls.rs17 = rows("data", "retiredscope_2017_03_left.csv")
 
     def prows(self, key):
         return [r for r in self.pudl if r["key"] == key]
@@ -258,12 +278,121 @@ class HeldtraceDocTests(unittest.TestCase):
         self.assertEqual(sum(v for y, v in years.items() if y != "-"), after["Retired"])
         self.assertLessEqual(max(int(y) for y in years if y != "-"), 2014)
 
+    def test_gapcensus_run(self):
+        gc = self.gc
+        pub, eia = gc["published"], gc["eia"]
+        self.assertEqual(gc["months_unreadable"], [])
+        self.assertEqual(len(gc["months"]), self.raw["months_read"])
+        self.assertTrue(all(z["ok"] and z["md5_matches_page"] for z in gc["zips"]))
+        self.assertIs(pub["same"], True)
+        self.assertIsNone(pub["first_difference"])
+        self.assertEqual(pub["lines_published"], pub["lines_rebuilt"])
+        self.assertEqual(pub["lines_published"], gc["log_rows"] + 1)
+        self.assertIn(GC_DATASET, pub["url"])
+        self.assertEqual((eia["plan"], eia["month"], eia["month"]), ("compare", pub["through"], gc["months"][-1]))
+        self.assertIs(eia["same_file"], True)
+        self.assertEqual((eia["bytes"], eia["md5"]), (eia["archive_bytes"], eia["archive_md5"]))
+        self.assertIn("Same text through %s: True." % pub["through"], self.gcout)
+        ran = int(re.search(r"Ran (\d+) tests", self.gclog).group(1))
+        self.assertEqual(len(re.findall(r"(?:^| \.\.\. )ok$", self.gclog, re.M)), ran)
+        self.assertTrue(self.gclog.rstrip().endswith("OK"))
+
+    def test_gapcensus_counts(self):
+        res, left = self.gc["result"], self.gcleft
+        by = res["by_sheet"]
+        self.assertEqual(sum(r["left"] for r in by), len(left))
+        for r in by:
+            self.assertEqual(r["left"], sum(r[o] for o in ("back_1", "back_2_12", "back_13_plus", "not_back")))
+            self.assertEqual(r["not_back"], sum(1 for x in left if x["sheet_before"] == r["sheet"]
+                                                and x["outcome"] == "not_back"))
+        gaps = res["gap_months"]
+        total = sum(g["n"] for g in gaps)
+        self.assertEqual(total, sum(r["back_1"] for r in by))
+        self.assertEqual(total, sum(1 for x in left if x["outcome"] == "back_1"))
+        self.assertEqual(res["pudl_counts"], {"in force": total})
+        others = [g["n"] for g in gaps if g["month"] != "2024-11"]
+        self.assertEqual(others.count(max(others)), 1)
+        nov = res["nov"]
+        self.assertEqual(nov["left"], self.ev["2024-11"]["left"])
+        self.assertEqual(nov["outcomes"]["back_1"], self.gap["back"])
+        self.assertEqual(nov["outcomes"].get("back_2_12"), 1)
+        self.assertEqual([g["Retired"] for g in gaps if g["month"] == "2024-11"], [tally(self.gap["sheet_before"])["Retired"]])
+        odd = set(nov["keys"]) - {r["key"] for r in nov["rows"] if r["report_month"] == "2024-12" and r["event"] == "back"}
+        self.assertEqual(odd, {GC_LATER} | set(GC_GONE))
+        self.assertEqual(len(odd), nov["left"] - nov["outcomes"]["back_1"])
+        out = {x["key"]: x["outcome"] for x in left if x["month_left"] == "2024-11"}
+        self.assertEqual((out[GC_LATER], out[GC_GONE[0]], out[GC_GONE[1]]), ("back_2_12", "not_back", "not_back"))
+        later = [r["sheet"] for r in nov["rows"] if r["key"] == GC_LATER and r["event"] in ("first", "changed", "back")]
+        gone = [r["sheet"] for r in nov["rows"] if r["key"] == GC_GONE[0] and r["event"] != "left"]
+        self.assertEqual((set(later), set(gone)), ({"Planned"}, {"Planned"}))
+
+    def test_retiredscope_run(self):
+        rs, L = self.rs, self.rs["leavers"]
+        self.assertTrue(all(f["errors"] == [] for f in rs["files"]))
+        eia = [f for f in rs["files"] if f.get("eia_md5")]
+        self.assertEqual(tuple(f["month"] for f in eia), RS_COMPARE)
+        for f in eia:
+            self.assertIs(f["same_file"], True, f["month"])
+            self.assertEqual((f["eia_bytes"], f["eia_md5"]), (f["bytes"], f["md5"]))
+        self.assertIn("Errors: none.", self.rsout)
+        ran = int(re.search(r"Ran (\d+) tests", self.rslog).group(1))
+        self.assertEqual(len(re.findall(r"(?:^| \.\.\. )ok$", self.rslog, re.M)), ran)
+        self.assertTrue(self.rslog.rstrip().endswith("OK"))
+        gone = {(x["month_left"], x["key"]) for x in self.gcleft if x["sheet_before"] == "Retired"
+                and x["outcome"] == "not_back" and x["month_left"] != GC_SCOPE}
+        self.assertEqual({(e["month"], e["key"]) for e in L}, gone)
+        self.assertEqual(len(L), len(gone))
+        self.assertEqual([(r["month_left"], r["key"]) for r in self.rsleft], [(e["month"], e["key"]) for e in L])
+        self.assertTrue(all(e["consistent"] and e["sheet_before"] == "Retired" and not e["listed_after"] for e in L))
+        scope = sum(1 for x in self.gcleft if x["sheet_before"] == "Retired" and x["outcome"] == "not_back"
+                    and x["month_left"] == GC_SCOPE)
+        self.assertEqual((len(self.rs17), rs["scope"]["left"]["n"]), (scope, scope))
+
+    def test_retiredscope_scope(self):
+        s = self.rs["scope"]
+        feb, mar = tally(s["retired_bins"][0]), tally(s["retired_bins"][1])
+        self.assertEqual(s["retired_rows"], s["retired_keys"])
+        self.assertEqual(set(mar), {"2002 or later"})
+        self.assertEqual(tally(s["left"]["bins"]), {"before 2002": s["left"]["n"]})
+        self.assertEqual(feb["before 2002"], s["left"]["n"])
+        self.assertEqual(tally(s["left_where"]), {"not listed": s["left"]["n"]})
+        self.assertEqual(tally(s["entered"]["bins"]), {"2002 or later": s["entered"]["n"]})
+        self.assertEqual(s["retired_keys"][1] - s["entered"]["n"] - s["moved_in"], feb["2002 or later"])
+        self.assertEqual({r["where_listed_2017_03"] for r in self.rs17}, {"not listed"})
+        self.assertTrue(all(int(r["retirement_year"]) < 2002 for r in self.rs17))
+        for m in GC_SCOPE, RS_COMPARE[0]:
+            self.assertTrue(self.rs["titles"][m][0].startswith("Inventory of Retired Generators as of"))
+
+    def test_retiredscope_leavers(self):
+        f = rs_facts(self)
+        L = self.rs["leavers"]
+        cp = [e for e in L if e["where_after"] != "not listed"]
+        self.assertEqual([(e["key"], e["where_after"], e["technology"]) for e in cp],
+                         [(RS_CP, "Canceled or Postponed", "Solar Photovoltaic")])
+        self.assertEqual([e["key"] for e in L if e["new_at_plant"]], [RS_RENAMED])
+        self.assertEqual(f["renamed"]["plant_keys"][1], 1)
+        self.assertEqual(len(f["renamed"]["new_at_plant"]), 1)
+        self.assertEqual([e["key"] for e in L if e["nameplate_mw"] is None], [e["key"] for e in f["plant"]])
+        for g in ("plant", "coal", "il"):
+            self.assertEqual(len({e["month"] for e in f[g]}), 1, g)
+            self.assertEqual(len({e["state"] for e in f[g]}), 1, g)
+        for g in ("plant", "coal"):
+            self.assertEqual(len({e["technology"] for e in f[g]}), 1, g)
+        self.assertEqual(len({(e["retirement_year"], e["retirement_month"]) for e in f["plant"]}), 1)
+        self.assertEqual(len(f["coal_years"]), 2)
+        self.assertEqual(len(f["coal"]), 5)
+        self.assertGreater(f["coal_mw"], f["total"] / 2)
+        self.assertEqual(sum(1 for e in f["coal"] if e["key"].startswith("1572/") and e["nameplate_mw"] == 196), 3)
+        for e in f["rest"]:
+            self.assertEqual(sum(1 for x in L if x["month"] == e["month"]), 1, e["key"])
+
     def test_stated_numbers(self):
-        for s in [s % v for s, v in STATED(self) + KR_STATED(self) + RG_STATED(self)]:
+        for s in [s % v for s, v in STATED(self) + KR_STATED(self) + RG_STATED(self) + GC_STATED(self)
+                  + RS_STATED(self)]:
             self.assertIn(s, self.text, s)
 
     def test_dataset_line(self):
-        for s in [s % v for s, v in RG_DATASET(self)]:
+        for s in [s % v for s, v in RG_DATASET(self) + GC_DATASET_LINES(self) + RS_DATASET(self)]:
             self.assertIn(s, self.dataset, s)
 
 
@@ -424,6 +553,163 @@ def RG_DATASET(t):
          (g["back"], after["Retired"], lo, hi, after["Operating"])),
         ("The other %d of the %d that left in November", (g["left"] - g["back"], g["left"])),
         ("(%s MW of nameplate capacity in December's rows)", ("{:,.1f}".format(g["mw"]),)),
+    ]
+
+
+def gc_facts(t):
+    """The gapcensus-v1 numbers the update and the dataset line state, computed from its raw output."""
+    gc, res = t.gc, t.gc["result"]
+    by = {r["sheet"]: r for r in res["by_sheet"]}
+    gaps = res["gap_months"]
+    nov = res["nov"]
+    nov_gap = [g for g in gaps if g["month"] == "2024-11"][0]
+    other = max((g for g in gaps if g["month"] != "2024-11"), key=lambda g: g["n"])
+    rws = nov["rows"]
+
+    def of(key, event):
+        return [r for r in rws if r["key"] == key and r["event"] == event]
+
+    def last_mw(key):
+        return [r["nameplate_mw"] for r in rws if r["key"] == key and r["nameplate_mw"] != ""][-1]
+
+    back = of(GC_LATER, "back")[-1]["report_month"]
+    again = [r["report_month"] for r in of(GC_LATER, "left") if r["report_month"] > back][0]
+    op = [r["report_month"] for r in rws if r["key"] == GC_GONE[1] and r["sheet"] == "Operating"][0]
+    gone = [x for x in t.gcleft if x["sheet_before"] == "Retired" and x["outcome"] == "not_back"]
+    scope = sum(1 for x in gone if x["month_left"] == GC_SCOPE)
+    plant = sum(1 for x in gone if x["month_left"] == GC_PLANT[0] and x["key"].split("/")[0] == GC_PLANT[1])
+    return {"by": by, "gaps": gaps, "nov": nov, "nov_gap": nov_gap, "other": other, "back": back, "again": again,
+            "op": op, "gone": gone, "scope": scope, "plant": plant, "last": month_name(gc["months"][-1]),
+            "mw": {k: mw(last_mw(k)) for k in (GC_LATER,) + GC_GONE},
+            "odd": nov["left"] - nov["outcomes"]["back_1"],
+            "where": {x["where"]: x["n"] for x in nov["where"]}}
+
+
+def GC_STATED(t):
+    gc, res, f = t.gc, t.gc["result"], gc_facts(t)
+    ran = int(re.search(r"Ran (\d+) tests", t.gclog).group(1))
+    pub, eia, by, nov = gc["published"], gc["eia"], f["by"], f["nov"]
+    ret = by["Retired"]
+    return [
+        ("gapcensus.py` 0.1.0 (%d of %d unit tests passed first) on the same %d monthly workbooks",
+         (ran, ran, len(gc["months"]))),
+        ("its text equals the published copy line for line: %s lines, %s rows",
+         (n(pub["lines_published"]), n(gc["log_rows"]))),
+        ("EIA's own %s file (%s bytes, md5 %s) is byte-identical to the archive's copy",
+         (month_name(eia["month"]), n(eia["bytes"]), eia["md5"])),
+        ("**%s times a generator left the workbook**: from the Operating sheet %s, Planned %s and Retired %s",
+         (n(sum(r["left"] for r in by.values())), n(by["Operating"]["left"]), n(by["Planned"]["left"]),
+          n(ret["left"]))),
+        ("%s of them were not listed again by %s", (n(sum(r["not_back"] for r in by.values())), f["last"])),
+        ("missing for exactly one month %d times, in %d different months",
+         (sum(g["n"] for g in f["gaps"]), len(f["gaps"]))),
+        ("November 2024 holds %d of them; no other month more than %d (%s)",
+         (f["nov_gap"]["n"], f["other"]["n"], month_name(f["other"]["month"]))),
+        ("In all %d, PUDL's changelog has a record in force", (res["pudl_counts"]["in force"],)),
+        ("**The other %d of November 2024's %d.**", (f["odd"], nov["left"])),
+        ("November's file lists %d of the %d on no sheet at all and %d on the Canceled or Postponed sheet",
+         (f["where"]["not listed"], nov["left"], f["where"]["Canceled or Postponed"])),
+        ("%s (%s MW, planned) was listed again in %s and left again in %s",
+         (GC_LATER, f["mw"][GC_LATER], month_name(f["back"]), month_name(f["again"]))),
+        ("%s (%s MW, planned) and %s (%s MW, operating in %s) were not listed again by %s",
+         (GC_GONE[0], f["mw"][GC_GONE[0]], GC_GONE[1], f["mw"][GC_GONE[1]], month_name(f["op"]), f["last"])),
+        ("A generator left the Retired sheet %d times: %d times it was back the next month (%d of them in "
+         "December 2024) and %d times it was not listed again by %s",
+         (ret["left"], ret["back_1"], f["nov_gap"]["Retired"], ret["not_back"], f["last"])),
+        ("%d of those %d left in %s", (f["scope"], len(f["gone"]), month_name(GC_SCOPE))),
+        ("The other %d left later, %d of them at one plant (%s) in %s",
+         (len(f["gone"]) - f["scope"], f["plant"], GC_PLANT[1], month_name(GC_PLANT[0]))),
+    ]
+
+
+def GC_DATASET_LINES(t):
+    f = gc_facts(t)
+    return [
+        ("Of the other %d, one was listed again in %s and %d were not listed again by %s",
+         (f["odd"], month_name(f["back"]), f["odd"] - 1, f["last"])),
+        ("No other month has more than %d generators missing for exactly one month", (f["other"]["n"],)),
+        ("In %s, %d generators left the Retired sheet and were not listed again by %s",
+         (month_name(GC_SCOPE), f["scope"], f["last"])),
+    ]
+
+
+def rs_facts(t):
+    """The retiredscope-v1 numbers the update and the dataset line state, computed from its raw output."""
+    s, L = t.rs["scope"], t.rs["leavers"]
+    years = {int(x["value"]): x["n"] for x in s["left"]["years"]}
+    plant = lambda e: e["key"].split("/")[0]
+    groups = {"plant": [e for e in L if plant(e) == RS_PLANT], "coal": [e for e in L if plant(e) in RS_COAL],
+              "il": [e for e in L if plant(e) == RS_IL]}
+    grouped = {e["key"] for g in groups.values() for e in g}
+    total = sum(float(e["nameplate_mw"]) for e in L if e["nameplate_mw"] is not None)
+    return dict(groups, years=years, total=total, rest=[e for e in L if e["key"] not in grouped],
+                feb=tally(s["retired_bins"][0]), ry=[e["retirement_year"] for e in L],
+                renamed=[e for e in L if e["key"] == RS_RENAMED][0],
+                cp=[e for e in L if e["key"] == RS_CP][0],
+                coal_mw=sum(float(e["nameplate_mw"]) for e in groups["coal"]),
+                coal_years=sorted({e["retirement_year"] for e in groups["coal"]}),
+                il_years=[e["retirement_year"] for e in groups["il"]])
+
+
+def RS_STATED(t):
+    rs, s, L, f = t.rs, t.rs["scope"], t.rs["leavers"], rs_facts(t)
+    ran = int(re.search(r"Ran (\d+) tests", t.rslog).group(1))
+    years, feb, ry, e, cp = f["years"], f["feb"], f["ry"], f["renamed"], f["cp"]
+    new = e["new_at_plant"][0]
+    p, c, il = f["plant"][0], f["coal"][0], f["il"][0]
+    return [
+        ("retiredscope.py` 0.1.0 (%d of %d unit tests passed first)", (ran, ran)),
+        ("on %d workbooks from the same archive", (len(rs["files"]),)),
+        ("For %d of them (February and March 2017, December 2023 and January 2024) it also downloaded EIA's own "
+         "file; each is byte-identical to the archive's copy", (sum(1 for x in rs["files"] if x.get("eia_md5")),)),
+        ("February 2017's Retired sheet has %s generators, %d of them retired before 2002; March 2017's has %s, "
+         "none retired before 2002", (n(s["retired_keys"][0]), feb["before 2002"], n(s["retired_keys"][1]))),
+        ("The %d that left are exactly February's pre-2002 ones (retired %d to %d, %d of them in %d; %s MW)",
+         (s["left"]["n"], min(years), max(years), years[max(years)], max(years), "{:,.1f}".format(s["left"]["mw"]))),
+        ("In the same month %d generators retired in 2002 or later (%s MW) entered the Retired sheet from no sheet, "
+         "and %d moved to it from another sheet; all %s of February's others are still on it",
+         (s["entered"]["n"], "{:,.1f}".format(s["entered"]["mw"]), s["moved_in"],
+          n(s["retired_keys"][1] - s["entered"]["n"] - s["moved_in"]))),
+        ("**The %d later departures are inside that scope.** All %d retired in 2002 or later (%d to %d)",
+         (len(L), len(L), min(ry), max(ry))),
+        ("%d of them are on no sheet of that month's file; 1 (%s, a %s MW solar unit retired in %d) moved to the "
+         "Canceled or Postponed sheet",
+         (sum(1 for x in L if x["where_after"] == "not listed"), cp["key"], mw(cp["nameplate_mw"]),
+          cp["retirement_year"])),
+        ("They sum to %s MW of nameplate capacity on the sheet the month before (%d have no MW there)",
+         ("{:,.1f}".format(f["total"]), sum(1 for x in L if x["nameplate_mw"] is None))),
+        ("In %d of the %d, the plant has no generator in the later month that it did not have the month before",
+         (sum(1 for x in L if not x["new_at_plant"]), len(L))),
+        ("The exception is %s (%s MW %s, retired %d, left %s): that month its plant's only listed generator is a "
+         "new %s (%s, %s MW)",
+         (e["key"], mw(e["nameplate_mw"]), e["technology"].lower(), e["retirement_year"], month_name(e["month"]),
+          new["key"], new["sheet"], mw(new["nameplate_mw"]))),
+        ("%d generators at plant %s (%ss, %s, retired %s by the sheet, no MW given) left in %s",
+         (len(f["plant"]), RS_PLANT, p["technology"].lower(), RS_STATES[p["state"]],
+          month_name("%d-%02d" % (p["retirement_year"], p["retirement_month"])), month_name(p["month"]))),
+        ("%d at plants %s and %s (%s, %s, retired in %d and %d; %s MW) left in %s",
+         (len(f["coal"]), RS_COAL[0], RS_COAL[1], c["technology"].lower(), RS_STATES[c["state"]],
+          f["coal_years"][0], f["coal_years"][1], mw(f["coal_mw"]), month_name(c["month"]))),
+        ("%d at plant %s (%s, retired %d to %d) left in %s",
+         (len(f["il"]), RS_IL, RS_STATES[il["state"]], min(f["il_years"]), max(f["il_years"]),
+          month_name(il["month"]))),
+        ("The other %d left one at a time, in %d different months",
+         (len(f["rest"]), len({x["month"] for x in f["rest"]}))),
+        ("For %d of the %d, no generator of the plant is listed on the changelog's sheets in the month it left",
+         (sum(1 for x in L if x["plant_keys"][1] == 0), len(L))),
+        ("misses about %.2f GW, most of it five Maryland coal units", (f["total"] / 1000.0,)),
+        ("Three %s MW units at plant %s", (mw(196), RS_COAL[1])),
+    ]
+
+
+def RS_DATASET(t):
+    s, f, g = t.rs["scope"], rs_facts(t), gc_facts(t)
+    return [
+        ("All %d retired before 2002 (%d to %d)", (s["left"]["n"], min(f["years"]), max(f["years"]))),
+        ("%d generators retired in 2002 or later left the Retired sheet after March 2017 and were not listed "
+         "again by %s (%s MW on the sheet the month before; %d have no MW)",
+         (len(t.rs["leavers"]), g["last"], "{:,.1f}".format(f["total"]),
+          sum(1 for e in t.rs["leavers"] if e["nameplate_mw"] is None))),
     ]
 
 
