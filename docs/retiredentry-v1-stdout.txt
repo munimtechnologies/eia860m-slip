@@ -1,0 +1,126 @@
+2026-10-23T21:05:41Z plan served: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/main/docs/retiredentry-plan.md
+changelog 1054060 bytes, 117756 rows
+2026-07 PUDL archive: eia860m-2026-07.xlsx bytes 13932124 errors []
+2026-08 PUDL archive: eia860m-2026-08.xlsx bytes 13955142 errors []
+2026-09 https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx bytes 14013970 errors []
+# retiredentry 0.1.0: when the 16 pre-2002 nuclear generators reached EIA-860M's Retired sheet
+
+Scores docs/retiredentry-plan.md (R1 to R4). MV2 of Munim, Inc. (made with AI agents).
+
+## Files
+
+Changelog: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/a3ce0851c47d820ba5f8a0556358b4abef960909/data/eia860m_changelog_from_workbooks.csv.gz (1054060 bytes, md5 4fb178fbed7052b9e6618b481cab94f8; 117756 rows, 2015-07 to 2026-09). Expected 1054060 bytes and 117756 rows: True.
+
+| month | source | bytes | md5 | errors |
+|---|---|---|---|---|
+| 2026-07 | PUDL archive: eia860m-2026-07.xlsx | 13932124 | 909590b91dbda698d0e63d813ced377c | none |
+| 2026-08 | PUDL archive: eia860m-2026-08.xlsx | 13955142 | 9727ac867236faab7d5503175dacdf38 | none |
+| 2026-09 | https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx | 14013970 | 4c741eb77a5ccad5aca32ffe43f398af | none |
+
+September file is the one monthcheck-sep2026-v1 read (14013970 bytes, md5 4c741eb77a5ccad5aca32ffe43f398af): True.
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| R1 | held | 16 of 16 reach it; month(s): 2026-08 | all 16 first reach the Retired sheet in one workbook month |
+| R2 | held | 16 of 16 | all 16 have August 2026's retirement year in that month's workbook |
+| R3 | held | 16 of 16 on it every month from arrival to 2026-08 | all 16 on the Retired sheet every month from arrival to 2026-08 |
+| R4 | failed | 28 rows | exactly 16 rows on all sheets of the 2026-08 workbook are nuclear and retired before 2002 (or on a Retired sheet with no year) |
+
+Held: 3 of 4 scored.
+
+## The 16
+
+| key | reached Retired | event | from | retirement year then | in 2026-08 | technology then | MW then | month before | other rows to 2026-08 | left in 2026-09 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1517/1 | 2026-08 | first | never listed | 1997 | 1997 | Nuclear | 920 | not listed | none | True |
+| 1645/1 | 2026-08 | first | never listed | 1992 | 1992 | Nuclear | 185 | not listed | none | True |
+| 1697/1 | 2026-08 | first | never listed | 1997 | 1997 | Nuclear | 75 | not listed | none | True |
+| 1729/1 | 2026-08 | first | never listed | 1972 | 1972 | Nuclear | 65 | not listed | none | True |
+| 246/3 | 2026-08 | first | never listed | 1985 | 1985 | Nuclear | 65 | not listed | none | True |
+| 3166/1 | 2026-08 | first | never listed | 1975 | 1975 | Nuclear | 42 | not listed | none | True |
+| 360/1 | 2026-08 | first | never listed | 1992 | 1992 | Nuclear | 456 | not listed | none | True |
+| 4143/5 | 2026-08 | first | never listed | 1987 | 1987 | Nuclear | 50.3 | not listed | none | True |
+| 558/1 | 2026-08 | first | never listed | 1996 | 1996 | Nuclear | 600.3 | not listed | none | True |
+| 566/1 | 2026-08 | first | never listed | 1998 | 1998 | Nuclear | 661.5 | not listed | none | True |
+| 6107/1 | 2026-08 | first | never listed | 1993 | 1993 | Nuclear | 1216 | not listed | none | True |
+| 6176/1 | 2026-08 | first | never listed | 1990 | 1990 | Nuclear | 963 | not listed | none | True |
+| 8011/2 | 2026-08 | first | never listed | 1979 | 1979 | Nuclear | 961 | not listed | none | True |
+| 869/1 | 2026-08 | first | never listed | 1985 | 1985 | Nuclear | 207 | not listed | none | True |
+| 885/1 | 2026-08 | first | never listed | 1998 | 1998 | Nuclear | 1098 | not listed | none | True |
+| 885/2 | 2026-08 | first | never listed | 1998 | 1998 | Nuclear | 1098 | not listed | none | True |
+
+## How many of the 16 are on the Retired sheet, by the changelog
+
+| from | to | on the Retired sheet |
+|---|---|---|
+| 2015-07 | 2026-07 | 0 |
+| 2026-08 | 2026-08 | 16 |
+| 2026-09 | 2026-09 | 0 |
+
+## The Retired sheet in the months read
+
+| month | generators | by retirement year | retired before 2002 | of those, not among the 16 |
+|---|---|---|---|---|
+| 2026-07 | 7299 | 2002 or later 7299 | 0 | none |
+| 2026-08 | 7324 | 2002 or later 7308; before 2002 16 | 16 | none |
+| 2026-09 | 7321 | 2002 or later 7321 | 0 | none |
+
+## Nuclear rows on every sheet, plant id or not
+
+| month | nuclear rows by sheet | retired before 2002 (or Retired with no year) |
+|---|---|---|
+| 2026-07 | Operating 96; Canceled or Postponed 16; Retired 11; Planned 5 | 0 |
+| 2026-08 | Operating 96; Retired 39; Canceled or Postponed 16; Planned 5 | 28 |
+| 2026-09 | Operating 96; Canceled or Postponed 16; Retired 11; Planned 5 | 0 |
+
+### 2026-07: nuclear rows retired before 2002 (or Retired with no year): 0
+
+| sheet | plant id | plant | generator | retirement year | MW |
+|---|---|---|---|---|---|
+
+Rows whose plant name has shippingport or vallecitos or saxton or piqua: Operating Piqua Power Plant 2937/11 Petroleum Liquids -; Operating Piqua Power Plant 2937/8 Petroleum Liquids -; Operating DG AMP Solar Piqua Staunton 61805/AMPPS Solar Photovoltaic -; Operating DG AMP Solar Piqua Manier 62792/AMPPM Solar Photovoltaic -; Operating Vallecitos Water District 64438/VALLE Solar Photovoltaic -; Retired Piqua Power Plant 2937/10 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/3 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/4 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/6 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/7 Conventional Steam Coal 2007.
+
+### 2026-08: nuclear rows retired before 2002 (or Retired with no year): 28
+
+| sheet | plant id | plant | generator | retirement year | MW |
+|---|---|---|---|---|---|
+| Retired | 1697 | Big Rock Point | 1 | 1997 | 75 |
+| Retired | - | Bonus | 1 | 1968 | 18 |
+| Retired | - | CVTR | 1 | 1967 | 19 |
+| Retired | 869 | Dresden | 1 | 1985 | 207 |
+| Retired | - | Elk River | 1 | 1968 | 24 |
+| Retired | 1729 | Fermi | 1 | 1972 | 65 |
+| Retired | - | Fort St. Vrain | 1 | 1989 | 342 |
+| Retired | 4143 | Genoa (Lacrosse) | 5 | 1987 | 50.3 |
+| Retired | 558 | Haddam Neck | 1 | 1996 | 600.3 |
+| Retired | - | Hallam | 1 | 1964 | 84 |
+| Retired | 246 | Humboldt Bay | 3 | 1985 | 65 |
+| Retired | - | Indian Point 1 | 1 | 1974 | 277 |
+| Retired | 1517 | Maine Yankee | 1 | 1997 | 920 |
+| Retired | 566 | Millstone | 1 | 1998 | 661.5 |
+| Retired | - | Pathfinder | 1 | 1967 | 63 |
+| Retired | 3166 | Peach Bottom | 1 | 1975 | 42 |
+| Retired | - | Piqua | 1 | 1966 | 12 |
+| Retired | 6176 | Rancho Seco | 1 | 1990 | 963 |
+| Retired | 360 | San Onofre Nuclear Generating Station | 1 | 1992 | 456 |
+| Retired | - | Saxton | 1 | 1972 | 3 |
+| Retired | - | Shippingport | 1 | 1982 | 68 |
+| Retired | - | Shoreham | 1 | 1989 | 849 |
+| Retired | 8011 | Three Mile Island | 2 | 1979 | 961 |
+| Retired | 6107 | Trojan | 1 | 1993 | 1216 |
+| Retired | - | Vallecitos Nuclear Center | 1 | 1963 | 24 |
+| Retired | 1645 | Yankee Rowe | 1 | 1992 | 185 |
+| Retired | 885 | Zion | 1 | 1998 | 1098 |
+| Retired | 885 | Zion | 2 | 1998 | 1098 |
+
+Rows whose plant name has shippingport or vallecitos or saxton or piqua: Operating Piqua Power Plant 2937/11 Petroleum Liquids -; Operating Piqua Power Plant 2937/8 Petroleum Liquids -; Operating DG AMP Solar Piqua Staunton 61805/AMPPS Solar Photovoltaic -; Operating DG AMP Solar Piqua Manier 62792/AMPPM Solar Photovoltaic -; Operating Vallecitos Water District 64438/VALLE Solar Photovoltaic -; Retired Piqua Power Plant 2937/10 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/3 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/4 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/6 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/7 Conventional Steam Coal 2007; Retired Piqua -/1 Nuclear 1966; Retired Saxton -/1 Nuclear 1972; Retired Shippingport -/1 Nuclear 1982; Retired Vallecitos Nuclear Center -/1 Nuclear 1963.
+
+### 2026-09: nuclear rows retired before 2002 (or Retired with no year): 0
+
+| sheet | plant id | plant | generator | retirement year | MW |
+|---|---|---|---|---|---|
+
+Rows whose plant name has shippingport or vallecitos or saxton or piqua: Operating Piqua Power Plant 2937/11 Petroleum Liquids -; Operating Piqua Power Plant 2937/8 Petroleum Liquids -; Operating DG AMP Solar Piqua Staunton 61805/AMPPS Solar Photovoltaic -; Operating DG AMP Solar Piqua Manier 62792/AMPPM Solar Photovoltaic -; Operating Vallecitos Water District 64438/VALLE Solar Photovoltaic -; Retired Piqua Power Plant 2937/10 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/3 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/4 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/6 Conventional Steam Coal 2007; Retired Piqua Power Plant 2937/7 Conventional Steam Coal 2007.
+

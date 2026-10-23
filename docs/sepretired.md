@@ -66,3 +66,7 @@ What the files do not say is when or why these 16 came onto the sheet. March 201
 - Nothing here says why EIA added or removed these rows. EIA's page says estimates "will be corrected without specific acknowledgment or explanation in subsequent month's inventory", and it has no note on this change.
 - The 16 are not independent: one edit at EIA can add or remove many rows at once.
 - No person has opened the workbooks by hand to confirm these rows.
+
+## Update, 23 October 2026 (later): when and why they came on
+
+Job retiredentry-v1 scored [`docs/retiredentry-plan.md`](retiredentry-plan.md), and [`docs/retiredentry.md`](retiredentry.md) reports it (3 of 4 held). None of the 16 was in any workbook before August 2026. August's Retired sheet also has 12 more nuclear rows retired before 2002 that have no plant ID, 28 in all, and September's has none of them. The "why" in the limits above has a partial answer we had missed: Catalyst Cooperative's PUDL documentation says EIA confirmed by email that it added data from its nuclear shutdown list to the Retired tab in August 2026. Why EIA removed the rows in September is still not stated anywhere we found. Plant names in the table above for plants 8011, 869 and 4143 differ from the names on August's Retired rows (Three Mile Island, Dresden, Genoa (Lacrosse)); the keys and numbers are the same. Nothing above was changed.

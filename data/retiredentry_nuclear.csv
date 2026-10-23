@@ -1,0 +1,443 @@
+month,sheet,plant_id,plant_name,generator_id,technology,retirement_year,nameplate_mw
+2026-07,Operating,46,Browns Ferry,1,Nuclear,-,1281
+2026-07,Operating,46,Browns Ferry,2,Nuclear,-,1281
+2026-07,Operating,46,Browns Ferry,3,Nuclear,-,1292
+2026-07,Operating,204,Clinton Power Station,1,Nuclear,-,1138.3
+2026-07,Operating,210,Wolf Creek Generating Station,1,Nuclear,-,1296.3
+2026-07,Operating,371,Columbia Generating Station,2,Nuclear,-,1200
+2026-07,Operating,566,Millstone,2,Nuclear,-,909.9
+2026-07,Operating,566,Millstone,3,Nuclear,-,1350
+2026-07,Operating,621,Turkey Point,3,Nuclear,-,877.2
+2026-07,Operating,621,Turkey Point,4,Nuclear,-,877.2
+2026-07,Operating,649,Vogtle,1,Nuclear,-,1215
+2026-07,Operating,649,Vogtle,2,Nuclear,-,1215
+2026-07,Operating,649,Vogtle,3,Nuclear,-,1114
+2026-07,Operating,649,Vogtle,4,Nuclear,-,1114
+2026-07,Operating,869,Dresden Generating Station,2,Nuclear,-,1009.3
+2026-07,Operating,869,Dresden Generating Station,3,Nuclear,-,1009.3
+2026-07,Operating,880,Quad Cities Generating Station,1,Nuclear,-,1009.3
+2026-07,Operating,880,Quad Cities Generating Station,2,Nuclear,-,1009.3
+2026-07,Operating,1715,Palisades,1,Nuclear,-,811.8
+2026-07,Operating,1729,Fermi,2,Nuclear,-,1217
+2026-07,Operating,1922,Monticello Nuclear Facility,1,Nuclear,2030,685
+2026-07,Operating,1925,Prairie Island,1,Nuclear,2033,593.1
+2026-07,Operating,1925,Prairie Island,2,Nuclear,2034,593.1
+2026-07,Operating,2410,PSEG Salem Generating Station,1,Nuclear,-,1170
+2026-07,Operating,2410,PSEG Salem Generating Station,2,Nuclear,-,1170
+2026-07,Operating,2589,Nine Mile Point Nuclear Station,1,Nuclear,-,641.8
+2026-07,Operating,2589,Nine Mile Point Nuclear Station,2,Nuclear,-,1259.3
+2026-07,Operating,2937,Piqua Power Plant,11,Petroleum Liquids,-,16.3
+2026-07,Operating,2937,Piqua Power Plant,8,Petroleum Liquids,-,20
+2026-07,Operating,3166,Peach Bottom,2,Nuclear,-,1499.4
+2026-07,Operating,3166,Peach Bottom,3,Nuclear,-,1377
+2026-07,Operating,3251,H B Robinson,2,Nuclear,-,768.6
+2026-07,Operating,3265,Oconee,1,Nuclear,-,886.7
+2026-07,Operating,3265,Oconee,2,Nuclear,-,886.7
+2026-07,Operating,3265,Oconee,3,Nuclear,-,893.3
+2026-07,Operating,3806,Surry,1,Nuclear,-,847.5
+2026-07,Operating,3806,Surry,2,Nuclear,-,847.5
+2026-07,Operating,4046,Point Beach Nuclear Plant,1,Nuclear,-,643
+2026-07,Operating,4046,Point Beach Nuclear Plant,2,Nuclear,-,643
+2026-07,Operating,4270,Waterford 3,3,Nuclear,-,1199.8
+2026-07,Operating,6000,Donald C Cook,1,Nuclear,-,1152
+2026-07,Operating,6000,Donald C Cook,2,Nuclear,-,1133.3
+2026-07,Operating,6001,Joseph M Farley,1,Nuclear,-,888.2
+2026-07,Operating,6001,Joseph M Farley,2,Nuclear,-,888.2
+2026-07,Operating,6008,Palo Verde,1,Nuclear,-,1403.2
+2026-07,Operating,6008,Palo Verde,2,Nuclear,-,1403.2
+2026-07,Operating,6008,Palo Verde,3,Nuclear,-,1403.2
+2026-07,Operating,6011,Calvert Cliffs Nuclear Power Plant,1,Nuclear,-,918
+2026-07,Operating,6011,Calvert Cliffs Nuclear Power Plant,2,Nuclear,-,932.4
+2026-07,Operating,6014,Brunswick Nuclear,1,Nuclear,-,1001.6
+2026-07,Operating,6014,Brunswick Nuclear,2,Nuclear,-,1001.6
+2026-07,Operating,6015,Harris (NC),1,Nuclear,-,950.9
+2026-07,Operating,6020,Perry,1,Nuclear,-,1311.6
+2026-07,Operating,6022,Braidwood Generation Station,1,Nuclear,-,1224.9
+2026-07,Operating,6022,Braidwood Generation Station,2,Nuclear,-,1224.9
+2026-07,Operating,6023,Byron Generating Station,1,Nuclear,-,1224.9
+2026-07,Operating,6023,Byron Generating Station,2,Nuclear,-,1224.9
+2026-07,Operating,6026,LaSalle Generating Station,1,Nuclear,-,1170
+2026-07,Operating,6026,LaSalle Generating Station,2,Nuclear,-,1170
+2026-07,Operating,6036,Catawba,1,Nuclear,-,1205.1
+2026-07,Operating,6036,Catawba,2,Nuclear,-,1205.1
+2026-07,Operating,6038,McGuire,1,Nuclear,-,1220.3
+2026-07,Operating,6038,McGuire,2,Nuclear,-,1220.3
+2026-07,Operating,6040,Beaver Valley,1,Nuclear,-,923.4
+2026-07,Operating,6040,Beaver Valley,2,Nuclear,-,923.4
+2026-07,Operating,6045,St Lucie,1,Nuclear,-,1080
+2026-07,Operating,6045,St Lucie,2,Nuclear,-,1080
+2026-07,Operating,6051,Edwin I Hatch,1,Nuclear,-,924
+2026-07,Operating,6051,Edwin I Hatch,2,Nuclear,-,924
+2026-07,Operating,6072,Grand Gulf,1,Nuclear,-,1440
+2026-07,Operating,6099,Diablo Canyon,1,Nuclear,-,1159
+2026-07,Operating,6099,Diablo Canyon,2,Nuclear,-,1164
+2026-07,Operating,6103,TalenEnergy Susquehanna,1,Nuclear,-,1266
+2026-07,Operating,6103,TalenEnergy Susquehanna,2,Nuclear,-,1266
+2026-07,Operating,6105,Limerick,1,Nuclear,-,1138.5
+2026-07,Operating,6105,Limerick,2,Nuclear,-,1138.5
+2026-07,Operating,6110,James A Fitzpatrick,1,Nuclear,-,883.3
+2026-07,Operating,6115,Seabrook,1,Nuclear,-,1242
+2026-07,Operating,6118,PSEG Hope Creek Generating Station,1,Nuclear,-,1290.7
+2026-07,Operating,6122,R E Ginna Nuclear Power Plant,1,Nuclear,-,614
+2026-07,Operating,6127,V C Summer,1,Nuclear,-,1029.6
+2026-07,Operating,6145,Comanche Peak,1,Nuclear,-,1215
+2026-07,Operating,6145,Comanche Peak,2,Nuclear,-,1215
+2026-07,Operating,6149,Davis Besse,1,Nuclear,-,925.2
+2026-07,Operating,6152,Sequoyah,1,Nuclear,-,1220.5
+2026-07,Operating,6152,Sequoyah,2,Nuclear,-,1220.5
+2026-07,Operating,6153,Callaway,1,Nuclear,-,1235.8
+2026-07,Operating,6168,North Anna,1,Nuclear,-,979.7
+2026-07,Operating,6168,North Anna,2,Nuclear,-,979.7
+2026-07,Operating,6251,South Texas Project,1,Nuclear,-,1354.3
+2026-07,Operating,6251,South Texas Project,2,Nuclear,-,1354.3
+2026-07,Operating,6462,River Bend,1,Nuclear,-,1035.9
+2026-07,Operating,7722,Watts Bar Nuclear Plant,1,Nuclear,-,1269.9
+2026-07,Operating,7722,Watts Bar Nuclear Plant,2,Nuclear,-,1269.9
+2026-07,Operating,8011,Crane Clean Energy Center,1,Nuclear,-,980.8
+2026-07,Operating,8036,Cooper Nuclear Station,1,Nuclear,-,801
+2026-07,Operating,8055,Arkansas Nuclear One,1,Nuclear,-,902.5
+2026-07,Operating,8055,Arkansas Nuclear One,2,Nuclear,-,942.5
+2026-07,Operating,61805,DG AMP Solar Piqua Staunton,AMPPS,Solar Photovoltaic,-,1.8
+2026-07,Operating,62792,DG AMP Solar Piqua Manier,AMPPM,Solar Photovoltaic,-,12.6
+2026-07,Operating,64438,Vallecitos Water District,VALLE,Solar Photovoltaic,-,1.4
+2026-07,Planned,68635,Kemmerer Unit 1,KU1,Nuclear,-,500
+2026-07,Planned,69798,Project Matador Nuclear,PMN1,Nuclear,-,1117
+2026-07,Planned,69798,Project Matador Nuclear,PMN3,Nuclear,-,1117
+2026-07,Planned,69798,Project Matador Nuclear,PMN2,Nuclear,-,1117
+2026-07,Planned,69798,Project Matador Nuclear,PMN4,Nuclear,-,1117
+2026-07,Retired,8907,Indian Point 3,3,Nuclear,2021,1012
+2026-07,Retired,1060,Duane Arnold Energy Center,1,Nuclear,2020,679.5
+2026-07,Retired,2497,Indian Point 2,2,Nuclear,2020,1299
+2026-07,Retired,1590,Pilgrim Nuclear Power Station,1,Nuclear,2019,670
+2026-07,Retired,2388,Oyster Creek,1,Nuclear,2018,550
+2026-07,Retired,2289,Fort Calhoun,1,Nuclear,2016,502
+2026-07,Retired,3751,Vermont Yankee,1,Nuclear,2014,563.4
+2026-07,Retired,360,San Onofre Nuclear Generating Station,2,Nuclear,2013,1127
+2026-07,Retired,360,San Onofre Nuclear Generating Station,3,Nuclear,2013,1127
+2026-07,Retired,8024,Kewaunee,1,Nuclear,2013,560.1
+2026-07,Retired,628,Crystal River,3,Nuclear,2013,890.4
+2026-07,Retired,2937,Piqua Power Plant,10,Conventional Steam Coal,2007,0.8
+2026-07,Retired,2937,Piqua Power Plant,3,Conventional Steam Coal,2007,4
+2026-07,Retired,2937,Piqua Power Plant,4,Conventional Steam Coal,2007,7.5
+2026-07,Retired,2937,Piqua Power Plant,6,Conventional Steam Coal,2007,12.5
+2026-07,Retired,2937,Piqua Power Plant,7,Conventional Steam Coal,2007,20
+2026-07,Canceled or Postponed,6127,V C Summer,2,Nuclear,-,1100
+2026-07,Canceled or Postponed,6127,V C Summer,3,Nuclear,-,1100
+2026-07,Canceled or Postponed,57894,Levy Nuclear Plant,LNP1,Nuclear,-,1250
+2026-07,Canceled or Postponed,57894,Levy Nuclear Plant,LNP2,Nuclear,-,1250
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM1,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM10,Nuclear,-,50
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM11,Nuclear,-,50
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM12,Nuclear,-,50
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM2,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM3,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM4,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM5,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM6,Nuclear,-,77
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM7,Nuclear,-,50
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM8,Nuclear,-,50
+2026-07,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM9,Nuclear,-,50
+2026-08,Operating,46,Browns Ferry,1,Nuclear,-,1281
+2026-08,Operating,46,Browns Ferry,2,Nuclear,-,1281
+2026-08,Operating,46,Browns Ferry,3,Nuclear,-,1292
+2026-08,Operating,204,Clinton Power Station,1,Nuclear,-,1138.3
+2026-08,Operating,210,Wolf Creek Generating Station,1,Nuclear,-,1296.3
+2026-08,Operating,371,Columbia Generating Station,2,Nuclear,-,1200
+2026-08,Operating,566,Millstone,2,Nuclear,-,909.9
+2026-08,Operating,566,Millstone,3,Nuclear,-,1350
+2026-08,Operating,621,Turkey Point,3,Nuclear,-,877.2
+2026-08,Operating,621,Turkey Point,4,Nuclear,-,877.2
+2026-08,Operating,649,Vogtle,1,Nuclear,-,1215
+2026-08,Operating,649,Vogtle,2,Nuclear,-,1215
+2026-08,Operating,649,Vogtle,3,Nuclear,-,1114
+2026-08,Operating,649,Vogtle,4,Nuclear,-,1114
+2026-08,Operating,869,Dresden Generating Station,2,Nuclear,-,1009.3
+2026-08,Operating,869,Dresden Generating Station,3,Nuclear,-,1009.3
+2026-08,Operating,880,Quad Cities Generating Station,1,Nuclear,-,1009.3
+2026-08,Operating,880,Quad Cities Generating Station,2,Nuclear,-,1009.3
+2026-08,Operating,1715,Palisades,1,Nuclear,-,811.8
+2026-08,Operating,1729,Fermi,2,Nuclear,-,1217
+2026-08,Operating,1922,Monticello Nuclear Facility,1,Nuclear,2030,685
+2026-08,Operating,1925,Prairie Island,1,Nuclear,2033,593.1
+2026-08,Operating,1925,Prairie Island,2,Nuclear,2034,593.1
+2026-08,Operating,2410,PSEG Salem Generating Station,1,Nuclear,-,1170
+2026-08,Operating,2410,PSEG Salem Generating Station,2,Nuclear,-,1170
+2026-08,Operating,2589,Nine Mile Point Nuclear Station,1,Nuclear,-,641.8
+2026-08,Operating,2589,Nine Mile Point Nuclear Station,2,Nuclear,-,1259.3
+2026-08,Operating,2937,Piqua Power Plant,11,Petroleum Liquids,-,16.3
+2026-08,Operating,2937,Piqua Power Plant,8,Petroleum Liquids,-,20
+2026-08,Operating,3166,Peach Bottom,2,Nuclear,-,1499.4
+2026-08,Operating,3166,Peach Bottom,3,Nuclear,-,1377
+2026-08,Operating,3251,H B Robinson,2,Nuclear,-,768.6
+2026-08,Operating,3265,Oconee,1,Nuclear,-,886.7
+2026-08,Operating,3265,Oconee,2,Nuclear,-,886.7
+2026-08,Operating,3265,Oconee,3,Nuclear,-,893.3
+2026-08,Operating,3806,Surry,1,Nuclear,-,847.5
+2026-08,Operating,3806,Surry,2,Nuclear,-,847.5
+2026-08,Operating,4046,Point Beach Nuclear Plant,1,Nuclear,-,643
+2026-08,Operating,4046,Point Beach Nuclear Plant,2,Nuclear,-,643
+2026-08,Operating,4270,Waterford 3,3,Nuclear,-,1199.8
+2026-08,Operating,6000,Donald C Cook,1,Nuclear,-,1152
+2026-08,Operating,6000,Donald C Cook,2,Nuclear,-,1133.3
+2026-08,Operating,6001,Joseph M Farley,1,Nuclear,-,888.2
+2026-08,Operating,6001,Joseph M Farley,2,Nuclear,-,888.2
+2026-08,Operating,6008,Palo Verde,1,Nuclear,-,1403.2
+2026-08,Operating,6008,Palo Verde,2,Nuclear,-,1403.2
+2026-08,Operating,6008,Palo Verde,3,Nuclear,-,1403.2
+2026-08,Operating,6011,Calvert Cliffs Nuclear Power Plant,1,Nuclear,-,918
+2026-08,Operating,6011,Calvert Cliffs Nuclear Power Plant,2,Nuclear,-,932.4
+2026-08,Operating,6014,Brunswick Nuclear,1,Nuclear,-,1001.6
+2026-08,Operating,6014,Brunswick Nuclear,2,Nuclear,-,1001.6
+2026-08,Operating,6015,Harris (NC),1,Nuclear,-,950.9
+2026-08,Operating,6020,Perry,1,Nuclear,-,1311.6
+2026-08,Operating,6022,Braidwood Generation Station,1,Nuclear,-,1224.9
+2026-08,Operating,6022,Braidwood Generation Station,2,Nuclear,-,1224.9
+2026-08,Operating,6023,Byron Generating Station,1,Nuclear,-,1224.9
+2026-08,Operating,6023,Byron Generating Station,2,Nuclear,-,1224.9
+2026-08,Operating,6026,LaSalle Generating Station,1,Nuclear,-,1170
+2026-08,Operating,6026,LaSalle Generating Station,2,Nuclear,-,1170
+2026-08,Operating,6036,Catawba,1,Nuclear,-,1205.1
+2026-08,Operating,6036,Catawba,2,Nuclear,-,1205.1
+2026-08,Operating,6038,McGuire,1,Nuclear,-,1220.3
+2026-08,Operating,6038,McGuire,2,Nuclear,-,1220.3
+2026-08,Operating,6040,Beaver Valley,1,Nuclear,-,923.4
+2026-08,Operating,6040,Beaver Valley,2,Nuclear,-,923.4
+2026-08,Operating,6045,St Lucie,1,Nuclear,-,1080
+2026-08,Operating,6045,St Lucie,2,Nuclear,-,1080
+2026-08,Operating,6051,Edwin I Hatch,1,Nuclear,-,924
+2026-08,Operating,6051,Edwin I Hatch,2,Nuclear,-,924
+2026-08,Operating,6072,Grand Gulf,1,Nuclear,-,1440
+2026-08,Operating,6099,Diablo Canyon,1,Nuclear,-,1159
+2026-08,Operating,6099,Diablo Canyon,2,Nuclear,-,1164
+2026-08,Operating,6103,TalenEnergy Susquehanna,1,Nuclear,-,1266
+2026-08,Operating,6103,TalenEnergy Susquehanna,2,Nuclear,-,1266
+2026-08,Operating,6105,Limerick,1,Nuclear,-,1138.5
+2026-08,Operating,6105,Limerick,2,Nuclear,-,1138.5
+2026-08,Operating,6110,James A Fitzpatrick,1,Nuclear,-,883.3
+2026-08,Operating,6115,Seabrook,1,Nuclear,-,1242
+2026-08,Operating,6118,PSEG Hope Creek Generating Station,1,Nuclear,-,1290.7
+2026-08,Operating,6122,R E Ginna Nuclear Power Plant,1,Nuclear,-,614
+2026-08,Operating,6127,V C Summer,1,Nuclear,-,1029.6
+2026-08,Operating,6145,Comanche Peak,1,Nuclear,-,1215
+2026-08,Operating,6145,Comanche Peak,2,Nuclear,-,1215
+2026-08,Operating,6149,Davis Besse,1,Nuclear,-,925.2
+2026-08,Operating,6152,Sequoyah,1,Nuclear,-,1220.5
+2026-08,Operating,6152,Sequoyah,2,Nuclear,-,1220.5
+2026-08,Operating,6153,Callaway,1,Nuclear,-,1235.8
+2026-08,Operating,6168,North Anna,1,Nuclear,-,979.7
+2026-08,Operating,6168,North Anna,2,Nuclear,-,979.7
+2026-08,Operating,6251,South Texas Project,1,Nuclear,-,1354.3
+2026-08,Operating,6251,South Texas Project,2,Nuclear,-,1354.3
+2026-08,Operating,6462,River Bend,1,Nuclear,-,1035.9
+2026-08,Operating,7722,Watts Bar Nuclear Plant,1,Nuclear,-,1269.9
+2026-08,Operating,7722,Watts Bar Nuclear Plant,2,Nuclear,-,1269.9
+2026-08,Operating,8011,Crane Clean Energy Center,1,Nuclear,-,980.8
+2026-08,Operating,8036,Cooper Nuclear Station,1,Nuclear,-,801
+2026-08,Operating,8055,Arkansas Nuclear One,1,Nuclear,-,902.5
+2026-08,Operating,8055,Arkansas Nuclear One,2,Nuclear,-,942.5
+2026-08,Operating,61805,DG AMP Solar Piqua Staunton,AMPPS,Solar Photovoltaic,-,1.8
+2026-08,Operating,62792,DG AMP Solar Piqua Manier,AMPPM,Solar Photovoltaic,-,12.6
+2026-08,Operating,64438,Vallecitos Water District,VALLE,Solar Photovoltaic,-,1.4
+2026-08,Planned,68635,Kemmerer Unit 1,KU1,Nuclear,-,500
+2026-08,Planned,69798,Project Matador Nuclear,PMN1,Nuclear,-,1117
+2026-08,Planned,69798,Project Matador Nuclear,PMN3,Nuclear,-,1117
+2026-08,Planned,69798,Project Matador Nuclear,PMN2,Nuclear,-,1117
+2026-08,Planned,69798,Project Matador Nuclear,PMN4,Nuclear,-,1117
+2026-08,Retired,8907,Indian Point 3,3,Nuclear,2021,1012
+2026-08,Retired,1060,Duane Arnold Energy Center,1,Nuclear,2020,679.5
+2026-08,Retired,2497,Indian Point 2,2,Nuclear,2020,1299
+2026-08,Retired,1590,Pilgrim Nuclear Power Station,1,Nuclear,2019,670
+2026-08,Retired,2388,Oyster Creek,1,Nuclear,2018,550
+2026-08,Retired,2289,Fort Calhoun,1,Nuclear,2016,502
+2026-08,Retired,3751,Vermont Yankee,1,Nuclear,2014,563.4
+2026-08,Retired,360,San Onofre Nuclear Generating Station,2,Nuclear,2013,1127
+2026-08,Retired,360,San Onofre Nuclear Generating Station,3,Nuclear,2013,1127
+2026-08,Retired,8024,Kewaunee,1,Nuclear,2013,560.1
+2026-08,Retired,628,Crystal River,3,Nuclear,2013,890.4
+2026-08,Retired,2937,Piqua Power Plant,10,Conventional Steam Coal,2007,0.8
+2026-08,Retired,2937,Piqua Power Plant,3,Conventional Steam Coal,2007,4
+2026-08,Retired,2937,Piqua Power Plant,4,Conventional Steam Coal,2007,7.5
+2026-08,Retired,2937,Piqua Power Plant,6,Conventional Steam Coal,2007,12.5
+2026-08,Retired,2937,Piqua Power Plant,7,Conventional Steam Coal,2007,20
+2026-08,Retired,1697,Big Rock Point,1,Nuclear,1997,75
+2026-08,Retired,-,Bonus,1,Nuclear,1968,18
+2026-08,Retired,-,CVTR,1,Nuclear,1967,19
+2026-08,Retired,869,Dresden,1,Nuclear,1985,207
+2026-08,Retired,-,Elk River,1,Nuclear,1968,24
+2026-08,Retired,1729,Fermi,1,Nuclear,1972,65
+2026-08,Retired,-,Fort St. Vrain,1,Nuclear,1989,342
+2026-08,Retired,4143,Genoa (Lacrosse),5,Nuclear,1987,50.3
+2026-08,Retired,558,Haddam Neck,1,Nuclear,1996,600.3
+2026-08,Retired,-,Hallam,1,Nuclear,1964,84
+2026-08,Retired,246,Humboldt Bay,3,Nuclear,1985,65
+2026-08,Retired,-,Indian Point 1,1,Nuclear,1974,277
+2026-08,Retired,1517,Maine Yankee,1,Nuclear,1997,920
+2026-08,Retired,566,Millstone,1,Nuclear,1998,661.5
+2026-08,Retired,-,Pathfinder,1,Nuclear,1967,63
+2026-08,Retired,3166,Peach Bottom,1,Nuclear,1975,42
+2026-08,Retired,-,Piqua,1,Nuclear,1966,12
+2026-08,Retired,6176,Rancho Seco,1,Nuclear,1990,963
+2026-08,Retired,360,San Onofre Nuclear Generating Station,1,Nuclear,1992,456
+2026-08,Retired,-,Saxton,1,Nuclear,1972,3
+2026-08,Retired,-,Shippingport,1,Nuclear,1982,68
+2026-08,Retired,-,Shoreham,1,Nuclear,1989,849
+2026-08,Retired,8011,Three Mile Island,2,Nuclear,1979,961
+2026-08,Retired,6107,Trojan,1,Nuclear,1993,1216
+2026-08,Retired,-,Vallecitos Nuclear Center,1,Nuclear,1963,24
+2026-08,Retired,1645,Yankee Rowe,1,Nuclear,1992,185
+2026-08,Retired,885,Zion,1,Nuclear,1998,1098
+2026-08,Retired,885,Zion,2,Nuclear,1998,1098
+2026-08,Canceled or Postponed,6127,V C Summer,2,Nuclear,-,1100
+2026-08,Canceled or Postponed,6127,V C Summer,3,Nuclear,-,1100
+2026-08,Canceled or Postponed,57894,Levy Nuclear Plant,LNP1,Nuclear,-,1250
+2026-08,Canceled or Postponed,57894,Levy Nuclear Plant,LNP2,Nuclear,-,1250
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM1,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM10,Nuclear,-,50
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM11,Nuclear,-,50
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM12,Nuclear,-,50
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM2,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM3,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM4,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM5,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM6,Nuclear,-,77
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM7,Nuclear,-,50
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM8,Nuclear,-,50
+2026-08,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM9,Nuclear,-,50
+2026-09,Operating,46,Browns Ferry,1,Nuclear,-,1281
+2026-09,Operating,46,Browns Ferry,2,Nuclear,-,1281
+2026-09,Operating,46,Browns Ferry,3,Nuclear,-,1292
+2026-09,Operating,204,Clinton Power Station,1,Nuclear,-,1138.3
+2026-09,Operating,210,Wolf Creek Generating Station,1,Nuclear,-,1296.3
+2026-09,Operating,371,Columbia Generating Station,2,Nuclear,-,1200
+2026-09,Operating,566,Millstone,2,Nuclear,-,909.9
+2026-09,Operating,566,Millstone,3,Nuclear,-,1350
+2026-09,Operating,621,Turkey Point,3,Nuclear,-,877.2
+2026-09,Operating,621,Turkey Point,4,Nuclear,-,877.2
+2026-09,Operating,649,Vogtle,1,Nuclear,-,1215
+2026-09,Operating,649,Vogtle,2,Nuclear,-,1215
+2026-09,Operating,649,Vogtle,3,Nuclear,-,1114
+2026-09,Operating,649,Vogtle,4,Nuclear,-,1114
+2026-09,Operating,869,Dresden Generating Station,2,Nuclear,-,1009.3
+2026-09,Operating,869,Dresden Generating Station,3,Nuclear,-,1009.3
+2026-09,Operating,880,Quad Cities Generating Station,1,Nuclear,-,1009.3
+2026-09,Operating,880,Quad Cities Generating Station,2,Nuclear,-,1009.3
+2026-09,Operating,1715,Palisades,1,Nuclear,-,811.8
+2026-09,Operating,1729,Fermi,2,Nuclear,-,1217
+2026-09,Operating,1922,Monticello Nuclear Facility,1,Nuclear,2050,685
+2026-09,Operating,1925,Prairie Island,1,Nuclear,2050,593.1
+2026-09,Operating,1925,Prairie Island,2,Nuclear,2050,593.1
+2026-09,Operating,2410,PSEG Salem Generating Station,1,Nuclear,-,1170
+2026-09,Operating,2410,PSEG Salem Generating Station,2,Nuclear,-,1170
+2026-09,Operating,2589,Nine Mile Point Nuclear Station,1,Nuclear,-,641.8
+2026-09,Operating,2589,Nine Mile Point Nuclear Station,2,Nuclear,-,1259.3
+2026-09,Operating,2937,Piqua Power Plant,11,Petroleum Liquids,-,16.3
+2026-09,Operating,2937,Piqua Power Plant,8,Petroleum Liquids,-,20
+2026-09,Operating,3166,Peach Bottom,2,Nuclear,-,1499.4
+2026-09,Operating,3166,Peach Bottom,3,Nuclear,-,1377
+2026-09,Operating,3251,H B Robinson,2,Nuclear,-,768.6
+2026-09,Operating,3265,Oconee,1,Nuclear,-,886.7
+2026-09,Operating,3265,Oconee,2,Nuclear,-,886.7
+2026-09,Operating,3265,Oconee,3,Nuclear,-,893.3
+2026-09,Operating,3806,Surry,1,Nuclear,-,847.5
+2026-09,Operating,3806,Surry,2,Nuclear,-,847.5
+2026-09,Operating,4046,Point Beach Nuclear Plant,1,Nuclear,-,643
+2026-09,Operating,4046,Point Beach Nuclear Plant,2,Nuclear,-,643
+2026-09,Operating,4270,Waterford 3,3,Nuclear,-,1199.8
+2026-09,Operating,6000,Donald C Cook,1,Nuclear,-,1152
+2026-09,Operating,6000,Donald C Cook,2,Nuclear,-,1133.3
+2026-09,Operating,6001,Joseph M Farley,1,Nuclear,-,888.2
+2026-09,Operating,6001,Joseph M Farley,2,Nuclear,-,888.2
+2026-09,Operating,6008,Palo Verde,1,Nuclear,-,1403.2
+2026-09,Operating,6008,Palo Verde,2,Nuclear,-,1403.2
+2026-09,Operating,6008,Palo Verde,3,Nuclear,-,1403.2
+2026-09,Operating,6011,Calvert Cliffs Nuclear Power Plant,1,Nuclear,-,918
+2026-09,Operating,6011,Calvert Cliffs Nuclear Power Plant,2,Nuclear,-,932.4
+2026-09,Operating,6014,Brunswick Nuclear,1,Nuclear,-,1001.6
+2026-09,Operating,6014,Brunswick Nuclear,2,Nuclear,-,1001.6
+2026-09,Operating,6015,Harris (NC),1,Nuclear,-,950.9
+2026-09,Operating,6020,Perry,1,Nuclear,-,1311.6
+2026-09,Operating,6022,Braidwood Generation Station,1,Nuclear,-,1224.9
+2026-09,Operating,6022,Braidwood Generation Station,2,Nuclear,-,1224.9
+2026-09,Operating,6023,Byron Generating Station,1,Nuclear,-,1224.9
+2026-09,Operating,6023,Byron Generating Station,2,Nuclear,-,1224.9
+2026-09,Operating,6026,LaSalle Generating Station,1,Nuclear,-,1170
+2026-09,Operating,6026,LaSalle Generating Station,2,Nuclear,-,1170
+2026-09,Operating,6036,Catawba,1,Nuclear,-,1205.1
+2026-09,Operating,6036,Catawba,2,Nuclear,-,1205.1
+2026-09,Operating,6038,McGuire,1,Nuclear,-,1220.3
+2026-09,Operating,6038,McGuire,2,Nuclear,-,1220.3
+2026-09,Operating,6040,Beaver Valley,1,Nuclear,-,923.4
+2026-09,Operating,6040,Beaver Valley,2,Nuclear,-,923.4
+2026-09,Operating,6045,St Lucie,1,Nuclear,-,1080
+2026-09,Operating,6045,St Lucie,2,Nuclear,-,1080
+2026-09,Operating,6051,Edwin I Hatch,1,Nuclear,-,924
+2026-09,Operating,6051,Edwin I Hatch,2,Nuclear,-,924
+2026-09,Operating,6072,Grand Gulf,1,Nuclear,-,1440
+2026-09,Operating,6099,Diablo Canyon,1,Nuclear,-,1159
+2026-09,Operating,6099,Diablo Canyon,2,Nuclear,-,1164
+2026-09,Operating,6103,TalenEnergy Susquehanna,1,Nuclear,-,1266
+2026-09,Operating,6103,TalenEnergy Susquehanna,2,Nuclear,-,1266
+2026-09,Operating,6105,Limerick,1,Nuclear,-,1138.5
+2026-09,Operating,6105,Limerick,2,Nuclear,-,1138.5
+2026-09,Operating,6110,James A Fitzpatrick,1,Nuclear,-,883.3
+2026-09,Operating,6115,Seabrook,1,Nuclear,-,1242
+2026-09,Operating,6118,PSEG Hope Creek Generating Station,1,Nuclear,-,1290.7
+2026-09,Operating,6122,R E Ginna Nuclear Power Plant,1,Nuclear,-,614
+2026-09,Operating,6127,V C Summer,1,Nuclear,-,1029.6
+2026-09,Operating,6145,Comanche Peak,1,Nuclear,-,1215
+2026-09,Operating,6145,Comanche Peak,2,Nuclear,-,1215
+2026-09,Operating,6149,Davis Besse,1,Nuclear,-,925.2
+2026-09,Operating,6152,Sequoyah,1,Nuclear,-,1220.5
+2026-09,Operating,6152,Sequoyah,2,Nuclear,-,1220.5
+2026-09,Operating,6153,Callaway,1,Nuclear,-,1235.8
+2026-09,Operating,6168,North Anna,1,Nuclear,-,979.7
+2026-09,Operating,6168,North Anna,2,Nuclear,-,979.7
+2026-09,Operating,6251,South Texas Project,1,Nuclear,-,1354.3
+2026-09,Operating,6251,South Texas Project,2,Nuclear,-,1354.3
+2026-09,Operating,6462,River Bend,1,Nuclear,-,1035.9
+2026-09,Operating,7722,Watts Bar Nuclear Plant,1,Nuclear,-,1269.9
+2026-09,Operating,7722,Watts Bar Nuclear Plant,2,Nuclear,-,1269.9
+2026-09,Operating,8011,Crane Clean Energy Center,1,Nuclear,-,980.8
+2026-09,Operating,8036,Cooper Nuclear Station,1,Nuclear,-,801
+2026-09,Operating,8055,Arkansas Nuclear One,1,Nuclear,-,902.5
+2026-09,Operating,8055,Arkansas Nuclear One,2,Nuclear,-,942.5
+2026-09,Operating,61805,DG AMP Solar Piqua Staunton,AMPPS,Solar Photovoltaic,-,1.8
+2026-09,Operating,62792,DG AMP Solar Piqua Manier,AMPPM,Solar Photovoltaic,-,12.6
+2026-09,Operating,64438,Vallecitos Water District,VALLE,Solar Photovoltaic,-,1.4
+2026-09,Planned,68635,Kemmerer Unit 1,KU1,Nuclear,-,500
+2026-09,Planned,69798,Project Matador Nuclear,PMN1,Nuclear,-,1117
+2026-09,Planned,69798,Project Matador Nuclear,PMN3,Nuclear,-,1117
+2026-09,Planned,69798,Project Matador Nuclear,PMN2,Nuclear,-,1117
+2026-09,Planned,69798,Project Matador Nuclear,PMN4,Nuclear,-,1117
+2026-09,Retired,8907,Indian Point 3,3,Nuclear,2021,1012
+2026-09,Retired,1060,Duane Arnold Energy Center,1,Nuclear,2020,679.5
+2026-09,Retired,2497,Indian Point 2,2,Nuclear,2020,1299
+2026-09,Retired,1590,Pilgrim Nuclear Power Station,1,Nuclear,2019,670
+2026-09,Retired,2388,Oyster Creek,1,Nuclear,2018,550
+2026-09,Retired,2289,Fort Calhoun,1,Nuclear,2016,502
+2026-09,Retired,3751,Vermont Yankee,1,Nuclear,2014,563.4
+2026-09,Retired,360,San Onofre Nuclear Generating Station,2,Nuclear,2013,1127
+2026-09,Retired,360,San Onofre Nuclear Generating Station,3,Nuclear,2013,1127
+2026-09,Retired,8024,Kewaunee,1,Nuclear,2013,560.1
+2026-09,Retired,628,Crystal River,3,Nuclear,2013,890.4
+2026-09,Retired,2937,Piqua Power Plant,10,Conventional Steam Coal,2007,0.8
+2026-09,Retired,2937,Piqua Power Plant,3,Conventional Steam Coal,2007,4
+2026-09,Retired,2937,Piqua Power Plant,4,Conventional Steam Coal,2007,7.5
+2026-09,Retired,2937,Piqua Power Plant,6,Conventional Steam Coal,2007,12.5
+2026-09,Retired,2937,Piqua Power Plant,7,Conventional Steam Coal,2007,20
+2026-09,Canceled or Postponed,6127,V C Summer,2,Nuclear,-,1100
+2026-09,Canceled or Postponed,6127,V C Summer,3,Nuclear,-,1100
+2026-09,Canceled or Postponed,57894,Levy Nuclear Plant,LNP1,Nuclear,-,1250
+2026-09,Canceled or Postponed,57894,Levy Nuclear Plant,LNP2,Nuclear,-,1250
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM1,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM10,Nuclear,-,50
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM11,Nuclear,-,50
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM12,Nuclear,-,50
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM2,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM3,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM4,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM5,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM6,Nuclear,-,77
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM7,Nuclear,-,50
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM8,Nuclear,-,50
+2026-09,Canceled or Postponed,61075,UAMPS Carbon Free Power Plant,NPM9,Nuclear,-,50

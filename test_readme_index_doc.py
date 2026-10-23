@@ -1,7 +1,7 @@
-"""Doc test: what README.md says about the thirtieth to thirty-second results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-third results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
-docs/eia860m-changelog-from-workbooks.md).
+docs/retiredentry.md, docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -70,12 +70,39 @@ class ReadmeIndexTests(unittest.TestCase):
                   "None is retired before 2002 and none has a missing year."):
             self.assertIn(s, doc)
 
+    def test_retiredentry(self):
+        doc = read("docs", "retiredentry.md")
+        self.assertIn("3 of 4 predictions held. R4 failed: August 2026's workbook has 28 such rows, not 16.", doc)
+        self.assertIn("| 33 | August 2026 added 28 nuclear reactors retired before 2002 to the Retired sheet for one "
+                      "month (3 of 4 held) | [`retiredentry.md`](docs/retiredentry.md) |", self.readme)
+        self.assertIn("(thirty-third result, scored; 3 of 4 held)", self.readme)
+        self.assertIn("**August 2026 added 28 reactors retired before 2002, and September removed them all.**",
+                      self.readme)
+        for s in ("none of the 16 was in any workbook before August 2026",
+                  "28 nuclear rows retired from 1963 to 1998 (10,446.1 MW), 12 of them with no plant ID",
+                  "September's workbook has none of the 28.", "Catalyst Cooperative had already documented"):
+            self.assertIn(s, self.readme)
+        for s in ("By the changelog, none of the 16 was listed in any workbook from July 2015 to July 2026",
+                  "Together the 28 are 10,446.1 MW", "12 have no plant ID",
+                  "Their retirement years run from 1963 to 1998.", "September's has the 11 and none of the 28",
+                  "we missed that when we wrote the plan"):
+            self.assertIn(s, doc)
+
     def test_plans_not_scored(self):
-        for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md"):
+        for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
         self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md)", self.readme)
-        self.assertIn("and [`retiredentry-plan.md`](docs/retiredentry-plan.md) (when the 16 pre-2002 nuclear "
-                      "generators reached the Retired sheet, four bars", self.readme)
+        self.assertIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall in the next-month share is "
+                      "inside technologies or a change of mix, four predictions and a reproduction check", self.readme)
+        nexttech = read("docs", "nexttech-plan.md")
+        for s in ("**T0.**", "**T1.**", "**T2.**", "**T3.**", "**T4.**", "1,980 of 4,223", "2,110 of 6,047"):
+            self.assertIn(s, nexttech)
+        code = read("tools", "annual-flows-candidate", "nexttech.py")
+        self.assertIn("KNOWN = {EARLY: (1980, 4223), LATE: (2110, 6047)}", code)
+        self.assertIn('EARLY, LATE = ("2016-01", "2019-12"), ("2022-01", "2025-12")', code)
+        self.assertNotIn("and [`retiredentry-plan.md`](docs/retiredentry-plan.md) (when the 16", self.readme)
+        self.assertIn("was pre-registered in [`docs/retiredentry-plan.md`](docs/retiredentry-plan.md) and is scored "
+                      "in the thirty-third result", self.readme)
         self.assertIn("Bar S3 of [`sepretired-plan.md`](docs/sepretired-plan.md) (whether any of the 16 generators "
                       "that left the Retired sheet in September 2026 is listed again in October 2026)", self.readme)
         self.assertIn("**S3.** At most 3 of the 16 are listed again", read("docs", "sepretired-plan.md"))
@@ -83,7 +110,7 @@ class ReadmeIndexTests(unittest.TestCase):
 
     def test_links_kept(self):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
-                     "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md",
+                     "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
                      "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)

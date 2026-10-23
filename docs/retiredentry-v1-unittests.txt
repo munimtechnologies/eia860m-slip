@@ -1,0 +1,16 @@
+test_entry (test_retiredentry.BookTests.test_entry) ... ok
+test_nuclear_rows (test_retiredentry.BookTests.test_nuclear_rows) ... ok
+test_render (test_retiredentry.BookTests.test_render) ... ok
+test_score (test_retiredentry.BookTests.test_score) ... ok
+test_constants (test_retiredentry.HelperTests.test_constants) ... ok
+test_load_log (test_retiredentry.HelperTests.test_load_log) ... ok
+test_wait_plan (test_retiredentry.HelperTests.test_wait_plan) ... ok
+test_after_arrival (test_retiredentry.HistoryTests.test_after_arrival) ... ok
+test_arrival (test_retiredentry.HistoryTests.test_arrival) ... ok
+test_history (test_retiredentry.HistoryTests.test_history) ... ok
+test_state (test_retiredentry.HistoryTests.test_state) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.003s
+
+OK
