@@ -1,6 +1,11 @@
-# EIA-860M generator changelog rebuilt from EIA's own workbooks, 2015-07 to 2026-08 (preliminary, 0.1.0)
+# EIA-860M generator changelog rebuilt from EIA's own workbooks, 2015-07 to 2026-09 (preliminary, 0.1.1)
 
 File: [`../data/eia860m_changelog_from_workbooks.csv.gz`](../data/eia860m_changelog_from_workbooks.csv.gz). MV2 of Munim, Inc. (made with AI agents working in his name). Compilation CC BY 4.0; the underlying EIA-860M data are published by the U.S. Energy Information Administration.
+
+## Versions
+
+- **0.1.1** (23 October 2026): appends EIA's September 2026 workbook (https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx, 14,013,970 bytes, md5 4c741eb77a5ccad5aca32ffe43f398af), read by job monthcheck-sep2026-v1 with the same reader: 646 rows (170 first, 455 changed, 20 left, 1 back), 117,756 rows in all. Before appending, the job rebuilt July 2015 to August 2026 and got 0.1.0's text line for line, so those rows are unchanged. The September file was taken from EIA's own site, because it is not yet in PUDL's archive. See [`sep2026.md`](sep2026.md).
+- **0.1.0** (22 October 2026): July 2015 to August 2026, 117,110 rows, written by job history-v1 as described below. Still readable at commit e4ecb0d.
 
 ## What it is
 
@@ -46,6 +51,8 @@ It was written by `tools/annual-flows-candidate/history.py` 0.1.0 in compete job
 
 The month-by-month count is in [`heldtrace-v2-output.md`](heldtrace-v2-output.md) ("Rebuilt changelog rows by month"; job `heldtrace-v2`, 22 October 2026).
 
+This table is version 0.1.0's (to August 2026). Version 0.1.1 adds the September 2026 rows (170 first, 455 changed, 20 left, 1 back) to 2026; the month-by-month counts with September are in [`../data/monthcheck_months_2026-09.csv`](../data/monthcheck_months_2026-09.csv).
+
 ## Known limits (read before use)
 
 - **July 2015 to March 2016 have no nameplate MW.** Those sheets have only Net Summer Capacity, so `nameplate_mw` is blank there. This is expected to account for most of the 27,603 "changed" rows of 2016: in April 2016, MW goes from blank to a value for nearly every generator. A month-by-month count is queued (job `heldtrace-v1`).
@@ -56,7 +63,9 @@ The month-by-month count is in [`heldtrace-v2-output.md`](heldtrace-v2-output.md
   - Update, 22 October 2026 (evening): job `gapcensus-v1` ([`heldtrace.md`](heldtrace.md)) rebuilt this file from the workbooks and got the same text, line for line (a reproducibility check by the same code, not an independent one). Of the other 3, one was listed again in July 2025 and 2 were not listed again by August 2026. No other month has more than 13 generators missing for exactly one month.
 - **A "left" row does not always mean a generator left EIA's inventory.** Added 22 October 2026 (job `gapcensus-v1`). The changelog does not read the Canceled or Postponed sheet, so a planned unit moved there gets a "left" row. In March 2017, 238 generators left the Retired sheet and were not listed again by August 2026; EIA's page says that from March 2017 data the Retired tab is a comprehensive list of generators retired since 2002. Whether those 238 retired before 2002 is being checked (job `retiredscope-v1`).
   - Update, 22 October 2026 (night): checked by job `retiredscope-v1` ([`heldtrace.md`](heldtrace.md)). All 238 retired before 2002 (1950 to 2001), so their March 2017 "left" rows record EIA's documented change of scope, not changes at the plants. Separately, 41 generators retired in 2002 or later left the Retired sheet after March 2017 and were not listed again by August 2026 (1,350.3 MW on the sheet the month before; 23 have no MW). Whether EIA's annual EIA-860 still lists them as retired is being checked (job `annual860-v1`).
+  - Update, 23 October 2026: in September 2026, 16 generators at 15 plants left the Retired sheet ([`sep2026.md`](sep2026.md)). Since April 2017 only November 2024 and January 2024 had more. What they are is being checked against bars fixed in advance ([`sepretired-plan.md`](sepretired-plan.md), job `sepretired-v1`).
 - Only status, planned month, MW and sheet are tracked. Changes in other columns (technology, retirement dates and so on) give no row.
 - Workbook values are as EIA published them in each month's file. A later EIA revision of a month is not reflected.
 - Ends at the August 2026 workbook. EIA's September 2026 file is due on 23 October 2026; an update will follow once its archive copy can be checked.
+  - Update, 23 October 2026: version 0.1.1 ends at the September 2026 workbook, taken from EIA's own site on its release day (size and md5 above). It has not yet been compared with a copy in PUDL's archive, which does not have it yet.
 - Preliminary: these rows have not yet been checked against EIA's files by any test beyond the job's own readers and checks.
