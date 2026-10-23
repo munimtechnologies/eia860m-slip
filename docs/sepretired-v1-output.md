@@ -1,0 +1,66 @@
+# sepretired 0.1.0: the 16 generators that left EIA-860M's Retired sheet in September 2026
+
+Scores docs/sepretired-plan.md (S1 and S2; S3 waits for EIA's October 2026 workbook). MV2 of Munim, Inc. (made with AI agents).
+
+## Files
+
+| file | source | bytes | md5 | errors |
+|---|---|---|---|---|
+| EIA-860M 2026-08 | PUDL archive: eia860m-2026-08.xlsx | 13955142 | 9727ac867236faab7d5503175dacdf38 | none |
+| EIA-860M 2026-09 | https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx | 14013970 | 4c741eb77a5ccad5aca32ffe43f398af | none |
+| EIA-860 2025 (3_1_Generator_Y2025.xlsx) | cached in /data | 23622347 | 9f621bb115375da690c8b459bde7c362 | none |
+
+September file is the one monthcheck-sep2026-v1 read (14013970 bytes, md5 4c741eb77a5ccad5aca32ffe43f398af): True.
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| S1 | held | 16 of 16 on no sheet of the 2026-09 workbook | all 16 on no sheet (Canceled or Postponed and *_PR included) |
+| S2 | failed | 0 of 16 listed as retired (RE, 2002-2025) by the annual EIA-860 2025 | at least 12 of 16 |
+| S3 | not scored yet | scored on EIA's October 2026 workbook | at most 3 of 16 listed again on a sheet the changelog reads |
+
+Held: 1 of 2 scored.
+
+## The 16
+
+| key | plant | state | technology | retired (month/year) | MW | scope | September 2026 | plant in August | plant in September | annual EIA-860 2025 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1517/1 | Maine Yankee | ME | Nuclear | 8/1997 | 920 | before 2002 | not listed | Retired 1 | none | not listed |
+| 1645/1 | Yankee Rowe | MA | Nuclear | 2/1992 | 185 | before 2002 | not listed | Retired 1 | none | not listed |
+| 1697/1 | Big Rock Point | MI | Nuclear | 8/1997 | 75 | before 2002 | not listed | Retired 1 | none | not listed |
+| 1729/1 | Fermi | MI | Nuclear | 11/1972 | 65 | before 2002 | not listed | Operating 5; Retired 1 | Operating 5 | not listed |
+| 246/3 | Humboldt Bay | CA | Nuclear | 12/1985 | 65 | before 2002 | not listed | Operating 10; Retired 3 | Operating 10; Retired 2 | not listed |
+| 3166/1 | Peach Bottom | PA | Nuclear | 3/1975 | 42 | before 2002 | not listed | Operating 2; Retired 1 | Operating 2 | not listed |
+| 360/1 | San Onofre Nuclear Generating Station | CA | Nuclear | 11/1992 | 456 | before 2002 | not listed | Retired 3 | Retired 2 | not listed |
+| 4143/5 | Genoa | WI | Nuclear | 4/1987 | 50.3 | before 2002 | not listed | Retired 2 | Retired 1 | not listed |
+| 558/1 | Haddam Neck | CT | Nuclear | 12/1996 | 600.3 | before 2002 | not listed | Retired 1 | none | not listed |
+| 566/1 | Millstone | CT | Nuclear | 7/1998 | 661.5 | before 2002 | not listed | Operating 2; Retired 1 | Operating 2 | not listed |
+| 6107/1 | Trojan | OR | Nuclear | 1/1993 | 1216 | before 2002 | not listed | Retired 1 | none | not listed |
+| 6176/1 | Rancho Seco | CA | Nuclear | 9/1990 | 963 | before 2002 | not listed | Retired 1 | none | not listed |
+| 8011/2 | Crane Clean Energy Center | PA | Nuclear | 7/1979 | 961 | before 2002 | not listed | Operating 1; Retired 1 | Operating 1 | not listed |
+| 869/1 | Dresden Generating Station | IL | Nuclear | 10/1985 | 207 | before 2002 | not listed | Operating 2; Retired 1 | Operating 2 | not listed |
+| 885/1 | Zion | IL | Nuclear | 1/1998 | 1098 | before 2002 | not listed | Retired 2 | none | not listed |
+| 885/2 | Zion | IL | Nuclear | 1/1998 | 1098 | before 2002 | not listed | Retired 2 | none | not listed |
+
+Together: 8663.1 MW on August's Retired sheet, at 15 plants. Scope: before 2002 16. Retirement years: 1972 1; 1975 1; 1979 1; 1985 2; 1987 1; 1990 1; 1992 2; 1993 1; 1996 1; 1997 2; 1998 3. Technologies: Nuclear 16. States: CA 3; IL 3; CT 2; MI 2; PA 2; MA 1; ME 1; OR 1; WI 1.
+
+## The Retired sheet, August against September
+
+Generators on the Retired sheet: 7324 in 2026-08, 7321 in 2026-09. By retirement year, 2026-08: 2002-2025 7268; after 2025 40; before 2002 16; 2026-09: 2002-2025 7270; after 2025 51.
+
+Left the sheet: 16 (8663.1 MW). By retirement year: before 2002 16. Where September lists them: not listed 16.
+
+Entered the sheet: 13 (20.5 MW). By retirement year: after 2025 11; 2002-2025 2. Where August listed them: Operating 13.
+
+## Census: annual EIA-860 2025 against EIA-860M 2026-08
+
+Annual retired (status RE, retired 2002 to 2025): 4565 (209132.0 MW). Where the 2026-08 workbook lists them: Retired 4565. On no sheet of it: 0 (0 MW).
+
+Monthly Retired sheet: 7324 generators, 7268 retired 2002 to 2025; of those, 4565 also annual retired and 2703 not.
+
+## Census: annual EIA-860 2025 against EIA-860M 2026-09
+
+Annual retired (status RE, retired 2002 to 2025): 4565 (209132.0 MW). Where the 2026-09 workbook lists them: Retired 4565. On no sheet of it: 0 (0 MW).
+
+Monthly Retired sheet: 7321 generators, 7270 retired 2002 to 2025; of those, 4565 also annual retired and 2705 not.

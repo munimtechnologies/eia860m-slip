@@ -1,0 +1,17 @@
+key,plant_name,state,technology,retirement_month,retirement_year,scope,nameplate_mw,where_sep,plant_aug,plant_sep,annual,annual_retired
+1517/1,Maine Yankee,ME,Nuclear,8,1997,before 2002,920,not listed,Retired 1,none,not listed,False
+1645/1,Yankee Rowe,MA,Nuclear,2,1992,before 2002,185,not listed,Retired 1,none,not listed,False
+1697/1,Big Rock Point,MI,Nuclear,8,1997,before 2002,75,not listed,Retired 1,none,not listed,False
+1729/1,Fermi,MI,Nuclear,11,1972,before 2002,65,not listed,Operating 5; Retired 1,Operating 5,not listed,False
+246/3,Humboldt Bay,CA,Nuclear,12,1985,before 2002,65,not listed,Operating 10; Retired 3,Operating 10; Retired 2,not listed,False
+3166/1,Peach Bottom,PA,Nuclear,3,1975,before 2002,42,not listed,Operating 2; Retired 1,Operating 2,not listed,False
+360/1,San Onofre Nuclear Generating Station,CA,Nuclear,11,1992,before 2002,456,not listed,Retired 3,Retired 2,not listed,False
+4143/5,Genoa,WI,Nuclear,4,1987,before 2002,50.3,not listed,Retired 2,Retired 1,not listed,False
+558/1,Haddam Neck,CT,Nuclear,12,1996,before 2002,600.3,not listed,Retired 1,none,not listed,False
+566/1,Millstone,CT,Nuclear,7,1998,before 2002,661.5,not listed,Operating 2; Retired 1,Operating 2,not listed,False
+6107/1,Trojan,OR,Nuclear,1,1993,before 2002,1216,not listed,Retired 1,none,not listed,False
+6176/1,Rancho Seco,CA,Nuclear,9,1990,before 2002,963,not listed,Retired 1,none,not listed,False
+8011/2,Crane Clean Energy Center,PA,Nuclear,7,1979,before 2002,961,not listed,Operating 1; Retired 1,Operating 1,not listed,False
+869/1,Dresden Generating Station,IL,Nuclear,10,1985,before 2002,207,not listed,Operating 2; Retired 1,Operating 2,not listed,False
+885/1,Zion,IL,Nuclear,1,1998,before 2002,1098,not listed,Retired 2,none,not listed,False
+885/2,Zion,IL,Nuclear,1,1998,before 2002,1098,not listed,Retired 2,none,not listed,False

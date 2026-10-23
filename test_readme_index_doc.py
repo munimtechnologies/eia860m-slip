@@ -1,6 +1,7 @@
-"""Doc test: what README.md says about the thirtieth and thirty-first results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-second results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
-docs/sep2026.md, docs/sepretired-plan.md, docs/eia860m-changelog-from-workbooks.md).
+docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
+docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -52,17 +53,38 @@ class ReadmeIndexTests(unittest.TestCase):
                   "only November 2024 and January 2024 had more"):
             self.assertIn(s, self.readme)
 
+    def test_sepretired(self):
+        doc = read("docs", "sepretired.md")
+        self.assertIn("1 of 2 scored predictions held. S2 failed.", doc)
+        self.assertIn("| 32 | The 16 generators that left the Retired sheet in September 2026 are nuclear units retired "
+                      "before 2002 (1 of 2 held; one bar waits for October 2026) | [`sepretired.md`](docs/sepretired.md) |",
+                      self.readme)
+        self.assertIn("(thirty-second result, scored against [`docs/sepretired-plan.md`](docs/sepretired-plan.md); "
+                      "1 of 2 held so far, one bar waits for October)", self.readme)
+        self.assertIn("**The 16 that left are nuclear units retired before 2002.**", self.readme)
+        for s in ("all 16 are nuclear units that August 2026's sheet lists as retired between 1972 and 1998, "
+                  "8,663.1 MW in all", "September's sheet lists none retired before 2002"):
+            self.assertIn(s, self.readme)
+        for s in ("All 16 are nuclear. August 2026's Retired sheet lists them as retired between 1972 and 1998.",
+                  "8,663.1 MW of nameplate capacity", "| 1517/1 | Maine Yankee |", "| 885/2 | Zion |",
+                  "None is retired before 2002 and none has a missing year."):
+            self.assertIn(s, doc)
+
     def test_plans_not_scored(self):
-        for name in ("dec2026-plan.md", "sepretired-plan.md"):
+        for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
         self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md)", self.readme)
-        self.assertIn("and [`sepretired-plan.md`](docs/sepretired-plan.md) (what the 16 generators that left the "
-                      "Retired sheet in September 2026 are, three bars", self.readme)
-        self.assertIn("**S1.**", read("docs", "sepretired-plan.md"))
+        self.assertIn("and [`retiredentry-plan.md`](docs/retiredentry-plan.md) (when the 16 pre-2002 nuclear "
+                      "generators reached the Retired sheet, four bars", self.readme)
+        self.assertIn("Bar S3 of [`sepretired-plan.md`](docs/sepretired-plan.md) (whether any of the 16 generators "
+                      "that left the Retired sheet in September 2026 is listed again in October 2026)", self.readme)
+        self.assertIn("**S3.** At most 3 of the 16 are listed again", read("docs", "sepretired-plan.md"))
+        self.assertIn("**R4.**", read("docs", "retiredentry-plan.md"))
 
     def test_links_kept(self):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
-                     "sep2026.md", "sepretired-plan.md", "eia860m-changelog-from-workbooks.md"):
+                     "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md",
+                     "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
         self.assertIn("117,756 rows in all.", read("docs", "eia860m-changelog-from-workbooks.md"))

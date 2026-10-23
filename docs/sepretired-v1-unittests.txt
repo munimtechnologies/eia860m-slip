@@ -1,0 +1,15 @@
+test_constants (test_sepretired.HelperTests.test_constants) ... ok
+test_plant_names (test_sepretired.HelperTests.test_plant_names) ... ok
+test_read_sep (test_sepretired.HelperTests.test_read_sep) ... ok
+test_scope (test_sepretired.HelperTests.test_scope) ... ok
+test_wait_plan (test_sepretired.HelperTests.test_wait_plan) ... ok
+test_census (test_sepretired.RowTests.test_census) ... ok
+test_compare (test_sepretired.RowTests.test_compare) ... ok
+test_render (test_sepretired.RowTests.test_render) ... ok
+test_rows (test_sepretired.RowTests.test_rows) ... ok
+test_score (test_sepretired.RowTests.test_score) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
