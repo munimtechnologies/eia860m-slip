@@ -1,0 +1,633 @@
+plant,source,when,sheet,key,status,retirement_year,nameplate_mw
+1439,annual,2016,Operable,1439/14,OP,-,12.6
+1439,annual,2016,Operable,1439/15,OP,-,25.5
+1439,annual,2016,Operable,1439/16,OP,-,40.8
+1439,annual,2016,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2016,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2016,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2016,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2016,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2016,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2016,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2017,Operable,1439/14,OP,-,12.6
+1439,annual,2017,Operable,1439/15,OP,-,25.5
+1439,annual,2017,Operable,1439/16,OP,-,40.8
+1439,annual,2017,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2017,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2017,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2017,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2017,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2017,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2017,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2018,Operable,1439/14,OP,-,12.6
+1439,annual,2018,Operable,1439/15,OP,-,25.5
+1439,annual,2018,Operable,1439/16,OP,-,40.8
+1439,annual,2018,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2018,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2018,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2018,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2018,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2018,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2018,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2019,Operable,1439/14,OP,-,12.6
+1439,annual,2019,Operable,1439/15,OP,-,25.5
+1439,annual,2019,Operable,1439/16,OP,-,40.8
+1439,annual,2019,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2019,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2019,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2019,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2019,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2019,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2019,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2020,Operable,1439/14,OP,-,12.6
+1439,annual,2020,Operable,1439/15,OP,-,25.5
+1439,annual,2020,Operable,1439/16,OP,-,40.8
+1439,annual,2020,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2020,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2020,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2020,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2020,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2020,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2020,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2021,Operable,1439/14,OP,-,12.6
+1439,annual,2021,Operable,1439/15,OP,-,25.5
+1439,annual,2021,Operable,1439/16,OP,-,40.8
+1439,annual,2021,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2021,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2021,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2021,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2021,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2021,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2021,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2022,Operable,1439/14,OP,-,12.6
+1439,annual,2022,Operable,1439/15,OP,-,25.5
+1439,annual,2022,Operable,1439/16,OP,-,40.8
+1439,annual,2022,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2022,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2022,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2022,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2022,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2022,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2022,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2023,Operable,1439/14,OS,-,12.6
+1439,annual,2023,Operable,1439/15,OS,-,25.5
+1439,annual,2023,Operable,1439/16,OS,-,40.8
+1439,annual,2023,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2023,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2023,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2023,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2023,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2023,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2023,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2024,Operable,1439/14,OS,-,12.6
+1439,annual,2024,Operable,1439/15,OS,-,25.5
+1439,annual,2024,Operable,1439/16,OS,-,40.8
+1439,annual,2024,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2024,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2024,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2024,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2024,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2024,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2024,Retired and Canceled,1439/9,RE,2010,2.7
+1439,annual,2025,Operable,1439/14,OS,-,12.6
+1439,annual,2025,Operable,1439/15,OS,-,25.5
+1439,annual,2025,Operable,1439/16,OS,-,40.8
+1439,annual,2025,Retired and Canceled,1439/10,RE,2010,4.5
+1439,annual,2025,Retired and Canceled,1439/11,RE,2010,4.5
+1439,annual,2025,Retired and Canceled,1439/12,RE,2010,4.5
+1439,annual,2025,Retired and Canceled,1439/6,RE,2010,1.4
+1439,annual,2025,Retired and Canceled,1439/7,RE,2010,1.4
+1439,annual,2025,Retired and Canceled,1439/8,RE,2010,1.4
+1439,annual,2025,Retired and Canceled,1439/9,RE,2010,2.7
+1439,monthly,2023-12,Operating,1439/14,OP,-,12.6
+1439,monthly,2023-12,Operating,1439/15,OP,-,25.5
+1439,monthly,2023-12,Operating,1439/16,OP,-,40.8
+1439,monthly,2023-12,Retired,1439/10,-,2010,4.5
+1439,monthly,2023-12,Retired,1439/10A,-,2023,-
+1439,monthly,2023-12,Retired,1439/10B,-,2023,-
+1439,monthly,2023-12,Retired,1439/11,-,2010,4.5
+1439,monthly,2023-12,Retired,1439/11A,-,2023,-
+1439,monthly,2023-12,Retired,1439/11B,-,2023,-
+1439,monthly,2023-12,Retired,1439/12,-,2010,4.5
+1439,monthly,2023-12,Retired,1439/12A,-,2023,-
+1439,monthly,2023-12,Retired,1439/12B,-,2023,-
+1439,monthly,2023-12,Retired,1439/1A,-,2023,-
+1439,monthly,2023-12,Retired,1439/1B,-,2023,-
+1439,monthly,2023-12,Retired,1439/2A,-,2023,-
+1439,monthly,2023-12,Retired,1439/2B,-,2023,-
+1439,monthly,2023-12,Retired,1439/3A,-,2023,-
+1439,monthly,2023-12,Retired,1439/3B,-,2023,-
+1439,monthly,2023-12,Retired,1439/4A,-,2023,-
+1439,monthly,2023-12,Retired,1439/4B,-,2023,-
+1439,monthly,2023-12,Retired,1439/5A,-,2023,-
+1439,monthly,2023-12,Retired,1439/6,-,2010,1.4
+1439,monthly,2023-12,Retired,1439/6A,-,2023,-
+1439,monthly,2023-12,Retired,1439/6B,-,2023,-
+1439,monthly,2023-12,Retired,1439/7,-,2010,1.4
+1439,monthly,2023-12,Retired,1439/7A,-,2023,-
+1439,monthly,2023-12,Retired,1439/7B,-,2023,-
+1439,monthly,2023-12,Retired,1439/8,-,2010,1.4
+1439,monthly,2023-12,Retired,1439/8A,-,2023,-
+1439,monthly,2023-12,Retired,1439/8B,-,2023,-
+1439,monthly,2023-12,Retired,1439/9,-,2010,2.7
+1439,monthly,2023-12,Retired,1439/9A,-,2023,-
+1439,monthly,2023-12,Retired,1439/9B,-,2023,-
+1439,monthly,2025-12,Operating,1439/14,OS,-,12.6
+1439,monthly,2025-12,Operating,1439/15,OS,-,25.5
+1439,monthly,2025-12,Operating,1439/16,OS,-,40.8
+1439,monthly,2025-12,Retired,1439/10,-,2010,4.5
+1439,monthly,2025-12,Retired,1439/11,-,2010,4.5
+1439,monthly,2025-12,Retired,1439/12,-,2010,4.5
+1439,monthly,2025-12,Retired,1439/6,-,2010,1.4
+1439,monthly,2025-12,Retired,1439/7,-,2010,1.4
+1439,monthly,2025-12,Retired,1439/8,-,2010,1.4
+1439,monthly,2025-12,Retired,1439/9,-,2010,2.7
+1439,monthly,2026-08,Operating,1439/14,OS,-,12.6
+1439,monthly,2026-08,Operating,1439/15,OS,-,25.5
+1439,monthly,2026-08,Operating,1439/16,OS,-,40.8
+1439,monthly,2026-08,Retired,1439/10,-,2010,4.5
+1439,monthly,2026-08,Retired,1439/11,-,2010,4.5
+1439,monthly,2026-08,Retired,1439/12,-,2010,4.5
+1439,monthly,2026-08,Retired,1439/6,-,2010,1.4
+1439,monthly,2026-08,Retired,1439/7,-,2010,1.4
+1439,monthly,2026-08,Retired,1439/8,-,2010,1.4
+1439,monthly,2026-08,Retired,1439/9,-,2010,2.7
+55526,annual,2016,Operable,55526/GEN1,OP,-,1.7
+55526,annual,2016,Operable,55526/GEN2,OP,-,1.7
+55526,annual,2016,Operable,55526/GEN3,OP,-,1.7
+55526,annual,2016,Operable,55526/GEN4,OP,-,1.7
+55526,annual,2016,Operable,55526/GEN5,OP,-,1.7
+55526,annual,2016,Operable,55526/GEN6,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN1,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN2,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN3,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN4,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN5,OP,-,1.7
+55526,annual,2017,Operable,55526/GEN6,OP,-,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN5,RE,2018,1.7
+55526,annual,2018,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2019,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2019,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2019,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2019,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2019,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2020,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2020,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2020,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2020,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2020,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2021,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2021,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2021,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2021,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2021,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2022,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2022,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2022,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2022,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2022,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2023,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2023,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2023,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2023,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2023,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2024,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2024,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2024,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2024,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2024,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,annual,2025,Retired and Canceled,55526/GEN1,RE,2018,1.7
+55526,annual,2025,Retired and Canceled,55526/GEN2,RE,2018,1.7
+55526,annual,2025,Retired and Canceled,55526/GEN3,RE,2018,1.7
+55526,annual,2025,Retired and Canceled,55526/GEN4,RE,2018,1.7
+55526,annual,2025,Retired and Canceled,55526/GEN6,RE,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN1,-,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN2,-,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN3,-,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN4,-,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN5,-,2018,1.7
+55526,monthly,2020-01,Retired,55526/GEN6,-,2018,1.7
+55526,monthly,2025-12,Retired,55526/GEN1,-,2018,1.7
+55526,monthly,2025-12,Retired,55526/GEN2,-,2018,1.7
+55526,monthly,2025-12,Retired,55526/GEN3,-,2018,1.7
+55526,monthly,2025-12,Retired,55526/GEN4,-,2018,1.7
+55526,monthly,2025-12,Retired,55526/GEN6,-,2018,1.7
+55526,monthly,2026-08,Retired,55526/GEN1,-,2018,1.7
+55526,monthly,2026-08,Retired,55526/GEN2,-,2018,1.7
+55526,monthly,2026-08,Retired,55526/GEN3,-,2018,1.7
+55526,monthly,2026-08,Retired,55526/GEN4,-,2018,1.7
+55526,monthly,2026-08,Retired,55526/GEN6,-,2018,1.7
+1571,annual,2016,Operable,1571/3,OP,-,659
+1571,annual,2016,Operable,1571/4,OP,-,659
+1571,annual,2016,Operable,1571/GT1,OP,-,16
+1571,annual,2016,Operable,1571/GT2,OP,-,35
+1571,annual,2016,Operable,1571/GT3,OP,-,103
+1571,annual,2016,Operable,1571/GT4,OP,-,103
+1571,annual,2016,Operable,1571/GT5,OP,-,125
+1571,annual,2016,Operable,1571/GT6,OP,-,125
+1571,annual,2016,Operable,1571/SGT1,OP,-,94
+1571,annual,2016,Operable,1571/ST1,OP,-,364
+1571,annual,2016,Operable,1571/ST2,OP,-,364
+1571,annual,2017,Operable,1571/3,OP,-,659
+1571,annual,2017,Operable,1571/4,OP,-,659
+1571,annual,2017,Operable,1571/GT1,OP,-,16
+1571,annual,2017,Operable,1571/GT2,OP,-,35
+1571,annual,2017,Operable,1571/GT3,OP,-,103
+1571,annual,2017,Operable,1571/GT4,OP,-,103
+1571,annual,2017,Operable,1571/GT5,OP,-,125
+1571,annual,2017,Operable,1571/GT6,OP,-,125
+1571,annual,2017,Operable,1571/ST1,OP,-,364
+1571,annual,2017,Operable,1571/ST2,OP,-,364
+1571,annual,2018,Operable,1571/3,OP,-,659
+1571,annual,2018,Operable,1571/4,OP,-,659
+1571,annual,2018,Operable,1571/GT1,OP,-,16
+1571,annual,2018,Operable,1571/GT2,OP,-,35
+1571,annual,2018,Operable,1571/GT3,OP,-,103
+1571,annual,2018,Operable,1571/GT4,OP,-,103
+1571,annual,2018,Operable,1571/GT5,OP,-,125
+1571,annual,2018,Operable,1571/GT6,OP,-,125
+1571,annual,2018,Operable,1571/ST1,OP,-,364
+1571,annual,2018,Operable,1571/ST2,OP,-,364
+1571,annual,2019,Operable,1571/3,OP,-,659
+1571,annual,2019,Operable,1571/4,OP,-,659
+1571,annual,2019,Operable,1571/GT1,OP,-,16
+1571,annual,2019,Operable,1571/GT2,OP,-,35
+1571,annual,2019,Operable,1571/GT3,OP,-,103
+1571,annual,2019,Operable,1571/GT4,OP,-,103
+1571,annual,2019,Operable,1571/GT5,OP,-,125
+1571,annual,2019,Operable,1571/GT6,OP,-,125
+1571,annual,2019,Operable,1571/ST1,OP,-,364
+1571,annual,2019,Operable,1571/ST2,OP,-,364
+1571,annual,2020,Operable,1571/3,OP,-,659
+1571,annual,2020,Operable,1571/4,OP,-,659
+1571,annual,2020,Operable,1571/GT1,OP,-,16
+1571,annual,2020,Operable,1571/GT2,OP,-,35
+1571,annual,2020,Operable,1571/GT3,OP,-,103
+1571,annual,2020,Operable,1571/GT4,OP,-,103
+1571,annual,2020,Operable,1571/GT5,OP,-,125
+1571,annual,2020,Operable,1571/GT6,OP,-,125
+1571,annual,2020,Operable,1571/ST1,OP,-,364
+1571,annual,2020,Operable,1571/ST2,OP,-,364
+1571,annual,2021,Operable,1571/3,OP,-,659
+1571,annual,2021,Operable,1571/4,OP,-,659
+1571,annual,2021,Operable,1571/GT2,OP,-,35
+1571,annual,2021,Operable,1571/GT3,OP,-,103
+1571,annual,2021,Operable,1571/GT4,OP,-,103
+1571,annual,2021,Operable,1571/GT5,OP,-,125
+1571,annual,2021,Operable,1571/GT6,OP,-,125
+1571,annual,2022,Operable,1571/3,OP,-,659
+1571,annual,2022,Operable,1571/4,OP,-,659
+1571,annual,2022,Operable,1571/GT2,OP,-,35
+1571,annual,2022,Operable,1571/GT3,OP,-,103
+1571,annual,2022,Operable,1571/GT4,OP,-,103
+1571,annual,2022,Operable,1571/GT5,OP,-,125
+1571,annual,2022,Operable,1571/GT6,OP,-,125
+1571,annual,2023,Operable,1571/3,OP,-,659
+1571,annual,2023,Operable,1571/4,OP,-,659
+1571,annual,2023,Operable,1571/GT1,OP,-,16
+1571,annual,2023,Operable,1571/GT2,OP,-,35
+1571,annual,2023,Operable,1571/GT3,OP,-,103
+1571,annual,2023,Operable,1571/GT4,OP,-,103
+1571,annual,2023,Operable,1571/GT5,OP,-,125
+1571,annual,2023,Operable,1571/GT6,OP,-,125
+1571,annual,2024,Operable,1571/3,OP,-,659
+1571,annual,2024,Operable,1571/4,OP,-,659
+1571,annual,2024,Operable,1571/GT1,OP,-,16
+1571,annual,2024,Operable,1571/GT2,OP,-,35
+1571,annual,2024,Operable,1571/GT3,OP,-,103
+1571,annual,2024,Operable,1571/GT4,OP,-,103
+1571,annual,2024,Operable,1571/GT5,OP,-,125
+1571,annual,2024,Operable,1571/GT6,OP,-,125
+1571,annual,2025,Operable,1571/3,OP,-,659
+1571,annual,2025,Operable,1571/4,OP,-,659
+1571,annual,2025,Operable,1571/GT1,OP,-,16
+1571,annual,2025,Operable,1571/GT2,OP,-,35
+1571,annual,2025,Operable,1571/GT3,OP,-,103
+1571,annual,2025,Operable,1571/GT4,OP,-,103
+1571,annual,2025,Operable,1571/GT5,OP,-,125
+1571,annual,2025,Operable,1571/GT6,OP,-,125
+1571,monthly,2021-11,Operating,1571/3,OP,-,659
+1571,monthly,2021-11,Operating,1571/4,OP,-,659
+1571,monthly,2021-11,Operating,1571/GT1,OP,-,16
+1571,monthly,2021-11,Operating,1571/GT2,OP,-,35
+1571,monthly,2021-11,Operating,1571/GT3,OP,-,103
+1571,monthly,2021-11,Operating,1571/GT4,OP,-,103
+1571,monthly,2021-11,Operating,1571/GT5,OP,-,125
+1571,monthly,2021-11,Operating,1571/GT6,OP,-,125
+1571,monthly,2021-11,Retired,1571/ST1,-,2021,364
+1571,monthly,2021-11,Retired,1571/ST2,-,2021,364
+1571,monthly,2025-12,Operating,1571/3,OP,-,659
+1571,monthly,2025-12,Operating,1571/4,OP,-,659
+1571,monthly,2025-12,Operating,1571/GT1,OP,-,16
+1571,monthly,2025-12,Operating,1571/GT2,OP,-,35
+1571,monthly,2025-12,Operating,1571/GT3,OP,-,103
+1571,monthly,2025-12,Operating,1571/GT4,OP,-,103
+1571,monthly,2025-12,Operating,1571/GT5,OP,-,125
+1571,monthly,2025-12,Operating,1571/GT6,OP,-,125
+1571,monthly,2026-08,Operating,1571/3,OP,-,659
+1571,monthly,2026-08,Operating,1571/4,OP,-,659
+1571,monthly,2026-08,Operating,1571/GT1,OP,-,16
+1571,monthly,2026-08,Operating,1571/GT2,OP,-,35
+1571,monthly,2026-08,Operating,1571/GT3,OP,-,103
+1571,monthly,2026-08,Operating,1571/GT4,OP,-,103
+1571,monthly,2026-08,Operating,1571/GT5,OP,-,125
+1571,monthly,2026-08,Operating,1571/GT6,OP,-,125
+1572,annual,2016,Operable,1572/2,OP,-,196
+1572,annual,2016,Operable,1572/3,OP,-,196
+1572,annual,2016,Operable,1572/GT1,OP,-,19
+1572,annual,2016,Operable,1572/GT2,OP,-,163
+1572,annual,2016,Operable,1572/GT3,OP,-,163
+1572,annual,2016,Operable,1572/ST1,OP,-,196
+1572,annual,2017,Operable,1572/2,OP,-,196
+1572,annual,2017,Operable,1572/3,OP,-,196
+1572,annual,2017,Operable,1572/GT1,OP,-,19
+1572,annual,2017,Operable,1572/GT2,OP,-,163
+1572,annual,2017,Operable,1572/GT3,OP,-,163
+1572,annual,2017,Operable,1572/ST1,OP,-,196
+1572,annual,2018,Operable,1572/2,OP,-,196
+1572,annual,2018,Operable,1572/3,OP,-,196
+1572,annual,2018,Operable,1572/GT1,OP,-,19
+1572,annual,2018,Operable,1572/GT2,OP,-,163
+1572,annual,2018,Operable,1572/GT3,OP,-,163
+1572,annual,2018,Operable,1572/ST1,OP,-,196
+1572,annual,2019,Operable,1572/2,OP,-,196
+1572,annual,2019,Operable,1572/3,OP,-,196
+1572,annual,2019,Operable,1572/GT1,OP,-,19
+1572,annual,2019,Operable,1572/GT2,OP,-,163
+1572,annual,2019,Operable,1572/GT3,OP,-,163
+1572,annual,2019,Operable,1572/ST1,OP,-,196
+1572,annual,2020,Operable,1572/GT1,OP,-,19
+1572,annual,2020,Operable,1572/GT2,OP,-,163
+1572,annual,2020,Operable,1572/GT3,OP,-,163
+1572,annual,2020,Retired and Canceled,1572/2,RE,2020,196
+1572,annual,2020,Retired and Canceled,1572/3,RE,2020,196
+1572,annual,2020,Retired and Canceled,1572/ST1,RE,2020,196
+1572,annual,2021,Operable,1572/GT1,OP,-,19
+1572,annual,2021,Operable,1572/GT2,OP,-,163
+1572,annual,2021,Operable,1572/GT3,OP,-,163
+1572,annual,2022,Operable,1572/GT2,OP,-,163
+1572,annual,2022,Operable,1572/GT3,OP,-,163
+1572,annual,2022,Retired and Canceled,1572/GT1,RE,2022,19
+1572,annual,2023,Operable,1572/GT2,OP,-,163
+1572,annual,2023,Operable,1572/GT3,OP,-,163
+1572,annual,2023,Retired and Canceled,1572/GT1,RE,2022,19
+1572,annual,2024,Operable,1572/GT2,OP,-,163
+1572,annual,2024,Operable,1572/GT3,OP,-,163
+1572,annual,2024,Retired and Canceled,1572/GT1,RE,2022,19
+1572,annual,2025,Operable,1572/GT2,OP,-,163
+1572,annual,2025,Operable,1572/GT3,OP,-,163
+1572,annual,2025,Retired and Canceled,1572/GT1,RE,2022,19
+1572,monthly,2021-11,Operating,1572/GT1,OP,-,19
+1572,monthly,2021-11,Operating,1572/GT2,OP,-,163
+1572,monthly,2021-11,Operating,1572/GT3,OP,-,163
+1572,monthly,2021-11,Retired,1572/2,-,2020,196
+1572,monthly,2021-11,Retired,1572/3,-,2020,196
+1572,monthly,2021-11,Retired,1572/ST1,-,2020,196
+1572,monthly,2025-12,Operating,1572/GT2,OP,-,163
+1572,monthly,2025-12,Operating,1572/GT3,OP,-,163
+1572,monthly,2025-12,Retired,1572/GT1,-,2022,19
+1572,monthly,2026-08,Operating,1572/GT2,OP,-,163
+1572,monthly,2026-08,Operating,1572/GT3,OP,-,163
+1572,monthly,2026-08,Retired,1572/GT1,-,2022,19
+955,annual,2016,Operable,955/11,OP,-,2.7
+955,annual,2016,Operable,955/12,OP,-,2.7
+955,annual,2016,Operable,955/13,OP,-,2.7
+955,annual,2016,Operable,955/14,OP,-,2.7
+955,annual,2016,Operable,955/15,OP,-,2.7
+955,annual,2016,Operable,955/16,OP,-,2.7
+955,annual,2016,Operable,955/17,OP,-,2.7
+955,annual,2016,Operable,955/GT1,OP,-,10
+955,annual,2016,Operable,955/HC1,OP,-,1.9
+955,annual,2016,Operable,955/HC2,OP,-,1.9
+955,annual,2016,Operable,955/HC3,OP,-,1.9
+955,annual,2016,Operable,955/HC4,OP,-,1.9
+955,annual,2016,Retired and Canceled,955/10,RE,2011,2
+955,annual,2016,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2016,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2016,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2016,Retired and Canceled,955/8,RE,2010,2
+955,annual,2016,Retired and Canceled,955/9,RE,2010,2
+955,annual,2016,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2016,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2016,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2017,Operable,955/11,OP,-,2.7
+955,annual,2017,Operable,955/12,OP,-,2.7
+955,annual,2017,Operable,955/13,OP,-,2.7
+955,annual,2017,Operable,955/14,OP,-,2.7
+955,annual,2017,Operable,955/15,OP,-,2.7
+955,annual,2017,Operable,955/16,OP,-,2.7
+955,annual,2017,Operable,955/17,OP,-,2.7
+955,annual,2017,Operable,955/GT1,OP,-,10
+955,annual,2017,Operable,955/HC1,OP,-,1.9
+955,annual,2017,Operable,955/HC2,OP,-,1.9
+955,annual,2017,Operable,955/HC3,OP,-,1.9
+955,annual,2017,Operable,955/HC4,OP,-,1.9
+955,annual,2017,Retired and Canceled,955/10,RE,2011,2
+955,annual,2017,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2017,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2017,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2017,Retired and Canceled,955/8,RE,2010,2
+955,annual,2017,Retired and Canceled,955/9,RE,2010,2
+955,annual,2017,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2017,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2017,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2018,Operable,955/11,OP,-,2.7
+955,annual,2018,Operable,955/12,OP,-,2.7
+955,annual,2018,Operable,955/13,OP,-,2.7
+955,annual,2018,Operable,955/14,OP,-,2.7
+955,annual,2018,Operable,955/15,OP,-,2.7
+955,annual,2018,Operable,955/16,OP,-,2.7
+955,annual,2018,Operable,955/17,OP,-,2.7
+955,annual,2018,Operable,955/GT1,OP,-,10
+955,annual,2018,Operable,955/HC1,OP,-,1.9
+955,annual,2018,Operable,955/HC2,OP,-,1.9
+955,annual,2018,Operable,955/HC3,OP,-,1.9
+955,annual,2018,Operable,955/HC4,OP,-,1.9
+955,annual,2018,Retired and Canceled,955/10,RE,2011,2
+955,annual,2018,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2018,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2018,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2018,Retired and Canceled,955/8,RE,2010,2
+955,annual,2018,Retired and Canceled,955/9,RE,2010,2
+955,annual,2018,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2018,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2018,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2019,Operable,955/11,OP,-,2.7
+955,annual,2019,Operable,955/12,OP,-,2.7
+955,annual,2019,Operable,955/13,OP,-,2.7
+955,annual,2019,Operable,955/14,OP,-,2.7
+955,annual,2019,Operable,955/15,OP,-,2.7
+955,annual,2019,Operable,955/16,OP,-,2.7
+955,annual,2019,Operable,955/17,OP,-,2.7
+955,annual,2019,Operable,955/GT1,OP,-,10
+955,annual,2019,Operable,955/HC1,OP,-,1.9
+955,annual,2019,Operable,955/HC2,OP,-,1.9
+955,annual,2019,Operable,955/HC3,OP,-,1.9
+955,annual,2019,Operable,955/HC4,OP,-,1.9
+955,annual,2019,Retired and Canceled,955/10,RE,2011,2
+955,annual,2019,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2019,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2019,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2019,Retired and Canceled,955/8,RE,2010,2
+955,annual,2019,Retired and Canceled,955/9,RE,2010,2
+955,annual,2019,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2019,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2019,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2020,Operable,955/11,OP,-,2.7
+955,annual,2020,Operable,955/12,OP,-,2.7
+955,annual,2020,Operable,955/13,OP,-,2.7
+955,annual,2020,Operable,955/14,OP,-,2.7
+955,annual,2020,Operable,955/15,OP,-,2.7
+955,annual,2020,Operable,955/16,OP,-,2.7
+955,annual,2020,Operable,955/17,OP,-,2.7
+955,annual,2020,Operable,955/GT1,OP,-,10
+955,annual,2020,Operable,955/HC1,OP,-,1.9
+955,annual,2020,Operable,955/HC2,OP,-,1.9
+955,annual,2020,Operable,955/HC3,OP,-,1.9
+955,annual,2020,Operable,955/HC4,OP,-,1.9
+955,annual,2020,Retired and Canceled,955/10,RE,2011,2
+955,annual,2020,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2020,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2020,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2020,Retired and Canceled,955/8,RE,2010,2
+955,annual,2020,Retired and Canceled,955/9,RE,2010,2
+955,annual,2020,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2020,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2020,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2021,Operable,955/11,OP,-,2.7
+955,annual,2021,Operable,955/12,OP,-,2.7
+955,annual,2021,Operable,955/13,OP,-,2.7
+955,annual,2021,Operable,955/14,OP,-,2.7
+955,annual,2021,Operable,955/15,OP,-,2.7
+955,annual,2021,Operable,955/16,OP,-,2.7
+955,annual,2021,Operable,955/17,OP,-,2.7
+955,annual,2021,Operable,955/GT1,OP,-,10
+955,annual,2021,Operable,955/HC1,OP,-,1.9
+955,annual,2021,Operable,955/HC2,OP,-,1.9
+955,annual,2021,Operable,955/HC3,OP,-,1.9
+955,annual,2021,Operable,955/HC4,OP,-,1.9
+955,annual,2021,Retired and Canceled,955/10,RE,2011,2
+955,annual,2021,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2021,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2021,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2021,Retired and Canceled,955/8,RE,2010,2
+955,annual,2021,Retired and Canceled,955/9,RE,2010,2
+955,annual,2021,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2021,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2021,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2022,Operable,955/11,OP,-,2.7
+955,annual,2022,Operable,955/12,OP,-,2.7
+955,annual,2022,Operable,955/13,OP,-,2.7
+955,annual,2022,Operable,955/14,OP,-,2.7
+955,annual,2022,Operable,955/15,OP,-,2.7
+955,annual,2022,Operable,955/16,OP,-,2.7
+955,annual,2022,Operable,955/17,OP,-,2.7
+955,annual,2022,Operable,955/GT1,OP,-,10
+955,annual,2022,Operable,955/HC1,OP,-,1.9
+955,annual,2022,Operable,955/HC2,OP,-,1.9
+955,annual,2022,Operable,955/HC3,OP,-,1.9
+955,annual,2022,Operable,955/HC4,OP,-,1.9
+955,annual,2022,Retired and Canceled,955/10,RE,2011,2
+955,annual,2022,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2022,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2022,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2022,Retired and Canceled,955/8,RE,2010,2
+955,annual,2022,Retired and Canceled,955/9,RE,2010,2
+955,annual,2022,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2022,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2022,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2023,Operable,955/11,OP,-,2.7
+955,annual,2023,Operable,955/12,OP,-,2.7
+955,annual,2023,Operable,955/13,OP,-,2.7
+955,annual,2023,Operable,955/14,OP,-,2.7
+955,annual,2023,Operable,955/15,OP,-,2.7
+955,annual,2023,Operable,955/16,OP,-,2.7
+955,annual,2023,Operable,955/17,OP,-,2.7
+955,annual,2023,Operable,955/GT1,OP,-,10
+955,annual,2023,Operable,955/HC1,OP,-,1.9
+955,annual,2023,Operable,955/HC2,OP,-,1.9
+955,annual,2023,Operable,955/HC3,OP,-,1.9
+955,annual,2023,Operable,955/HC4,OP,-,1.9
+955,annual,2023,Retired and Canceled,955/10,RE,2011,2
+955,annual,2023,Retired and Canceled,955/3,RE,2010,1.8
+955,annual,2023,Retired and Canceled,955/4,RE,2002,7.5
+955,annual,2023,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2023,Retired and Canceled,955/8,RE,2010,2
+955,annual,2023,Retired and Canceled,955/9,RE,2010,2
+955,annual,2023,Retired and Canceled,955/IC1,RE,2011,6.3
+955,annual,2023,Retired and Canceled,955/IC2,RE,2010,1.8
+955,annual,2023,Retired and Canceled,955/IC3,RE,2011,1.8
+955,annual,2024,Operable,955/11,OP,-,2.7
+955,annual,2024,Operable,955/12,OP,-,2.7
+955,annual,2024,Operable,955/13,OP,-,2.7
+955,annual,2024,Operable,955/14,OP,-,2.7
+955,annual,2024,Operable,955/15,OP,-,2.7
+955,annual,2024,Retired and Canceled,955/10,RE,2011,2
+955,annual,2024,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2024,Retired and Canceled,955/8,RE,2010,2
+955,annual,2024,Retired and Canceled,955/9,RE,2010,2
+955,annual,2025,Operable,955/11,OP,-,2.7
+955,annual,2025,Operable,955/12,OP,-,2.7
+955,annual,2025,Operable,955/13,OP,-,2.7
+955,annual,2025,Operable,955/14,OP,-,2.7
+955,annual,2025,Operable,955/15,OP,-,2.7
+955,annual,2025,Retired and Canceled,955/10,RE,2011,2
+955,annual,2025,Retired and Canceled,955/7,RE,2010,1.8
+955,annual,2025,Retired and Canceled,955/8,RE,2010,2
+955,annual,2025,Retired and Canceled,955/9,RE,2010,2
+955,monthly,2025-02,Operating,955/11,OP,-,2.7
+955,monthly,2025-02,Operating,955/12,OP,-,2.7
+955,monthly,2025-02,Operating,955/13,OP,-,2.7
+955,monthly,2025-02,Operating,955/14,OP,-,2.7
+955,monthly,2025-02,Operating,955/15,OP,-,2.7
+955,monthly,2025-02,Operating,955/16,OP,-,2.7
+955,monthly,2025-02,Operating,955/17,OP,-,2.7
+955,monthly,2025-02,Operating,955/GT1,OP,-,10
+955,monthly,2025-02,Operating,955/HC1,OP,-,1.9
+955,monthly,2025-02,Operating,955/HC2,OP,-,1.9
+955,monthly,2025-02,Operating,955/HC3,OP,-,1.9
+955,monthly,2025-02,Operating,955/HC4,OP,-,1.9
+955,monthly,2025-02,Retired,955/10,-,2011,2
+955,monthly,2025-02,Retired,955/3,-,2010,1.8
+955,monthly,2025-02,Retired,955/4,-,2002,7.5
+955,monthly,2025-02,Retired,955/7,-,2010,1.8
+955,monthly,2025-02,Retired,955/8,-,2010,2
+955,monthly,2025-02,Retired,955/9,-,2010,2
+955,monthly,2025-02,Retired,955/IC1,-,2011,6.3
+955,monthly,2025-02,Retired,955/IC2,-,2010,1.8
+955,monthly,2025-02,Retired,955/IC3,-,2011,1.8
+955,monthly,2025-12,Operating,955/11,OP,-,2.7
+955,monthly,2025-12,Operating,955/12,OP,-,2.7
+955,monthly,2025-12,Operating,955/13,OP,-,2.7
+955,monthly,2025-12,Operating,955/14,OP,-,2.7
+955,monthly,2025-12,Operating,955/15,OP,-,2.7
+955,monthly,2025-12,Retired,955/10,-,2011,2
+955,monthly,2025-12,Retired,955/7,-,2010,1.8
+955,monthly,2025-12,Retired,955/8,-,2010,2
+955,monthly,2025-12,Retired,955/9,-,2010,2
+955,monthly,2026-08,Operating,955/11,OP,-,2.7
+955,monthly,2026-08,Operating,955/12,OP,-,2.7
+955,monthly,2026-08,Operating,955/13,OP,-,2.7
+955,monthly,2026-08,Operating,955/14,OP,-,2.7
+955,monthly,2026-08,Operating,955/15,OP,-,2.7
+955,monthly,2026-08,Retired,955/10,-,2011,2
+955,monthly,2026-08,Retired,955/7,-,2010,1.8
+955,monthly,2026-08,Retired,955/8,-,2010,2
+955,monthly,2026-08,Retired,955/9,-,2010,2
+7922,annual,2016,Operable,7922/6,OP,-,2
+7922,annual,2017,Operable,7922/6,OP,-,2
+7922,annual,2018,Retired and Canceled,7922/6,RE,2011,2
+7922,annual,2019,Retired and Canceled,7922/6,RE,2011,2
+7922,annual,2020,Retired and Canceled,7922/6,RE,2011,2
+7922,annual,2021,Retired and Canceled,7922/6,RE,2011,2
+7922,annual,2022,Operable,7922/7,OP,-,2.3
+7922,annual,2023,Operable,7922/7,OP,-,2.3
+7922,annual,2024,Operable,7922/7,OP,-,2.3
+7922,annual,2025,Operable,7922/7,OP,-,2.3
+7922,monthly,2022-12,Retired,7922/6,-,2011,2
+7922,monthly,2025-12,Operating,7922/7,OP,-,2.3
+7922,monthly,2026-08,Operating,7922/7,OP,-,2.3

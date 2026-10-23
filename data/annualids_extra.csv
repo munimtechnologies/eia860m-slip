@@ -1,0 +1,2704 @@
+key,retirement_year,nameplate_mw,technology,plant_listed,last_year,last_where
+10002/GEN1,2014,108,Conventional Steam Coal,False,-,-
+10012/1,2019,13.5,Municipal Solid Waste,False,2019,Retired and Canceled RE
+10021/GEN1,2004,1.5,Natural Gas Internal Combustion Engine,False,-,-
+10027/EXIS,2019,9.4,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+10031/1,2015,4.6,Natural Gas Fired Combustion Turbine,False,-,-
+10032/GT1,2015,4,Natural Gas Fired Combustion Turbine,False,-,-
+10033/GEN1,2019,68.4,Municipal Solid Waste,False,2019,Retired and Canceled RE
+10037/GEN1,2002,6.8,Wood/Wood Waste Biomass,False,-,-
+10039/GEN2,2014,2,Conventional Steam Coal,False,-,-
+10039/GEN4,2013,2.5,Conventional Steam Coal,False,-,-
+10039/GEN5,2012,3,Conventional Steam Coal,False,-,-
+10039/GEN6,2015,2.5,Conventional Steam Coal,False,-,-
+10039/GEN7,2015,0.9,Conventional Steam Coal,False,-,-
+10043/GEN1,2022,242.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+10044/1,2002,3.6,Natural Gas Steam Turbine,False,-,-
+10045/0011,2014,0.5,Landfill Gas,False,-,-
+10045/0012,2014,0.5,Landfill Gas,False,-,-
+10045/0013,2014,0.5,Landfill Gas,False,-,-
+10045/0014,2014,0.5,Landfill Gas,False,-,-
+10047/1,2003,3.3,Landfill Gas,False,-,-
+10051/GEN1,2023,0.6,Conventional Hydroelectric,False,2023,Retired and Canceled RE
+10051/GEN2,2023,0.6,Conventional Hydroelectric,False,2023,Retired and Canceled RE
+10053/1,2011,1.3,Wood/Wood Waste Biomass,False,-,-
+10053/DG2,2011,0.5,Petroleum Liquids,False,-,-
+10059/1575,2023,1.6,Conventional Hydroelectric,False,2023,Retired and Canceled RE
+10059/500,2023,0.5,Conventional Hydroelectric,False,2023,Retired and Canceled RE
+10062/GEN1,2023,38.5,Municipal Solid Waste,False,2023,Retired and Canceled RE
+10062/GEN2,2023,38.5,Municipal Solid Waste,False,2023,Retired and Canceled RE
+10071/GEN1,2016,57.4,Conventional Steam Coal,False,2016,Retired and Canceled RE
+10071/GEN2,2016,57.4,Conventional Steam Coal,False,2016,Retired and Canceled RE
+10073/GEN1,2002,21.7,Other Waste Biomass,False,-,-
+10073/GEN2,2002,0.5,Conventional Hydroelectric,False,-,-
+10073/GEN3,2002,0.8,Conventional Hydroelectric,False,-,-
+10074/GEN1,2017,20,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+10097/1,2005,1.1,Natural Gas Internal Combustion Engine,False,-,-
+10097/2,2005,1.1,Natural Gas Internal Combustion Engine,False,-,-
+10097/3,2005,0.9,Natural Gas Internal Combustion Engine,False,-,-
+10099/GEN1,2022,95.2,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+10099/GEN2,2022,45,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+10110/GEN1,2021,6,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+10111/GEN1,2009,28.9,Conventional Steam Coal,False,-,-
+10114/T-1,2006,7.5,Conventional Steam Coal,False,-,-
+10114/T-2,2006,12.5,Conventional Steam Coal,False,-,-
+10114/T-3,2006,7.5,Conventional Steam Coal,False,-,-
+10114/T-4,2006,12.5,Conventional Steam Coal,False,-,-
+10120/GEN5,2023,7.1,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+10120/GEN6,2014,2,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+10125/1,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+10125/2,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+10125/3,2016,0.8,Petroleum Liquids,False,2016,Retired and Canceled RE
+10125/4,2016,0.8,Petroleum Liquids,False,2016,Retired and Canceled RE
+10125/5,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+10125/6,2016,0.4,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+10136/ENGN,2003,0.5,Natural Gas Internal Combustion Engine,False,-,-
+10136/GEN1,2003,2,Natural Gas Steam Turbine,False,-,-
+10136/GEN2,2003,1,Natural Gas Steam Turbine,False,-,-
+10136/GEN3,2003,3,Natural Gas Steam Turbine,False,-,-
+10148/GEN1,2016,20,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+10148/GEN2,2015,20,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+10148/GEN3,2020,20,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+10149/GEN1,2024,7.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+10157/ENG1,2014,0.7,Natural Gas Internal Combustion Engine,False,-,-
+10157/ENG2,2014,0.7,Natural Gas Internal Combustion Engine,False,-,-
+10159/GEN1,2013,10.7,Natural Gas Fired Combustion Turbine,False,-,-
+10165/GEN1,2013,7.2,Wood/Wood Waste Biomass,False,-,-
+10165/GEN2,2013,18.6,Wood/Wood Waste Biomass,False,-,-
+10168/GTG1,2015,42.1,Natural Gas Fired Combined Cycle,False,-,-
+10168/STG1,2015,10.7,Natural Gas Fired Combined Cycle,False,-,-
+10171/GEN1,2013,0.7,Conventional Hydroelectric,False,-,-
+10171/GEN2,2013,0.7,Conventional Hydroelectric,False,-,-
+10171/GEN3,2013,0.7,Conventional Hydroelectric,False,-,-
+10178/MEM1,2007,1.2,Wood/Wood Waste Biomass,False,-,-
+10178/MEM2,2007,1,Wood/Wood Waste Biomass,False,-,-
+10179/1,2005,0.2,Conventional Hydroelectric,False,-,-
+10179/2,2005,0.4,Conventional Hydroelectric,False,-,-
+10179/3,2005,0.6,Conventional Hydroelectric,False,-,-
+10179/4,2005,0.3,Conventional Hydroelectric,False,-,-
+10179/COON,2005,0.3,Petroleum Liquids,False,-,-
+10207/GEN1,2011,8.6,Conventional Steam Coal,False,-,-
+10207/GEN2,2011,8.6,Conventional Steam Coal,False,-,-
+10223/E.C.,2014,8.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+1023/1,2009,1,Petroleum Liquids,False,-,-
+1023/2,2009,1,Petroleum Liquids,False,-,-
+1023/3,2009,2.5,Natural Gas Internal Combustion Engine,False,-,-
+1023/4,2009,2.5,Natural Gas Internal Combustion Engine,False,-,-
+10232/TB-1,2004,0.8,Petroleum Liquids,False,-,-
+10232/TB-2,2004,0.8,Petroleum Liquids,False,-,-
+10235/GEN1,2012,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+10250/GEN1,2021,13.6,Municipal Solid Waste,False,2021,Retired and Canceled RE
+10251/3981,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+10251/3982,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+10251/3983,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+10257/DWG1,2005,4.5,Other Waste Biomass,False,-,-
+10284/TG-1,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10284/TG-2,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10284/TG-3,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10284/TG-4,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10284/TG-5,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10284/TG-6,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+10297/GEN1,2005,3,Natural Gas Steam Turbine,False,-,-
+10297/GEN2,2005,3,Natural Gas Steam Turbine,False,-,-
+10300/GEN1,2024,55.5,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+10317/1,2008,3.4,Natural Gas Fired Combustion Turbine,False,-,-
+1032/4,2016,18,Conventional Steam Coal,False,2016,Retired and Canceled RE
+1032/5,2016,25,Conventional Steam Coal,False,2016,Retired and Canceled RE
+1032/6,2016,18,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+10321/GEN1,2005,5,Conventional Steam Coal,False,-,-
+10321/GEN2,2005,5,Conventional Steam Coal,False,-,-
+10321/GEN3,2005,5,Conventional Steam Coal,False,-,-
+10321/GEN4,2005,0.3,Conventional Steam Coal,False,-,-
+10321/GEN5,2005,5,Conventional Steam Coal,False,-,-
+10333/GEN1,2018,125,Other Waste Biomass,False,2018,Retired and Canceled RE
+10338/MERC,2012,22,Municipal Solid Waste,False,-,-
+10344/101,2009,13,Municipal Solid Waste,False,-,-
+10346/GEN1,2022,22,Wood/Wood Waste Biomass,False,2022,Retired and Canceled RE
+10347/GEN1,2012,7.5,Wood/Wood Waste Biomass,False,-,-
+10356/GEN1,2019,39.6,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+10367/GEN1,2012,20.5,Petroleum Coke,False,-,-
+10368/GEN1,2012,20.5,Petroleum Coke,False,-,-
+10369/GEN1,2012,20.5,Petroleum Coke,False,-,-
+10370/GEN1,2012,20.5,Petroleum Coke,False,-,-
+10371/GEN1,2012,20.5,Petroleum Coke,False,-,-
+10373/GEN1,2012,27,Petroleum Coke,False,-,-
+10376/1,2004,0.8,Natural Gas Internal Combustion Engine,False,-,-
+10376/2,2004,0.8,Natural Gas Internal Combustion Engine,False,-,-
+10377/GEN1,2019,57.4,Conventional Steam Coal,False,2019,Retired and Canceled RE
+10377/GEN2,2019,57.4,Conventional Steam Coal,False,2019,Retired and Canceled RE
+10378/GEN1,2021,67.5,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+10378/GEN2,2021,67.5,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+10379/GEN1,2021,67.5,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+1038/10,2021,2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1038/11,2021,2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1038/14,2021,5,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+1038/15,2021,8.4,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+1038/5,2021,1.9,Petroleum Liquids,False,2024,Retired and Canceled RE
+1038/6,2021,2.5,Petroleum Liquids,False,2024,Retired and Canceled RE
+1038/7,2003,3,Petroleum Liquids,False,2024,Retired and Canceled RE
+10380/GEN1,2018,34.7,Conventional Steam Coal,False,2018,Retired and Canceled RE
+10381/GEN1,2015,44.1,Wood/Wood Waste Biomass,False,-,-
+10384/GEN1,2019,57.4,Conventional Steam Coal,False,2019,Retired and Canceled RE
+10384/GEN2,2019,57.4,Conventional Steam Coal,False,2019,Retired and Canceled RE
+10386/1,2010,0.9,Landfill Gas,False,-,-
+10386/2,2010,0.9,Landfill Gas,False,-,-
+10389/1,2012,1.1,Landfill Gas,False,-,-
+10389/2,2012,1.1,Landfill Gas,False,-,-
+10389/3,2012,1.1,Landfill Gas,False,-,-
+10390/1,2013,0.5,Landfill Gas,False,-,-
+10390/2,2013,0.5,Landfill Gas,False,-,-
+10390/3,2013,0.5,Landfill Gas,False,-,-
+10390/4,2013,1.1,Landfill Gas,False,-,-
+10391/1,2013,0.5,Landfill Gas,False,-,-
+10391/2,2013,0.5,Landfill Gas,False,-,-
+10391/3,2013,0.5,Landfill Gas,False,-,-
+10391/4,2013,0.5,Landfill Gas,False,-,-
+10395/GEN1,2016,20,Landfill Gas,False,2017,Retired and Canceled RE
+10400/GEN1,2012,3.8,Natural Gas Fired Combustion Turbine,False,-,-
+10401/GEN1,2004,23.8,Conventional Steam Coal,False,-,-
+10403/ALLI,2010,3,Natural Gas Fired Combined Cycle,False,-,-
+10403/CAT3,2010,0.4,Natural Gas Internal Combustion Engine,False,-,-
+10403/CAT4,2010,0.4,Natural Gas Internal Combustion Engine,False,-,-
+10403/WEST,2010,2,Natural Gas Fired Combined Cycle,False,-,-
+10406/GEN1,2008,8.3,Natural Gas Fired Combustion Turbine,False,-,-
+10433/1,2011,0.5,Conventional Hydroelectric,False,-,-
+10433/2,2011,0.5,Conventional Hydroelectric,False,-,-
+10433/3,2011,0.5,Conventional Hydroelectric,False,-,-
+10439/GEN1,2021,34.2,Solar Thermal without Energy Storage,False,2021,Retired and Canceled RE
+10440/GEN1,2021,34.2,Solar Thermal without Energy Storage,False,2021,Retired and Canceled RE
+10441/GEN1,2021,34.2,Solar Thermal without Energy Storage,False,2021,Retired and Canceled RE
+10442/GEN1,2021,35,Solar Thermal without Energy Storage,False,2021,Retired and Canceled RE
+10443/GEN1,2021,35,Solar Thermal without Energy Storage,False,2021,Retired and Canceled RE
+10454/1,2002,3,Natural Gas Steam Turbine,False,-,-
+10464/GEN1,2023,55.5,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+10466/GEN1,2004,7.5,All Other,False,2024,Retired and Canceled RE
+10466/GEN2,2020,8.3,All Other,False,2024,Retired and Canceled RE
+10476/GEN4,2014,4.1,Conventional Steam Coal,False,2023,Retired and Canceled RE
+10477/GEN1,2024,32,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+10477/GEN2,2024,40.3,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+10478/GEN1,2018,20.9,Natural Gas Fired Combined Cycle,False,2023,Retired and Canceled RE
+10478/GEN2,2018,7.4,Natural Gas Fired Combined Cycle,False,2023,Retired and Canceled RE
+10485/GEN1,2012,30,Other Gases,False,-,-
+10485/GEN2,2012,30,Other Gases,False,-,-
+10485/GEN3,2012,30,Other Gases,False,-,-
+10485/GEN4,2012,30,Other Gases,False,-,-
+10498/17,2012,1.5,Petroleum Liquids,False,-,-
+10499/696,2003,1.5,Petroleum Liquids,False,-,-
+10499/697,2003,1.5,Petroleum Liquids,False,-,-
+10502/GEN1,2018,23,Wood/Wood Waste Biomass,False,2018,Retired and Canceled RE
+10515/GEN1,2014,1.7,Conventional Steam Coal,False,-,-
+10522/GEN1,2006,28.4,Natural Gas Fired Combustion Turbine,False,-,-
+10529/GEN1,2003,4,Natural Gas Fired Combined Cycle,False,-,-
+10529/GEN2,2003,0.5,Natural Gas Fired Combined Cycle,False,-,-
+10549/2,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+10549/3,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+10549/3010,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+10552/GEN1,2006,3,Petroleum Liquids,False,-,-
+10553/3622,2021,0.1,Petroleum Liquids,False,2021,Retired and Canceled RE
+10553/6033,2021,0.3,Petroleum Liquids,False,2021,Retired and Canceled RE
+10553/6035,2021,0.3,Petroleum Liquids,False,2021,Retired and Canceled RE
+10553/6046,2021,0.3,Petroleum Liquids,False,2021,Retired and Canceled RE
+10557/GEN1,2007,0.6,Landfill Gas,False,-,-
+10557/GEN2,2007,0.6,Landfill Gas,False,-,-
+10566/GEN1,2022,285,Conventional Steam Coal,False,2022,Retired and Canceled RE
+10569/GENA,2008,1.5,All Other,False,-,-
+10581/EXIS,2004,28.7,Onshore Wind Turbine,False,-,-
+10596/GEN1,2005,26,Natural Gas Fired Combustion Turbine,False,-,-
+10596/GEN2,2005,38.8,Natural Gas Fired Combustion Turbine,False,-,-
+10596/GEN3,2005,38.8,Natural Gas Fired Combustion Turbine,False,-,-
+1060/1,2020,679.5,Nuclear,False,2020,Retired and Canceled RE
+10600/GEN1,2016,3.1,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+10601/GEN1,2022,34,All Other,False,2022,Retired and Canceled RE
+10602/H,2008,3.5,Natural Gas Fired Combustion Turbine,False,-,-
+10604/PAI2,2002,4,Other Waste Biomass,False,2018,Retired and Canceled RE
+10604/PAI3,2002,12,Other Waste Biomass,False,2018,Retired and Canceled RE
+10604/PUU3,2016,10,Other Waste Biomass,False,2018,Retired and Canceled RE
+10604/PUU4,2016,20,Other Waste Biomass,False,2018,Retired and Canceled RE
+10604/PUU5,2016,16.1,Other Waste Biomass,False,2018,Retired and Canceled RE
+10607/GEN1,2002,5,Wood/Wood Waste Biomass,False,-,-
+10607/GEN2,2002,5,Wood/Wood Waste Biomass,False,-,-
+10607/GEN3,2002,5,Wood/Wood Waste Biomass,False,-,-
+10612/GEN1,2019,67.7,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+10612/GEN2,2021,60,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+10616/GEN1,2006,28,Natural Gas Fired Combined Cycle,False,-,-
+10616/GEN2,2006,5,Natural Gas Fired Combined Cycle,False,-,-
+10616/GEN3,2006,3.5,Natural Gas Fired Combined Cycle,False,-,-
+10618/GEN1,2006,37.7,Natural Gas Fired Combined Cycle,False,-,-
+10618/GEN2,2006,22,Natural Gas Fired Combined Cycle,False,-,-
+10623/GEN1,2020,22.1,Natural Gas Fired Combined Cycle,False,2023,Retired and Canceled RE
+10623/GEN2,2020,12.4,Natural Gas Fired Combined Cycle,False,2023,Retired and Canceled RE
+10626/GEN2,2003,7.5,Conventional Steam Coal,False,-,-
+10626/GEN3,2003,15,Conventional Steam Coal,False,-,-
+10628/GEN4,2002,4,Conventional Steam Coal,False,-,-
+10628/GEN6,2002,7.5,Conventional Steam Coal,False,-,-
+10628/GEN7,2002,19,Conventional Steam Coal,False,-,-
+10628/GEN8,2002,14,Conventional Steam Coal,False,-,-
+10640/GEN1,2012,60,Conventional Steam Coal,False,-,-
+10641/GEN1,2019,98,Conventional Steam Coal,False,2019,Retired and Canceled RE
+10648/GEN1,2019,1.8,Landfill Gas,False,2019,Retired and Canceled RE
+10648/GEN2,2019,1.8,Landfill Gas,False,2019,Retired and Canceled RE
+10648/GEN3,2019,1.8,Landfill Gas,False,2019,Retired and Canceled RE
+10655/1,2015,1.5,Petroleum Liquids,False,-,-
+10655/2,2015,1.5,Petroleum Liquids,False,-,-
+10655/3,2015,0.5,Petroleum Liquids,False,-,-
+10670/GEN1,2013,165.2,Petroleum Coke,False,-,-
+10670/REDST,2013,1,Batteries,False,-,-
+10672/GEN1,2016,291.6,Conventional Steam Coal,False,2016,Retired and Canceled RE
+10673/GEN1,2022,203,Conventional Steam Coal,False,2022,Retired and Canceled RE
+10675/GEN1,2012,213.9,Conventional Steam Coal,False,-,-
+10676/GEN2,2015,35,Conventional Steam Coal,False,-,-
+10676/GEN3,2015,114,Conventional Steam Coal,False,-,-
+10678/GEN1,2024,229,Conventional Steam Coal,False,2024,Retired and Canceled RE
+10698/GEN1,2019,10,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+10698/GEN2,2019,1.8,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+10701/1,2007,6.5,Natural Gas Steam Turbine,False,-,-
+10701/GT1,2008,7.2,Natural Gas Fired Combustion Turbine,False,-,-
+10722/1,2013,3.7,Municipal Solid Waste,False,-,-
+10729/GEN1,2015,25,Conventional Steam Coal,False,-,-
+10729/GEN2,2010,4.8,Natural Gas Fired Combustion Turbine,False,-,-
+10731/GEN1,2013,12.5,Wood/Wood Waste Biomass,False,-,-
+10732/GEN1,2002,7.5,All Other,False,-,-
+10736/1,2005,2,Other Waste Biomass,False,-,-
+10738/GEN1,2012,13,Onshore Wind Turbine,False,-,-
+10739/AC3M,2018,3,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+10739/W750,2018,0.7,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+10741/G102,2017,129,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+10741/G103,2017,129,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+10741/G104,2017,129,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+10741/S101,2017,51.9,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+10741/S102,2017,14.3,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+10768/UP9,2014,38.2,Conventional Steam Coal,False,2016,Retired and Canceled RE
+10769/UP8,2014,38.2,Conventional Steam Coal,False,-,-
+10778/GEN1,2002,50,Conventional Steam Coal,False,-,-
+10788/GEN1,2005,13.5,Natural Gas Steam Turbine,False,-,-
+10792/GEN1,2008,7.5,Conventional Steam Coal,False,-,-
+10792/GEN2,2008,7.5,Conventional Steam Coal,False,-,-
+10796/GEN1,2010,3,Conventional Steam Coal,False,2020,Retired and Canceled RE
+10796/GEN2,2010,3,Conventional Steam Coal,False,2020,Retired and Canceled RE
+10796/GEN3,2008,3,Conventional Steam Coal,False,2020,Retired and Canceled RE
+10796/GEN4,2010,3.4,Conventional Steam Coal,False,2020,Retired and Canceled RE
+10797/G10,2002,3,Natural Gas Steam Turbine,False,-,-
+10797/IG,2010,1,Natural Gas Steam Turbine,False,-,-
+10802/GEN1,2013,25,Natural Gas Fired Combined Cycle,False,-,-
+10802/GEN2,2013,8.5,Natural Gas Fired Combined Cycle,False,-,-
+10810/GEN1,2018,23,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10810/GEN2,2018,2.6,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10811/GEN1,2018,38.4,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10811/GEN2,2018,11.6,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10811/GEN3,2018,5.2,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10812/GEN1,2018,36.3,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10812/GEN2,2018,4,Natural Gas Fired Combined Cycle,False,2018,Retired and Canceled RE
+10820/GEN1,2016,0.4,Other Waste Biomass,False,2016,Retired and Canceled RE
+10820/GEN2,2016,0.4,Other Waste Biomass,False,2016,Retired and Canceled RE
+10820/GEN3,2016,0.4,Other Waste Biomass,False,2016,Retired and Canceled RE
+10829/ENG1,2006,0.7,Natural Gas Internal Combustion Engine,False,-,-
+10829/ENG2,2006,0.7,Natural Gas Internal Combustion Engine,False,-,-
+10829/ENG3,2006,0.7,Petroleum Liquids,False,-,-
+10850/GEN1,2014,41.1,Natural Gas Fired Combined Cycle,False,-,-
+10850/GEN2,2014,16,Natural Gas Fired Combined Cycle,False,-,-
+10851/GEN1,2006,2,Natural Gas Steam Turbine,False,-,-
+10851/GEN2,2006,0.3,Conventional Hydroelectric,False,-,-
+10886/GEN1,2005,44.2,Natural Gas Fired Combined Cycle,False,-,-
+10886/ST1,2005,21,Natural Gas Fired Combined Cycle,False,-,-
+1149/1,2013,1,Petroleum Liquids,False,-,-
+1149/1A,2013,1.8,Petroleum Liquids,False,-,-
+1149/2,2007,1,Petroleum Liquids,False,-,-
+1149/3A,2013,1.8,Petroleum Liquids,False,-,-
+1149/3B,2013,1.8,Petroleum Liquids,False,-,-
+1149/4A,2013,1.8,Petroleum Liquids,False,-,-
+1149/4B,2013,1.8,Petroleum Liquids,False,-,-
+1149/5,2013,2.5,Petroleum Liquids,False,-,-
+1149/6,2013,3.2,Petroleum Liquids,False,-,-
+1149/7,2013,6.2,Petroleum Liquids,False,-,-
+1159/IC1,2005,0.5,Petroleum Liquids,False,-,-
+1159/IC2,2005,0.6,Petroleum Liquids,False,-,-
+1170/1,2011,0.4,Petroleum Liquids,False,-,-
+1170/2,2011,0.4,Petroleum Liquids,False,-,-
+1170/3,2011,0.4,Petroleum Liquids,False,-,-
+1170/4,2011,0.9,Petroleum Liquids,False,-,-
+1170/5,2011,1,Petroleum Liquids,False,-,-
+1174/1,2004,0.6,Petroleum Liquids,False,-,-
+1174/2,2006,1,Petroleum Liquids,False,-,-
+1182/1,2003,0.2,Petroleum Liquids,False,-,-
+1182/2,2003,0.2,Petroleum Liquids,False,-,-
+1182/3,2003,0.5,Petroleum Liquids,False,-,-
+1182/4,2003,0.6,Petroleum Liquids,False,-,-
+1201/2,2008,0.5,Petroleum Liquids,False,2019,Retired and Canceled RE
+1201/4,2018,1.1,Petroleum Liquids,False,2019,Retired and Canceled RE
+1260/1,2013,0.5,Petroleum Liquids,False,-,-
+1260/2,2013,0.9,Natural Gas Internal Combustion Engine,False,-,-
+1260/4A,2013,0.7,Natural Gas Internal Combustion Engine,False,-,-
+1260/IC3,2013,1.1,Natural Gas Internal Combustion Engine,False,-,-
+127/1,2020,720,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1277/1,2007,0.9,Petroleum Liquids,False,-,-
+1277/IC5,2007,0.9,Petroleum Liquids,False,-,-
+1277/IC6,2007,0.9,Petroleum Liquids,False,-,-
+1277/IC7,2007,0.6,Petroleum Liquids,False,-,-
+1277/IC8,2007,0.9,Petroleum Liquids,False,-,-
+1277/IC9,2007,0.9,Petroleum Liquids,False,-,-
+1281/1,2007,2.1,Natural Gas Internal Combustion Engine,False,-,-
+1281/3,2007,1.1,Natural Gas Internal Combustion Engine,False,-,-
+1281/4,2007,1.1,Natural Gas Internal Combustion Engine,False,-,-
+1281/5,2007,2.1,Natural Gas Internal Combustion Engine,False,-,-
+1281/6,2007,1.4,Natural Gas Internal Combustion Engine,False,-,-
+1309/5,2006,1.2,Petroleum Liquids,False,-,-
+1309/6,2006,2.2,Petroleum Liquids,False,-,-
+1309/7,2006,2,Petroleum Liquids,False,-,-
+1309/8,2006,2.6,Petroleum Liquids,False,-,-
+1310/1,2011,1,Natural Gas Internal Combustion Engine,False,-,-
+1310/2,2011,1.5,Natural Gas Internal Combustion Engine,False,-,-
+1310/3,2011,2.7,Natural Gas Internal Combustion Engine,False,-,-
+1310/4,2011,3.5,Natural Gas Internal Combustion Engine,False,-,-
+1310/5,2011,2.5,Petroleum Liquids,False,-,-
+1311/1,2011,1.4,Natural Gas Internal Combustion Engine,False,-,-
+1311/2,2011,0.4,Petroleum Liquids,False,-,-
+1311/3,2009,0.5,Natural Gas Internal Combustion Engine,False,-,-
+1311/4,2011,0.9,Natural Gas Internal Combustion Engine,False,-,-
+1311/5,2009,1.5,Natural Gas Internal Combustion Engine,False,-,-
+1311/6,2011,3.3,Natural Gas Internal Combustion Engine,False,-,-
+1372/1,2006,1.2,Petroleum Liquids,False,-,-
+1372/2,2006,1.2,Petroleum Liquids,False,-,-
+1372/5,2008,11.5,Conventional Steam Coal,False,-,-
+1372/6,2008,32.3,Conventional Steam Coal,False,-,-
+1374/1,2020,163.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1374/2,2020,282.1,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1447/1,2017,12.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+1447/2,2017,12.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+1447/3,2015,2.5,Petroleum Liquids,False,2017,Retired and Canceled RE
+1447/4,2015,2.5,Petroleum Liquids,False,2017,Retired and Canceled RE
+1447/5,2015,1.4,Petroleum Liquids,False,2017,Retired and Canceled RE
+1447/6,2017,2,Petroleum Liquids,False,2017,Retired and Canceled RE
+1447/7,2015,2,Petroleum Liquids,False,2017,Retired and Canceled RE
+1450/10,2009,26,Natural Gas Steam Turbine,False,-,-
+1450/2,2009,1.5,Natural Gas Internal Combustion Engine,False,-,-
+1450/3,2009,1.5,Natural Gas Internal Combustion Engine,False,-,-
+1450/6,2009,2.7,Natural Gas Internal Combustion Engine,False,-,-
+1450/7,2009,2.7,Natural Gas Internal Combustion Engine,False,-,-
+1450/8,2009,6,Natural Gas Steam Turbine,False,-,-
+1450/9,2009,12.6,Natural Gas Steam Turbine,False,-,-
+1458/1,2007,12.6,Natural Gas Steam Turbine,False,-,-
+1458/2,2007,26.8,Natural Gas Steam Turbine,False,-,-
+1458/3,2007,41.5,Natural Gas Steam Turbine,False,-,-
+1466/1,2012,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1466/2,2014,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1466/3,2012,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1466/4,2014,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1468/1,2012,1,Petroleum Liquids,False,2019,Retired and Canceled RE
+1468/2,2012,1,Petroleum Liquids,False,2019,Retired and Canceled RE
+1468/3,2019,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1472/HL01,2015,0.6,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+1472/HL02,2015,0.6,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+1472/HL03,2015,0.6,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+1474/IC1,2015,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1474/IC2,2015,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1474/IC3,2015,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1474/IC4,2015,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1479/VZ01,2013,0.7,Conventional Hydroelectric,False,-,-
+1479/VZ02,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ03,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ04,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ05,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ06,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ07,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ08,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ09,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ10,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ11,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ12,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ13,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ14,2013,0.3,Conventional Hydroelectric,False,-,-
+1479/VZ15,2013,0.5,Conventional Hydroelectric,False,-,-
+1479/VZ16,2013,1.5,Conventional Hydroelectric,False,-,-
+1479/VZ17,2013,1.5,Conventional Hydroelectric,False,-,-
+1496/3,2004,34.5,Petroleum Liquids,False,-,-
+1496/4,2004,34.5,Petroleum Liquids,False,-,-
+1496/5,2004,37.5,Petroleum Liquids,False,-,-
+1513/1,2019,7.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+1513/CD2,2019,2.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+1513/CD3,2019,2.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+1513/CD4,2019,1,Petroleum Liquids,False,2020,Retired and Canceled RE
+1513/CD5,2019,1.2,Petroleum Liquids,False,2020,Retired and Canceled RE
+1513/CH1,2019,0.4,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+1513/CH2,2019,0.4,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+1513/ST2,2019,11.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+1514/FID1,2019,2,Petroleum Liquids,False,2020,Retired and Canceled RE
+1514/FID2,2019,2,Petroleum Liquids,False,2020,Retired and Canceled RE
+1514/FID3,2019,2,Petroleum Liquids,False,2020,Retired and Canceled RE
+1552/1,2018,190.4,Conventional Steam Coal,False,2018,Retired and Canceled RE
+1552/2,2018,209.4,Conventional Steam Coal,False,2018,Retired and Canceled RE
+1552/GT1,2018,16,Petroleum Liquids,False,2018,Retired and Canceled RE
+1570/11,2012,75,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1570/9,2012,34.5,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1588/4,2003,156.2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1588/5,2003,156.2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1588/6,2003,156.2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1588/7,2021,617,Petroleum Liquids,False,2024,Retired and Canceled RE
+1588/GT1,2021,14.2,Petroleum Liquids,False,2024,Retired and Canceled RE
+1588/GT81,2024,278.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1588/GT82,2024,278.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1588/GT93,2024,278.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1588/GT94,2024,278.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1588/ST85,2024,315,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1588/ST96,2024,315,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+1590/1,2019,670,Nuclear,False,2019,Retired and Canceled RE
+1594/1,2003,12.5,Petroleum Liquids,False,-,-
+1606/1,2014,136,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1613/6,2011,100,Conventional Steam Coal,False,-,-
+1613/JET2,2011,25,Petroleum Liquids,False,-,-
+1619/1,2017,241,Conventional Steam Coal,False,2017,Retired and Canceled RE
+1619/2,2017,241,Conventional Steam Coal,False,2017,Retired and Canceled RE
+1619/3,2017,642.6,Conventional Steam Coal,False,2017,Retired and Canceled RE
+1619/4,2017,475.5,Petroleum Liquids,False,2017,Retired and Canceled RE
+1619/IC1,2013,2.7,Petroleum Liquids,False,2017,Retired and Canceled RE
+1619/IC2,2013,2.7,Petroleum Liquids,False,2017,Retired and Canceled RE
+1619/IC3,2013,2.7,Petroleum Liquids,False,2017,Retired and Canceled RE
+1619/IC4,2013,2.7,Petroleum Liquids,False,2017,Retired and Canceled RE
+1631/DORE,2022,21.1,Petroleum Liquids,False,2022,Retired and Canceled RE
+1642/3,2021,113.6,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+1642/GT-1,2022,60,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+1642/GT-2,2022,60,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+1642/WS1,2002,51,Petroleum Liquids,False,2022,Retired and Canceled RE
+1642/WS10,2022,17,Petroleum Liquids,False,2022,Retired and Canceled RE
+1642/WS2,2002,51,Petroleum Liquids,False,2022,Retired and Canceled RE
+1643/WOOD,2022,20.4,Petroleum Liquids,False,2022,Retired and Canceled RE
+1724/25,2004,20,Natural Gas Steam Turbine,False,-,-
+1771/1,2016,11.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+1771/2,2016,11.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+1771/3,2016,17.9,Petroleum Liquids,False,2016,Retired and Canceled RE
+181/1,2005,1.2,Petroleum Liquids,False,-,-
+181/2,2005,0.7,Petroleum Liquids,False,-,-
+181/3,2005,0.3,Petroleum Liquids,False,-,-
+181/4,2005,0.3,Petroleum Liquids,False,-,-
+181/5,2005,0.1,Petroleum Liquids,False,-,-
+1818/1,2019,0.5,Petroleum Liquids,False,2019,Retired and Canceled RE
+1818/2,2019,0.5,Petroleum Liquids,False,2019,Retired and Canceled RE
+1818/3,2008,0.4,Petroleum Liquids,False,2019,Retired and Canceled RE
+1818/4,2008,0.4,Petroleum Liquids,False,2019,Retired and Canceled RE
+1818/5,2008,0.4,Petroleum Liquids,False,2019,Retired and Canceled RE
+1818/6,2019,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+1819/1,2002,0.7,Petroleum Liquids,False,-,-
+1819/3,2012,3.5,Natural Gas Internal Combustion Engine,False,-,-
+1819/IC4,2014,2.5,Petroleum Liquids,False,-,-
+1819/IC5,2013,6,Natural Gas Internal Combustion Engine,False,-,-
+1822/5,2010,44,Natural Gas Steam Turbine,False,-,-
+1822/6,2014,50,Natural Gas Steam Turbine,False,-,-
+1822/7,2014,60,Natural Gas Steam Turbine,False,-,-
+1822/GT1,2014,35,Petroleum Liquids,False,-,-
+1823/1,2008,1.1,Petroleum Liquids,False,-,-
+1823/2,2008,0.6,Petroleum Liquids,False,-,-
+1823/4,2008,1.1,Petroleum Liquids,False,-,-
+1823/5,2008,1.1,Petroleum Liquids,False,-,-
+1825/3,2020,80,Conventional Steam Coal,False,2020,Retired and Canceled RE
+1826/1,2020,7,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+1826/2,2016,2.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+1826/5,2016,3,Petroleum Liquids,False,2020,Retired and Canceled RE
+1826/6,2016,2.7,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+1826/7,2016,5.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+1846/1,2023,3,Petroleum Liquids,False,2023,Retired and Canceled RE
+1846/2,2023,0.7,Petroleum Liquids,False,2023,Retired and Canceled RE
+1846/4,2023,1.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+1859/1,2002,2.5,Conventional Steam Coal,False,-,-
+1859/3,2002,7.5,Conventional Steam Coal,False,-,-
+1859/4,2002,14,Conventional Steam Coal,False,-,-
+1957/1,2002,0.1,Petroleum Liquids,False,-,-
+1957/5,2002,0.8,Petroleum Liquids,False,-,-
+1957/6,2002,1.2,Petroleum Liquids,False,-,-
+1960/1,2012,5,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+1960/2,2012,3.5,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+1960/3,2012,7.5,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+1960/4,2012,11.5,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+1960/5,2013,6,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+1961/1,2016,31.9,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+1971/1,2024,0.5,Petroleum Liquids,False,2024,Retired and Canceled RE
+1971/2,2024,0.5,Petroleum Liquids,False,2024,Retired and Canceled RE
+1971/3,2024,3,Petroleum Liquids,False,2024,Retired and Canceled RE
+1971/4,2024,5,Petroleum Liquids,False,2024,Retired and Canceled RE
+1971/5,2022,0.8,Landfill Gas,False,2024,Retired and Canceled RE
+1971/6,2022,0.8,Landfill Gas,False,2024,Retired and Canceled RE
+1971/7,2022,0.8,Landfill Gas,False,2024,Retired and Canceled RE
+1971/8,2022,0.8,Landfill Gas,False,2024,Retired and Canceled RE
+1978/1,2009,0.1,Petroleum Liquids,False,-,-
+1978/2,2009,0.6,Petroleum Liquids,False,-,-
+1978/3,2009,0.1,Petroleum Liquids,False,-,-
+1978/4,2009,0.3,Petroleum Liquids,False,-,-
+1978/5,2009,0.3,Petroleum Liquids,False,-,-
+2010/1,2003,1.3,Petroleum Liquids,False,-,-
+2010/2,2003,1.1,Petroleum Liquids,False,-,-
+2010/3,2003,0.5,Petroleum Liquids,False,-,-
+2016/3,2012,2,Petroleum Liquids,False,-,-
+2018/1A,2006,4,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2018/5,2022,7.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+2018/6,2022,18.7,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+2019/1,2006,1.1,Petroleum Liquids,False,-,-
+2019/2,2006,0.5,Petroleum Liquids,False,-,-
+2019/3,2006,0.2,Petroleum Liquids,False,-,-
+2019/4,2006,0.2,Petroleum Liquids,False,-,-
+2062/1,2018,12.6,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+2062/3,2018,20,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+2062/H10,2018,1.3,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+2062/H11,2018,1.3,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+2062/H2,2018,13.5,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+2062/H4,2018,1.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+2062/H5,2018,1.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+2062/H6,2018,1.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+2062/H7,2018,1.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+2062/H8,2018,1.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+2062/H9,2018,1.3,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+2063/W1,2014,7.5,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+2063/W2,2014,5,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+2063/W3,2014,5,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+2113/1,2019,2.1,Petroleum Liquids,False,2019,Retired and Canceled RE
+2113/2,2019,1,Petroleum Liquids,False,2019,Retired and Canceled RE
+2113/3,2019,0.7,Petroleum Liquids,False,2019,Retired and Canceled RE
+2113/IC5,2019,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2113/IC6,2019,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2114/2,2008,0.8,Petroleum Liquids,False,-,-
+2114/4,2012,1.8,Petroleum Liquids,False,-,-
+2114/5,2012,1.8,Petroleum Liquids,False,-,-
+2114/6,2012,0.9,Petroleum Liquids,False,-,-
+2114/7,2012,1.1,Petroleum Liquids,False,-,-
+2114/8,2006,1.6,Petroleum Liquids,False,-,-
+2118/2,2005,0.5,Petroleum Liquids,False,-,-
+2118/3,2009,1.1,Petroleum Liquids,False,-,-
+2118/4,2005,0.3,Petroleum Liquids,False,-,-
+2118/5,2009,1.3,Petroleum Liquids,False,-,-
+2118/6,2009,1.6,Petroleum Liquids,False,-,-
+2118/7,2009,1.7,Petroleum Liquids,False,-,-
+2118/8,2009,1.8,Petroleum Liquids,False,-,-
+2146/10,2020,1.6,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/11,2020,1.8,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/12,2020,1.8,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/2,2013,1.3,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/3,2013,1.1,Natural Gas Internal Combustion Engine,False,2021,Retired and Canceled RE
+2146/4,2013,1.1,Natural Gas Internal Combustion Engine,False,2021,Retired and Canceled RE
+2146/5,2020,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/6,2013,2,Natural Gas Internal Combustion Engine,False,2021,Retired and Canceled RE
+2146/7,2013,2.2,Natural Gas Internal Combustion Engine,False,2021,Retired and Canceled RE
+2146/8,2020,1.6,Petroleum Liquids,False,2021,Retired and Canceled RE
+2146/9,2020,1.6,Petroleum Liquids,False,2021,Retired and Canceled RE
+2148/2,2011,0.2,Petroleum Liquids,False,-,-
+2148/3,2015,2,Petroleum Liquids,False,-,-
+2148/5,2008,1.2,Petroleum Liquids,False,-,-
+2148/6,2015,3,Petroleum Liquids,False,-,-
+2148/IC4,2015,0.9,Petroleum Liquids,False,-,-
+2149/3A,2011,1.8,Petroleum Liquids,False,-,-
+2149/4A,2011,1.3,Petroleum Liquids,False,-,-
+2149/4B,2011,1.8,Petroleum Liquids,False,-,-
+2149/5,2011,1.3,Petroleum Liquids,False,-,-
+2149/6,2011,1.8,Petroleum Liquids,False,-,-
+2149/6A,2011,1.8,Petroleum Liquids,False,-,-
+2150/2,2016,0.5,Petroleum Liquids,False,2016,Retired and Canceled RE
+2150/3,2016,1.5,Petroleum Liquids,False,2016,Retired and Canceled RE
+2150/4,2016,0.8,Petroleum Liquids,False,2016,Retired and Canceled RE
+2150/6,2016,2,Petroleum Liquids,False,2016,Retired and Canceled RE
+2150/IC7,2016,2,Petroleum Liquids,False,2016,Retired and Canceled RE
+2154/1,2004,0.2,Petroleum Liquids,False,-,-
+2154/2,2004,0.2,Petroleum Liquids,False,-,-
+2154/3,2004,0.2,Petroleum Liquids,False,-,-
+2154/4,2004,0.5,Petroleum Liquids,False,-,-
+2165/1,2013,1.2,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/10,2013,1.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/11,2013,1,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/12,2013,1,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/4A,2013,1.2,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/5A,2013,1.2,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/8,2013,1,Petroleum Liquids,False,2017,Retired and Canceled RE
+2165/9,2013,1.4,Petroleum Liquids,False,2017,Retired and Canceled RE
+2169/1,2015,15,Conventional Steam Coal,False,-,-
+2169/2,2015,44,Conventional Steam Coal,False,-,-
+2216/1,2022,0.5,Petroleum Liquids,False,2022,Retired and Canceled RE
+2216/2A,2022,0.1,Petroleum Liquids,False,2022,Retired and Canceled RE
+2216/3,2022,0.2,Petroleum Liquids,False,2022,Retired and Canceled RE
+2216/4,2022,0.3,Petroleum Liquids,False,2022,Retired and Canceled RE
+2218/2,2007,0.3,Petroleum Liquids,False,-,-
+2236/1,2017,4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+2236/2,2017,2.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+2236/4,2017,12.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+228/6,2013,359,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+228/7,2013,359,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+2280/3,2011,0.4,Petroleum Liquids,False,-,-
+2280/4,2012,0.6,Petroleum Liquids,False,-,-
+2297/1,2023,1.1,Petroleum Liquids,False,2023,Retired and Canceled RE
+2297/3,2023,0.9,Petroleum Liquids,False,2023,Retired and Canceled RE
+2297/4,2023,1.2,Petroleum Liquids,False,2023,Retired and Canceled RE
+2297/5,2023,1.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+2306/1,2013,0.5,Petroleum Liquids,False,-,-
+2306/2,2013,0.9,Petroleum Liquids,False,-,-
+2306/3,2002,0.2,Petroleum Liquids,False,-,-
+2306/4,2013,1.4,Petroleum Liquids,False,-,-
+2378/1,2014,136,Conventional Steam Coal,False,2019,Retired and Canceled RE
+2378/2,2019,163.2,Conventional Steam Coal,False,2019,Retired and Canceled RE
+2378/3,2019,176.4,Petroleum Liquids,False,2019,Retired and Canceled RE
+2378/IC1,2016,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2378/IC2,2016,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2378/IC3,2016,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2378/IC4,2016,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2385/GT1,2015,53,Petroleum Liquids,False,2019,Retired and Canceled RE
+2385/GT2,2015,53,Petroleum Liquids,False,2019,Retired and Canceled RE
+2385/GT3,2015,53,Petroleum Liquids,False,2019,Retired and Canceled RE
+2385/GT4,2015,53,Petroleum Liquids,False,2019,Retired and Canceled RE
+2397/1,2006,21.2,Petroleum Liquids,False,2022,Retired and Canceled RE
+2397/2,2006,21,Petroleum Liquids,False,2022,Retired and Canceled RE
+2400/11,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/12,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/13,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/14,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/21,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/22,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/23,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/24,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/31,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/32,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/33,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2400/34,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/101,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/102,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/103,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/104,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/111,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/112,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/113,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/114,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/121,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/122,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/123,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/124,2015,41.8,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2401/9,2022,93.6,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+2403/1,2011,454.7,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+2403/2,2017,659.7,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+2403/3,2003,115.2,Petroleum Liquids,False,2022,Retired and Canceled RE
+2408/1,2017,326.4,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2408/2,2017,326.4,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2408/3,2015,115.2,Petroleum Liquids,False,2022,Retired and Canceled RE
+2409/1,2015,18.5,Petroleum Liquids,False,2022,Retired and Canceled RE
+2468/5,2010,7.5,Conventional Steam Coal,False,-,-
+2468/6,2012,8,Natural Gas Internal Combustion Engine,False,-,-
+2497/2,2020,1299,Nuclear,False,2020,Retired and Canceled RE
+2526/7,2009,43.8,Conventional Steam Coal,False,-,-
+2526/8,2011,75,Conventional Steam Coal,False,-,-
+2529/1,2008,30,Conventional Steam Coal,False,-,-
+2529/2,2008,40,Conventional Steam Coal,False,-,-
+2531/1,2008,30,Conventional Steam Coal,False,-,-
+2531/2,2008,30,Conventional Steam Coal,False,-,-
+2535/1,2019,155.3,Conventional Steam Coal,False,2019,Retired and Canceled RE
+2535/2,2019,167.2,Conventional Steam Coal,False,2019,Retired and Canceled RE
+2549/63,2006,80,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2549/64,2006,100,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2549/65,2007,100,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2549/66,2007,100,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2549/67,2016,200,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2549/S68,2016,200,Conventional Steam Coal,False,2016,Retired and Canceled RE
+2554/1,2022,96,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2554/2,2019,96,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2554/3,2022,217.6,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2554/ST4,2022,217.6,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2584/1,2003,0.8,Conventional Hydroelectric,False,-,-
+2584/2,2003,0.8,Conventional Hydroelectric,False,-,-
+2584/3,2003,0.8,Conventional Hydroelectric,False,-,-
+2584/4,2003,0.7,Conventional Hydroelectric,False,-,-
+2584/5,2003,0.7,Conventional Hydroelectric,False,-,-
+2584/6,2003,0.7,Conventional Hydroelectric,False,-,-
+2584/7,2003,0.7,Conventional Hydroelectric,False,-,-
+259/1,2014,169.1,Natural Gas Steam Turbine,False,-,-
+259/2,2014,169.1,Natural Gas Steam Turbine,False,-,-
+259/3,2014,359,Natural Gas Steam Turbine,False,-,-
+259/4,2014,359,Natural Gas Steam Turbine,False,-,-
+2629/3,2007,69,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+2629/4,2007,179.5,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2629/5,2008,200.6,Conventional Steam Coal,False,2020,Retired and Canceled RE
+271/1,2003,213.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/2,2003,213.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/3,2003,213.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/4,2003,213.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/5,2017,326.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/6,2017,326.4,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+271/7,2017,751.1,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+273/3,2011,226,Natural Gas Steam Turbine,False,-,-
+273/4,2011,52,Petroleum Liquids,False,-,-
+273/5,2011,52,Petroleum Liquids,False,-,-
+273/6,2011,52,Petroleum Liquids,False,-,-
+2835/5,2015,256,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2835/6,2002,46,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2835/7,2002,46,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2835/8,2002,46,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2835/9,2002,46,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2836/10,2022,32.1,Petroleum Liquids,False,2022,Retired and Canceled RE
+2836/6,2002,75,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+2836/7,2016,86,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2836/9,2022,680,Conventional Steam Coal,False,2022,Retired and Canceled RE
+2837/1,2015,123,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2837/2,2015,123,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2837/3,2015,123,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2837/4,2012,208,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2837/5,2012,680,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2837/6,2020,32,Petroleum Liquids,False,2020,Retired and Canceled RE
+2838/18,2015,256,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2838/IC1,2015,2,Petroleum Liquids,False,2020,Retired and Canceled RE
+2838/IC2,2015,2,Petroleum Liquids,False,2020,Retired and Canceled RE
+2840/1,2005,148,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2840/2,2005,136,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2840/3,2012,161.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2840/4,2020,841.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2840/5,2019,443.9,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2840/6,2019,443.9,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2843/5,2015,106.2,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2850/1,2017,610.2,Conventional Steam Coal,False,2018,Retired and Canceled RE
+2850/2,2018,610.2,Conventional Steam Coal,False,2018,Retired and Canceled RE
+2850/3,2018,610.2,Conventional Steam Coal,False,2018,Retired and Canceled RE
+2850/4,2018,610.2,Conventional Steam Coal,False,2018,Retired and Canceled RE
+2850/D1,2018,2.7,Petroleum Liquids,False,2018,Retired and Canceled RE
+2850/D2,2018,2.7,Petroleum Liquids,False,2018,Retired and Canceled RE
+2850/D3,2018,2.7,Petroleum Liquids,False,2018,Retired and Canceled RE
+2850/D4,2018,2.7,Petroleum Liquids,False,2018,Retired and Canceled RE
+2857/4,2002,113.6,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+2857/CTA,2010,28.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+2857/CTB,2010,28.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+2860/CTA,2013,27,Petroleum Liquids,False,2020,Retired and Canceled RE
+2860/CTB,2013,27,Petroleum Liquids,False,2020,Retired and Canceled RE
+2864/3,2012,103.4,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2864/4,2010,156.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2864/5,2010,156.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2864/A1,2015,2.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+2864/B1,2015,2.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+2864/B2,2015,2.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+2866/1,2020,190.4,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/2,2020,190.4,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/3,2020,190.4,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/4,2020,190.4,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/5,2023,334,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/6,2023,680,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/7,2023,680,Conventional Steam Coal,False,2023,Retired and Canceled RE
+2866/A1,2023,2.5,Petroleum Liquids,False,2023,Retired and Canceled RE
+2866/B1,2023,2.5,Petroleum Liquids,False,2023,Retired and Canceled RE
+2866/B2,2023,2.5,Petroleum Liquids,False,2023,Retired and Canceled RE
+2866/B3,2023,2.5,Petroleum Liquids,False,2023,Retired and Canceled RE
+2866/B4,2023,2.5,Petroleum Liquids,False,2023,Retired and Canceled RE
+2867/5,2003,35,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2867/6,2003,69,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2867/7,2003,69,Conventional Steam Coal,False,2020,Retired and Canceled RE
+2872/1,2015,219.6,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2872/2,2015,219.6,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2872/3,2015,237.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2872/4,2015,237.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2872/5,2015,615.2,Conventional Steam Coal,False,2021,Retired and Canceled RE
+2902/1,2022,0.7,Petroleum Liquids,False,2022,Retired and Canceled RE
+2902/2,2022,0.5,Petroleum Liquids,False,2022,Retired and Canceled RE
+2921/1,2012,0.7,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/3,2008,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/4,2008,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/5,2019,2,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/6,2019,3,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/7,2019,6,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/8,2019,5.6,Petroleum Liquids,False,2019,Retired and Canceled RE
+2921/9,2019,14,Petroleum Liquids,False,2019,Retired and Canceled RE
+2978/4,2012,0.8,Petroleum Liquids,False,-,-
+2978/5,2012,1,Petroleum Liquids,False,-,-
+2990/1,2002,1.1,Natural Gas Internal Combustion Engine,False,-,-
+2997/10,2009,2.5,Petroleum Liquids,False,-,-
+2997/4,2009,2.8,Natural Gas Internal Combustion Engine,False,-,-
+2997/6,2007,1.7,Natural Gas Internal Combustion Engine,False,-,-
+2997/7,2008,3.3,Natural Gas Internal Combustion Engine,False,-,-
+2997/8,2008,4,Natural Gas Internal Combustion Engine,False,-,-
+2997/9,2009,7,Natural Gas Internal Combustion Engine,False,-,-
+300/DIGT,2003,16,Petroleum Liquids,False,2018,Retired and Canceled RE
+301/ENCI,2016,18,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+302/2,2018,110,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+302/3,2018,110,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+302/4,2018,306,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+302/5,2018,345.6,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+302/GT1,2018,18,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+302/ST1,2017,110,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+303/KEA1,2014,17.5,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+303/KEA2,2015,72,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+303/KEA3,2017,72,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+305/MRGT,2016,49,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+306/NSGT,2002,26,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+307/NIG1,2002,19,Petroleum Liquids,False,2018,Retired and Canceled RE
+307/NIG2,2002,18,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+3098/1,2014,100,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3098/2,2014,100,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3098/3,2014,125,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3098/4,2014,185,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3099/1,2002,69,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3099/2,2002,81,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3099/3,2002,81,Conventional Steam Coal,False,2022,Retired and Canceled RE
+3099/4,2002,179,Conventional Steam Coal,False,2022,Retired and Canceled RE
+310/2,2011,136,Natural Gas Steam Turbine,False,-,-
+310/3,2009,201.6,Natural Gas Steam Turbine,False,-,-
+310/4,2009,240.3,Natural Gas Steam Turbine,False,-,-
+310/5,2011,15,Petroleum Liquids,False,-,-
+310/ST1,2011,136,Natural Gas Steam Turbine,False,-,-
+3134/A,2004,53,Petroleum Liquids,False,2019,Retired and Canceled RE
+3178/1,2012,163.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3178/2,2012,163.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3179/1,2013,576,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3179/2,2013,576,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3179/3,2013,576,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3181/1,2002,74.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+3181/2,2013,74.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+3181/3,2013,299.2,Conventional Steam Coal,False,2020,Retired and Canceled RE
+3182/7,2005,74.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+3182/8,2005,140.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+3245/1,2008,1.5,Conventional Hydroelectric,False,-,-
+329/1,2014,65.3,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+329/2,2014,82,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+329/30,2014,120,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+329/31,2014,85,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+329/32,2014,85,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+329/40,2014,120,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+329/41,2014,85,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+329/42,2014,85,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+330/1,2002,156.2,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+330/2,2002,156.2,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+330/3,2013,342,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+330/4,2015,342,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+331/1,2003,123,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+331/2,2003,123,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+331/3,2018,333,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+331/4,2018,333,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+331/5,2003,138.1,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+334/1,2003,30,Natural Gas Steam Turbine,False,-,-
+334/2,2003,30,Natural Gas Steam Turbine,False,-,-
+334/3,2003,40,Natural Gas Steam Turbine,False,-,-
+334/4,2003,40,Natural Gas Steam Turbine,False,-,-
+3436/1,2002,261,Natural Gas Steam Turbine,False,-,-
+3438/1,2008,75,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3438/2,2008,113.7,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3440/1,2006,75,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3440/2,2006,75,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3440/3,2010,163.2,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3440/4,2006,261,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3442/4,2007,23,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3442/5,2007,23,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3442/6,2007,163.2,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3442/7,2006,49.1,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+345/03,2018,138,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+345/1,2018,218,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+345/2,2018,218,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+3461/7,2005,187.8,Natural Gas Steam Turbine,False,-,-
+3465/1,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3465/2,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3465/3,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3465/4,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3465/5,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3465/6,2006,16,Natural Gas Fired Combustion Turbine,False,-,-
+3500/1,2010,156.2,Natural Gas Steam Turbine,False,-,-
+3508/1,2015,198.9,Natural Gas Steam Turbine,False,-,-
+3508/2,2015,580.5,Natural Gas Steam Turbine,False,-,-
+3508/3,2015,396,Natural Gas Steam Turbine,False,-,-
+3517/4,2005,15,Natural Gas Steam Turbine,False,-,-
+3520/2,2005,5,Natural Gas Fired Combustion Turbine,False,-,-
+3521/1,2005,20,Natural Gas Steam Turbine,False,-,-
+3521/2,2005,20,Natural Gas Steam Turbine,False,-,-
+3523/1,2005,75,Natural Gas Steam Turbine,False,-,-
+3524/1,2005,34.5,Natural Gas Steam Turbine,False,-,-
+3524/2,2005,37.5,Natural Gas Steam Turbine,False,-,-
+3524/3,2005,54.4,Natural Gas Steam Turbine,False,-,-
+3524/4,2005,115.2,Natural Gas Steam Turbine,False,-,-
+3525/5,2005,1.1,Petroleum Liquids,False,-,-
+3525/6,2005,1.1,Petroleum Liquids,False,-,-
+3526/4,2005,5,Natural Gas Fired Combined Cycle,False,-,-
+3526/5,2005,37.5,Natural Gas Fired Combined Cycle,False,-,-
+3526/6,2005,99,Natural Gas Steam Turbine,False,-,-
+3527/1,2004,25,Natural Gas Fired Combined Cycle,False,-,-
+3527/2,2004,101,Natural Gas Fired Combined Cycle,False,-,-
+3557/1,2014,11.3,Conventional Hydroelectric,False,-,-
+3557/2,2014,11.3,Conventional Hydroelectric,False,-,-
+3558/1,2008,2,Natural Gas Internal Combustion Engine,False,-,-
+3558/3,2008,3.1,Natural Gas Internal Combustion Engine,False,-,-
+3558/4,2008,2.7,Natural Gas Internal Combustion Engine,False,-,-
+3558/5,2008,3.6,Natural Gas Internal Combustion Engine,False,-,-
+3558/GT1,2008,6.5,Natural Gas Fired Combustion Turbine,False,-,-
+356/5,2023,163.2,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+356/6,2023,163.2,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+356/7,2019,495,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+356/8,2023,495,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+3566/IC1,2004,1.5,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC2,2004,1,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC3,2004,1.3,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC4,2004,1.5,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC5,2004,2.2,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC6,2004,2.5,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC7,2004,1.5,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC8,2004,1.3,Natural Gas Internal Combustion Engine,False,-,-
+3566/IC9,2004,4,Natural Gas Internal Combustion Engine,False,-,-
+3573/2,2002,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3573/3,2002,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3573/4,2002,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3573/5,2002,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3573/6,2002,2,Natural Gas Internal Combustion Engine,False,-,-
+3602/1,2023,44,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+3602/2,2023,53.6,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+3602/GT1,2012,12.5,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+3602/GT2,2023,18.5,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+3602/GT3,2023,22,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+3604/4,2015,11.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+3604/5,2015,11.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+3604/6A,2023,22,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+3604/7,2023,22,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+3604/8,2023,40,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+3608/10,2004,4.1,Natural Gas Internal Combustion Engine,False,-,-
+3608/11,2004,5,Natural Gas Internal Combustion Engine,False,-,-
+3608/3,2004,2.4,Natural Gas Internal Combustion Engine,False,-,-
+3608/4,2004,2.4,Natural Gas Internal Combustion Engine,False,-,-
+3608/5,2004,2.4,Natural Gas Internal Combustion Engine,False,-,-
+3608/7,2004,1,Natural Gas Internal Combustion Engine,False,-,-
+3608/8,2004,1,Natural Gas Internal Combustion Engine,False,-,-
+3608/9,2004,2.6,Natural Gas Internal Combustion Engine,False,-,-
+3619/10,2004,1.7,Natural Gas Internal Combustion Engine,False,-,-
+3619/11,2004,4.8,Natural Gas Internal Combustion Engine,False,-,-
+3619/12,2004,3,Natural Gas Internal Combustion Engine,False,-,-
+3619/2,2004,0.4,Natural Gas Internal Combustion Engine,False,-,-
+3619/5,2004,1,Natural Gas Internal Combustion Engine,False,-,-
+3619/6,2004,1.1,Natural Gas Internal Combustion Engine,False,-,-
+3619/7,2004,1.1,Natural Gas Internal Combustion Engine,False,-,-
+3619/8,2004,1.8,Natural Gas Internal Combustion Engine,False,-,-
+3619/9,2004,1.8,Natural Gas Internal Combustion Engine,False,-,-
+3623/1,2006,2.4,Petroleum Liquids,False,-,-
+3623/2,2006,1.3,Petroleum Liquids,False,-,-
+3623/3,2006,2,Petroleum Liquids,False,-,-
+3623/4,2006,4.1,Petroleum Liquids,False,-,-
+3623/7,2006,1.3,Petroleum Liquids,False,-,-
+3624/1,2017,0.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/2,2017,0.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/3,2017,0.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/4,2017,0.8,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/6,2017,1.4,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/7,2017,1.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+3624/8,2017,1.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+3625/1,2006,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3625/2,2006,0.9,Natural Gas Internal Combustion Engine,False,-,-
+3625/3,2006,0.5,Natural Gas Internal Combustion Engine,False,-,-
+3625/4,2006,1.2,Natural Gas Internal Combustion Engine,False,-,-
+3627/1,2014,16.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+3627/2,2014,16.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+3627/3,2009,38,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+3686/4,2016,7.5,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+3686/5,2016,2.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+3686/6,2016,2.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+3686/7,2016,2.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+3686/8,2016,2.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+3726/IC1,2007,1.3,Petroleum Liquids,False,-,-
+3726/IC2,2007,1.3,Petroleum Liquids,False,-,-
+3751/1,2014,563.4,Nuclear,False,-,-
+3788/1,2012,92,Conventional Steam Coal,False,-,-
+3788/2,2012,92,Conventional Steam Coal,False,-,-
+3788/3,2012,110,Conventional Steam Coal,False,-,-
+3788/4,2012,110,Conventional Steam Coal,False,-,-
+3788/5,2012,110,Conventional Steam Coal,False,-,-
+3848/1,2003,1.4,Conventional Hydroelectric,False,-,-
+3849/2,2003,3,Conventional Hydroelectric,False,-,-
+3849/4,2003,3.3,Conventional Hydroelectric,False,-,-
+3930/4,2003,0.5,Petroleum Liquids,False,-,-
+3930/5,2003,0.5,Petroleum Liquids,False,-,-
+3947/1,2015,237.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+3947/2,2015,237.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+3947/3,2015,237.5,Conventional Steam Coal,False,2021,Retired and Canceled RE
+4104/1,2004,0.3,Petroleum Liquids,False,-,-
+4104/2,2004,0.5,Petroleum Liquids,False,-,-
+4104/3,2004,0.9,Petroleum Liquids,False,-,-
+4104/4,2004,1.4,Petroleum Liquids,False,-,-
+4127/3,2014,7.5,Conventional Steam Coal,False,-,-
+4127/4,2014,13.6,Conventional Steam Coal,False,-,-
+4127/5,2014,6.9,Conventional Steam Coal,False,-,-
+4127/IC1,2014,1,Petroleum Liquids,False,-,-
+4133/10,2011,3,Petroleum Liquids,False,-,-
+4133/5,2011,2.8,Petroleum Liquids,False,-,-
+4133/6,2011,2,Petroleum Liquids,False,-,-
+4133/7,2011,6,Petroleum Liquids,False,-,-
+4133/8,2003,0.3,Petroleum Liquids,False,-,-
+4133/9,2011,6,Petroleum Liquids,False,-,-
+4146/1,2015,18,Wood/Wood Waste Biomass,False,-,-
+4146/2,2015,35,Wood/Wood Waste Biomass,False,-,-
+4249/HC1,2006,1,Conventional Hydroelectric,False,-,-
+4259/1,2016,55,Conventional Steam Coal,False,2020,Retired and Canceled RE
+4259/2,2012,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+4259/3,2012,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+473/1,2021,1.5,Conventional Hydroelectric,False,2022,Retired and Canceled RE
+473/2,2017,1.5,Conventional Hydroelectric,False,2022,Retired and Canceled RE
+490/1,2006,1.2,Petroleum Liquids,False,-,-
+490/2,2006,2.8,Petroleum Liquids,False,-,-
+490/3,2006,2.5,Petroleum Liquids,False,-,-
+490/4,2006,1,Petroleum Liquids,False,-,-
+491/3,2021,0.5,Petroleum Liquids,False,2021,Retired and Canceled RE
+491/5,2021,1,Petroleum Liquids,False,2021,Retired and Canceled RE
+4938/1,2005,156,Natural Gas Steam Turbine,False,-,-
+4938/2,2005,207,Natural Gas Steam Turbine,False,-,-
+496/1,2014,0.8,Natural Gas Internal Combustion Engine,False,-,-
+496/2,2014,0.4,Natural Gas Internal Combustion Engine,False,-,-
+496/3,2014,0.1,Petroleum Liquids,False,-,-
+496/4,2014,0.1,Petroleum Liquids,False,-,-
+496/5,2014,0.1,Petroleum Liquids,False,-,-
+496/6,2014,1.2,Natural Gas Internal Combustion Engine,False,-,-
+496/7,2014,2.1,Natural Gas Internal Combustion Engine,False,-,-
+50012/GEN3,2011,40,Conventional Steam Coal,False,-,-
+50024/50MW,2017,55.3,Petroleum Liquids,False,2017,Retired and Canceled RE
+50039/GEN1,2018,59,Conventional Steam Coal,False,2018,Retired and Canceled RE
+50041/GEN1,2022,2.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+50041/GEN2,2022,3.1,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+50044/NO.1,2005,5,Natural Gas Steam Turbine,False,-,-
+50044/NO.2,2005,3.1,Natural Gas Steam Turbine,False,-,-
+50057/EG#1,2004,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50057/EG#2,2004,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50062/GEN1,2016,46,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+50065/1,2005,1.5,Natural Gas Internal Combustion Engine,False,-,-
+50065/2,2005,1.5,Natural Gas Internal Combustion Engine,False,-,-
+50068/WEST,2014,7.5,Wood/Wood Waste Biomass,False,-,-
+50074/GEN1,2019,50.5,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+50077/CAT1,2018,0.5,Landfill Gas,False,2017,Retired and Canceled RE
+50077/CAT2,2018,0.3,Landfill Gas,False,2017,Retired and Canceled RE
+50077/CAT3,2018,0.3,Landfill Gas,False,2017,Retired and Canceled RE
+50077/CAT4,2018,0.3,Landfill Gas,False,2017,Retired and Canceled RE
+50095/HG1,2011,0.1,Conventional Hydroelectric,False,-,-
+50095/IC1,2011,0.4,Petroleum Liquids,False,-,-
+50095/IC2,2011,0.6,Petroleum Liquids,False,-,-
+50095/TG2,2011,0.6,Wood/Wood Waste Biomass,False,-,-
+50095/TGI,2011,0.7,Wood/Wood Waste Biomass,False,-,-
+50096/4915,2010,1.2,Wood/Wood Waste Biomass,False,-,-
+50096/5102,2010,1.2,Wood/Wood Waste Biomass,False,-,-
+50104/G-1,2012,23,Natural Gas Fired Combined Cycle,False,-,-
+50104/G-2,2012,8,Natural Gas Fired Combined Cycle,False,-,-
+50111/GEN1,2020,20,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+50113/GEN1,2004,12.6,Wood/Wood Waste Biomass,False,-,-
+50113/GEN2,2004,1.6,Wood/Wood Waste Biomass,False,-,-
+50117/GEN1,2004,3,Natural Gas Fired Combustion Turbine,False,-,-
+50120/0001,2009,4,Wood/Wood Waste Biomass,False,-,-
+50130/GEN1,2012,60,Conventional Steam Coal,False,-,-
+50130/GEN2,2012,60,Conventional Steam Coal,False,-,-
+50142/GEN1,2004,1.2,Natural Gas Internal Combustion Engine,False,-,-
+50142/GEN2,2004,1.2,Natural Gas Internal Combustion Engine,False,-,-
+50142/GEN3,2004,1,Natural Gas Internal Combustion Engine,False,-,-
+50142/GEN4,2004,1.2,Natural Gas Internal Combustion Engine,False,-,-
+50142/GEN5,2004,1.2,Natural Gas Internal Combustion Engine,False,-,-
+50142/GEN6,2004,1.2,Natural Gas Internal Combustion Engine,False,-,-
+50151/GEN8,2014,6,Natural Gas Steam Turbine,False,-,-
+50157/1,2020,1.2,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50157/2,2020,1.2,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50157/3,2020,1.2,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50158/1,2018,2.4,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50158/2,2018,2.4,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50159/1,2020,1.2,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50160/1,2020,1.2,Conventional Hydroelectric,False,2020,Retired and Canceled RE
+50165/1,2002,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50165/2,2002,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50165/3,2002,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50165/4,2002,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50168/GT01,2003,45,Natural Gas Fired Combined Cycle,False,-,-
+50168/GT02,2003,45,Natural Gas Fired Combined Cycle,False,-,-
+50168/TU01,2002,23,Natural Gas Fired Combined Cycle,False,-,-
+50173/GEN1,2006,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+50198/TG1,2009,5,Wood/Wood Waste Biomass,False,-,-
+50202/GEN1,2016,56,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50209/GEN1,2002,7.2,Municipal Solid Waste,False,-,-
+50221/GEN1,2004,40.3,Conventional Steam Coal,False,-,-
+50221/GEN2,2004,40.3,Conventional Steam Coal,False,-,-
+50231/TG2,2021,5,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+50231/TG3,2021,5,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+50232/T/G,2005,10,Wood/Wood Waste Biomass,False,-,-
+50238/GEN1,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50238/GEN2,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50238/GEN3,2003,0.3,Natural Gas Internal Combustion Engine,False,-,-
+50242/TB-1,2015,1.5,Conventional Hydroelectric,False,2016,Retired and Canceled RE
+50242/TB-2,2015,1.5,Conventional Hydroelectric,False,2016,Retired and Canceled RE
+50244/GEN8,2023,7.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50244/GEN9,2023,7.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50244/GN10,2023,7.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50244/GN11,2023,7.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50244/GN12,2023,10,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50244/GN13,2023,12.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50245/ABB,2014,61.2,Wood/Wood Waste Biomass,False,-,-
+50245/GE,2014,27.5,Wood/Wood Waste Biomass,False,-,-
+50245/GT,2013,38.4,Natural Gas Fired Combustion Turbine,False,-,-
+50246/WEST,2007,8.1,Conventional Steam Coal,False,-,-
+50247/1,2012,1,Conventional Steam Coal,False,-,-
+50247/2,2012,1.5,Conventional Steam Coal,False,-,-
+50247/7,2012,9.4,Conventional Steam Coal,False,-,-
+50247/8,2012,9.4,Conventional Steam Coal,False,-,-
+50247/GEN3,2012,6,Conventional Steam Coal,False,-,-
+50247/GEN4,2009,1.5,Conventional Steam Coal,False,-,-
+50247/GEN5,2012,7.5,Conventional Steam Coal,False,-,-
+50247/GEN6,2012,10.5,Conventional Steam Coal,False,-,-
+50249/GEN2,2007,7.5,Natural Gas Steam Turbine,False,-,-
+50249/GEN3,2007,12.5,Natural Gas Steam Turbine,False,-,-
+50249/GEN4,2007,12.5,Natural Gas Steam Turbine,False,-,-
+50249/GEN5,2007,15.6,Natural Gas Steam Turbine,False,-,-
+50249/GEN6,2007,15.6,Natural Gas Steam Turbine,False,-,-
+50249/GEN7,2007,21.1,Natural Gas Steam Turbine,False,-,-
+50253/TG1,2009,33,Natural Gas Steam Turbine,False,-,-
+50253/TG3,2007,18,Natural Gas Fired Combustion Turbine,False,-,-
+50253/TG4,2009,46.2,Natural Gas Steam Turbine,False,-,-
+50263/GEN1,2013,6,Natural Gas Internal Combustion Engine,False,-,-
+50264/GEN3,2007,6.2,Conventional Steam Coal,False,-,-
+50271/1TGA,2010,4.2,Municipal Solid Waste,False,-,-
+50271/1TGB,2011,4,Municipal Solid Waste,False,-,-
+50271/2BP,2002,0.1,Municipal Solid Waste,False,-,-
+50271/3TG,2011,6.3,Municipal Solid Waste,False,-,-
+50273/DLV1,2022,9.4,Municipal Solid Waste,False,2022,Retired and Canceled RE
+50276/EXIS,2015,5.9,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+50277/GEN1,2016,19.7,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50282/GEN1,2019,35,Conventional Steam Coal,False,2019,Retired and Canceled RE
+50282/GEN2,2019,30,Conventional Steam Coal,False,2019,Retired and Canceled RE
+50284/TG3,2016,2.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+50284/TG4,2016,4.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+50284/TG5,2016,3,Conventional Steam Coal,False,2016,Retired and Canceled RE
+50284/TG6,2016,7.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+50294/GEN1,2002,14.4,All Other,False,-,-
+50313/TURB,2008,2.8,Natural Gas Fired Combustion Turbine,False,-,-
+50317/GEN1,2007,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+50317/GEN2,2007,0.5,Natural Gas Internal Combustion Engine,False,-,-
+50317/GEN3,2007,0.8,Natural Gas Internal Combustion Engine,False,-,-
+50318/38-1,2020,2.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+50319/EG-1,2006,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50319/EG-2,2006,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50331/GEN4,2006,3,Other Waste Biomass,False,-,-
+50342/CDK,2004,1,Natural Gas Fired Combustion Turbine,False,-,-
+50344/SW1,2007,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50344/SW2,2007,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50346/ON1,2010,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/GEN5,2002,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/GEN6,2002,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/OS1,2009,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/OS2,2008,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/OS3,2015,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50348/OS4,2005,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50356/1,2006,4.8,Natural Gas Internal Combustion Engine,False,-,-
+50358/DSL1,2008,3,Petroleum Liquids,False,-,-
+50358/DSL2,2008,3,Petroleum Liquids,False,-,-
+50358/DSL3,2008,3,Petroleum Liquids,False,-,-
+50358/STM2,2003,5,Conventional Steam Coal,False,-,-
+50358/STM3,2003,14,Conventional Steam Coal,False,-,-
+50358/STM4,2003,9,Conventional Steam Coal,False,-,-
+50359/10,2021,12.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+50359/9,2021,12.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+50369/GEN1,2003,19.9,Natural Gas Fired Combined Cycle,False,-,-
+50369/GEN2,2003,8,Natural Gas Fired Combined Cycle,False,-,-
+50371/MI34,2019,40.5,All Other,False,2019,Retired and Canceled RE
+50381/COGN,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+50381/TURB,2003,1.6,Other Natural Gas,False,-,-
+50385/GEN1,2022,55,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+50385/GEN2,2022,55,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+50385/GEN3,2022,42,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+50405/GT1,2005,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+50405/GT2,2005,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+50405/GT3,2005,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+50405/GT4,2005,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+50405/GT5,2005,4.5,Natural Gas Fired Combustion Turbine,False,-,-
+50407/GEN3,2004,12.5,Conventional Steam Coal,False,2019,Retired and Canceled RE
+50407/GEN5,2019,61,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+50407/GEN6,2019,35.7,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+50419/GEN1,2012,9.3,Wood/Wood Waste Biomass,False,-,-
+50424/GEN1,2020,10.6,All Other,False,2023,Retired and Canceled RE
+50425/GEN1,2002,7.5,Natural Gas Steam Turbine,False,-,-
+50425/GEN2,2012,0.7,Natural Gas Steam Turbine,False,-,-
+50425/GEN3,2012,1,Petroleum Liquids,False,-,-
+50426/GEN1,2016,3,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50426/GEN2,2016,3,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50426/GEN3,2016,3,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50428/GEN1,2007,1.4,Natural Gas Internal Combustion Engine,False,-,-
+50438/GEN2,2010,3.5,Conventional Steam Coal,False,-,-
+50438/GEN4,2010,19.1,Conventional Steam Coal,False,-,-
+50438/GEN5,2010,28.3,Conventional Steam Coal,False,-,-
+50456/GEN1,2024,12.5,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+50459/GT,2005,43,Natural Gas Fired Combined Cycle,False,-,-
+50459/ST,2005,17.8,Natural Gas Fired Combined Cycle,False,-,-
+50466/GEN2,2023,7.8,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50466/GEN3,2023,7.5,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50466/GEN4,2023,16.9,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50466/GEN5,2023,11,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50466/GEN6,2023,29.8,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50468/1,2024,0.6,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+50468/2,2024,0.5,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+50468/3,2024,0.5,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+50498/GTG,2021,39.8,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+50498/STG,2021,30.7,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+50538/GEN1,2007,6,Natural Gas Fired Combustion Turbine,False,-,-
+50538/GEN2,2007,6,Natural Gas Fired Combustion Turbine,False,-,-
+50557/GEN1,2008,12,Conventional Steam Coal,False,-,-
+50557/GEN2,2008,12,Conventional Steam Coal,False,-,-
+506/1,2003,0.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/2,2020,0.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/3,2020,0.4,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/4,2020,1,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/5,2003,1.2,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/6,2020,3,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/7,2020,3.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/8,2020,3.5,Petroleum Liquids,False,2020,Retired and Canceled RE
+506/9,2020,5.1,Petroleum Liquids,False,2020,Retired and Canceled RE
+50601/GEN1,2006,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50601/GEN2,2006,0.6,Natural Gas Internal Combustion Engine,False,-,-
+50602/GEN1,2011,6.2,Natural Gas Fired Combustion Turbine,False,-,-
+50620/GEN1,2019,5.7,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+50623/GENA,2020,3.5,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+50623/GENB,2020,3.5,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+50623/GENC,2020,3.5,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+50623/GEND,2020,3.5,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+50632/GEN1,2024,24,Municipal Solid Waste,False,2024,Retired and Canceled RE
+50640/GEN6,2013,15,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+50651/GEN1,2013,90.6,Conventional Steam Coal,False,-,-
+50651/GEN2,2013,10.5,Conventional Steam Coal,False,-,-
+50664/GEN1,2015,11,Municipal Solid Waste,False,-,-
+50676/GEN1,2013,47.2,Natural Gas Fired Combined Cycle,False,-,-
+50676/GEN2,2013,47.2,Natural Gas Fired Combined Cycle,False,-,-
+50676/GEN3,2013,16.4,Natural Gas Fired Combined Cycle,False,-,-
+50693/DG-1,2011,1.1,Natural Gas Internal Combustion Engine,False,-,-
+50693/DG-3,2011,1.1,Natural Gas Internal Combustion Engine,False,-,-
+50693/TG-4,2011,7,Natural Gas Fired Combustion Turbine,False,-,-
+50709/GEN1,2016,37,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+50712/GEN1,2015,332.5,Onshore Wind Turbine,False,-,-
+50722/GEN1,2023,8.3,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+50725/BJC1,2004,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50725/BJC2,2004,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50725/BJC3,2004,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50725/BJC4,2004,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50730/GEN1,2015,20,Other Gases,False,2016,Retired and Canceled RE
+50730/GEN2,2015,20,Other Gases,False,2016,Retired and Canceled RE
+50730/GEN3,2015,20,Other Gases,False,2016,Retired and Canceled RE
+50730/GEN4,2015,22,Other Gases,False,2016,Retired and Canceled RE
+50738/GEN1,2007,3,Natural Gas Internal Combustion Engine,False,-,-
+50738/GEN3,2007,3,Natural Gas Internal Combustion Engine,False,-,-
+50738/GEN4,2007,7.5,Natural Gas Internal Combustion Engine,False,-,-
+50745/GEN1,2002,26,Natural Gas Fired Combined Cycle,False,-,-
+50745/GEN2,2002,7,Natural Gas Fired Combined Cycle,False,-,-
+50746/GEN1,2002,26,Natural Gas Fired Combined Cycle,False,-,-
+50746/GEN2,2002,7,Natural Gas Fired Combined Cycle,False,-,-
+50771/GEN1,2017,18,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+50774/GEN1,2020,14,Wood/Wood Waste Biomass,False,2020,Retired and Canceled RE
+50782/AM1,2005,1,Landfill Gas,False,2020,Retired and Canceled RE
+50782/AM2,2008,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50782/AM3,2005,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50782/AM4,2003,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+50788/HA1,2010,0.6,Landfill Gas,False,2020,Retired and Canceled RE
+50788/HA2,2010,0.6,Landfill Gas,False,2020,Retired and Canceled RE
+50797/GEN1,2009,45.9,Natural Gas Fired Combined Cycle,False,-,-
+50797/GEN2,2009,18.7,Natural Gas Fired Combined Cycle,False,-,-
+50799/GEN1,2023,45.9,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+50799/GEN2,2023,45.9,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+50799/GEN3,2023,21.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+50799/GEN4,2023,21.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+50801/GEN1,2016,2.8,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+50805/GEN1,2012,27.2,Conventional Steam Coal,False,-,-
+50805/GEN2,2012,43.3,Conventional Steam Coal,False,-,-
+50807/GEN3,2022,4,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50807/GEN4,2022,10,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50807/GEN6,2022,20,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+50811/GEN1,2015,16.5,Wood/Wood Waste Biomass,False,-,-
+50812/GEN1,2010,15.6,Conventional Steam Coal,False,-,-
+50814/GEN1,2010,7.5,Wood/Wood Waste Biomass,False,-,-
+50814/GEN2,2010,3.3,Wood/Wood Waste Biomass,False,-,-
+50814/GEN3,2010,6.5,Wood/Wood Waste Biomass,False,-,-
+50837/GEN1,2024,35.6,Municipal Solid Waste,False,2024,Retired and Canceled RE
+50848/GT1,2011,3.4,Natural Gas Fired Combustion Turbine,False,-,-
+50852/GEN1,2021,66.6,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+50852/GEN2,2021,22.9,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+50855/GEN1,2008,53.5,Natural Gas Fired Combined Cycle,False,-,-
+50855/GEN2,2008,25,Natural Gas Fired Combined Cycle,False,-,-
+50855/GEN3,2008,27.3,Natural Gas Fired Combined Cycle,False,-,-
+50863/ST2,2004,0.9,Wood/Wood Waste Biomass,False,-,-
+50863/ST3,2004,2.8,Wood/Wood Waste Biomass,False,-,-
+50874/GEN1,2009,21,Wood/Wood Waste Biomass,False,-,-
+50876/GEN1,2018,23,Natural Gas Fired Combined Cycle,False,2019,Retired and Canceled RE
+50876/GEN2,2018,7.7,Natural Gas Fired Combined Cycle,False,2019,Retired and Canceled RE
+50904/RU3,2018,1.1,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+50904/RU4,2018,1.1,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+50909/1,2012,0.8,Natural Gas Internal Combustion Engine,False,-,-
+50909/2,2012,0.8,Natural Gas Internal Combustion Engine,False,-,-
+50911/2102,2007,1.5,Wood/Wood Waste Biomass,False,-,-
+50912/1929,2004,1.2,Wood/Wood Waste Biomass,False,-,-
+50912/1930,2004,1.2,Wood/Wood Waste Biomass,False,-,-
+50914/1500,2011,1.5,Wood/Wood Waste Biomass,False,-,-
+50920/1,2019,2.5,Other Gases,False,2020,Retired and Canceled RE
+50925/1,2005,1.5,Natural Gas Internal Combustion Engine,False,-,-
+50927/GEN1,2003,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50927/GEN2,2003,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50927/GEN3,2003,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+50934/MKW1,2004,3.5,Municipal Solid Waste,False,-,-
+50937/GENA,2022,1.9,Petroleum Liquids,False,2022,Retired and Canceled RE
+50937/GENB,2022,1.9,Petroleum Liquids,False,2022,Retired and Canceled RE
+50942/1,2023,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+50942/2,2023,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+50942/3,2023,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+50945/ST1,2016,1.5,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+50952/GEN1,2022,0.8,Natural Gas Internal Combustion Engine,False,2022,Retired and Canceled RE
+50952/GEN2,2022,0.8,Natural Gas Internal Combustion Engine,False,2022,Retired and Canceled RE
+50954/GEN1,2006,3,Conventional Steam Coal,False,-,-
+50954/GEN2,2006,6,Conventional Steam Coal,False,-,-
+50955/GEN1,2023,1.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+50955/GEN2,2023,1.5,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+50955/GEN3,2023,3.7,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+50956/GEN1,2022,19,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+50956/GEN2,2022,19.2,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+50956/GEN3,2022,25,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+50958/GEN1,2004,6.2,Natural Gas Steam Turbine,False,-,-
+50968/GEN1,2010,26.8,Natural Gas Fired Combined Cycle,False,-,-
+50968/GEN2,2010,8,Natural Gas Fired Combined Cycle,False,-,-
+50989/0071,2004,0.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0072,2004,0.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0073,2004,0.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0074,2004,0.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0075,2004,0.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0076,2004,0.8,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50989/0077,2004,0.8,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+50990/P1-1,2018,0.4,Petroleum Liquids,False,2021,Retired and Canceled RE
+50990/P1-2,2018,0.4,Petroleum Liquids,False,2021,Retired and Canceled RE
+50990/P2-3,2021,0.9,Petroleum Liquids,False,2021,Retired and Canceled RE
+50990/P2-4,2021,0.9,Petroleum Liquids,False,2021,Retired and Canceled RE
+50990/P3-5,2009,0.7,Petroleum Liquids,False,2021,Retired and Canceled RE
+50991/GEN1,2007,20.6,Natural Gas Fired Combustion Turbine,False,-,-
+50991/GEN2,2007,20.6,Natural Gas Fired Combustion Turbine,False,-,-
+50991/GEN3,2006,20.6,Natural Gas Fired Combustion Turbine,False,-,-
+50991/GEN4,2006,41.4,Natural Gas Fired Combustion Turbine,False,-,-
+50991/GEN8,2006,5,Natural Gas Steam Turbine,False,-,-
+50991/GEN9,2006,15,Natural Gas Steam Turbine,False,-,-
+50991/GN10,2007,15,Natural Gas Steam Turbine,False,-,-
+50997/GEN1,2012,3,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+50997/GEN2,2012,3,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+51000/GEN1,2010,20,Conventional Steam Coal,False,-,-
+51029/EMG1,2010,3.2,Natural Gas Steam Turbine,False,-,-
+51035/GEN1,2019,1.1,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+51035/GEN2,2019,1.1,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+52003/NO1,2003,1,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO2,2003,0.7,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO3,2003,0.7,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO4,2003,1,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO5,2003,0.7,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO6,2003,0.7,Natural Gas Internal Combustion Engine,False,-,-
+52003/NO7,2003,0.7,Natural Gas Internal Combustion Engine,False,-,-
+52012/GEN1,2006,17.1,Natural Gas Fired Combustion Turbine,False,-,-
+52012/GEN2,2005,17.1,Natural Gas Fired Combustion Turbine,False,-,-
+52013/GEN1,2002,7.1,Natural Gas Fired Combustion Turbine,False,-,-
+52013/GEN2,2005,16.2,Natural Gas Fired Combustion Turbine,False,-,-
+52013/GEN3,2006,16.2,Natural Gas Fired Combustion Turbine,False,-,-
+52017/ST2,2013,2.5,Conventional Steam Coal,False,-,-
+52031/GEN1,2021,6,Other Gases,False,2021,Retired and Canceled RE
+52031/GEN2,2021,19,Other Gases,False,2021,Retired and Canceled RE
+52032/0001,2011,3.8,Natural Gas Fired Combustion Turbine,False,-,-
+52041/GEN1,2010,12.6,Wood/Wood Waste Biomass,False,-,-
+52056/GT1,2022,43,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+52056/ST1,2022,12,Natural Gas Fired Combined Cycle,False,2022,Retired and Canceled RE
+52069/GEN1,2019,16,Natural Gas Steam Turbine,False,2019,Retired and Canceled RE
+52069/GEN2,2019,16,Natural Gas Steam Turbine,False,2019,Retired and Canceled RE
+52069/GEN3,2019,16,Natural Gas Steam Turbine,False,2019,Retired and Canceled RE
+52069/GEN4,2019,15.1,Natural Gas Steam Turbine,False,2019,Retired and Canceled RE
+52080/1606,2010,1.5,Natural Gas Internal Combustion Engine,False,-,-
+52084/TG1,2012,6,Other Gases,False,-,-
+52093/GEN1,2011,2.8,Natural Gas Fired Combustion Turbine,False,-,-
+52093/GEN2,2011,2.8,Natural Gas Fired Combustion Turbine,False,-,-
+52106/GEN1,2019,10,Other Gases,False,2019,Retired and Canceled RE
+52106/GEN2,2019,10,Other Gases,False,2019,Retired and Canceled RE
+52106/GEN3,2019,10,Other Gases,False,2019,Retired and Canceled RE
+52108/GEN1,2014,17.2,Natural Gas Fired Combined Cycle,False,-,-
+52108/GEN2,2014,13.7,Natural Gas Fired Combustion Turbine,False,-,-
+52108/GEN3,2006,13.7,Natural Gas Fired Combined Cycle,False,-,-
+52108/GEN4,2014,10,Other Gases,False,-,-
+52108/GEN5,2014,10,Other Gases,False,-,-
+52108/GEN6,2014,10,Other Gases,False,-,-
+52108/GEN7,2014,10,Other Gases,False,-,-
+52115/GEN1,2018,2.8,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+52115/GEN2,2018,7.2,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+52119/CG01,2010,0.6,Natural Gas Internal Combustion Engine,False,-,-
+52119/CG02,2010,0.6,Natural Gas Internal Combustion Engine,False,-,-
+52119/CG03,2010,0.6,Natural Gas Internal Combustion Engine,False,-,-
+52129/GEN1,2007,25.3,Natural Gas Fired Combustion Turbine,False,-,-
+52129/GEN2,2007,25.3,Natural Gas Fired Combustion Turbine,False,-,-
+52146/001,2003,2.5,Natural Gas Steam Turbine,False,-,-
+52165/WGNS,2020,1.8,Onshore Wind Turbine,False,2020,Retired and Canceled RE
+52174/OE11,2019,1.2,Geothermal,False,2022,Retired and Canceled RE
+52174/OE12,2019,1.2,Geothermal,False,2022,Retired and Canceled RE
+52174/OE13,2019,1.2,Geothermal,False,2022,Retired and Canceled RE
+52174/OE21,2019,1.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC1,2019,3.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC2,2019,3.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC3,2019,3.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC4,2022,3.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC5,2022,3.5,Geothermal,False,2022,Retired and Canceled RE
+52174/OEC6,2022,3.5,Geothermal,False,2022,Retired and Canceled RE
+52182/GEN1,2004,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+52182/GEN2,2004,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+52188/G1,2010,4,Other Gases,False,2017,Retired and Canceled RE
+52188/G2,2010,4,Other Gases,False,2017,Retired and Canceled RE
+52188/G3,2007,10,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+52198/GEN1,2008,1.3,Natural Gas Steam Turbine,False,-,-
+52198/GEN2,2008,1.3,Natural Gas Steam Turbine,False,-,-
+52198/GEN3,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52198/GEN4,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52198/GEN5,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52198/GEN6,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52198/GEN7,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52198/GEN8,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52199/GEN1,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52199/GEN2,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52199/GEN3,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52199/GEN4,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52199/GEN5,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52200/GE53,2003,0.8,Landfill Gas,False,-,-
+52200/GE54,2003,0.8,Landfill Gas,False,-,-
+52200/GE55,2003,0.8,Landfill Gas,False,-,-
+52200/GE58,2003,0.8,Landfill Gas,False,-,-
+52200/S,2003,0.8,Landfill Gas,False,-,-
+52201/GEN1,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52201/GEN2,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52201/GEN3,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52201/GEN4,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52201/GEN5,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+52203/GUD1,2006,1.4,Landfill Gas,False,-,-
+52203/GUD2,2006,1.4,Landfill Gas,False,-,-
+52204/OTA1,2019,1.8,Landfill Gas,False,2019,Retired and Canceled RE
+52204/OTA2,2019,1.8,Landfill Gas,False,2019,Retired and Canceled RE
+52204/OTA3,2019,3.7,Landfill Gas,False,2019,Retired and Canceled RE
+52204/OTA5,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+52204/OTA6,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+52205/SAL1,2009,1.4,Landfill Gas,False,-,-
+52206/OXN1,2009,1.8,Landfill Gas,False,-,-
+52206/OXN2,2009,1.8,Landfill Gas,False,-,-
+52206/OXN3,2009,1.8,Landfill Gas,False,-,-
+52207/SCLA,2005,1.4,Landfill Gas,False,-,-
+524/1,2013,0.1,Petroleum Liquids,False,-,-
+524/2,2013,0.1,Petroleum Liquids,False,-,-
+524/3,2013,0.3,Petroleum Liquids,False,-,-
+524/4,2013,0.5,Petroleum Liquids,False,-,-
+54001/GEN1,2010,20.8,Natural Gas Fired Combustion Turbine,False,-,-
+54001/GEN2,2010,26.6,Natural Gas Fired Combustion Turbine,False,-,-
+54001/GEN3,2010,26.6,Natural Gas Fired Combustion Turbine,False,-,-
+54035/GEN1,2017,182.3,Conventional Steam Coal,False,2017,Retired and Canceled RE
+54045/1,2013,3,Petroleum Liquids,False,-,-
+54047/EXIS,2010,3,Petroleum Liquids,False,-,-
+54056/GEN1,2021,41.8,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54056/GEN2,2021,27,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54061/GEN1,2006,12.5,Wood/Wood Waste Biomass,False,-,-
+54085/GEN1,2023,25,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+54085/GEN2,2023,25,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+54085/GEN3,2023,30,Natural Gas Steam Turbine,False,2023,Retired and Canceled RE
+54088/GEN1,2002,38.4,Natural Gas Steam Turbine,False,-,-
+54089/GEN1,2002,5,Conventional Steam Coal,False,-,-
+54089/GEN3,2002,5,Conventional Steam Coal,False,-,-
+54089/GEN4,2002,24.7,Conventional Steam Coal,False,-,-
+54090/GEN3,2010,21.8,Wood/Wood Waste Biomass,False,-,-
+54090/GEN4,2010,37.5,Wood/Wood Waste Biomass,False,-,-
+54094/GEN1,2003,13,Natural Gas Steam Turbine,False,-,-
+54094/GEN2,2003,9.5,Natural Gas Steam Turbine,False,-,-
+54094/GEN3,2003,30,Natural Gas Steam Turbine,False,-,-
+54095/GEN1,2009,25,Natural Gas Steam Turbine,False,-,-
+54138/GTG,2008,47,Natural Gas Fired Combustion Turbine,False,-,-
+54144/GEN1,2014,36.2,Conventional Steam Coal,False,-,-
+54208/EMD3,2005,2.5,Petroleum Liquids,False,-,-
+54208/EMD4,2005,2.5,Petroleum Liquids,False,-,-
+54208/EMD5,2005,2.5,Petroleum Liquids,False,-,-
+54208/TGU1,2005,15,Natural Gas Steam Turbine,False,-,-
+54208/TGU2,2005,15,Natural Gas Steam Turbine,False,-,-
+54219/GEN1,2012,11.4,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+54226/GEN1,2003,25,Natural Gas Fired Combustion Turbine,False,-,-
+54235/GEN1,2013,3,Conventional Steam Coal,False,-,-
+54235/GEN2,2013,5,Conventional Steam Coal,False,-,-
+54235/GEN3,2013,6,Conventional Steam Coal,False,-,-
+54243/BWO1,2006,1.5,Conventional Steam Coal,False,-,-
+54245/EXI1,2011,1.1,Petroleum Liquids,False,-,-
+54245/EXI2,2010,1.1,Petroleum Liquids,False,-,-
+54248/GEN1,2006,6.2,Natural Gas Steam Turbine,False,-,-
+54252/GEN1,2004,1,Landfill Gas,False,-,-
+54252/GEN2,2004,1,Landfill Gas,False,-,-
+54253/GEN1,2008,55,Natural Gas Fired Combustion Turbine,False,-,-
+54258/WIN1,2017,16,Onshore Wind Turbine,False,2018,Retired and Canceled RE
+54265/1,2022,2,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+54265/2,2022,2,Natural Gas Steam Turbine,False,2022,Retired and Canceled RE
+54286/63F5,2011,2.5,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+54286/N8OT,2016,5,Landfill Gas,False,2017,Retired and Canceled RE
+54286/RIOT,2008,4,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+54286/RO9T,2008,4,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+54288/1,2004,6,Petroleum Liquids,False,-,-
+54288/2,2004,6,Petroleum Liquids,False,-,-
+54291/1,2016,6,All Other,False,2016,Retired and Canceled RE
+54291/2,2016,6,All Other,False,2016,Retired and Canceled RE
+54291/3,2016,6,All Other,False,2016,Retired and Canceled RE
+54291/4,2016,6,All Other,False,2016,Retired and Canceled RE
+54297/SX15,2004,1,Onshore Wind Turbine,False,-,-
+54304/1,2021,258.3,Conventional Steam Coal,False,2021,Retired and Canceled RE
+54313/GEN1,2005,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54313/GEN2,2005,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54313/GEN3,2005,1,Natural Gas Fired Combustion Turbine,False,-,-
+54331/2,2005,2.5,Conventional Steam Coal,False,-,-
+54337/0001,2020,0.8,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+54337/0002,2020,0.8,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+54338/GENA,2024,2.5,Other Waste Biomass,False,2024,Retired and Canceled RE
+54338/GENB,2024,2.5,Other Waste Biomass,False,2024,Retired and Canceled RE
+54338/GENC,2024,2.5,Other Waste Biomass,False,2024,Retired and Canceled RE
+54338/GEND,2024,16,Other Waste Biomass,False,2024,Retired and Canceled RE
+54338/GENE,2024,1.4,Petroleum Liquids,False,2024,Retired and Canceled RE
+54339/1,2006,16.3,Natural Gas Fired Combustion Turbine,False,-,-
+54344/1GEN,2007,7.5,Natural Gas Steam Turbine,False,-,-
+54344/2GEN,2007,7.5,Natural Gas Steam Turbine,False,-,-
+54344/3GEN,2007,7.5,Natural Gas Steam Turbine,False,-,-
+54344/5GEN,2007,7.5,Natural Gas Steam Turbine,False,-,-
+54344/6GEN,2007,10,Natural Gas Steam Turbine,False,-,-
+54344/7GEN,2007,10,Natural Gas Steam Turbine,False,-,-
+54344/8GEN,2007,25,Natural Gas Steam Turbine,False,-,-
+54344/9GEN,2007,20,Natural Gas Steam Turbine,False,-,-
+54371/ODC1,2016,42.2,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+54373/ENG1,2011,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54373/ENG2,2008,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54373/ENG3,2009,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54373/ENG4,2010,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54373/ENG5,2011,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54405/1,2002,3,Landfill Gas,False,-,-
+54416/GEN2,2005,2.3,Natural Gas Steam Turbine,False,-,-
+54416/GEN3,2005,38.2,Natural Gas Fired Combustion Turbine,False,-,-
+54423/GT1,2015,48.8,Natural Gas Fired Combined Cycle,False,2016,Retired and Canceled RE
+54423/GT2,2015,58.9,Natural Gas Fired Combined Cycle,False,2016,Retired and Canceled RE
+54423/ST1,2015,26.5,Natural Gas Fired Combined Cycle,False,2016,Retired and Canceled RE
+54424/EDG1,2018,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+54424/EDG2,2018,1.2,Petroleum Liquids,False,2019,Retired and Canceled RE
+54424/GT1,2018,57.4,Natural Gas Fired Combined Cycle,False,2019,Retired and Canceled RE
+54424/GT2,2018,57.4,Natural Gas Fired Combined Cycle,False,2019,Retired and Canceled RE
+54424/ST1,2018,26.5,Natural Gas Fired Combined Cycle,False,2019,Retired and Canceled RE
+54425/GT1,2010,49,Natural Gas Fired Combustion Turbine,False,-,-
+54425/GT2,2010,49,Natural Gas Fired Combustion Turbine,False,-,-
+54428/NO1,2006,4,Conventional Steam Coal,False,-,-
+54428/NO2,2006,6.7,Conventional Steam Coal,False,-,-
+54428/NO3,2006,18.7,Conventional Steam Coal,False,-,-
+54441/001,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54441/002,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54441/003,2009,1,Natural Gas Steam Turbine,False,-,-
+54443/GEN1,2005,1,Natural Gas Internal Combustion Engine,False,-,-
+54443/GEN2,2005,1,Natural Gas Internal Combustion Engine,False,-,-
+54443/GEN3,2005,1,Natural Gas Internal Combustion Engine,False,-,-
+54445/GEN1,2008,3,Natural Gas Fired Combustion Turbine,False,-,-
+54455/1,2005,0.7,Natural Gas Fired Combustion Turbine,False,-,-
+54455/2,2005,0.7,Natural Gas Fired Combustion Turbine,False,-,-
+54458/BG3A,2017,1,Natural Gas Internal Combustion Engine,False,2017,Retired and Canceled RE
+54458/BG6,2017,1,Natural Gas Internal Combustion Engine,False,2017,Retired and Canceled RE
+54459/1,2009,1.2,Natural Gas Internal Combustion Engine,False,2017,Retired and Canceled RE
+54459/2,2009,1.2,Natural Gas Internal Combustion Engine,False,2017,Retired and Canceled RE
+54459/3,2009,1.2,Natural Gas Internal Combustion Engine,False,2017,Retired and Canceled RE
+54468/GEN1,2011,11.4,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+54469/GEN1,2012,9,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+54469/GEN2,2012,9,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+54470/GEN1,2011,4.2,Conventional Hydroelectric,False,-,-
+54516/0020,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54516/0021,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54516/0022,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54516/0023,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54516/0024,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54516/0034,2006,2.3,Natural Gas Internal Combustion Engine,False,-,-
+54522/NO.2,2003,1.5,Petroleum Liquids,False,-,-
+54522/NO.4,2003,3,Petroleum Liquids,False,-,-
+54526/STG,2019,21.1,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+54531/1S72,2019,2.5,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+54532/2WH,2006,5,Other Gases,False,-,-
+54532/3GE,2006,6.3,Other Gases,False,-,-
+54534/0001,2018,1.7,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+54535/6805,2012,1.3,Natural Gas Fired Combustion Turbine,False,-,-
+54541/1,2014,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54541/2,2014,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54541/3,2014,1.3,Natural Gas Internal Combustion Engine,False,-,-
+54541/4,2014,1.3,Petroleum Liquids,False,-,-
+54561/GT-G,2017,24,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+54561/ST-G,2017,3,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+54564/GEN1,2020,3.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+54571/GEN1,2010,34.8,Natural Gas Fired Combined Cycle,False,-,-
+54571/GEN2,2010,34.8,Natural Gas Fired Combined Cycle,False,-,-
+54571/GEN3,2010,18.6,Natural Gas Fired Combined Cycle,False,-,-
+54578/1001,2016,10.4,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+54579/1002,2016,10.4,Natural Gas Fired Combined Cycle,False,2017,Retired and Canceled RE
+54586/TRENT,2024,57.9,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+54586/V643,2007,65.5,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+54586/VAX,2024,27.1,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+54587/GE,2005,2.5,Wood/Wood Waste Biomass,False,-,-
+54587/TG-3,2015,13.5,Wood/Wood Waste Biomass,False,-,-
+54587/WEST,2013,4,Wood/Wood Waste Biomass,False,-,-
+54595/COG1,2004,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54595/COG2,2004,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54602/1,2006,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54602/2,2006,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54603/1,2005,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54603/2,2005,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54606/GEN1,2016,3.4,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54607/GEN1,2019,3.5,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+54612/1,2005,12,Conventional Steam Coal,False,-,-
+54612/2,2005,1.5,Conventional Steam Coal,False,-,-
+54612/3,2005,0.5,Conventional Steam Coal,False,-,-
+54626/TG01,2024,62,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+54632/3,2004,4.3,Natural Gas Steam Turbine,False,-,-
+54645/EG-1,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54645/EG-2,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54650/EXI2,2021,9.1,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+54650/EXIS,2021,9.6,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+54657/NO1,2014,20,Natural Gas Steam Turbine,False,-,-
+54658/CT,2014,121.5,Natural Gas Fired Combined Cycle,False,2016,Retired and Canceled RE
+54658/ST,2014,52,Natural Gas Fired Combined Cycle,False,2016,Retired and Canceled RE
+54664/GEN1,2007,1.5,Natural Gas Steam Turbine,False,-,-
+54671/ICG1,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+54692/1,2002,43.4,Natural Gas Fired Combustion Turbine,False,-,-
+54693/GT#1,2021,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/GT#2,2021,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/GT#3,2004,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/GT#4,2004,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/GT#5,2021,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/GT#6,2021,8.3,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/ST#1,2021,9.5,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54693/ST#2,2021,9.5,Natural Gas Fired Combined Cycle,False,2021,Retired and Canceled RE
+54702/G-1A,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54702/G-1B,2009,0.7,Natural Gas Fired Combustion Turbine,False,-,-
+54702/G-1C,2009,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54704/001,2005,0.2,Natural Gas Internal Combustion Engine,False,-,-
+54704/002,2005,0.4,Natural Gas Internal Combustion Engine,False,-,-
+54704/003,2005,0.4,Natural Gas Internal Combustion Engine,False,-,-
+54704/004,2005,0.2,Natural Gas Internal Combustion Engine,False,-,-
+54707/1,2018,4.1,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+54708/1,2013,4.1,Natural Gas Fired Combustion Turbine,False,-,-
+54722/1,2003,1.5,Natural Gas Steam Turbine,False,-,-
+54745/GEN1,2008,2.5,Wood/Wood Waste Biomass,False,-,-
+54755/GEN2,2017,57.8,Conventional Steam Coal,False,2017,Retired and Canceled RE
+54766/GEN1,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN10,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN11,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN12,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN13,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN14,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN15,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN16,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN17,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN18,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN19,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN2,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN20,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN21,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN22,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN23,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN24,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN25,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN26,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN27,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN28,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN29,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN3,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN30,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN31,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN32,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN33,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN34,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN4,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN5,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN6,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN7,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN8,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54766/GEN9,2023,0.3,Petroleum Liquids,False,2024,Retired and Canceled RE
+54767/G-1,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54767/G-2,2005,0.6,Natural Gas Internal Combustion Engine,False,-,-
+54779/GEN1,2017,1.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+54779/GEN2,2017,1.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+54779/GEN3,2010,1.5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+54779/GEN4,2017,5,Natural Gas Steam Turbine,False,2017,Retired and Canceled RE
+54781/SU1,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+54781/SU2,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+54781/SU3,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+54781/SU4,2022,0.8,Landfill Gas,False,2022,Retired and Canceled RE
+54798/GEN1,2008,0.7,Natural Gas Internal Combustion Engine,False,-,-
+54798/GEN2,2008,0.7,Natural Gas Internal Combustion Engine,False,-,-
+548/1,2013,163.2,Petroleum Liquids,False,-,-
+548/10,2013,16.3,Petroleum Liquids,False,-,-
+548/2,2013,163.2,Petroleum Liquids,False,-,-
+54804/GEN1,2003,24.7,Municipal Solid Waste,False,-,-
+54806/6202,2010,2.3,Natural Gas Steam Turbine,False,-,-
+54807/GEN1,2004,42.5,Natural Gas Fired Combined Cycle,False,-,-
+54807/GEN2,2004,11.9,Natural Gas Fired Combined Cycle,False,-,-
+54811/2,2004,2.5,Natural Gas Steam Turbine,False,-,-
+54811/3,2004,1.5,Natural Gas Steam Turbine,False,-,-
+54838/G1,2006,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54838/G2,2006,0.5,Natural Gas Internal Combustion Engine,False,-,-
+54841/G1,2017,1.2,Petroleum Liquids,False,2017,Retired and Canceled RE
+54841/G2,2017,1.2,Petroleum Liquids,False,2017,Retired and Canceled RE
+54842/G1,2020,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+54842/G2,2020,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+54842/G3,2020,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+54842/G4,2020,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+54842/GEN1,2006,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54842/GEN2,2006,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54842/GEN3,2006,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54849/G1,2017,1.1,Petroleum Liquids,False,2017,Retired and Canceled RE
+54849/G2,2017,1.1,Petroleum Liquids,False,2017,Retired and Canceled RE
+54852/1,2015,15.6,Wood/Wood Waste Biomass,False,-,-
+54856/1753,2012,1.1,Natural Gas Fired Combustion Turbine,False,-,-
+54857/1ST,2008,2.5,Conventional Steam Coal,False,2023,Retired and Canceled RE
+54857/2ST,2008,9.3,Conventional Steam Coal,False,2023,Retired and Canceled RE
+54866/AC01,2007,1,Petroleum Liquids,False,-,-
+54866/DC01,2007,1,Petroleum Liquids,False,-,-
+54866/DC30,2007,0.3,Petroleum Liquids,False,-,-
+54870/0277,2004,1.3,Petroleum Liquids,False,-,-
+54870/0279,2003,1.3,Petroleum Liquids,False,-,-
+54870/0284,2009,1.3,Petroleum Liquids,False,-,-
+54870/3413,2009,0.7,Petroleum Liquids,False,-,-
+54870/3512,2011,1.3,Petroleum Liquids,False,-,-
+54880/SDT1,2019,2,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+54880/SDT2,2019,2,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+54880/SDT3,2019,2,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+54880/TUR1,2002,1,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+54880/WP1,2006,1.1,Petroleum Liquids,False,2020,Retired and Canceled RE
+54880/WPH1,2013,1.1,Petroleum Liquids,False,2020,Retired and Canceled RE
+54880/WPH2,2013,1.2,Petroleum Liquids,False,2020,Retired and Canceled RE
+54880/WPH3,2013,1,Petroleum Liquids,False,2020,Retired and Canceled RE
+54881/GEN1,2006,1,Natural Gas Internal Combustion Engine,False,-,-
+54881/GEN2,2006,1,Natural Gas Internal Combustion Engine,False,-,-
+54882/GEN1,2016,1,Petroleum Liquids,False,2022,Retired and Canceled RE
+54882/GEN2,2021,1,Petroleum Liquids,False,2022,Retired and Canceled RE
+54884/TG1,2004,5,Natural Gas Steam Turbine,False,-,-
+54884/TG2,2004,1.5,Natural Gas Steam Turbine,False,-,-
+54884/TG3,2004,5,Natural Gas Steam Turbine,False,-,-
+54923/OUG1,2009,1,Conventional Steam Coal,False,-,-
+54924/1,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/2,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/3,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/4,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/5,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/6,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/7,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54924/8,2016,0.8,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+54932/GEN1,2018,0.7,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+54932/GEN2,2018,0.7,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+54934/NO 1,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 2,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 3,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 4,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 5,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 6,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54934/NO 7,2020,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+54935/001,2016,1.2,Municipal Solid Waste,False,2016,Retired and Canceled RE
+54938/UNT1,2006,1.6,Landfill Gas,False,-,-
+54938/UNT2,2006,1.6,Landfill Gas,False,-,-
+54938/UNT3,2006,1.6,Landfill Gas,False,-,-
+54940/GEN1,2005,1,Natural Gas Fired Combustion Turbine,False,-,-
+54942/1,2006,0.8,Natural Gas Internal Combustion Engine,False,-,-
+54942/2,2006,0.8,Natural Gas Internal Combustion Engine,False,-,-
+54942/3,2006,0.8,Natural Gas Internal Combustion Engine,False,-,-
+54944/01,2009,51,Natural Gas Fired Combustion Turbine,False,-,-
+54944/02,2009,45,Wood/Wood Waste Biomass,False,-,-
+54945/NO 5,2022,45,Municipal Solid Waste,False,2023,Retired and Canceled RE
+54945/NO 6,2022,45,Municipal Solid Waste,False,2023,Retired and Canceled RE
+54947/GEN1,2008,1.2,Petroleum Liquids,False,-,-
+54955/1,2002,1.5,Natural Gas Steam Turbine,False,-,-
+54966/WIND,2014,30,Onshore Wind Turbine,False,-,-
+54970/GEN1,2013,3.7,Natural Gas Fired Combustion Turbine,False,-,-
+54970/GEN2,2013,4.4,Natural Gas Fired Combustion Turbine,False,-,-
+54972/8511,2008,2,Conventional Steam Coal,False,-,-
+54972/8512,2012,2,Conventional Steam Coal,False,-,-
+54976/1530,2005,1.5,Natural Gas Steam Turbine,False,-,-
+54978/2058,2011,0.5,Wood/Wood Waste Biomass,False,-,-
+54978/2076,2011,0.5,Wood/Wood Waste Biomass,False,-,-
+54987/FM01,2020,1.5,Natural Gas Internal Combustion Engine,False,2021,Retired and Canceled RE
+54992/CAT1,2011,0.7,Petroleum Liquids,False,-,-
+54992/CAT2,2011,1,Petroleum Liquids,False,-,-
+54992/GT,2011,0.8,Natural Gas Fired Combustion Turbine,False,-,-
+54992/ST,2011,0.2,Other Waste Biomass,False,-,-
+54999/BPST,2008,2.5,Municipal Solid Waste,False,-,-
+54999/CST,2008,3,Municipal Solid Waste,False,-,-
+54999/DGEN,2008,1.2,Petroleum Liquids,False,-,-
+55000/01,2008,0.5,Conventional Hydroelectric,False,-,-
+55000/02,2008,0.5,Conventional Hydroelectric,False,-,-
+55000/03,2008,0.5,Conventional Hydroelectric,False,-,-
+55007/LS1,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/LS2,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/LS3,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/LS4,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/LS5,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/UE5,2018,0.1,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/UW1,2018,0.2,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/UW2,2018,0.2,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/UW3,2018,0.2,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55007/UW4,2018,0.2,Conventional Hydroelectric,False,2018,Retired and Canceled RE
+55012/1,2008,1.5,Natural Gas Steam Turbine,False,-,-
+55012/2,2008,2.5,Natural Gas Steam Turbine,False,-,-
+55013/GEN1,2013,0.8,Landfill Gas,False,-,-
+55013/GEN2,2013,0.8,Landfill Gas,False,-,-
+55013/GEN3,2013,0.8,Landfill Gas,False,-,-
+55021/GEN1,2006,6.5,Wood/Wood Waste Biomass,False,-,-
+55025/GEN1,2019,2.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55025/GEN2,2019,2.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55034/0001,2017,1.3,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+55034/0002,2017,0.7,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+55038/GEN1,2007,1.2,Natural Gas Internal Combustion Engine,False,-,-
+55038/GEN2,2007,1.2,Natural Gas Internal Combustion Engine,False,-,-
+55038/GEN3,2007,1.2,Natural Gas Internal Combustion Engine,False,-,-
+55038/GEN4,2007,1,Petroleum Liquids,False,-,-
+55055/1,2005,5,Landfill Gas,False,-,-
+55056/1,2006,5,Landfill Gas,False,-,-
+55056/2,2006,5,Landfill Gas,False,-,-
+55056/3,2006,5,Landfill Gas,False,-,-
+55057/001,2009,0.8,Landfill Gas,False,-,-
+55057/002,2009,0.8,Landfill Gas,False,-,-
+55057/003,2009,0.8,Landfill Gas,False,-,-
+55057/004,2009,0.8,Landfill Gas,False,-,-
+55057/005,2009,0.8,Landfill Gas,False,-,-
+55058/001,2006,0.6,Landfill Gas,False,-,-
+55058/002,2006,0.7,Natural Gas Internal Combustion Engine,False,-,-
+55058/003,2006,0.7,Natural Gas Internal Combustion Engine,False,-,-
+55059/001,2006,0.6,Landfill Gas,False,-,-
+55059/002,2006,0.6,Landfill Gas,False,-,-
+55059/003,2006,0.6,Landfill Gas,False,-,-
+55059/004,2006,0.6,Landfill Gas,False,-,-
+55059/005,2006,0.6,Landfill Gas,False,-,-
+55060/001,2009,0.9,Landfill Gas,False,-,-
+55060/002,2009,0.9,Landfill Gas,False,-,-
+55060/003,2009,0.9,Landfill Gas,False,-,-
+55060/004,2009,0.9,Landfill Gas,False,-,-
+55060/005,2009,0.9,Landfill Gas,False,-,-
+55073/GEN3,2003,0.8,Landfill Gas,False,-,-
+55080/1,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55080/2,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55080/3,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55080/4,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55080/5,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55080/6,2015,71.2,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55092/UNT1,2008,9.9,Landfill Gas,False,-,-
+55095/UNT1,2007,0.8,Landfill Gas,False,-,-
+55095/UNT2,2007,0.8,Landfill Gas,False,-,-
+55099/01,2020,25,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/02,2020,25,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/03,2020,25,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/04,2020,25,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/06,2020,21.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/07,2020,28.7,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/08,2020,25,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/09,2020,17,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55099/10,2020,16,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+55104/CTG1,2020,37.4,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+55104/CTG2,2020,37.4,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+55104/STG,2020,31.7,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+55113/TR1,2011,7.5,Other Gases,False,-,-
+55113/TR2,2011,7.5,Other Gases,False,-,-
+55113/TR3,2011,7.5,Other Gases,False,-,-
+55134/GEN1,2003,0.4,Natural Gas Internal Combustion Engine,False,-,-
+55142/GEN2,2013,3,Landfill Gas,False,-,-
+55142/GEN3,2013,3,Landfill Gas,False,-,-
+55142/GEN4,2013,3,Landfill Gas,False,-,-
+55156/UNT1,2023,0.9,Landfill Gas,False,2023,Retired and Canceled RE
+55156/UNT2,2023,0.9,Landfill Gas,False,2023,Retired and Canceled RE
+55156/UNT3,2023,1.6,Landfill Gas,False,2023,Retired and Canceled RE
+55156/UNT4,2023,1.6,Landfill Gas,False,2023,Retired and Canceled RE
+55156/UNT5,2023,1.6,Landfill Gas,False,2023,Retired and Canceled RE
+55157/UNT1,2004,0.9,Landfill Gas,False,-,-
+55157/UNT2,2004,0.9,Landfill Gas,False,-,-
+55159/UNT1,2011,1.9,Landfill Gas,False,-,-
+55159/UNT2,2011,1.9,Landfill Gas,False,-,-
+55162/UNT1,2014,1.9,Landfill Gas,False,-,-
+55162/UNT2,2014,1.9,Landfill Gas,False,-,-
+55163/UNT1,2018,0.9,Landfill Gas,False,2019,Retired and Canceled RE
+55163/UNT2,2018,0.9,Landfill Gas,False,2019,Retired and Canceled RE
+55163/UNT3,2018,0.9,Landfill Gas,False,2019,Retired and Canceled RE
+55174/LM1,2007,23.5,All Other,False,-,-
+55174/LM2,2011,22,All Other,False,-,-
+55203/EXIS,2013,5.2,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+55219/1,2009,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/2,2009,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/3,2010,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/4,2010,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/5,2007,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/6,2007,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/7,2007,86,Natural Gas Fired Combustion Turbine,False,-,-
+55219/8,2007,86,Natural Gas Fired Combustion Turbine,False,-,-
+55243/10,2018,23.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/11,2019,23.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/12,2018,23.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/13,2018,23.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/2-1,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/2-2,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/2-3,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/2-4,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/3-1,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/3-2,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/3-3,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/3-4,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/4-1,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/4-2,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/4-3,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/4-4,2023,41.9,Natural Gas Fired Combustion Turbine,False,2023,Retired and Canceled RE
+55243/5,2018,16.3,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/7,2018,16.3,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/8,2018,16.3,Petroleum Liquids,False,2023,Retired and Canceled RE
+55243/9,2002,19.2,Petroleum Liquids,False,2023,Retired and Canceled RE
+55245/TG1,2019,6,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+55245/TG2,2018,6,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+55245/TG3,2021,6,Natural Gas Steam Turbine,False,2021,Retired and Canceled RE
+55257/1,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/2,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/3,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/4,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/5,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/6,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55257/7,2013,0.6,Natural Gas Internal Combustion Engine,False,-,-
+55302/1,2017,1.6,Municipal Solid Waste,False,2017,Retired and Canceled RE
+55312/1,2018,0.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+55312/2,2018,0.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+55312/3,2018,0.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+55331/GEN1,2008,11,Petroleum Liquids,False,-,-
+55336/GEN1,2008,11,Petroleum Liquids,False,-,-
+55367/01,2019,75,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+55373/CT3,2006,86.5,Natural Gas Fired Combustion Turbine,False,-,-
+55373/CT4,2006,86.5,Natural Gas Fired Combustion Turbine,False,-,-
+55373/CT5,2006,86.5,Natural Gas Fired Combustion Turbine,False,-,-
+55373/CT6,2006,86.5,Natural Gas Fired Combustion Turbine,False,-,-
+55396/WGNS,2023,16.5,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+55399/01,2014,23.3,Onshore Wind Turbine,False,-,-
+55422/DES1,2015,199.4,Natural Gas Fired Combustion Turbine,False,-,-
+55422/DES2,2015,199.4,Natural Gas Fired Combustion Turbine,False,-,-
+55488/BB1,2022,1,Landfill Gas,False,2023,Retired and Canceled RE
+55488/BB2,2022,1,Landfill Gas,False,2023,Retired and Canceled RE
+55488/BB3,2022,0.9,Landfill Gas,False,2023,Retired and Canceled RE
+55494/CT1,2008,64,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55494/CT2,2008,64,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55494/CT3,2017,64,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55494/CT4,2017,64,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55494/CT5,2017,62,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55494/CT6,2017,62,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+55519/CTG1,2002,196.8,Natural Gas Fired Combustion Turbine,False,-,-
+55519/CTG2,2002,196.8,Natural Gas Fired Combustion Turbine,False,-,-
+55519/CTG3,2002,196.8,Natural Gas Fired Combustion Turbine,False,-,-
+55536/0542,2014,1.8,Petroleum Liquids,False,-,-
+55536/0543,2014,1.8,Petroleum Liquids,False,-,-
+55536/0544,2014,1.8,Petroleum Liquids,False,-,-
+55536/0545,2014,1.8,Petroleum Liquids,False,-,-
+55537/GEN1,2005,4,Natural Gas Steam Turbine,False,-,-
+55537/GEN5,2005,11.5,Natural Gas Steam Turbine,False,-,-
+55546/GEN1,2010,1.1,Petroleum Liquids,False,-,-
+55546/GEN2,2010,1.3,Petroleum Liquids,False,-,-
+55587/1,2013,1,Landfill Gas,False,-,-
+55587/2,2013,1,Landfill Gas,False,-,-
+55587/3,2013,1,Landfill Gas,False,-,-
+55591/1,2009,1,Landfill Gas,False,2018,Retired and Canceled RE
+55591/2,2009,1,Landfill Gas,False,2018,Retired and Canceled RE
+55592/1,2018,5,Landfill Gas,False,2018,Retired and Canceled RE
+55592/2,2018,5,Landfill Gas,False,2018,Retired and Canceled RE
+55592/3,2009,5,Landfill Gas,False,2018,Retired and Canceled RE
+55592/4,2018,10,Landfill Gas,False,2018,Retired and Canceled RE
+55593/1,2008,1,Landfill Gas,False,2018,Retired and Canceled RE
+55593/2,2008,1,Landfill Gas,False,2018,Retired and Canceled RE
+55594/1,2012,0.8,Landfill Gas,False,2018,Retired and Canceled RE
+55594/2,2012,0.8,Landfill Gas,False,2018,Retired and Canceled RE
+55598/1,2018,5,Landfill Gas,False,2019,Retired and Canceled RE
+55598/2,2018,5,Landfill Gas,False,2019,Retired and Canceled RE
+55598/3,2013,6.6,Landfill Gas,False,2019,Retired and Canceled RE
+55600/1,2018,47.7,Natural Gas Fired Combustion Turbine,False,2021,Retired and Canceled RE
+55601/UNT1,2022,3,Landfill Gas,False,2022,Retired and Canceled RE
+55601/UNT2,2022,3,Landfill Gas,False,2022,Retired and Canceled RE
+55603/UNT1,2020,3,Landfill Gas,False,2020,Retired and Canceled RE
+55604/UNT1,2011,0.9,Landfill Gas,False,-,-
+55604/UNT2,2011,0.9,Landfill Gas,False,-,-
+55604/UNT3,2011,0.9,Landfill Gas,False,-,-
+55605/UNT1,2010,1.9,Landfill Gas,False,-,-
+55605/UNT2,2010,1.9,Landfill Gas,False,-,-
+55611/GEN1,2015,32,Other Gases,False,-,-
+55618/GEN1,2019,4.9,Landfill Gas,False,2019,Retired and Canceled RE
+55618/GEN2,2019,4.9,Landfill Gas,False,2019,Retired and Canceled RE
+55621/1,2003,4.6,Natural Gas Fired Combustion Turbine,False,-,-
+55637/GEN1,2013,1.8,Petroleum Liquids,False,-,-
+55703/PO36,2005,85,Natural Gas Fired Combustion Turbine,False,-,-
+55704/1,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/2,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/3,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/4,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/5,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/6,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55704/7,2002,22,Natural Gas Fired Combustion Turbine,False,-,-
+55758/E-1,2004,0.8,Landfill Gas,False,-,-
+55758/E-2,2004,0.8,Landfill Gas,False,-,-
+55759/RX1,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55759/RX2,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55759/RX3,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55759/RX4,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55760/ST1,2017,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55761/DO1,2008,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55761/DO2,2008,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55761/DO3,2009,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55761/DO4,2009,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55761/DO5,2009,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55762/BR1,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55762/BR2,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55762/BR3,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55762/BR5,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55763/DX1,2017,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55763/DX2,2017,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55763/DX3,2017,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55763/DX4,2017,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55764/UR1,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55764/UR2,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55764/UR3,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55764/UR4,2015,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55767/RO1,2012,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55768/CH1,2008,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55768/CH2,2008,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55768/CH3,2003,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55770/GEN1,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN2,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN3,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN4,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN5,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN6,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55770/GEN7,2019,0.8,Landfill Gas,False,2019,Retired and Canceled RE
+55772/1,2009,0.9,Landfill Gas,False,-,-
+55772/2,2009,0.9,Landfill Gas,False,-,-
+55772/3,2009,0.9,Landfill Gas,False,-,-
+55773/CS1,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS10,2020,3.2,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS2,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS3,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS4,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS5,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS6,2012,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS7,2020,3.2,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS8,2020,3.2,Landfill Gas,False,2020,Retired and Canceled RE
+55773/CS9,2020,3.2,Landfill Gas,False,2020,Retired and Canceled RE
+55774/MO1,2011,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55774/MO2,2011,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55774/MO3,2011,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+55774/MO4,2018,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55774/MO5,2018,1.1,Landfill Gas,False,2020,Retired and Canceled RE
+55776/BA1,2017,0.5,Landfill Gas,False,2020,Retired and Canceled RE
+55776/BA2,2017,0.5,Landfill Gas,False,2020,Retired and Canceled RE
+55778/BH1,2005,1.3,Landfill Gas,False,-,-
+55778/BH2,2012,1.3,Landfill Gas,False,-,-
+55778/BH3,2012,1.3,Landfill Gas,False,-,-
+55778/BH4,2012,1.3,Landfill Gas,False,-,-
+55779/MA1,2012,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+55779/MA2,2012,0.7,Landfill Gas,False,2020,Retired and Canceled RE
+55788/GEN1,2013,1.1,Natural Gas Internal Combustion Engine,False,-,-
+55788/GEN2,2013,1.1,Natural Gas Internal Combustion Engine,False,-,-
+55817/NO 1,2013,1,Landfill Gas,False,-,-
+55817/NO 2,2013,1,Landfill Gas,False,-,-
+55820/GEN1,2017,1.3,Landfill Gas,False,2018,Retired and Canceled RE
+55829/M1S1,2013,15.6,Petroleum Liquids,False,2016,Retired and Canceled RE
+55829/M1S2,2013,15.6,Petroleum Liquids,False,2016,Retired and Canceled RE
+55829/M1S3,2013,31.5,Petroleum Liquids,False,2016,Retired and Canceled RE
+55829/M1S4,2013,23.5,Petroleum Liquids,False,2016,Retired and Canceled RE
+55830/M2S1,2019,15.6,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+55830/M2S2,2019,15.6,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+55830/M2S3,2019,30.2,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+55833/CTP,2018,130.1,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+55853/1,2020,409.5,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+55853/2,2020,409.5,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+55858/GEN7,2007,43,Conventional Steam Coal,False,-,-
+55858/UNT1,2007,46.2,Natural Gas Fired Combustion Turbine,False,-,-
+55858/UNT2,2007,46.2,Natural Gas Fired Combustion Turbine,False,-,-
+55867/G1,2018,62.5,Wood/Wood Waste Biomass,False,2018,Retired and Canceled RE
+55884/N01,2006,5.5,Landfill Gas,False,-,-
+55885/CAT35,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+55885/GEJGC,2021,0.8,Landfill Gas,False,2021,Retired and Canceled RE
+55929/1,2011,2,Petroleum Liquids,False,-,-
+55929/10,2011,2,Petroleum Liquids,False,-,-
+55929/2,2011,2,Petroleum Liquids,False,-,-
+55929/3,2011,2,Petroleum Liquids,False,-,-
+55929/4,2011,2,Petroleum Liquids,False,-,-
+55929/5,2011,2,Petroleum Liquids,False,-,-
+55929/6,2011,2,Petroleum Liquids,False,-,-
+55929/7,2011,2,Petroleum Liquids,False,-,-
+55929/8,2011,2,Petroleum Liquids,False,-,-
+55929/9,2011,2,Petroleum Liquids,False,-,-
+55944/BAY,2023,1.8,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+55961/WM1,2013,1,Petroleum Liquids,False,2020,Retired and Canceled RE
+55961/WM2,2013,1,Petroleum Liquids,False,2020,Retired and Canceled RE
+55967/WW1,2012,1,Conventional Hydroelectric,False,-,-
+55967/WW10,2012,0.6,Conventional Hydroelectric,False,-,-
+55967/WW11,2012,0.5,Conventional Hydroelectric,False,-,-
+55967/WW2,2012,1,Conventional Hydroelectric,False,-,-
+55967/WW3,2012,1,Conventional Hydroelectric,False,-,-
+55967/WW4,2012,0.6,Conventional Hydroelectric,False,-,-
+55967/WW5,2012,0.6,Conventional Hydroelectric,False,-,-
+55967/WW6,2012,0.7,Conventional Hydroelectric,False,-,-
+55967/WW7,2012,0.6,Conventional Hydroelectric,False,-,-
+55967/WW8,2012,0.6,Conventional Hydroelectric,False,-,-
+55967/WW9,2012,0.5,Conventional Hydroelectric,False,-,-
+55974/GEN1,2009,24.5,Natural Gas Fired Combustion Turbine,False,-,-
+55988/1,2018,0.6,Geothermal,False,2018,Retired and Canceled RE
+55988/2,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55988/3,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55988/4,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55988/5,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55988/6,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55988/7,2018,0.8,Geothermal,False,2018,Retired and Canceled RE
+55999/GEN1,2018,2.9,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+55999/GEN2,2018,2.9,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+56017/GT1,2016,11.4,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56017/GT2,2016,11.4,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56017/GT3,2016,11.4,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56017/GT4,2016,11.4,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56023/001,2004,38,Petroleum Liquids,False,-,-
+56024/TUR1,2006,7.5,Wood/Wood Waste Biomass,False,-,-
+56024/TUR4,2005,5,Wood/Wood Waste Biomass,False,-,-
+56024/TUR7,2005,2.5,Petroleum Liquids,False,-,-
+56024/TUR9,2006,25,Petroleum Liquids,False,-,-
+56037/1,2013,6.5,Wood/Wood Waste Biomass,False,-,-
+56040/1,2012,5.6,Natural Gas Internal Combustion Engine,False,-,-
+56040/2,2012,5.6,Natural Gas Internal Combustion Engine,False,-,-
+56045/1A,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/1B,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/2A,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/2B,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/3A,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/3B,2009,1.5,Natural Gas Fired Combustion Turbine,False,-,-
+56045/ST1,2009,1.5,Natural Gas Steam Turbine,False,-,-
+56079/STEC,2021,18,Other Waste Biomass,False,2021,Retired and Canceled RE
+56123/1,2022,11.5,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+56124/GT1,2008,54,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56124/GT2,2007,54,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+56124/TG1,2015,12.5,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+56124/TG2,2016,42.8,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+56140/TUR1,2006,5,Natural Gas Fired Combustion Turbine,False,-,-
+56140/TUR2,2006,5,Natural Gas Fired Combustion Turbine,False,-,-
+56167/UNT1,2013,1.3,Landfill Gas,False,-,-
+56169/UNT1,2017,1.1,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+56169/UNT2,2017,1.1,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+56170/UNT1,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56170/UNT2,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56171/UNT1,2014,1.1,Landfill Gas,False,-,-
+56171/UNT2,2014,1.1,Landfill Gas,False,-,-
+56176/1,2014,2,Petroleum Liquids,False,-,-
+56182/Kato,2019,2,Wood/Wood Waste Biomass,False,2020,Retired and Canceled RE
+56183/1,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/2,2006,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/3,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/4,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/5,2006,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/6,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/7,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/8,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56183/9,2006,1.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+56191/Gen1,2013,6.3,Wood/Wood Waste Biomass,False,-,-
+56191/Gen2,2013,9.4,Wood/Wood Waste Biomass,False,-,-
+56197/GEN1,2008,1.8,Petroleum Liquids,False,-,-
+56197/GEN2,2008,1.8,Petroleum Liquids,False,-,-
+56216/LJT2,2015,2,Onshore Wind Turbine,False,-,-
+56217/SPP2,2013,0.8,Onshore Wind Turbine,False,-,-
+56217/SPP3,2013,0.8,Onshore Wind Turbine,False,-,-
+56218/ZR2,2015,2,Onshore Wind Turbine,False,-,-
+56223/LOKI,2021,10.9,Natural Gas Fired Combustion Turbine,False,2021,Retired and Canceled RE
+56225/V90,2022,3,Onshore Wind Turbine,False,2024,Retired and Canceled RE
+56243/1,2018,4.5,Municipal Solid Waste,False,2018,Retired and Canceled RE
+56246/CR4,2009,0.5,Natural Gas Fired Combustion Turbine,False,-,-
+56257/CY 1,2011,1.8,Petroleum Liquids,False,-,-
+56257/CY 2,2011,1.8,Petroleum Liquids,False,-,-
+56257/CY 3,2011,1.8,Petroleum Liquids,False,-,-
+56282/CA1,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA10,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA2,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA3,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA4,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA5,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA6,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA7,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA8,2005,1.8,Petroleum Liquids,False,-,-
+56282/CA9,2005,1.8,Petroleum Liquids,False,-,-
+56284/EPG,2022,5.5,Other Gases,False,2022,Retired and Canceled RE
+56285/LW1,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW10,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW2,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW3,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW4,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW5,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW6,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW7,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW8,2005,1.8,Petroleum Liquids,False,-,-
+56285/LW9,2005,1.8,Petroleum Liquids,False,-,-
+56286/LL1,2006,1.8,Petroleum Liquids,False,-,-
+56286/LL2,2006,1.8,Petroleum Liquids,False,-,-
+56286/LL3,2006,1.8,Petroleum Liquids,False,-,-
+56286/LL4,2006,1.8,Petroleum Liquids,False,-,-
+56286/LL5,2006,1.8,Petroleum Liquids,False,-,-
+56287/RP1,2005,1.8,Petroleum Liquids,False,-,-
+56287/RP2,2005,1.8,Petroleum Liquids,False,-,-
+56287/RP3,2005,1.8,Petroleum Liquids,False,-,-
+56287/RP4,2005,1.8,Petroleum Liquids,False,-,-
+56287/RP5,2005,1.8,Petroleum Liquids,False,-,-
+563/11,2023,41.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+563/12,2023,41.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+563/13,2023,41.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+563/14,2023,41.8,Petroleum Liquids,False,2023,Retired and Canceled RE
+56318/1,2016,1,Landfill Gas,False,2016,Retired and Canceled RE
+56318/2,2016,1,Landfill Gas,False,2016,Retired and Canceled RE
+56402/1,2013,7,Onshore Wind Turbine,False,-,-
+56417/W1,2018,1.8,Landfill Gas,False,2018,Retired and Canceled RE
+56417/W2,2018,1.8,Landfill Gas,False,2018,Retired and Canceled RE
+56418/DP1,2017,1.8,Landfill Gas,False,2018,Retired and Canceled RE
+56418/DP2,2017,1.8,Landfill Gas,False,2018,Retired and Canceled RE
+56513/CGE,2022,1.6,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+56533/GEN1,2013,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56533/GEN2,2013,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56533/GEN3,2013,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56533/GEN4,2013,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56533/GEN5,2013,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56534/GEN1,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56534/GEN2,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56534/GEN3,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56535/GEN1,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56535/GEN2,2016,1.3,Landfill Gas,False,2016,Retired and Canceled RE
+56557/1,2017,10,Onshore Wind Turbine,False,2017,Retired and Canceled RE
+56558/JDW2,2017,10,Onshore Wind Turbine,False,2017,Retired and Canceled RE
+56559/JDW3,2017,10,Onshore Wind Turbine,False,2017,Retired and Canceled RE
+56572/1,2019,5.5,Landfill Gas,False,2019,Retired and Canceled RE
+56602/SNY1,2021,63,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+56641/1,2013,1,Landfill Gas,False,-,-
+56641/2,2013,1,Landfill Gas,False,-,-
+56646/1,2019,2,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+56672/1,2010,1.6,Landfill Gas,False,-,-
+56779/1,2021,150,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+56780/1,2014,1.6,Landfill Gas,False,-,-
+56780/2,2014,1.6,Landfill Gas,False,-,-
+56780/3,2014,1.6,Landfill Gas,False,-,-
+56780/4,2014,1.6,Landfill Gas,False,-,-
+56834/1,2020,10,Onshore Wind Turbine,False,2020,Retired and Canceled RE
+56863/1,2023,1.4,Landfill Gas,False,2023,Retired and Canceled RE
+56863/2,2023,1.4,Landfill Gas,False,2023,Retired and Canceled RE
+56881/1,2009,1.6,Other Waste Biomass,False,-,-
+56881/2,2009,1.6,Other Waste Biomass,False,-,-
+56881/3,2009,1.6,Other Waste Biomass,False,-,-
+56882/1,2009,11,Other Waste Biomass,False,-,-
+56911/GEN1,2023,5.5,Landfill Gas,False,2024,Retired and Canceled RE
+56911/GEN2,2023,5.5,Landfill Gas,False,2024,Retired and Canceled RE
+56931/GEN7,2015,44,Wood/Wood Waste Biomass,False,2016,Retired and Canceled RE
+56937/GEN7,2007,3.1,Petroleum Liquids,False,2021,Retired and Canceled RE
+56937/IPE,2021,1.5,Petroleum Liquids,False,2021,Retired and Canceled RE
+56943/1,2014,5,Solar Thermal without Energy Storage,False,-,-
+56951/1,2024,1.6,Landfill Gas,False,2024,Retired and Canceled RE
+56951/2,2024,1.6,Landfill Gas,False,2024,Retired and Canceled RE
+56978/1,2021,0.4,Conventional Hydroelectric,False,2021,Retired and Canceled RE
+56978/2,2021,0.4,Conventional Hydroelectric,False,2021,Retired and Canceled RE
+56978/3,2021,0.3,Conventional Hydroelectric,False,2021,Retired and Canceled RE
+56978/4,2021,0.3,Conventional Hydroelectric,False,2021,Retired and Canceled RE
+57013/1,2015,1.6,Landfill Gas,False,-,-
+57013/2,2015,1.6,Landfill Gas,False,-,-
+57076/GEN1,2018,1.8,Other Waste Biomass,False,2023,Retired and Canceled RE
+57076/GEN2,2018,1.8,Other Waste Biomass,False,2023,Retired and Canceled RE
+57099/STG1,2023,64,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+57103/1,2024,6.3,Natural Gas Steam Turbine,False,2024,Retired and Canceled RE
+57105/1ST,2011,3,Wood/Wood Waste Biomass,False,-,-
+57105/2ST,2011,6.3,Wood/Wood Waste Biomass,False,-,-
+57105/3ST,2011,7.5,Wood/Wood Waste Biomass,False,-,-
+57129/G1,2013,1.1,Landfill Gas,False,-,-
+57132/1,2016,2.8,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57132/2,2016,2.8,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57132/3,2016,2.8,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57140/01,2011,1.5,Solar Thermal without Energy Storage,False,-,-
+57154/1209,2022,18.1,Wood/Wood Waste Biomass,False,2022,Retired and Canceled RE
+57173/1,2021,0.6,Other Waste Biomass,False,2021,Retired and Canceled RE
+57173/2,2021,0.6,Other Waste Biomass,False,2021,Retired and Canceled RE
+57204/1,2024,2,Solar Photovoltaic,False,2024,Retired and Canceled RE
+57258/1,2023,0.7,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+57258/2,2023,0.6,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+57258/3,2023,0.6,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+57259/1,2019,2.5,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+57259/2,2019,2.5,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+57259/3,2019,2.5,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+57310/1,2022,1.3,Solar Photovoltaic,False,2022,Retired and Canceled RE
+57323/UNIT1,2014,7.5,Solar Thermal without Energy Storage,False,2020,Retired and Canceled RE
+57344/GS1,2020,0.8,Other Waste Biomass,False,2020,Retired and Canceled RE
+57344/GS2,2020,0.8,Other Waste Biomass,False,2020,Retired and Canceled RE
+57344/GS3,2020,0.8,Other Waste Biomass,False,2020,Retired and Canceled RE
+57350/WTG-1,2016,1.5,Onshore Wind Turbine,False,2016,Retired and Canceled RE
+57366/1A,2024,1.1,Landfill Gas,False,2024,Retired and Canceled RE
+57366/1B,2024,1.1,Landfill Gas,False,2024,Retired and Canceled RE
+57366/1C,2021,1.1,Landfill Gas,False,2024,Retired and Canceled RE
+57419/0001,2019,3,Other Waste Biomass,False,2019,Retired and Canceled RE
+57420/0001,2019,1.5,Other Natural Gas,False,2019,Retired and Canceled RE
+57425/1,2019,1.5,Other Waste Biomass,False,2019,Retired and Canceled RE
+57425/2,2019,1.5,Other Waste Biomass,False,2019,Retired and Canceled RE
+57425/3,2019,1.5,Other Waste Biomass,False,2019,Retired and Canceled RE
+57433/1,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+57433/2,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+57433/3,2019,1.6,Landfill Gas,False,2019,Retired and Canceled RE
+57467/TG1,2023,13,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+57480/GTG1,2015,42.6,Natural Gas Fired Combustion Turbine,False,-,-
+57492/GEN1,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57492/GEN2,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57492/GEN3,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57492/GEN4,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57492/GEN5,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57492/GEN6,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57508/GEN1,2016,1.6,Landfill Gas,False,2016,Retired and Canceled RE
+57508/GEN2,2016,1.6,Landfill Gas,False,2016,Retired and Canceled RE
+57513/COBE1,2011,1,Other Waste Biomass,False,-,-
+57519/GEN1,2023,1.9,Solar Photovoltaic,False,2023,Retired and Canceled RE
+5756/E-1,2005,0.8,Landfill Gas,False,-,-
+5756/E-2,2005,0.8,Landfill Gas,False,-,-
+5756/E-3,2005,0.8,Landfill Gas,False,-,-
+5756/E-4,2005,0.8,Landfill Gas,False,-,-
+57587/1,2015,1.1,Landfill Gas,False,2016,Retired and Canceled RE
+57587/2,2015,1.1,Landfill Gas,False,2016,Retired and Canceled RE
+57592/45,2014,0.3,Other Natural Gas,False,-,-
+57592/47,2014,0.3,Other Natural Gas,False,-,-
+57592/50,2014,0.3,Other Natural Gas,False,-,-
+57592/51,2014,0.3,Other Natural Gas,False,-,-
+57637/1,2023,1,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+57638/1,2023,1,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+57654/WIND1,2017,1.7,Onshore Wind Turbine,False,2017,Retired and Canceled RE
+57654/WIND2,2017,1.7,Onshore Wind Turbine,False,2017,Retired and Canceled RE
+57685/1,2021,10,Solar Photovoltaic,False,2021,Retired and Canceled RE
+57711/TYN1,2015,1,Flywheels,False,2018,Retired and Canceled RE
+57712/TYN2,2016,2,Flywheels,False,2018,Retired and Canceled RE
+57713/151,2018,3.2,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57713/152,2018,3.2,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57713/153,2018,3.2,Natural Gas Internal Combustion Engine,False,2018,Retired and Canceled RE
+57714/GEN1,2024,1.1,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+57714/GEN2,2024,1.1,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+57714/GEN3,2024,1.1,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+57714/GEN4,2024,1.1,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+57735/UCSD,2021,3,Other Natural Gas,False,2022,Retired and Canceled RE
+57741/SP111,2020,2.1,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+57741/SP95,2015,2.1,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+57741/SP97,2020,2.1,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+57759/STG1,2018,61.5,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+57770/SBFC,2021,1.5,Other Natural Gas,False,2022,Retired and Canceled RE
+57786/UNIT1,2018,1.1,Landfill Gas,False,2018,Retired and Canceled RE
+57786/UNIT2,2018,1.1,Landfill Gas,False,2018,Retired and Canceled RE
+57793/FC-1,2020,1.4,Other Natural Gas,False,2020,Retired and Canceled RE
+57829/GLEN1,2019,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+57829/GLEN2,2019,1.4,Landfill Gas,False,2020,Retired and Canceled RE
+57843/GEN1,2020,1.9,Landfill Gas,False,2020,Retired and Canceled RE
+57845/UNIT1,2021,1.6,Landfill Gas,False,2021,Retired and Canceled RE
+57845/UNIT2,2021,1.9,Landfill Gas,False,2021,Retired and Canceled RE
+57845/UNIT3,2016,1.9,Landfill Gas,False,2021,Retired and Canceled RE
+57846/UNIT1,2020,1.6,Landfill Gas,False,2020,Retired and Canceled RE
+57846/UNIT2,2020,1.6,Landfill Gas,False,2020,Retired and Canceled RE
+57847/UNIT1,2020,1.5,Landfill Gas,False,2020,Retired and Canceled RE
+57847/UNIT2,2020,1.5,Landfill Gas,False,2020,Retired and Canceled RE
+57847/UNIT3,2020,1.5,Landfill Gas,False,2020,Retired and Canceled RE
+57847/UNIT4,2020,1.5,Landfill Gas,False,2020,Retired and Canceled RE
+57847/UNIT5,2020,1.5,Landfill Gas,False,2020,Retired and Canceled RE
+57857/1,2017,5.5,Wood/Wood Waste Biomass,False,2017,Retired and Canceled RE
+57877/UNT1,2014,1.6,Landfill Gas,False,-,-
+57877/UNT2,2014,1.6,Landfill Gas,False,-,-
+57878/UNT1,2014,1.6,Landfill Gas,False,-,-
+57907/1,2015,15,Conventional Steam Coal,False,-,-
+57907/2,2015,15,Conventional Steam Coal,False,-,-
+57914/1,2023,2,Conventional Steam Coal,False,2023,Retired and Canceled RE
+57914/2,2023,2,Conventional Steam Coal,False,2023,Retired and Canceled RE
+57917/1,2015,6.3,Conventional Steam Coal,False,-,-
+57917/2,2015,6.3,Conventional Steam Coal,False,-,-
+57918/1,2013,0.7,Conventional Steam Coal,False,-,-
+57918/2,2013,0.7,Conventional Steam Coal,False,-,-
+57918/3,2013,2,Conventional Steam Coal,False,-,-
+57926/HP,2018,1.2,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+57926/LP,2018,0.8,Natural Gas Steam Turbine,False,2018,Retired and Canceled RE
+57932/GEN1,2016,3,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+57936/GEN1,2015,6,Conventional Steam Coal,False,-,-
+57940/G3,2019,7.5,Conventional Steam Coal,False,2020,Retired and Canceled RE
+57944/1,2015,6.2,Petroleum Liquids,False,-,-
+57944/2,2015,6.2,Petroleum Liquids,False,-,-
+57952/GEN1,2020,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+57952/GEN2,2020,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+57952/GEN3,2020,1,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+57955/1,2013,5.2,Natural Gas Fired Combustion Turbine,False,-,-
+57972/JCP1,2013,8,Batteries,False,-,-
+58023/ECP,2018,33,Wood/Wood Waste Biomass,False,2018,Retired and Canceled RE
+58050/TRB1,2012,5.5,Conventional Steam Coal,False,-,-
+58055/1,2018,0.7,Other Waste Biomass,False,2018,Retired and Canceled RE
+58055/2,2018,0.7,Other Waste Biomass,False,2018,Retired and Canceled RE
+58058/1,2022,6.7,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+58059/GE,2013,13.8,Conventional Steam Coal,False,-,-
+58059/MURR,2013,8,Conventional Steam Coal,False,-,-
+58077/CROSS,2015,3.5,Natural Gas Fired Combustion Turbine,False,-,-
+58083/GTG1,2020,19,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+58083/STG1,2020,2,Natural Gas Fired Combined Cycle,False,2020,Retired and Canceled RE
+58129/GEN1,2022,1.1,Natural Gas Internal Combustion Engine,False,2022,Retired and Canceled RE
+58142/CHP1,2022,1.6,Other Waste Biomass,False,2022,Retired and Canceled RE
+58142/CHP2,2022,1.6,Other Waste Biomass,False,2022,Retired and Canceled RE
+58156/GE,2022,1.8,Natural Gas Internal Combustion Engine,False,2024,Retired and Canceled RE
+58170/GEN1,2023,1.3,Solar Photovoltaic,False,2023,Retired and Canceled RE
+58176/ST#1,2013,0.7,Natural Gas Fired Combined Cycle,False,-,-
+58176/ST#2,2013,0.5,Natural Gas Fired Combined Cycle,False,-,-
+58176/ST#3,2013,0.5,Natural Gas Fired Combined Cycle,False,-,-
+58200/GEN1,2020,4,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+58200/GEN2,2020,4,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+58200/GEN3,2020,4,Natural Gas Steam Turbine,False,2020,Retired and Canceled RE
+58216/1,2024,4,All Other,False,2024,Retired and Canceled RE
+58219/1426,2021,1.4,Other Waste Biomass,False,2021,Retired and Canceled RE
+58219/633,2021,0.6,Other Waste Biomass,False,2021,Retired and Canceled RE
+58221/1,2013,0.4,Petroleum Liquids,False,-,-
+58221/2,2013,0.4,Petroleum Liquids,False,-,-
+58221/3,2013,0.4,Petroleum Liquids,False,-,-
+58221/4,2013,0.4,Petroleum Liquids,False,-,-
+58226/1,2024,1.5,Solar Photovoltaic,False,2024,Retired and Canceled RE
+58229/GEN1,2018,8.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+58230/GEN1,2018,8.8,Petroleum Liquids,False,2018,Retired and Canceled RE
+58421/320,2018,1,Landfill Gas,False,2018,Retired and Canceled RE
+58421/420,2018,1.4,Landfill Gas,False,2018,Retired and Canceled RE
+58424/1,2019,9,Onshore Wind Turbine,False,2021,Retired and Canceled RE
+58440/9560,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58440/9580,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58440/9581,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58440/9583,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58440/9585,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58440/9587,2023,0.4,Other Natural Gas,False,2023,Retired and Canceled RE
+58442/GEN1,2014,7.8,Natural Gas Fired Combustion Turbine,False,2016,Retired and Canceled RE
+58475/BOU,2023,4,Batteries,False,2023,Retired and Canceled RE
+58518/1,2016,1.9,Other Waste Biomass,False,2016,Retired and Canceled RE
+58555/95100,2019,1.4,Other Waste Biomass,False,2019,Retired and Canceled RE
+58595/GEN1,2021,16,Wood/Wood Waste Biomass,False,2021,Retired and Canceled RE
+58613/STG,2019,21.9,Natural Gas Steam Turbine,False,2019,Retired and Canceled RE
+58648/ST803,2016,6.4,Natural Gas Steam Turbine,False,2016,Retired and Canceled RE
+58663/GEN1,2019,0.6,Other Waste Biomass,False,2020,Retired and Canceled RE
+58663/GEN2,2019,0.6,Other Waste Biomass,False,2020,Retired and Canceled RE
+58815/1,2022,1.8,Natural Gas Internal Combustion Engine,False,2023,Retired and Canceled RE
+58823/STG,2018,5,All Other,False,2019,Retired and Canceled RE
+58826/TTES,2017,20,Batteries,False,2018,Retired and Canceled RE
+58923/1000,2018,1,Petroleum Liquids,False,2018,Retired and Canceled RE
+58923/500K,2014,0.5,Conventional Steam Coal,False,2018,Retired and Canceled RE
+58945/GEN 1,2019,0.6,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+58945/GEN 2,2019,0.6,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+58945/GEN 3,2019,0.6,Natural Gas Internal Combustion Engine,False,2020,Retired and Canceled RE
+58948/DG12,2018,0.9,Petroleum Liquids,False,2018,Retired and Canceled RE
+58948/DG3,2018,2,Petroleum Liquids,False,2018,Retired and Canceled RE
+58948/SOL,2018,4.8,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+58967/UNIT1,2015,0.8,Other Waste Biomass,False,2016,Retired and Canceled RE
+58967/UNIT2,2015,0.8,Other Waste Biomass,False,2016,Retired and Canceled RE
+58967/UNIT3,2015,0.8,Other Waste Biomass,False,2016,Retired and Canceled RE
+58968/UNIT1,2015,1.5,Other Waste Biomass,False,2016,Retired and Canceled RE
+58968/UNIT2,2015,1.5,Other Waste Biomass,False,2016,Retired and Canceled RE
+58968/UNIT3,2015,1.5,Other Waste Biomass,False,2016,Retired and Canceled RE
+58969/UNIT1,2015,0.8,Other Waste Biomass,False,2016,Retired and Canceled RE
+58969/UNIT2,2015,0.8,Other Waste Biomass,False,2016,Retired and Canceled RE
+58970/UNIT1,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58970/UNIT2,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58970/UNIT3,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58971/UNIT1,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58971/UNIT2,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58971/UNIT3,2015,1.1,Other Waste Biomass,False,2016,Retired and Canceled RE
+58993/3201,2020,1.1,Landfill Gas,False,2021,Retired and Canceled RE
+58993/3202,2021,1.1,Landfill Gas,False,2021,Retired and Canceled RE
+58993/3203,2021,1.1,Landfill Gas,False,2021,Retired and Canceled RE
+59022/1,2022,2,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+59023/GEN 1,2019,2,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+59072/WRE 1,2021,1,Other Waste Biomass,False,2021,Retired and Canceled RE
+59142/IC1,2019,1.6,Landfill Gas,False,2024,Retired and Canceled RE
+59151/CHP 1,2020,1.6,Other Waste Biomass,False,2020,Retired and Canceled RE
+59151/CHP 2,2020,1.6,Other Waste Biomass,False,2020,Retired and Canceled RE
+59378/GEN1,2017,4.6,Natural Gas Fired Combustion Turbine,False,2017,Retired and Canceled RE
+59447/00001,2018,1,Other Waste Biomass,False,2019,Retired and Canceled RE
+59559/GEN#1,2020,1,Other Waste Biomass,False,2020,Retired and Canceled RE
+59559/GEN#2,2020,1,Other Waste Biomass,False,2020,Retired and Canceled RE
+596/MAD,2004,12,Petroleum Liquids,False,-,-
+59808/GEN1,2024,1.1,Landfill Gas,False,2024,Retired and Canceled RE
+59830/GEN1,2014,2.4,Natural Gas Fired Combustion Turbine,False,-,-
+59884/GTG-1,2015,5.5,Natural Gas Fired Combustion Turbine,False,-,-
+59884/GTG-2,2015,5.5,Natural Gas Fired Combustion Turbine,False,-,-
+59884/STG-1,2015,1.5,Natural Gas Steam Turbine,False,-,-
+59884/STG-2,2015,1.5,Natural Gas Steam Turbine,False,-,-
+59931/GEN1,2021,1.1,Other Waste Biomass,False,2023,Retired and Canceled RE
+59931/GEN2,2021,1.1,Other Waste Biomass,False,2023,Retired and Canceled RE
+59949/BESS1,2024,11,Batteries,False,2024,Retired and Canceled RE
+59959/WCBS,2022,19.8,Batteries,False,2022,Retired and Canceled RE
+59960/JBS,2022,19.8,Batteries,False,2022,Retired and Canceled RE
+600/7,2006,1,Petroleum Liquids,False,-,-
+600/8,2006,1,Petroleum Liquids,False,-,-
+601/1,2011,1.4,Petroleum Liquids,False,-,-
+601/2,2011,1.4,Petroleum Liquids,False,-,-
+601/3,2011,1.1,Petroleum Liquids,False,-,-
+601/6,2011,2,Petroleum Liquids,False,-,-
+601/7,2011,1.1,Petroleum Liquids,False,-,-
+60100/G-1,2024,11.5,Wood/Wood Waste Biomass,False,2024,Retired and Canceled RE
+60120/MB-16,2022,1.4,Other Natural Gas,False,2022,Retired and Canceled RE
+6016/1,2019,441,Conventional Steam Coal,False,2022,Retired and Canceled RE
+6019/ST1,2022,1425.6,Conventional Steam Coal,False,2022,Retired and Canceled RE
+60213/MPSHG,2020,2,Batteries,False,2020,Retired and Canceled RE
+603/15,2012,290,Petroleum Liquids,False,-,-
+603/16,2012,290,Petroleum Liquids,False,-,-
+6031/2,2018,660.6,Conventional Steam Coal,False,2018,Retired and Canceled RE
+6031/GT1,2018,28.7,Petroleum Liquids,False,2018,Retired and Canceled RE
+60321/EXIS2,2019,16.1,Onshore Wind Turbine,False,2019,Retired and Canceled RE
+604/E1,2012,18,Petroleum Liquids,False,-,-
+604/E2,2012,18,Petroleum Liquids,False,-,-
+604/E3,2008,18,Petroleum Liquids,False,-,-
+604/E4,2012,18,Petroleum Liquids,False,-,-
+604/E5,2012,18,Petroleum Liquids,False,-,-
+604/E6,2012,18,Petroleum Liquids,False,-,-
+604/E7,2012,18,Petroleum Liquids,False,-,-
+604/E8,2012,18,Petroleum Liquids,False,-,-
+604/W10,2012,18,Petroleum Liquids,False,-,-
+604/W11,2012,18,Petroleum Liquids,False,-,-
+604/W12,2012,18,Petroleum Liquids,False,-,-
+604/W13,2012,18,Petroleum Liquids,False,-,-
+604/W14,2012,18,Petroleum Liquids,False,-,-
+604/W15,2012,18,Petroleum Liquids,False,-,-
+604/W16,2012,18,Petroleum Liquids,False,-,-
+604/W9,2012,18,Petroleum Liquids,False,-,-
+60479/BA1,2015,1,Batteries,False,-,-
+60479/BA2,2015,1,Batteries,False,-,-
+60506/BOB,2023,4,Batteries,False,2023,Retired and Canceled RE
+60618/1,2021,2,Batteries,False,2021,Retired and Canceled RE
+60803/DBPIS,2022,1,Solar Photovoltaic,False,2022,Retired and Canceled RE
+60804/DBGAT,2022,1.3,Solar Photovoltaic,False,2023,Retired and Canceled RE
+60811/ADA,2018,2,Batteries,False,2018,Retired and Canceled RE
+6082/1,2020,655.1,Conventional Steam Coal,False,2020,Retired and Canceled RE
+6094/1,2019,913.7,Conventional Steam Coal,False,2020,Retired and Canceled RE
+6094/2,2019,913.7,Conventional Steam Coal,False,2020,Retired and Canceled RE
+6094/3,2019,913.7,Conventional Steam Coal,False,2020,Retired and Canceled RE
+61027/PESCT,2019,4.8,Natural Gas Fired Combustion Turbine,False,2020,Retired and Canceled RE
+61160/MILL1,2023,1.4,Solar Photovoltaic,False,2023,Retired and Canceled RE
+61162/RBBM,2020,1.5,Solar Photovoltaic,False,2024,Retired and Canceled RE
+6136/1,2019,453.5,Conventional Steam Coal,False,2019,Retired and Canceled RE
+61491/FCB,2018,1.5,Solar Photovoltaic,False,2019,Retired and Canceled RE
+61632/GREMC,2018,4.3,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+61848/WT1,2023,10,Onshore Wind Turbine,False,2023,Retired and Canceled RE
+62019/GEN 1,2020,0.5,Other Waste Biomass,False,2020,Retired and Canceled RE
+62019/GEN 2,2020,0.5,Other Waste Biomass,False,2020,Retired and Canceled RE
+6225/1,2016,14.5,Conventional Steam Coal,False,2016,Retired and Canceled RE
+62782/PEMWT,2022,1,Onshore Wind Turbine,False,2022,Retired and Canceled RE
+63097/EP-01,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-02,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-03,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-04,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-05,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-06,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-07,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63097/EP-08,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63098/EP-09,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+63099/EP-10,2021,2,Petroleum Liquids,False,2021,Retired and Canceled RE
+64592/GEN1,2023,1,Other Gases,False,2024,Retired and Canceled RE
+64592/GEN2,2023,1,Other Gases,False,2024,Retired and Canceled RE
+64592/GEN3,2023,1,Other Gases,False,2024,Retired and Canceled RE
+64983/GEN1,2024,1.8,Petroleum Liquids,False,2024,Retired and Canceled RE
+64983/GEN2,2024,1.8,Petroleum Liquids,False,2024,Retired and Canceled RE
+64983/GEN3,2024,1.8,Petroleum Liquids,False,2024,Retired and Canceled RE
+64983/GEN4,2024,1.8,Petroleum Liquids,False,2024,Retired and Canceled RE
+65033/UNIT1,2024,0.3,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+65033/UNIT2,2024,0.3,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+65033/UNIT3,2024,0.3,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+65033/UNIT4,2024,0.4,Conventional Hydroelectric,False,2024,Retired and Canceled RE
+6575/4,2010,0.3,Petroleum Liquids,False,-,-
+6575/5,2010,0.7,Petroleum Liquids,False,-,-
+6594/1,2011,1.1,Natural Gas Internal Combustion Engine,False,-,-
+6594/2,2011,1.1,Natural Gas Internal Combustion Engine,False,-,-
+6594/3,2011,0.5,Petroleum Liquids,False,-,-
+6594/4,2011,0.4,Petroleum Liquids,False,-,-
+6594/5,2011,1.3,Natural Gas Internal Combustion Engine,False,-,-
+6594/6,2011,1.3,Natural Gas Internal Combustion Engine,False,-,-
+6598/1,2004,5,Petroleum Liquids,False,-,-
+6598/2,2004,2,Petroleum Liquids,False,-,-
+6598/3,2004,2,Petroleum Liquids,False,-,-
+6598/4,2004,3.3,Petroleum Liquids,False,-,-
+6598/5,2004,4,Petroleum Liquids,False,-,-
+6598/6,2014,1,Petroleum Liquids,False,-,-
+6598/7,2003,22.8,Petroleum Liquids,False,-,-
+66967/S049,2024,4.8,Batteries,False,2024,Retired and Canceled RE
+6707/NTCG,2002,16,Natural Gas Fired Combustion Turbine,False,2018,Retired and Canceled RE
+693/1,2015,12.5,Natural Gas Steam Turbine,False,-,-
+693/2,2015,16.5,Natural Gas Fired Combined Cycle,False,-,-
+693/3,2014,33,Natural Gas Steam Turbine,False,-,-
+693/4,2015,55,Natural Gas Steam Turbine,False,-,-
+693/5,2015,41.4,Natural Gas Fired Combined Cycle,False,-,-
+7131/1,2023,21,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+7294/GTG,2024,61.5,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+7294/STG,2024,8.5,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+7304/IC10,2016,3.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+7304/IC9,2016,3.5,Natural Gas Internal Combustion Engine,False,2016,Retired and Canceled RE
+7337/1,2013,4.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+7337/2,2013,4.6,Petroleum Liquids,False,2020,Retired and Canceled RE
+7370/CT1,2003,8.5,Geothermal,False,-,-
+7370/OEC1,2003,0.7,Geothermal,False,-,-
+7370/OEC2,2003,0.7,Geothermal,False,-,-
+7370/OEC3,2003,0.7,Geothermal,False,-,-
+7370/OEC4,2003,0.7,Geothermal,False,-,-
+7384/1,2010,21,Natural Gas Steam Turbine,False,-,-
+7393/LK1,2019,4.4,Natural Gas Internal Combustion Engine,False,2019,Retired and Canceled RE
+7412/JH-1,2009,3,Natural Gas Internal Combustion Engine,False,-,-
+7467/2A,2011,0.5,Petroleum Liquids,False,-,-
+7513/GEN1,2019,37.5,Wood/Wood Waste Biomass,False,2019,Retired and Canceled RE
+7652/HP-1,2012,9.4,Conventional Steam Coal,False,-,-
+7652/HP-2,2012,9.4,Conventional Steam Coal,False,-,-
+7652/HP-3,2012,9.4,Conventional Steam Coal,False,-,-
+7652/LP-1,2012,12.5,Conventional Steam Coal,False,-,-
+7652/LP-2,2012,12.5,Conventional Steam Coal,False,-,-
+7652/LP-3,2012,12.5,Conventional Steam Coal,False,-,-
+7652/LP-4,2012,12.5,Conventional Steam Coal,False,-,-
+7724/1,2003,6.6,Onshore Wind Turbine,False,-,-
+7737/1,2023,99.2,Wood/Wood Waste Biomass,False,2023,Retired and Canceled RE
+7793/2,2003,2,Petroleum Liquids,False,-,-
+7793/3,2003,2,Petroleum Liquids,False,-,-
+7793/IC1,2003,2,Petroleum Liquids,False,-,-
+7832/1,2012,2.1,Landfill Gas,False,2021,Retired and Canceled RE
+7832/2,2012,2.1,Landfill Gas,False,2021,Retired and Canceled RE
+7832/3,2012,2.1,Landfill Gas,False,2021,Retired and Canceled RE
+7832/4,2012,2.1,Landfill Gas,False,2021,Retired and Canceled RE
+7832/5,2012,2.1,Landfill Gas,False,2021,Retired and Canceled RE
+7832/7,2018,10,Landfill Gas,False,2021,Retired and Canceled RE
+7832/8,2018,10,Landfill Gas,False,2021,Retired and Canceled RE
+7832/9,2018,6,Landfill Gas,False,2021,Retired and Canceled RE
+7842/CT1,2024,71,Natural Gas Fired Combustion Turbine,False,2024,Retired and Canceled RE
+7858/1,2022,64.5,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+7858/2,2022,64.5,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+7858/3,2022,64.5,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+7858/4,2022,54,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+7858/5,2022,54,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+7888/2,2014,2,Petroleum Liquids,False,-,-
+7888/3,2014,2,Petroleum Liquids,False,-,-
+7888/4,2014,2,Petroleum Liquids,False,-,-
+7891/1,2014,2,Petroleum Liquids,False,-,-
+7891/2,2014,2,Petroleum Liquids,False,-,-
+7895/1,2006,1.6,Petroleum Liquids,False,-,-
+7895/2,2006,1.6,Petroleum Liquids,False,-,-
+7895/3,2006,1.6,Petroleum Liquids,False,-,-
+7895/4,2006,1.6,Petroleum Liquids,False,-,-
+7895/5,2006,1.6,Petroleum Liquids,False,-,-
+7895/6,2006,1.6,Petroleum Liquids,False,-,-
+7895/7,2006,1.6,Petroleum Liquids,False,-,-
+7895/8,2006,1.6,Petroleum Liquids,False,-,-
+7896/1,2005,1.6,Petroleum Liquids,False,-,-
+7896/2,2005,1.6,Petroleum Liquids,False,-,-
+7896/3,2005,1.6,Petroleum Liquids,False,-,-
+7896/4,2005,1.6,Petroleum Liquids,False,-,-
+7896/5,2005,1.6,Petroleum Liquids,False,-,-
+7896/6,2005,1.6,Petroleum Liquids,False,-,-
+7896/7,2005,1.6,Petroleum Liquids,False,-,-
+7896/8,2005,1.6,Petroleum Liquids,False,-,-
+7898/1,2022,1.1,Petroleum Liquids,False,2022,Retired and Canceled RE
+7944/9,2012,1.6,Petroleum Liquids,False,-,-
+7945/0001,2007,32,Natural Gas Fired Combustion Turbine,False,-,-
+796/1,2007,1.2,Conventional Hydroelectric,False,-,-
+7970/1,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/2,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/3,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/4,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/5,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/6,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/7,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/8,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+7970/9,2012,1.8,Petroleum Liquids,False,2020,Retired and Canceled RE
+8024/1,2013,560.1,Nuclear,False,-,-
+8226/1,2022,637,Conventional Steam Coal,False,2022,Retired and Canceled RE
+8227/1,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/2,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/3,2015,19.6,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/4,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/5,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/6,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/7,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+8227/8,2015,20,Natural Gas Fired Combustion Turbine,False,2019,Retired and Canceled RE
+856/1,2015,136,Conventional Steam Coal,False,2022,Retired and Canceled RE
+856/2,2022,280.5,Conventional Steam Coal,False,2022,Retired and Canceled RE
+856/3,2022,363.8,Conventional Steam Coal,False,2022,Retired and Canceled RE
+860/1,2009,18,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+860/2,2009,18,Natural Gas Fired Combustion Turbine,False,2022,Retired and Canceled RE
+862/1,2024,223.2,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+862/2,2024,223.2,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+862/3,2024,80.9,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+862/4,2024,113.6,Natural Gas Fired Combined Cycle,False,2024,Retired and Canceled RE
+863/3,2011,75,Conventional Steam Coal,False,-,-
+863/4,2011,75,Conventional Steam Coal,False,-,-
+863/D1,2011,3,Petroleum Liquids,False,-,-
+864/1,2011,57.5,Conventional Steam Coal,False,-,-
+864/2,2011,57.5,Conventional Steam Coal,False,-,-
+864/3,2011,239.3,Conventional Steam Coal,False,-,-
+864/4,2011,209.7,Petroleum Liquids,False,-,-
+887/1,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+887/2,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+887/3,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+887/4,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+887/5,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+887/6,2022,183.3,Conventional Steam Coal,False,2022,Retired and Canceled RE
+8907/3,2021,1012,Nuclear,False,2021,Retired and Canceled RE
+940/IC5,2020,2.4,Petroleum Liquids,False,2020,Retired and Canceled RE
+940/IC6,2020,2.4,Petroleum Liquids,False,2020,Retired and Canceled RE
+940/IC7,2020,2.7,Petroleum Liquids,False,2020,Retired and Canceled RE
+950/IC1,2011,0.6,Petroleum Liquids,False,-,-
+950/IC2,2011,0.6,Petroleum Liquids,False,-,-
+950/IC3,2011,1.1,Petroleum Liquids,False,-,-
+950/IC4,2011,2.1,Petroleum Liquids,False,-,-
+950/IC5,2011,2.3,Petroleum Liquids,False,-,-
+981/3,2012,124.9,Conventional Steam Coal,False,-,-
+981/3A,2012,100,Conventional Steam Coal,False,-,-
+981/4,2012,209.4,Conventional Steam Coal,False,-,-
+981/4A,2012,179.5,Conventional Steam Coal,False,-,-

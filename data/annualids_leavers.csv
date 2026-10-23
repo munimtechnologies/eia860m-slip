@@ -1,0 +1,411 @@
+month_left,key,year,where_annual,retirement_year,nameplate_mw
+2020-02,55526/GEN5,2016,Operable OP,-,1.7
+2020-02,55526/GEN5,2017,Operable OP,-,1.7
+2020-02,55526/GEN5,2018,Retired and Canceled RE,2018,1.7
+2020-02,55526/GEN5,2019,not listed,-,-
+2020-02,55526/GEN5,2020,not listed,-,-
+2020-02,55526/GEN5,2021,not listed,-,-
+2020-02,55526/GEN5,2022,not listed,-,-
+2020-02,55526/GEN5,2023,not listed,-,-
+2020-02,55526/GEN5,2024,not listed,-,-
+2020-02,55526/GEN5,2025,not listed,-,-
+2020-12,57693/ALSTO,2016,Operable OP,-,3
+2020-12,57693/ALSTO,2017,Operable OP,-,3
+2020-12,57693/ALSTO,2018,Retired and Canceled RE,2018,3
+2020-12,57693/ALSTO,2019,Retired and Canceled RE,2018,3
+2020-12,57693/ALSTO,2020,not listed,-,-
+2020-12,57693/ALSTO,2021,not listed,-,-
+2020-12,57693/ALSTO,2022,not listed,-,-
+2020-12,57693/ALSTO,2023,not listed,-,-
+2020-12,57693/ALSTO,2024,not listed,-,-
+2020-12,57693/ALSTO,2025,not listed,-,-
+2021-01,57692/ALSTO,2016,not listed,-,-
+2021-01,57692/ALSTO,2017,not listed,-,-
+2021-01,57692/ALSTO,2018,not listed,-,-
+2021-01,57692/ALSTO,2019,not listed,-,-
+2021-01,57692/ALSTO,2020,not listed,-,-
+2021-01,57692/ALSTO,2021,not listed,-,-
+2021-01,57692/ALSTO,2022,not listed,-,-
+2021-01,57692/ALSTO,2023,not listed,-,-
+2021-01,57692/ALSTO,2024,not listed,-,-
+2021-01,57692/ALSTO,2025,not listed,-,-
+2021-12,1571/ST1,2016,Operable OP,-,364
+2021-12,1571/ST1,2017,Operable OP,-,364
+2021-12,1571/ST1,2018,Operable OP,-,364
+2021-12,1571/ST1,2019,Operable OP,-,364
+2021-12,1571/ST1,2020,Operable OP,-,364
+2021-12,1571/ST1,2021,not listed,-,-
+2021-12,1571/ST1,2022,not listed,-,-
+2021-12,1571/ST1,2023,not listed,-,-
+2021-12,1571/ST1,2024,not listed,-,-
+2021-12,1571/ST1,2025,not listed,-,-
+2021-12,1571/ST2,2016,Operable OP,-,364
+2021-12,1571/ST2,2017,Operable OP,-,364
+2021-12,1571/ST2,2018,Operable OP,-,364
+2021-12,1571/ST2,2019,Operable OP,-,364
+2021-12,1571/ST2,2020,Operable OP,-,364
+2021-12,1571/ST2,2021,not listed,-,-
+2021-12,1571/ST2,2022,not listed,-,-
+2021-12,1571/ST2,2023,not listed,-,-
+2021-12,1571/ST2,2024,not listed,-,-
+2021-12,1571/ST2,2025,not listed,-,-
+2021-12,1572/2,2016,Operable OP,-,196
+2021-12,1572/2,2017,Operable OP,-,196
+2021-12,1572/2,2018,Operable OP,-,196
+2021-12,1572/2,2019,Operable OP,-,196
+2021-12,1572/2,2020,Retired and Canceled RE,2020,196
+2021-12,1572/2,2021,not listed,-,-
+2021-12,1572/2,2022,not listed,-,-
+2021-12,1572/2,2023,not listed,-,-
+2021-12,1572/2,2024,not listed,-,-
+2021-12,1572/2,2025,not listed,-,-
+2021-12,1572/3,2016,Operable OP,-,196
+2021-12,1572/3,2017,Operable OP,-,196
+2021-12,1572/3,2018,Operable OP,-,196
+2021-12,1572/3,2019,Operable OP,-,196
+2021-12,1572/3,2020,Retired and Canceled RE,2020,196
+2021-12,1572/3,2021,not listed,-,-
+2021-12,1572/3,2022,not listed,-,-
+2021-12,1572/3,2023,not listed,-,-
+2021-12,1572/3,2024,not listed,-,-
+2021-12,1572/3,2025,not listed,-,-
+2021-12,1572/ST1,2016,Operable OP,-,196
+2021-12,1572/ST1,2017,Operable OP,-,196
+2021-12,1572/ST1,2018,Operable OP,-,196
+2021-12,1572/ST1,2019,Operable OP,-,196
+2021-12,1572/ST1,2020,Retired and Canceled RE,2020,196
+2021-12,1572/ST1,2021,not listed,-,-
+2021-12,1572/ST1,2022,not listed,-,-
+2021-12,1572/ST1,2023,not listed,-,-
+2021-12,1572/ST1,2024,not listed,-,-
+2021-12,1572/ST1,2025,not listed,-,-
+2023-01,7922/6,2016,Operable OP,-,2
+2023-01,7922/6,2017,Operable OP,-,2
+2023-01,7922/6,2018,Retired and Canceled RE,2011,2
+2023-01,7922/6,2019,Retired and Canceled RE,2011,2
+2023-01,7922/6,2020,Retired and Canceled RE,2011,2
+2023-01,7922/6,2021,Retired and Canceled RE,2011,2
+2023-01,7922/6,2022,not listed,-,-
+2023-01,7922/6,2023,not listed,-,-
+2023-01,7922/6,2024,not listed,-,-
+2023-01,7922/6,2025,not listed,-,-
+2023-05,59196/IC1,2016,Operable OP,-,1.8
+2023-05,59196/IC1,2017,Operable OS,-,1.8
+2023-05,59196/IC1,2018,Retired and Canceled RE,2018,1.8
+2023-05,59196/IC1,2019,Retired and Canceled RE,2018,1.8
+2023-05,59196/IC1,2020,Retired and Canceled RE,2018,1.8
+2023-05,59196/IC1,2021,Retired and Canceled RE,2018,1.8
+2023-05,59196/IC1,2022,not listed,-,-
+2023-05,59196/IC1,2023,not listed,-,-
+2023-05,59196/IC1,2024,not listed,-,-
+2023-05,59196/IC1,2025,not listed,-,-
+2023-09,64756/EQX05,2016,not listed,-,-
+2023-09,64756/EQX05,2017,not listed,-,-
+2023-09,64756/EQX05,2018,not listed,-,-
+2023-09,64756/EQX05,2019,not listed,-,-
+2023-09,64756/EQX05,2020,Operable OP,-,1.1
+2023-09,64756/EQX05,2021,Operable OP,-,1.1
+2023-09,64756/EQX05,2022,Retired and Canceled RE,2022,1.1
+2023-09,64756/EQX05,2023,not listed,-,-
+2023-09,64756/EQX05,2024,not listed,-,-
+2023-09,64756/EQX05,2025,not listed,-,-
+2024-01,1439/10A,2016,not listed,-,-
+2024-01,1439/10A,2017,not listed,-,-
+2024-01,1439/10A,2018,not listed,-,-
+2024-01,1439/10A,2019,not listed,-,-
+2024-01,1439/10A,2020,not listed,-,-
+2024-01,1439/10A,2021,not listed,-,-
+2024-01,1439/10A,2022,not listed,-,-
+2024-01,1439/10A,2023,not listed,-,-
+2024-01,1439/10A,2024,not listed,-,-
+2024-01,1439/10A,2025,not listed,-,-
+2024-01,1439/10B,2016,not listed,-,-
+2024-01,1439/10B,2017,not listed,-,-
+2024-01,1439/10B,2018,not listed,-,-
+2024-01,1439/10B,2019,not listed,-,-
+2024-01,1439/10B,2020,not listed,-,-
+2024-01,1439/10B,2021,not listed,-,-
+2024-01,1439/10B,2022,not listed,-,-
+2024-01,1439/10B,2023,not listed,-,-
+2024-01,1439/10B,2024,not listed,-,-
+2024-01,1439/10B,2025,not listed,-,-
+2024-01,1439/11A,2016,not listed,-,-
+2024-01,1439/11A,2017,not listed,-,-
+2024-01,1439/11A,2018,not listed,-,-
+2024-01,1439/11A,2019,not listed,-,-
+2024-01,1439/11A,2020,not listed,-,-
+2024-01,1439/11A,2021,not listed,-,-
+2024-01,1439/11A,2022,not listed,-,-
+2024-01,1439/11A,2023,not listed,-,-
+2024-01,1439/11A,2024,not listed,-,-
+2024-01,1439/11A,2025,not listed,-,-
+2024-01,1439/11B,2016,not listed,-,-
+2024-01,1439/11B,2017,not listed,-,-
+2024-01,1439/11B,2018,not listed,-,-
+2024-01,1439/11B,2019,not listed,-,-
+2024-01,1439/11B,2020,not listed,-,-
+2024-01,1439/11B,2021,not listed,-,-
+2024-01,1439/11B,2022,not listed,-,-
+2024-01,1439/11B,2023,not listed,-,-
+2024-01,1439/11B,2024,not listed,-,-
+2024-01,1439/11B,2025,not listed,-,-
+2024-01,1439/12A,2016,not listed,-,-
+2024-01,1439/12A,2017,not listed,-,-
+2024-01,1439/12A,2018,not listed,-,-
+2024-01,1439/12A,2019,not listed,-,-
+2024-01,1439/12A,2020,not listed,-,-
+2024-01,1439/12A,2021,not listed,-,-
+2024-01,1439/12A,2022,not listed,-,-
+2024-01,1439/12A,2023,not listed,-,-
+2024-01,1439/12A,2024,not listed,-,-
+2024-01,1439/12A,2025,not listed,-,-
+2024-01,1439/12B,2016,not listed,-,-
+2024-01,1439/12B,2017,not listed,-,-
+2024-01,1439/12B,2018,not listed,-,-
+2024-01,1439/12B,2019,not listed,-,-
+2024-01,1439/12B,2020,not listed,-,-
+2024-01,1439/12B,2021,not listed,-,-
+2024-01,1439/12B,2022,not listed,-,-
+2024-01,1439/12B,2023,not listed,-,-
+2024-01,1439/12B,2024,not listed,-,-
+2024-01,1439/12B,2025,not listed,-,-
+2024-01,1439/1A,2016,not listed,-,-
+2024-01,1439/1A,2017,not listed,-,-
+2024-01,1439/1A,2018,not listed,-,-
+2024-01,1439/1A,2019,not listed,-,-
+2024-01,1439/1A,2020,not listed,-,-
+2024-01,1439/1A,2021,not listed,-,-
+2024-01,1439/1A,2022,not listed,-,-
+2024-01,1439/1A,2023,not listed,-,-
+2024-01,1439/1A,2024,not listed,-,-
+2024-01,1439/1A,2025,not listed,-,-
+2024-01,1439/1B,2016,not listed,-,-
+2024-01,1439/1B,2017,not listed,-,-
+2024-01,1439/1B,2018,not listed,-,-
+2024-01,1439/1B,2019,not listed,-,-
+2024-01,1439/1B,2020,not listed,-,-
+2024-01,1439/1B,2021,not listed,-,-
+2024-01,1439/1B,2022,not listed,-,-
+2024-01,1439/1B,2023,not listed,-,-
+2024-01,1439/1B,2024,not listed,-,-
+2024-01,1439/1B,2025,not listed,-,-
+2024-01,1439/2A,2016,not listed,-,-
+2024-01,1439/2A,2017,not listed,-,-
+2024-01,1439/2A,2018,not listed,-,-
+2024-01,1439/2A,2019,not listed,-,-
+2024-01,1439/2A,2020,not listed,-,-
+2024-01,1439/2A,2021,not listed,-,-
+2024-01,1439/2A,2022,not listed,-,-
+2024-01,1439/2A,2023,not listed,-,-
+2024-01,1439/2A,2024,not listed,-,-
+2024-01,1439/2A,2025,not listed,-,-
+2024-01,1439/2B,2016,not listed,-,-
+2024-01,1439/2B,2017,not listed,-,-
+2024-01,1439/2B,2018,not listed,-,-
+2024-01,1439/2B,2019,not listed,-,-
+2024-01,1439/2B,2020,not listed,-,-
+2024-01,1439/2B,2021,not listed,-,-
+2024-01,1439/2B,2022,not listed,-,-
+2024-01,1439/2B,2023,not listed,-,-
+2024-01,1439/2B,2024,not listed,-,-
+2024-01,1439/2B,2025,not listed,-,-
+2024-01,1439/3A,2016,not listed,-,-
+2024-01,1439/3A,2017,not listed,-,-
+2024-01,1439/3A,2018,not listed,-,-
+2024-01,1439/3A,2019,not listed,-,-
+2024-01,1439/3A,2020,not listed,-,-
+2024-01,1439/3A,2021,not listed,-,-
+2024-01,1439/3A,2022,not listed,-,-
+2024-01,1439/3A,2023,not listed,-,-
+2024-01,1439/3A,2024,not listed,-,-
+2024-01,1439/3A,2025,not listed,-,-
+2024-01,1439/3B,2016,not listed,-,-
+2024-01,1439/3B,2017,not listed,-,-
+2024-01,1439/3B,2018,not listed,-,-
+2024-01,1439/3B,2019,not listed,-,-
+2024-01,1439/3B,2020,not listed,-,-
+2024-01,1439/3B,2021,not listed,-,-
+2024-01,1439/3B,2022,not listed,-,-
+2024-01,1439/3B,2023,not listed,-,-
+2024-01,1439/3B,2024,not listed,-,-
+2024-01,1439/3B,2025,not listed,-,-
+2024-01,1439/4A,2016,not listed,-,-
+2024-01,1439/4A,2017,not listed,-,-
+2024-01,1439/4A,2018,not listed,-,-
+2024-01,1439/4A,2019,not listed,-,-
+2024-01,1439/4A,2020,not listed,-,-
+2024-01,1439/4A,2021,not listed,-,-
+2024-01,1439/4A,2022,not listed,-,-
+2024-01,1439/4A,2023,not listed,-,-
+2024-01,1439/4A,2024,not listed,-,-
+2024-01,1439/4A,2025,not listed,-,-
+2024-01,1439/4B,2016,not listed,-,-
+2024-01,1439/4B,2017,not listed,-,-
+2024-01,1439/4B,2018,not listed,-,-
+2024-01,1439/4B,2019,not listed,-,-
+2024-01,1439/4B,2020,not listed,-,-
+2024-01,1439/4B,2021,not listed,-,-
+2024-01,1439/4B,2022,not listed,-,-
+2024-01,1439/4B,2023,not listed,-,-
+2024-01,1439/4B,2024,not listed,-,-
+2024-01,1439/4B,2025,not listed,-,-
+2024-01,1439/5A,2016,not listed,-,-
+2024-01,1439/5A,2017,not listed,-,-
+2024-01,1439/5A,2018,not listed,-,-
+2024-01,1439/5A,2019,not listed,-,-
+2024-01,1439/5A,2020,not listed,-,-
+2024-01,1439/5A,2021,not listed,-,-
+2024-01,1439/5A,2022,not listed,-,-
+2024-01,1439/5A,2023,not listed,-,-
+2024-01,1439/5A,2024,not listed,-,-
+2024-01,1439/5A,2025,not listed,-,-
+2024-01,1439/6A,2016,not listed,-,-
+2024-01,1439/6A,2017,not listed,-,-
+2024-01,1439/6A,2018,not listed,-,-
+2024-01,1439/6A,2019,not listed,-,-
+2024-01,1439/6A,2020,not listed,-,-
+2024-01,1439/6A,2021,not listed,-,-
+2024-01,1439/6A,2022,not listed,-,-
+2024-01,1439/6A,2023,not listed,-,-
+2024-01,1439/6A,2024,not listed,-,-
+2024-01,1439/6A,2025,not listed,-,-
+2024-01,1439/6B,2016,not listed,-,-
+2024-01,1439/6B,2017,not listed,-,-
+2024-01,1439/6B,2018,not listed,-,-
+2024-01,1439/6B,2019,not listed,-,-
+2024-01,1439/6B,2020,not listed,-,-
+2024-01,1439/6B,2021,not listed,-,-
+2024-01,1439/6B,2022,not listed,-,-
+2024-01,1439/6B,2023,not listed,-,-
+2024-01,1439/6B,2024,not listed,-,-
+2024-01,1439/6B,2025,not listed,-,-
+2024-01,1439/7A,2016,not listed,-,-
+2024-01,1439/7A,2017,not listed,-,-
+2024-01,1439/7A,2018,not listed,-,-
+2024-01,1439/7A,2019,not listed,-,-
+2024-01,1439/7A,2020,not listed,-,-
+2024-01,1439/7A,2021,not listed,-,-
+2024-01,1439/7A,2022,not listed,-,-
+2024-01,1439/7A,2023,not listed,-,-
+2024-01,1439/7A,2024,not listed,-,-
+2024-01,1439/7A,2025,not listed,-,-
+2024-01,1439/7B,2016,not listed,-,-
+2024-01,1439/7B,2017,not listed,-,-
+2024-01,1439/7B,2018,not listed,-,-
+2024-01,1439/7B,2019,not listed,-,-
+2024-01,1439/7B,2020,not listed,-,-
+2024-01,1439/7B,2021,not listed,-,-
+2024-01,1439/7B,2022,not listed,-,-
+2024-01,1439/7B,2023,not listed,-,-
+2024-01,1439/7B,2024,not listed,-,-
+2024-01,1439/7B,2025,not listed,-,-
+2024-01,1439/8A,2016,not listed,-,-
+2024-01,1439/8A,2017,not listed,-,-
+2024-01,1439/8A,2018,not listed,-,-
+2024-01,1439/8A,2019,not listed,-,-
+2024-01,1439/8A,2020,not listed,-,-
+2024-01,1439/8A,2021,not listed,-,-
+2024-01,1439/8A,2022,not listed,-,-
+2024-01,1439/8A,2023,not listed,-,-
+2024-01,1439/8A,2024,not listed,-,-
+2024-01,1439/8A,2025,not listed,-,-
+2024-01,1439/8B,2016,not listed,-,-
+2024-01,1439/8B,2017,not listed,-,-
+2024-01,1439/8B,2018,not listed,-,-
+2024-01,1439/8B,2019,not listed,-,-
+2024-01,1439/8B,2020,not listed,-,-
+2024-01,1439/8B,2021,not listed,-,-
+2024-01,1439/8B,2022,not listed,-,-
+2024-01,1439/8B,2023,not listed,-,-
+2024-01,1439/8B,2024,not listed,-,-
+2024-01,1439/8B,2025,not listed,-,-
+2024-01,1439/9A,2016,not listed,-,-
+2024-01,1439/9A,2017,not listed,-,-
+2024-01,1439/9A,2018,not listed,-,-
+2024-01,1439/9A,2019,not listed,-,-
+2024-01,1439/9A,2020,not listed,-,-
+2024-01,1439/9A,2021,not listed,-,-
+2024-01,1439/9A,2022,not listed,-,-
+2024-01,1439/9A,2023,not listed,-,-
+2024-01,1439/9A,2024,not listed,-,-
+2024-01,1439/9A,2025,not listed,-,-
+2024-01,1439/9B,2016,not listed,-,-
+2024-01,1439/9B,2017,not listed,-,-
+2024-01,1439/9B,2018,not listed,-,-
+2024-01,1439/9B,2019,not listed,-,-
+2024-01,1439/9B,2020,not listed,-,-
+2024-01,1439/9B,2021,not listed,-,-
+2024-01,1439/9B,2022,not listed,-,-
+2024-01,1439/9B,2023,not listed,-,-
+2024-01,1439/9B,2024,not listed,-,-
+2024-01,1439/9B,2025,not listed,-,-
+2025-03,955/3,2016,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2017,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2018,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2019,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2020,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2021,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2022,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2023,Retired and Canceled RE,2010,1.8
+2025-03,955/3,2024,not listed,-,-
+2025-03,955/3,2025,not listed,-,-
+2025-03,955/4,2016,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2017,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2018,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2019,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2020,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2021,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2022,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2023,Retired and Canceled RE,2002,7.5
+2025-03,955/4,2024,not listed,-,-
+2025-03,955/4,2025,not listed,-,-
+2025-03,955/IC1,2016,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2017,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2018,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2019,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2020,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2021,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2022,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2023,Retired and Canceled RE,2011,6.3
+2025-03,955/IC1,2024,not listed,-,-
+2025-03,955/IC1,2025,not listed,-,-
+2025-03,955/IC2,2016,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2017,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2018,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2019,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2020,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2021,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2022,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2023,Retired and Canceled RE,2010,1.8
+2025-03,955/IC2,2024,not listed,-,-
+2025-03,955/IC2,2025,not listed,-,-
+2025-03,955/IC3,2016,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2017,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2018,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2019,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2020,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2021,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2022,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2023,Retired and Canceled RE,2011,1.8
+2025-03,955/IC3,2024,not listed,-,-
+2025-03,955/IC3,2025,not listed,-,-
+2025-04,63740/ONT6,2016,not listed,-,-
+2025-04,63740/ONT6,2017,not listed,-,-
+2025-04,63740/ONT6,2018,not listed,-,-
+2025-04,63740/ONT6,2019,Proposed P,-,2.2
+2025-04,63740/ONT6,2020,Retired and Canceled CN,-,2.2
+2025-04,63740/ONT6,2021,Retired and Canceled CN,-,2.2
+2025-04,63740/ONT6,2022,Retired and Canceled CN,-,2.2
+2025-04,63740/ONT6,2023,Retired and Canceled CN,-,2.2
+2025-04,63740/ONT6,2024,Retired and Canceled CN,-,2.2
+2025-04,63740/ONT6,2025,Retired and Canceled CN,-,2.2
+2026-06,423/3A,2016,Operable OP,-,0.3
+2026-06,423/3A,2017,Operable OP,-,0.3
+2026-06,423/3A,2018,Operable OP,-,0.3
+2026-06,423/3A,2019,Operable OP,-,0.3
+2026-06,423/3A,2020,Operable OP,-,0.3
+2026-06,423/3A,2021,Operable OP,-,0.3
+2026-06,423/3A,2022,Operable OP,-,0.3
+2026-06,423/3A,2023,Operable OP,-,0.3
+2026-06,423/3A,2024,Retired and Canceled RE,2018,0.3
+2026-06,423/3A,2025,not listed,-,-

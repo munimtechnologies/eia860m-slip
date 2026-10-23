@@ -1,0 +1,169 @@
+key,annual_year,annual_mw,technology,late_status,late_planned_year,late_planned_month,where_last
+10764/GEN1,2015,13.8,Wood/Wood Waste Biomass,OS,-,-,Retired
+10767/GEN1,2024,28,Wood/Wood Waste Biomass,OS,-,-,Retired
+109/16,2024,0.5,Petroleum Liquids,OP,-,-,Retired
+1200/2,2020,2.5,Petroleum Liquids,SB,-,-,Retired
+1294/1,2024,50.1,Natural Gas Steam Turbine,OS,-,-,Retired
+1294/2,2024,50.1,Natural Gas Steam Turbine,OS,-,-,Retired
+1294/3,2024,65.5,Natural Gas Steam Turbine,OS,-,-,Retired
+1295/ST1,2024,81.6,Natural Gas Steam Turbine,OS,-,-,Retired
+1295/ST2,2024,157.5,Natural Gas Steam Turbine,OS,-,-,Retired
+2022/WTG3,2024,2,Onshore Wind Turbine,OP,-,-,Retired
+2022/WTG4,2024,2,Onshore Wind Turbine,OP,-,-,Retired
+2067/2,2021,5,Natural Gas Fired Combined Cycle,SB,-,-,Retired
+2067/3,2021,12.6,Natural Gas Fired Combined Cycle,OP,-,-,Retired
+2067/GT1,2021,16.5,Natural Gas Fired Combined Cycle,OP,-,-,Retired
+2217/1,2025,0.5,Petroleum Liquids,OP,-,-,Retired
+2217/2,2025,0.3,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+2217/3,2025,0.3,Petroleum Liquids,OP,-,-,Retired
+2217/4,2025,0.9,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+2302/1,2025,1.2,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+2302/3,2025,0.8,Petroleum Liquids,OP,-,-,Retired
+2302/5,2025,3.1,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+2316/3,2025,0.8,Petroleum Liquids,OP,-,-,Retired
+2367/4,2025,50,Conventional Steam Coal,OS,-,-,Retired
+2367/5,2025,50,Wood/Wood Waste Biomass,OS,-,-,Retired
+2367/6,2025,50,Conventional Steam Coal,OS,-,-,Retired
+2490/GT1,2025,18,Natural Gas Fired Combustion Turbine,OP,-,-,Retired
+260/BAT1,2025,300,Batteries,OP,-,-,Retired
+2951/ST7,2024,220,Natural Gas Steam Turbine,OS,-,-,Retired
+2991/1,2025,1.1,Natural Gas Internal Combustion Engine,OS,-,-,Retired
+2991/4,2025,1.5,Natural Gas Internal Combustion Engine,OS,-,-,Retired
+2991/5,2025,2,Natural Gas Internal Combustion Engine,OS,-,-,Retired
+2991/6,2025,2.1,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+3258/3,2025,1.4,Conventional Hydroelectric,OA,-,-,Retired
+3676/1,2024,0.6,Conventional Hydroelectric,OP,-,-,Retired
+406/8,2017,0.4,Petroleum Liquids,OP,-,-,Retired
+406/9,2008,0.9,Petroleum Liquids,OP,-,-,Retired
+493/3,2025,25,Natural Gas Steam Turbine,OP,-,-,Retired
+50191/TG1,2025,7.5,Wood/Wood Waste Biomass,OS,-,-,Retired
+50191/TG2,2025,5,Wood/Wood Waste Biomass,OS,-,-,Retired
+50191/TG3,2025,12.5,Wood/Wood Waste Biomass,OS,-,-,Retired
+50201/ST2,2025,17.9,Wood/Wood Waste Biomass,OS,-,-,Retired
+50398/GE10,2025,82.8,Wood/Wood Waste Biomass,OP,-,-,Retired
+50535/WGNS,2020,29.9,Onshore Wind Turbine,OP,-,-,Retired
+50544/HDRO,2012,0.4,Conventional Hydroelectric,OP,-,-,Retired
+50630/GEN1,2024,13.1,Municipal Solid Waste,OP,-,-,Retired
+50766/ITLU2,2025,12,Geothermal,OP,-,-,Retired
+50806/GEN1,2025,12.3,Wood/Wood Waste Biomass,OP,-,-,Retired
+52073/GEN2,2025,14.5,Natural Gas Fired Combined Cycle,OP,-,-,Retired
+52176/GEN3,2024,75,Natural Gas Fired Combined Cycle,OP,-,-,Retired
+54281/577A,2025,14.5,Wood/Wood Waste Biomass,OP,-,-,Retired
+54323/D4_1,2024,1.5,Petroleum Liquids,SB,-,-,Retired
+54323/D4_2,2024,2,Petroleum Liquids,SB,-,-,Retired
+54323/D4_3,2024,2,Petroleum Liquids,SB,-,-,Retired
+54323/D5_1,2024,2,Petroleum Liquids,SB,-,-,Retired
+54323/D5_2,2024,2,Petroleum Liquids,SB,-,-,Retired
+54323/D5_3,2024,2,Petroleum Liquids,SB,-,-,Retired
+54323/DK2,2024,1.5,Petroleum Liquids,SB,-,-,Retired
+54457/B1GN1,2025,1.5,Petroleum Liquids,SB,-,-,Retired
+54457/B1GN2,2025,1.5,Petroleum Liquids,SB,-,-,Retired
+54464/0003,2023,5,Wood/Wood Waste Biomass,OS,-,-,Retired
+54734/1,2025,3,Petroleum Liquids,SB,-,-,Retired
+54734/11,2025,3,Petroleum Liquids,SB,-,-,Retired
+54734/12,2025,3,Petroleum Liquids,SB,-,-,Retired
+54734/13,2025,3,Petroleum Liquids,SB,-,-,Retired
+54734/14,2025,3,Petroleum Liquids,SB,-,-,Retired
+54734/15,2025,3.1,Petroleum Liquids,SB,-,-,Retired
+54734/3,2025,3.1,Petroleum Liquids,SB,-,-,Retired
+54734/4,2025,3.1,Petroleum Liquids,SB,-,-,Retired
+54734/7,2025,3.1,Petroleum Liquids,SB,-,-,Retired
+54734/8,2025,3,Petroleum Liquids,SB,-,-,Retired
+54886/GEN8,2025,1.4,Petroleum Liquids,SB,-,-,Retired
+54968/0385,2025,1.8,Petroleum Liquids,SB,-,-,Retired
+54968/0386,2025,1.8,Petroleum Liquids,SB,-,-,Retired
+54968/5824,2025,1.8,Petroleum Liquids,SB,-,-,Retired
+54974/UNT1,2025,3.6,Wood/Wood Waste Biomass,OP,-,-,Retired
+54974/UNT2,2025,3.6,Wood/Wood Waste Biomass,OP,-,-,Retired
+54980/UNT1,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT10,2024,1.6,Landfill Gas,OP,-,-,Retired
+54980/UNT11,2024,1.6,Landfill Gas,OP,-,-,Retired
+54980/UNT12,2024,1.6,Landfill Gas,OP,-,-,Retired
+54980/UNT2,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT3,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT4,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT5,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT6,2024,0.8,Landfill Gas,OP,-,-,Retired
+54980/UNT7,2024,1.6,Landfill Gas,OP,-,-,Retired
+54980/UNT8,2024,1.6,Landfill Gas,OP,-,-,Retired
+54980/UNT9,2024,1.6,Landfill Gas,OP,-,-,Retired
+55093/UNT1,2025,0.9,Landfill Gas,OP,-,-,Retired
+55093/UNT2,2025,0.9,Landfill Gas,OP,-,-,Retired
+55093/UNT3,2025,0.9,Landfill Gas,OP,-,-,Retired
+55093/UNT4,2025,0.9,Landfill Gas,OP,-,-,Retired
+55184/UN-A,2025,3,Natural Gas Fired Combustion Turbine,OS,-,-,Retired
+55556/GEN5,2024,1.7,Landfill Gas,OP,-,-,Retired
+55556/UNT2,2024,1.7,Landfill Gas,OP,-,-,Retired
+55741/A1,2024,29.7,Onshore Wind Turbine,OA,-,-,Retired
+55782/WH01,2025,1.5,Onshore Wind Turbine,OP,-,-,Retired
+56073/01,2025,1,Natural Gas Internal Combustion Engine,SB,-,-,Retired
+56120/L4,2025,5.5,Landfill Gas,OP,-,-,Retired
+56147/1,2017,1,Petroleum Liquids,OS,-,-,Retired
+56226/1,2025,1.8,Onshore Wind Turbine,OP,-,-,Retired
+56226/2,2025,1.8,Onshore Wind Turbine,OP,-,-,Retired
+56226/3,2025,1.8,Onshore Wind Turbine,OP,-,-,Retired
+56226/4,2025,1.8,Onshore Wind Turbine,OP,-,-,Retired
+56317/1,2025,18,Geothermal,OP,-,-,Retired
+56376/WTG1,2025,1.7,Onshore Wind Turbine,OA,-,-,Retired
+56800/HW2,2025,1.8,Onshore Wind Turbine,OP,-,-,Retired
+57169/GEN2,2023,0.8,Landfill Gas,OS,-,-,Retired
+57263/LP1,2022,10,Onshore Wind Turbine,OS,-,-,Retired
+57264/LP2,2022,10,Onshore Wind Turbine,OP,-,-,Retired
+57336/PV01,2025,1,Solar Photovoltaic,OP,-,-,Retired
+57447/2,2025,16,Batteries,OP,-,-,Retired
+57517/FRISC,2023,20,Onshore Wind Turbine,OS,-,-,Retired
+57584/BS1,2025,2.5,Batteries,OP,-,-,Retired
+57653/STG,2023,1,Natural Gas Fired Combined Cycle,OA,-,-,Retired
+57863/UNIT1,2025,2.4,Solar Photovoltaic,OP,-,-,Retired
+58043/1,2022,1,Petroleum Liquids,SB,-,-,Retired
+58043/2,2022,1,Petroleum Liquids,SB,-,-,Retired
+58191/GT1,2025,16,Natural Gas Fired Combustion Turbine,OP,-,-,Retired
+58191/GT2,2025,16,Natural Gas Fired Combustion Turbine,OS,-,-,Retired
+58191/GT3,2025,16,Natural Gas Fired Combustion Turbine,OP,-,-,Retired
+58196/ST1,2025,2.1,Natural Gas Steam Turbine,OS,2027,8,Retired
+58297/ROL4,2023,1.2,Other Natural Gas,OP,-,-,Retired
+58574/01,2024,12.6,Wood/Wood Waste Biomass,OS,-,-,Retired
+59456/P-TG4,2024,4.6,Natural Gas Fired Combustion Turbine,OS,-,-,Retired
+59457/Q-TG1,2023,4.6,Natural Gas Fired Combustion Turbine,SB,-,-,Retired
+59809/GEN1,2022,3.2,Natural Gas Internal Combustion Engine,OS,-,-,Retired
+59841/PV1,2021,1,Solar Photovoltaic,OP,-,-,Retired
+60760/PE101,2025,2,Batteries,OP,-,-,Retired
+61355/HY1,2025,1.3,Conventional Hydroelectric,OP,-,-,Retired
+61493/SEALY,2025,1.2,Solar Photovoltaic,OP,-,-,Retired
+61652/ENG1,2024,0.8,Landfill Gas,OP,-,-,Retired
+61652/ENG2,2024,0.8,Landfill Gas,OP,-,-,Retired
+61652/ENG3,2024,0.8,Landfill Gas,OP,-,-,Retired
+62270/CAT04,2025,0.7,Petroleum Liquids,SB,-,-,Retired
+62270/CATN1,2025,0.7,Petroleum Liquids,SB,-,-,Retired
+62270/CATN2,2025,0.7,Petroleum Liquids,SB,-,-,Retired
+62270/CATN3,2025,0.7,Petroleum Liquids,SB,-,-,Retired
+62453/EG1,2025,0.2,Petroleum Liquids,SB,-,-,Retired
+62453/EG2,2025,0.3,Petroleum Liquids,SB,-,-,Retired
+62455/DGR01,2024,2,Other Natural Gas,OP,-,-,Retired
+627/P3,2025,56.7,Petroleum Liquids,OP,-,-,Retired
+62736/250KW,2025,0.3,Onshore Wind Turbine,OS,-,-,Retired
+62736/850KW,2025,0.9,Onshore Wind Turbine,OP,-,-,Retired
+62736/CPH,2025,0.5,Natural Gas Fired Combustion Turbine,OP,-,-,Retired
+6283/5,2025,1.2,Petroleum Liquids,OP,-,-,Retired
+65203/BDB01,2024,1,Other Natural Gas,OP,-,-,Retired
+65494/HER2,2025,1.5,Natural Gas Internal Combustion Engine,OP,-,-,Retired
+65838/HOEFS,2024,2,Batteries,OA,-,-,Retired
+66/9,2023,1,Petroleum Liquids,OP,-,-,Retired
+6702/IC6,2025,0.4,Petroleum Liquids,OP,-,-,Retired
+7113/1,2025,6.6,Conventional Hydroelectric,OP,-,-,Retired
+7169/2A,2006,0.2,Petroleum Liquids,OP,-,-,Retired
+7169/5,2012,0.4,Petroleum Liquids,OP,-,-,Retired
+7279/1,2025,1.3,Conventional Hydroelectric,OA,-,-,Retired
+7279/2,2025,3.9,Conventional Hydroelectric,OA,-,-,Retired
+7437/2A,2025,0.5,Petroleum Liquids,OP,-,-,Retired
+766/W3,2024,50,Petroleum Liquids,OP,-,-,Retired
+766/W4,2024,50,Petroleum Liquids,OP,-,-,Retired
+7927/1,2021,0.6,Onshore Wind Turbine,OP,-,-,Retired
+7927/2,2021,0.6,Onshore Wind Turbine,OP,-,-,Retired
+7927/3,2021,0.6,Onshore Wind Turbine,OP,-,-,Retired
+8906/4,2021,387,Natural Gas Steam Turbine,OS,-,-,Retired
+9038/10,2025,2.2,Natural Gas Internal Combustion Engine,OP,2030,5,Retired
+9038/11,2025,2.2,Natural Gas Internal Combustion Engine,OP,2030,5,Retired
+917/1,2025,9.4,Conventional Hydroelectric,OP,-,-,Retired
+948/8,2020,1.1,Petroleum Liquids,SB,-,-,Retired
+948/9,2020,2,Petroleum Liquids,SB,-,-,Retired

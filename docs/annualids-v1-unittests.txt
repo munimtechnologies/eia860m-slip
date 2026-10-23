@@ -1,0 +1,11 @@
+test_extra (test_annualids.CensusTests.test_extra) ... ok
+test_late_operating (test_annualids.CensusTests.test_late_operating) ... ok
+test_render (test_annualids.CensusTests.test_render) ... ok
+test_constants (test_annualids.HelperTests.test_constants) ... ok
+test_listed (test_annualids.HelperTests.test_listed) ... ok
+test_plant_rows (test_annualids.HelperTests.test_plant_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
