@@ -18,7 +18,11 @@ This README was shortened on 22 October 2026. The full earlier README (results 1
 
 **EIA's own November 2024 file leaves out 279 generators that the files before and after it list.** The October, November and December 2024 workbooks in PUDL's archive are byte-identical to EIA's own files. 277 of the 279 are on the Retired sheet (retired 2002 to 2014) and 2 move from planned to operating. Together they are 5,543.6 MW of nameplate capacity in December's rows. See the dated update in [`docs/heldtrace.md`](docs/heldtrace.md) and the raw output in [`docs/retiredgap-v1-output.md`](docs/retiredgap-v1-output.md).
 
+**EIA's annual and monthly retired lists differ by plant, not by generator.** EIA-860M's August 2026 Retired sheet lists 2,703 generators retired in 2002 to 2025 (87,678.1 MW) that the annual EIA-860 2025 file lists on no sheet, and every one of them is at a plant the annual file lists on no sheet. EIA documents that rule; [`docs/annualids.md`](docs/annualids.md) (thirtieth result, scored; 2 of 2 held) measures how much it leaves out.
+
 **An open month-to-month changelog rebuilt from EIA's own workbooks.** [`data/eia860m_changelog_from_workbooks.csv.gz`](data/eia860m_changelog_from_workbooks.csv.gz) has 117,110 rows from July 2015 to August 2026. It records a row when a generator is first listed, changes status, planned month, MW or sheet, leaves the workbook, or comes back, and it keeps values that come back. It is preliminary: read the known limits in [`docs/eia860m-changelog-from-workbooks.md`](docs/eia860m-changelog-from-workbooks.md) before using it.
+
+**Each new month, scored on release.** [`docs/sep2026-plan.md`](docs/sep2026-plan.md) set four bars for EIA's September 2026 workbook before EIA published it: the file reads cleanly and lists within 3% as many generators as August's, at most 50 generators leave, fewer than 10 of them leave from the Retired sheet, and the share of generators planned for September that September lists as operating lies between the second lowest and the second highest of the 24 months before. The scored result will be a new note, and the changelog will grow by a month if the first bar holds. Not yet scored.
 
 ## All results
 
@@ -55,8 +59,11 @@ Scored results were checked against predictions fixed before the job ran. Descri
 | | Were the annual EIA-860's plan-only generators already in its early release? (0 of 3 held) | [`er-plan.md`](docs/er-plan.md) |
 | 28 | PUDL's EIA-860M changelog drops a value that comes back (4 of 4 held) | [`changelog-revert.md`](docs/changelog-revert.md) |
 | 29 | How far back PUDL's EIA-860M changelog keeps stale values (4 of 5 held) | [`history-revert.md`](docs/history-revert.md) |
+| 30 | Retired generators only the monthly file lists are at plants the annual file no longer lists (2 of 2 held) | [`annualids.md`](docs/annualids.md) |
 
-Descriptive follow-ups: [`stage-leadtime-cells.md`](docs/stage-leadtime-cells.md) (which plants fill the stage-by-lead cells), [`workbook-route.md`](docs/workbook-route.md) (building the watchlist from EIA's own workbook on release day), [`watchlist.md`](docs/watchlist.md) (how to read the EIA-860M watchlist tool's editions), and [`heldtrace.md`](docs/heldtrace.md) (where the twenty-ninth result's misses come from, and the November 2024 gap).
+Pre-registered, not yet scored: [`sep2026-plan.md`](docs/sep2026-plan.md) (EIA's September 2026 workbook against four bars, scored by `tools/annual-flows-candidate/monthcheck.py`).
+
+Descriptive follow-ups: [`stage-leadtime-cells.md`](docs/stage-leadtime-cells.md) (which plants fill the stage-by-lead cells), [`workbook-route.md`](docs/workbook-route.md) (building the watchlist from EIA's own workbook on release day), [`watchlist.md`](docs/watchlist.md) (how to read the EIA-860M watchlist tool's editions), and [`heldtrace.md`](docs/heldtrace.md) (where the twenty-ninth result's misses come from, and the November 2024 gap; its later dated updates follow every generator that left the monthly workbook from July 2015 to August 2026, the scope of its Retired sheet, and EIA's annual EIA-860 files).
 
 Every note says what failed as plainly as what held. Corrections are made openly, in dated sections; old claims are not rewritten silently.
 
