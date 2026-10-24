@@ -1,0 +1,16 @@
+test_cells (test_nextheld.HelperTests.test_cells) ... ok
+test_fixture (test_nextheld.HelperTests.test_fixture) ... ok
+test_known_months (test_nextheld.HelperTests.test_known_months) ... ok
+test_main_error (test_nextheld.RunTests.test_main_error) ... ok
+test_main_local (test_nextheld.RunTests.test_main_local) ... ok
+test_wait_plan (test_nextheld.RunTests.test_wait_plan) ... ok
+test_c1_fails (test_nextheld.ScoreTests.test_c1_fails) ... ok
+test_failures (test_nextheld.ScoreTests.test_failures) ... ok
+test_score_holds (test_nextheld.ScoreTests.test_score_holds) ... ok
+test_too_few (test_nextheld.ScoreTests.test_too_few) ... ok
+test_tables (test_nextheld.TableTests.test_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.021s
+
+OK

@@ -1,9 +1,9 @@
-"""Doc test: what README.md says about the thirtieth to thirty-sixth results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-seventh results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
 docs/retiredentry.md, docs/nexttech-plan.md, docs/nexttech.md, docs/nexttechonce-plan.md,
 docs/nexttechonce.md, docs/nextcount-plan.md, docs/nextcount.md, docs/nextheld-plan.md,
-docs/eia860m-changelog-from-workbooks.md).
+docs/nextheld.md, docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -152,6 +152,16 @@ class ReadmeIndexTests(unittest.TestCase):
         self.assertIn("| solar | 0.361 (536 of 1,483) | 0.332 (265 of 797) |", doc)
         self.assertIn("| batteries | 0.278 (143 of 514) | 0.309 (129 of 417) |", doc)
 
+    def test_nextheld(self):
+        doc = read("docs", "nextheld.md")
+        self.assertIn("3 of 3 predictions held, and the reproduction check C1 held.", doc)
+        self.assertIn("(thirty-seventh result, scored against [`docs/nextheld-plan.md`](docs/nextheld-plan.md); "
+                      "3 of 3 held)", self.readme)
+        for s in ("| held | 0.270 (66 of 244) against 0.304 (144 of 473) |",
+                  "| held | 0.347 (166 of 479) against 0.249 (43 of 173) |", "0.308 (222 of 721) against 0.304",
+                  "The H1 gap comes from 5 or more earlier listings: 0.163 (15 of 92).", "the gap only 0.009"):
+            self.assertIn(s, doc)
+
     def test_plans_not_scored(self):
         for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md",
                      "nexttechonce-plan.md", "nextcount-plan.md", "nextheld-plan.md"):
@@ -163,9 +173,10 @@ class ReadmeIndexTests(unittest.TestCase):
         self.assertNotIn("and [`nexttechonce-plan.md`](docs/nexttechonce-plan.md) (whether", self.readme)
         self.assertNotIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall", self.readme)
         self.assertNotIn("Also [`nextcount-plan.md`](docs/nextcount-plan.md) (whether", self.readme)
-        self.assertIn("Also [`nextheld-plan.md`](docs/nextheld-plan.md) (whether the thirty-sixth result's pattern "
-                      "holds in the next-month groups of January to August 2026, three bars).", self.readme)
-        self.assertIn("is pre-registered in [`docs/nextheld-plan.md`](docs/nextheld-plan.md).", self.readme)
+        # Scored on 24 October 2026 (docs/nextheld.md), so it left the README's list of plans not yet scored.
+        self.assertNotIn("Also [`nextheld-plan.md`](docs/nextheld-plan.md) (whether", self.readme)
+        self.assertIn("was pre-registered in [`docs/nextheld-plan.md`](docs/nextheld-plan.md) and is scored in the "
+                      "thirty-seventh result.", self.readme)
         once = read("docs", "nexttechonce-plan.md")
         for s in ("**C0.**", "**O1.**", "**O2.**", "**O3.**", "**O4.**", "1,980 of 4,223", "2,110 of 6,047",
                   "(0.456, then 0.455)", "102 of the 743 gas generator-months", "14,807 rows", "within 0.05"):
@@ -213,7 +224,7 @@ class ReadmeIndexTests(unittest.TestCase):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
                      "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
                      "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "nexttechonce.md",
-                     "nextcount-plan.md", "nextcount.md", "nextheld-plan.md",
+                     "nextcount-plan.md", "nextcount.md", "nextheld-plan.md", "nextheld.md",
                      "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
