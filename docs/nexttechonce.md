@@ -45,6 +45,8 @@ Counted in generator-months the share fell by 0.120; counted once per generator 
 
 Repeat listings also changed in how often they were met. Within each period, the listings after a generator's first one in that period were on time 0.477 (974 of 2,044) in 2016-2019 and 0.340 (1,195 of 3,515) in 2022-2025, against 0.462 and 0.361 for first listings. So in 2016-2019 a generator planned for the next month again was a little more likely to make it than one planned for the first time, and in 2022-2025 a little less likely. Both gaps are small and were not tested in advance.
 
+*Corrected on 24 October 2026: the rise in the number of repeat listings explains almost none of the gap between the two falls; their steeper fall does. See the update at the end of this note.*
+
 ## O3: gas rose, and plant 60264 still decides the verdict
 
 Counting each generator once, gas's share rose from 0.443 to 0.500, by 0.057. Plant 60264's 12 combustion turbines are now 12 of the 325 gas generators of 2016-2019, and none was listed as operating in its first planned month (June 2016 for CLGT1 to CLGT6, January 2017 for BCGT1 to BCGT6). Without the plant, gas's 2016-2019 share is 0.460 (144 of 313), and the rise is 0.040, inside the band. The plan did not exclude any plant, so O3 failed as scored. What it shows is that the gas rise is small and rests on one plant, not that gas got much more punctual; gas's two highest years by generator-month are 2025 and 2026, on small cohorts (`docs/nexttech.md`).
@@ -65,3 +67,14 @@ Counting each generator once, gas's share rose from 0.443 to 0.500, by 0.057. Pl
 
 - EIA, Preliminary Monthly Electric Generator Inventory (EIA-860M): https://www.eia.gov/electricity/data/eia860m/
 - EIA, Today in Energy, 10 November 2025, "Fewer U.S. solar projects are reporting delays in their expected online date": https://www.eia.gov/todayinenergy/detail.php?id=66604
+
+## Update, 24 October 2026: more repeat listings explain almost none of the extra fall
+
+Two sentences above give the wrong cause. The section on repeat listings says "more repeat listings pull the generator-month share down further", and the section on what is new says the rise in repeat listings "is part of why the generator-month series fell as far as it did". Splitting each period's generator-months into first listings and repeat listings, with the counts above, shows that the rise in how many listings were repeats did almost none of it. What made the generator-month fall larger is that repeat listings were met much less often than before. Every count and share above is unchanged; the doc test [`test_nexttechonce_update_doc.py`](../test_nexttechonce_update_doc.py) recomputes the numbers below from [`data/nexttech_cohort.csv`](../data/nexttech_cohort.csv).
+
+- Repeat listings were 48.4% of the generator-months of 2016-2019 (2,044 of 4,223) and 58.1% of those of 2022-2025 (3,515 of 6,047).
+- With 2016-2019's mix of first and repeat listings, 2022-2025's generator-month share would be 0.351 instead of 0.349. The change in mix accounts for 0.002 of the 0.120 fall, under 2%; about 98% is the fall inside each kind of listing.
+- Weighted the other way, with 2022-2025's mix, 2016-2019's share would have been 0.470 instead of 0.469: slightly higher, because in 2016-2019 repeat listings were met slightly more often than first ones.
+- The share of repeat listings met fell by 0.137 (0.477 to 0.340), against 0.100 for first listings (0.462 to 0.361). That steeper fall is what makes the generator-month fall larger than the fall counted once per generator.
+
+More listings per generator pull the generator-month share down only when repeat listings are met less often than first ones. That was true in 2022-2025 but not in 2016-2019, so the growth in repeat listings matters little for the change between the two periods. This is arithmetic on the published counts, not a pre-registered test, and the limits above apply to it.
