@@ -1,0 +1,18 @@
+test_annotate (test_nextcount.HelperTests.test_annotate) ... ok
+test_bins (test_nextcount.HelperTests.test_bins) ... ok
+test_by_bin (test_nextcount.HelperTests.test_by_bin) ... ok
+test_months (test_nextcount.HelperTests.test_months) ... ok
+test_slip_fixture (test_nextcount.HelperTests.test_slip_fixture) ... ok
+test_main_error (test_nextcount.RunTests.test_main_error) ... ok
+test_main_local (test_nextcount.RunTests.test_main_local) ... ok
+test_wait_plan (test_nextcount.RunTests.test_wait_plan) ... ok
+test_c0_fails (test_nextcount.ScoreTests.test_c0_fails) ... ok
+test_failures (test_nextcount.ScoreTests.test_failures) ... ok
+test_score_holds (test_nextcount.ScoreTests.test_score_holds) ... ok
+test_too_few (test_nextcount.ScoreTests.test_too_few) ... ok
+test_tables (test_nextcount.TableTests.test_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.037s
+
+OK

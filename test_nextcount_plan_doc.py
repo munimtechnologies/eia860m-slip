@@ -93,8 +93,9 @@ class NextcountPlanDocTests(unittest.TestCase):
                       "less often than before (0.477 to 0.340, against 0.462 to 0.361 for first listings); see the "
                       "dated update at the end of the note.*", self.readme)
         self.assertIn("is pre-registered in [`docs/nextcount-plan.md`](docs/nextcount-plan.md).", self.readme)
-        self.assertIn("Also [`nextcount-plan.md`](docs/nextcount-plan.md) (whether the next-month share falls with "
-                      "the number of times a generator was planned for the next month before, three bars).",
+        # Scored on 24 October 2026 (docs/nextcount.md), so it left the README's list of plans not yet scored.
+        self.assertNotIn("Also [`nextcount-plan.md`](docs/nextcount-plan.md) (whether", self.readme)
+        self.assertIn("(thirty-sixth result, scored against [`docs/nextcount-plan.md`](docs/nextcount-plan.md);",
                       self.readme)
 
 

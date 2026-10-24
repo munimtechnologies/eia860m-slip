@@ -1,8 +1,9 @@
-"""Doc test: what README.md says about the thirtieth to thirty-fifth results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-sixth results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
 docs/retiredentry.md, docs/nexttech-plan.md, docs/nexttech.md, docs/nexttechonce-plan.md,
-docs/nexttechonce.md, docs/eia860m-changelog-from-workbooks.md).
+docs/nexttechonce.md, docs/nextcount-plan.md, docs/nextcount.md, docs/nextheld-plan.md,
+docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -133,9 +134,27 @@ class ReadmeIndexTests(unittest.TestCase):
                   "in 2.39 monthly reports on average, against 1.94 in 2016-2019"):
             self.assertIn(s, doc)
 
+    def test_nextcount(self):
+        doc = read("docs", "nextcount.md")
+        self.assertIn("2 of 3 predictions held, and the reproduction check C0 held. K2 failed", doc)
+        self.assertIn("| 36 | After three or more earlier misses, a generator planned for the next month is on time less "
+                      "often, and that gap is new since 2016-2019 (2 of 3 held) | [`nextcount.md`](docs/nextcount.md) |",
+                      self.readme)
+        for s in ("| 0 | 0.459 (969 of 2,110) | 0.362 (866 of 2,393) |", "| 1 | 0.489 (532 of 1,087) | 0.365 (515 of 1,412) |",
+                  "| 2 | 0.484 (253 of 523) | 0.357 (301 of 844) |", "| 3+ | 0.449 (226 of 503) | 0.306 (428 of 1,398) |",
+                  "| held | 0.010 against 0.056 |", "| 1 month | 0.499 (746 of 1,494) | 0.390 (878 of 2,254) |",
+                  "| 2-3 months | 0.492 (225 of 457) | 0.260 (231 of 890) |", "gas and wind give 0.042"):
+            self.assertIn(s, doc)
+        self.assertIn("the gas plant that skews 2016-2019 does not cause that", self.readme)
+        self.assertIn("It works the other way: its 66 generator-months there were on time 6 times.", doc)
+        self.assertIn("for solar it is small, and batteries go the other way. These splits were reported, not scored.",
+                      self.readme)
+        self.assertIn("| solar | 0.361 (536 of 1,483) | 0.332 (265 of 797) |", doc)
+        self.assertIn("| batteries | 0.278 (143 of 514) | 0.309 (129 of 417) |", doc)
+
     def test_plans_not_scored(self):
         for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md",
-                     "nexttechonce-plan.md"):
+                     "nexttechonce-plan.md", "nextcount-plan.md", "nextheld-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
         self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md) (whether December "
                       "2026 has the largest next-month group of 2026 and a share above the year's, two bars) and "
@@ -143,6 +162,10 @@ class ReadmeIndexTests(unittest.TestCase):
                       "scored on release against five bars", self.readme)
         self.assertNotIn("and [`nexttechonce-plan.md`](docs/nexttechonce-plan.md) (whether", self.readme)
         self.assertNotIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall", self.readme)
+        self.assertNotIn("Also [`nextcount-plan.md`](docs/nextcount-plan.md) (whether", self.readme)
+        self.assertIn("Also [`nextheld-plan.md`](docs/nextheld-plan.md) (whether the thirty-sixth result's pattern "
+                      "holds in the next-month groups of January to August 2026, three bars).", self.readme)
+        self.assertIn("is pre-registered in [`docs/nextheld-plan.md`](docs/nextheld-plan.md).", self.readme)
         once = read("docs", "nexttechonce-plan.md")
         for s in ("**C0.**", "**O1.**", "**O2.**", "**O3.**", "**O4.**", "1,980 of 4,223", "2,110 of 6,047",
                   "(0.456, then 0.455)", "102 of the 743 gas generator-months", "14,807 rows", "within 0.05"):
@@ -190,6 +213,7 @@ class ReadmeIndexTests(unittest.TestCase):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
                      "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
                      "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "nexttechonce.md",
+                     "nextcount-plan.md", "nextcount.md", "nextheld-plan.md",
                      "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
