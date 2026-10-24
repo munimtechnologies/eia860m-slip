@@ -1,0 +1,30 @@
+test_differs (test_monthrun.BandTests.test_differs) ... ok
+test_no_plan_band (test_monthrun.BandTests.test_no_plan_band) ... ok
+test_same (test_monthrun.BandTests.test_same) ... ok
+test_by_tech (test_monthrun.CohortTests.test_by_tech) ... ok
+test_by_tech_missing_technology (test_monthrun.CohortTests.test_by_tech_missing_technology) ... ok
+test_first_listing (test_monthrun.CohortTests.test_first_listing) ... ok
+test_all_same (test_monthrun.ExpectTests.test_all_same) ... ok
+test_no_expectation (test_monthrun.ExpectTests.test_no_expectation) ... ok
+test_one_differs (test_monthrun.ExpectTests.test_one_differs) ... ok
+test_target_missing (test_monthrun.ExpectTests.test_target_missing) ... ok
+test_month_bytes (test_monthrun.FileTests.test_month_bytes) ... ok
+test_scan_month_bad_bytes (test_monthrun.FileTests.test_scan_month_bad_bytes) ... ok
+test_consecutive (test_monthrun.MonthsTests.test_consecutive) ... ok
+test_gap (test_monthrun.MonthsTests.test_gap) ... ok
+test_none (test_monthrun.MonthsTests.test_none) ... ok
+test_year_end (test_monthrun.MonthsTests.test_year_end) ... ok
+test_rule (test_monthrun.P5Tests.test_rule) ... ok
+test_constants (test_monthrun.S3Tests.test_constants) ... ok
+test_listed_again (test_monthrun.S3Tests.test_listed_again) ... ok
+test_current_address (test_wait_eia.ServedTests.test_current_address) ... ok
+test_error_recorded (test_wait_eia.ServedTests.test_error_recorded) ... ok
+test_deadline (test_wait_eia.UrlTests.test_deadline) ... ok
+test_urls (test_wait_eia.UrlTests.test_urls) ... ok
+test_deadline (test_wait_eia.WaitTests.test_deadline) ... ok
+test_served_on_third_try (test_wait_eia.WaitTests.test_served_on_third_try) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.005s
+
+OK

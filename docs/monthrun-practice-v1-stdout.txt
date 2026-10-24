@@ -1,0 +1,230 @@
+2015-07 eia860m-2015-07.xlsx keys 23988 readable True 2.8s
+2015-08 eia860m-2015-08.xlsx keys 23986 readable True 2.8s
+2015-09 eia860m-2015-09.xlsx keys 23982 readable True 3.0s
+2015-10 eia860m-2015-10.xlsx keys 23974 readable True 3.0s
+2015-11 eia860m-2015-11.xlsx keys 24104 readable True 2.8s
+2015-12 eia860m-2015-12.xlsx keys 24151 readable True 3.4s
+2016-01 eia860m-2016-01.xlsx keys 24174 readable True 3.4s
+2016-02 eia860m-2016-02.xlsx keys 24333 readable True 3.3s
+2016-03 eia860m-2016-03.xlsx keys 24439 readable True 3.4s
+2016-04 eia860m-2016-04.xlsx keys 24503 readable True 3.4s
+2016-05 eia860m-2016-05.xlsx keys 24532 readable True 3.4s
+2016-06 eia860m-2016-06.xlsx keys 24568 readable True 3.6s
+2016-07 eia860m-2016-07.xlsx keys 24592 readable True 3.9s
+2016-08 eia860m-2016-08.xlsx keys 24620 readable True 3.7s
+2016-09 eia860m-2016-09.xlsx keys 24612 readable True 3.7s
+2016-10 eia860m-2016-10.xlsx keys 24612 readable True 3.7s
+2016-11 eia860m-2016-11.xlsx keys 24600 readable True 3.8s
+2016-12 eia860m-2016-12.xlsx keys 25157 readable True 4.0s
+2017-01 eia860m-2017-01.xlsx keys 25155 readable True 4.4s
+2017-02 eia860m-2017-02.xlsx keys 25317 readable True 5.8s
+2017-03 eia860m-2017-03.xlsx keys 26092 readable True 5.7s
+2017-04 eia860m-2017-04.xlsx keys 26234 readable True 5.5s
+2017-05 eia860m-2017-05.xlsx keys 26239 readable True 5.9s
+2017-06 eia860m-2017-06.xlsx keys 26340 readable True 5.7s
+2017-07 eia860m-2017-07.xlsx keys 26441 readable True 5.5s
+2017-08 eia860m-2017-08.xlsx keys 26530 readable True 5.6s
+2017-09 eia860m-2017-09.xlsx keys 26645 readable True 5.8s
+2017-10 eia860m-2017-10.xlsx keys 26675 readable True 5.7s
+2017-11 eia860m-2017-11.xlsx keys 26727 readable True 5.9s
+2017-12 eia860m-2017-12.xlsx keys 26817 readable True 6.4s
+2018-01 eia860m-2018-01.xlsx keys 26884 readable True 6.6s
+2018-02 eia860m-2018-02.xlsx keys 26965 readable True 6.2s
+2018-03 eia860m-2018-03.xlsx keys 27026 readable True 5.9s
+2018-04 eia860m-2018-04.xlsx keys 27071 readable True 7.0s
+2018-05 eia860m-2018-05.xlsx keys 27135 readable True 7.0s
+2018-06 eia860m-2018-06.xlsx keys 27185 readable True 6.3s
+2018-07 eia860m-2018-07.xlsx keys 27238 readable True 6.8s
+2018-08 eia860m-2018-08.xlsx keys 27329 readable True 6.6s
+2018-09 eia860m-2018-09.xlsx keys 27438 readable True 7.2s
+2018-10 eia860m-2018-10.xlsx keys 27463 readable True 6.3s
+2018-11 eia860m-2018-11.xlsx keys 27598 readable True 6.2s
+2018-12 eia860m-2018-12.xlsx keys 27740 readable True 6.1s
+2019-01 eia860m-2019-01.xlsx keys 27916 readable True 6.0s
+2019-02 eia860m-2019-02.xlsx keys 28006 readable True 6.3s
+2019-03 eia860m-2019-03.xlsx keys 28079 readable True 6.2s
+2019-04 eia860m-2019-04.xlsx keys 28174 readable True 7.2s
+2019-05 eia860m-2019-05.xlsx keys 28293 readable True 8.8s
+2019-06 eia860m-2019-06.xlsx keys 28409 readable True 7.2s
+2019-07 eia860m-2019-07.xlsx keys 28443 readable True 7.6s
+2019-08 eia860m-2019-08.xlsx keys 28595 readable True 6.6s
+2019-09 eia860m-2019-09.xlsx keys 28721 readable True 6.7s
+2019-10 eia860m-2019-10.xlsx keys 28796 readable True 6.6s
+2019-11 eia860m-2019-11.xlsx keys 28924 readable True 6.4s
+2019-12 eia860m-2019-12.xlsx keys 28982 readable True 6.9s
+2020-01 eia860m-2020-01.xlsx keys 29107 readable True 6.8s
+2020-02 eia860m-2020-02.xlsx keys 29229 readable True 7.1s
+2020-03 eia860m-2020-03.xlsx keys 29314 readable True 7.2s
+2020-04 eia860m-2020-04.xlsx keys 29402 readable True 7.0s
+2020-05 eia860m-2020-05.xlsx keys 29485 readable True 7.1s
+2020-06 eia860m-2020-06.xlsx keys 29569 readable True 7.4s
+2020-07 eia860m-2020-07.xlsx keys 29627 readable True 6.9s
+2020-08 eia860m-2020-08.xlsx keys 29708 readable True 6.9s
+2020-09 eia860m-2020-09.xlsx keys 29790 readable True 6.7s
+2020-10 eia860m-2020-10.xlsx keys 29879 readable True 7.2s
+2020-11 eia860m-2020-11.xlsx keys 29978 readable True 6.9s
+2020-12 eia860m-2020-12.xlsx keys 30095 readable True 6.9s
+2021-01 eia860m-2021-01.xlsx keys 30201 readable True 6.7s
+2021-02 eia860m-2021-02.xlsx keys 30310 readable True 7.0s
+2021-03 eia860m-2021-03.xlsx keys 30394 readable True 6.5s
+2021-04 eia860m-2021-04.xlsx keys 30482 readable True 6.5s
+2021-05 eia860m-2021-05.xlsx keys 30541 readable True 6.6s
+2021-06 eia860m-2021-06.xlsx keys 30658 readable True 7.7s
+2021-07 eia860m-2021-07.xlsx keys 30737 readable True 7.9s
+2021-08 eia860m-2021-08.xlsx keys 30775 readable True 6.6s
+2021-09 eia860m-2021-09.xlsx keys 31146 readable True 6.5s
+2021-10 eia860m-2021-10.xlsx keys 31216 readable True 7.0s
+2021-11 eia860m-2021-11.xlsx keys 31313 readable True 7.2s
+2021-12 eia860m-2021-12.xlsx keys 31420 readable True 6.7s
+2022-01 eia860m-2022-01.xlsx keys 31558 readable True 7.0s
+2022-02 eia860m-2022-02.xlsx keys 31623 readable True 7.0s
+2022-03 eia860m-2022-03.xlsx keys 31940 readable True 7.3s
+2022-04 eia860m-2022-04.xlsx keys 32019 readable True 7.3s
+2022-05 eia860m-2022-05.xlsx keys 32050 readable True 7.3s
+2022-06 eia860m-2022-06.xlsx keys 32057 readable True 7.6s
+2022-07 eia860m-2022-07.xlsx keys 32125 readable True 7.9s
+2022-08 eia860m-2022-08.xlsx keys 32297 readable True 7.3s
+2022-09 eia860m-2022-09.xlsx keys 32277 readable True 7.4s
+2022-10 eia860m-2022-10.xlsx keys 32371 readable True 8.0s
+2022-11 eia860m-2022-11.xlsx keys 32418 readable True 7.9s
+2022-12 eia860m-2022-12.xlsx keys 32488 readable True 7.1s
+2023-01 eia860m-2023-01.xlsx keys 32618 readable True 7.3s
+2023-02 eia860m-2023-02.xlsx keys 32739 readable True 7.5s
+2023-03 eia860m-2023-03.xlsx keys 32950 readable True 7.2s
+2023-04 eia860m-2023-04.xlsx keys 33187 readable True 7.5s
+2023-05 eia860m-2023-05.xlsx keys 33217 readable True 7.2s
+2023-06 eia860m-2023-06.xlsx keys 33300 readable True 8.3s
+2023-07 eia860m-2023-07.xlsx keys 33421 readable True 7.7s
+2023-08 eia860m-2023-08.xlsx keys 33529 readable True 7.3s
+2023-09 eia860m-2023-09.xlsx keys 33551 readable True 7.5s
+2023-10 eia860m-2023-10.xlsx keys 33582 readable True 7.7s
+2023-11 eia860m-2023-11.xlsx keys 33636 readable True 7.4s
+2023-12 eia860m-2023-12.xlsx keys 33719 readable True 7.6s
+2024-01 eia860m-2024-01.xlsx keys 33791 readable True 7.8s
+2024-02 eia860m-2024-02.xlsx keys 33953 readable True 8.7s
+2024-03 eia860m-2024-03.xlsx keys 34138 readable True 8.1s
+2024-04 eia860m-2024-04.xlsx keys 34319 readable True 7.7s
+2024-05 eia860m-2024-05.xlsx keys 34443 readable True 8.0s
+2024-06 eia860m-2024-06.xlsx keys 34511 readable True 8.1s
+2024-07 eia860m-2024-07.xlsx keys 34649 readable True 7.8s
+2024-08 eia860m-2024-08.xlsx keys 34741 readable True 8.5s
+2024-09 eia860m-2024-09.xlsx keys 34825 readable True 9.0s
+2024-10 eia860m-2024-10.xlsx keys 35035 readable True 8.8s
+2024-11 eia860m-2024-11.xlsx keys 34983 readable True 9.0s
+2024-12 eia860m-2024-12.xlsx keys 35445 readable True 8.3s
+2025-01 eia860m-2025-01.xlsx keys 35599 readable True 7.9s
+2025-02 eia860m-2025-02.xlsx keys 35727 readable True 8.1s
+2025-03 eia860m-2025-03.xlsx keys 35906 readable True 8.7s
+2025-04 eia860m-2025-04.xlsx keys 36000 readable True 9.1s
+2025-05 eia860m-2025-05.xlsx keys 36064 readable True 8.2s
+2025-06 eia860m-2025-06.xlsx keys 36138 readable True 8.2s
+2025-07 eia860m-2025-07.xlsx keys 36187 readable True 8.8s
+2025-08 eia860m-2025-08.xlsx keys 36227 readable True 8.2s
+2025-09 eia860m-2025-09.xlsx keys 36338 readable True 8.1s
+2025-10 eia860m-2025-10.xlsx keys 36514 readable True 9.3s
+2025-11 eia860m-2025-11.xlsx keys 36588 readable True 9.4s
+2025-12 eia860m-2025-12.xlsx keys 36734 readable True 9.0s
+2026-01 eia860m-2026-01.xlsx keys 36865 readable True 8.8s
+2026-02 eia860m-2026-02.xlsx keys 36890 readable True 9.0s
+2026-03 eia860m-2026-03.xlsx keys 37404 readable True 9.4s
+2026-04 eia860m-2026-04.xlsx keys 37480 readable True 8.9s
+2026-05 eia860m-2026-05.xlsx keys 37629 readable True 10.2s
+2026-06 eia860m-2026-06.xlsx keys 37779 readable True 9.4s
+2026-07 eia860m-2026-07.xlsx keys 37957 readable True 9.1s
+2026-08 eia860m-2026-08.xlsx keys 38011 readable True 9.4s
+2026-10-24T05:29:41Z 2026-08: 13955142 bytes, md5 9727ac867236faab7d5503175dacdf38, keys 38011, rows appended 474
+2026-10-24T05:29:51Z 2026-09: 14013970 bytes, md5 4c741eb77a5ccad5aca32ffe43f398af, keys 38162, rows appended 646
+# monthrun 0.1.0: EIA-860M 2026-09
+
+Pre-registration: docs/oct2026-plan.md. Mode: practice (the month is in the published changelog). MV2 of Munim, Inc. (made with AI agents).
+
+## Files
+
+Archive replayed through 2026-07 (133 months; not readable: none).
+
+| month | url | bytes | md5 | archive md5 | same as archive | readable | keys | rows appended | events | errors and problems |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-08 | https://www.eia.gov/electricity/data/eia860m/archive/xls/august_generator2026.xlsx | 13955142 | 9727ac867236faab7d5503175dacdf38 | 9727ac867236faab7d5503175dacdf38 | True | True | 38011 | 474 | back 3, changed 402, first 60, left 9 | none |
+| 2026-09 | https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx | 14013970 | 4c741eb77a5ccad5aca32ffe43f398af | - | - | True | 38162 | 646 | back 1, changed 455, first 170, left 20 | https://www.eia.gov/electricity/data/eia860m/archive/xls/september_generator2026.xlsx: not an xlsx file (first bytes b'<!doctype html>\r') |
+
+## C0: rebuilt changelog against the published copy
+
+Published: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/a3ce0851c47d820ba5f8a0556358b4abef960909/data/eia860m_changelog_from_workbooks.csv.gz (1054060 bytes, md5 4fb178fbed7052b9e6618b481cab94f8). Same text through 2026-09: True. Lines: published 117757, rebuilt 117757. First difference: none.
+
+Rebuilt rows, all months: 117756 (eia860m_changelog_from_workbooks.csv.gz).
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| P1 | held | listed 38162 vs 38011 in 2026-08 (+0.40%); readable True | readable; listed within 3% of the month before |
+| P2 | held | 20 left | at most 50 |
+| P3 | failed | 16 left from Retired | fewer than 10 |
+| P4 | held | 0.3353 (57 of 170) | 0.2195 to 0.4740 (2024-09 to 2026-08) |
+| P5 | held | 0 rows | no row on any sheet, plant id or not, nuclear and retired before 2002 |
+
+Held: 4 of 5 scored.
+
+## S3 (docs/sepretired-plan.md)
+
+Of the 16 generators that left the Retired sheet in September 2026, listed in 2026-09: 0 (none). Bar: at most 3. held.
+
+## Nuclear rows retired before 2002, every sheet, plant id or not
+
+| month | source | nuclear rows | retired before 2002 | also on a Retired sheet with no year |
+|---|---|---|---|---|
+| 2026-08 | EIA's site | 156 | 28 | 0 |
+| 2026-09 | EIA's site | 128 | 0 | 0 |
+
+## The 2026-09 next-month cohort
+
+Generators that the month before listed on the Planned sheet with planned operating month 2026-09: 170 (13854.0 MW); listed as operating in 2026-09: 57. Still planned for a later month: 106.
+
+| where now | generators | MW |
+|---|---|---|
+| Operating | 57 | 4403.3 |
+| Planned | 112 | 9420.7 |
+| Retired | 0 | 0.0 |
+| other | 0 | 0.0 |
+| absent | 1 | 30.0 |
+
+### By technology group and listing (reported, not scored)
+
+Technology from 2026-08's file (EIA's site); cohort generators it does not list: 0. first: in a next-month cohort for the first time since July 2015; repeat: in an earlier month's cohort too.
+
+| technology | listing | cohort | operating | share |
+|---|---|---|---|---|
+| solar | first | 41 | 16 | 0.3902 |
+| solar | repeat | 68 | 21 | 0.3088 |
+| solar | all | 109 | 37 | 0.3394 |
+| batteries | first | 16 | 6 | 0.3750 |
+| batteries | repeat | 27 | 9 | 0.3333 |
+| batteries | all | 43 | 15 | 0.3488 |
+| gas | repeat | 7 | 1 | 0.1429 |
+| gas | all | 7 | 1 | 0.1429 |
+| wind | first | 4 | 4 | 1.0000 |
+| wind | repeat | 1 | 0 | 0.0000 |
+| wind | all | 5 | 4 | 0.8000 |
+| other | repeat | 6 | 0 | 0.0000 |
+| other | all | 6 | 0 | 0.0000 |
+| all | first | 61 | 26 | 0.4262 |
+| all | repeat | 109 | 31 | 0.2844 |
+| all | all | 170 | 57 | 0.3353 |
+
+## Practice check against the published numbers
+
+| item | expected | got | same |
+|---|---|---|---|
+| listed | 38162 | 38162 | True |
+| listed_before | 38011 | 38011 | True |
+| left | 20 | 20 | True |
+| left_retired | 16 | 16 | True |
+| cohort | 170 | 170 | True |
+| operating | 57 | 57 | True |
+| held | [True, True, False, True] | [True, True, False, True] | True |
+| p5 | 0 | 0 | True |
+| p5_before | 28 | 28 | True |
+| s3 | 0 | 0 | True |
+
+All the same: True.
+
