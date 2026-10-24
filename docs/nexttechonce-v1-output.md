@@ -1,0 +1,49 @@
+# nexttechonce 0.1.0: the next-month share by technology, each generator once per period
+
+Scores docs/nexttechonce-plan.md (C0, O1 to O4). MV2 of Munim, Inc. (made with AI agents).
+
+Cohort file: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/main/data/nexttech_cohort.csv (950816 bytes, md5 1681df9fdee9878ca2c359d1239c6467; 14807 rows).
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| C0 | held | 14807 rows; generator-months 1980 of 4223 and 2110 of 6047 | 14807 rows that reproduce 1980 of 4223 and 2110 of 6047 generator-months |
+| O1 | held | 0.4763 to 0.3596 (642 of 1348 to 557 of 1549) | solar share, each generator once, lower in 2022-2025 than in 2016-2019 (at least 30 in each) |
+| O2 | held | 0.3623 to 0.2815 (25 of 69 to 154 of 547) | batteries share, each generator once, lower in 2022-2025 than in 2016-2019 (at least 30 in each) |
+| O3 | failed | 0.4431 to 0.5000 (144 of 325 to 110 of 220) | gas share, each generator once, within 0.05 of its 2016-2019 share in 2022-2025 (at least 30 in each) |
+| O4 | held | within 0.0697 of total 0.1003 (shares 0.4617 to 0.3614; standardized 0.3920) | all-technology share, each generator once, falls, and the within-technology fall is at least half the total fall |
+
+Held: 3 of 4 scored (C0 is a check, not counted).
+
+## By period and technology
+
+| period | technology | generators | on time | share | generator-months | on time | share |
+|---|---|---|---|---|---|---|---|
+| 2016-01 to 2019-12 | solar | 1348 | 642 | 0.4763 | 2457 | 1243 | 0.5059 |
+| 2016-01 to 2019-12 | batteries | 69 | 25 | 0.3623 | 138 | 61 | 0.4420 |
+| 2016-01 to 2019-12 | gas | 325 | 144 | 0.4431 | 743 | 298 | 0.4011 |
+| 2016-01 to 2019-12 | wind | 243 | 116 | 0.4774 | 461 | 217 | 0.4707 |
+| 2016-01 to 2019-12 | other | 194 | 79 | 0.4072 | 424 | 161 | 0.3797 |
+| 2016-01 to 2019-12 | all | 2179 | 1006 | 0.4617 | 4223 | 1980 | 0.4689 |
+| 2022-01 to 2025-12 | solar | 1549 | 557 | 0.3596 | 3654 | 1292 | 0.3536 |
+| 2022-01 to 2025-12 | batteries | 547 | 154 | 0.2815 | 1515 | 453 | 0.2990 |
+| 2022-01 to 2025-12 | gas | 220 | 110 | 0.5000 | 420 | 191 | 0.4548 |
+| 2022-01 to 2025-12 | wind | 129 | 64 | 0.4961 | 268 | 108 | 0.4030 |
+| 2022-01 to 2025-12 | other | 87 | 30 | 0.3448 | 190 | 66 | 0.3474 |
+| 2022-01 to 2025-12 | all | 2532 | 915 | 0.3614 | 6047 | 2110 | 0.3489 |
+
+## The plant with the most generator-months in each group (reported, not scored)
+
+| period | technology | plant | generator-months | share without it |
+|---|---|---|---|---|
+| 2016-01 to 2019-12 | solar | 61177 | 25 | 0.5090 |
+| 2016-01 to 2019-12 | batteries | 61721 | 16 | 0.4262 |
+| 2016-01 to 2019-12 | gas | 60264 | 102 | 0.4555 |
+| 2016-01 to 2019-12 | wind | 61660 | 21 | 0.4864 |
+| 2016-01 to 2019-12 | other | 59614 | 40 | 0.3932 |
+| 2022-01 to 2025-12 | solar | 65070 | 34 | 0.3561 |
+| 2022-01 to 2025-12 | batteries | 64811 | 65 | 0.3117 |
+| 2022-01 to 2025-12 | gas | 10215 | 30 | 0.4897 |
+| 2022-01 to 2025-12 | wind | 63342 | 14 | 0.4252 |
+| 2022-01 to 2025-12 | other | 63622 | 16 | 0.3793 |

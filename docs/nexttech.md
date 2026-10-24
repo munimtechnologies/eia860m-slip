@@ -97,3 +97,7 @@ We found no published next-month share for EIA-860M split by technology, and no 
 - EIA, Today in Energy, 8 May 2024, "U.S. electric power sector reported fewer delays for new solar capacity projects in 2023": https://www.eia.gov/todayinenergy/detail.php?id=62003
 - EIA, Today in Energy, 10 November 2025, "Fewer U.S. solar projects are reporting delays in their expected online date": https://www.eia.gov/todayinenergy/detail.php?id=66604
 - EIA, Preliminary Monthly Electric Generator Inventory (EIA-860M): https://www.eia.gov/electricity/data/eia860m/
+
+## Update, 24 October 2026: counting each generator once
+
+The once-per-generator check pre-registered above is scored in [`docs/nexttechonce.md`](nexttechonce.md) (thirty-fifth result): 3 of 4 predictions held. Counting each generator once per period, solar and batteries still fall, and a little under 70% of the fall is inside technologies, against 79% in generator-months above. Gas still rises, by 0.057 against a band of 0.05; without plant 60264 the rise is 0.040. Repeat listings grew from 1.94 to 2.39 per generator, which is part of why the generator-month fall above is larger. Nothing above this section was changed.

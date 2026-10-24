@@ -1,0 +1,15 @@
+test_first_rows (test_nexttechonce.FirstRowTests.test_first_rows) ... ok
+test_frac_share (test_nexttechonce.FirstRowTests.test_frac_share) ... ok
+test_standardized (test_nexttechonce.FirstRowTests.test_standardized) ... ok
+test_top_plant (test_nexttechonce.FirstRowTests.test_top_plant) ... ok
+test_main_error (test_nexttechonce.RunTests.test_main_error) ... ok
+test_main_local (test_nexttechonce.RunTests.test_main_local) ... ok
+test_wait_plan (test_nexttechonce.RunTests.test_wait_plan) ... ok
+test_c0_fails (test_nexttechonce.ScoreTests.test_c0_fails) ... ok
+test_failures (test_nexttechonce.ScoreTests.test_failures) ... ok
+test_score_holds (test_nexttechonce.ScoreTests.test_score_holds) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.009s
+
+OK

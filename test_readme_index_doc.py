@@ -1,11 +1,12 @@
-"""Doc test: what README.md says about the thirtieth to thirty-fourth results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-fifth results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
 docs/retiredentry.md, docs/nexttech-plan.md, docs/nexttech.md, docs/nexttechonce-plan.md,
-docs/eia860m-changelog-from-workbooks.md).
+docs/nexttechonce.md, docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
+import csv
 import os
 import unittest
 
@@ -109,15 +110,38 @@ class ReadmeIndexTests(unittest.TestCase):
                   "from 12 generators", "| Natural Gas Fired Combustion Turbine |",
                   "0.456 (292 of 641) in 2016-2019 and 0.455 (191 of 420) in 2022-2025: flat."):
             self.assertIn(s, doc)
+        self.assertIn("## Update, 24 October 2026: counting each generator once", doc)
+        self.assertIn("is scored in [`docs/nexttechonce.md`](nexttechonce.md) (thirty-fifth result): 3 of 4 "
+                      "predictions held.", doc)
+
+    def test_nexttechonce(self):
+        doc = read("docs", "nexttechonce.md")
+        self.assertIn("3 of 4 predictions held, and the reproduction check C0 held. O3 failed", doc)
+        self.assertIn("| 35 | Counting each generator once, solar and batteries still fall and most of the fall is "
+                      "inside technologies; gas rises (3 of 4 held) | [`nexttechonce.md`](docs/nexttechonce.md) |",
+                      self.readme)
+        self.assertIn("(thirty-fifth result, scored against [`docs/nexttechonce-plan.md`](docs/nexttechonce-plan.md); "
+                      "3 of 4 held)", self.readme)
+        self.assertIn("**Counting each generator once, the split holds, and repeat listings grew.**", self.readme)
+        for s in ("Solar fell from 0.476 to 0.360 and batteries from 0.362 to 0.282",
+                  "a little under 70% of the fall is inside technologies", "gas rose by 0.057, against a band of 0.05",
+                  "the rise is 0.040", "in 2.39 monthly reports on average, against 1.94 in 2016-2019"):
+            self.assertIn(s, self.readme)
+        for s in ("| O1. Solar's share, each generator once, is lower in 2022-2025 | held | 0.476 (642 of 1,348) to "
+                  "0.360 (557 of 1,549) |", "| held | 0.362 (25 of 69) to 0.282 (154 of 547) |",
+                  "That is a little under 70% of the fall", "by 0.057", "and the rise is 0.040, inside the band",
+                  "in 2.39 monthly reports on average, against 1.94 in 2016-2019"):
+            self.assertIn(s, doc)
 
     def test_plans_not_scored(self):
         for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md",
                      "nexttechonce-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
-        self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md)", self.readme)
-        self.assertIn("and [`nexttechonce-plan.md`](docs/nexttechonce-plan.md) (whether the technology split holds "
-                      "when each generator counts once per period, four predictions and a reproduction check",
-                      self.readme)
+        self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md) (whether December "
+                      "2026 has the largest next-month group of 2026 and a share above the year's, two bars) and "
+                      "[`oct2026-plan.md`](docs/oct2026-plan.md) (EIA's October 2026 workbook, due 24 November 2026, "
+                      "scored on release against five bars", self.readme)
+        self.assertNotIn("and [`nexttechonce-plan.md`](docs/nexttechonce-plan.md) (whether", self.readme)
         self.assertNotIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall", self.readme)
         once = read("docs", "nexttechonce-plan.md")
         for s in ("**C0.**", "**O1.**", "**O2.**", "**O3.**", "**O4.**", "1,980 of 4,223", "2,110 of 6,047",
@@ -137,10 +161,36 @@ class ReadmeIndexTests(unittest.TestCase):
         self.assertIn("**S3.** At most 3 of the 16 are listed again", read("docs", "sepretired-plan.md"))
         self.assertIn("**R4.**", read("docs", "retiredentry-plan.md"))
 
+    def test_oct2026_plan(self):
+        plan = read("docs", "oct2026-plan.md")
+        self.assertIn("Status: pre-registered, not yet scored.", plan)
+        self.assertIn('"Next Release Date: November 24, 2026"', plan)
+        with open(os.path.join(HERE, "data", "monthcheck_months_2026-09.csv"), newline="", encoding="utf-8") as fh:
+            months = {r["month"]: r for r in csv.DictReader(fh)}
+        self.assertIn("within 3%% of September 2026's (%s)" % "{:,}".format(int(months["2026-09"]["listed"])), plan)
+        last12 = ["%d-%02d" % (2025 + (9 + i) // 12, (9 + i) % 12 + 1) for i in range(12)]
+        self.assertEqual((last12[0], last12[-1]), ("2025-10", "2026-09"))
+        left = [months[m]["left"] for m in last12]
+        self.assertIn("in the 12 months from October 2025 to September 2026, %s and %s generators left." % (
+            ", ".join(left[:-1]), left[-1]), plan)
+        self.assertEqual(max(int(x) for x in left), 50)
+        retired = {y: sum(int(r["left_retired"]) for m, r in months.items() if lo <= m <= hi)
+                   for y, (lo, hi) in (("2025", ("2025-01", "2025-12")), ("2026", ("2026-01", "2026-08")))}
+        self.assertEqual((retired["2025"], retired["2026"], months["2026-09"]["left_retired"]), (6, 1, "16"))
+        self.assertIn("6 such generators in all of 2025, 1 in January to August 2026, and 16 in September 2026", plan)
+        band = sorted((float(r["share_operating"]), m) for m, r in months.items() if "2024-10" <= m <= "2026-09")
+        self.assertEqual(len(band), 24)
+        self.assertEqual((band[1][1], band[-2][1]), ("2024-10", "2025-12"))
+        self.assertIn("that band is %.6f (October 2024) to %.6f (December 2025)" % (band[1][0], band[-2][0]), plan)
+        self.assertIn("0.219512 in October 2024 and %s in October 2025" % months["2025-10"]["share_operating"], plan)
+        for s in ("**P1.**", "**P2.**", "**P3.**", "**P4.**", "**P5.**", '"N of 5 held"', "Bar S3 of"):
+            self.assertIn(s, plan)
+
     def test_links_kept(self):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
                      "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
-                     "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "eia860m-changelog-from-workbooks.md"):
+                     "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "nexttechonce.md",
+                     "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
         self.assertIn("117,756 rows in all.", read("docs", "eia860m-changelog-from-workbooks.md"))
