@@ -1,7 +1,8 @@
-"""Doc test: what README.md says about the thirtieth to thirty-third results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-fourth results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
-docs/retiredentry.md, docs/eia860m-changelog-from-workbooks.md).
+docs/retiredentry.md, docs/nexttech-plan.md, docs/nexttech.md, docs/nexttechonce-plan.md,
+docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -88,19 +89,47 @@ class ReadmeIndexTests(unittest.TestCase):
                   "we missed that when we wrote the plan"):
             self.assertIn(s, doc)
 
+    def test_nexttech(self):
+        doc = read("docs", "nexttech.md")
+        self.assertIn("3 of 4 predictions held, and the reproduction check T0 held. T2 failed", doc)
+        self.assertIn("| 34 | Most of the fall in the next-month share is inside technologies: solar and batteries "
+                      "fell, gas did not (3 of 4 held) | [`nexttech.md`](docs/nexttech.md) |", self.readme)
+        self.assertIn("(thirty-fourth result, scored against [`docs/nexttech-plan.md`](docs/nexttech-plan.md); "
+                      "3 of 4 held)", self.readme)
+        self.assertIn("**Most of that fall is inside technologies.**", self.readme)
+        for s in ("Solar fell from 0.506 to 0.354 and batteries from 0.442 to 0.299.",
+                  "the share would still have fallen from 0.469 to 0.374",
+                  "about 79% of the fall is inside technologies and 21% is the change of mix",
+                  "gas rose from 0.401 to 0.455", "12 turbines", "without it gas is flat"):
+            self.assertIn(s, self.readme)
+        for s in ("| solar | 0.506 (1,243 of 2,457) | 0.354 (1,292 of 3,654) |",
+                  "| batteries | 0.442 (61 of 138) | 0.299 (453 of 1,515) |",
+                  "the share would have fallen from 0.469 to 0.374", "That is 79% of the fall.",
+                  "The other 21% is the change of mix", "| failed | 0.401 (298 of 743) to 0.455 (191 of 420) |",
+                  "from 12 generators", "| Natural Gas Fired Combustion Turbine |",
+                  "0.456 (292 of 641) in 2016-2019 and 0.455 (191 of 420) in 2022-2025: flat."):
+            self.assertIn(s, doc)
+
     def test_plans_not_scored(self):
-        for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md"):
+        for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md",
+                     "nexttechonce-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
         self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md)", self.readme)
-        self.assertIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall in the next-month share is "
-                      "inside technologies or a change of mix, four predictions and a reproduction check", self.readme)
-        nexttech = read("docs", "nexttech-plan.md")
-        for s in ("**T0.**", "**T1.**", "**T2.**", "**T3.**", "**T4.**", "1,980 of 4,223", "2,110 of 6,047"):
-            self.assertIn(s, nexttech)
-        code = read("tools", "annual-flows-candidate", "nexttech.py")
-        self.assertIn("KNOWN = {EARLY: (1980, 4223), LATE: (2110, 6047)}", code)
-        self.assertIn('EARLY, LATE = ("2016-01", "2019-12"), ("2022-01", "2025-12")', code)
-        self.assertNotIn("and [`retiredentry-plan.md`](docs/retiredentry-plan.md) (when the 16", self.readme)
+        self.assertIn("and [`nexttechonce-plan.md`](docs/nexttechonce-plan.md) (whether the technology split holds "
+                      "when each generator counts once per period, four predictions and a reproduction check",
+                      self.readme)
+        self.assertNotIn("and [`nexttech-plan.md`](docs/nexttech-plan.md) (whether the fall", self.readme)
+        once = read("docs", "nexttechonce-plan.md")
+        for s in ("**C0.**", "**O1.**", "**O2.**", "**O3.**", "**O4.**", "1,980 of 4,223", "2,110 of 6,047",
+                  "(0.456, then 0.455)", "102 of the 743 gas generator-months", "14,807 rows", "within 0.05"):
+            self.assertIn(s, once)
+        code = read("tools", "annual-flows-candidate", "nexttechonce.py")
+        for s in ("KNOWN = {EARLY: (1980, 4223), LATE: (2110, 6047)}",
+                  'EARLY, LATE = ("2016-01", "2019-12"), ("2022-01", "2025-12")', "COHORT_ROWS = 14807",
+                  "GAS_BAND = 0.05", "MIN_COHORT = 30"):
+            self.assertIn(s, code)
+        self.assertIn('EARLY, LATE = ("2016-01", "2019-12"), ("2022-01", "2025-12")',
+                      read("tools", "annual-flows-candidate", "nexttech.py"))
         self.assertIn("was pre-registered in [`docs/retiredentry-plan.md`](docs/retiredentry-plan.md) and is scored "
                       "in the thirty-third result", self.readme)
         self.assertIn("Bar S3 of [`sepretired-plan.md`](docs/sepretired-plan.md) (whether any of the 16 generators "
@@ -111,7 +140,7 @@ class ReadmeIndexTests(unittest.TestCase):
     def test_links_kept(self):
         for name in ("changelog-revert.md", "history-revert.md", "heldtrace.md", "annualids.md", "sep2026-plan.md",
                      "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
-                     "eia860m-changelog-from-workbooks.md"):
+                     "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
         self.assertIn("117,756 rows in all.", read("docs", "eia860m-changelog-from-workbooks.md"))
