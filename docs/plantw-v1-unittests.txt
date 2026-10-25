@@ -1,0 +1,16 @@
+test_cells_of_gaps (test_plantw.HelperTests.test_cells_of_gaps) ... ok
+test_constants (test_plantw.HelperTests.test_constants) ... ok
+test_plant_weighting (test_plantw.HelperTests.test_plant_weighting) ... ok
+test_main_error (test_plantw.RunTests.test_main_error) ... ok
+test_main_local (test_plantw.RunTests.test_main_local) ... ok
+test_wait_plan (test_plantw.RunTests.test_wait_plan) ... ok
+test_c0_fails (test_plantw.ScoreTests.test_c0_fails) ... ok
+test_failures (test_plantw.ScoreTests.test_failures) ... ok
+test_score_holds (test_plantw.ScoreTests.test_score_holds) ... ok
+test_ties_fail (test_plantw.ScoreTests.test_ties_fail) ... ok
+test_too_few_plants (test_plantw.ScoreTests.test_too_few_plants) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.013s
+
+OK
