@@ -1,0 +1,17 @@
+test_boot (test_clusterboot.HelperTests.test_boot) ... ok
+test_clusters_and_diff (test_clusterboot.HelperTests.test_clusters_and_diff) ... ok
+test_constants (test_clusterboot.HelperTests.test_constants) ... ok
+test_ends (test_clusterboot.HelperTests.test_ends) ... ok
+test_main_error (test_clusterboot.RunTests.test_main_error) ... ok
+test_main_local (test_clusterboot.RunTests.test_main_local) ... ok
+test_wait_plan (test_clusterboot.RunTests.test_wait_plan) ... ok
+test_above_fails (test_clusterboot.ScoreTests.test_above_fails) ... ok
+test_c0_fails (test_clusterboot.ScoreTests.test_c0_fails) ... ok
+test_score (test_clusterboot.ScoreTests.test_score) ... ok
+test_spans (test_clusterboot.ScoreTests.test_spans) ... ok
+test_too_few_plants (test_clusterboot.ScoreTests.test_too_few_plants) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.046s
+
+OK

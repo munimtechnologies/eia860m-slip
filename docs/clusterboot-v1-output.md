@@ -1,0 +1,59 @@
+# clusterboot 0.1.0: the next-month share by months since the last listing, whole plants resampled
+
+Scores docs/clusterboot-plan.md (C0, B1 to B5). MV2 of Munim, Inc. (made with AI agents).
+
+Cohort file: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/ea63c150a8ed41cc1fcad901ccab51686c924d46/data/nexttech_cohort.csv (950816 bytes, md5 1681df9fdee9878ca2c359d1239c6467; 14807 rows). 2000 resamples, seed 20261025.
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| C0 | held | 14807 rows, md5 1681df9fdee9878ca2c359d1239c6467; 10 of 10 published cells reproduced | 14807 rows, md5 1681df9fdee9878ca2c359d1239c6467; 10 of 10 published cells reproduced |
+| B1 | held | 1 month minus first: +0.0498, 95% interval +0.0200 to +0.0795; 1 month: 1230 of 2657 at 1381 plants; first: 1474 of 3568 at 3316 plants | 2016-2025, solar: 1 month after the last listing minus first listings; the 95% interval is above 0 |
+| B2 | held | 1 month minus first: +0.0824, 95% interval +0.0275 to +0.1405; 1 month: 297 of 816 at 371 plants; first: 205 of 728 at 680 plants | 2016-2025, batteries: 1 month after the last listing minus first listings; the 95% interval is above 0 |
+| B3 | held | first minus 1 month: +0.0661, 95% interval -0.0340 to +0.1530; 1 month: 191 of 465 at 198 plants; first: 237 of 497 at 460 plants | 2016-2025, wind: first listings minus 1 month after the last listing; the 95% interval includes 0 |
+| B4 | held | first minus 1 month: +0.0965, 95% interval -0.0545 to +0.2165; 1 month: 206 of 576 at 108 plants; first: 312 of 687 at 246 plants | 2016-2025, gas: first listings minus 1 month after the last listing; the 95% interval includes 0 |
+| B5 | held | 1 month minus 2-3 months: +0.1251, 95% interval +0.0798 to +0.1686; 1 month: 639 of 1636 at 791 plants; 2-3 months: 171 of 644 at 443 plants | January 2022 to August 2026, solar: 1 month after the last listing minus 2-3 months after; the 95% interval is above 0 |
+
+Held: 5 of 5 scored (C0 is a check, not counted).
+
+## Every period, reported, not scored
+
+| period | technology | difference | point | 95% interval | plants (cell, compared cell) |
+|---|---|---|---|---|---|
+| 2016-01 to 2019-12 | solar | 1 month minus first | +0.1068 | +0.0522 to +0.1628 | 439, 1100 |
+| 2016-01 to 2019-12 | batteries | 1 month minus first | +0.1786 | -0.0048 to +0.3431 | 33, 57 |
+| 2016-01 to 2019-12 | wind | first minus 1 month | +0.0138 | -0.1129 to +0.1217 | 91, 212 |
+| 2016-01 to 2019-12 | gas | first minus 1 month | +0.0918 | -0.1189 to +0.2526 | 54, 121 |
+| 2016-01 to 2019-12 | solar | 1 month minus 2-3 months | +0.0298 | -0.0501 to +0.1114 | 439, 195 |
+| 2016-01 to 2019-12 | all | 1 month minus first | +0.0401 | -0.0226 to +0.0992 | 651, 1569 |
+| 2020-01 to 2021-12 | solar | 1 month minus first | +0.0327 | -0.0213 to +0.0878 | 299, 769 |
+| 2020-01 to 2021-12 | batteries | 1 month minus first | +0.0999 | -0.0158 to +0.2330 | 64, 142 |
+| 2020-01 to 2021-12 | wind | first minus 1 month | +0.1118 | -0.0530 to +0.2323 | 67, 138 |
+| 2020-01 to 2021-12 | gas | first minus 1 month | +0.0048 | -0.2306 to +0.2158 | 28, 62 (under 30 plants) |
+| 2020-01 to 2021-12 | solar | 1 month minus 2-3 months | -0.0038 | -0.0866 to +0.0789 | 299, 156 |
+| 2020-01 to 2021-12 | all | 1 month minus first | +0.0169 | -0.0352 to +0.0708 | 445, 1057 |
+| 2022-01 to 2025-12 | solar | 1 month minus first | +0.0426 | +0.0048 to +0.0795 | 662, 1451 |
+| 2022-01 to 2025-12 | batteries | 1 month minus first | +0.0710 | +0.0066 to +0.1399 | 287, 484 |
+| 2022-01 to 2025-12 | wind | first minus 1 month | +0.0714 | -0.1115 to +0.2500 | 46, 113 |
+| 2022-01 to 2025-12 | gas | first minus 1 month | +0.1901 | -0.1149 to +0.4185 | 32, 73 |
+| 2022-01 to 2025-12 | solar | 1 month minus 2-3 months | +0.1313 | +0.0797 to +0.1783 | 662, 370 |
+| 2022-01 to 2025-12 | all | 1 month minus first | +0.0276 | -0.0099 to +0.0648 | 960, 1991 |
+| 2026-01 to 2026-08 | solar | 1 month minus first | +0.0365 | -0.0556 to +0.1273 | 145, 272 |
+| 2026-01 to 2026-08 | batteries | 1 month minus first | +0.1223 | +0.0142 to +0.2282 | 80, 115 |
+| 2026-01 to 2026-08 | wind | first minus 1 month | -0.1778 | -0.7238 to +0.2171 | 11, 9 (under 30 plants) |
+| 2026-01 to 2026-08 | gas | first minus 1 month | -0.0667 | -0.6548 to +0.4858 | 3, 13 (under 30 plants) |
+| 2026-01 to 2026-08 | solar | 1 month minus 2-3 months | +0.0977 | -0.0034 to +0.1949 | 145, 77 |
+| 2026-01 to 2026-08 | all | 1 month minus first | +0.0421 | -0.0335 to +0.1201 | 224, 388 |
+| 2016-01 to 2025-12 | solar | 1 month minus first | +0.0498 | +0.0200 to +0.0795 | 1381, 3316 |
+| 2016-01 to 2025-12 | batteries | 1 month minus first | +0.0824 | +0.0275 to +0.1405 | 371, 680 |
+| 2016-01 to 2025-12 | wind | first minus 1 month | +0.0661 | -0.0340 to +0.1530 | 198, 460 |
+| 2016-01 to 2025-12 | gas | first minus 1 month | +0.0965 | -0.0545 to +0.2165 | 108, 246 |
+| 2016-01 to 2025-12 | solar | 1 month minus 2-3 months | +0.0757 | +0.0351 to +0.1150 | 1381, 711 |
+| 2016-01 to 2025-12 | all | 1 month minus first | +0.0239 | -0.0045 to +0.0517 | 2010, 4569 |
+| 2022-01 to 2026-08 | solar | 1 month minus first | +0.0406 | +0.0049 to +0.0756 | 791, 1722 |
+| 2022-01 to 2026-08 | batteries | 1 month minus first | +0.0808 | +0.0257 to +0.1400 | 360, 598 |
+| 2022-01 to 2026-08 | wind | first minus 1 month | +0.0569 | -0.1328 to +0.2201 | 55, 122 |
+| 2022-01 to 2026-08 | gas | first minus 1 month | +0.1835 | -0.1177 to +0.4114 | 34, 85 |
+| 2022-01 to 2026-08 | solar | 1 month minus 2-3 months | +0.1251 | +0.0798 to +0.1686 | 791, 443 |
+| 2022-01 to 2026-08 | all | 1 month minus first | +0.0296 | -0.0034 to +0.0628 | 1156, 2373 |
