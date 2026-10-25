@@ -1,0 +1,107 @@
+# gaptech 0.1.0: the next-month share by months since the last listing, by technology
+
+Scores docs/nextgaptech-plan.md (C0, G1 to G4). MV2 of Munim, Inc. (made with AI agents).
+
+Cohort file: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/ea63c150a8ed41cc1fcad901ccab51686c924d46/data/nexttech_cohort.csv (950816 bytes, md5 1681df9fdee9878ca2c359d1239c6467; 14807 rows).
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| C0 | held | 14807 rows; 1980 of 4223, 2110 of 6047, 366 of 1194; first listings 2022-2025: solar 536 of 1483, batteries 143 of 514 | 14807 rows; 1980 of 4223, 2110 of 6047, 366 of 1194; first listings 2022-2025: solar 536 of 1483, batteries 143 of 514 |
+| G1 | held | 1 month: 547 of 1354; first: 536 of 1483 | 2022-2025, solar: repeat listings 1 month after the last one are on time more often than first listings |
+| G2 | held | 1 month: 547 of 1354; 2-3 months: 147 of 539 | 2022-2025, solar: repeat listings 1 month after the last one are on time more often than those 2-3 months after |
+| G3 | held | 1 month: 92 of 282; 2-3 months: 24 of 105 | January-August 2026, solar: repeat listings 1 month after the last one are on time more often than those 2-3 months after |
+| G4 | held | 1 month: 220 of 630; first: 143 of 514 | 2022-2025, batteries: repeat listings 1 month after the last one are on time more often than first listings |
+
+Held: 4 of 4 scored (C0 is a check, not counted).
+
+## By technology and months since the last listing (G1 to G4 compare some of these cells)
+
+| period | technology | cell | generator-months | on time | share | generators | plants |
+|---|---|---|---|---|---|---|---|
+| 2016-01 to 2019-12 | all | first | 2110 | 969 | 0.4592 | 2110 | 1569 |
+| 2016-01 to 2019-12 | all | 1 month | 1494 | 746 | 0.4993 | 875 | 651 |
+| 2016-01 to 2019-12 | all | 2-3 months | 457 | 225 | 0.4923 | 394 | 270 |
+| 2016-01 to 2019-12 | all | 4-12 months | 153 | 38 | 0.2484 | 129 | 102 |
+| 2016-01 to 2019-12 | all | more than 12 months | 9 | 2 | 0.2222 | 9 | 7 |
+| 2016-01 to 2019-12 | solar | first | 1298 | 612 | 0.4715 | 1298 | 1100 |
+| 2016-01 to 2019-12 | solar | 1 month | 766 | 443 | 0.5783 | 503 | 439 |
+| 2016-01 to 2019-12 | solar | 2-3 months | 299 | 164 | 0.5485 | 252 | 195 |
+| 2016-01 to 2019-12 | solar | 4-12 months | 90 | 22 | 0.2444 | 81 | 69 |
+| 2016-01 to 2019-12 | solar | more than 12 months | 4 | 2 | 0.5000 | 4 | 4 |
+| 2016-01 to 2019-12 | batteries | first | 67 | 25 | 0.3731 | 67 | 57 |
+| 2016-01 to 2019-12 | batteries | 1 month | 58 | 32 | 0.5517 | 38 | 33 |
+| 2016-01 to 2019-12 | batteries | 2-3 months | 9 | 4 | 0.4444 | 8 | 8 |
+| 2016-01 to 2019-12 | batteries | 4-12 months | 4 | 0 | 0.0000 | 4 | 4 |
+| 2016-01 to 2019-12 | gas | first | 321 | 143 | 0.4455 | 321 | 121 |
+| 2016-01 to 2019-12 | gas | 1 month | 311 | 110 | 0.3537 | 141 | 54 |
+| 2016-01 to 2019-12 | gas | 2-3 months | 74 | 35 | 0.4730 | 66 | 26 |
+| 2016-01 to 2019-12 | gas | 4-12 months | 33 | 10 | 0.3030 | 21 | 11 |
+| 2016-01 to 2019-12 | gas | more than 12 months | 4 | 0 | 0.0000 | 4 | 2 |
+| 2016-01 to 2019-12 | wind | first | 236 | 112 | 0.4746 | 236 | 212 |
+| 2016-01 to 2019-12 | wind | 1 month | 191 | 88 | 0.4607 | 107 | 91 |
+| 2016-01 to 2019-12 | wind | 2-3 months | 25 | 12 | 0.4800 | 23 | 18 |
+| 2016-01 to 2019-12 | wind | 4-12 months | 9 | 5 | 0.5556 | 9 | 8 |
+| 2016-01 to 2019-12 | other | first | 188 | 77 | 0.4096 | 188 | 101 |
+| 2016-01 to 2019-12 | other | 1 month | 168 | 73 | 0.4345 | 86 | 42 |
+| 2016-01 to 2019-12 | other | 2-3 months | 50 | 10 | 0.2000 | 45 | 26 |
+| 2016-01 to 2019-12 | other | 4-12 months | 17 | 1 | 0.0588 | 14 | 10 |
+| 2016-01 to 2019-12 | other | more than 12 months | 1 | 0 | 0.0000 | 1 | 1 |
+| 2022-01 to 2025-12 | all | first | 2393 | 866 | 0.3619 | 2393 | 1991 |
+| 2022-01 to 2025-12 | all | 1 month | 2254 | 878 | 0.3895 | 1138 | 960 |
+| 2022-01 to 2025-12 | all | 2-3 months | 890 | 231 | 0.2596 | 639 | 527 |
+| 2022-01 to 2025-12 | all | 4-12 months | 455 | 123 | 0.2703 | 372 | 302 |
+| 2022-01 to 2025-12 | all | more than 12 months | 55 | 12 | 0.2182 | 55 | 51 |
+| 2022-01 to 2025-12 | solar | first | 1483 | 536 | 0.3614 | 1483 | 1451 |
+| 2022-01 to 2025-12 | solar | 1 month | 1354 | 547 | 0.4040 | 682 | 662 |
+| 2022-01 to 2025-12 | solar | 2-3 months | 539 | 147 | 0.2727 | 386 | 370 |
+| 2022-01 to 2025-12 | solar | 4-12 months | 249 | 56 | 0.2249 | 205 | 195 |
+| 2022-01 to 2025-12 | solar | more than 12 months | 29 | 6 | 0.2069 | 29 | 28 |
+| 2022-01 to 2025-12 | batteries | first | 514 | 143 | 0.2782 | 514 | 484 |
+| 2022-01 to 2025-12 | batteries | 1 month | 630 | 220 | 0.3492 | 303 | 287 |
+| 2022-01 to 2025-12 | batteries | 2-3 months | 227 | 49 | 0.2159 | 164 | 153 |
+| 2022-01 to 2025-12 | batteries | 4-12 months | 130 | 40 | 0.3077 | 112 | 101 |
+| 2022-01 to 2025-12 | batteries | more than 12 months | 14 | 1 | 0.0714 | 14 | 14 |
+| 2022-01 to 2025-12 | gas | first | 198 | 101 | 0.5101 | 198 | 73 |
+| 2022-01 to 2025-12 | gas | 1 month | 125 | 40 | 0.3200 | 67 | 32 |
+| 2022-01 to 2025-12 | gas | 2-3 months | 56 | 26 | 0.4643 | 41 | 23 |
+| 2022-01 to 2025-12 | gas | 4-12 months | 39 | 23 | 0.5897 | 36 | 19 |
+| 2022-01 to 2025-12 | gas | more than 12 months | 2 | 1 | 0.5000 | 2 | 2 |
+| 2022-01 to 2025-12 | wind | first | 118 | 59 | 0.5000 | 118 | 113 |
+| 2022-01 to 2025-12 | wind | 1 month | 91 | 39 | 0.4286 | 49 | 46 |
+| 2022-01 to 2025-12 | wind | 2-3 months | 40 | 7 | 0.1750 | 30 | 27 |
+| 2022-01 to 2025-12 | wind | 4-12 months | 17 | 3 | 0.1765 | 10 | 10 |
+| 2022-01 to 2025-12 | wind | more than 12 months | 2 | 0 | 0.0000 | 2 | 2 |
+| 2022-01 to 2025-12 | other | first | 80 | 27 | 0.3375 | 80 | 53 |
+| 2022-01 to 2025-12 | other | 1 month | 54 | 32 | 0.5926 | 38 | 25 |
+| 2022-01 to 2025-12 | other | 2-3 months | 28 | 2 | 0.0714 | 19 | 11 |
+| 2022-01 to 2025-12 | other | 4-12 months | 20 | 1 | 0.0500 | 10 | 8 |
+| 2022-01 to 2025-12 | other | more than 12 months | 8 | 4 | 0.5000 | 8 | 6 |
+| 2026-01 to 2026-08 | all | first | 473 | 144 | 0.3044 | 473 | 388 |
+| 2026-01 to 2026-08 | all | 1 month | 479 | 166 | 0.3466 | 268 | 224 |
+| 2026-01 to 2026-08 | all | 2-3 months | 173 | 43 | 0.2486 | 137 | 112 |
+| 2026-01 to 2026-08 | all | 4-12 months | 57 | 12 | 0.2105 | 56 | 47 |
+| 2026-01 to 2026-08 | all | more than 12 months | 12 | 1 | 0.0833 | 12 | 11 |
+| 2026-01 to 2026-08 | solar | first | 283 | 82 | 0.2898 | 283 | 272 |
+| 2026-01 to 2026-08 | solar | 1 month | 282 | 92 | 0.3262 | 156 | 145 |
+| 2026-01 to 2026-08 | solar | 2-3 months | 105 | 24 | 0.2286 | 81 | 77 |
+| 2026-01 to 2026-08 | solar | 4-12 months | 34 | 2 | 0.0588 | 33 | 30 |
+| 2026-01 to 2026-08 | solar | more than 12 months | 5 | 0 | 0.0000 | 5 | 5 |
+| 2026-01 to 2026-08 | batteries | first | 122 | 29 | 0.2377 | 122 | 115 |
+| 2026-01 to 2026-08 | batteries | 1 month | 150 | 54 | 0.3600 | 82 | 80 |
+| 2026-01 to 2026-08 | batteries | 2-3 months | 43 | 6 | 0.1395 | 35 | 33 |
+| 2026-01 to 2026-08 | batteries | 4-12 months | 17 | 9 | 0.5294 | 17 | 16 |
+| 2026-01 to 2026-08 | batteries | more than 12 months | 5 | 1 | 0.2000 | 5 | 5 |
+| 2026-01 to 2026-08 | gas | first | 45 | 27 | 0.6000 | 45 | 13 |
+| 2026-01 to 2026-08 | gas | 1 month | 9 | 6 | 0.6667 | 7 | 3 |
+| 2026-01 to 2026-08 | gas | 2-3 months | 15 | 10 | 0.6667 | 14 | 6 |
+| 2026-01 to 2026-08 | gas | 4-12 months | 3 | 0 | 0.0000 | 3 | 2 |
+| 2026-01 to 2026-08 | wind | first | 9 | 2 | 0.2222 | 9 | 9 |
+| 2026-01 to 2026-08 | wind | 1 month | 20 | 8 | 0.4000 | 11 | 11 |
+| 2026-01 to 2026-08 | wind | 2-3 months | 4 | 0 | 0.0000 | 3 | 3 |
+| 2026-01 to 2026-08 | other | first | 14 | 4 | 0.2857 | 14 | 6 |
+| 2026-01 to 2026-08 | other | 1 month | 18 | 6 | 0.3333 | 12 | 4 |
+| 2026-01 to 2026-08 | other | 2-3 months | 6 | 3 | 0.5000 | 4 | 3 |
+| 2026-01 to 2026-08 | other | 4-12 months | 3 | 1 | 0.3333 | 3 | 2 |
+| 2026-01 to 2026-08 | other | more than 12 months | 2 | 0 | 0.0000 | 2 | 1 |

@@ -96,11 +96,11 @@ class NextgaptechPlanDocTests(unittest.TestCase):
 
     def test_readme(self):
         readme = read("README.md")
-        # Until the plan is scored; then these move to its result's doc test.
-        self.assertIn("Also [`nextgaptech-plan.md`](docs/nextgaptech-plan.md) (whether a one-month slip is a good sign "
-                      "within solar and within batteries, four bars).", readme)
-        self.assertIn("Whether a one-month slip is a good sign within solar and within batteries is pre-registered in "
-                      "[`docs/nextgaptech-plan.md`](docs/nextgaptech-plan.md).", readme)
+        # Scored on 24 October 2026 (docs/nextgaptech.md), so it left the README's list of plans not yet scored.
+        self.assertNotIn("Also [`nextgaptech-plan.md`](docs/nextgaptech-plan.md) (whether", readme)
+        self.assertIn("Whether a one-month slip is a good sign within solar and within batteries was pre-registered in "
+                      "[`docs/nextgaptech-plan.md`](docs/nextgaptech-plan.md) and is scored in the thirty-eighth result.",
+                      readme)
 
 
 if __name__ == "__main__":

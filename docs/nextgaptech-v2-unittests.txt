@@ -1,0 +1,16 @@
+test_cells (test_gaptech.HelperTests.test_cells) ... ok
+test_constants (test_gaptech.HelperTests.test_constants) ... ok
+test_fixture (test_gaptech.HelperTests.test_fixture) ... ok
+test_main_error (test_gaptech.RunTests.test_main_error) ... ok
+test_main_local (test_gaptech.RunTests.test_main_local) ... ok
+test_wait_plan (test_gaptech.RunTests.test_wait_plan) ... ok
+test_c0_fails (test_gaptech.ScoreTests.test_c0_fails) ... ok
+test_failures (test_gaptech.ScoreTests.test_failures) ... ok
+test_score_holds (test_gaptech.ScoreTests.test_score_holds) ... ok
+test_too_few (test_gaptech.ScoreTests.test_too_few) ... ok
+test_tables (test_gaptech.TableTests.test_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.045s
+
+OK
