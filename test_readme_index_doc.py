@@ -1,10 +1,10 @@
-"""Doc test: what README.md says about the thirtieth to thirty-eighth results, the plans not yet
+"""Doc test: what README.md says about the thirtieth to thirty-ninth results, the plans not yet
 scored and the changelog matches the notes themselves (docs/annualids.md, docs/sep2026-plan.md,
 docs/sep2026.md, docs/sepretired-plan.md, docs/sepretired.md, docs/retiredentry-plan.md,
 docs/retiredentry.md, docs/nexttech-plan.md, docs/nexttech.md, docs/nexttechonce-plan.md,
 docs/nexttechonce.md, docs/nextcount-plan.md, docs/nextcount.md, docs/nextheld-plan.md,
 docs/nextheld.md, docs/nextgaptech-plan.md, docs/nextgaptech.md, docs/q4held-plan.md,
-docs/eia860m-changelog-from-workbooks.md).
+docs/gapwin-plan.md, docs/gapwin.md, docs/eia860m-changelog-from-workbooks.md).
 
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
@@ -175,10 +175,24 @@ class ReadmeIndexTests(unittest.TestCase):
                   "| gas | 2022-2025 | 0.510 (101 of 198) | 0.320 (40 of 125) | 0.464 (26 of 56) |"):
             self.assertIn(s, doc)
 
+    def test_gapwin(self):
+        doc = read("docs", "gapwin.md")
+        self.assertIn("4 of 5 predictions held, and the reproduction check C0 held. W2 failed.", doc)
+        self.assertIn("(thirty-ninth result, scored against [`docs/gapwin-plan.md`](docs/gapwin-plan.md); 4 of 5 held)",
+                      self.readme)
+        for s in ("| held | 0.447 (240 of 537) against 0.414 (326 of 787) |",
+                  "| failed | 0.447 (240 of 537) against 0.451 (96 of 213) |",
+                  "| held | 0.352 (45 of 128) against 0.252 (37 of 147) |",
+                  "| held | 0.400 (56 of 140) against 0.405 (68 of 168) |",
+                  "| held | 0.350 (64 of 183) against 0.462 (66 of 143) |",
+                  "| wind | -0.014 | -0.112 | -0.071 | +0.178 (under 30 rows) |",
+                  "| solar | +0.030 | -0.004 | +0.131 | +0.098 |"):
+            self.assertIn(s, doc)
+
     def test_plans_not_scored(self):
         for name in ("dec2026-plan.md", "sepretired-plan.md", "retiredentry-plan.md", "nexttech-plan.md",
                      "nexttechonce-plan.md", "nextcount-plan.md", "nextheld-plan.md", "nextgaptech-plan.md",
-                     "q4held-plan.md"):
+                     "q4held-plan.md", "gapwin-plan.md"):
             self.assertIn("Status: pre-registered, not yet scored.", read("docs", name))
         self.assertIn("Pre-registered, not yet scored: [`dec2026-plan.md`](docs/dec2026-plan.md) (whether December "
                       "2026 has the largest next-month group of 2026 and a share above the year's, two bars) and "
@@ -195,6 +209,10 @@ class ReadmeIndexTests(unittest.TestCase):
         self.assertNotIn("Also [`nextgaptech-plan.md`](docs/nextgaptech-plan.md) (whether", self.readme)
         self.assertIn("was pre-registered in [`docs/nextgaptech-plan.md`](docs/nextgaptech-plan.md) and is scored in the "
                       "thirty-eighth result.", self.readme)
+        # Committed and scored on 25 October 2026 (docs/gapwin.md), so it never joined that list.
+        self.assertNotIn("Also [`gapwin-plan.md`](docs/gapwin-plan.md) (whether", self.readme)
+        self.assertIn("That test was pre-registered in [`docs/gapwin-plan.md`](docs/gapwin-plan.md) and is scored in the "
+                      "thirty-ninth result.", self.readme)
         self.assertIn("Also [`q4held-plan.md`](docs/q4held-plan.md) (whether, in the next-month groups of October to "
                       "December 2026 pooled,", self.readme)
         q4 = read("docs", "q4held-plan.md")
@@ -248,7 +266,8 @@ class ReadmeIndexTests(unittest.TestCase):
                      "sep2026.md", "sepretired-plan.md", "sepretired.md", "retiredentry-plan.md", "retiredentry.md",
                      "nexttech-plan.md", "nexttech.md", "nexttechonce-plan.md", "nexttechonce.md",
                      "nextcount-plan.md", "nextcount.md", "nextheld-plan.md", "nextheld.md", "nextgaptech-plan.md",
-                     "nextgaptech.md", "q4held-plan.md", "eia860m-changelog-from-workbooks.md"):
+                     "nextgaptech.md", "q4held-plan.md", "gapwin-plan.md", "gapwin.md",
+                     "eia860m-changelog-from-workbooks.md"):
             self.assertIn("(docs/%s)" % name, self.readme)
         self.assertIn("117,756 rows from July 2015 to September 2026 (version 0.1.1", self.readme)
         self.assertIn("117,756 rows in all.", read("docs", "eia860m-changelog-from-workbooks.md"))

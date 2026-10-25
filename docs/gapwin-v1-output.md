@@ -1,0 +1,53 @@
+# gapwin 0.1.0: the next-month share by months since the last listing, by technology, 2020-2021
+
+Scores docs/gapwin-plan.md (C0, W1 to W5). MV2 of Munim, Inc. (made with AI agents).
+
+Cohort file: https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/ea63c150a8ed41cc1fcad901ccab51686c924d46/data/nexttech_cohort.csv (950816 bytes, md5 1681df9fdee9878ca2c359d1239c6467; 14807 rows).
+
+## Predictions
+
+| id | outcome | value | bar |
+|---|---|---|---|
+| C0 | held | 14807 rows; 2020-2021: solar 686 of 1600, batteries 103 of 344, gas 150 of 375, wind 143 of 373 | 14807 rows; 2020-2021: solar 686 of 1600, batteries 103 of 344, gas 150 of 375, wind 143 of 373 |
+| W1 | held | 1 month: 240 of 537; first: 326 of 787 | 2020-2021, solar: repeat listings 1 month after the last one are on time more often than first listings |
+| W2 | failed | 1 month: 240 of 537; 2-3 months: 96 of 213 | 2020-2021, solar: repeat listings 1 month after the last one are on time more often than those 2-3 months after |
+| W3 | held | 1 month: 45 of 128; first: 37 of 147 | 2020-2021, batteries: repeat listings 1 month after the last one are on time more often than first listings |
+| W4 | held | 1 month: 56 of 140; first: 68 of 168 | 2020-2021, gas: repeat listings 1 month after the last one are on time less often than first listings |
+| W5 | held | 1 month: 64 of 183; first: 66 of 143 | 2020-2021, wind: repeat listings 1 month after the last one are on time less often than first listings |
+
+Held: 4 of 5 scored (C0 is a check, not counted).
+
+## By technology and months since the last listing (W1 to W5 compare some of these cells)
+
+| period | technology | cell | generator-months | on time | share | generators | plants |
+|---|---|---|---|---|---|---|---|
+| 2020-01 to 2021-12 | all | first | 1283 | 505 | 0.3936 | 1283 | 1057 |
+| 2020-01 to 2021-12 | all | 1 month | 1045 | 429 | 0.4105 | 558 | 445 |
+| 2020-01 to 2021-12 | all | 2-3 months | 380 | 152 | 0.4000 | 294 | 228 |
+| 2020-01 to 2021-12 | all | 4-12 months | 106 | 36 | 0.3396 | 98 | 79 |
+| 2020-01 to 2021-12 | all | more than 12 months | 12 | 4 | 0.3333 | 12 | 12 |
+| 2020-01 to 2021-12 | solar | first | 787 | 326 | 0.4142 | 787 | 769 |
+| 2020-01 to 2021-12 | solar | 1 month | 537 | 240 | 0.4469 | 311 | 299 |
+| 2020-01 to 2021-12 | solar | 2-3 months | 213 | 96 | 0.4507 | 162 | 156 |
+| 2020-01 to 2021-12 | solar | 4-12 months | 55 | 21 | 0.3818 | 51 | 50 |
+| 2020-01 to 2021-12 | solar | more than 12 months | 8 | 3 | 0.3750 | 8 | 8 |
+| 2020-01 to 2021-12 | batteries | first | 147 | 37 | 0.2517 | 147 | 142 |
+| 2020-01 to 2021-12 | batteries | 1 month | 128 | 45 | 0.3516 | 67 | 64 |
+| 2020-01 to 2021-12 | batteries | 2-3 months | 52 | 14 | 0.2692 | 40 | 37 |
+| 2020-01 to 2021-12 | batteries | 4-12 months | 16 | 6 | 0.3750 | 16 | 16 |
+| 2020-01 to 2021-12 | batteries | more than 12 months | 1 | 1 | 1.0000 | 1 | 1 |
+| 2020-01 to 2021-12 | gas | first | 168 | 68 | 0.4048 | 168 | 62 |
+| 2020-01 to 2021-12 | gas | 1 month | 140 | 56 | 0.4000 | 71 | 28 |
+| 2020-01 to 2021-12 | gas | 2-3 months | 53 | 21 | 0.3962 | 43 | 19 |
+| 2020-01 to 2021-12 | gas | 4-12 months | 13 | 5 | 0.3846 | 13 | 7 |
+| 2020-01 to 2021-12 | gas | more than 12 months | 1 | 0 | 0.0000 | 1 | 1 |
+| 2020-01 to 2021-12 | wind | first | 143 | 66 | 0.4615 | 143 | 138 |
+| 2020-01 to 2021-12 | wind | 1 month | 183 | 64 | 0.3497 | 76 | 67 |
+| 2020-01 to 2021-12 | wind | 2-3 months | 37 | 11 | 0.2973 | 30 | 28 |
+| 2020-01 to 2021-12 | wind | 4-12 months | 9 | 2 | 0.2222 | 7 | 6 |
+| 2020-01 to 2021-12 | wind | more than 12 months | 1 | 0 | 0.0000 | 1 | 1 |
+| 2020-01 to 2021-12 | other | first | 38 | 8 | 0.2105 | 38 | 25 |
+| 2020-01 to 2021-12 | other | 1 month | 57 | 24 | 0.4211 | 33 | 18 |
+| 2020-01 to 2021-12 | other | 2-3 months | 25 | 10 | 0.4000 | 19 | 9 |
+| 2020-01 to 2021-12 | other | 4-12 months | 13 | 2 | 0.1538 | 11 | 5 |
+| 2020-01 to 2021-12 | other | more than 12 months | 1 | 0 | 0.0000 | 1 | 1 |

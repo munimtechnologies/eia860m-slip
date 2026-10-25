@@ -1,0 +1,16 @@
+test_constants (test_gapwin.HelperTests.test_constants) ... ok
+test_fixture (test_gapwin.HelperTests.test_fixture) ... ok
+test_main_error (test_gapwin.RunTests.test_main_error) ... ok
+test_main_local (test_gapwin.RunTests.test_main_local) ... ok
+test_wait_plan (test_gapwin.RunTests.test_wait_plan) ... ok
+test_below_fails_when_above (test_gapwin.ScoreTests.test_below_fails_when_above) ... ok
+test_c0_fails (test_gapwin.ScoreTests.test_c0_fails) ... ok
+test_failures (test_gapwin.ScoreTests.test_failures) ... ok
+test_score_holds (test_gapwin.ScoreTests.test_score_holds) ... ok
+test_too_few (test_gapwin.ScoreTests.test_too_few) ... ok
+test_tables (test_gapwin.TableTests.test_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.039s
+
+OK
