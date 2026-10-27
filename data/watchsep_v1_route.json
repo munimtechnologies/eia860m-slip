@@ -1,0 +1,193 @@
+{
+ "version": "0.1.1",
+ "watchlist": "0.1.0",
+ "pudl_source": "core_eia860m__changelog_generators.parquet",
+ "pudl_max": "2026-08",
+ "skip": [
+  "cancel",
+  "_pr"
+ ],
+ "usable_threshold": 0.98,
+ "months": [
+  {
+   "report": "2026-09",
+   "mode": "report",
+   "fetch_errors": [],
+   "url": "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx",
+   "sheets": {
+    "Operating": 28484,
+    "Planned": 2358,
+    "Retired": 7321,
+    "Canceled or Postponed": "skipped",
+    "Operating_PR": "skipped",
+    "Planned_PR": "skipped",
+    "Retired_PR": "skipped"
+   },
+   "workbook_keys": 38162,
+   "duplicate_keys": 1,
+   "statuses": {
+    "OP": 26234,
+    "": 7321,
+    "SB": 1497,
+    "P": 695,
+    "OS": 536,
+    "U": 465,
+    "V": 407,
+    "L": 406,
+    "T": 228,
+    "OA": 216,
+    "TS": 157
+   },
+   "rows": 568,
+   "rekey_pairs": 0,
+   "checks": {
+    "C1": {
+     "rows": 568,
+     "pass": true
+    },
+    "C2": {
+     "planned_mw": 288646.9,
+     "moves_mw": 288646.9,
+     "pass": true
+    },
+    "C3": {
+     "ours": {
+      "forward": 22,
+      "held": 2216,
+      "backward": 1,
+      "to_operating": 70,
+      "exit_other": 0,
+      "left": 3
+     },
+     "stagemoves": {
+      "forward": 22,
+      "held": 2216,
+      "backward": 1,
+      "to_operating": 70,
+      "exit_other": 0,
+      "left": 3
+     },
+     "pass": true
+    },
+    "C4": {
+     "row_counts": {
+      "forward": 22,
+      "backward": 1,
+      "to_operating": 70,
+      "exit_other": 0,
+      "left": 3,
+      "within_band": 62,
+      "delayed": 279,
+      "advanced": 12,
+      "new": 119,
+      "into_planned": 0
+     },
+     "pass": true
+    },
+    "all_pass": true
+   },
+   "summary": [
+    {
+     "change": "forward",
+     "n": 22,
+     "mw": 1466.6,
+     "median_n": 27.0,
+     "max_n": 80,
+     "median_mw": 2426.1,
+     "max_mw": 9924.2,
+     "pairs": 36
+    },
+    {
+     "change": "backward",
+     "n": 1,
+     "mw": 7.0,
+     "median_n": 1.0,
+     "max_n": 12,
+     "median_mw": 15.0,
+     "max_mw": 2107.9,
+     "pairs": 36
+    },
+    {
+     "change": "to_operating",
+     "n": 70,
+     "mw": 5383.4,
+     "median_n": 56.5,
+     "max_n": 177,
+     "median_mw": 3898.2,
+     "max_mw": 9551.8,
+     "pairs": 36
+    },
+    {
+     "change": "exit_other",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 1,
+     "median_mw": 0.0,
+     "max_mw": 400.0,
+     "pairs": 36
+    },
+    {
+     "change": "left",
+     "n": 3,
+     "mw": 165.9,
+     "median_n": 9.0,
+     "max_n": 43,
+     "median_mw": 951.6,
+     "max_mw": 5409.0,
+     "pairs": 36
+    },
+    {
+     "change": "within_band",
+     "n": 62,
+     "mw": 5307.4,
+     "median_n": 54.5,
+     "max_n": 93,
+     "median_mw": 4216.6,
+     "max_mw": 10743.8,
+     "pairs": 36
+    },
+    {
+     "change": "delayed",
+     "n": 279,
+     "mw": 20528.6,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "advanced",
+     "n": 12,
+     "mw": 743.3,
+     "median_n": null,
+     "max_n": null,
+     "median_mw": null,
+     "max_mw": null,
+     "pairs": 0
+    },
+    {
+     "change": "new",
+     "n": 119,
+     "mw": 6944.4,
+     "median_n": 80.0,
+     "max_n": 439,
+     "median_mw": 6881.7,
+     "max_mw": 38541.9,
+     "pairs": 36
+    },
+    {
+     "change": "into_planned",
+     "n": 0,
+     "mw": 0,
+     "median_n": 0.0,
+     "max_n": 4,
+     "median_mw": 0.0,
+     "max_mw": 500.0,
+     "pairs": 36
+    }
+   ]
+  }
+ ]
+}

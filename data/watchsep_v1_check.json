@@ -1,0 +1,18 @@
+{
+ "version": "0.1.1",
+ "watchlist": "0.1.0",
+ "pudl_source": "core_eia860m__changelog_generators.parquet",
+ "pudl_max": "2026-08",
+ "skip": [
+  "cancel",
+  "_pr"
+ ],
+ "usable_threshold": 0.98,
+ "months": [
+  {
+   "report": "2026-09",
+   "mode": "check",
+   "error": "PUDL does not hold report 2026-09"
+  }
+ ]
+}
