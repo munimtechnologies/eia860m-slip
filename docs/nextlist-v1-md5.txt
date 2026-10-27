@@ -1,0 +1,5 @@
+eia860m_slip.py 404c5ced1acba0c8bfd4c2017d50d7db
+nextcount.py a87f2c6097475a19348ef4072cecbec8
+nextlist.py 8b32a645ab321fc7231f907dc892e2fc
+test_nextlist.py bcc266753f30df88ed86bb9da45cc2eb
+xlsxprobe.py b1db51fdb800479e536b5f9632046f15

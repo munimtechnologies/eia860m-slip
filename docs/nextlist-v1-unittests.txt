@@ -1,0 +1,21 @@
+test_no_leak (test_nextlist.Backtest.test_no_leak) ... ok
+test_cells (test_nextlist.Groups.test_cells) ... ok
+test_tech_group (test_nextlist.Groups.test_tech_group) ... ok
+test_build_list (test_nextlist.Lists.test_build_list) ... ok
+test_keys_check (test_nextlist.Lists.test_keys_check) ... ok
+test_list_summary (test_nextlist.Lists.test_list_summary) ... ok
+test_wrong_cohort_file (test_nextlist.Main.test_wrong_cohort_file) ... ok
+test_add_months_and_window (test_nextlist.Months.test_add_months_and_window) ... ok
+test_forecast_fallbacks (test_nextlist.Rates.test_forecast_fallbacks) ... ok
+test_rates (test_nextlist.Rates.test_rates) ... ok
+test_references (test_nextlist.Rates.test_references) ... ok
+test_boot (test_nextlist.Scores.test_boot) ... ok
+test_calibration (test_nextlist.Scores.test_calibration) ... ok
+test_read_outcomes (test_nextlist.Scores.test_read_outcomes) ... ok
+test_score (test_nextlist.Scores.test_score) ... ok
+test_summary (test_nextlist.Scores.test_summary) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.017s
+
+OK
