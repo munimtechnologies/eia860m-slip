@@ -59,3 +59,26 @@ Trackers of the orders exist (DOE's own pages; [POWER's log](https://www.powerma
 - Generator IDs come from public sources; the output lists the plant IDs matched next to the IDs expected, and every generator at each plant with its status, so a wrong ID shows.
 - Whether Centralia 2 ever carried a planned retirement month in EIA-860M, and when it was removed, is not answered here; the next run, on the September report, can list that unit's full date history.
 - Data: PUDL's EIA-860M changelog (CC BY 4.0, Catalyst Cooperative), downloaded 2026-10-15, reports to August 2026. Orders: DOE's 2025 and 2026 202(c) pages, read 2026-10-17 ([`data/doe_202c_unit_orders.csv`](../data/doe_202c_unit_orders.csv)); no new plant order had been posted by 2026-10-18.
+
+## Update, 2026-10-28: P5 scored on EIA's September 2026 workbook
+
+Everything above is unchanged from 2026-10-18; this section adds the fifth prediction's score. Made with AI agents working in MV2's name.
+
+**P5 held: all 4 of 4 coal plants were dated exactly to the expiry of the order in force on 30 September 2026** (the bar was at least 3 of 4). With it, four of the five pre-registered predictions held (P1, P2, P3, P5) and one missed (P4).
+
+| plant | units | order in force on 30 September 2026 expires | September 2026 report | class |
+|---|---|---|---|---|
+| J.H. Campbell (MI) | 1710/1-3 | 2026-11 (202-26-39) | 2026-11 | exact |
+| R.M. Schahfer (IN) | 6085/17-18 | 2026-12 (202-26-46) | 2026-12 | exact |
+| F.B. Culley (IN) | 1012/2 | 2026-12 (202-26-47) | 2026-12 | exact |
+| Craig (CO) | 6021/1 | 2026-12 (202-26-49) | 2026-12 | exact |
+
+- **Change of source, stated before the job ran.** The plan read PUDL's EIA-860M changelog, which had not taken in September 2026 when this was scored (no PUDL pull request for it as of 2026-10-27 21:50 UTC). Job p5score-v1 read EIA's own workbooks instead. Its gate W1 read EIA's August 2026 workbook the same way and had to give the August months this page took from PUDL (Campbell 2026-11, Schahfer 2026-10, Culley 2026-09, Craig 2026-09); otherwise P5 would not be scored. **W1 held: all four matched.** The note stating the source change, the gate and the plant rule (a plant is exact when at least one of its units is on the Operating sheet with a planned retirement month and every such unit is dated to the target) was written in the job's folder before the job ran; it was not public before the result, and is published now as [`p5score-note.txt`](p5score-note.txt).
+- **Schahfer is new.** It ran ahead of its orders in every earlier report, and the thresholds were set knowing that (see the pre-registration). In September 2026 it moved from 2026-10 to 2026-12, the month order 202-26-46 expires. Craig 1 and Culley 2 moved from 2026-09 to 2026-12 with their renewals; Campbell stayed at 2026-11.
+- Reported, not scored: Eddystone 3-4 are dated 2026-11, the expiry month of the order in force (exact); Wagner 4 is still dated 2029-06; Centralia 2 and Stanton 1 still carry no planned retirement month. All 12 matched generators at the eight plants are on the Operating sheet with status (OP) Operating, so none was reported retired in September.
+- Files: EIA's September 2026 workbook (14,013,970 bytes, md5 4c741eb77a5ccad5aca32ffe43f398af) and August 2026 workbook (13,955,142 bytes, md5 9727ac867236faab7d5503175dacdf38), both as recorded earlier. Full output: [`p5score-2026-09.md`](p5score-2026-09.md) and [`data/p5score_2026-09.json`](../data/p5score_2026-09.json); code [`tools/order-dates/p5score.py`](../tools/order-dates/p5score.py) 0.1.0, whose 15 unit tests passed in the sealed job on 2026-10-27 ([`p5score-v1-unittests.txt`](p5score-v1-unittests.txt); file md5s in [`p5score-v1-md5.txt`](p5score-v1-md5.txt)).
+- Limits: four plants in one month. Campbell's order 202-26-39 expires on 14 November 2026, so the October 2026 report (due 24 November) is the next place to see whether the dates keep following the orders.
+
+| | stated before the run | scored 2026-10-28 |
+|---|---|---|
+| P5 | September 2026 report: 3 of 4 coal plants exact | **held**: 4 of 4 (EIA's September 2026 workbook; gate W1 held) |

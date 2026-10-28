@@ -1,0 +1,431 @@
+{
+ "files": {
+  "august": {
+   "errors": [],
+   "md5": "9727ac867236faab7d5503175dacdf38",
+   "same_as_recorded": true,
+   "size": 13955142,
+   "url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/august_generator2026.xlsx"
+  },
+  "september": {
+   "errors": [],
+   "md5": "4c741eb77a5ccad5aca32ffe43f398af",
+   "same_as_recorded": true,
+   "size": 14013970,
+   "url": "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx"
+  }
+ },
+ "other": {
+  "centralia": {
+   "class": "no month",
+   "expiry_month": "2026-12",
+   "months": []
+  },
+  "eddystone": {
+   "class": "exact",
+   "expiry_month": "2026-11",
+   "months": [
+    "2026-11"
+   ]
+  },
+  "stanton": {
+   "class": "no month",
+   "expiry_month": "2026-11",
+   "months": []
+  },
+  "wagner": {
+   "class": "other",
+   "expiry_month": "2026-11",
+   "months": [
+    "2029-06"
+   ]
+  }
+ },
+ "p5": {
+  "campbell": {
+   "class": "exact",
+   "months": [
+    "2026-11"
+   ],
+   "target": "2026-11"
+  },
+  "craig": {
+   "class": "exact",
+   "months": [
+    "2026-12"
+   ],
+   "target": "2026-12"
+  },
+  "culley": {
+   "class": "exact",
+   "months": [
+    "2026-12"
+   ],
+   "target": "2026-12"
+  },
+  "schahfer": {
+   "class": "exact",
+   "months": [
+    "2026-12"
+   ],
+   "target": "2026-12"
+  }
+ },
+ "p5_exact": 4,
+ "p5_need": 3,
+ "p5_verdict": "held",
+ "rows": {
+  "august": [
+   {
+    "key": "1710/1",
+    "mw": 265.2,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1710/2",
+    "mw": 378.8,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1710/3",
+    "mw": 916.8,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3845/2",
+    "mw": 729.9,
+    "plant": "centralia",
+    "plant_name": "Transalta Centralia Generation",
+    "retirement_ym": "",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6021/1",
+    "mw": 446.4,
+    "plant": "craig",
+    "plant_name": "Craig (CO)",
+    "retirement_ym": "2026-09",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1012/2",
+    "mw": 103.7,
+    "plant": "culley",
+    "plant_name": "F B Culley",
+    "retirement_ym": "2026-09",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3161/3",
+    "mw": 391.0,
+    "plant": "eddystone",
+    "plant_name": "Eddystone Generating Station",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3161/4",
+    "mw": 391.0,
+    "plant": "eddystone",
+    "plant_name": "Eddystone Generating Station",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6085/17",
+    "mw": 423.5,
+    "plant": "schahfer",
+    "plant_name": "R M Schahfer",
+    "retirement_ym": "2026-10",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6085/18",
+    "mw": 423.5,
+    "plant": "schahfer",
+    "plant_name": "R M Schahfer",
+    "retirement_ym": "2026-10",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "564/1",
+    "mw": 464.5,
+    "plant": "stanton",
+    "plant_name": "Stanton Energy Center",
+    "retirement_ym": "",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1554/4",
+    "mw": 414.7,
+    "plant": "wagner",
+    "plant_name": "Herbert A Wagner",
+    "retirement_ym": "2029-06",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   }
+  ],
+  "september": [
+   {
+    "key": "1710/1",
+    "mw": 265.2,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1710/2",
+    "mw": 378.8,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1710/3",
+    "mw": 916.8,
+    "plant": "campbell",
+    "plant_name": "J H Campbell",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3845/2",
+    "mw": 729.9,
+    "plant": "centralia",
+    "plant_name": "Transalta Centralia Generation",
+    "retirement_ym": "",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6021/1",
+    "mw": 446.4,
+    "plant": "craig",
+    "plant_name": "Craig (CO)",
+    "retirement_ym": "2026-12",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1012/2",
+    "mw": 103.7,
+    "plant": "culley",
+    "plant_name": "F B Culley",
+    "retirement_ym": "2026-12",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3161/3",
+    "mw": 391.0,
+    "plant": "eddystone",
+    "plant_name": "Eddystone Generating Station",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "3161/4",
+    "mw": 391.0,
+    "plant": "eddystone",
+    "plant_name": "Eddystone Generating Station",
+    "retirement_ym": "2026-11",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6085/17",
+    "mw": 423.5,
+    "plant": "schahfer",
+    "plant_name": "R M Schahfer",
+    "retirement_ym": "2026-12",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "6085/18",
+    "mw": 423.5,
+    "plant": "schahfer",
+    "plant_name": "R M Schahfer",
+    "retirement_ym": "2026-12",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "564/1",
+    "mw": 464.5,
+    "plant": "stanton",
+    "plant_name": "Stanton Energy Center",
+    "retirement_ym": "",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   },
+   {
+    "key": "1554/4",
+    "mw": 414.7,
+    "plant": "wagner",
+    "plant_name": "Herbert A Wagner",
+    "retirement_ym": "2029-06",
+    "sheet": "Operating",
+    "status": "(OP) Operating"
+   }
+  ]
+ },
+ "sheets": {
+  "august": {
+   "Canceled or Postponed": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 1743
+   },
+   "Operating": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Planned Retirement Year",
+     "Planned Retirement Month"
+    ],
+    "rows": 28379
+   },
+   "Operating_PR": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Planned Retirement Year",
+     "Planned Retirement Month"
+    ],
+    "rows": 230
+   },
+   "Planned": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 2313
+   },
+   "Planned_PR": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 7
+   },
+   "Retired": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Retirement Year",
+     "Retirement Month"
+    ],
+    "rows": 7338
+   },
+   "Retired_PR": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Retirement Year",
+     "Retirement Month"
+    ],
+    "rows": 12
+   }
+  },
+  "september": {
+   "Canceled or Postponed": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 1747
+   },
+   "Operating": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Planned Retirement Year",
+     "Planned Retirement Month"
+    ],
+    "rows": 28486
+   },
+   "Operating_PR": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Planned Retirement Year",
+     "Planned Retirement Month"
+    ],
+    "rows": 230
+   },
+   "Planned": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 2360
+   },
+   "Planned_PR": {
+    "header_row": 2,
+    "retirement_columns": [],
+    "rows": 5
+   },
+   "Retired": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Retirement Year",
+     "Retirement Month"
+    ],
+    "rows": 7323
+   },
+   "Retired_PR": {
+    "header_row": 2,
+    "retirement_columns": [
+     "Retirement Year",
+     "Retirement Month"
+    ],
+    "rows": 12
+   }
+  }
+ },
+ "version": "0.1.0",
+ "w1": {
+  "campbell": {
+   "class": "exact",
+   "months": [
+    "2026-11"
+   ],
+   "target": "2026-11"
+  },
+  "craig": {
+   "class": "exact",
+   "months": [
+    "2026-09"
+   ],
+   "target": "2026-09"
+  },
+  "culley": {
+   "class": "exact",
+   "months": [
+    "2026-09"
+   ],
+   "target": "2026-09"
+  },
+  "schahfer": {
+   "class": "exact",
+   "months": [
+    "2026-10"
+   ],
+   "target": "2026-10"
+  }
+ },
+ "w1_held": true
+}

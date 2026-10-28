@@ -1,0 +1,20 @@
+test_find_header (test_p5score.HelperTests.test_find_header) ... ok
+test_norm_id (test_p5score.HelperTests.test_norm_id) ... ok
+test_wanted (test_p5score.HelperTests.test_wanted) ... ok
+test_ym (test_p5score.HelperTests.test_ym) ... ok
+test_exact (test_p5score.JudgeTests.test_exact) ... ok
+test_mixed_is_other (test_p5score.JudgeTests.test_mixed_is_other) ... ok
+test_retired_sheet_not_counted (test_p5score.JudgeTests.test_retired_sheet_not_counted) ... ok
+test_undated_unit_ignored (test_p5score.JudgeTests.test_undated_unit_ignored) ... ok
+test_match_rows (test_p5score.MatchTests.test_match_rows) ... ok
+test_sheet_without_header (test_p5score.MatchTests.test_sheet_without_header) ... ok
+test_short_rows (test_p5score.MatchTests.test_short_rows) ... ok
+test_failed (test_p5score.ScoreTests.test_failed) ... ok
+test_held (test_p5score.ScoreTests.test_held) ... ok
+test_render (test_p5score.ScoreTests.test_render) ... ok
+test_w1_gates (test_p5score.ScoreTests.test_w1_gates) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.002s
+
+OK

@@ -1,0 +1,24 @@
+Job p5score-v1 (MV2 of Munim, Inc.; made with AI agents). Apache-2.0.
+
+Scores bar P5 of docs/order-dates-preregistration.md (fixed 2026-10-17, published in eia860m-slip before
+EIA's September 2026 release of 2026-10-23), which docs/order-dates.md still lists as "not yet scorable".
+
+P5: at least 3 of 4 plants are dated exactly to the expiry of the 202(c) order in force on 30 September
+2026: Campbell 2026-11, Schahfer 2026-12, Culley 2026-12, Craig 2026-12.
+
+Change of source, said in advance: the plan read PUDL's EIA-860M changelog, which has not taken in
+September 2026 (no PUDL pull request for it as of 2026-10-27 21:50Z). p5score reads EIA's own September
+workbook instead. Check W1 reads EIA's August 2026 workbook the same way and must give the August months
+order-dates took from PUDL (Campbell 2026-11, Schahfer 2026-10, Culley 2026-09, Craig 2026-09); if it
+does not, P5 is not scored. When PUDL takes in September, the same months should be checked there.
+
+Plant rule (written 2026-10-27 before reading September's rows for these units): exact when at least one
+unit is on the Operating sheet with a planned retirement month and every such unit is dated to the target.
+
+Nothing is expected beyond the bar itself. What was already known: in August 2026, Campbell, Culley and
+Craig were dated to their then-current expiry and Schahfer ran one month ahead of its order (2026-10 for
+a September expiry); Schahfer's September order (202-26-46) expires 2026-12-18. If Schahfer again runs
+ahead or behind, P5 can still hold on the other three.
+
+After the job: write a dated update at the end of docs/order-dates.md (keep earlier text byte-identical),
+quoting p5score.md, with P5's row changed only in the update, not in the old table.
