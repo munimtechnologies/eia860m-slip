@@ -52,3 +52,17 @@ Limits:
 - **Out of scope.** This is not legal analysis. The FERC cost-recovery dockets are not in the table.
 
 Run: `python -m unittest -v test_court_202c && python court_202c.py --out-dir out --as-of 2026-10-19`. Data: CC BY 4.0. Code: Apache-2.0.
+
+## Update of 28 October 2026: DOE asked for rehearing on the last day
+
+Status: dated update; description only, nothing is scored. Everything above is unchanged from 19 October 2026, and so is the table: `data/doe_202c_petitions.csv` is still as of 19 October.
+
+- **What was reported.** Two reports dated 27 October 2026 say DOE filed a petition for rehearing in *Michigan v. DOE* (No. 25-1159) on Monday, 26 October 2026: Bloomberg Law ("Energy Department Asks Full Court to Rehear Michigan Coal Case") and The Baseload, the newsletter of America's Power. Bloomberg Law says the petition asks for rehearing by the panel or by the full court, and that DOE argues the panel was wrong to read the Federal Power Act as making its emergency authority a last resort.
+- **It came on the last day.** The decision was entered on 11 September 2026. When a federal agency is a party, a petition for rehearing is due 45 days after judgment, and 11 September plus 45 days is 26 October.
+- **What we did not see.** We have not read the petition or the docket entry itself. On 28 October we could not read CourtListener from our tools, so this update rests on the two reports. If the docket shows a different date or form, this section will be corrected in a later dated section.
+- **The mandate waits.** Under Federal Rule of Appellate Procedure 41(b), the mandate issues 7 days after the time to petition for rehearing expires, or 7 days after an order denying a timely petition, whichever is later. Without a petition it would have issued on 2 November 2026 (26 October plus 7 days). With a timely petition pending, it issues only after the court rules on it.
+- **What the abeyance groups wait on, as the table above records their orders.** Eddystone's first two orders (abeyance of 26 August, 4 petitions) have motions to govern due 14 days after the mandate, so they now also wait on the rehearing petition. Campbell's second order (18 February, 3 petitions) is held until 25-1159 is resolved. Craig's first order (8 June, 3 petitions) has motions to govern due within 60 days of the decision, which counted from 11 September is 10 November 2026; the archive does not yet show whether anyone treats that date as moved. The Schahfer and Culley group (28 July) and NRDC's 26-1026 (13 March) are as described above.
+- **No new plant order since our orders table.** DOE's page of 2026 orders, read on 28 October 2026, lists nothing after 202-26-50 (PJM, 12 October 2026, in force 13 to 16 October), which names no plant.
+- **Next expiries, from [`data/doe_202c_orders.csv`](../data/doe_202c_orders.csv).** Campbell's sixth order, 202-26-39, expires 14 November 2026; Wagner's 202-26-25A on 17 November; Eddystone's 202-26-40 on 20 November; Stanton's 202-26-42 on 30 November. The orders table holds six Campbell orders, each of the last five issued no later than the day the one before it expired, so whether DOE issues a seventh while its own rehearing petition is pending is the next public event to watch.
+
+The legal consequences are for the courts and the parties; this section only records dates and filings. [`test_doe_202c_court_update.py`](../test_doe_202c_court_update.py) checks the dates above by arithmetic and the expiries against the orders table.
