@@ -1,0 +1,611 @@
+{
+ "ahead": [
+  {
+   "doe_order": "yes",
+   "first": "2026-11",
+   "months": "2026-11",
+   "mw": 1330.5,
+   "plant": "J H Campbell",
+   "plant_id": "1710",
+   "state": "MI",
+   "units": "1, 2, 3"
+  },
+  {
+   "doe_order": "yes",
+   "first": "2026-12",
+   "months": "2026-12",
+   "mw": 722.0,
+   "plant": "R M Schahfer",
+   "plant_id": "6085",
+   "state": "IN",
+   "units": "17, 18"
+  },
+  {
+   "doe_order": "no",
+   "first": "2026-12",
+   "months": "2026-12",
+   "mw": 680.0,
+   "plant": "Sherburne County",
+   "plant_id": "6090",
+   "state": "MN",
+   "units": "1"
+  },
+  {
+   "doe_order": "yes",
+   "first": "2026-12",
+   "months": "2026-12",
+   "mw": 427.0,
+   "plant": "Craig (CO)",
+   "plant_id": "6021",
+   "state": "CO",
+   "units": "1"
+  },
+  {
+   "doe_order": "no",
+   "first": "2026-12",
+   "months": "2026-12",
+   "mw": 335.0,
+   "plant": "Comanche (CO)",
+   "plant_id": "470",
+   "state": "CO",
+   "units": "2"
+  },
+  {
+   "doe_order": "yes",
+   "first": "2026-12",
+   "months": "2026-12",
+   "mw": 90.0,
+   "plant": "F B Culley",
+   "plant_id": "1012",
+   "state": "IN",
+   "units": "2"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 1157.0,
+   "plant": "Baldwin Energy Complex",
+   "plant_id": "889",
+   "state": "IL",
+   "units": "1, 2"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 1112.0,
+   "plant": "Kincaid Generation LLC",
+   "plant_id": "876",
+   "state": "IL",
+   "units": "1, 2"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 1004.0,
+   "plant": "Victor J Daniel Jr",
+   "plant_id": "6073",
+   "state": "MS",
+   "units": "1, 2"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 703.0,
+   "plant": "Kingston",
+   "plant_id": "3407",
+   "state": "TN",
+   "units": "1, 2, 3, 4, 5, 6"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 616.0,
+   "plant": "South Oak Creek",
+   "plant_id": "4041",
+   "state": "WI",
+   "units": "7, 8"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 595.0,
+   "plant": "Newton",
+   "plant_id": "6017",
+   "state": "IL",
+   "units": "1"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 381.0,
+   "plant": "Springerville",
+   "plant_id": "8223",
+   "state": "AZ",
+   "units": "1"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 262.0,
+   "plant": "Hayden",
+   "plant_id": "525",
+   "state": "CO",
+   "units": "2"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 220.0,
+   "plant": "Dave Johnston",
+   "plant_id": "4158",
+   "state": "WY",
+   "units": "3"
+  },
+  {
+   "doe_order": "no",
+   "first": "2027-12",
+   "months": "2027-12",
+   "mw": 108.0,
+   "plant": "Merrimack",
+   "plant_id": "2364",
+   "state": "NH",
+   "units": "1"
+  }
+ ],
+ "changes": [
+  {
+   "august": "operating 2026-09",
+   "key": "1012/2",
+   "mw": 90.0,
+   "plant": "F B Culley",
+   "september": "operating 2026-12",
+   "state": "IN"
+  },
+  {
+   "august": "operating 2026-09",
+   "key": "6021/1",
+   "mw": 427.0,
+   "plant": "Craig (CO)",
+   "september": "operating 2026-12",
+   "state": "CO"
+  },
+  {
+   "august": "operating 2026-10",
+   "key": "6085/17",
+   "mw": 361.0,
+   "plant": "R M Schahfer",
+   "september": "operating 2026-12",
+   "state": "IN"
+  },
+  {
+   "august": "operating 2026-10",
+   "key": "6085/18",
+   "mw": 361.0,
+   "plant": "R M Schahfer",
+   "september": "operating 2026-12",
+   "state": "IN"
+  }
+ ],
+ "counts": {
+  "august": 1356,
+  "september": 1356
+ },
+ "files": {
+  "august": {
+   "errors": [],
+   "md5": "9727ac867236faab7d5503175dacdf38",
+   "same_as_recorded": true,
+   "size": 13955142,
+   "url": "https://www.eia.gov/electricity/data/eia860m/archive/xls/august_generator2026.xlsx"
+  },
+  "september": {
+   "errors": [],
+   "md5": "4c741eb77a5ccad5aca32ffe43f398af",
+   "same_as_recorded": true,
+   "size": 14013970,
+   "url": "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx"
+  }
+ },
+ "gate": {
+  "held": true,
+  "need": 15,
+  "plan_match": 16,
+  "plan_rows": [
+   {
+    "august": "2026-09",
+    "key": "1012/2",
+    "match": true,
+    "pudl": "2026-09"
+   },
+   {
+    "august": "",
+    "key": "165/2",
+    "match": true,
+    "pudl": ""
+   },
+   {
+    "august": "2026-11",
+    "key": "1710/1",
+    "match": true,
+    "pudl": "2026-11"
+   },
+   {
+    "august": "2026-11",
+    "key": "1710/2",
+    "match": true,
+    "pudl": "2026-11"
+   },
+   {
+    "august": "2026-11",
+    "key": "1710/3",
+    "match": true,
+    "pudl": "2026-11"
+   },
+   {
+    "august": "2034-12",
+    "key": "3399/2",
+    "match": true,
+    "pudl": "2034-12"
+   },
+   {
+    "august": "2034-12",
+    "key": "3407/7",
+    "match": true,
+    "pudl": "2034-12"
+   },
+   {
+    "august": "2034-12",
+    "key": "3407/8",
+    "match": true,
+    "pudl": "2034-12"
+   },
+   {
+    "august": "2034-12",
+    "key": "3407/9",
+    "match": true,
+    "pudl": "2034-12"
+   },
+   {
+    "august": "2027-12",
+    "key": "4041/7",
+    "match": true,
+    "pudl": "2027-12"
+   },
+   {
+    "august": "2027-12",
+    "key": "4041/8",
+    "match": true,
+    "pudl": "2027-12"
+   },
+   {
+    "august": "2026-12",
+    "key": "470/2",
+    "match": true,
+    "pudl": "2026-12"
+   },
+   {
+    "august": "2026-09",
+    "key": "6021/1",
+    "match": true,
+    "pudl": "2026-09"
+   },
+   {
+    "august": "2026-10",
+    "key": "6085/17",
+    "match": true,
+    "pudl": "2026-10"
+   },
+   {
+    "august": "2026-10",
+    "key": "6085/18",
+    "match": true,
+    "pudl": "2026-10"
+   },
+   {
+    "august": "2026-12",
+    "key": "6090/1",
+    "match": true,
+    "pudl": "2026-12"
+   }
+  ],
+  "retired_2026": []
+ },
+ "overdue": [],
+ "predictions": {
+  "S1": {
+   "held": true,
+   "retired_2026": []
+  },
+  "S2": {
+   "held": true,
+   "plan_retired": [],
+   "still": {
+    "470/2": "2026-12",
+    "6090/1": "2026-12"
+   }
+  },
+  "S3": {
+   "held": true,
+   "mw": 3584.5,
+   "mw_under_orders": 2569.5,
+   "share": 0.7168,
+   "units": 9
+  }
+ },
+ "retired_recent": [
+  {
+   "esc": "BIT",
+   "key": "594/4",
+   "kind": "retired",
+   "mw": 410.0,
+   "plant_id": "594",
+   "plant_name": "Indian River Generating Station",
+   "sheet": "Retired",
+   "state": "DE",
+   "status": "",
+   "ym": "2025-02"
+  },
+  {
+   "esc": "SUB",
+   "key": "113/1",
+   "kind": "retired",
+   "mw": 112.0,
+   "plant_id": "113",
+   "plant_name": "Cholla",
+   "sheet": "Retired",
+   "state": "AZ",
+   "status": "",
+   "ym": "2025-03"
+  },
+  {
+   "esc": "SUB",
+   "key": "113/3",
+   "kind": "retired",
+   "mw": 271.0,
+   "plant_id": "113",
+   "plant_name": "Cholla",
+   "sheet": "Retired",
+   "state": "AZ",
+   "status": "",
+   "ym": "2025-03"
+  },
+  {
+   "esc": "BIT",
+   "key": "2367/4",
+   "kind": "retired",
+   "mw": 47.5,
+   "plant_id": "2367",
+   "plant_name": "Schiller",
+   "sheet": "Retired",
+   "state": "NH",
+   "status": "",
+   "ym": "2025-10"
+  },
+  {
+   "esc": "BIT",
+   "key": "2367/6",
+   "kind": "retired",
+   "mw": 47.9,
+   "plant_id": "2367",
+   "plant_name": "Schiller",
+   "sheet": "Retired",
+   "state": "NH",
+   "status": "",
+   "ym": "2025-10"
+  },
+  {
+   "esc": "BIT",
+   "key": "6481/1",
+   "kind": "retired",
+   "mw": 900.0,
+   "plant_id": "6481",
+   "plant_name": "Intermountain Power Project",
+   "sheet": "Retired",
+   "state": "UT",
+   "status": "",
+   "ym": "2025-10"
+  },
+  {
+   "esc": "BIT",
+   "key": "6481/2",
+   "kind": "retired",
+   "mw": 900.0,
+   "plant_id": "6481",
+   "plant_name": "Intermountain Power Project",
+   "sheet": "Retired",
+   "state": "UT",
+   "status": "",
+   "ym": "2025-11"
+  },
+  {
+   "esc": "SUB",
+   "key": "1073/1",
+   "kind": "retired",
+   "mw": 14.6,
+   "plant_id": "1073",
+   "plant_name": "Prairie Creek",
+   "sheet": "Retired",
+   "state": "IA",
+   "status": "",
+   "ym": "2025-12"
+  }
+ ],
+ "sheets": {
+  "august": {
+   "Canceled or Postponed": null,
+   "Operating": {
+    "coal_rows": 446,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "status",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [],
+    "header_row": 2,
+    "rows": 28379
+   },
+   "Operating_PR": {
+    "coal_rows": 2,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "status",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [],
+    "header_row": 2,
+    "rows": 230
+   },
+   "Planned": null,
+   "Planned_PR": null,
+   "Retired": {
+    "coal_rows": 908,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [
+     "status"
+    ],
+    "header_row": 2,
+    "rows": 7338
+   },
+   "Retired_PR": {
+    "coal_rows": 0,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [
+     "status"
+    ],
+    "header_row": 2,
+    "rows": 12
+   }
+  },
+  "september": {
+   "Canceled or Postponed": null,
+   "Operating": {
+    "coal_rows": 446,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "status",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [],
+    "header_row": 2,
+    "rows": 28486
+   },
+   "Operating_PR": {
+    "coal_rows": 2,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "status",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [],
+    "header_row": 2,
+    "rows": 230
+   },
+   "Planned": null,
+   "Planned_PR": null,
+   "Retired": {
+    "coal_rows": 908,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [
+     "status"
+    ],
+    "header_row": 2,
+    "rows": 7323
+   },
+   "Retired_PR": {
+    "coal_rows": 0,
+    "columns_found": [
+     "esc",
+     "gid",
+     "name",
+     "nameplate",
+     "pid",
+     "rm",
+     "ry",
+     "state",
+     "summer",
+     "tech"
+    ],
+    "columns_missing": [
+     "status"
+    ],
+    "header_row": 2,
+    "rows": 12
+   }
+  }
+ },
+ "version": "0.1.0"
+}

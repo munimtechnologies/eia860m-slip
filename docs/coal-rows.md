@@ -115,3 +115,9 @@ python coal_rows.py --data-dir <folder with the parquet> --out-dir out
 ```
 
 PUDL's nightly file changes over time. The numbers here come from the copy downloaded on 2026-10-15.
+
+## Update, 2026-10-28: September 2026, still no coal retirement
+
+EIA's September 2026 EIA-860M workbook (published 23 October 2026) has no coal generator on its Retired sheet with retirement year 2026, so EIA-860M now records **no coal retirement from January to September 2026**. PUDL's changelog had not yet taken in September, so this was read from EIA's own workbooks under a plan fixed in advance, with a gate: EIA's August 2026 workbook had to reproduce this page's August rows, and it did (16 of 16 plan generators with the same month, and no 2026 coal retirement). The gate and all three predictions held; details in [`coalsep.md`](coalsep.md).
+
+In the September workbook, none of the 16 plan generators has retired. Culley 2 and Craig 1 moved from 2026-09 to 2026-12, and Schahfer 17-18 from 2026-10 to 2026-12, the months their DOE orders now expire. Sherburne County 1 and Comanche 2 are still dated 2026-12. Everything above this section is unchanged and still describes the August 2026 report.

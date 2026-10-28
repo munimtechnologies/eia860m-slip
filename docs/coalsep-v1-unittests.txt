@@ -1,0 +1,30 @@
+test_operating (test_coalsep.CoalRowsTests.test_operating) ... ok
+test_other_sheets_skipped (test_coalsep.CoalRowsTests.test_other_sheets_skipped) ... ok
+test_retired (test_coalsep.CoalRowsTests.test_retired) ... ok
+test_ahead (test_coalsep.DescribeTests.test_ahead) ... ok
+test_changes (test_coalsep.DescribeTests.test_changes) ... ok
+test_overdue (test_coalsep.DescribeTests.test_overdue) ... ok
+test_state_retired_wins (test_coalsep.DescribeTests.test_state_retired_wins) ... ok
+test_blank_matches_blank_only (test_coalsep.GateTests.test_blank_matches_blank_only) ... ok
+test_held (test_coalsep.GateTests.test_held) ... ok
+test_one_miss_still_held (test_coalsep.GateTests.test_one_miss_still_held) ... ok
+test_retired_2026_fails (test_coalsep.GateTests.test_retired_2026_fails) ... ok
+test_two_misses_fail (test_coalsep.GateTests.test_two_misses_fail) ... ok
+test_is_coal (test_coalsep.HelperTests.test_is_coal) ... ok
+test_norm_and_ym (test_coalsep.HelperTests.test_norm_and_ym) ... ok
+test_plan_constants (test_coalsep.HelperTests.test_plan_constants) ... ok
+test_sheet_kind (test_coalsep.HelperTests.test_sheet_kind) ... ok
+test_to_float (test_coalsep.HelperTests.test_to_float) ... ok
+test_all_held (test_coalsep.PredictionTests.test_all_held) ... ok
+test_s1_fails_on_2026_retirement (test_coalsep.PredictionTests.test_s1_fails_on_2026_retirement) ... ok
+test_s2_fails_when_comanche_moves (test_coalsep.PredictionTests.test_s2_fails_when_comanche_moves) ... ok
+test_s2_fails_when_plan_unit_retired (test_coalsep.PredictionTests.test_s2_fails_when_plan_unit_retired) ... ok
+test_s3_empty (test_coalsep.PredictionTests.test_s3_empty) ... ok
+test_s3_range_and_share (test_coalsep.PredictionTests.test_s3_range_and_share) ... ok
+test_render (test_coalsep.RenderTests.test_render) ... ok
+test_render_gate_failed (test_coalsep.RenderTests.test_render_gate_failed) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.002s
+
+OK
