@@ -1,0 +1,10 @@
+test_json (test_title_tools.Compare.test_json) ... ok
+test_pages (test_title_tools.Compare.test_pages) ... ok
+test_tests (test_title_tools.Patch.test_tests) ... ok
+test_tool (test_title_tools.Patch.test_tool) ... ok
+test_twice_refused (test_title_tools.Patch.test_twice_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

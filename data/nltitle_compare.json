@@ -1,0 +1,41 @@
+{
+ "page": {
+  "published_lines": 511,
+  "rebuilt_lines": 511,
+  "lines_differ": [
+   1,
+   14
+  ],
+  "lines_differ_count": 2,
+  "published_title_chars": 56106,
+  "rebuilt_title": "# nextlist 0.1.1: EIA-860M generators planned for 2026-10, with the on-time share of earlier ones like them",
+  "held": false
+ },
+ "csv": {
+  "nextlist_2026-10.csv": {
+   "published_bytes": 25247,
+   "rebuilt_bytes": 25247,
+   "identical": true
+  },
+  "nextlist_2026-09.csv": {
+   "published_bytes": 26923,
+   "rebuilt_bytes": 26923,
+   "identical": true
+  },
+  "nextlist_backtest_months.csv": {
+   "published_bytes": 7869,
+   "rebuilt_bytes": 7869,
+   "identical": true
+  }
+ },
+ "json": {
+  "keys_differ": [
+   "finished_at",
+   "started_at",
+   "version",
+   "workbooks"
+  ],
+  "held": false
+ },
+ "held": false
+}
