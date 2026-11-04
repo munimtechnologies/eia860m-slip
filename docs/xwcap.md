@@ -84,9 +84,31 @@ Read on 3 November 2026, after the scores above were fixed:
 
 If the xwelk read confirms it, the fix would be manual matches from CAMD plant 57865 units 1-3 to the Elk Station generators of EIA plant 58835, and removing the links to E01-E03. Whether to change any link is EPA's, PUDL's and Open Grid Emissions' choice.
 
+## The xwelk read (4 November 2026, not pre-registered)
+
+Job xwelk-v1 (`tools/xwelk/xwelk.py` 0.1.0, Python 3.14.10, polars 2.1.0) ran on 3 November 2026 at 20:47 UTC, passed its unit tests, and read every row for EIA plants 57865 and 58835 (and EPA plant ids 57865 and 58835) from these files. It tests no prediction; it only lists rows.
+
+| File | Bytes | md5 | Last-Modified |
+|---|---|---|---|
+| `core_eia860__scd_generators` | 7,718,170 | 6c4372366df319de1888d8fc6ea1ec0e | Tue, 03 Nov 2026 08:16:43 GMT |
+| `core_epa__assn_eia_epacamd` | 190,240 | 420d50a7e4d066d29eee909eab73d932 | Tue, 03 Nov 2026 08:16:48 GMT |
+| `out_epacems__yearly_operational_characteristics` | 3,293,502 | 5c48a28ea3f927310b46dc673e392cf5 | Tue, 03 Nov 2026 08:19:15 GMT |
+| `core_eia923__monthly_generation` | 2,629,949 | 3858b293a170f49cce21227da81a2718 | Tue, 03 Nov 2026 08:16:45 GMT |
+| EPA `epa_eia_crosswalk.csv` at 3c7d672 | 2,298,091 | b7ec4b014ab66c2926f77ea86fa1ea16 | (pinned commit) |
+
+It confirms the reading above:
+
+- **EIA plant 58835 holds the turbines.** In EIA-860 (as PUDL publishes it) plant 58835 has generators ELK1, ELK2 and ELK3, prime mover GT ("Natural Gas Fired Combustion Turbine"), 199.8 MW nameplate each and operating in report year 2024, plus a proposed ELK4 (199.8 MW). ELK1 is first listed as existing in report year 2015 and ELK2 and ELK3 in 2016. CAMD's own status dates for units 1, 2 and 3 are 21 May 2015, 14 April 2016 and 18 April 2016. The EIA generator ids are the same as CAMD's generator ids (ELK1-ELK3).
+- **Nothing links to it.** All 21 crosswalk rows PUDL publishes for either plant link EPA plant 57865 units 1, 2 and 3 (CAMD generators ELK1, ELK2, ELK3) to EIA plant 57865 generators E01, E02 and E03, one row per unit for each year 2018 to 2024. No row links any CEMS unit to EIA plant 58835. EPA's crosswalk file has exactly 3 rows naming either plant (the three Step 1d rows above), and none of them names 58835.
+- **The CEMS units behave like the turbines, not the engines.** PUDL's CEMS operational characteristics have 31 rows for EPA plant 57865 (unit 1 from 2015, units 2 and 3 from 2016, through 2025), with a highest hourly gross load between 197 and 207 MW. In 2024 their minimum stable load (`min_stable_load_factor` 0.4 x `max_gross_load_mw` 204 to 205) is 81.6 to 82.0 MW. EIA-860 reports a `minimum_load_mw` of 85.0 MW for each of ELK1-ELK3 in 2024, and 3.7 MW for each of E01-E03.
+- **EIA-923:** `core_eia923__monthly_generation` had no rows for either plant, so net generation was not compared here. Open Grid Emissions [issue #269](https://github.com/singularity-energy/open-grid-emissions/issues/269) (30 December 2022) lists plant 57865 in 2021 with a calculated net generation about 13.5 times EIA's (345,104.7 against 25,581.5 MWh), which is what attributing the turbines' CEMS output to the engines would produce; that link was not tested here.
+
+So the likely fix is three manual matches, EPA plant 57865 units 1, 2 and 3 to EIA plant 58835 generators ELK1, ELK2 and ELK3, replacing the links to E01-E03. No person has checked this by hand, and whether to change any link is still EPA's, PUDL's and Open Grid Emissions' choice. The job's code is in `tools/xwelk/`; PUDL's data and EPA's file are downloaded at run time and not stored here.
+
 ## Limits
 
 - The ratio adds each unit's highest hourly load over PUDL's trailing window; those maxima need not fall in the same hour, and a unit with several stacks can be counted more than once.
 - Nameplate capacity and CEMS gross load are different measures. An over group is a pointer to check, not proof that a link is wrong.
 - The "After scoring" readings were made by fetching public pages, not by the pre-registered code, and no person has checked them.
 - PUDL's code (MIT) and data (CC BY 4.0) are downloaded at run time and not stored here.
+- The xwelk read lists rows for two plants only; it says nothing about the other 28 over groups.
