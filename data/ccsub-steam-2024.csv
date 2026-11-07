@@ -1,0 +1,11 @@
+plant_id_eia,generator_id,class,shared_unit_id_pudl,subplant_ids,linked_ct_generators,ct_subplant_ids,unit_id_pudl,ct_unit_id_pudl,subplant_generators,subplant_cems_units
+422,ST1,joined,True,5,GT5,5,1,1,GT5;ST1,GT5;ST1
+7242,1CA,joined,True,2,1CT;2;3;4;5,2,1,1,1CA;1CT;2;2CC;3;4;5,**1;**2;**3;**4;**5
+7307,4,joined,True,4,5;6,4,1,1,4;5;6,4;5;6
+10682,ST2,apart,False,3,GT4;GT5,4,2,3,GT3;ST2,GT3;ST2
+52176,GEN3,joined,True,1,GEN1;GEN2,1,1,1,GEN1;GEN2;GEN3,1;2
+55419,ST6,joined,True,1,G500;G600;G700;G800,1,1,1,G500;G600;G700;G800;ST5;ST6;ST7,500;600;700;800;ST6;ST7
+55419,ST7,joined,True,1,G500;G600;G700;G800,1,1,1,G500;G600;G700;G800;ST5;ST6;ST7,500;600;700;800;ST6;ST7
+55524,STG2,apart,False,2,CTG1;CTG2;CTG3,1,2,1,CTG5;CTG6;STG2,CTG5;CTG6;STG2
+58478,LEPA2,apart,False,2,LEPA1,1,,,LEPA2,LEPA2
+60589,GEN3,joined,True,1,GEN1;GEN2,1,1,1,GEN1;GEN2;GEN3,CT-1;CT-2;GEN3
