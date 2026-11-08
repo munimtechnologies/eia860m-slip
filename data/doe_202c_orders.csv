@@ -84,3 +84,5 @@ order,kind,area,recipient,plant_key,plant,issued,effective,expires,expires_time,
 202-26-48,event,Duke,Duke Energy Carolinas,,,2026-09-18,2026-09-18,2026-09-21,,https://www.energy.gov/ceser/2026-doe-202c-orders,
 202-26-49,plant,West,Tri-State and co-owners,craig,Craig,2026-09-25,2026-09-27,2026-12-25,,https://www.energy.gov/ceser/2026-doe-202c-orders,
 202-26-50,event,PJM,PJM,,,2026-10-12,2026-10-13,2026-10-16,,https://www.energy.gov/ceser/2026-doe-202c-orders,
+202-25-1F,island,Puerto Rico,PREPA,,,2026-11-06,2026-11-08,2027-02-05,,https://www.energy.gov/ceser/2026-doe-202c-orders,extension
+202-25-2F,island,Puerto Rico,PREPA,,,2026-11-06,2026-11-08,2027-02-05,,https://www.energy.gov/ceser/2026-doe-202c-orders,extension

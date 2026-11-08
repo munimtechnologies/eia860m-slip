@@ -1,5 +1,9 @@
 """Checks docs/renew-plan.md against data/doe_202c_orders.csv.
 
+The plan was written on 2026-10-28, so these checks read the orders table as it stood that day:
+only orders issued on or before AS_OF. Orders added to the table later (from 202-25-1F and
+202-25-2F, issued 2026-11-06) are left for the scoring, not for these checks.
+
 MV2 of Munim, Inc. (made with AI agents). Apache-2.0."""
 
 import collections
@@ -56,8 +60,14 @@ def pairs(seq):
 class RenewPlanDocTests(unittest.TestCase):
     def setUp(self):
         self.doc = read("docs/renew-plan.md")
-        self.orders = rows("data/doe_202c_orders.csv")
+        self.all_orders = rows("data/doe_202c_orders.csv")
+        self.orders = [r for r in self.all_orders if r["issued"] <= AS_OF]
         self.by_order = {r["order"]: r for r in self.orders}
+
+    def test_snapshot(self):
+        # The table held 85 orders on the plan date; later rows are only ever appended.
+        self.assertEqual(len(self.orders), 85)
+        self.assertEqual([r["order"] for r in self.all_orders[:85]], [r["order"] for r in self.orders])
 
     def test_status_and_newest_order(self):
         self.assertIn("Status: pre-registered, not yet scored.", self.doc)

@@ -139,12 +139,14 @@ class TableTests(unittest.TestCase):
 
     def test_counts(self):
         c = self.res["counts"]
-        self.assertEqual(c["orders"], 85)
-        self.assertEqual(c["by_year"], {"2025": 19, "2026": 66})
-        self.assertEqual(c["by_kind"], {"plant": 34, "event": 38, "island": 13})
+        # 85 orders to 202-26-50 (12 October 2026), plus PREPA's 202-25-1F and 202-25-2F
+        # (issued 6 November 2026, in force 8 November 2026 to 5 February 2027).
+        self.assertEqual(c["orders"], 87)
+        self.assertEqual(c["by_year"], {"2025": 19, "2026": 68})
+        self.assertEqual(c["by_kind"], {"plant": 34, "event": 38, "island": 15})
         by = {(r["year"], r["kind"]): r["orders"] for r in c["by_year_kind"]}
         self.assertEqual(by, {(2025, "plant"): 12, (2025, "event"): 1, (2025, "island"): 6,
-                              (2026, "plant"): 22, (2026, "event"): 37, (2026, "island"): 7})
+                              (2026, "plant"): 22, (2026, "event"): 37, (2026, "island"): 9})
         # Plant orders up to 202-26-16 ran 90 days, every one since 89; Wagner's 2025 extension
         # (202-25-6A) ran 66 days, to 31 December.
         self.assertEqual(c["plant_lengths"], {"66": 1, "89": 21, "90": 12})
