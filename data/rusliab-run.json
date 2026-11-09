@@ -1,0 +1,1368 @@
+{
+ "tolerance": 10,
+ "source": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/",
+ "tables": {
+  "core_rus7__yearly_balance_sheet_liabilities": {
+   "table": "core_rus7__yearly_balance_sheet_liabilities",
+   "rows": 237524,
+   "columns": [
+    "report_date",
+    "borrower_id_rus",
+    "liability_type",
+    "ending_balance",
+    "is_total"
+   ],
+   "schema": {
+    "report_date": "Date",
+    "borrower_id_rus": "String",
+    "liability_type": "Categorical",
+    "ending_balance": "Float64",
+    "is_total": "Boolean"
+   },
+   "labels": [
+    "accounts_payable",
+    "consumer_deposits",
+    "current_maturities_capital_leases",
+    "current_maturities_long_term_debt",
+    "economic_development",
+    "long_term_debt_ffb_rus_guaranteed",
+    "long_term_debt_other",
+    "long_term_debt_other_rus_guaranteed",
+    "long_term_debt_rus",
+    "long_term_debt_rus_economic_development",
+    "memberships",
+    "non_operating_margins",
+    "noncurrent_obligations_asset_retirement",
+    "noncurrent_obligations_under_capital_leases",
+    "notes_payable",
+    "operating_margins_current_year",
+    "operating_margins_prior_years",
+    "other_current_and_accrued_liabilities",
+    "other_deferred_credits",
+    "other_margins_and_equities",
+    "patronage_capital",
+    "payments_unapplied",
+    "regulatory",
+    "total_current_and_accrued_liabilities",
+    "total_liabilities_and_other_credits",
+    "total_long_term_debt",
+    "total_margins_and_equities",
+    "total_noncurrent_obligations"
+   ],
+   "labels_missing_from_tests": [],
+   "test_labels_missing_from_table": [],
+   "is_total_labels": [
+    "total_current_and_accrued_liabilities",
+    "total_liabilities_and_other_credits",
+    "total_long_term_debt",
+    "total_margins_and_equities",
+    "total_noncurrent_obligations"
+   ],
+   "years": [
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "groups": 8483,
+   "payments_unapplied": {
+    "nonnull": 8483,
+    "positive": 4602,
+    "negative": 1
+   },
+   "nulls_by_label": {
+    "accounts_payable": [
+     0,
+     8483
+    ],
+    "consumer_deposits": [
+     0,
+     8483
+    ],
+    "current_maturities_capital_leases": [
+     0,
+     8483
+    ],
+    "current_maturities_long_term_debt": [
+     0,
+     8483
+    ],
+    "economic_development": [
+     0,
+     8483
+    ],
+    "long_term_debt_ffb_rus_guaranteed": [
+     0,
+     8483
+    ],
+    "long_term_debt_other": [
+     0,
+     8483
+    ],
+    "long_term_debt_other_rus_guaranteed": [
+     0,
+     8483
+    ],
+    "long_term_debt_rus": [
+     0,
+     8483
+    ],
+    "long_term_debt_rus_economic_development": [
+     0,
+     8483
+    ],
+    "memberships": [
+     0,
+     8483
+    ],
+    "non_operating_margins": [
+     0,
+     8483
+    ],
+    "noncurrent_obligations_asset_retirement": [
+     0,
+     8483
+    ],
+    "noncurrent_obligations_under_capital_leases": [
+     0,
+     8483
+    ],
+    "notes_payable": [
+     0,
+     8483
+    ],
+    "operating_margins_current_year": [
+     0,
+     8483
+    ],
+    "operating_margins_prior_years": [
+     0,
+     8483
+    ],
+    "other_current_and_accrued_liabilities": [
+     0,
+     8483
+    ],
+    "other_deferred_credits": [
+     0,
+     8483
+    ],
+    "other_margins_and_equities": [
+     0,
+     8483
+    ],
+    "patronage_capital": [
+     0,
+     8483
+    ],
+    "payments_unapplied": [
+     0,
+     8483
+    ],
+    "regulatory": [
+     0,
+     8483
+    ],
+    "total_current_and_accrued_liabilities": [
+     0,
+     8483
+    ],
+    "total_liabilities_and_other_credits": [
+     0,
+     8483
+    ],
+    "total_long_term_debt": [
+     0,
+     8483
+    ],
+    "total_margins_and_equities": [
+     0,
+     8483
+    ],
+    "total_noncurrent_obligations": [
+     0,
+     8483
+    ]
+   },
+   "tests": {
+    "margins_and_equities": {
+     "subcomponents": [
+      "memberships",
+      "patronage_capital",
+      "operating_margins_prior_years",
+      "operating_margins_current_year",
+      "non_operating_margins",
+      "other_margins_and_equities"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_margins_and_equities",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "long_term_debt_less_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development"
+     ],
+     "negative_subcomponents": [
+      "payments_unapplied"
+     ],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "long_term_debt_plus_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development",
+      "payments_unapplied"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 4601,
+     "failure_share": 0.54238,
+     "failures_by_year": {
+      "2006": 177,
+      "2007": 172,
+      "2008": 221,
+      "2009": 258,
+      "2010": 300,
+      "2011": 332,
+      "2012": 346,
+      "2013": 355,
+      "2014": 356,
+      "2015": 362,
+      "2016": 366,
+      "2017": 366,
+      "2018": 362,
+      "2019": 308,
+      "2020": 181,
+      "2021": 139
+     },
+     "largest_failures": [
+      {
+       "key": [
+        "SC0031",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 337819844.0,
+       "grand_total": 116576692.0,
+       "absolute_diff": 221243152.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 322110669.0,
+       "grand_total": 131026421.0,
+       "absolute_diff": 191084248.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 314447626.0,
+       "grand_total": 133393100.0,
+       "absolute_diff": 181054526.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 332191004.0,
+       "grand_total": 165599872.0,
+       "absolute_diff": 166591132.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 588771074.0,
+       "grand_total": 423520772.0,
+       "absolute_diff": 165250302.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 565723960.0,
+       "grand_total": 406321298.0,
+       "absolute_diff": 159402662.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 320297520.0,
+       "grand_total": 161781936.0,
+       "absolute_diff": 158515584.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 393490675.0,
+       "grand_total": 239182731.0,
+       "absolute_diff": 154307944.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 382010641.0,
+       "grand_total": 227918485.0,
+       "absolute_diff": 154092156.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 512608567.0,
+       "grand_total": 360933061.0,
+       "absolute_diff": 151675506.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2015-12-01"
+       ],
+       "subcomponents_sum": 294945634.0,
+       "grand_total": 145827946.0,
+       "absolute_diff": 149117688.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 570655935.0,
+       "grand_total": 421970439.0,
+       "absolute_diff": 148685496.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 262695744.0,
+       "grand_total": 114644360.0,
+       "absolute_diff": 148051384.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 534165774.0,
+       "grand_total": 389842844.0,
+       "absolute_diff": 144322930.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 381705933.0,
+       "grand_total": 237635913.0,
+       "absolute_diff": 144070020.0
+      }
+     ]
+    },
+    "long_term_debt_without_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 4599,
+     "failure_share": 0.54214,
+     "failures_by_year": {
+      "2006": 177,
+      "2007": 172,
+      "2008": 221,
+      "2009": 258,
+      "2010": 300,
+      "2011": 332,
+      "2012": 345,
+      "2013": 355,
+      "2014": 355,
+      "2015": 362,
+      "2016": 366,
+      "2017": 366,
+      "2018": 362,
+      "2019": 308,
+      "2020": 181,
+      "2021": 139
+     },
+     "largest_failures": [
+      {
+       "key": [
+        "SC0031",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 227198268.0,
+       "grand_total": 116576692.0,
+       "absolute_diff": 110621576.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 226568545.0,
+       "grand_total": 131026421.0,
+       "absolute_diff": 95542124.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 223920363.0,
+       "grand_total": 133393100.0,
+       "absolute_diff": 90527263.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 248895438.0,
+       "grand_total": 165599872.0,
+       "absolute_diff": 83295566.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 506145923.0,
+       "grand_total": 423520772.0,
+       "absolute_diff": 82625151.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 486022629.0,
+       "grand_total": 406321298.0,
+       "absolute_diff": 79701331.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 241039728.0,
+       "grand_total": 161781936.0,
+       "absolute_diff": 79257792.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 316336703.0,
+       "grand_total": 239182731.0,
+       "absolute_diff": 77153972.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 304964563.0,
+       "grand_total": 227918485.0,
+       "absolute_diff": 77046078.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 436770814.0,
+       "grand_total": 360933061.0,
+       "absolute_diff": 75837753.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2015-12-01"
+       ],
+       "subcomponents_sum": 220386790.0,
+       "grand_total": 145827946.0,
+       "absolute_diff": 74558844.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 496313187.0,
+       "grand_total": 421970439.0,
+       "absolute_diff": 74342748.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 188670052.0,
+       "grand_total": 114644360.0,
+       "absolute_diff": 74025692.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 462004309.0,
+       "grand_total": 389842844.0,
+       "absolute_diff": 72161465.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 309670923.0,
+       "grand_total": 237635913.0,
+       "absolute_diff": 72035010.0
+      }
+     ]
+    },
+    "noncurrent_obligations": {
+     "subcomponents": [
+      "noncurrent_obligations_under_capital_leases",
+      "noncurrent_obligations_asset_retirement"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_noncurrent_obligations",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "current_and_accrued": {
+     "subcomponents": [
+      "notes_payable",
+      "accounts_payable",
+      "consumer_deposits",
+      "current_maturities_long_term_debt",
+      "economic_development",
+      "current_maturities_capital_leases",
+      "other_current_and_accrued_liabilities"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_current_and_accrued_liabilities",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "liabilities_and_other_credits": {
+     "subcomponents": [
+      "total_margins_and_equities",
+      "total_long_term_debt",
+      "total_noncurrent_obligations",
+      "total_current_and_accrued_liabilities",
+      "regulatory",
+      "other_deferred_credits"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_liabilities_and_other_credits",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    }
+   }
+  },
+  "out_rus7__yearly_balance_sheet_liabilities": {
+   "table": "out_rus7__yearly_balance_sheet_liabilities",
+   "rows": 237524,
+   "columns": [
+    "report_date",
+    "borrower_id_rus",
+    "borrower_name_rus",
+    "state",
+    "liability_type",
+    "ending_balance",
+    "is_total"
+   ],
+   "schema": {
+    "report_date": "Date",
+    "borrower_id_rus": "String",
+    "borrower_name_rus": "String",
+    "state": "Categorical",
+    "liability_type": "String",
+    "ending_balance": "Float64",
+    "is_total": "Boolean"
+   },
+   "labels": [
+    "accounts_payable",
+    "consumer_deposits",
+    "current_maturities_capital_leases",
+    "current_maturities_long_term_debt",
+    "economic_development",
+    "long_term_debt_ffb_rus_guaranteed",
+    "long_term_debt_other",
+    "long_term_debt_other_rus_guaranteed",
+    "long_term_debt_rus",
+    "long_term_debt_rus_economic_development",
+    "memberships",
+    "non_operating_margins",
+    "noncurrent_obligations_asset_retirement",
+    "noncurrent_obligations_under_capital_leases",
+    "notes_payable",
+    "operating_margins_current_year",
+    "operating_margins_prior_years",
+    "other_current_and_accrued_liabilities",
+    "other_deferred_credits",
+    "other_margins_and_equities",
+    "patronage_capital",
+    "payments_unapplied",
+    "regulatory",
+    "total_current_and_accrued_liabilities",
+    "total_liabilities_and_other_credits",
+    "total_long_term_debt",
+    "total_margins_and_equities",
+    "total_noncurrent_obligations"
+   ],
+   "labels_missing_from_tests": [],
+   "test_labels_missing_from_table": [],
+   "is_total_labels": [
+    "total_current_and_accrued_liabilities",
+    "total_liabilities_and_other_credits",
+    "total_long_term_debt",
+    "total_margins_and_equities",
+    "total_noncurrent_obligations"
+   ],
+   "years": [
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "groups": 8483,
+   "payments_unapplied": {
+    "nonnull": 8483,
+    "positive": 4602,
+    "negative": 1
+   },
+   "nulls_by_label": {
+    "accounts_payable": [
+     0,
+     8483
+    ],
+    "consumer_deposits": [
+     0,
+     8483
+    ],
+    "current_maturities_capital_leases": [
+     0,
+     8483
+    ],
+    "current_maturities_long_term_debt": [
+     0,
+     8483
+    ],
+    "economic_development": [
+     0,
+     8483
+    ],
+    "long_term_debt_ffb_rus_guaranteed": [
+     0,
+     8483
+    ],
+    "long_term_debt_other": [
+     0,
+     8483
+    ],
+    "long_term_debt_other_rus_guaranteed": [
+     0,
+     8483
+    ],
+    "long_term_debt_rus": [
+     0,
+     8483
+    ],
+    "long_term_debt_rus_economic_development": [
+     0,
+     8483
+    ],
+    "memberships": [
+     0,
+     8483
+    ],
+    "non_operating_margins": [
+     0,
+     8483
+    ],
+    "noncurrent_obligations_asset_retirement": [
+     0,
+     8483
+    ],
+    "noncurrent_obligations_under_capital_leases": [
+     0,
+     8483
+    ],
+    "notes_payable": [
+     0,
+     8483
+    ],
+    "operating_margins_current_year": [
+     0,
+     8483
+    ],
+    "operating_margins_prior_years": [
+     0,
+     8483
+    ],
+    "other_current_and_accrued_liabilities": [
+     0,
+     8483
+    ],
+    "other_deferred_credits": [
+     0,
+     8483
+    ],
+    "other_margins_and_equities": [
+     0,
+     8483
+    ],
+    "patronage_capital": [
+     0,
+     8483
+    ],
+    "payments_unapplied": [
+     0,
+     8483
+    ],
+    "regulatory": [
+     0,
+     8483
+    ],
+    "total_current_and_accrued_liabilities": [
+     0,
+     8483
+    ],
+    "total_liabilities_and_other_credits": [
+     0,
+     8483
+    ],
+    "total_long_term_debt": [
+     0,
+     8483
+    ],
+    "total_margins_and_equities": [
+     0,
+     8483
+    ],
+    "total_noncurrent_obligations": [
+     0,
+     8483
+    ]
+   },
+   "tests": {
+    "margins_and_equities": {
+     "subcomponents": [
+      "memberships",
+      "patronage_capital",
+      "operating_margins_prior_years",
+      "operating_margins_current_year",
+      "non_operating_margins",
+      "other_margins_and_equities"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_margins_and_equities",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "long_term_debt_less_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development"
+     ],
+     "negative_subcomponents": [
+      "payments_unapplied"
+     ],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "long_term_debt_plus_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development",
+      "payments_unapplied"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 4601,
+     "failure_share": 0.54238,
+     "failures_by_year": {
+      "2006": 177,
+      "2007": 172,
+      "2008": 221,
+      "2009": 258,
+      "2010": 300,
+      "2011": 332,
+      "2012": 346,
+      "2013": 355,
+      "2014": 356,
+      "2015": 362,
+      "2016": 366,
+      "2017": 366,
+      "2018": 362,
+      "2019": 308,
+      "2020": 181,
+      "2021": 139
+     },
+     "largest_failures": [
+      {
+       "key": [
+        "SC0031",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 337819844.0,
+       "grand_total": 116576692.0,
+       "absolute_diff": 221243152.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 322110669.0,
+       "grand_total": 131026421.0,
+       "absolute_diff": 191084248.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 314447626.0,
+       "grand_total": 133393100.0,
+       "absolute_diff": 181054526.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 332191004.0,
+       "grand_total": 165599872.0,
+       "absolute_diff": 166591132.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 588771074.0,
+       "grand_total": 423520772.0,
+       "absolute_diff": 165250302.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 565723960.0,
+       "grand_total": 406321298.0,
+       "absolute_diff": 159402662.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 320297520.0,
+       "grand_total": 161781936.0,
+       "absolute_diff": 158515584.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 393490675.0,
+       "grand_total": 239182731.0,
+       "absolute_diff": 154307944.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 382010641.0,
+       "grand_total": 227918485.0,
+       "absolute_diff": 154092156.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 512608567.0,
+       "grand_total": 360933061.0,
+       "absolute_diff": 151675506.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2015-12-01"
+       ],
+       "subcomponents_sum": 294945634.0,
+       "grand_total": 145827946.0,
+       "absolute_diff": 149117688.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 570655935.0,
+       "grand_total": 421970439.0,
+       "absolute_diff": 148685496.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 262695744.0,
+       "grand_total": 114644360.0,
+       "absolute_diff": 148051384.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 534165774.0,
+       "grand_total": 389842844.0,
+       "absolute_diff": 144322930.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 381705933.0,
+       "grand_total": 237635913.0,
+       "absolute_diff": 144070020.0
+      }
+     ]
+    },
+    "long_term_debt_without_unapplied": {
+     "subcomponents": [
+      "long_term_debt_rus",
+      "long_term_debt_ffb_rus_guaranteed",
+      "long_term_debt_other_rus_guaranteed",
+      "long_term_debt_other",
+      "long_term_debt_rus_economic_development"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_long_term_debt",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 4599,
+     "failure_share": 0.54214,
+     "failures_by_year": {
+      "2006": 177,
+      "2007": 172,
+      "2008": 221,
+      "2009": 258,
+      "2010": 300,
+      "2011": 332,
+      "2012": 345,
+      "2013": 355,
+      "2014": 355,
+      "2015": 362,
+      "2016": 366,
+      "2017": 366,
+      "2018": 362,
+      "2019": 308,
+      "2020": 181,
+      "2021": 139
+     },
+     "largest_failures": [
+      {
+       "key": [
+        "SC0031",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 227198268.0,
+       "grand_total": 116576692.0,
+       "absolute_diff": 110621576.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 226568545.0,
+       "grand_total": 131026421.0,
+       "absolute_diff": 95542124.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 223920363.0,
+       "grand_total": 133393100.0,
+       "absolute_diff": 90527263.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 248895438.0,
+       "grand_total": 165599872.0,
+       "absolute_diff": 83295566.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 506145923.0,
+       "grand_total": 423520772.0,
+       "absolute_diff": 82625151.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 486022629.0,
+       "grand_total": 406321298.0,
+       "absolute_diff": 79701331.0
+      },
+      {
+       "key": [
+        "TX0164",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 241039728.0,
+       "grand_total": 161781936.0,
+       "absolute_diff": 79257792.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 316336703.0,
+       "grand_total": 239182731.0,
+       "absolute_diff": 77153972.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2018-12-01"
+       ],
+       "subcomponents_sum": 304964563.0,
+       "grand_total": 227918485.0,
+       "absolute_diff": 77046078.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 436770814.0,
+       "grand_total": 360933061.0,
+       "absolute_diff": 75837753.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2015-12-01"
+       ],
+       "subcomponents_sum": 220386790.0,
+       "grand_total": 145827946.0,
+       "absolute_diff": 74558844.0
+      },
+      {
+       "key": [
+        "AK0006",
+        "2017-12-01"
+       ],
+       "subcomponents_sum": 496313187.0,
+       "grand_total": 421970439.0,
+       "absolute_diff": 74342748.0
+      },
+      {
+       "key": [
+        "SC0031",
+        "2019-12-01"
+       ],
+       "subcomponents_sum": 188670052.0,
+       "grand_total": 114644360.0,
+       "absolute_diff": 74025692.0
+      },
+      {
+       "key": [
+        "FL0033",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 462004309.0,
+       "grand_total": 389842844.0,
+       "absolute_diff": 72161465.0
+      },
+      {
+       "key": [
+        "GA0077",
+        "2016-12-01"
+       ],
+       "subcomponents_sum": 309670923.0,
+       "grand_total": 237635913.0,
+       "absolute_diff": 72035010.0
+      }
+     ]
+    },
+    "noncurrent_obligations": {
+     "subcomponents": [
+      "noncurrent_obligations_under_capital_leases",
+      "noncurrent_obligations_asset_retirement"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_noncurrent_obligations",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "current_and_accrued": {
+     "subcomponents": [
+      "notes_payable",
+      "accounts_payable",
+      "consumer_deposits",
+      "current_maturities_long_term_debt",
+      "economic_development",
+      "current_maturities_capital_leases",
+      "other_current_and_accrued_liabilities"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_current_and_accrued_liabilities",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    },
+    "liabilities_and_other_credits": {
+     "subcomponents": [
+      "total_margins_and_equities",
+      "total_long_term_debt",
+      "total_noncurrent_obligations",
+      "total_current_and_accrued_liabilities",
+      "regulatory",
+      "other_deferred_credits"
+     ],
+     "negative_subcomponents": [],
+     "total_label": "total_liabilities_and_other_credits",
+     "groups_checked": 8483,
+     "groups_without_total": 0,
+     "groups_without_subcomponents": 0,
+     "failures": 0,
+     "failure_share": 0.0,
+     "failures_by_year": {},
+     "largest_failures": []
+    }
+   }
+  }
+ },
+ "balance_check_not_preregistered": {
+  "pairs": 8483,
+  "failures": 0,
+  "failures_by_year": {},
+  "largest": []
+ },
+ "next_tables": [
+  {
+   "table": "core_rus7__yearly_utility_plant_changes",
+   "rows": 77848,
+   "schema": {
+    "report_date": "Date",
+    "borrower_id_rus": "String",
+    "utility_plant_group": "Categorical",
+    "utility_plant_item": "Categorical",
+    "retirements": "Float64",
+    "additions": "Float64",
+    "adjustments_and_transfers": "Float64",
+    "ending_balance": "Float64",
+    "is_total": "Boolean"
+   },
+   "labels": {
+    "utility_plant_group": [
+     "total_utility_plant",
+     "utility_plant_in_service"
+    ],
+    "utility_plant_item": [
+     "all_other",
+     "construction_work_in_progress",
+     "distribution",
+     "general",
+     "headquarters",
+     "intangibles",
+     "regional_transmission_and_market_operation",
+     "total",
+     "transmission"
+    ]
+   }
+  },
+  {
+   "table": "core_rus7__yearly_statement_of_operations",
+   "rows": 199762,
+   "schema": {
+    "report_date": "Date",
+    "borrower_id_rus": "String",
+    "opex_group": "Categorical",
+    "opex_type": "Categorical",
+    "opex_report_month": "Float64",
+    "opex_ytd": "Float64",
+    "opex_ytd_budget": "Float64",
+    "is_total": "Boolean"
+   },
+   "labels": {
+    "opex_group": [
+     "cost_of_electric_service",
+     "opex",
+     "patronage_and_operating_margins",
+     "patronage_capital_or_margins"
+    ],
+    "opex_type": [
+     "admin",
+     "construction_funds_allowance",
+     "customer_accounts",
+     "customer_service",
+     "depreciation",
+     "distribution_maintenance",
+     "distribution_operation",
+     "equity_investment_losses",
+     "extraordinary_items",
+     "generation_and_transmission_capital",
+     "interest_charged_to_construction",
+     "interest_long_term_debt",
+     "interest_other",
+     "non_operating_margins_interest",
+     "non_operating_margins_other",
+     "operating_revenue",
+     "other_capital_credits",
+     "other_capital_credits_ytd",
+     "other_deductions",
+     "power_production",
+     "purchased_power",
+     "regional_market",
+     "sales",
+     "tax_other",
+     "tax_property",
+     "total",
+     "total_minus",
+     "transmission"
+    ]
+   }
+  }
+ ]
+}
