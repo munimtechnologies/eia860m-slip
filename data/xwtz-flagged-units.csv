@@ -1,0 +1,17 @@
+report_year,plant_id_epa,emissions_unit_id_epa,plant_id_eia,fallback,in_entity_plants,timezone,eia_state,eia_plant_name,crosswalk_other_plant_ids,other_timezones,other_names,flags
+2021,63628,5A-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2021,63628,5A-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2021,63628,5B-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2021,63628,5B-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2022,63628,5A-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2022,63628,5A-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2022,63628,5B-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2022,63628,5B-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2023,63628,5A-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2023,63628,5A-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2023,63628,5B-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2023,63628,5B-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2024,63628,5A-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2024,63628,5A-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2024,63628,5B-1,63628,False,True,America/Chicago,OK,Tinker,,,,multi
+2024,63628,5B-2,63628,False,True,America/Chicago,OK,Tinker,,,,multi
