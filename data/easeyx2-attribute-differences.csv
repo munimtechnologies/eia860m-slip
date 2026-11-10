@@ -1,0 +1,19 @@
+plant_id,unit_id,generator_id,ref_status,attribute,ref_value,file_value,file_year,years_matching_ref
+1554,3,3,OPR,fuel,Pipeline Natural Gas,"Coal, Pipeline Natural Gas",2024,
+3148,3,3,OPR,fuel,Natural Gas,"Natural Gas, Residual Oil",2024,
+3148,4,4,OPR,fuel,Natural Gas,"Natural Gas, Residual Oil",2024,
+3149,1,1,OPR,fuel,Natural Gas,"Coal, Natural Gas",2024,
+3149,2,2,OPR,fuel,Natural Gas,"Coal, Natural Gas",2024,
+54915,1,G001,OPR,facility_name,Michigan Power Limited Partnership,"DTE Michigan Power, LLC",2024,
+54915,1,G101,OPR,facility_name,Michigan Power Limited Partnership,"DTE Michigan Power, LLC",2024,
+55088,BL1100,ST1,OPR,fuel,Other Gas,Pipeline Natural Gas,2024,
+55088,BL2100,ST1,OPR,fuel,Other Gas,Pipeline Natural Gas,2024,
+55088,BL3100,ST1,OPR,fuel,Other Gas,Pipeline Natural Gas,2024,
+6193,061B,1,OPR,fuel,Pipeline Natural Gas,Coal,2024,
+6193,062B,2,OPR,fuel,Pipeline Natural Gas,Coal,2024,
+6193,063B,3,OPR,fuel,Pipeline Natural Gas,Coal,2024,
+6195,CT1A,GT1,OPR,fuel,Pipeline Natural Gas,"Natural Gas, Pipeline Natural Gas",2024,2010|2011|2012|2013|2014|2015|2016|2017|2018|2019
+6195,CT1B,GT1,OPR,fuel,Pipeline Natural Gas,"Natural Gas, Pipeline Natural Gas",2024,2010|2011|2012|2013|2014|2015|2016|2017|2018|2019
+6195,CT2A,GT2,OPR,fuel,Pipeline Natural Gas,"Natural Gas, Pipeline Natural Gas",2024,2010|2011|2012|2013|2014|2015|2016|2017|2018|2019
+6195,CT2B,GT2,OPR,fuel,Pipeline Natural Gas,"Natural Gas, Pipeline Natural Gas",2024,2010|2011|2012|2013|2014|2015|2016|2017|2018|2019
+645,BB04,ST4,OPR,fuel,Pipeline Natural Gas,"Coal, Pipeline Natural Gas",2024,

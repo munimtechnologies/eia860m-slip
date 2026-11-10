@@ -1,0 +1,245 @@
+{
+ "tool": "easeyx2.py 0.1.0 (easeyx.py 0.1.0)",
+ "python": "3.12.15",
+ "started": "2026-11-10T07:47:35Z",
+ "reference": {
+  "url": "https://raw.githubusercontent.com/catalyst-cooperative/camd-eia-crosswalk-latest/e52a3a533f745b98b88f0556473fee0d4cbcf96d/epa_eia_crosswalk.csv",
+  "bytes": 2325662,
+  "md5": "106d813fd9b850f11a0be088f317ef13",
+  "how": "cached",
+  "same_as_easeyx1": true,
+  "rows": 7182,
+  "missing_cols": [],
+  "keys": 7174
+ },
+ "downloads": {
+  "2010": {
+   "bytes": 1935758,
+   "md5": "e7a10a3a95a80045b070c6276086c89b",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2011": {
+   "bytes": 1938593,
+   "md5": "5d7a2801605f65073f6373f8ba7b73f9",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2012": {
+   "bytes": 1930814,
+   "md5": "46032fc3d24cd5797ce91daac01226d9",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2013": {
+   "bytes": 1902243,
+   "md5": "1e3d0e0d9025dc1f68bd1c08721c5b2d",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2014": {
+   "bytes": 1871321,
+   "md5": "ae8eadf517e77cebb257e9d6088a3af5",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2015": {
+   "bytes": 1918134,
+   "md5": "e8146001fa3b73d6756e727baeb5950e",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2016": {
+   "bytes": 1871963,
+   "md5": "5ee1bbd5e9826eeaf328b3c7dca482a1",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2017": {
+   "bytes": 1755681,
+   "md5": "0c08441c8773f6323fbd1132ab7e9ca3",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2018": {
+   "bytes": 1771543,
+   "md5": "82edba1e4cdd67178d0f320c7422bb96",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2019": {
+   "bytes": 1717828,
+   "md5": "1f6126ae675b1921ba3d0cd6b40caa78",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2020": {
+   "bytes": 1689456,
+   "md5": "84bb601a65ae8310cfcfabf02e9f4426",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2021": {
+   "bytes": 1650241,
+   "md5": "09395bdcf443ba3f1fefa3ab119e27c0",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2022": {
+   "bytes": 1625444,
+   "md5": "6fba4d434ff284dcc264fe34c036aa5f",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2023": {
+   "bytes": 1605391,
+   "md5": "8737dcdcbcf4313bb15ad8ef8aa6632b",
+   "how": "cached",
+   "same_as_easeyx1": true
+  },
+  "2024": {
+   "bytes": 1568997,
+   "md5": "beb9e5f4a92a7d8c28b8eb0d59ca8c11",
+   "how": "cached",
+   "same_as_easeyx1": true
+  }
+ },
+ "gates": {
+  "G1": true,
+  "G2": true,
+  "G3": true
+ },
+ "gate_measures": {
+  "ref_rows": 7182,
+  "found": 7039,
+  "silent": 390
+ },
+ "measures": {
+  "keys_compared": 7039,
+  "state": {
+   "match": 7039,
+   "differ": 0,
+   "not_comparable": 0,
+   "share": 1.0,
+   "differ_other_year_matches": 0
+  },
+  "facility_name": {
+   "match": 7037,
+   "differ": 2,
+   "not_comparable": 0,
+   "share": 0.99972,
+   "differ_other_year_matches": 0
+  },
+  "capacity": {
+   "match": 6799,
+   "differ": 0,
+   "not_comparable": 240,
+   "share": 1.0,
+   "differ_other_year_matches": 0
+  },
+  "fuel": {
+   "match": 6928,
+   "differ": 16,
+   "not_comparable": 95,
+   "share": 0.9977,
+   "differ_other_year_matches": 4
+  },
+  "coords": {
+   "match": 7039,
+   "differ": 0,
+   "not_comparable": 0,
+   "share": 1.0,
+   "differ_other_year_matches": 0
+  },
+  "silent": {
+   "keys": 390,
+   "ref_retire_year_0": 0,
+   "dated": 390,
+   "ref_year_is_last_or_next": 364,
+   "share": 0.93333,
+   "ref_year_is_last": 292,
+   "ref_year_is_next": 72,
+   "ref_minus_last": {
+    "+1": 72,
+    "+2": 6,
+    "0": 292,
+    ">+2": 20
+   },
+   "by_last_year": {
+    "2010": 26,
+    "2011": 19,
+    "2012": 24,
+    "2013": 18,
+    "2014": 46,
+    "2015": 28,
+    "2016": 77,
+    "2017": 23,
+    "2018": 30,
+    "2019": 14,
+    "2020": 12,
+    "2021": 11,
+    "2022": 20,
+    "2023": 5,
+    "2024": 37
+   },
+   "by_latest_class": {
+    "OPR": 390
+   }
+  }
+ },
+ "scores": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true,
+  "P6": true
+ },
+ "reported": {
+  "by_status": {
+   "state": {
+    "OPR|match": 5359,
+    "RET_LTCS|match": 1680
+   },
+   "facility_name": {
+    "OPR|differ": 2,
+    "OPR|match": 5357,
+    "RET_LTCS|match": 1680
+   },
+   "capacity": {
+    "OPR|match": 5193,
+    "OPR|na": 166,
+    "RET_LTCS|match": 1606,
+    "RET_LTCS|na": 74
+   },
+   "fuel": {
+    "OPR|differ": 16,
+    "OPR|match": 5343,
+    "RET_LTCS|match": 1585,
+    "RET_LTCS|na": 95
+   },
+   "coords": {
+    "OPR|match": 5359,
+    "RET_LTCS|match": 1680
+   }
+  },
+  "fuel_pairs_top25": {
+   "Pipeline Natural Gas -> Natural Gas, Pipeline Natural Gas": 4,
+   "Other Gas -> Pipeline Natural Gas": 3,
+   "Pipeline Natural Gas -> Coal": 3,
+   "Pipeline Natural Gas -> Coal, Pipeline Natural Gas": 2,
+   "Natural Gas -> Natural Gas, Residual Oil": 2,
+   "Natural Gas -> Coal, Natural Gas": 2
+  },
+  "retire_year_rules": {
+   "ref_ret_keys_dated": 1645,
+   "derived_only": 1231,
+   "derived_else_last_year": 1523,
+   "derived_else_last_year_plus_1": 1303
+  }
+ },
+ "finished": "2026-11-10T07:47:36Z"
+}
