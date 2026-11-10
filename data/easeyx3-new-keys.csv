@@ -1,0 +1,141 @@
+plant_id,unit_id,generator_id,state,facility_name,latest_class,first_year,latest_year,nameplate_capacity_mw,primary_fuel_type,same_ids_in_pudl,pudl_last_year,pudl_last_status
+10030,1,COG1,DE,Energy Center Dover LLC,RET,2010,2013,18.0,Coal,yes,2026,OP
+1010,1,A,IN,Wabash River Gen Station,OPR,2010,2016,192.0,Other Gas,no,,
+1047,1,1,IA,Lansing,OPR,2010,2010,15.0,Coal,yes,2026,RE
+10673,BLRA,GEN1,HI,AES Hawaii,RET,2015,2022,203.0,,yes,2026,RE
+10673,BLRB,GEN1,HI,AES Hawaii,RET,2015,2022,203.0,,yes,2026,RE
+10682,GT2,ST1,CO,Brush Power Projects,OPR,2010,2025,38.0,Pipeline Natural Gas,yes,2026,OS
+10773,1,GEN1,VA,Altavista Power Station,OPR,2010,2025,71.1,Wood,no,,
+10784,CBLR,GEN1,MT,Colstrip Energy Limited Partnership,OPR,2015,2025,46.1,,yes,2026,OP
+10803,1,GEN3,NY,AG - Energy,OPR,2010,2025,26.9,Pipeline Natural Gas,yes,2026,OS
+10803,2,GEN3,NY,AG - Energy,OPR,2010,2025,26.9,Pipeline Natural Gas,yes,2026,OS
+1595,1,1,MA,Kendall Green Energy LLC,OPR,2010,2011,17.2,Pipeline Natural Gas,yes,2026,RE
+1595,2,2,MA,Kendall Green Energy LLC,OPR,2010,2025,23.0,Pipeline Natural Gas,yes,2026,RE
+1595,4,1,MA,Kendall Green Energy LLC,OPR,2010,2025,17.2,Pipeline Natural Gas,yes,2026,RE
+1595,4,2,MA,Kendall Green Energy LLC,OPR,2010,2025,23.0,Pipeline Natural Gas,yes,2026,RE
+160,5,GT5,AZ,Apache Station,OPR,2025,2025,44.0,Pipeline Natural Gas,yes,2026,OP
+160,6,GT6,AZ,Apache Station,OPR,2025,2025,44.0,Pipeline Natural Gas,yes,2026,OP
+1613,7,5,MA,Somerset,RET,2010,2011,73.7,,yes,2011,RE
+2070,1,1,MS,Moselle Generation Complex,RET,2010,2012,65.0,Pipeline Natural Gas,yes,2026,OP
+2070,2,2,MS,Moselle Generation Complex,RET,2010,2011,65.0,Pipeline Natural Gas,yes,2026,OP
+2490,20,GT1,NY,Arthur Kill,OPR,2010,2025,16.3,Pipeline Natural Gas,yes,2026,RE
+2953,5A-1,5A,OK,Mustang,OPR,2015,2020,41.0,Pipeline Natural Gas,yes,2018,OP
+2953,5A-2,5A,OK,Mustang,OPR,2015,2020,41.0,Pipeline Natural Gas,yes,2018,OP
+2953,5B-1,5B,OK,Mustang,OPR,2015,2020,41.0,Pipeline Natural Gas,yes,2018,OP
+2953,5B-2,5B,OK,Mustang,OPR,2015,2020,41.0,Pipeline Natural Gas,yes,2018,OP
+3176,6,3,PA,Hunlock Creek Generating LLC,RET,2010,2010,50.0,Coal,yes,2026,OP
+3181,1,1,PA,Mitchell Power Station,RET,2010,2013,74.8,Diesel Oil,yes,2026,RE
+3181,2,1,PA,Mitchell Power Station,RET,2010,2013,74.8,Diesel Oil,yes,2026,RE
+3181,3,1,PA,Mitchell Power Station,RET,2010,2013,74.8,Diesel Oil,yes,2026,RE
+3291,CT5,GT5,SC,Parr Combustion Turbine Facility,OPR,2025,2025,65.4,Pipeline Natural Gas,yes,2026,OP
+3291,CT6,GT6,SC,Parr Combustion Turbine Facility,OPR,2025,2025,65.4,Pipeline Natural Gas,yes,2026,OP
+3406,JCT21,G21,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3406,JCT22,G22,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3406,JCT23,G23,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3406,JCT24,G24,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3406,JCT29,G29,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3406,JCT30,G30,TN,Johnsonville,OPR,2025,2025,55.0,Pipeline Natural Gas,yes,2026,OP
+3470,CTSC,GT2,TX,W A Parish,OPR,2013,2016,102.7,Pipeline Natural Gas,no,,
+389,3,3,CA,El Centro,RET,2010,2012,50.0,Pipeline Natural Gas,yes,2026,RE
+50151,B25,8,WV,UCC South Charleston Plant,RET,2010,2012,6.0,Coal,no,,
+50151,B26,8,WV,UCC South Charleston Plant,OPR,2010,2025,6.0,Natural Gas,no,,
+50151,B27,8,WV,UCC South Charleston Plant,OPR,2010,2025,6.0,Natural Gas,no,,
+50931,BLR1,GEN1,MT,Yellowstone Energy Limited Partnership,OPR,2015,2025,65.0,,yes,2026,OP
+50931,BLR2,GEN1,MT,Yellowstone Energy Limited Partnership,OPR,2015,2025,65.0,,yes,2026,OP
+51026,1,1,VT,Ryegate Associates,OPR,2010,2025,20.0,Wood,no,,
+52176,1,GEN3,TX,C. R. Wing Cogeneration Plant,OPR,2010,2025,75.0,Pipeline Natural Gas,yes,2026,RE
+52176,2,GEN3,TX,C. R. Wing Cogeneration Plant,OPR,2010,2025,75.0,Pipeline Natural Gas,yes,2026,RE
+52193,21H1,,DE,Delaware City Refinery,OPR,2010,2025,,,no,,
+54529,001,0001,FL,Ridge Generating Station,OPR,2010,2016,45.5,,no,,
+54676,GT81,G81,TX,Oyster Creek Unit VIII,OPR,2015,2025,80.0,,yes,2026,OP
+54676,GT81,G84,TX,Oyster Creek Unit VIII,OPR,2015,2025,200.0,,yes,2026,OP
+54676,GT82,G82,TX,Oyster Creek Unit VIII,OPR,2015,2025,80.0,,yes,2026,OP
+54676,GT82,G84,TX,Oyster Creek Unit VIII,OPR,2015,2025,200.0,,yes,2026,OP
+54676,GT83,G83,TX,Oyster Creek Unit VIII,OPR,2015,2025,80.0,,yes,2026,OP
+54676,GT83,G84,TX,Oyster Creek Unit VIII,OPR,2015,2025,200.0,,yes,2026,OP
+54748,GT1,G1,TX,Port Neches Plant,OPR,2015,2025,38.0,,yes,2026,RE
+55064,002,UNT2,TX,Blackhawk Station,OPR,2010,2025,126.9,Pipeline Natural Gas,yes,2026,RE
+55122,N-20A,UN1,TX,NAFTA Region Olefins Complex,OPR,2015,2025,41.6,,yes,2026,OP
+55122,N-20B,UN2,TX,NAFTA Region Olefins Complex,OPR,2015,2025,41.6,,yes,2026,OP
+55199,1,GT11,IL,Elwood Energy Facility,OPR,2010,2025,170.0,Pipeline Natural Gas,no,,
+55199,2,GT22,IL,Elwood Energy Facility,OPR,2010,2025,170.0,Pipeline Natural Gas,no,,
+55199,3,GT33,IL,Elwood Energy Facility,OPR,2010,2025,170.0,Pipeline Natural Gas,no,,
+55199,5,GT55,IL,Elwood Energy Facility,OPR,2010,2025,172.0,Pipeline Natural Gas,no,,
+55499,GT-2,CPP1,CA,CalPeak Power - Vaca Dixon,OPR,2010,2025,60.5,,yes,2026,OP
+55508,GT-2,CPP2,CA,CalPeak Power - Panoche,OPR,2010,2025,60.5,,yes,2026,OP
+55510,GT-2,CPP4,CA,CalPeak Power - Border,OPR,2010,2025,60.5,,yes,2026,OP
+55512,GT-2,CPP6,CA,Cuyamaca Peak Energy,OPR,2010,2025,48.7,,yes,2026,OP
+55513,GT-2,CPP7,CA,CalPeak Power - Enterprise,OPR,2010,2025,58.9,,yes,2026,OP
+55522,CT11,CT11,AZ,Sundance Power Plant,OPR,2025,2025,49.0,Pipeline Natural Gas,yes,2026,OP
+55522,CT12,CT12,AZ,Sundance Power Plant,OPR,2025,2025,49.0,Pipeline Natural Gas,yes,2026,OP
+55801,AB01,,PA,"Marcus Hook Energy, LP",OPR,2010,2015,,Pipeline Natural Gas,no,,
+55801,AB02,,PA,"Marcus Hook Energy, LP",OPR,2010,2015,,Pipeline Natural Gas,no,,
+55801,AB03,,PA,"Marcus Hook Energy, LP",OPR,2010,2015,,Pipeline Natural Gas,no,,
+55801,AB04,,PA,"Marcus Hook Energy, LP",OPR,2010,2015,,Pipeline Natural Gas,no,,
+56152,CTG1,CTG1,TX,Freeport Energy Center,OPR,2015,2016,180.0,,yes,2026,OP
+56152,CTG1,STG1,TX,Freeport Energy Center,OPR,2015,2016,80.0,,yes,2026,OP
+57881,CT4,04,ND,Pioneer Generating Station,OPR,2025,2025,245.65,Pipeline Natural Gas,no,,
+57881,CT5,05,ND,Pioneer Generating Station,OPR,2025,2025,245.65,Pipeline Natural Gas,no,,
+6052,6A,CT6A,GA,Wansley (6052),OPR,2010,2011,203.1,Pipeline Natural Gas,no,,
+6052,6A,ST6,GA,Wansley (6052),OPR,2010,2011,213.3,Pipeline Natural Gas,no,,
+6052,6B,CT6B,GA,Wansley (6052),OPR,2010,2011,203.1,Pipeline Natural Gas,no,,
+6052,6B,ST6,GA,Wansley (6052),OPR,2010,2011,213.3,Pipeline Natural Gas,no,,
+6052,7A,CT7A,GA,Wansley (6052),OPR,2010,2011,203.1,Pipeline Natural Gas,no,,
+6052,7A,ST7,GA,Wansley (6052),OPR,2010,2011,213.3,Pipeline Natural Gas,no,,
+6052,7B,CT7B,GA,Wansley (6052),OPR,2010,2011,203.1,Pipeline Natural Gas,no,,
+6052,7B,ST7,GA,Wansley (6052),OPR,2010,2011,213.3,Pipeline Natural Gas,no,,
+6137,5,6,IN,A B Brown Generating Station,OPR,2025,2025,245.0,Pipeline Natural Gas,yes,2026,OP
+6137,6,7,IN,A B Brown Generating Station,OPR,2025,2025,245.0,Pipeline Natural Gas,yes,2026,OP
+6481,3SGA,3,UT,Intermountain,OPR,2025,2025,546.6,Pipeline Natural Gas,yes,2026,OP
+6481,4SGA,4,UT,Intermountain,OPR,2025,2025,546.6,Pipeline Natural Gas,yes,2026,OP
+664,CC1,8,FL,J R Kelly,OPR,2010,2025,50.0,Pipeline Natural Gas,yes,2026,RE
+66918,GT11,GT11,OH,Trumbull Energy Center,OPR,2025,2025,314.0,Pipeline Natural Gas,yes,2026,OP
+66918,GT11,STG,OH,Trumbull Energy Center,OPR,2025,2025,355.0,Pipeline Natural Gas,yes,2026,OP
+66918,GT12,GT12,OH,Trumbull Energy Center,OPR,2025,2025,314.0,Pipeline Natural Gas,yes,2026,OP
+66918,GT12,STG,OH,Trumbull Energy Center,OPR,2025,2025,355.0,Pipeline Natural Gas,yes,2026,OP
+68386,CT-1,MPP-1,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+68386,CT-2,MPP-2,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+68386,CT-3,MPP-3,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+68386,CT-4,MPP-4,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+68386,CT-5,MPP-5,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+68386,CT-6,MPP-6,CO,Mountain Peak Power Station,OPR,2025,2025,27.1,Pipeline Natural Gas,no,,
+7242,**1,1CA,FL,Polk,OPR,2010,2025,133.4,Pipeline Natural Gas,yes,2026,RE
+764,16,H8,HI,Honolulu Generating Station,OPR,2015,2023,56.0,,yes,2026,RE
+764,17,H9,HI,Honolulu Generating Station,OPR,2015,2023,57.0,,yes,2026,RE
+765,1,K1,HI,Kahe Generating Station,OPR,2016,2025,92.0,,yes,2026,OP
+765,2,K2,HI,Kahe Generating Station,OPR,2016,2025,90.0,,yes,2026,OP
+765,3,K3,HI,Kahe Generating Station,OPR,2016,2025,92.0,,yes,2026,OP
+765,4,K4,HI,Kahe Generating Station,OPR,2016,2025,93.0,,yes,2026,OP
+765,5,K5,HI,Kahe Generating Station,OPR,2016,2025,142.0,,yes,2026,OP
+765,6,K6,HI,Kahe Generating Station,OPR,2016,2025,142.0,,yes,2026,OP
+766,3,W3,HI,Waiau Generating Station,OPR,2016,2025,49.0,,yes,2026,RE
+766,4,W4,HI,Waiau Generating Station,OPR,2016,2025,49.0,,yes,2026,RE
+766,5,W5,HI,Waiau Generating Station,OPR,2016,2025,57.0,,yes,2026,OP
+766,6,W6,HI,Waiau Generating Station,OPR,2016,2025,58.0,,yes,2026,OP
+766,7,W7,HI,Waiau Generating Station,OPR,2016,2025,92.0,,yes,2026,OP
+766,8,W8,HI,Waiau Generating Station,OPR,2016,2025,92.0,,yes,2026,OP
+7678,BL09A1,2,TX,Pampa Power Plant,OPR,2010,2010,37.0,,yes,2026,RE
+7678,BL10A1,2,TX,Pampa Power Plant,OPR,2010,2010,37.0,,yes,2026,RE
+7678,BL11A1,2,TX,Pampa Power Plant,OPR,2010,2010,37.0,,yes,2026,RE
+7910,2302,1,NY,23rd and 3rd,OPR,2010,2025,47.0,Pipeline Natural Gas,yes,2026,OP
+880001,JVD1,,TN,Chemours Johnsonville,RET,2010,2018,,,no,,
+880001,JVD2,,TN,Chemours Johnsonville,RET,2010,2018,,,no,,
+880001,JVD3,,TN,Chemours Johnsonville,RET,2010,2018,,,no,,
+880001,JVD4,,TN,Chemours Johnsonville,RET,2010,2018,,,no,,
+880009,100,,PA,Naval Surface Warfare Center,RET,2010,2015,,,no,,
+880009,99,,PA,Naval Surface Warfare Center,RET,2010,2011,,Diesel Oil,no,,
+880099,01,,PA,United Refining Company,OPR,2010,2025,,,no,,
+880103,PS1,GEPS-1,PR,Palo Seco Steam Power Plant,OPR,2015,2025,100.0,,no,,
+880103,PS2,GEPS-2,PR,Palo Seco Steam Power Plant,OPR,2015,2025,100.0,,no,,
+880103,PS3,GEPS-3,PR,Palo Seco Steam Power Plant,OPR,2015,2025,216.0,,no,,
+880103,PS4,GEPS-4,PR,Palo Seco Steam Power Plant,OPR,2015,2025,216.0,,no,,
+880104,COS3,GECS-3,PR,Costa Sur Steam Power Plant,OPR,2015,2025,85.0,,no,,
+880104,COS4,GECS-4,PR,Costa Sur Steam Power Plant,OPR,2015,2025,85.0,,no,,
+880104,COS5,GECS-5,PR,Costa Sur Steam Power Plant,OPR,2015,2025,410.0,,no,,
+880104,COS6,GECS-6,PR,Costa Sur Steam Power Plant,OPR,2015,2025,410.0,,no,,
+880105,AG1,GEAG-1,PR,Aguirre Steam Power Plant,OPR,2016,2025,450.0,,no,,
+880105,AG2,GEAG-2,PR,Aguirre Steam Power Plant,OPR,2016,2025,450.0,,no,,
+880106,SJ10,GESJ-10,PR,San Juan Steam Power Plant,OPR,2015,2025,100.0,,no,,
+880106,SJ7,GESJ-7,PR,San Juan Steam Power Plant,OPR,2015,2025,100.0,,no,,
+880106,SJ8,GESJ-8,PR,San Juan Steam Power Plant,OPR,2015,2025,100.0,,no,,
+880106,SJ9,GESJ-9,PR,San Juan Steam Power Plant,OPR,2015,2025,100.0,,no,,

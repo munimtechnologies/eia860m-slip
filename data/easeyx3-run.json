@@ -1,0 +1,153 @@
+{
+ "tool": "easeyx3.py 0.1.0 (easeyx.py 0.1.0)",
+ "python": "3.12.15",
+ "polars": "2.1.0",
+ "started": "2026-11-10T20:28:33Z",
+ "reference": {
+  "rows": 7182,
+  "missing_cols": [],
+  "keys": 7174,
+  "linked_keys": 6332,
+  "multi_link_keys": 6,
+  "url": "https://raw.githubusercontent.com/catalyst-cooperative/camd-eia-crosswalk-latest/e52a3a533f745b98b88f0556473fee0d4cbcf96d/epa_eia_crosswalk.csv",
+  "md5": "106d813fd9b850f11a0be088f317ef13",
+  "how": "cached",
+  "bytes": 2325662
+ },
+ "side": {
+  "rows": 7187,
+  "missing_cols": [],
+  "keys": 7187,
+  "url": "https://raw.githubusercontent.com/munimtechnologies/eia860m-slip/main/data/easeyx-epa-side-2025.csv",
+  "md5": "2c396cad21b7771a0eb1abdb888c8017",
+  "bytes": 842198
+ },
+ "pudl": {
+  "url": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/core_eia860__scd_generators.parquet",
+  "bytes": 7718170,
+  "md5": "6c4372366df319de1888d8fc6ea1ec0e",
+  "rows": 667073,
+  "last_modified": "Tue, 10 Nov 2026 08:52:08 GMT",
+  "missing_cols": [],
+  "pairs": 43417
+ },
+ "gates": {
+  "G1": true,
+  "G2": true,
+  "G3": true
+ },
+ "gate_measures": {
+  "ref_md5": "106d813fd9b850f11a0be088f317ef13",
+  "side_rows": 7187,
+  "pudl_pairs": 43417,
+  "pudl_years": [
+   2001,
+   2026
+  ]
+ },
+ "measures": {
+  "carry_forward": {
+   "side_keys": 7187,
+   "by_class": {
+    "LTCS|linked": 4,
+    "LTCS|unlinked": 8,
+    "OPR|linked": 5431,
+    "OPR|new": 122,
+    "OPR|unlinked": 329,
+    "RET|linked": 846,
+    "RET|new": 18,
+    "RET|unlinked": 429
+   },
+   "opr_keys": 5882,
+   "opr_linked": 5431,
+   "share": 0.92333
+  },
+  "ref_first_seen_2025": {
+   "ref_keys": 7174,
+   "ref_keys_not_in_side": 127,
+   "keys": 8,
+   "by_status": {
+    "OPR": 8
+   }
+  },
+  "exact_in_ref": {
+   "linked_keys": 6332,
+   "same_ids": 6003,
+   "share": 0.94804,
+   "same_ids_loose": 6017
+  },
+  "exact_precision": {
+   "linked_keys_with_pair_in_pudl": 5973,
+   "ref_links_to_it": 5926,
+   "share": 0.99213
+  },
+  "new_opr": {
+   "keys": 122,
+   "pair_in_pudl": 75,
+   "share": 0.61475,
+   "by_first_year": {
+    "2010": 47,
+    "2013": 1,
+    "2015": 32,
+    "2016": 14,
+    "2025": 28
+   },
+   "pudl_last_status": {
+    "OP": 53,
+    "OS": 3,
+    "RE": 19
+   }
+  }
+ },
+ "scores": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": false
+ },
+ "reported": {
+  "match_types_linked_top20": {
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match": 6064,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters": 161,
+   "Manual Match": 64,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars": 29,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric": 14
+  },
+  "match_types_not_same_top20": {
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters": 161,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match": 71,
+   "Manual Match": 56,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars": 27,
+   "3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric": 14
+  },
+  "not_same_pair_in_pudl": 47,
+  "not_same_by_status": {
+   "OPR": 307,
+   "RET": 22
+  },
+  "ref_unlinked_by_status": {
+   "LTCS": 19,
+   "OPR": 258,
+   "RET": 565
+  },
+  "new_by_class": {
+   "OPR": 122,
+   "RET": 18
+  },
+  "ref_first_seen_2025_keys": [
+   "3406|JCT25|G25",
+   "3406|JCT26|G26",
+   "3406|JCT27|G27",
+   "3406|JCT28|G28",
+   "64547|CT-1|1",
+   "64547|CT-2|2",
+   "65372|CT-8|CTG-8",
+   "66604|CT-7|CTG-7"
+  ]
+ },
+ "finished": "2026-11-10T20:28:36Z"
+}

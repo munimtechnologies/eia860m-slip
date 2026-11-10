@@ -1,0 +1,330 @@
+plant_id,unit_id,generator_id,camd_status,eia_links,same_ids_in_pudl,match_types
+1001,4,CT4,OPR,1001:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+10176,A,6,OPR,10176:NO.6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+10176,B,6,OPR,10176:NO.6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+10252,REC2,NO1,OPR,10252:NO.1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+10294,2,CTG1,OPR,55811:CTG1,no,Manual Match
+10619,00001,1,OPR,7784:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+10619,00001,2,OPR,7784:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+1363,7A,7-STG,OPR,1363:7S,no,Manual Match
+1363,7B,7-STG,OPR,1363:7S,no,Manual Match
+1378,PCC5,PCC5,OPR,1378:CT5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1378,PCC6,PCC6,OPR,1378:CT6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1378,PCC7,PCC7,OPR,1378:CT7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1403,4,4,OPR,1403:6(4),no,Manual Match
+1416,CTG-6A,6A,OPR,56565:6A,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+1416,CTG-6A,6STG,OPR,56565:6STG,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+1416,CTG-6B,6B,OPR,56565:6B,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+1416,CTG-6B,6STG,OPR,56565:6STG,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+1556,6-1,6,OPR,1556:GT6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1556,6-2,6,OPR,1556:GT6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1571,1,ST1,RET,1571:GT1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1571,SMECO,SGT1,OPR,1571:GT1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1572,1,ST1,RET,1572:GT1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1587,NBJ-1,LST1,RET,1587:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+1702,1,1,RET,1702:1A|1702:1B,yes,Manual Match
+1702,2,2,RET,1702:2A|1702:2B,yes,Manual Match
+2038,1,1,OPR,2038:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2038,2,2,OPR,2038:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2092,3,RG3,OPR,2092:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2398,1101,1,OPR,2398:1501,no,Manual Match
+2398,1201,1,OPR,2398:1501,no,Manual Match
+2398,1301,1,OPR,2398:1501,no,Manual Match
+2398,1401,1,OPR,2398:1501,no,Manual Match
+2709,01A,1A,OPR,58215:1A,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,01A,ST1,OPR,58215:ST1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,01B,1B,OPR,58215:1B,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,01B,ST1,OPR,58215:ST1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,01C,1C,OPR,58215:1C,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,01C,ST1,OPR,58215:ST1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2709,10,GT5,OPR,7538:1,no,Manual Match
+2709,11,GT6,OPR,7538:2,no,Manual Match
+2709,12,GT7,OPR,7538:3,no,Manual Match
+2709,13,GT8,OPR,7538:4,no,Manual Match
+2709,14,GT9,OPR,7538:5,no,Manual Match
+2713,01A,CA1,OPR,58697:CA1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2713,01A,CT1,OPR,58697:CT1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2713,01B,CA1,OPR,58697:CA1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2713,01B,CT2,OPR,58697:CT2,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+2713,4,4,OPR,58697:CT004,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2713,5,5,OPR,58697:CT005,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2830,CT1,CT1,RET,2830:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2830,CT2,CT2,RET,2830:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2830,CT3,CT3,RET,2830:GT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+2830,CT4,CT4,RET,2830:GT4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+3006,7,7,OPR,55655:GEN1,no,Manual Match
+3006,8,8,OPR,55655:GEN2,no,Manual Match
+302,10,CEC10,OPR,59002:CEC10,no,Manual Match
+302,6,CEC6,OPR,59002:CEC 6,no,Manual Match
+302,7,CEC7,OPR,59002:CEC 7,no,Manual Match
+302,8,CEC8,OPR,59002:CEC 8,no,Manual Match
+302,9,CEC9,OPR,59002:CEC 9,no,Manual Match
+330,5,5,OPR,57901:5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+330,5,6,OPR,57901:6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+330,7,7,OPR,57901:7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+330,7,8,OPR,57901:8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+3612,CT01,CT01,OPR,7512:1,no,Manual Match
+3612,CT01,ST012,OPR,7512:3,no,Manual Match
+3612,CT02,CT02,OPR,7512:2,no,Manual Match
+3612,CT02,ST012,OPR,7512:3,no,Manual Match
+4076,**34,34,OPR,7799:34,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+422,GT5,CTG5,OPR,422:GT5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+422,GT5,STG5,OPR,422:GT5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+47,CCT10,CCT10,OPR,47:GT10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+47,CCT11,CCT11,OPR,47:GT11,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+47,CCT9,CCT9,OPR,47:GT9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+50030,1A,1,OPR,1393:1,no,Manual Match
+50030,2A,2,OPR,1393:2,no,Manual Match
+50561,0001,STG4,OPR,50561:STG2,no,Manual Match
+50561,0002,STG4,OPR,50561:STG2,no,Manual Match
+544,15,15,OPR,57070:15,no,Manual Match
+544,16,16,OPR,57070:16,no,Manual Match
+544,17,17,OPR,57070:17,no,Manual Match
+544,18,18,OPR,57070:18,no,Manual Match
+54556,B05,TG01,RET,54556:TGO1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B05,TG02,RET,54556:TGO2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B06,TG01,OPR,54556:TGO1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B06,TG02,OPR,54556:TGO2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B07,TG01,OPR,54556:TGO1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B07,TG02,OPR,54556:TGO2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B08,TG01,OPR,54556:TGO1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B08,TG02,OPR,54556:TGO2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B10,TG01,OPR,54556:TGO1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+54556,B10,TG02,OPR,54556:TGO2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55088,GT2100,GT1,OPR,55088:GT 1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55101,1,1,OPR,55101:0001,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+55102,1,1,OPR,55102:001,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+55102,2,2,OPR,55102:002,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+55102,3,3,OPR,55102:003,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+55102,4,4,OPR,55102:004,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+55120,CTG-1,GT1A,OPR,10789:GT1A,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55120,CTG-1,ST1A,OPR,10789:ST1A,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55120,CTG-2,GT1B,OPR,10789:GT1B,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55120,CTG-2,ST1A,OPR,10789:ST1A,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55129,DBG4,DBSGT4,OPR,55129:CTG4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55129,DBG5,DBSGT5,OPR,55129:CTG5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55207,CT7,G7,OPR,55207:UN7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55207,CT8,G8,OPR,55207:UN8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT1,1,OPR,55234:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT2,2,OPR,55234:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT3,3,OPR,55234:GT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT4,4,OPR,55234:GT4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT5,5,OPR,55234:GT5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT6,6,OPR,55234:GT6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT7,7,OPR,55234:GT7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55234,CT8,8,OPR,55234:GT8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS01,AGS01,OPR,55279:CTG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS02,AGS02,OPR,55279:CTG2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS03,AGS03,OPR,55279:CTG3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS04,AGS04,OPR,55279:CTG4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS05,AGS05,OPR,55279:CTG5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS06,AGS06,OPR,55279:CTG6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS07,AGS07,OPR,55279:CTG7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS08,AGS08,OPR,55279:CTG8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS09,AGS09,OPR,55279:CTG9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55279,AGS10,AGS10,OPR,55279:CTG10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG10,CTG10,RET,55281:GT10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG11,CTG11,RET,55281:GT11,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG12,CTG12,RET,55281:GT12,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG5,CTG5,RET,55281:GT05,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG6,CTG6,RET,55281:GT06,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG7,CTG7,RET,55281:GT07,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG8,CTG8,RET,55281:GT08,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55281,CTG9,CTG9,RET,55281:GT09,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55306,1CTGA,CTG1,OPR,59338:CTG1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,1CTGA,ST9,OPR,59338:ST9,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,1CTGB,CTG2,OPR,59338:CTG2,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,1CTGB,ST9,OPR,59338:ST9,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,2CTGA,CTG3,OPR,60768:CTG3,yes,Manual Match
+55306,2CTGA,ST10,OPR,60768:ST10,yes,Manual Match
+55306,2CTGB,CTG4,OPR,60768:CTG4,yes,Manual Match
+55306,2CTGB,ST10,OPR,60768:ST10,yes,Manual Match
+55306,3CTGA,CTG5,OPR,59784:CTG5,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,3CTGA,ST11,OPR,59784:ST11,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,3CTGB,CTG6,OPR,59784:CTG6,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55306,3CTGB,ST11,OPR,59784:ST11,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55375,CT3,CT3,OPR,57664:CT3,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55375,CT3,ST2,OPR,57664:ST2,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55375,CT4,CT4,OPR,57664:CT4,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55375,CT4,ST2,OPR,57664:ST2,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55391,CT-1,CT-01,OPR,55391:01,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55391,CT-2,CT-02,OPR,55391:02,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55391,CT-3,CT-03,OPR,55391:03,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55401,CT-1,CT-1,OPR,55401:CT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55401,CT-2,CT-2,OPR,55401:CT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55401,CT-3,CT-3,OPR,55401:CT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55401,CT-4,CT-4,OPR,55401:CT4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55401,CT-5,CT-5,OPR,55401:CT5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+55464,CTG5,CTG5,OPR,55464:CTG6,no,Manual Match
+55481,1,GT1,OPR,58557:GT1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55481,1,ST1,OPR,58557:ST1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55481,2,GT2,OPR,58557:GT2,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55481,2,ST1,OPR,58557:ST1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+55486,CTG01,CTG1,OPR,55486:CTG01,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55486,CTG02,CTG2,OPR,55486:CTG02,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55517,CT06,CT06,OPR,55517:CTG6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55517,CT07,CT07,OPR,55517:CTG7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55518,CTG2,STG2,OPR,55518:STG1,no,Manual Match
+55518,CTG3,STG3,OPR,55518:STG1,no,Manual Match
+55538,CTG1,1,OPR,55538:CTG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT01,G1,OPR,55640:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT02,G2,OPR,55640:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT03,G3,OPR,55640:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT04,G4,OPR,55640:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT05,G5,OPR,55640:5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT06,G6,OPR,55640:6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT07,G7,OPR,55640:7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT08,G8,OPR,55640:8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT09,G9,OPR,55640:9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT10,G10,OPR,55640:10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT11,G11,OPR,55640:11,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55640,CT12,G12,OPR,55640:12,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+55708,BFB-1,BFB-1,OPR,55708:STG4,no,Manual Match
+55802,CTG1,1,OPR,55802:CTG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56013,U-1,U-1,OPR,56013:U1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+56013,U-2,U-2,OPR,56013:U2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+56013,U-3,U-3,OPR,56013:U3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+56151,1,01,OPR,56151:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56151,2,02,OPR,56151:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56151,3,03,OPR,56151:GT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+562,12,12,OPR,57068:12,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+562,13,13,OPR,57068:13,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+562,14,14,OPR,57068:14,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+562,15,15,OPR,57068:15,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+56292,ES1-A,1,OPR,56292:ES1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES1-B,1,OPR,56292:ES1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES2-A,2,OPR,56292:ES2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES2-B,2,OPR,56292:ES2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES3-A,3,OPR,56292:ES3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES3-B,3,OPR,56292:ES3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES4-A,4,OPR,56292:ES4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES4-B,4,OPR,56292:ES4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES5-A,5,OPR,56292:ES5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES5-B,5,OPR,56292:ES5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES6-A,6,OPR,56292:ES6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56292,ES6-B,6,OPR,56292:ES6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56350,CT-4A,CT-4A,OPR,56350:CT4A,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+56350,CT-4B,CT-4B,OPR,56350:CT4B,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+56471,CT1,GEN1,OPR,56471:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56474,CT1,GEN1,OPR,56474:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+56480,1A,1A,OPR,56480:M1,yes,Manual Match
+56480,1B,1B,OPR,56480:M1,yes,Manual Match
+56948,CT01,01,OPR,56948:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT02,02,OPR,56948:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT03,03,OPR,56948:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT04,04,OPR,56948:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT05,05,OPR,56948:5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT06,06,OPR,56948:6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT07,07,OPR,56948:7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT08,08,OPR,56948:8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56948,CT09,09,OPR,56948:9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1c: Modify IDs; convert to numeric
+56963,E101,STG101,OPR,56963:STG1,no,Manual Match
+56963,E102,STG101,OPR,56963:STG1,no,Manual Match
+56998,CT08,8,OPR,56998:CT08,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57027,1,1,OPR,57027:CPP1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57027,2,2,OPR,57027:CPP2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57027,3,3,OPR,57027:CPP3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57027,4,4,OPR,57027:CPP4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57029,ES1,ES1,OPR,57029:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57029,ES2,ES2,OPR,57029:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57029,ES3,ES3,OPR,57029:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57029,ES4,ES4,OPR,57029:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U001,CT1,OPR,57185:U001,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U001,ST1,OPR,57185:U001,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U002,CT2,OPR,57185:U002,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U002,ST2,OPR,57185:U002,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U003,CT3,OPR,57185:U003,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57185,U003,ST3,OPR,57185:U003,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57842,1,A,OPR,57842:1A,no,Manual Match
+57865,1,ELK1,OPR,57865:E01,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57865,2,ELK2,OPR,57865:E02,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+57865,3,ELK3,OPR,57865:E03,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+58001,CTG1,CTG1,OPR,58001:CTG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG1,STG1,OPR,58001:STG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG2,CTG2,OPR,58001:CTG-2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG2,STG1,OPR,58001:STG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG3,CTG3,OPR,58001:CTG-3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG3,STG2,OPR,58001:STG-2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG4,CTG4,OPR,58001:CTG-4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58001,CTG4,STG2,OPR,58001:STG-2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58005,CTG1,CTG1,OPR,58005:CTG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58005,CTG1,STG1,OPR,58005:STG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58005,CTG2,CTG2,OPR,58005:CTG-2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58005,CTG2,STG1,OPR,58005:STG-1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+58478,CC01,CTG1,OPR,58478:LEPA1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+58478,CC01,STG1,OPR,58478:LEPA1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+58503,CTEU1,GTG,OPR,58503:GEN1,no,Manual Match
+58503,CTEU1,STG,OPR,58503:GEN2,no,Manual Match
+59926,AL1,AL1,OPR,59926:AI1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+59926,AL2,AL2,OPR,59926:AI2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60356,1,CTG1,OPR,60356:SFCT1|60356:SFST1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60356,1,STG1,OPR,60356:SFCT1|60356:SFST1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60356,2,CTG2,OPR,60356:SFCT2|60356:SFST2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60356,2,STG2,OPR,60356:SFCT2|60356:SFST2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60589,CT-1,CTGEN1,OPR,60589:GEN1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60589,CT-1,ST-1,OPR,60589:GEN1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60589,CT-2,CTGEN2,OPR,60589:GEN2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+60589,CT-2,ST-1,OPR,60589:GEN1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+6074,1,GEC1,OPR,6074:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+6074,2,GEC2,OPR,6074:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+6074,3,GEC3,OPR,6074:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+6074,4,GEC4,OPR,6074:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+613,PFL6A,PFL6A,OPR,613:6A,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+613,PFL6B,PFL6B,OPR,613:6B,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+613,PFL6C,PFL6C,OPR,613:6C,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+613,PFL6D,PFL6D,OPR,613:6D,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+613,PFL6E,PFL6E,OPR,613:6E,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+63688,CT-10,CTG-10,OPR,63688:CTG10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+645,BB01,1,RET,645:ST1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+645,BB05,BBST1,OPR,645:ST1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+645,BB06,BBST1,OPR,645:ST1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+664,CC1,8-2,OPR,664:8.2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+688,2A,CT2A,OPR,688:CT 2A,no,3_1_Generator (generators) match on plant and gen IDs  Step 1b: Modify IDs; remove special chars
+70454,MAG1,MAG1,OPR,54538:MAG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+70454,MAG2,MAG2,OPR,54538:MAG2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7146,UGT013,GT1,OPR,2518:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7146,UGT014,GT2,OPR,2518:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7254,32432,GTG,RET,7294:GTG,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7254,32432,STG,RET,7294:STG,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7258,**7,7,OPR,7268:7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7258,**8,8,OPR,7268:8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7258,9,9,OPR,7268:9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7288,1,SHER,OPR,7288:SEHR,no,Manual Match
+7350,CTG2,CT2,OPR,7931:1,no,Manual Match
+7350,CTG2,ST2,OPR,7931:2,no,Manual Match
+762,3,1,OPR,7546:1,yes,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+762,3,3,OPR,7546:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+762,4,4,OPR,7546:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7762,HRSG1,CTG1,OPR,55545:CTG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7762,HRSG1,STG1,OPR,55545:STG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7762,HRSG2,CTG2,OPR,55545:CTG2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7762,HRSG2,STG1,OPR,55545:STG1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,1,1,OPR,7709:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,10,10,OPR,7709:10,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,2,2,OPR,7709:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,3,3,OPR,7709:3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,4,4,OPR,7709:4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,5,5,OPR,7709:5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,6,6,OPR,7709:6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,7,7,OPR,7709:7,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,8,8,OPR,7709:8,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7765,9,9,OPR,7709:9,no,3_1_Generator (generators) match on plant and gen IDs  Step 1a: Exact match
+7818,ACT1,ACT1,OPR,7818:1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7818,ACT2,ACT2,OPR,7818:2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7818,ACT5,ACT5,OPR,7818:5,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7818,ACT6,ACT6,OPR,7818:6,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7903,MGS2A,MGS2,OPR,7903:MSG2,no,Manual Match
+7903,MGS2B,MGS2,OPR,7903:MSG2,no,Manual Match
+7909,VB01,VB01,OPR,7909:VG03,no,Manual Match
+7909,VB02,VB02,OPR,7909:VG02,no,Manual Match
+7964,CT1A,1,OPR,7964:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT1B,1,OPR,7964:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT2A,2,OPR,7964:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT2B,2,OPR,7964:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT3A,3,OPR,7964:GT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT3B,3,OPR,7964:GT3,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT4A,4,OPR,7964:GT4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7964,CT4B,4,OPR,7964:GT4,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7967,1,1,OPR,7967:GT1,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+7967,2,2,OPR,7967:GT2,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
+8053,PT01,PT01,OPR,8053:N01,no,3_1_Generator (generators) match on plant and gen IDs  Step 1d: Modify IDs; remove leading letters
