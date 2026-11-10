@@ -1,0 +1,12 @@
+commodity,rows,first_year,last_year,pudl_install_decade_map
+<null>,487940,1970,2014,
+Hydrogen Gas,192,2015,2024,hydrogen_gas
+Landfill Gas,363,2015,2025,landfill_gas
+Natural Gas,140678,2015,2025,natural_gas
+OTHER GAS: City of York,3,2023,2023,other
+OTHER GAS: Natural Gas,25,2022,2025,natural_gas
+OTHER GAS: Nitrogen,1,2017,2017,nitrogen_gas
+OTHER GAS: Other Gas - Propane,2,2025,2025,propane_gas
+OTHER GAS: Propane,4,2025,2025,propane_gas
+Propane Gas,4126,2015,2025,propane_gas
+Synthetic Gas,325,2015,2025,synthetic_gas

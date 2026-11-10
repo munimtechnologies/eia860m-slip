@@ -1,0 +1,376 @@
+{
+ "tool": "phleak.py 0.1.0",
+ "python": "3.12.15",
+ "polars": "2.1.0",
+ "started": "2026-11-10T21:46:36Z",
+ "table": {
+  "url": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/_core_phmsagas__yearly_distribution_leaks.parquet",
+  "bytes": 1734682,
+  "md5": "59a2bf535b080bbd02043951227894cf",
+  "last_modified": "Tue, 10 Nov 2026 08:52:05 GMT",
+  "rows": 633659,
+  "dtypes": {
+   "report_id": "Int64",
+   "report_date": "Date",
+   "operator_id_phmsa": "Int64",
+   "commodity": "String",
+   "operating_state": "String",
+   "leak_severity": "Categorical",
+   "leak_source": "Categorical",
+   "mains": "Float64",
+   "services": "Int64"
+  },
+  "missing_cols": [],
+  "saved_to": "/data/phleak-20261110/_core_phmsagas__yearly_distribution_leaks.parquet"
+ },
+ "gates": {
+  "G1": true,
+  "G2": true,
+  "G3": true
+ },
+ "gate_measures": {
+  "rows": 633659,
+  "years": [
+   1970,
+   2025
+  ],
+  "severity_values": [
+   "all_leaks",
+   "hazardous_leaks"
+  ],
+  "source_values": [
+   "construction_defect",
+   "corrosion_failure",
+   "equipment_failure",
+   "excavation_damage",
+   "incorrect_operation",
+   "material_defect",
+   "natural_force_damage",
+   "other",
+   "other_outside_force",
+   "outside_force",
+   "pipe_weld_joint_failure",
+   "third_party",
+   "total"
+  ]
+ },
+ "profile": {
+  "rows": 633659,
+  "groups": 89114,
+  "years": [
+   1970,
+   2025
+  ],
+  "rows_without_year": 0,
+  "rows_by_year": {
+   "1970": 4710,
+   "1971": 8660,
+   "1972": 8960,
+   "1973": 9305,
+   "1974": 9235,
+   "1975": 7830,
+   "1976": 7925,
+   "1977": 7750,
+   "1978": 15158,
+   "1979": 15368,
+   "1980": 17622,
+   "1981": 13320,
+   "1982": 14530,
+   "1983": 14976,
+   "1984": 9228,
+   "1985": 9660,
+   "1986": 9372,
+   "1987": 9252,
+   "1988": 9540,
+   "1989": 9348,
+   "1990": 9024,
+   "1991": 9414,
+   "1992": 9270,
+   "1993": 9419,
+   "1994": 9516,
+   "1995": 9144,
+   "1996": 8904,
+   "1997": 9702,
+   "1998": 8784,
+   "1999": 8766,
+   "2000": 8676,
+   "2001": 8640,
+   "2002": 8538,
+   "2003": 8568,
+   "2004": 12184,
+   "2005": 12176,
+   "2006": 12144,
+   "2007": 12016,
+   "2008": 11808,
+   "2009": 11592,
+   "2010": 17423,
+   "2011": 22930,
+   "2012": 13520,
+   "2013": 12110,
+   "2014": 11923,
+   "2015": 12240,
+   "2016": 12363,
+   "2017": 12904,
+   "2018": 12886,
+   "2019": 13032,
+   "2020": 12639,
+   "2021": 13200,
+   "2022": 14146,
+   "2023": 14193,
+   "2024": 14240,
+   "2025": 13876
+  },
+  "commodity": {
+   "<null>": [
+    487940,
+    1970,
+    2014
+   ],
+   "Hydrogen Gas": [
+    192,
+    2015,
+    2024
+   ],
+   "Landfill Gas": [
+    363,
+    2015,
+    2025
+   ],
+   "Natural Gas": [
+    140678,
+    2015,
+    2025
+   ],
+   "OTHER GAS: City of York": [
+    3,
+    2023,
+    2023
+   ],
+   "OTHER GAS: Natural Gas": [
+    25,
+    2022,
+    2025
+   ],
+   "OTHER GAS: Nitrogen": [
+    1,
+    2017,
+    2017
+   ],
+   "OTHER GAS: Other Gas - Propane": [
+    2,
+    2025,
+    2025
+   ],
+   "OTHER GAS: Propane": [
+    4,
+    2025,
+    2025
+   ],
+   "Propane Gas": [
+    4126,
+    2015,
+    2025
+   ],
+   "Synthetic Gas": [
+    325,
+    2015,
+    2025
+   ]
+  },
+  "state_kinds": {
+   "multi": 2544,
+   "null": 97919,
+   "other": 96,
+   "single": 533100
+  },
+  "state_null_by_year": {
+   "1970": 4710,
+   "1971": 8660,
+   "1972": 8960,
+   "1973": 9305,
+   "1974": 9235,
+   "1975": 7830,
+   "1976": 7925,
+   "1977": 7750,
+   "1978": 15140,
+   "1979": 15320,
+   "1980": 78,
+   "1981": 6,
+   "1983": 6,
+   "1986": 6,
+   "1990": 96,
+   "1991": 894,
+   "1992": 852,
+   "1993": 342,
+   "1994": 144,
+   "1996": 552,
+   "1997": 36,
+   "1998": 42,
+   "1999": 30
+  },
+  "multi_state_by_year": {
+   "1984": 108,
+   "1985": 138,
+   "1986": 90,
+   "1987": 120,
+   "1988": 108,
+   "1989": 102,
+   "1990": 126,
+   "1991": 180,
+   "1992": 156,
+   "1993": 138,
+   "1994": 114,
+   "1995": 102,
+   "1996": 102,
+   "1997": 162,
+   "1998": 126,
+   "1999": 126,
+   "2000": 132,
+   "2001": 114,
+   "2002": 144,
+   "2003": 156
+  },
+  "other_state_values_top50": {
+   "ar": 48,
+   "az": 24,
+   "2": 6,
+   "ak": 6,
+   "PA7": 6,
+   "ky                                      ": 6
+  },
+  "operator_zero_by_year": {
+   "1976": 60,
+   "1978": 15,
+   "1980": 3006,
+   "1981": 2916,
+   "1982": 2532,
+   "1983": 4242
+  },
+  "operator_zero_rows": 12771,
+  "operator_null_rows": 0,
+  "severity": {
+   "all_leaks": 532205,
+   "hazardous_leaks": 101454
+  },
+  "source": {
+   "construction_defect": [
+    59514,
+    1970,
+    2003
+   ],
+   "corrosion_failure": [
+    97104,
+    1970,
+    2025
+   ],
+   "equipment_failure": [
+    37790,
+    2004,
+    2025
+   ],
+   "excavation_damage": [
+    40545,
+    2004,
+    2025
+   ],
+   "incorrect_operation": [
+    34323,
+    2004,
+    2025
+   ],
+   "material_defect": [
+    30461,
+    1984,
+    2003
+   ],
+   "natural_force_damage": [
+    35641,
+    2004,
+    2025
+   ],
+   "other": [
+    94576,
+    1970,
+    2025
+   ],
+   "other_outside_force": [
+    75706,
+    1970,
+    2025
+   ],
+   "outside_force": [
+    21061,
+    1990,
+    2003
+   ],
+   "pipe_weld_joint_failure": [
+    66392,
+    1970,
+    2025
+   ],
+   "third_party": [
+    30461,
+    1984,
+    2003
+   ],
+   "total": [
+    10085,
+    1978,
+    1983
+   ]
+  },
+  "rows_both_values_null": 0,
+  "negative_rows": 0
+ },
+ "measures": {
+  "commodity": {
+   "pre_2015_nonnull_rows": 0,
+   "from_2015_rows": 145719,
+   "from_2015_null_rows": 0,
+   "from_2015_null_share": 0.0,
+   "unmapped_values": [],
+   "unmapped_rows": 0
+  },
+  "sums": {
+   "mains|no_total": 100342,
+   "services|no_total": 73651,
+   "services|total_only": 10085,
+   "checked": 0,
+   "passed": 0,
+   "share": null,
+   "by_year": {}
+  },
+  "hazardous_vs_all": {
+   "compared": 195128,
+   "hazardous_gt_all": 102,
+   "ok": 195026,
+   "share": 0.999477
+  },
+  "primary_key": {
+   "extra_rows": 0,
+   "duplicate_keys": 0
+  },
+  "multi_state": {
+   "rows": 2544,
+   "rows_to_2003": 2544,
+   "share": 1.0,
+   "ok": true
+  },
+  "negatives": {
+   "rows": 0
+  }
+ },
+ "scores": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "P1": true,
+  "P2": true,
+  "P3": false,
+  "P4": true,
+  "P5": true,
+  "P6": true,
+  "P7": true
+ },
+ "finished": "2026-11-10T21:46:42Z"
+}
