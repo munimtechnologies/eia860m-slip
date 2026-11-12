@@ -84,8 +84,42 @@ opex types they come from, and the budget-column version of the totals check.
 - Where a threshold is meant as a row count, use the row-level test
   (`dbt_expectations.expect_column_values_to_be_between` with the same `min_value`/`row_condition`),
   so `error_if` counts rows; or keep the aggregate test and drop `error_if`.
+- Or use PUDL's own fraction test (see the addendum below), which states the tolerance as a share
+  of rows instead of a row count.
 - Map `othercapitalcreditsthismonth` to `patronage_capital_or_margins_other_capital_credits_opex_report_month`
   and remove `other_capital_credits_ytd` from the opex_type enum.
+
+## Addendum, 2026-11-12 ~12:45 UTC (code reading only; no predictions changed, no results seen)
+
+- **PUDL already has the fraction-based alternative.** `expect_column_fraction_outside_range`
+  (`dbt/tests/data_tests/generic_tests/expect_column_fraction_outside_range.sql`) came with PR #5571
+  (2026-09-10, "Add per-year dbt tests for operational characteristics") and is used 52 times on
+  `out_epacems__yearly_operational_characteristics`. Its own comment explains why it exists: unlike
+  `expect_column_values_to_be_between` with `error_if`, "which counts absolute rows and therefore
+  drifts as a table gains partitions", it states the tolerance as a share of the (optionally
+  `row_condition`-filtered) non-null rows. It takes `min_value`, `max_value` (both required),
+  `max_fraction_below`, `max_fraction_above` and `row_condition`, so each flagged min test could
+  become, for example, `min_value: 0`, a generous `max_value`, and `max_fraction_below` set from
+  today's share of negative rows. Which of the three fixes fits each table is PUDL's call.
+- **PUDL's own aggregate custom tests have the same 0-or-1-row shape**:
+  `expect_column_fraction_with_condition`, `expect_column_fraction_outside_range`,
+  `expect_missingness_between` and `expect_sum_close_to_total_column` each return at most one row.
+  They are safe as long as they carry no `error_if` above 0. In the two files read in full
+  (`_core_eia923__yearly_byproduct_expenses_and_revenues`, 4 uses of
+  `expect_sum_close_to_total_column`; `out_eia923__monthly_generation_fuel_by_generator_energy_source`,
+  6 uses of `expect_column_fraction_with_condition`) none does. The job's
+  `explore.custom_with_error_if` list covers every file.
+- **Scope of the search space**: 88 `schema.human.yml` files carry an `error_if` at commit `551954e7`
+  (Sourcegraph, exhaustive): RUS-7 35, RUS-12 30, EIA-861 13, EIA-176 3, EIA-923 2, and one each for
+  EIA entity plants, EPA-EIA crosswalk, EPA MATS, EIA-860M changelog and FERC-1 fuel by plant. Many of
+  these `error_if`s sit on row-level tests and are fine; only the aggregate ones are in question.
+- **Not affected, for contrast:** PUDL's macro `expect_columns_ratio` (`dbt/macros/`) returns every
+  failing row, so its `error_if: ">96" # ~6% of the data` on `core_rus12__yearly_plant_costs` counts
+  rows as intended. In the same file the three `expect_column_min_to_be_between` tests (`cost`
+  `">213" # 0.4% of the data`, `cost_per_mwh` `">381" # 0.7% of the data`, `cost_per_mmbtu` `">23"`)
+  are the affected kind.
+- The EPA MATS `heat_content_mmbtu` test and its "Fail if many more negative values appear" text came
+  with PR #5465 (2026-09-16) and moved paths in PR #5676.
 
 ## Results
 
