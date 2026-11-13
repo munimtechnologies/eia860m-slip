@@ -1,0 +1,201 @@
+{
+ "tool": "phdecade.py 0.1.0",
+ "python": "3.12.15",
+ "polars": "2.1.0",
+ "started": "2026-11-13T02:06:24Z",
+ "table": {
+  "url": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop/nightly/core_phmsagas__yearly_distribution_by_install_decade.parquet",
+  "bytes": 1034817,
+  "md5": "e436f16d09ced956c2f8172989ab5b9d",
+  "last_modified": "Thu, 12 Nov 2026 08:25:35 GMT",
+  "saved_to": "/data/phdecade-20261111/core_phmsagas__yearly_distribution_by_install_decade.parquet",
+  "dtypes": {
+   "report_id": "Int64",
+   "report_date": "Date",
+   "operator_id_phmsa": "Int64",
+   "commodity": "Categorical",
+   "operating_state": "Categorical",
+   "install_decade": "String",
+   "mains_miles": "Float64",
+   "services": "Int64"
+  },
+  "missing_cols": [],
+  "rows": 324580,
+  "years": [
+   2004,
+   2025
+  ],
+  "rows_in_window": 170075
+ },
+ "keys": 1657,
+ "key_years": 16121,
+ "ambiguous_key_years_by_year": {
+  "2025": 1
+ },
+ "gates": {
+  "G1": true,
+  "G2": true
+ },
+ "gate_measures": {
+  "pairs": 14430,
+  "pairs_by_t": {
+   "2015": 1456,
+   "2016": 1470,
+   "2017": 1477,
+   "2018": 1465,
+   "2019": 1443,
+   "2020": 1429,
+   "2021": 1427,
+   "2022": 1429,
+   "2023": 1424,
+   "2024": 1410
+  },
+  "years_with_enough_pairs": 10
+ },
+ "measures": {
+  "pairs": 14430,
+  "pairs_old_mains_changed": 4200,
+  "share_old_mains_changed": 0.29106,
+  "pairs_old_mains_material": 2545,
+  "share_old_mains_material": 0.176369,
+  "pairs_old_services_changed": 6608,
+  "share_old_services_changed": 0.457935,
+  "pairs_static": 3075,
+  "share_static": 0.213098,
+  "miles_t_all": 13195130.745,
+  "miles_t_old_changed": 12216055.484,
+  "share_miles_old_changed": 0.9258,
+  "net_old_dm": -44618.585,
+  "gross_old_dm": 325556.375,
+  "net_cur_dm": 188697.786,
+  "gross_cur_dm": 194114.534,
+  "ratio_gross_old_to_cur": 1.677135,
+  "pairs_cur_negative": 208,
+  "net_total_dm": 144079.201,
+  "old_by_decade": {
+   "1940s": [
+    14430,
+    2361,
+    1417,
+    1407,
+    -2586.266,
+    10000.794,
+    -364908.0
+   ],
+   "1950s": [
+    14430,
+    5072,
+    2222,
+    2531,
+    -8009.084,
+    28741.672,
+    -1037547.0
+   ],
+   "1960s": [
+    14430,
+    7766,
+    2623,
+    3524,
+    -3858.911,
+    36011.397,
+    -1383286.0
+   ],
+   "1970s": [
+    14430,
+    6732,
+    2382,
+    3101,
+    -4683.194,
+    27142.34,
+    -1374223.0
+   ],
+   "1980s": [
+    14430,
+    7856,
+    2360,
+    3193,
+    6335.993,
+    29260.263,
+    -544420.0
+   ],
+   "1990s": [
+    14430,
+    9544,
+    2424,
+    3289,
+    6706.286,
+    29758.92,
+    -296766.0
+   ],
+   "2000s": [
+    14430,
+    10069,
+    2334,
+    3066,
+    656.655,
+    19589.723,
+    -381373.0
+   ],
+   "2010s": [
+    8562,
+    6260,
+    1513,
+    1888,
+    6745.958,
+    14509.8,
+    262507.0
+   ],
+   "2020s": [
+    178,
+    0,
+    0,
+    3,
+    0.0,
+    0.0,
+    4.0
+   ],
+   "pre_1940": [
+    14430,
+    1915,
+    1391,
+    1352,
+    -18514.616,
+    33262.462,
+    -571234.0
+   ],
+   "unknown_decade": [
+    14429,
+    3959,
+    1737,
+    2362,
+    -27411.406,
+    97279.004,
+    -545859.0
+   ]
+  },
+  "old4_net_dm_by_t": {
+   "2015": 1617.987,
+   "2016": -8103.567,
+   "2017": -2353.397,
+   "2018": -4421.771,
+   "2019": -4596.661,
+   "2020": -4404.173,
+   "2021": 500.273,
+   "2022": -4164.877,
+   "2023": -3135.271,
+   "2024": -3907.42
+  },
+  "years_old4_net_negative": 8
+ },
+ "scores": {
+  "G1": true,
+  "G2": true,
+  "P1": false,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true,
+  "P6": true
+ },
+ "finished": "2026-11-13T02:06:26Z"
+}
