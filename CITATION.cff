@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Fewer planned US generators now start in the month they were due"
+abstract: "Of generators that EIA-860M listed as planned for the next month, the share operating in that month fell from 0.469 in 2016-2019 to 0.349 in 2022-2025. About 79% of the fall happened inside technologies, led by solar and batteries. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/eia860m-slip"
+url: "https://www.munimtech.com/research/planned-power-plants-slip"
+keywords:
+  - "Energy"
+  - "Forecast"
+  - "Pre-registered"
+references:
+  - type: article
+    title: "Fewer planned US generators now start in the month they were due"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/planned-power-plants-slip"
+  - type: article
+    title: "How DOE's emergency orders keep power plants running"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/doe-emergency-orders"
